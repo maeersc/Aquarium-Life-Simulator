@@ -1,0 +1,120 @@
+{
+  "id": "blue-assessor",
+  "category": "fish",
+  "path": "assets/expansion-v27/blue-assessor/source-v1.png",
+  "atlas": "assets/expansion-v27/blue-assessor/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 147,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      74,
+      57,
+      44,
+      45
+    ],
+    [
+      74,
+      57,
+      44,
+      45
+    ],
+    [
+      46,
+      59,
+      100,
+      42
+    ],
+    [
+      46,
+      60,
+      100,
+      40
+    ],
+    [
+      29,
+      43,
+      133,
+      74
+    ],
+    [
+      29,
+      42,
+      133,
+      75
+    ],
+    [
+      13,
+      32,
+      166,
+      96
+    ],
+    [
+      21,
+      14,
+      150,
+      132
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "4770572c5ee48aa0fd17e10a1362dda603cfbd6842497c6b13de05b13184e810"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "blotched-anthias",
+  "category": "fish",
+  "path": "assets/expansion-v27/blotched-anthias/source-v1.png",
+  "atlas": "assets/expansion-v27/blotched-anthias/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 78,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 72,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      74,
+      57,
+      44,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      62,
+      100,
+      35
+    ],
+    [
+      46,
+      64,
+      100,
+      32
+    ],
+    [
+      29,
+      45,
+      133,
+      70
+    ],
+    [
+      29,
+      49,
+      133,
+      62
+    ],
+    [
+      13,
+      29,
+      166,
+      102
+    ],
+    [
+      13,
+      24,
+      166,
+      112
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "a652c8bfbb7b95a7235b6a4410c8b8749defc87daca8fd6aed142a55f02f5432"
+}

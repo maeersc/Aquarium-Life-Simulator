@@ -1,0 +1,272 @@
+{
+  "id": "amphiprion-sandaracinos",
+  "family": "species",
+  "speciesId": "amphiprion-sandaracinos",
+  "name": "Orange Skunk clownfish",
+  "scientificName": "Amphiprion sandaracinos",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      30,
+      164,
+      315,
+      397
+    ],
+    [
+      341,
+      246,
+      585,
+      333
+    ],
+    [
+      625,
+      210,
+      869,
+      370
+    ],
+    [
+      904,
+      145,
+      1234,
+      388
+    ],
+    [
+      22,
+      534,
+      318,
+      757
+    ],
+    [
+      344,
+      619,
+      587,
+      702
+    ],
+    [
+      633,
+      600,
+      869,
+      730
+    ],
+    [
+      908,
+      551,
+      1224,
+      742
+    ],
+    [
+      21,
+      907,
+      319,
+      1123
+    ],
+    [
+      340,
+      906,
+      626,
+      1126
+    ],
+    [
+      645,
+      906,
+      921,
+      1123
+    ],
+    [
+      943,
+      896,
+      1234,
+      1124
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/species/amphiprion-sandaracinos/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 12,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "swim": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "eyes": [
+    null,
+    {
+      "x": 162,
+      "y": 75,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 159,
+      "y": 70,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 160,
+      "y": 69,
+      "w": 11,
+      "h": 11
+    },
+    null,
+    {
+      "x": 165,
+      "y": 91,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 158,
+      "y": 98,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 160,
+      "y": 94,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      8,
+      184,
+      152
+    ],
+    [
+      8,
+      48,
+      184,
+      111
+    ],
+    [
+      8,
+      22,
+      184,
+      137
+    ],
+    [
+      8,
+      15,
+      184,
+      145
+    ],
+    [
+      8,
+      13,
+      184,
+      146
+    ],
+    [
+      8,
+      50,
+      184,
+      110
+    ],
+    [
+      8,
+      31,
+      184,
+      128
+    ],
+    [
+      8,
+      27,
+      184,
+      133
+    ],
+    [
+      8,
+      11,
+      171,
+      129
+    ],
+    [
+      15,
+      12,
+      171,
+      132
+    ],
+    [
+      20,
+      12,
+      171,
+      131
+    ],
+    [
+      12,
+      8,
+      171,
+      133
+    ]
+  ],
+  "sharedEarlySpeciesId": null,
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

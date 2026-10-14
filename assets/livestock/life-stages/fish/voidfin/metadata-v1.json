@@ -1,0 +1,180 @@
+{
+  "id": "voidfin",
+  "name": "Voidfin specter",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": true,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/voidfin",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      81,
+      226,
+      279,
+      433
+    ],
+    [
+      415,
+      212,
+      711,
+      416
+    ],
+    [
+      802,
+      145,
+      1087,
+      445
+    ],
+    [
+      1098,
+      27,
+      1519,
+      530
+    ],
+    [
+      82,
+      712,
+      279,
+      915
+    ],
+    [
+      423,
+      729,
+      684,
+      905
+    ],
+    [
+      738,
+      719,
+      1069,
+      926
+    ],
+    [
+      1096,
+      663,
+      1514,
+      928
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 169,
+      "y": 82,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 146,
+      "y": 69,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 145,
+      "y": 79,
+      "w": 14,
+      "h": 14
+    },
+    null,
+    {
+      "x": 163,
+      "y": 116,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 167,
+      "y": 93,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 168,
+      "y": 106,
+      "w": 14,
+      "h": 14
+    }
+  ],
+  "bounds": [
+    [
+      27,
+      8,
+      165,
+      152
+    ],
+    [
+      8,
+      19,
+      184,
+      140
+    ],
+    [
+      27,
+      8,
+      164,
+      152
+    ],
+    [
+      35,
+      8,
+      156,
+      152
+    ],
+    [
+      26,
+      8,
+      166,
+      152
+    ],
+    [
+      8,
+      20,
+      184,
+      139
+    ],
+    [
+      8,
+      25,
+      184,
+      135
+    ],
+    [
+      8,
+      24,
+      184,
+      136
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/voidfin/atlas-v1.png"
+}

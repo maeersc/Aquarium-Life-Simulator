@@ -1,0 +1,272 @@
+{
+  "id": "amphiprion-ephippium",
+  "family": "species",
+  "speciesId": "amphiprion-ephippium",
+  "name": "Red Saddleback clownfish",
+  "scientificName": "Amphiprion ephippium",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      18,
+      205,
+      304,
+      414
+    ],
+    [
+      352,
+      269,
+      603,
+      359
+    ],
+    [
+      639,
+      220,
+      887,
+      386
+    ],
+    [
+      907,
+      161,
+      1236,
+      402
+    ],
+    [
+      22,
+      568,
+      305,
+      784
+    ],
+    [
+      349,
+      665,
+      604,
+      758
+    ],
+    [
+      637,
+      635,
+      887,
+      771
+    ],
+    [
+      918,
+      616,
+      1231,
+      777
+    ],
+    [
+      22,
+      927,
+      308,
+      1132
+    ],
+    [
+      336,
+      927,
+      616,
+      1131
+    ],
+    [
+      634,
+      926,
+      927,
+      1133
+    ],
+    [
+      940,
+      926,
+      1235,
+      1134
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/species/amphiprion-ephippium/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 12,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "swim": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "eyes": [
+    null,
+    {
+      "x": 166,
+      "y": 77,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 163,
+      "y": 77,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 164,
+      "y": 76,
+      "w": 11,
+      "h": 11
+    },
+    null,
+    {
+      "x": 164,
+      "y": 93,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 167,
+      "y": 94,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 166,
+      "y": 85,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      15,
+      184,
+      144
+    ],
+    [
+      8,
+      48,
+      184,
+      111
+    ],
+    [
+      8,
+      21,
+      184,
+      139
+    ],
+    [
+      8,
+      15,
+      184,
+      144
+    ],
+    [
+      8,
+      13,
+      184,
+      147
+    ],
+    [
+      8,
+      48,
+      184,
+      112
+    ],
+    [
+      8,
+      32,
+      184,
+      128
+    ],
+    [
+      8,
+      34,
+      184,
+      125
+    ],
+    [
+      12,
+      17,
+      167,
+      128
+    ],
+    [
+      16,
+      16,
+      167,
+      126
+    ],
+    [
+      9,
+      16,
+      167,
+      128
+    ],
+    [
+      8,
+      16,
+      168,
+      129
+    ]
+  ],
+  "sharedEarlySpeciesId": null,
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

@@ -1,0 +1,272 @@
+{
+  "id": "amphiprion-leucokranos",
+  "family": "species",
+  "speciesId": "amphiprion-leucokranos",
+  "name": "Whitebonnet clownfish",
+  "scientificName": "Amphiprion leucokranos",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      26,
+      180,
+      294,
+      402
+    ],
+    [
+      328,
+      289,
+      594,
+      366
+    ],
+    [
+      634,
+      233,
+      864,
+      381
+    ],
+    [
+      900,
+      157,
+      1231,
+      391
+    ],
+    [
+      25,
+      538,
+      298,
+      772
+    ],
+    [
+      338,
+      660,
+      593,
+      746
+    ],
+    [
+      627,
+      609,
+      873,
+      761
+    ],
+    [
+      904,
+      582,
+      1232,
+      769
+    ],
+    [
+      24,
+      904,
+      313,
+      1087
+    ],
+    [
+      338,
+      899,
+      627,
+      1090
+    ],
+    [
+      649,
+      901,
+      931,
+      1084
+    ],
+    [
+      952,
+      897,
+      1238,
+      1086
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/species/amphiprion-leucokranos/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 12,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "swim": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "eyes": [
+    null,
+    {
+      "x": 164,
+      "y": 75,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 161,
+      "y": 74,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 160,
+      "y": 79,
+      "w": 11,
+      "h": 11
+    },
+    null,
+    {
+      "x": 165,
+      "y": 94,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 163,
+      "y": 67,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 165,
+      "y": 88,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      9,
+      8,
+      183,
+      152
+    ],
+    [
+      8,
+      54,
+      184,
+      105
+    ],
+    [
+      8,
+      23,
+      184,
+      136
+    ],
+    [
+      8,
+      18,
+      184,
+      142
+    ],
+    [
+      12,
+      8,
+      180,
+      152
+    ],
+    [
+      8,
+      50,
+      184,
+      109
+    ],
+    [
+      8,
+      25,
+      184,
+      134
+    ],
+    [
+      9,
+      30,
+      184,
+      130
+    ],
+    [
+      8,
+      25,
+      172,
+      129
+    ],
+    [
+      8,
+      22,
+      172,
+      130
+    ],
+    [
+      12,
+      22,
+      172,
+      126
+    ],
+    [
+      9,
+      20,
+      171,
+      127
+    ]
+  ],
+  "sharedEarlySpeciesId": null,
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

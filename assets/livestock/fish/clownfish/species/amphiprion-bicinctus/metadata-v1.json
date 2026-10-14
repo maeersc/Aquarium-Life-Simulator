@@ -1,0 +1,272 @@
+{
+  "id": "amphiprion-bicinctus",
+  "family": "species",
+  "speciesId": "amphiprion-bicinctus",
+  "name": "Red Sea Twoband clownfish",
+  "scientificName": "Amphiprion bicinctus",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      42,
+      234,
+      301,
+      433
+    ],
+    [
+      351,
+      302,
+      597,
+      387
+    ],
+    [
+      644,
+      274,
+      872,
+      423
+    ],
+    [
+      906,
+      203,
+      1223,
+      423
+    ],
+    [
+      41,
+      579,
+      307,
+      766
+    ],
+    [
+      356,
+      617,
+      586,
+      732
+    ],
+    [
+      637,
+      627,
+      867,
+      749
+    ],
+    [
+      891,
+      589,
+      1223,
+      768
+    ],
+    [
+      22,
+      871,
+      312,
+      1070
+    ],
+    [
+      340,
+      871,
+      620,
+      1067
+    ],
+    [
+      643,
+      870,
+      935,
+      1080
+    ],
+    [
+      955,
+      871,
+      1236,
+      1072
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/species/amphiprion-bicinctus/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 12,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "swim": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "eyes": [
+    null,
+    {
+      "x": 168,
+      "y": 77,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 164,
+      "y": 70,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 162,
+      "y": 76,
+      "w": 11,
+      "h": 11
+    },
+    null,
+    {
+      "x": 169,
+      "y": 104,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 166,
+      "y": 93,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 168,
+      "y": 94,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      12,
+      184,
+      147
+    ],
+    [
+      8,
+      49,
+      184,
+      110
+    ],
+    [
+      8,
+      22,
+      184,
+      137
+    ],
+    [
+      8,
+      19,
+      184,
+      141
+    ],
+    [
+      8,
+      18,
+      184,
+      142
+    ],
+    [
+      8,
+      36,
+      184,
+      124
+    ],
+    [
+      8,
+      33,
+      184,
+      126
+    ],
+    [
+      8,
+      32,
+      184,
+      127
+    ],
+    [
+      9,
+      21,
+      170,
+      131
+    ],
+    [
+      15,
+      22,
+      170,
+      131
+    ],
+    [
+      8,
+      19,
+      169,
+      135
+    ],
+    [
+      15,
+      20,
+      171,
+      131
+    ]
+  ],
+  "sharedEarlySpeciesId": null,
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

@@ -1,0 +1,180 @@
+{
+  "id": "cory",
+  "name": "Bronze corydoras",
+  "category": "bottom_feeders",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/bottom_feeders/cory",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      103,
+      279,
+      259,
+      440
+    ],
+    [
+      361,
+      281,
+      629,
+      411
+    ],
+    [
+      700,
+      205,
+      1045,
+      418
+    ],
+    [
+      1077,
+      143,
+      1517,
+      453
+    ],
+    [
+      104,
+      701,
+      268,
+      869
+    ],
+    [
+      350,
+      757,
+      628,
+      869
+    ],
+    [
+      682,
+      718,
+      1024,
+      881
+    ],
+    [
+      1063,
+      686,
+      1513,
+      881
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 153,
+      "y": 79,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 155,
+      "y": 90,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 168,
+      "y": 108,
+      "w": 4,
+      "h": 4
+    },
+    null,
+    {
+      "x": 154,
+      "y": 91,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 166,
+      "y": 79,
+      "w": 4,
+      "h": 4
+    },
+    {
+      "x": 161,
+      "y": 101,
+      "w": 10,
+      "h": 10
+    }
+  ],
+  "bounds": [
+    [
+      26,
+      8,
+      166,
+      152
+    ],
+    [
+      8,
+      37,
+      184,
+      122
+    ],
+    [
+      8,
+      25,
+      184,
+      134
+    ],
+    [
+      8,
+      18,
+      184,
+      142
+    ],
+    [
+      25,
+      8,
+      166,
+      152
+    ],
+    [
+      8,
+      44,
+      184,
+      115
+    ],
+    [
+      8,
+      38,
+      184,
+      122
+    ],
+    [
+      8,
+      42,
+      184,
+      118
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/bottom_feeders/cory/atlas-v1.png"
+}

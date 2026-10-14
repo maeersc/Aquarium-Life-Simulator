@@ -1,0 +1,180 @@
+{
+  "id": "yellowtang",
+  "name": "Yellow tang",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/yellowtang",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      118,
+      241,
+      265,
+      384
+    ],
+    [
+      374,
+      245,
+      700,
+      363
+    ],
+    [
+      771,
+      153,
+      1066,
+      412
+    ],
+    [
+      1114,
+      93,
+      1522,
+      435
+    ],
+    [
+      113,
+      719,
+      265,
+      860
+    ],
+    [
+      368,
+      742,
+      710,
+      851
+    ],
+    [
+      753,
+      690,
+      1083,
+      861
+    ],
+    [
+      1111,
+      672,
+      1510,
+      905
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 163,
+      "y": 79,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 151,
+      "y": 81,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 151,
+      "y": 78,
+      "w": 14,
+      "h": 14
+    },
+    null,
+    {
+      "x": 163,
+      "y": 75,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 153,
+      "y": 96,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 158,
+      "y": 93,
+      "w": 14,
+      "h": 14
+    }
+  ],
+  "bounds": [
+    [
+      22,
+      8,
+      170,
+      152
+    ],
+    [
+      8,
+      48,
+      184,
+      112
+    ],
+    [
+      14,
+      8,
+      178,
+      152
+    ],
+    [
+      10,
+      8,
+      182,
+      152
+    ],
+    [
+      18,
+      8,
+      173,
+      152
+    ],
+    [
+      8,
+      52,
+      184,
+      108
+    ],
+    [
+      8,
+      34,
+      184,
+      125
+    ],
+    [
+      8,
+      28,
+      184,
+      131
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/yellowtang/atlas-v1.png"
+}

@@ -1,0 +1,180 @@
+{
+  "id": "clown",
+  "name": "Ocellaris clownfish",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": "Amphiprion ocellaris",
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/clown",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      26,
+      183,
+      354,
+      471
+    ],
+    [
+      400,
+      265,
+      755,
+      395
+    ],
+    [
+      784,
+      212,
+      1113,
+      404
+    ],
+    [
+      1137,
+      145,
+      1518,
+      417
+    ],
+    [
+      19,
+      649,
+      365,
+      944
+    ],
+    [
+      397,
+      740,
+      748,
+      867
+    ],
+    [
+      774,
+      714,
+      1113,
+      867
+    ],
+    [
+      1129,
+      698,
+      1518,
+      864
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 162,
+      "y": 74,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 162,
+      "y": 75,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 160,
+      "y": 69,
+      "w": 14,
+      "h": 14
+    },
+    null,
+    {
+      "x": 162,
+      "y": 89,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 163,
+      "y": 100,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 165,
+      "y": 88,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "bounds": [
+    [
+      14,
+      8,
+      178,
+      152
+    ],
+    [
+      8,
+      48,
+      184,
+      112
+    ],
+    [
+      8,
+      28,
+      184,
+      131
+    ],
+    [
+      8,
+      17,
+      184,
+      143
+    ],
+    [
+      11,
+      8,
+      180,
+      152
+    ],
+    [
+      8,
+      48,
+      184,
+      112
+    ],
+    [
+      8,
+      40,
+      184,
+      119
+    ],
+    [
+      8,
+      42,
+      184,
+      117
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/clown/atlas-v1.png"
+}

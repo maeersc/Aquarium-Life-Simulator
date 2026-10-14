@@ -1,0 +1,180 @@
+{
+  "id": "neon",
+  "name": "Neon tetra",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/neon",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v2.png",
+  "sourceBoxes": [
+    [
+      68,
+      234,
+      362,
+      451
+    ],
+    [
+      401,
+      293,
+      702,
+      402
+    ],
+    [
+      743,
+      216,
+      1054,
+      409
+    ],
+    [
+      1087,
+      154,
+      1499,
+      409
+    ],
+    [
+      71,
+      655,
+      362,
+      875
+    ],
+    [
+      421,
+      717,
+      710,
+      841
+    ],
+    [
+      757,
+      691,
+      1058,
+      854
+    ],
+    [
+      1099,
+      645,
+      1499,
+      865
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 166,
+      "y": 80,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 166,
+      "y": 90,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 167,
+      "y": 89,
+      "w": 14,
+      "h": 14
+    },
+    null,
+    {
+      "x": 166,
+      "y": 93,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 162,
+      "y": 101,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 165,
+      "y": 107,
+      "w": 14,
+      "h": 14
+    }
+  ],
+  "bounds": [
+    [
+      8,
+      15,
+      184,
+      145
+    ],
+    [
+      8,
+      48,
+      184,
+      112
+    ],
+    [
+      8,
+      25,
+      184,
+      134
+    ],
+    [
+      8,
+      25,
+      184,
+      134
+    ],
+    [
+      8,
+      13,
+      184,
+      146
+    ],
+    [
+      8,
+      42,
+      184,
+      118
+    ],
+    [
+      8,
+      32,
+      184,
+      127
+    ],
+    [
+      8,
+      31,
+      184,
+      128
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/neon/atlas-v1.png"
+}

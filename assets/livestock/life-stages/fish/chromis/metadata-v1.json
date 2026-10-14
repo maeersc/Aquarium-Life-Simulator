@@ -1,0 +1,180 @@
+{
+  "id": "chromis",
+  "name": "Blue-green chromis",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/chromis",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      63,
+      224,
+      235,
+      387
+    ],
+    [
+      336,
+      261,
+      626,
+      353
+    ],
+    [
+      695,
+      205,
+      1011,
+      390
+    ],
+    [
+      1048,
+      147,
+      1504,
+      438
+    ],
+    [
+      62,
+      667,
+      239,
+      844
+    ],
+    [
+      335,
+      713,
+      626,
+      829
+    ],
+    [
+      688,
+      694,
+      1011,
+      855
+    ],
+    [
+      1061,
+      685,
+      1497,
+      884
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 165,
+      "y": 76,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 164,
+      "y": 80,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 163,
+      "y": 77,
+      "w": 11,
+      "h": 11
+    },
+    null,
+    {
+      "x": 166,
+      "y": 75,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 163,
+      "y": 95,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 162,
+      "y": 92,
+      "w": 12,
+      "h": 12
+    }
+  ],
+  "bounds": [
+    [
+      20,
+      8,
+      172,
+      152
+    ],
+    [
+      8,
+      52,
+      184,
+      108
+    ],
+    [
+      8,
+      28,
+      184,
+      131
+    ],
+    [
+      8,
+      24,
+      184,
+      136
+    ],
+    [
+      24,
+      8,
+      168,
+      152
+    ],
+    [
+      8,
+      45,
+      184,
+      115
+    ],
+    [
+      8,
+      36,
+      184,
+      124
+    ],
+    [
+      8,
+      40,
+      184,
+      120
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/chromis/atlas-v1.png"
+}

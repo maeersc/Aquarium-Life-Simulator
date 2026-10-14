@@ -1,0 +1,180 @@
+{
+  "id": "pleco",
+  "name": "Bristlenose pleco",
+  "category": "bottom_feeders",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/bottom_feeders/pleco",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      27,
+      263,
+      215,
+      397
+    ],
+    [
+      286,
+      289,
+      558,
+      391
+    ],
+    [
+      602,
+      214,
+      933,
+      398
+    ],
+    [
+      960,
+      121,
+      1519,
+      416
+    ],
+    [
+      41,
+      726,
+      218,
+      875
+    ],
+    [
+      271,
+      778,
+      538,
+      875
+    ],
+    [
+      583,
+      738,
+      938,
+      879
+    ],
+    [
+      955,
+      674,
+      1517,
+      908
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 156,
+      "y": 75,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 154,
+      "y": 85,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 146,
+      "y": 86,
+      "w": 12,
+      "h": 12
+    },
+    null,
+    {
+      "x": 158,
+      "y": 87,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 156,
+      "y": 82,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 147,
+      "y": 95,
+      "w": 12,
+      "h": 12
+    }
+  ],
+  "bounds": [
+    [
+      8,
+      17,
+      184,
+      142
+    ],
+    [
+      8,
+      47,
+      184,
+      113
+    ],
+    [
+      8,
+      31,
+      184,
+      129
+    ],
+    [
+      8,
+      33,
+      184,
+      126
+    ],
+    [
+      10,
+      8,
+      181,
+      152
+    ],
+    [
+      8,
+      48,
+      184,
+      112
+    ],
+    [
+      8,
+      45,
+      184,
+      115
+    ],
+    [
+      8,
+      43,
+      184,
+      116
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/bottom_feeders/pleco/atlas-v1.png"
+}

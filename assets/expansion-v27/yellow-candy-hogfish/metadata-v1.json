@@ -1,0 +1,123 @@
+{
+  "id": "yellow-candy-hogfish",
+  "category": "fish",
+  "path": "assets/expansion-v27/yellow-candy-hogfish/source-v1.png",
+  "atlas": "assets/expansion-v27/yellow-candy-hogfish/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 78,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 72,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      46,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      62,
+      100,
+      35
+    ],
+    [
+      46,
+      66,
+      100,
+      28
+    ],
+    [
+      29,
+      42,
+      133,
+      75
+    ],
+    [
+      29,
+      41,
+      133,
+      77
+    ],
+    [
+      13,
+      31,
+      166,
+      97
+    ],
+    [
+      13,
+      20,
+      166,
+      120
+    ]
+  ],
+  "clippedSourceCells": [
+    6,
+    7
+  ],
+  "artStatus": "PARTIAL: source framing needs review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "fd8b4dbe123def96882613322c19b04679f7cfdea724c14e744875a3c58495c8"
+}

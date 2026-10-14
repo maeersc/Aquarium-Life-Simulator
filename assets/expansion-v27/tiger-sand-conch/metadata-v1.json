@@ -1,0 +1,120 @@
+{
+  "id": "tiger-sand-conch",
+  "category": "bottom_dweller",
+  "path": "assets/expansion-v27/tiger-sand-conch/source-v1.png",
+  "atlas": "assets/expansion-v27/tiger-sand-conch/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 133,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 133,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 72,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      58,
+      58,
+      75,
+      43
+    ],
+    [
+      58,
+      56,
+      75,
+      47
+    ],
+    [
+      42,
+      49,
+      108,
+      61
+    ],
+    [
+      42,
+      51,
+      108,
+      58
+    ],
+    [
+      29,
+      45,
+      133,
+      70
+    ],
+    [
+      29,
+      44,
+      133,
+      71
+    ],
+    [
+      13,
+      31,
+      166,
+      97
+    ],
+    [
+      13,
+      29,
+      166,
+      101
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Illustrative study only; reproductive simulation unsupported",
+  "sha256": "31be399046943c500014cfca3b7d25ba0bda006ecc83f0f77adc3adf23b3b146"
+}

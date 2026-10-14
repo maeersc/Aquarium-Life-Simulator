@@ -1,0 +1,180 @@
+{
+  "id": "glassfang",
+  "name": "Glassfang eel",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": true,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/glassfang",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      66,
+      207,
+      259,
+      400
+    ],
+    [
+      348,
+      269,
+      637,
+      349
+    ],
+    [
+      695,
+      269,
+      1029,
+      349
+    ],
+    [
+      1087,
+      198,
+      1508,
+      423
+    ],
+    [
+      60,
+      640,
+      265,
+      843
+    ],
+    [
+      334,
+      710,
+      633,
+      798
+    ],
+    [
+      681,
+      710,
+      1014,
+      813
+    ],
+    [
+      1052,
+      655,
+      1510,
+      867
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 168,
+      "y": 67,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 168,
+      "y": 68,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 168,
+      "y": 54,
+      "w": 11,
+      "h": 11
+    },
+    null,
+    {
+      "x": 169,
+      "y": 88,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 166,
+      "y": 82,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 168,
+      "y": 81,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "bounds": [
+    [
+      24,
+      8,
+      168,
+      152
+    ],
+    [
+      8,
+      55,
+      184,
+      104
+    ],
+    [
+      8,
+      59,
+      184,
+      101
+    ],
+    [
+      8,
+      33,
+      184,
+      127
+    ],
+    [
+      23,
+      8,
+      168,
+      152
+    ],
+    [
+      8,
+      54,
+      184,
+      106
+    ],
+    [
+      8,
+      53,
+      184,
+      107
+    ],
+    [
+      8,
+      39,
+      184,
+      120
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/glassfang/atlas-v1.png"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "mccoskers-flasher-wrasse",
+  "category": "fish",
+  "path": "assets/expansion-v27/mccoskers-flasher-wrasse/source-v1.png",
+  "atlas": "assets/expansion-v27/mccoskers-flasher-wrasse/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 78,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 78,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      72,
+      57,
+      47,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      66,
+      100,
+      27
+    ],
+    [
+      46,
+      67,
+      100,
+      25
+    ],
+    [
+      29,
+      48,
+      133,
+      63
+    ],
+    [
+      29,
+      49,
+      133,
+      62
+    ],
+    [
+      13,
+      20,
+      166,
+      119
+    ],
+    [
+      13,
+      16,
+      166,
+      128
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "9ade745280ca24f230ac6815a0ad364b27dcb01f19cbec8ec2bc876c40372124"
+}

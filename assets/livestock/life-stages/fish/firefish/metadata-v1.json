@@ -1,0 +1,180 @@
+{
+  "id": "firefish",
+  "name": "Firefish",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/firefish",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      116,
+      282,
+      265,
+      429
+    ],
+    [
+      406,
+      300,
+      711,
+      414
+    ],
+    [
+      769,
+      209,
+      1087,
+      424
+    ],
+    [
+      1132,
+      72,
+      1500,
+      473
+    ],
+    [
+      116,
+      713,
+      265,
+      860
+    ],
+    [
+      415,
+      748,
+      718,
+      851
+    ],
+    [
+      784,
+      718,
+      1104,
+      872
+    ],
+    [
+      1160,
+      673,
+      1500,
+      912
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 166,
+      "y": 75,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 164,
+      "y": 82,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 149,
+      "y": 103,
+      "w": 10,
+      "h": 10
+    },
+    null,
+    {
+      "x": 168,
+      "y": 87,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 163,
+      "y": 102,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 167,
+      "y": 114,
+      "w": 14,
+      "h": 14
+    }
+  ],
+  "bounds": [
+    [
+      23,
+      8,
+      169,
+      152
+    ],
+    [
+      8,
+      47,
+      184,
+      113
+    ],
+    [
+      8,
+      20,
+      184,
+      139
+    ],
+    [
+      30,
+      8,
+      162,
+      152
+    ],
+    [
+      23,
+      8,
+      169,
+      152
+    ],
+    [
+      8,
+      50,
+      184,
+      110
+    ],
+    [
+      8,
+      37,
+      184,
+      122
+    ],
+    [
+      8,
+      18,
+      184,
+      142
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/firefish/atlas-v1.png"
+}

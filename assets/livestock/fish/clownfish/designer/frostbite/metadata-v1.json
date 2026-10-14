@@ -1,0 +1,198 @@
+{
+  "id": "frostbite",
+  "family": "varieties",
+  "speciesId": "clown",
+  "name": "Frostbite",
+  "scientificName": "Amphiprion ocellaris",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      48,
+      265,
+      327,
+      439
+    ],
+    [
+      362,
+      160,
+      784,
+      441
+    ],
+    [
+      791,
+      318,
+      1083,
+      459
+    ],
+    [
+      1103,
+      257,
+      1510,
+      455
+    ],
+    [
+      13,
+      574,
+      383,
+      821
+    ],
+    [
+      405,
+      574,
+      767,
+      822
+    ],
+    [
+      793,
+      574,
+      1143,
+      822
+    ],
+    [
+      1170,
+      575,
+      1504,
+      820
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/designer/frostbite/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "juvenile": {
+      "alive": 0,
+      "dead": 2
+    },
+    "adult": {
+      "alive": 1,
+      "dead": 3
+    }
+  },
+  "swim": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "eyes": [
+    {
+      "x": 163,
+      "y": 77,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 163,
+      "y": 76,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 166,
+      "y": 70,
+      "w": 7,
+      "h": 7
+    },
+    {
+      "x": 159,
+      "y": 69,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      25,
+      184,
+      135
+    ],
+    [
+      8,
+      21,
+      184,
+      138
+    ],
+    [
+      8,
+      37,
+      184,
+      122
+    ],
+    [
+      8,
+      37,
+      184,
+      123
+    ],
+    [
+      8,
+      19,
+      168,
+      126
+    ],
+    [
+      12,
+      19,
+      168,
+      126
+    ],
+    [
+      17,
+      18,
+      168,
+      125
+    ],
+    [
+      24,
+      19,
+      168,
+      125
+    ]
+  ],
+  "sharedEarlySpeciesId": "clown",
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

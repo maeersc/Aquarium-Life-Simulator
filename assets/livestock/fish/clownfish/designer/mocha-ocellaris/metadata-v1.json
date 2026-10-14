@@ -1,0 +1,198 @@
+{
+  "id": "mocha-ocellaris",
+  "family": "varieties",
+  "speciesId": "clown",
+  "name": "Mocha Ocellaris",
+  "scientificName": "Amphiprion ocellaris",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      38,
+      276,
+      316,
+      461
+    ],
+    [
+      358,
+      198,
+      762,
+      470
+    ],
+    [
+      797,
+      339,
+      1091,
+      481
+    ],
+    [
+      1119,
+      307,
+      1509,
+      487
+    ],
+    [
+      16,
+      585,
+      384,
+      815
+    ],
+    [
+      403,
+      581,
+      779,
+      810
+    ],
+    [
+      800,
+      580,
+      1146,
+      806
+    ],
+    [
+      1173,
+      586,
+      1521,
+      807
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/designer/mocha-ocellaris/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "juvenile": {
+      "alive": 0,
+      "dead": 2
+    },
+    "adult": {
+      "alive": 1,
+      "dead": 3
+    }
+  },
+  "swim": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "eyes": [
+    {
+      "x": 163,
+      "y": 77,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 164,
+      "y": 77,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 167,
+      "y": 93,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 167,
+      "y": 85,
+      "w": 9,
+      "h": 9
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      21,
+      184,
+      138
+    ],
+    [
+      8,
+      21,
+      184,
+      139
+    ],
+    [
+      8,
+      37,
+      184,
+      122
+    ],
+    [
+      8,
+      39,
+      184,
+      120
+    ],
+    [
+      11,
+      26,
+      167,
+      123
+    ],
+    [
+      8,
+      25,
+      167,
+      122
+    ],
+    [
+      20,
+      25,
+      166,
+      121
+    ],
+    [
+      19,
+      28,
+      166,
+      121
+    ]
+  ],
+  "sharedEarlySpeciesId": "clown",
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

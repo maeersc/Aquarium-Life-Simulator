@@ -1,0 +1,149 @@
+{
+  "id": "sps",
+  "name": "Branching SPS",
+  "category": "corals",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "runtimeType": "coral",
+  "folder": "assets/livestock/life-stages/corals/sps",
+  "earlyEquivalent": "Spawn / settled polyp / juvenile colony",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      124,
+      359,
+      253,
+      479
+    ],
+    [
+      490,
+      345,
+      626,
+      508
+    ],
+    [
+      767,
+      208,
+      1051,
+      508
+    ],
+    [
+      1081,
+      33,
+      1510,
+      512
+    ],
+    [
+      124,
+      847,
+      253,
+      963
+    ],
+    [
+      489,
+      827,
+      636,
+      986
+    ],
+    [
+      767,
+      688,
+      1044,
+      989
+    ],
+    [
+      1088,
+      532,
+      1510,
+      991
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "stationary",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bounds": [
+    [
+      18,
+      8,
+      173,
+      152
+    ],
+    [
+      36,
+      8,
+      156,
+      152
+    ],
+    [
+      28,
+      8,
+      164,
+      152
+    ],
+    [
+      31,
+      8,
+      160,
+      152
+    ],
+    [
+      16,
+      8,
+      176,
+      152
+    ],
+    [
+      29,
+      8,
+      162,
+      152
+    ],
+    [
+      29,
+      8,
+      162,
+      152
+    ],
+    [
+      30,
+      8,
+      162,
+      152
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/corals/sps/atlas-v1.png"
+}

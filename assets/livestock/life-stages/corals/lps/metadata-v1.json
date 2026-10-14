@@ -1,0 +1,149 @@
+{
+  "id": "lps",
+  "name": "Hammer LPS",
+  "category": "corals",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "runtimeType": "coral",
+  "folder": "assets/livestock/life-stages/corals/lps",
+  "earlyEquivalent": "Spawn / settled polyp / juvenile colony",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      113,
+      337,
+      264,
+      482
+    ],
+    [
+      426,
+      278,
+      584,
+      488
+    ],
+    [
+      699,
+      199,
+      989,
+      488
+    ],
+    [
+      1011,
+      52,
+      1516,
+      492
+    ],
+    [
+      113,
+      785,
+      264,
+      927
+    ],
+    [
+      416,
+      788,
+      584,
+      937
+    ],
+    [
+      705,
+      719,
+      966,
+      952
+    ],
+    [
+      1011,
+      547,
+      1512,
+      975
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "stationary",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bounds": [
+    [
+      21,
+      8,
+      171,
+      152
+    ],
+    [
+      42,
+      8,
+      150,
+      152
+    ],
+    [
+      24,
+      8,
+      168,
+      152
+    ],
+    [
+      13,
+      8,
+      178,
+      152
+    ],
+    [
+      19,
+      8,
+      172,
+      152
+    ],
+    [
+      15,
+      8,
+      177,
+      152
+    ],
+    [
+      15,
+      8,
+      176,
+      152
+    ],
+    [
+      11,
+      8,
+      180,
+      152
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/corals/lps/atlas-v1.png"
+}

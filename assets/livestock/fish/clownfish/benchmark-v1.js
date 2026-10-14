@@ -1,0 +1,228 @@
+"use strict";
+window.ART_BENCHMARK = {
+  "id": "clownfish-benchmark-v1",
+  "speciesId": "clown",
+  "scientificName": "Amphiprion ocellaris",
+  "usage": "Assigned gameplay artwork for Ocellaris clownfish (clown)",
+  "status": "Approved",
+  "approved": true,
+  "source": "clownfish-benchmark-v1-source.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "direction": "right",
+  "frames": 4,
+  "candidateNativeSizes": [
+    96,
+    128,
+    192,
+    256
+  ],
+  "proposedNativeSize": 128,
+  "normalFramesPerSecond": 6,
+  "idleFramesPerSecond": 3,
+  "generation": "Built-in imagegen; full prompt in GENERATION_PROMPT.md",
+  "normalization": "Original native PNG candidates preserved. Runtime head registration, canonical local eye component, and final-size rasterization are handled by the shared sprite pipeline.",
+  "turning": "Mirrored endpoints only; authored perspective-turn frames are unfinished",
+  "death": "Static upside-down pose demonstration from frame 0; dedicated death art is unfinished",
+  "limitations": "Four generated swim poses have minor body/band variations. Authored perspective turns and dedicated death/decomposition artwork remain unfinished.",
+  "sourceDimensions": [
+    1254,
+    1254
+  ],
+  "sourceFrameBounds": [
+    [
+      21,
+      175,
+      614,
+      550
+    ],
+    [
+      13,
+      175,
+      607,
+      552
+    ],
+    [
+      21,
+      116,
+      614,
+      495
+    ],
+    [
+      10,
+      117,
+      607,
+      495
+    ]
+  ],
+  "atlases": {
+    "96": {
+      "file": "clownfish-benchmark-v1-96.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "columns": 4,
+      "rows": 1,
+      "bounds": [
+        [
+          6,
+          21,
+          89,
+          74
+        ],
+        [
+          6,
+          21,
+          90,
+          74
+        ],
+        [
+          6,
+          21,
+          89,
+          74
+        ],
+        [
+          6,
+          21,
+          90,
+          74
+        ]
+      ]
+    },
+    "128": {
+      "file": "clownfish-benchmark-v1-128.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "columns": 4,
+      "rows": 1,
+      "bounds": [
+        [
+          8,
+          29,
+          119,
+          99
+        ],
+        [
+          8,
+          28,
+          119,
+          99
+        ],
+        [
+          8,
+          28,
+          119,
+          99
+        ],
+        [
+          8,
+          28,
+          120,
+          99
+        ]
+      ]
+    },
+    "192": {
+      "file": "clownfish-benchmark-v1-192.png",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "columns": 4,
+      "rows": 1,
+      "bounds": [
+        [
+          12,
+          43,
+          179,
+          149
+        ],
+        [
+          12,
+          43,
+          179,
+          149
+        ],
+        [
+          12,
+          42,
+          179,
+          149
+        ],
+        [
+          12,
+          43,
+          180,
+          149
+        ]
+      ]
+    },
+    "256": {
+      "file": "clownfish-benchmark-v1-256.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 1,
+      "bounds": [
+        [
+          17,
+          57,
+          239,
+          198
+        ],
+        [
+          16,
+          57,
+          239,
+          198
+        ],
+        [
+          17,
+          57,
+          239,
+          199
+        ],
+        [
+          16,
+          57,
+          240,
+          199
+        ]
+      ]
+    }
+  },
+  "installed": true,
+  "approvalScope": "User requested this artwork for Ocellaris clownfish; approval does not extend to other species or gameplay phases.",
+  "runtimeFrameWidth": 128,
+  "runtimeFrameHeight": 80,
+  "runtimeAnchor": [
+    64,
+    40
+  ],
+  "runtimeEye": {
+    "x": 97,
+    "y": 37,
+    "w": 10,
+    "h": 10
+  },
+  "sourceEyeCenters": [
+    [
+      104,
+      60
+    ],
+    [
+      104,
+      59.5
+    ],
+    [
+      103.5,
+      59.5
+    ],
+    [
+      105,
+      59.5
+    ]
+  ],
+  "facingBehavior": "mirror-side-profile",
+  "runtimeEyeArchitecture": "Canonical artist eye component at a head-local anchor; registered whole-frame extraction and final-size cached sampling."
+};

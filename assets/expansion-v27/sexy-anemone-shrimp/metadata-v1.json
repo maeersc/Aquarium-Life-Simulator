@@ -1,0 +1,120 @@
+{
+  "id": "sexy-anemone-shrimp",
+  "category": "bottom_dweller",
+  "path": "assets/expansion-v27/sexy-anemone-shrimp/source-v1.png",
+  "atlas": "assets/expansion-v27/sexy-anemone-shrimp/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 133,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 133,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 72,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 145,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      58,
+      54,
+      75,
+      51
+    ],
+    [
+      58,
+      58,
+      75,
+      44
+    ],
+    [
+      42,
+      38,
+      108,
+      83
+    ],
+    [
+      42,
+      50,
+      108,
+      60
+    ],
+    [
+      29,
+      27,
+      133,
+      105
+    ],
+    [
+      29,
+      35,
+      133,
+      89
+    ],
+    [
+      24,
+      14,
+      144,
+      132
+    ],
+    [
+      13,
+      21,
+      166,
+      117
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Illustrative study only; reproductive simulation unsupported",
+  "sha256": "590d839434a20e789748533bdf17dfadf4487d2f39a172f22a19cdd5530f2f3e"
+}

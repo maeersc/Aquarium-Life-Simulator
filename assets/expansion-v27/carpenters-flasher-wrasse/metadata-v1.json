@@ -1,0 +1,120 @@
+{
+  "id": "carpenters-flasher-wrasse",
+  "category": "fish",
+  "path": "assets/expansion-v27/carpenters-flasher-wrasse/source-v1.png",
+  "atlas": "assets/expansion-v27/carpenters-flasher-wrasse/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 78,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      62,
+      100,
+      35
+    ],
+    [
+      46,
+      63,
+      100,
+      34
+    ],
+    [
+      29,
+      50,
+      133,
+      59
+    ],
+    [
+      29,
+      50,
+      133,
+      60
+    ],
+    [
+      13,
+      19,
+      166,
+      122
+    ],
+    [
+      13,
+      18,
+      166,
+      124
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "f07b3c391f3b3f65dbdd4defcb98f5b2f5b15c50212a6c9e411ee060999cd718"
+}

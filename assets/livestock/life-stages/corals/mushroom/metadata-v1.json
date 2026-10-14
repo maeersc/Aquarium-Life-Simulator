@@ -1,0 +1,149 @@
+{
+  "id": "mushroom",
+  "name": "Mushroom coral",
+  "category": "corals",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "runtimeType": "coral",
+  "folder": "assets/livestock/life-stages/corals/mushroom",
+  "earlyEquivalent": "Spawn / settled polyp / juvenile colony",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      48,
+      180,
+      308,
+      481
+    ],
+    [
+      416,
+      303,
+      671,
+      481
+    ],
+    [
+      758,
+      225,
+      1031,
+      475
+    ],
+    [
+      1066,
+      77,
+      1517,
+      494
+    ],
+    [
+      44,
+      674,
+      316,
+      961
+    ],
+    [
+      395,
+      791,
+      688,
+      961
+    ],
+    [
+      736,
+      754,
+      1042,
+      961
+    ],
+    [
+      1065,
+      662,
+      1521,
+      963
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "stationary",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bounds": [
+    [
+      34,
+      8,
+      158,
+      152
+    ],
+    [
+      8,
+      18,
+      184,
+      141
+    ],
+    [
+      17,
+      8,
+      174,
+      152
+    ],
+    [
+      18,
+      8,
+      174,
+      152
+    ],
+    [
+      28,
+      9,
+      164,
+      152
+    ],
+    [
+      8,
+      29,
+      184,
+      131
+    ],
+    [
+      8,
+      20,
+      184,
+      139
+    ],
+    [
+      8,
+      22,
+      184,
+      138
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/corals/mushroom/atlas-v1.png"
+}

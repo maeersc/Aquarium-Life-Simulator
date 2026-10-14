@@ -1,0 +1,120 @@
+{
+  "id": "candy-basslet",
+  "category": "fish",
+  "path": "assets/expansion-v27/candy-basslet/source-v1.png",
+  "atlas": "assets/expansion-v27/candy-basslet/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      46,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      59,
+      100,
+      41
+    ],
+    [
+      46,
+      60,
+      100,
+      40
+    ],
+    [
+      29,
+      40,
+      133,
+      80
+    ],
+    [
+      29,
+      39,
+      133,
+      81
+    ],
+    [
+      13,
+      31,
+      166,
+      97
+    ],
+    [
+      13,
+      15,
+      166,
+      130
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "2ba4bb7dbc64101cc84dda1b4f1df387322f09bfc41c6034b8fe57066f6a0036"
+}

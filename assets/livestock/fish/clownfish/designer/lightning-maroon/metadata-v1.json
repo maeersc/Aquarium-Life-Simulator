@@ -1,0 +1,198 @@
+{
+  "id": "lightning-maroon",
+  "family": "varieties",
+  "speciesId": "amphiprion-biaculeatus",
+  "name": "Lightning Maroon",
+  "scientificName": "Amphiprion biaculeatus",
+  "source": "source-v2.png",
+  "sourceBoxes": [
+    [
+      24,
+      215,
+      348,
+      434
+    ],
+    [
+      371,
+      149,
+      775,
+      444
+    ],
+    [
+      769,
+      309,
+      1110,
+      467
+    ],
+    [
+      1127,
+      229,
+      1512,
+      464
+    ],
+    [
+      13,
+      585,
+      379,
+      863
+    ],
+    [
+      387,
+      584,
+      760,
+      864
+    ],
+    [
+      767,
+      585,
+      1144,
+      864
+    ],
+    [
+      1155,
+      583,
+      1524,
+      860
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/designer/lightning-maroon/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "juvenile": {
+      "alive": 0,
+      "dead": 2
+    },
+    "adult": {
+      "alive": 1,
+      "dead": 3
+    }
+  },
+  "swim": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "eyes": [
+    {
+      "x": 161,
+      "y": 77,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 164,
+      "y": 75,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 165,
+      "y": 89,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 168,
+      "y": 107,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      20,
+      184,
+      139
+    ],
+    [
+      8,
+      15,
+      184,
+      144
+    ],
+    [
+      8,
+      39,
+      184,
+      121
+    ],
+    [
+      8,
+      26,
+      184,
+      133
+    ],
+    [
+      12,
+      12,
+      169,
+      131
+    ],
+    [
+      9,
+      12,
+      169,
+      132
+    ],
+    [
+      8,
+      12,
+      170,
+      132
+    ],
+    [
+      11,
+      11,
+      169,
+      130
+    ]
+  ],
+  "sharedEarlySpeciesId": "amphiprion-biaculeatus",
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

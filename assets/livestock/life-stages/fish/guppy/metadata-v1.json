@@ -1,0 +1,180 @@
+{
+  "id": "guppy",
+  "name": "Guppy",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/guppy",
+  "earlyEquivalent": "Internal embryo / gestation",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v2.png",
+  "sourceBoxes": [
+    [
+      65,
+      177,
+      304,
+      402
+    ],
+    [
+      405,
+      247,
+      667,
+      363
+    ],
+    [
+      748,
+      218,
+      1063,
+      383
+    ],
+    [
+      1095,
+      128,
+      1516,
+      440
+    ],
+    [
+      69,
+      642,
+      304,
+      857
+    ],
+    [
+      409,
+      712,
+      663,
+      836
+    ],
+    [
+      746,
+      711,
+      1075,
+      863
+    ],
+    [
+      1105,
+      670,
+      1510,
+      862
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 163,
+      "y": 75,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 164,
+      "y": 78,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 169,
+      "y": 73,
+      "w": 13,
+      "h": 13
+    },
+    null,
+    {
+      "x": 168,
+      "y": 100,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 165,
+      "y": 91,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 168,
+      "y": 85,
+      "w": 14,
+      "h": 14
+    }
+  ],
+  "bounds": [
+    [
+      19,
+      8,
+      172,
+      152
+    ],
+    [
+      8,
+      41,
+      184,
+      119
+    ],
+    [
+      8,
+      34,
+      184,
+      126
+    ],
+    [
+      8,
+      15,
+      184,
+      145
+    ],
+    [
+      17,
+      8,
+      174,
+      152
+    ],
+    [
+      8,
+      37,
+      184,
+      123
+    ],
+    [
+      8,
+      39,
+      184,
+      120
+    ],
+    [
+      8,
+      38,
+      184,
+      121
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/guppy/atlas-v1.png"
+}

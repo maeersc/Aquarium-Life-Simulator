@@ -1,0 +1,122 @@
+{
+  "id": "exquisite-fairy-wrasse",
+  "category": "fish",
+  "path": "assets/expansion-v27/exquisite-fairy-wrasse/source-v1.png",
+  "atlas": "assets/expansion-v27/exquisite-fairy-wrasse/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 72,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      74,
+      57,
+      44,
+      45
+    ],
+    [
+      46,
+      62,
+      100,
+      36
+    ],
+    [
+      46,
+      62,
+      100,
+      35
+    ],
+    [
+      29,
+      47,
+      133,
+      66
+    ],
+    [
+      29,
+      46,
+      133,
+      67
+    ],
+    [
+      13,
+      22,
+      166,
+      116
+    ],
+    [
+      13,
+      21,
+      166,
+      117
+    ]
+  ],
+  "clippedSourceCells": [
+    1
+  ],
+  "artStatus": "PARTIAL: source framing needs review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "651ff27f7119597e9cb57348e4b7f16f1a1d1cbe237f3bc2ead6bd9b5ba9f55d"
+}

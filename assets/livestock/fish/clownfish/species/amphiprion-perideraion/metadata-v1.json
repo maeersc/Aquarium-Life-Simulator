@@ -1,0 +1,272 @@
+{
+  "id": "amphiprion-perideraion",
+  "family": "species",
+  "speciesId": "amphiprion-perideraion",
+  "name": "Pink Skunk clownfish",
+  "scientificName": "Amphiprion perideraion",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      12,
+      250,
+      304,
+      458
+    ],
+    [
+      325,
+      313,
+      604,
+      416
+    ],
+    [
+      639,
+      280,
+      866,
+      428
+    ],
+    [
+      901,
+      237,
+      1244,
+      457
+    ],
+    [
+      14,
+      605,
+      295,
+      807
+    ],
+    [
+      326,
+      706,
+      597,
+      789
+    ],
+    [
+      639,
+      667,
+      891,
+      789
+    ],
+    [
+      918,
+      647,
+      1243,
+      807
+    ],
+    [
+      14,
+      931,
+      305,
+      1114
+    ],
+    [
+      338,
+      931,
+      625,
+      1113
+    ],
+    [
+      650,
+      931,
+      934,
+      1112
+    ],
+    [
+      955,
+      933,
+      1244,
+      1110
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/species/amphiprion-perideraion/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 12,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "swim": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "eyes": [
+    null,
+    {
+      "x": 166,
+      "y": 89,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 161,
+      "y": 75,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 160,
+      "y": 73,
+      "w": 11,
+      "h": 11
+    },
+    null,
+    {
+      "x": 165,
+      "y": 83,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 166,
+      "y": 94,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 164,
+      "y": 90,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      17,
+      184,
+      142
+    ],
+    [
+      8,
+      47,
+      184,
+      112
+    ],
+    [
+      8,
+      22,
+      184,
+      137
+    ],
+    [
+      8,
+      23,
+      184,
+      136
+    ],
+    [
+      8,
+      16,
+      184,
+      143
+    ],
+    [
+      8,
+      53,
+      184,
+      107
+    ],
+    [
+      8,
+      37,
+      184,
+      122
+    ],
+    [
+      8,
+      36,
+      184,
+      123
+    ],
+    [
+      8,
+      24,
+      172,
+      127
+    ],
+    [
+      11,
+      24,
+      173,
+      127
+    ],
+    [
+      12,
+      24,
+      172,
+      126
+    ],
+    [
+      9,
+      25,
+      172,
+      125
+    ]
+  ],
+  "sharedEarlySpeciesId": null,
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

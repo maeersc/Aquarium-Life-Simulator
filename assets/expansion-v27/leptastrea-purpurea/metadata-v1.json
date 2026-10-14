@@ -1,0 +1,86 @@
+{
+  "id": "leptastrea-purpurea",
+  "category": "coral",
+  "path": "assets/expansion-v27/leptastrea-purpurea/source-v1.png",
+  "atlas": "assets/expansion-v27/leptastrea-purpurea/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bounds": [
+    [
+      13,
+      16,
+      165,
+      132
+    ],
+    [
+      13,
+      24,
+      166,
+      124
+    ],
+    [
+      13,
+      41,
+      166,
+      107
+    ],
+    [
+      13,
+      38,
+      166,
+      110
+    ],
+    [
+      13,
+      31,
+      166,
+      117
+    ],
+    [
+      13,
+      37,
+      166,
+      111
+    ],
+    [
+      13,
+      42,
+      166,
+      106
+    ],
+    [
+      13,
+      38,
+      166,
+      110
+    ]
+  ],
+  "clippedSourceCells": [
+    6
+  ],
+  "artStatus": "PARTIAL: source framing needs review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "c092b5762e371c40366025bb53e9d4d771bc76f5ca3f603e1fd9803549f63024"
+}

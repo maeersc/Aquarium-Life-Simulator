@@ -1,0 +1,272 @@
+{
+  "id": "amphiprion-chagosensis",
+  "family": "species",
+  "speciesId": "amphiprion-chagosensis",
+  "name": "Chagos clownfish",
+  "scientificName": "Amphiprion chagosensis",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      33,
+      234,
+      289,
+      410
+    ],
+    [
+      337,
+      277,
+      600,
+      385
+    ],
+    [
+      643,
+      238,
+      870,
+      388
+    ],
+    [
+      909,
+      171,
+      1238,
+      403
+    ],
+    [
+      35,
+      592,
+      289,
+      779
+    ],
+    [
+      344,
+      661,
+      596,
+      746
+    ],
+    [
+      637,
+      630,
+      881,
+      744
+    ],
+    [
+      906,
+      602,
+      1233,
+      765
+    ],
+    [
+      16,
+      936,
+      305,
+      1121
+    ],
+    [
+      327,
+      936,
+      619,
+      1120
+    ],
+    [
+      643,
+      932,
+      931,
+      1125
+    ],
+    [
+      954,
+      938,
+      1241,
+      1120
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/species/amphiprion-chagosensis/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 12,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "swim": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "eyes": [
+    null,
+    {
+      "x": 167,
+      "y": 90,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 164,
+      "y": 73,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 166,
+      "y": 73,
+      "w": 12,
+      "h": 12
+    },
+    null,
+    {
+      "x": 165,
+      "y": 97,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 170,
+      "y": 91,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 169,
+      "y": 86,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      19,
+      184,
+      140
+    ],
+    [
+      8,
+      44,
+      184,
+      116
+    ],
+    [
+      8,
+      22,
+      184,
+      138
+    ],
+    [
+      8,
+      18,
+      184,
+      142
+    ],
+    [
+      8,
+      15,
+      184,
+      145
+    ],
+    [
+      8,
+      50,
+      184,
+      109
+    ],
+    [
+      8,
+      39,
+      184,
+      121
+    ],
+    [
+      8,
+      36,
+      184,
+      124
+    ],
+    [
+      11,
+      22,
+      165,
+      121
+    ],
+    [
+      8,
+      26,
+      164,
+      124
+    ],
+    [
+      11,
+      20,
+      164,
+      123
+    ],
+    [
+      12,
+      27,
+      165,
+      124
+    ]
+  ],
+  "sharedEarlySpeciesId": null,
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

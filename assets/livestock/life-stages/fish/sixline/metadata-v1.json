@@ -1,0 +1,180 @@
+{
+  "id": "sixline",
+  "name": "Six-line wrasse",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/sixline",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      113,
+      276,
+      219,
+      381
+    ],
+    [
+      378,
+      279,
+      662,
+      351
+    ],
+    [
+      757,
+      248,
+      1059,
+      374
+    ],
+    [
+      1115,
+      202,
+      1496,
+      393
+    ],
+    [
+      117,
+      708,
+      224,
+      814
+    ],
+    [
+      385,
+      709,
+      674,
+      795
+    ],
+    [
+      758,
+      711,
+      1079,
+      827
+    ],
+    [
+      1117,
+      672,
+      1497,
+      834
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 165,
+      "y": 76,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 164,
+      "y": 78,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 162,
+      "y": 74,
+      "w": 9,
+      "h": 9
+    },
+    null,
+    {
+      "x": 166,
+      "y": 87,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 163,
+      "y": 84,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 162,
+      "y": 101,
+      "w": 14,
+      "h": 14
+    }
+  ],
+  "bounds": [
+    [
+      23,
+      8,
+      168,
+      152
+    ],
+    [
+      8,
+      57,
+      184,
+      102
+    ],
+    [
+      8,
+      43,
+      184,
+      116
+    ],
+    [
+      8,
+      36,
+      184,
+      124
+    ],
+    [
+      23,
+      8,
+      168,
+      152
+    ],
+    [
+      8,
+      54,
+      184,
+      106
+    ],
+    [
+      8,
+      48,
+      184,
+      112
+    ],
+    [
+      8,
+      42,
+      184,
+      117
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/sixline/atlas-v1.png"
+}

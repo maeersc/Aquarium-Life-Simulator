@@ -1,0 +1,180 @@
+{
+  "id": "marinebetta",
+  "name": "Marine betta",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/marinebetta",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      63,
+      293,
+      305,
+      470
+    ],
+    [
+      391,
+      279,
+      671,
+      423
+    ],
+    [
+      735,
+      210,
+      1074,
+      436
+    ],
+    [
+      1093,
+      108,
+      1515,
+      477
+    ],
+    [
+      50,
+      724,
+      310,
+      902
+    ],
+    [
+      394,
+      773,
+      671,
+      884
+    ],
+    [
+      713,
+      731,
+      1055,
+      896
+    ],
+    [
+      1079,
+      683,
+      1515,
+      915
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 169,
+      "y": 80,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 167,
+      "y": 74,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 165,
+      "y": 73,
+      "w": 9,
+      "h": 9
+    },
+    null,
+    {
+      "x": 169,
+      "y": 73,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 171,
+      "y": 99,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 165,
+      "y": 80,
+      "w": 13,
+      "h": 13
+    }
+  ],
+  "bounds": [
+    [
+      8,
+      15,
+      184,
+      144
+    ],
+    [
+      8,
+      34,
+      184,
+      125
+    ],
+    [
+      8,
+      21,
+      184,
+      138
+    ],
+    [
+      13,
+      8,
+      178,
+      152
+    ],
+    [
+      8,
+      20,
+      184,
+      140
+    ],
+    [
+      8,
+      44,
+      184,
+      115
+    ],
+    [
+      8,
+      37,
+      184,
+      122
+    ],
+    [
+      8,
+      33,
+      184,
+      127
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/marinebetta/atlas-v1.png"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "zoa",
+  "name": "Garden zoanthids",
+  "category": "corals",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "runtimeType": "coral",
+  "folder": "assets/livestock/life-stages/corals/zoa",
+  "earlyEquivalent": "Spawn / settled polyp / juvenile colony",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      60,
+      303,
+      317,
+      494
+    ],
+    [
+      436,
+      319,
+      652,
+      494
+    ],
+    [
+      752,
+      213,
+      1050,
+      496
+    ],
+    [
+      1095,
+      111,
+      1521,
+      512
+    ],
+    [
+      49,
+      768,
+      325,
+      926
+    ],
+    [
+      425,
+      755,
+      676,
+      923
+    ],
+    [
+      752,
+      706,
+      1059,
+      931
+    ],
+    [
+      1095,
+      665,
+      1517,
+      940
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "stationary",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bounds": [
+    [
+      8,
+      14,
+      184,
+      145
+    ],
+    [
+      8,
+      8,
+      184,
+      151
+    ],
+    [
+      20,
+      8,
+      172,
+      152
+    ],
+    [
+      19,
+      8,
+      172,
+      152
+    ],
+    [
+      8,
+      29,
+      184,
+      130
+    ],
+    [
+      8,
+      21,
+      184,
+      139
+    ],
+    [
+      8,
+      15,
+      184,
+      144
+    ],
+    [
+      8,
+      22,
+      184,
+      137
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/corals/zoa/atlas-v1.png"
+}

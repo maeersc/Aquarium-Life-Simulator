@@ -1,0 +1,180 @@
+{
+  "id": "angel",
+  "name": "Freshwater angelfish",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/angel",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      19,
+      346,
+      382,
+      454
+    ],
+    [
+      421,
+      311,
+      716,
+      429
+    ],
+    [
+      821,
+      163,
+      1114,
+      478
+    ],
+    [
+      1163,
+      14,
+      1520,
+      537
+    ],
+    [
+      19,
+      724,
+      377,
+      841
+    ],
+    [
+      426,
+      761,
+      743,
+      849
+    ],
+    [
+      800,
+      682,
+      1128,
+      904
+    ],
+    [
+      1152,
+      672,
+      1530,
+      928
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 168,
+      "y": 64,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 142,
+      "y": 72,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 132,
+      "y": 94,
+      "w": 14,
+      "h": 14
+    },
+    null,
+    {
+      "x": 167,
+      "y": 84,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 162,
+      "y": 94,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 166,
+      "y": 92,
+      "w": 14,
+      "h": 14
+    }
+  ],
+  "bounds": [
+    [
+      8,
+      54,
+      184,
+      106
+    ],
+    [
+      8,
+      45,
+      184,
+      115
+    ],
+    [
+      29,
+      8,
+      163,
+      152
+    ],
+    [
+      48,
+      8,
+      145,
+      152
+    ],
+    [
+      8,
+      51,
+      184,
+      109
+    ],
+    [
+      8,
+      55,
+      184,
+      104
+    ],
+    [
+      8,
+      20,
+      184,
+      139
+    ],
+    [
+      8,
+      20,
+      184,
+      139
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/angel/atlas-v1.png"
+}

@@ -1,0 +1,180 @@
+{
+  "id": "cardinal",
+  "name": "Cardinal tetra",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/cardinal",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      68,
+      213,
+      266,
+      427
+    ],
+    [
+      364,
+      277,
+      637,
+      389
+    ],
+    [
+      706,
+      222,
+      1046,
+      404
+    ],
+    [
+      1093,
+      161,
+      1513,
+      434
+    ],
+    [
+      48,
+      664,
+      258,
+      875
+    ],
+    [
+      373,
+      712,
+      648,
+      843
+    ],
+    [
+      707,
+      671,
+      1046,
+      844
+    ],
+    [
+      1096,
+      644,
+      1509,
+      848
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 163,
+      "y": 70,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 164,
+      "y": 86,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 165,
+      "y": 84,
+      "w": 13,
+      "h": 13
+    },
+    null,
+    {
+      "x": 163,
+      "y": 95,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 162,
+      "y": 101,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 164,
+      "y": 106,
+      "w": 14,
+      "h": 14
+    }
+  ],
+  "bounds": [
+    [
+      29,
+      8,
+      162,
+      152
+    ],
+    [
+      8,
+      44,
+      184,
+      116
+    ],
+    [
+      8,
+      33,
+      184,
+      127
+    ],
+    [
+      8,
+      23,
+      184,
+      137
+    ],
+    [
+      24,
+      8,
+      167,
+      152
+    ],
+    [
+      8,
+      38,
+      184,
+      122
+    ],
+    [
+      8,
+      35,
+      184,
+      125
+    ],
+    [
+      8,
+      36,
+      184,
+      123
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/cardinal/atlas-v1.png"
+}

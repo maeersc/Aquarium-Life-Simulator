@@ -1,0 +1,120 @@
+{
+  "id": "bumblebee-snail",
+  "category": "bottom_dweller",
+  "path": "assets/expansion-v27/bumblebee-snail/source-v1.png",
+  "atlas": "assets/expansion-v27/bumblebee-snail/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 133,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 133,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 148,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      58,
+      59,
+      75,
+      41
+    ],
+    [
+      58,
+      58,
+      75,
+      43
+    ],
+    [
+      42,
+      48,
+      108,
+      63
+    ],
+    [
+      42,
+      48,
+      108,
+      64
+    ],
+    [
+      29,
+      41,
+      133,
+      78
+    ],
+    [
+      29,
+      40,
+      133,
+      80
+    ],
+    [
+      13,
+      19,
+      166,
+      121
+    ],
+    [
+      20,
+      14,
+      152,
+      132
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Illustrative study only; reproductive simulation unsupported",
+  "sha256": "76f908b5260091d3146004868a4b24e093d184ea731a0095663f0e9e7b72618f"
+}

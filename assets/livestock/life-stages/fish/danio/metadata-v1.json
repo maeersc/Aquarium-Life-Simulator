@@ -1,0 +1,180 @@
+{
+  "id": "danio",
+  "name": "Zebra danio",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/danio",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      60,
+      202,
+      308,
+      406
+    ],
+    [
+      416,
+      264,
+      694,
+      351
+    ],
+    [
+      784,
+      226,
+      1090,
+      375
+    ],
+    [
+      1134,
+      194,
+      1513,
+      369
+    ],
+    [
+      66,
+      668,
+      308,
+      874
+    ],
+    [
+      427,
+      753,
+      683,
+      835
+    ],
+    [
+      778,
+      732,
+      1084,
+      849
+    ],
+    [
+      1133,
+      706,
+      1512,
+      858
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 164,
+      "y": 68,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 166,
+      "y": 80,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 168,
+      "y": 76,
+      "w": 10,
+      "h": 10
+    },
+    null,
+    {
+      "x": 162,
+      "y": 86,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 165,
+      "y": 87,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 171,
+      "y": 84,
+      "w": 10,
+      "h": 10
+    }
+  ],
+  "bounds": [
+    [
+      8,
+      8,
+      183,
+      152
+    ],
+    [
+      8,
+      52,
+      184,
+      107
+    ],
+    [
+      8,
+      37,
+      184,
+      123
+    ],
+    [
+      8,
+      39,
+      184,
+      120
+    ],
+    [
+      11,
+      8,
+      180,
+      152
+    ],
+    [
+      8,
+      52,
+      184,
+      108
+    ],
+    [
+      8,
+      46,
+      184,
+      113
+    ],
+    [
+      8,
+      44,
+      184,
+      115
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/danio/atlas-v1.png"
+}

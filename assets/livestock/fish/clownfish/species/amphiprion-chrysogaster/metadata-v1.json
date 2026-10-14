@@ -1,0 +1,272 @@
+{
+  "id": "amphiprion-chrysogaster",
+  "family": "species",
+  "speciesId": "amphiprion-chrysogaster",
+  "name": "Mauritius clownfish",
+  "scientificName": "Amphiprion chrysogaster",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      17,
+      196,
+      327,
+      418
+    ],
+    [
+      355,
+      245,
+      604,
+      328
+    ],
+    [
+      637,
+      189,
+      891,
+      367
+    ],
+    [
+      924,
+      147,
+      1242,
+      403
+    ],
+    [
+      17,
+      574,
+      333,
+      797
+    ],
+    [
+      356,
+      632,
+      604,
+      714
+    ],
+    [
+      633,
+      593,
+      891,
+      742
+    ],
+    [
+      910,
+      566,
+      1241,
+      780
+    ],
+    [
+      16,
+      907,
+      315,
+      1135
+    ],
+    [
+      332,
+      908,
+      623,
+      1135
+    ],
+    [
+      639,
+      911,
+      923,
+      1141
+    ],
+    [
+      942,
+      912,
+      1246,
+      1129
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/species/amphiprion-chrysogaster/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 12,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "swim": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "eyes": [
+    null,
+    {
+      "x": 167,
+      "y": 68,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 161,
+      "y": 67,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 163,
+      "y": 68,
+      "w": 11,
+      "h": 11
+    },
+    null,
+    {
+      "x": 167,
+      "y": 86,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 162,
+      "y": 61,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 163,
+      "y": 81,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 9,
+      "h": 9
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 9,
+      "h": 9
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 9,
+      "h": 9
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 9,
+      "h": 9
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      17,
+      184,
+      143
+    ],
+    [
+      8,
+      50,
+      184,
+      109
+    ],
+    [
+      8,
+      18,
+      184,
+      141
+    ],
+    [
+      8,
+      9,
+      184,
+      151
+    ],
+    [
+      8,
+      18,
+      184,
+      142
+    ],
+    [
+      8,
+      51,
+      184,
+      109
+    ],
+    [
+      8,
+      29,
+      184,
+      131
+    ],
+    [
+      8,
+      23,
+      184,
+      137
+    ],
+    [
+      11,
+      18,
+      169,
+      138
+    ],
+    [
+      14,
+      19,
+      167,
+      139
+    ],
+    [
+      18,
+      19,
+      168,
+      140
+    ],
+    [
+      8,
+      23,
+      168,
+      137
+    ]
+  ],
+  "sharedEarlySpeciesId": null,
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

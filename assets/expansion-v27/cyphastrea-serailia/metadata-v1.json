@@ -1,0 +1,84 @@
+{
+  "id": "cyphastrea-serailia",
+  "category": "coral",
+  "path": "assets/expansion-v27/cyphastrea-serailia/source-v1.png",
+  "atlas": "assets/expansion-v27/cyphastrea-serailia/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bounds": [
+    [
+      17,
+      16,
+      158,
+      132
+    ],
+    [
+      17,
+      16,
+      158,
+      132
+    ],
+    [
+      13,
+      36,
+      166,
+      112
+    ],
+    [
+      13,
+      38,
+      166,
+      110
+    ],
+    [
+      13,
+      26,
+      166,
+      122
+    ],
+    [
+      13,
+      28,
+      166,
+      120
+    ],
+    [
+      13,
+      19,
+      166,
+      129
+    ],
+    [
+      13,
+      22,
+      166,
+      126
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "7a0dcce2d13368099253d26fac21adb6995db78e70ff802693bcbb714b057fe2"
+}

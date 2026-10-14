@@ -1,0 +1,180 @@
+{
+  "id": "platy",
+  "name": "Platy",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/platy",
+  "earlyEquivalent": "Internal embryo / gestation",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      74,
+      206,
+      301,
+      422
+    ],
+    [
+      421,
+      264,
+      675,
+      366
+    ],
+    [
+      749,
+      209,
+      1052,
+      402
+    ],
+    [
+      1090,
+      148,
+      1500,
+      434
+    ],
+    [
+      71,
+      666,
+      305,
+      898
+    ],
+    [
+      421,
+      744,
+      670,
+      863
+    ],
+    [
+      752,
+      722,
+      1065,
+      869
+    ],
+    [
+      1098,
+      687,
+      1500,
+      894
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 158,
+      "y": 78,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 161,
+      "y": 79,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 164,
+      "y": 78,
+      "w": 10,
+      "h": 10
+    },
+    null,
+    {
+      "x": 162,
+      "y": 98,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 163,
+      "y": 96,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 166,
+      "y": 98,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "bounds": [
+    [
+      20,
+      8,
+      171,
+      152
+    ],
+    [
+      8,
+      44,
+      184,
+      115
+    ],
+    [
+      8,
+      24,
+      184,
+      136
+    ],
+    [
+      8,
+      18,
+      184,
+      141
+    ],
+    [
+      23,
+      8,
+      168,
+      152
+    ],
+    [
+      8,
+      38,
+      184,
+      122
+    ],
+    [
+      8,
+      38,
+      184,
+      121
+    ],
+    [
+      8,
+      34,
+      184,
+      125
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/platy/atlas-v1.png"
+}

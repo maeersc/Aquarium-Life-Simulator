@@ -1,0 +1,521 @@
+{
+  "generatedAt": "2026-10-12",
+  "records": [
+    {
+      "id": "clown",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-ocellaris",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-025abdd9-a144-48fe-a9c7-bce0b00de43e.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-percula",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-percula",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-9a236a17-cf2a-45f6-8791-0f4d4cdcc00f.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-biaculeatus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-biaculeatus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-fa7a1cfd-46f6-4842-975c-d1464a8cafaa.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-clarkii",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-clarkii",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-b3a13dfb-4db9-4d90-bc50-cc5617ae116a.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-frenatus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-frenatus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-19147a8b-2461-4e7d-9521-7154a5c374b2.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-melanopus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-melanopus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-daa0c815-f0ad-465f-a1c2-0ec4aaa9b438.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-ephippium",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-ephippium",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-99440bb1-2522-459d-ab95-cd7d2ba676d0.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-perideraion",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-perideraion",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-71a787a3-3d33-494a-bd8f-5fe625fcb420.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-sandaracinos",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-sandaracinos",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-a2ea3c0e-28bd-4959-b93d-dad5ac525b62.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-akallopisos",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-akallopisos",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-84abd732-3a8c-4615-82cc-907f3ee94b31.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-polymnus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-polymnus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-17136e58-f8a5-4492-aa86-aac1eeb2de66.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-sebae",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-sebae",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-0e0aea75-4d5d-49eb-a4ed-07f6c10c8ebf.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-akindynos",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-akindynos",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-407db738-20b1-4800-9567-733b0a336273.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-allardi",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-allardi",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-ae1eb105-84b3-4be9-a6f8-33511985eee7.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-bicinctus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-bicinctus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-848c4f40-57d2-40e8-a7ec-4a1b4ca8f351.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-chrysopterus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-chrysopterus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-75c0365d-7bc9-43e0-ad1f-8ecdaff872e8.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-nigripes",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-nigripes",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-a452b960-5b89-487e-9e12-3f4d4a270334.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-omanensis",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-omanensis",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-81cf9485-3c0e-48a7-bf74-bece9e7619a8.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-chagosensis",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-chagosensis",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-436a21b3-ee3d-4abf-b23b-cd9d7a400301.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-chrysogaster",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-chrysogaster",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-fc7014b4-ba89-480f-add3-f78754bea20d.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-fuscocaudatus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-fuscocaudatus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-05e22131-4ecd-41e7-b782-8993c97c7fa8.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-latifasciatus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-latifasciatus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-38927678-2826-4be9-985c-8c81bce67c4a.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-leucokranos",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-leucokranos",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-f73bdac5-db11-487d-812e-ce0d6cecc369.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-mccullochi",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-mccullochi",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-06c0e842-c883-4083-82a7-45ab5621f627.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-latezonatus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-latezonatus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-a7c3804f-9cfa-484e-b988-1dcac8971c84.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-rubrocinctus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-rubrocinctus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-e2141c42-5eff-4ece-9aff-6cab058abae5.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-tricinctus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-tricinctus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-383175f1-b43e-4f0c-91d0-276beaabe8b4.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-barberi",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-barberi",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-f68aa17c-ecd1-4bfd-a979-685e582f0d40.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-pacificus",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-pacificus",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-b4225a25-32b4-4b52-a5ac-01565637f804.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-thiellei",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-thiellei",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-99d7cd64-324d-442e-961c-7f6560a2b3cf.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "amphiprion-maohiensis",
+      "folder": "assets/livestock/fish/clownfish/species/amphiprion-maohiensis",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-31bfd610-bbb7-4f94-b4e2-407114298487.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "black-ocellaris",
+      "folder": "assets/livestock/fish/clownfish/designer/black-ocellaris",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-b4d3e45c-dd7e-4572-9f18-9d841ab9c0fd.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "snowflake-ocellaris",
+      "folder": "assets/livestock/fish/clownfish/designer/snowflake-ocellaris",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-4a39993e-27f6-4de8-9d12-e7050369da11.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "premium-snowflake",
+      "folder": "assets/livestock/fish/clownfish/designer/premium-snowflake",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-a61c7de8-2529-4e6b-b448-b88e972a60c8.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "black-snowflake",
+      "folder": "assets/livestock/fish/clownfish/designer/black-snowflake",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-9b84a874-ff8c-46d8-bf8c-251e90067791.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "black-ice-snowflake",
+      "folder": "assets/livestock/fish/clownfish/designer/black-ice-snowflake",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-c0fe08f1-5963-4b6c-b708-6fb2a0c1c316.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "wyoming-white",
+      "folder": "assets/livestock/fish/clownfish/designer/wyoming-white",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-a59e0a4b-6bb2-486c-903c-db6143c65290.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "snow-storm",
+      "folder": "assets/livestock/fish/clownfish/designer/snow-storm",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-bee1e752-56a1-4e88-ac05-49220e63554f.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "black-storm",
+      "folder": "assets/livestock/fish/clownfish/designer/black-storm",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-a451c883-928c-4b66-b021-cab287004b17.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "mocha-storm",
+      "folder": "assets/livestock/fish/clownfish/designer/mocha-storm",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-c3fa5dfe-d239-4f41-8c62-bb52ab7193bf.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "mocha-ocellaris",
+      "folder": "assets/livestock/fish/clownfish/designer/mocha-ocellaris",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-725c8d4c-8e02-46d8-94ed-e5f60f79d81b.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "gladiator",
+      "folder": "assets/livestock/fish/clownfish/designer/gladiator",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-4a09df2d-b275-4f47-b9d8-72be45d88653.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "mocha-gladiator",
+      "folder": "assets/livestock/fish/clownfish/designer/mocha-gladiator",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-ed5b0527-7e27-460d-ae15-e64acdc0083d.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "davinci",
+      "folder": "assets/livestock/fish/clownfish/designer/davinci",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-bdcbdf3f-b849-4985-a4f1-4c0509befdfd.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "frostbite",
+      "folder": "assets/livestock/fish/clownfish/designer/frostbite",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-f0c0a56b-122f-4cea-8300-4f2582c93adf.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "black-frostbite",
+      "folder": "assets/livestock/fish/clownfish/designer/black-frostbite",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-4b2ad046-6025-49b9-9d5d-09a20c7bb9c3.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "midnight",
+      "folder": "assets/livestock/fish/clownfish/designer/midnight",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-4ddd4f1e-88f9-400b-828a-870dd71bea00.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "domino",
+      "folder": "assets/livestock/fish/clownfish/designer/domino",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-d134ed72-e63d-47a6-9c1b-8148eb4df23b.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "naked-ocellaris",
+      "folder": "assets/livestock/fish/clownfish/designer/naked-ocellaris",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-0a007157-bc50-443b-ba9e-7a30d15e562c.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "misbar-ocellaris",
+      "folder": "assets/livestock/fish/clownfish/designer/misbar-ocellaris",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-fbedec11-7ae5-43da-ad6d-44cbc9a7efcd.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "longfin-ocellaris",
+      "folder": "assets/livestock/fish/clownfish/designer/longfin-ocellaris",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-9f6dff6c-a8fc-41b1-9e97-dd65648a4fcc.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "picasso-percula",
+      "folder": "assets/livestock/fish/clownfish/designer/picasso-percula",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-0650f013-9fef-4d8c-ab8d-4de8d9640a44.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "premium-picasso-percula",
+      "folder": "assets/livestock/fish/clownfish/designer/premium-picasso-percula",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-e681392b-f9c1-4c50-89c7-3030d34f84f9.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "platinum-percula",
+      "folder": "assets/livestock/fish/clownfish/designer/platinum-percula",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-7fb96c99-1a2b-473d-b200-10d46f23a906.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "onyx-percula",
+      "folder": "assets/livestock/fish/clownfish/designer/onyx-percula",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-5e932c2a-360e-41f8-b038-b1f9749db5de.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    },
+    {
+      "id": "lightning-maroon",
+      "folder": "assets/livestock/fish/clownfish/designer/lightning-maroon",
+      "source": "source-v1.png",
+      "tool": "built-in imagegen",
+      "generatedOriginal": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-538bdc74-eeba-462e-9fee-5d7f9412b2f0.png",
+      "prompt": "GENERATION_PROMPT.md",
+      "approved": false
+    }
+  ],
+  "revisions": [
+    {
+      "id": "longfin-ocellaris",
+      "source": "source-v2.png",
+      "reason": "Transparent-gutter revision; separated alpha components retained complete projecting fins"
+    },
+    {
+      "id": "lightning-maroon",
+      "source": "source-v2.png",
+      "reason": "Transparent-gutter revision; separated alpha components retained full silhouettes"
+    }
+  ]
+}

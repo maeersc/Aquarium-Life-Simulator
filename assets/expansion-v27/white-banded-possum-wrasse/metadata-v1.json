@@ -1,0 +1,120 @@
+{
+  "id": "white-banded-possum-wrasse",
+  "category": "fish",
+  "path": "assets/expansion-v27/white-banded-possum-wrasse/source-v2.png",
+  "atlas": "assets/expansion-v27/white-banded-possum-wrasse/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 78,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      73,
+      57,
+      46,
+      45
+    ],
+    [
+      46,
+      63,
+      100,
+      33
+    ],
+    [
+      46,
+      64,
+      100,
+      32
+    ],
+    [
+      29,
+      48,
+      133,
+      64
+    ],
+    [
+      29,
+      47,
+      133,
+      66
+    ],
+    [
+      13,
+      38,
+      166,
+      83
+    ],
+    [
+      13,
+      36,
+      166,
+      88
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "1b5c1f01b3382d5d44d29ab4b4df5361bf71aabf4bf6684a92138cda270988bf"
+}

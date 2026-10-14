@@ -1,0 +1,272 @@
+{
+  "id": "amphiprion-maohiensis",
+  "family": "species",
+  "speciesId": "amphiprion-maohiensis",
+  "name": "Polynesian clownfish",
+  "scientificName": "Amphiprion maohiensis",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      25,
+      203,
+      318,
+      422
+    ],
+    [
+      351,
+      274,
+      605,
+      363
+    ],
+    [
+      637,
+      214,
+      878,
+      384
+    ],
+    [
+      908,
+      167,
+      1237,
+      399
+    ],
+    [
+      31,
+      550,
+      312,
+      788
+    ],
+    [
+      348,
+      689,
+      598,
+      759
+    ],
+    [
+      635,
+      679,
+      876,
+      779
+    ],
+    [
+      908,
+      595,
+      1240,
+      772
+    ],
+    [
+      16,
+      899,
+      311,
+      1099
+    ],
+    [
+      331,
+      896,
+      621,
+      1099
+    ],
+    [
+      635,
+      895,
+      930,
+      1100
+    ],
+    [
+      943,
+      895,
+      1243,
+      1095
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/species/amphiprion-maohiensis/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 12,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "swim": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "eyes": [
+    null,
+    {
+      "x": 169,
+      "y": 66,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 162,
+      "y": 78,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 165,
+      "y": 77,
+      "w": 13,
+      "h": 13
+    },
+    null,
+    {
+      "x": 169,
+      "y": 87,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 159,
+      "y": 96,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 169,
+      "y": 84,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      14,
+      184,
+      146
+    ],
+    [
+      8,
+      49,
+      184,
+      111
+    ],
+    [
+      8,
+      18,
+      184,
+      142
+    ],
+    [
+      8,
+      18,
+      184,
+      142
+    ],
+    [
+      11,
+      8,
+      181,
+      152
+    ],
+    [
+      8,
+      55,
+      184,
+      104
+    ],
+    [
+      8,
+      43,
+      184,
+      116
+    ],
+    [
+      8,
+      33,
+      184,
+      127
+    ],
+    [
+      11,
+      20,
+      167,
+      126
+    ],
+    [
+      13,
+      19,
+      167,
+      127
+    ],
+    [
+      11,
+      19,
+      167,
+      128
+    ],
+    [
+      8,
+      19,
+      167,
+      125
+    ]
+  ],
+  "sharedEarlySpeciesId": null,
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

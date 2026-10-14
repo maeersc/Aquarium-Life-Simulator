@@ -1,0 +1,123 @@
+{
+  "id": "hi-fin-red-banded-goby",
+  "category": "fish",
+  "path": "assets/expansion-v27/hi-fin-red-banded-goby/source-v1.png",
+  "atlas": "assets/expansion-v27/hi-fin-red-banded-goby/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 78,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 78,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 72,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      46,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      66,
+      100,
+      28
+    ],
+    [
+      46,
+      67,
+      100,
+      26
+    ],
+    [
+      29,
+      40,
+      133,
+      80
+    ],
+    [
+      29,
+      47,
+      133,
+      66
+    ],
+    [
+      13,
+      28,
+      166,
+      104
+    ],
+    [
+      13,
+      21,
+      166,
+      118
+    ]
+  ],
+  "clippedSourceCells": [
+    4,
+    6
+  ],
+  "artStatus": "PARTIAL: source framing needs review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "a7b8d6c4d79101e28d63048e610e8ea39113b3cda95fb29ab36d6ec652b6d599"
+}

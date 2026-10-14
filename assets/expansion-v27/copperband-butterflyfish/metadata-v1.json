@@ -1,0 +1,120 @@
+{
+  "id": "copperband-butterflyfish",
+  "category": "fish",
+  "path": "assets/expansion-v27/copperband-butterflyfish/source-v1.png",
+  "atlas": "assets/expansion-v27/copperband-butterflyfish/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 135,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 135,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 150,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 144,
+      "y": 71,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      46,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      52,
+      100,
+      55
+    ],
+    [
+      46,
+      53,
+      100,
+      54
+    ],
+    [
+      39,
+      27,
+      114,
+      106
+    ],
+    [
+      38,
+      27,
+      115,
+      106
+    ],
+    [
+      16,
+      14,
+      159,
+      132
+    ],
+    [
+      25,
+      14,
+      142,
+      132
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "f0c50b40053db0b04f5e3869ba957b0d15034104897ed2e0b8a826c04d7a31d5"
+}

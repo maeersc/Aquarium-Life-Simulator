@@ -1,0 +1,84 @@
+{
+  "id": "pavona-cactus",
+  "category": "coral",
+  "path": "assets/expansion-v27/pavona-cactus/source-v1.png",
+  "atlas": "assets/expansion-v27/pavona-cactus/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "bounds": [
+    [
+      44,
+      16,
+      104,
+      132
+    ],
+    [
+      46,
+      16,
+      99,
+      132
+    ],
+    [
+      34,
+      16,
+      124,
+      132
+    ],
+    [
+      24,
+      16,
+      143,
+      132
+    ],
+    [
+      20,
+      16,
+      151,
+      132
+    ],
+    [
+      18,
+      16,
+      155,
+      132
+    ],
+    [
+      20,
+      16,
+      151,
+      132
+    ],
+    [
+      22,
+      16,
+      148,
+      132
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "60b2937827599c056350259610c03adaccecad458fa39556f0ce3d6ea72defe3"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "redspotted-blenny",
+  "category": "fish",
+  "path": "assets/expansion-v27/redspotted-blenny/source-v1.png",
+  "atlas": "assets/expansion-v27/redspotted-blenny/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      72,
+      57,
+      47,
+      45
+    ],
+    [
+      73,
+      57,
+      46,
+      45
+    ],
+    [
+      46,
+      62,
+      100,
+      36
+    ],
+    [
+      46,
+      61,
+      100,
+      38
+    ],
+    [
+      29,
+      51,
+      133,
+      57
+    ],
+    [
+      29,
+      50,
+      133,
+      59
+    ],
+    [
+      13,
+      43,
+      166,
+      73
+    ],
+    [
+      13,
+      38,
+      166,
+      84
+    ]
+  ],
+  "clippedSourceCells": [
+    1
+  ],
+  "artStatus": "PARTIAL: source framing needs review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "061795f92b277446008d20d4d39908fceb6d64181a854b2e4c5f881672d0c2bd"
+}

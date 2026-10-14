@@ -1,0 +1,122 @@
+{
+  "id": "porcelain-anemone-crab",
+  "category": "bottom_dweller",
+  "path": "assets/expansion-v27/porcelain-anemone-crab/source-v1.png",
+  "atlas": "assets/expansion-v27/porcelain-anemone-crab/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 133,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 133,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      58,
+      59,
+      75,
+      41
+    ],
+    [
+      58,
+      64,
+      75,
+      31
+    ],
+    [
+      42,
+      53,
+      108,
+      54
+    ],
+    [
+      42,
+      58,
+      108,
+      43
+    ],
+    [
+      29,
+      49,
+      133,
+      61
+    ],
+    [
+      29,
+      53,
+      133,
+      53
+    ],
+    [
+      13,
+      38,
+      166,
+      84
+    ],
+    [
+      13,
+      44,
+      166,
+      71
+    ]
+  ],
+  "clippedSourceCells": [
+    6
+  ],
+  "artStatus": "PARTIAL: source framing needs review",
+  "approved": false,
+  "earliestStageStatus": "Illustrative study only; reproductive simulation unsupported",
+  "sha256": "d07c5bf3c34c86f0a5df5050e60060c5bb258e8a9091b4cec32df3de42a9f48d"
+}

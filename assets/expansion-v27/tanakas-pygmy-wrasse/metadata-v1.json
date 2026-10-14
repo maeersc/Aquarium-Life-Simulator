@@ -1,0 +1,120 @@
+{
+  "id": "tanakas-pygmy-wrasse",
+  "category": "fish",
+  "path": "assets/expansion-v27/tanakas-pygmy-wrasse/source-v2.png",
+  "atlas": "assets/expansion-v27/tanakas-pygmy-wrasse/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      74,
+      57,
+      44,
+      45
+    ],
+    [
+      74,
+      57,
+      44,
+      45
+    ],
+    [
+      46,
+      62,
+      100,
+      35
+    ],
+    [
+      46,
+      62,
+      100,
+      35
+    ],
+    [
+      29,
+      47,
+      133,
+      66
+    ],
+    [
+      29,
+      48,
+      133,
+      64
+    ],
+    [
+      13,
+      34,
+      166,
+      92
+    ],
+    [
+      13,
+      31,
+      166,
+      97
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "9425025c1f8c59b9aa4aa29519275d9517bc4b988a8635169843e55953918f8e"
+}

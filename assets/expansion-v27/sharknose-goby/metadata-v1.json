@@ -1,0 +1,120 @@
+{
+  "id": "sharknose-goby",
+  "category": "fish",
+  "path": "assets/expansion-v27/sharknose-goby/source-v1.png",
+  "atlas": "assets/expansion-v27/sharknose-goby/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 78,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 76,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      46,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      65,
+      100,
+      30
+    ],
+    [
+      46,
+      65,
+      100,
+      29
+    ],
+    [
+      29,
+      57,
+      133,
+      46
+    ],
+    [
+      29,
+      55,
+      133,
+      49
+    ],
+    [
+      13,
+      49,
+      166,
+      62
+    ],
+    [
+      13,
+      39,
+      166,
+      82
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "0bdda5e0c5b006c6a7266454f59eea1a5e41adf7eb83cfaba8f11e04c5a8154c"
+}

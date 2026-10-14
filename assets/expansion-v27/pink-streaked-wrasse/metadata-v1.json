@@ -1,0 +1,120 @@
+{
+  "id": "pink-streaked-wrasse",
+  "category": "fish",
+  "path": "assets/expansion-v27/pink-streaked-wrasse/source-v2.png",
+  "atlas": "assets/expansion-v27/pink-streaked-wrasse/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      46,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      64,
+      100,
+      31
+    ],
+    [
+      46,
+      63,
+      100,
+      33
+    ],
+    [
+      29,
+      49,
+      133,
+      61
+    ],
+    [
+      29,
+      48,
+      133,
+      63
+    ],
+    [
+      13,
+      43,
+      166,
+      74
+    ],
+    [
+      13,
+      41,
+      166,
+      77
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "755430558cde9ced5c783f4af283c3e771b49bde9620624a4ed2fe1c22687233"
+}

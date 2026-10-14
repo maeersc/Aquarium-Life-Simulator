@@ -1,0 +1,180 @@
+{
+  "id": "harlequin",
+  "name": "Harlequin rasbora",
+  "category": "fish",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/fish/harlequin",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      112,
+      271,
+      252,
+      418
+    ],
+    [
+      409,
+      300,
+      674,
+      382
+    ],
+    [
+      753,
+      235,
+      1055,
+      421
+    ],
+    [
+      1116,
+      178,
+      1505,
+      429
+    ],
+    [
+      112,
+      688,
+      254,
+      845
+    ],
+    [
+      403,
+      743,
+      662,
+      845
+    ],
+    [
+      758,
+      714,
+      1041,
+      851
+    ],
+    [
+      1108,
+      702,
+      1494,
+      864
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 164,
+      "y": 72,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 165,
+      "y": 83,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 166,
+      "y": 81,
+      "w": 12,
+      "h": 12
+    },
+    null,
+    {
+      "x": 165,
+      "y": 97,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 167,
+      "y": 100,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 167,
+      "y": 102,
+      "w": 12,
+      "h": 12
+    }
+  ],
+  "bounds": [
+    [
+      27,
+      8,
+      164,
+      152
+    ],
+    [
+      8,
+      53,
+      184,
+      107
+    ],
+    [
+      8,
+      26,
+      184,
+      134
+    ],
+    [
+      8,
+      23,
+      184,
+      137
+    ],
+    [
+      31,
+      8,
+      161,
+      152
+    ],
+    [
+      8,
+      45,
+      184,
+      114
+    ],
+    [
+      8,
+      37,
+      184,
+      122
+    ],
+    [
+      8,
+      43,
+      184,
+      117
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/fish/harlequin/atlas-v1.png"
+}

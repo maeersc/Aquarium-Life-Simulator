@@ -1,0 +1,180 @@
+{
+  "id": "blenny",
+  "name": "Tailspot blenny",
+  "category": "bottom_feeders",
+  "status": "IMPLEMENTED",
+  "scientificName": null,
+  "fictional": false,
+  "runtimeType": "fish",
+  "folder": "assets/livestock/life-stages/bottom_feeders/blenny",
+  "earlyEquivalent": "Egg / larva or fry",
+  "version": 1,
+  "approved": false,
+  "reviewStatus": "Ready for Review",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      93,
+      220,
+      281,
+      402
+    ],
+    [
+      415,
+      266,
+      695,
+      362
+    ],
+    [
+      775,
+      254,
+      1032,
+      357
+    ],
+    [
+      1102,
+      202,
+      1490,
+      370
+    ],
+    [
+      88,
+      671,
+      282,
+      855
+    ],
+    [
+      415,
+      709,
+      690,
+      796
+    ],
+    [
+      770,
+      694,
+      1044,
+      810
+    ],
+    [
+      1105,
+      690,
+      1492,
+      837
+    ]
+  ],
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": null,
+  "animation": "Static authored poses; no new fin-cycle animation",
+  "facing": "mirrored right profile",
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "eyes": [
+    null,
+    {
+      "x": 168,
+      "y": 79,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 166,
+      "y": 73,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 166,
+      "y": 74,
+      "w": 11,
+      "h": 11
+    },
+    null,
+    {
+      "x": 168,
+      "y": 87,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 171,
+      "y": 95,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 168,
+      "y": 82,
+      "w": 13,
+      "h": 13
+    }
+  ],
+  "bounds": [
+    [
+      21,
+      8,
+      170,
+      152
+    ],
+    [
+      8,
+      50,
+      184,
+      110
+    ],
+    [
+      8,
+      44,
+      184,
+      115
+    ],
+    [
+      8,
+      42,
+      184,
+      118
+    ],
+    [
+      20,
+      8,
+      172,
+      152
+    ],
+    [
+      8,
+      52,
+      184,
+      108
+    ],
+    [
+      8,
+      42,
+      184,
+      117
+    ],
+    [
+      8,
+      46,
+      184,
+      113
+    ]
+  ],
+  "atlas": "assets/livestock/life-stages/bottom_feeders/blenny/atlas-v1.png"
+}

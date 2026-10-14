@@ -1,0 +1,120 @@
+{
+  "id": "starry-blenny",
+  "category": "fish",
+  "path": "assets/expansion-v27/starry-blenny/source-v1.png",
+  "atlas": "assets/expansion-v27/starry-blenny/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frames": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 130,
+      "y": 77,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 74,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 141,
+      "y": 75,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    },
+    {
+      "x": 152,
+      "y": 73,
+      "w": 4,
+      "h": 4,
+      "status": "source-eye registration provisional; visually review"
+    }
+  ],
+  "bounds": [
+    [
+      73,
+      57,
+      46,
+      45
+    ],
+    [
+      73,
+      57,
+      45,
+      45
+    ],
+    [
+      46,
+      62,
+      100,
+      36
+    ],
+    [
+      46,
+      63,
+      100,
+      33
+    ],
+    [
+      29,
+      37,
+      133,
+      86
+    ],
+    [
+      29,
+      49,
+      133,
+      61
+    ],
+    [
+      13,
+      31,
+      166,
+      97
+    ],
+    [
+      13,
+      36,
+      166,
+      87
+    ]
+  ],
+  "clippedSourceCells": [],
+  "artStatus": "Ready for user visual review",
+  "approved": false,
+  "earliestStageStatus": "Game-calibrated development",
+  "sha256": "e215bf70b2ae54ac5d78ce0b035195572ef8e548abc53c80cf68f9e8102dd4d4"
+}

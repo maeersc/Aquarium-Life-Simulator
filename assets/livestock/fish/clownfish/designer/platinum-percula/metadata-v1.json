@@ -1,0 +1,198 @@
+{
+  "id": "platinum-percula",
+  "family": "varieties",
+  "speciesId": "amphiprion-percula",
+  "name": "Platinum Percula",
+  "scientificName": "Amphiprion percula",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      49,
+      228,
+      319,
+      414
+    ],
+    [
+      365,
+      169,
+      759,
+      433
+    ],
+    [
+      808,
+      282,
+      1087,
+      428
+    ],
+    [
+      1118,
+      228,
+      1503,
+      428
+    ],
+    [
+      19,
+      587,
+      367,
+      839
+    ],
+    [
+      389,
+      587,
+      758,
+      835
+    ],
+    [
+      782,
+      587,
+      1133,
+      842
+    ],
+    [
+      1155,
+      591,
+      1516,
+      832
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/designer/platinum-percula/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "juvenile": {
+      "alive": 0,
+      "dead": 2
+    },
+    "adult": {
+      "alive": 1,
+      "dead": 3
+    }
+  },
+  "swim": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "eyes": [
+    {
+      "x": 163,
+      "y": 68,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 165,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 164,
+      "y": 88,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "x": 166,
+      "y": 85,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 10,
+      "h": 10
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      19,
+      184,
+      140
+    ],
+    [
+      8,
+      21,
+      184,
+      139
+    ],
+    [
+      8,
+      34,
+      184,
+      126
+    ],
+    [
+      8,
+      34,
+      184,
+      125
+    ],
+    [
+      18,
+      23,
+      169,
+      132
+    ],
+    [
+      8,
+      23,
+      168,
+      131
+    ],
+    [
+      18,
+      22,
+      170,
+      133
+    ],
+    [
+      11,
+      25,
+      168,
+      130
+    ]
+  ],
+  "sharedEarlySpeciesId": "amphiprion-percula",
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

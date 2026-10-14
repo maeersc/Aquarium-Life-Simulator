@@ -1,0 +1,198 @@
+{
+  "id": "domino",
+  "family": "varieties",
+  "speciesId": "clown",
+  "name": "Domino",
+  "scientificName": "Amphiprion ocellaris",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      28,
+      184,
+      377,
+      434
+    ],
+    [
+      401,
+      166,
+      788,
+      449
+    ],
+    [
+      797,
+      243,
+      1128,
+      430
+    ],
+    [
+      1148,
+      253,
+      1513,
+      434
+    ],
+    [
+      21,
+      576,
+      385,
+      847
+    ],
+    [
+      410,
+      578,
+      767,
+      847
+    ],
+    [
+      785,
+      580,
+      1142,
+      847
+    ],
+    [
+      1162,
+      578,
+      1515,
+      853
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/designer/domino/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "juvenile": {
+      "alive": 0,
+      "dead": 2
+    },
+    "adult": {
+      "alive": 1,
+      "dead": 3
+    }
+  },
+  "swim": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "eyes": [
+    {
+      "x": 163,
+      "y": 78,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 163,
+      "y": 74,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 163,
+      "y": 94,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 164,
+      "y": 94,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 14,
+      "h": 14
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      17,
+      184,
+      143
+    ],
+    [
+      8,
+      15,
+      184,
+      144
+    ],
+    [
+      8,
+      30,
+      184,
+      129
+    ],
+    [
+      8,
+      36,
+      184,
+      123
+    ],
+    [
+      8,
+      14,
+      170,
+      134
+    ],
+    [
+      11,
+      14,
+      169,
+      133
+    ],
+    [
+      11,
+      15,
+      169,
+      133
+    ],
+    [
+      12,
+      15,
+      169,
+      137
+    ]
+  ],
+  "sharedEarlySpeciesId": "clown",
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

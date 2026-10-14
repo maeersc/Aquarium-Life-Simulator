@@ -1,0 +1,198 @@
+{
+  "id": "snow-storm",
+  "family": "varieties",
+  "speciesId": "clown",
+  "name": "Snow Storm",
+  "scientificName": "Amphiprion ocellaris",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      24,
+      189,
+      314,
+      397
+    ],
+    [
+      355,
+      123,
+      781,
+      424
+    ],
+    [
+      809,
+      242,
+      1104,
+      420
+    ],
+    [
+      1125,
+      204,
+      1507,
+      424
+    ],
+    [
+      9,
+      574,
+      369,
+      851
+    ],
+    [
+      386,
+      574,
+      760,
+      853
+    ],
+    [
+      780,
+      573,
+      1135,
+      851
+    ],
+    [
+      1153,
+      577,
+      1529,
+      848
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/designer/snow-storm/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "juvenile": {
+      "alive": 0,
+      "dead": 2
+    },
+    "adult": {
+      "alive": 1,
+      "dead": 3
+    }
+  },
+  "swim": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "eyes": [
+    {
+      "x": 159,
+      "y": 70,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 163,
+      "y": 73,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 163,
+      "y": 96,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 164,
+      "y": 94,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      17,
+      184,
+      143
+    ],
+    [
+      8,
+      18,
+      184,
+      142
+    ],
+    [
+      8,
+      27,
+      184,
+      133
+    ],
+    [
+      8,
+      29,
+      184,
+      130
+    ],
+    [
+      15,
+      14,
+      170,
+      134
+    ],
+    [
+      9,
+      14,
+      170,
+      134
+    ],
+    [
+      17,
+      14,
+      170,
+      134
+    ],
+    [
+      8,
+      16,
+      170,
+      133
+    ]
+  ],
+  "sharedEarlySpeciesId": "clown",
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}

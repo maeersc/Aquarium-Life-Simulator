@@ -1,0 +1,272 @@
+{
+  "id": "amphiprion-biaculeatus",
+  "family": "species",
+  "speciesId": "amphiprion-biaculeatus",
+  "name": "Maroon clownfish",
+  "scientificName": "Amphiprion biaculeatus",
+  "source": "source-v1.png",
+  "sourceBoxes": [
+    [
+      18,
+      249,
+      290,
+      431
+    ],
+    [
+      336,
+      290,
+      602,
+      401
+    ],
+    [
+      635,
+      255,
+      867,
+      417
+    ],
+    [
+      891,
+      172,
+      1235,
+      443
+    ],
+    [
+      19,
+      619,
+      293,
+      794
+    ],
+    [
+      336,
+      682,
+      602,
+      785
+    ],
+    [
+      633,
+      653,
+      871,
+      804
+    ],
+    [
+      898,
+      576,
+      1234,
+      807
+    ],
+    [
+      18,
+      906,
+      293,
+      1125
+    ],
+    [
+      337,
+      906,
+      613,
+      1124
+    ],
+    [
+      631,
+      906,
+      913,
+      1125
+    ],
+    [
+      940,
+      905,
+      1235,
+      1125
+    ]
+  ],
+  "atlas": "assets/livestock/fish/clownfish/species/amphiprion-biaculeatus/atlas-v1.png",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 12,
+  "frameDurationMs": 166.66666666666666,
+  "frames": {
+    "egg": {
+      "alive": 0,
+      "dead": 4
+    },
+    "baby": {
+      "alive": 1,
+      "dead": 5
+    },
+    "juvenile": {
+      "alive": 2,
+      "dead": 6
+    },
+    "adult": {
+      "alive": 3,
+      "dead": 7
+    }
+  },
+  "swim": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "eyes": [
+    null,
+    {
+      "x": 162,
+      "y": 86,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 160,
+      "y": 78,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 162,
+      "y": 73,
+      "w": 12,
+      "h": 12
+    },
+    null,
+    {
+      "x": 162,
+      "y": 94,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 168,
+      "y": 88,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "x": 169,
+      "y": 82,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "x": 150,
+      "y": 70,
+      "w": 11,
+      "h": 11
+    }
+  ],
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "anchor": [
+    96,
+    80
+  ],
+  "bounds": [
+    [
+      8,
+      21,
+      184,
+      139
+    ],
+    [
+      8,
+      43,
+      184,
+      116
+    ],
+    [
+      8,
+      18,
+      184,
+      141
+    ],
+    [
+      8,
+      10,
+      184,
+      149
+    ],
+    [
+      8,
+      24,
+      184,
+      136
+    ],
+    [
+      8,
+      46,
+      184,
+      114
+    ],
+    [
+      8,
+      24,
+      184,
+      136
+    ],
+    [
+      8,
+      19,
+      184,
+      140
+    ],
+    [
+      19,
+      14,
+      168,
+      132
+    ],
+    [
+      18,
+      12,
+      167,
+      130
+    ],
+    [
+      14,
+      12,
+      167,
+      130
+    ],
+    [
+      8,
+      12,
+      168,
+      131
+    ]
+  ],
+  "sharedEarlySpeciesId": null,
+  "facing": "mirrored side profile; asymmetric individual markings provisional",
+  "reviewStatus": "Provisional - pending anatomy and user review",
+  "approved": false,
+  "version": 1
+}
