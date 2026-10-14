@@ -1,6 +1,16 @@
 # Aquarium Life — art direction: clownfish collection review
 
-## Livestock expansion v2.7 — current, 2026-10-14
+## Ocean Diving v2.8 — current, 2026-10-14
+
+MDP **v3.3**, retaining all 31 major sections. **Ocean Diving** beside Keeper Level opens Reef (Level 5 / 1,000 AC) or Deep Sea (Level 10 / 10,000 AC). Fiji, Caribbean, Hawaii and Japan have original regional scenery and a compact playable map. W/A/S/D, arrows and on-screen buttons move one tile; every successful step costs exactly 5% oxygen from 100%. Blocked movement and collection clicks cost none. Eight temporary slots become owned only on a successful boat return with oxygen remaining. Exhaustion/confirmed abandonment forfeits discoveries without a fee refund.
+
+Aquariums continue at 1× during planning, diving and results, using the existing 20-real-minute game day. Explicit safe receivers, supported coral mounts, species-conditioned survival, finite transport holding, persistent provenance and Reputation 5 Black Market-only resale are integrated. Confirmed paid Black Market purchases earn bounded reputation; canceled/failed/duplicate transactions do not. Direct normal-store livestock is restricted to Tiers 1–3; eight daily Fish slots and independent Mystery Egg odds remain unchanged. Nominal tank/equipment capacities now ceil to whole US gallons; physical liters and precise water-change calculations remain exact.
+
+**No new biological species.** The approved 38-entry v2.7 batch and all protected freshwater content remain the roster baseline. Six sourced encounter profiles reference existing IDs; Hawaii wildlife is observation-only, and unsupported regional/depth combinations offer inert fictional salvage rather than invented animals. All captures are fictional restricted game recovery, not real collection authorization. New art is unapproved pending user review. Saves and expedition receipts remain on each player's PC in browser storage. See [DIVING_UPDATE_REPORT.md](DIVING_UPDATE_REPORT.md) and [the region ledger](assets/diving/registry.json). DIST is rebuilt through `python build.py`. Earlier milestones below are historical where superseded.
+
+Built-in ImageGen created original source-v1 PNGs under `assets/diving/`: Fiji/Caribbean/Hawaii/Japan reef and deep backdrops plus one transparent 4×2 equipment atlas (diver, boat, oxygen cylinder, rock, sparkle, mask, transport crate, buoy). `js/diving-art-data.js` embeds those files for offline use. Regional scenery avoids generic culture symbols and generic final livestock silhouettes; live encounters reuse the existing species-specific expansion art. The approved clownfish reference was inspected and preserved. The supplied sprite is a static authored pose moved by the minigame; no separately authored swimming cycle is claimed. Sources are not overwritten. Art remains unapproved. Full prompts and original generated filenames are preserved in `assets/diving/art-prompts.json`; packing preserves original sources and uses detected alpha gutters, nearest-neighbor atlas packing and base64 embedding, with a technical contact sheet for QA.
+
+## Livestock expansion v2.7 — roster baseline milestone, 2026-10-14
 
 MDP **v3.2** retains exactly 31 major sections. Added **38 unique marine entries: 28 fish, five named stony corals and five non-fish invertebrates**. All 38 passed the pre-registration scientific-name/synonym duplicate audit; none were skipped. The runtime now has **80 fish (69 marine, 11 protected freshwater), ten marine coral entries and five non-fish invertebrates**. The six existing freshwater plants are unchanged. Existing art-only and planned entries are excluded from these totals.
 
@@ -105,3 +115,6 @@ Generated artwork remains an art-review submission. Some body/fin/pattern change
 ### Current rarity assets and pattern treatment
 
 assets/rarity/1.svg–6.svg are original 64×64 transparent code-native pixel silhouettes; mystery.svg is the original product egg. No existing raster artwork was overwritten. Deliberate stepped colors preserve the locked tier palette, with 30–40px UI icons and adjacent readable labels. Natural offspring bar changes are cached per immutable seed/frame/stage and applied before mirroring; the head, eyes, fins and alpha outline remain untouched. Legacy catalog art is passed through exactly. The approved reference remains assets/reference/approved_clownfish_hybrid.png.
+
+
+Equipment framing correction: the generated boat crossed a nominal source cell boundary. The preserved source was technically packed into `assets/diving/equipment-atlas-v1.png` using alpha gutters; `equipment-atlas-metadata-v1.json` records all eight source bounds. Icons retain their source aspect ratios. No semantic repainting or source overwrite occurred.

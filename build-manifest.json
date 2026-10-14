@@ -1,16 +1,16 @@
 {
-  "builtAt": "2026-10-14T17:33:49.028484+00:00",
+  "builtAt": "2026-10-14T19:01:23.611676+00:00",
   "entryPoint": "index.html",
-  "gameContent": "v2.7",
+  "gameContent": "v2.8",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1371,
-  "sourceBytes": 325213103,
+  "sourceFiles": 1392,
+  "sourceBytes": 384164393,
   "files": [
     {
       "path": "ART_DIRECTION.md",
-      "bytes": 17625,
-      "sha256": "e54e375bd577558ad1c0c431a7b001734c83457b4d4e221f1c83f25f278b15c9"
+      "bytes": 21002,
+      "sha256": "dca5848a9cfc5ad08a65a62d444d4b332f3c98d658bbff2c2ba52be34caeb7d3"
     },
     {
       "path": "ART_UPDATE_REPORT.md",
@@ -24,18 +24,18 @@
     },
     {
       "path": "CURRENT_LIVESTOCK_CATALOG.md",
-      "bytes": 68414,
-      "sha256": "56435d64e0a1cc38b68cf64d22c5b4078535752c513284270083a46c2f105818"
+      "bytes": 73114,
+      "sha256": "64d331c1f32f02694f5d260869e676f3c47a09036afcad032484e1593ccb1c59"
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 27734,
-      "sha256": "2989ba3a142fda6658b57512cccf1ef14478aa7de49953e826dbdfb3a6d16efc"
+      "bytes": 30421,
+      "sha256": "6632d0809362d5305f619d376c95ee0c5caf3ae3f688b91188e11e415810bd50"
     },
     {
       "path": "GITHUB_PAGES.md",
-      "bytes": 4047,
-      "sha256": "8670111a80624d27703e7c1a70e77e032a3072d5c71a4d8ac8540f51926fce97"
+      "bytes": 4075,
+      "sha256": "eed25adadf1ba404fdabf58b7c565164cdb6463737b176c0de97c747a87d65cb"
     },
     {
       "path": "art-review-v1.html",
@@ -51,6 +51,61 @@
       "path": "art-review.html",
       "bytes": 6886,
       "sha256": "f39d769be1ad07a4f074820a651930a555713e522fb51fabbbfdaf649d2a9a44"
+    },
+    {
+      "path": "assets/diving/art-prompts.json",
+      "bytes": 9011,
+      "sha256": "4a084ef797164358a27b07e03278b410cd12014a99918e55591143c57d1e7794"
+    },
+    {
+      "path": "assets/diving/caribbean-deep-v1.png",
+      "bytes": 2744787,
+      "sha256": "49ec0c2687cab32e0d13a7ad9c0aea6b16b92e3f9e31ec56b9bdf104dfaf0b7e"
+    },
+    {
+      "path": "assets/diving/caribbean-reef-v1.png",
+      "bytes": 3098413,
+      "sha256": "ab48f0e6391ce302d454bae41b8c0948f2017b4ec87207498754bb20e38cf5a7"
+    },
+    {
+      "path": "assets/diving/equipment-atlas-v1.png",
+      "bytes": 458417,
+      "sha256": "892780954b164bee1c909307a23edb8b3d6301ea10e782ff9420cafd62cf89ad"
+    },
+    {
+      "path": "assets/diving/equipment-v1.png",
+      "bytes": 1093866,
+      "sha256": "865e48bbc3eb4d65d07fac718f0c4d215a1c6817c4839314a7c28b52da8936e5"
+    },
+    {
+      "path": "assets/diving/fiji-deep-v1.png",
+      "bytes": 2436269,
+      "sha256": "8b2a3b69ec5409dc61a7995bf130a78b49610cc8fc21eaa286fa09382b77bff9"
+    },
+    {
+      "path": "assets/diving/fiji-reef-v1.png",
+      "bytes": 2945952,
+      "sha256": "fea945fa635d66fd1a9d5858de2207e84e1e5fab1673a368fe736ddfd9c3b525"
+    },
+    {
+      "path": "assets/diving/hawaii-deep-v1.png",
+      "bytes": 2593402,
+      "sha256": "52e58c9f9bd2b3ccb1fbdc5f360c24141542bd028521676647076ea5d50450c5"
+    },
+    {
+      "path": "assets/diving/hawaii-reef-v1.png",
+      "bytes": 2515154,
+      "sha256": "9a1666023ab18efdbf574c445ce2be281b1d03a6dae568a471e46ea601a1e74d"
+    },
+    {
+      "path": "assets/diving/japan-deep-v1.png",
+      "bytes": 2538299,
+      "sha256": "ee5348ca5d8ba8743807cbc0b385ae646bb37975f089a4043b8a6f133582dfba"
+    },
+    {
+      "path": "assets/diving/japan-reef-v1.png",
+      "bytes": 3012772,
+      "sha256": "ac4075f7a6c3cf52f11dc894db56d128b3a979135090be6c8f945a44d1ee97c7"
     },
     {
       "path": "assets/expansion-v27/blastomussa-wellsi/atlas-v1.png",
@@ -393,6 +448,11 @@
       "sha256": "cac5cccf6985f5752202c7527a45c811df727f9f319d5dc908eabd7bf2397329"
     },
     {
+      "path": "assets/expansion-v27/pink-streaked-wrasse/source-v1.png",
+      "bytes": 1451522,
+      "sha256": "9c769f8ff552311bae54d76b13066cb96659a5f620b64f7114cd47f019e1c5f2"
+    },
+    {
       "path": "assets/expansion-v27/pink-streaked-wrasse/source-v2.png",
       "bytes": 1191805,
       "sha256": "755430558cde9ced5c783f4af283c3e771b49bde9620624a4ed2fe1c22687233"
@@ -456,6 +516,11 @@
       "path": "assets/expansion-v27/redspotted-blenny/source-v1.png",
       "bytes": 1315017,
       "sha256": "061795f92b277446008d20d4d39908fceb6d64181a854b2e4c5f881672d0c2bd"
+    },
+    {
+      "path": "assets/expansion-v27/registry.json",
+      "bytes": 98875,
+      "sha256": "c445f0f213df1e8274c4e1db7e98954346b08f22858c63ca52fc83836f78f2f8"
     },
     {
       "path": "assets/expansion-v27/ruby-longfin-fairy-wrasse/atlas-v1.png",
@@ -543,6 +608,11 @@
       "sha256": "cbbd892900f655eeef513a11ed38870b51daa916fcc42a2f52e55dbce1014761"
     },
     {
+      "path": "assets/expansion-v27/tanakas-pygmy-wrasse/source-v1.png",
+      "bytes": 2024162,
+      "sha256": "cd03974d95de574ae18e2159f5113a6e8b0b9d53f7fe9b8c89d81e71a0220ef8"
+    },
+    {
       "path": "assets/expansion-v27/tanakas-pygmy-wrasse/source-v2.png",
       "bytes": 1966617,
       "sha256": "9425025c1f8c59b9aa4aa29519275d9517bc4b988a8635169843e55953918f8e"
@@ -586,6 +656,11 @@
       "path": "assets/expansion-v27/white-banded-possum-wrasse/metadata-v1.json",
       "bytes": 2036,
       "sha256": "6a8972eb8cdb87be37008425526e108061e8e808b78002a0c5f5a0e6992de0c7"
+    },
+    {
+      "path": "assets/expansion-v27/white-banded-possum-wrasse/source-v1.png",
+      "bytes": 2071389,
+      "sha256": "4e3fddd658e8f98341eacde3b2c62aa4a7b680e04f16a335d325ab878795e524"
     },
     {
       "path": "assets/expansion-v27/white-banded-possum-wrasse/source-v2.png",
@@ -6578,6 +6653,11 @@
       "sha256": "356f9542c68dcb27a231e4164ecbfdcba158c92a96f73c7e01a286a851830b8a"
     },
     {
+      "path": "css/diving.css",
+      "bytes": 3213,
+      "sha256": "9dd1355bfc7a55602b9b322782c6f6d5c8281989f44e9f30df860d241943d3cb"
+    },
+    {
       "path": "css/gameplay.css",
       "bytes": 2234,
       "sha256": "49e3b903e30ddb88f45430d9938113ca4f0c24ace285688f06481d53defe4cfb"
@@ -6614,13 +6694,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 11140,
-      "sha256": "a5ebe171873c3d536e2f4876a915d34446231fc73acb22d22e9d70a7e0fb1853"
+      "bytes": 11558,
+      "sha256": "3ea29d9bafb89e294dc41d39cf55d33df803450cfa4bdeb55d140819ec4ebd19"
     },
     {
       "path": "js/app-shell.js",
-      "bytes": 29245,
-      "sha256": "255058e3ce0183fbc38e372417109a34097129831f40eab0a5578e49dd8e610b"
+      "bytes": 29239,
+      "sha256": "63e43afd39e9c9e49214d267cdae66a4ee644f875fc4f53678ad5675d6f8919f"
     },
     {
       "path": "js/art-assets-data.js",
@@ -6679,8 +6759,8 @@
     },
     {
       "path": "js/core.js",
-      "bytes": 34367,
-      "sha256": "1f18a4a3324936389a558416ec072c14aea9261011ee1f232c0d7df5a0933111"
+      "bytes": 35060,
+      "sha256": "adab6cc0d73e11522bd0a4ca0470789f9749489bbd8fc6562c9b0b24af6562ea"
     },
     {
       "path": "js/daily-store.js",
@@ -6691,6 +6771,31 @@
       "path": "js/data.js",
       "bytes": 13875,
       "sha256": "7c937d4039b2c5067d254c536e5f8670ee8d722e0fcdafd1f8a50b34607723bd"
+    },
+    {
+      "path": "js/diving-art-data.js",
+      "bytes": 29792804,
+      "sha256": "f2f5017c54e092ca3ad7e2fffb460ffcede0baa816ecc66f7a0d46169d0fa554"
+    },
+    {
+      "path": "js/diving-art.js",
+      "bytes": 660,
+      "sha256": "a674ddcf658c6d92013117b94dbd248a83952e57cb15c5155d2d5d66b4b5a2b5"
+    },
+    {
+      "path": "js/diving-data.js",
+      "bytes": 7463,
+      "sha256": "d53cfbb69f88af46ff98487a96189cd2e119293b714c66ef8f378c772fe00093"
+    },
+    {
+      "path": "js/diving-ui.js",
+      "bytes": 18933,
+      "sha256": "d98abc00a7b50d59892196f6d4acae9ab27c25edde661f71ee56c82e5bc0ce9b"
+    },
+    {
+      "path": "js/diving.js",
+      "bytes": 21764,
+      "sha256": "06d444d6c4918d72257d763127befcee0369ccecac78011a86f80618341c999b"
     },
     {
       "path": "js/expansion-art-data.js",
@@ -6714,8 +6819,8 @@
     },
     {
       "path": "js/expansion-ui.js",
-      "bytes": 4320,
-      "sha256": "3198aeefc64a7d2d50bf9ca239d6e1699d401a117364853858927c2e0d13a603"
+      "bytes": 4399,
+      "sha256": "29b68fd43ea91dd71ca3059249767f3bd616f5ff334e37a9606fcd58bd9c77d1"
     },
     {
       "path": "js/expansion.js",
@@ -6729,8 +6834,8 @@
     },
     {
       "path": "js/gameplay.js",
-      "bytes": 6477,
-      "sha256": "52c12343ec85c10cdb228519c7433652589db8c1b5a975f322b4911d18efe2a3"
+      "bytes": 6577,
+      "sha256": "4f5e4f4dfe85cfa5a5c08be59184382315db93e01be601a4fe827e57bf8f50d3"
     },
     {
       "path": "js/habitat-drawing.js",
@@ -6749,8 +6854,8 @@
     },
     {
       "path": "js/health-save.js",
-      "bytes": 3862,
-      "sha256": "f96c8a0068fe25d481ffae9228d7134d777dcf5d0382bd87d6897775e6d12ad1"
+      "bytes": 3680,
+      "sha256": "7d15c36ce00be4284f68e3bd473a90ebc72c581f60b2b5aeac154172f4294d46"
     },
     {
       "path": "js/health-ui.js",
@@ -6759,8 +6864,8 @@
     },
     {
       "path": "js/invertebrates.js",
-      "bytes": 7697,
-      "sha256": "cf28f6d832ebe5a6ac8a715aa2105aaf250a1b450f595e02b42f4b114dbb7ad8"
+      "bytes": 7727,
+      "sha256": "a4aec30428f34e1b4858c3b5aa8e2e0da3a3b17e42fbb64971a597716f5cd992"
     },
     {
       "path": "js/life-stage-data.js",
@@ -6784,13 +6889,13 @@
     },
     {
       "path": "js/livestock-market.js",
-      "bytes": 4260,
-      "sha256": "35cde5402b0e57f5b8f0b55b7fe476ffc54fad94901c3ab634a528053181c1e8"
+      "bytes": 4364,
+      "sha256": "ab066c8fb207ec428b72276be8c47ab121c41c6ef2fc8776f460e8af90e34028"
     },
     {
       "path": "js/main.js",
-      "bytes": 2765,
-      "sha256": "01458ad096c0fe21995e7b241b7b8321b5e4d4f2061dc3919ebe28fa2f567ef2"
+      "bytes": 2911,
+      "sha256": "1d0601af8aa3248fff23cb818af3cb9727be7f95ea2b7a8889a603d458b4d358"
     },
     {
       "path": "js/offline.js",
@@ -6819,13 +6924,13 @@
     },
     {
       "path": "js/save.js",
-      "bytes": 14690,
-      "sha256": "f1cc5fbce5f31358cc4dbb7190675d531ccc75c6eea45033bd628124d961d71e"
+      "bytes": 14767,
+      "sha256": "7d8329eca05df9dbf94619e1aa82076d3a96d388aa28dfa177e194418d0b017a"
     },
     {
       "path": "js/simulation.js",
-      "bytes": 20497,
-      "sha256": "cdd8f2b1ae683c6ccb8ecd2d128d824d2438faf1dca1ecc456b797c5fe6f56f2"
+      "bytes": 20627,
+      "sha256": "2bf89c3aec9da0006807028e35fc3441730f9f04f5291a31264ec971a46b4949"
     },
     {
       "path": "js/sprite-kit.js",
@@ -6839,23 +6944,23 @@
     },
     {
       "path": "js/store-rules.js",
-      "bytes": 5712,
-      "sha256": "443641338c404a091de10e2a6e2565abc59e9f94a5d13a57ff7ecf5473bd9150"
+      "bytes": 5860,
+      "sha256": "435d49ed893d6c2bca91e077604537d848f6d9376cf669cc7b9f90470b992159"
     },
     {
       "path": "js/store.js",
-      "bytes": 24369,
-      "sha256": "5cef4cf59c80f18fe768ab9077458e05182051baf775227792c296f64c5e9a56"
+      "bytes": 25460,
+      "sha256": "43c0b4f9cae6a3f7df874832685c54af7109be5ffe40fe62156808237b586240"
     },
     {
       "path": "js/ui.js",
-      "bytes": 65314,
-      "sha256": "8f8135cef84b57f8ec932a4cd79e58211b3dcfcfaa802fafa77975110d6fa18f"
+      "bytes": 65824,
+      "sha256": "3caebf7c84a20bb7d61b9a651db5bcfc8feaaf07a25170ea51e8efa52b5e9029"
     },
     {
       "path": "js/valuation.js",
-      "bytes": 4230,
-      "sha256": "ed9445a1ad3161941853a17e49ebaa3a636a6982afaaa2ade5c0817379418834"
+      "bytes": 4263,
+      "sha256": "8d5f21d05a3b3078059629cde8875a6defc379f788482ee4f854595ee9b9e323"
     },
     {
       "path": "life-stage-review.html",

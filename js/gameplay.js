@@ -1,7 +1,7 @@
 "use strict";
 // Shared presentation units and authoritative calendar. Physical saves remain in liters.
 AL.Config=Object.freeze({...AL.Config,minutesPerSecond:1.2});
-AL.Units=Object.freeze({litersPerGallon:3.785411784,gallons:liters=>Number(liters)/3.785411784,volume(liters){return (Number(liters)/3.785411784).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1})+' gal';},text(value){return String(value??'').replace(/\b(\d[\d,]*(?:\.\d+)?)\s*(?:L\b|liters\b|litres\b)/gi,(_,n)=>this.volume(Number(n.replace(/,/g,''))));}});
+AL.Units=Object.freeze({litersPerGallon:3.785411784,gallons:liters=>Number(liters)/3.785411784,volume(liters){return Math.ceil(Number(liters)/3.785411784).toLocaleString('en-US')+' gal';},preciseVolume(liters){return (Number(liters)/3.785411784).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:3})+' gal';},text(value){return String(value??'').replace(/\b(\d[\d,]*(?:\.\d+)?)\s*(?:L\b|liters\b|litres\b)/gi,(_,n)=>this.volume(Number(n.replace(/,/g,''))));}});
 AL.Clock=Object.freeze({format(minutes,format=AL.game?.settings.clockFormat||'24'){const m=((Math.floor(minutes)%1440)+1440)%1440,h=Math.floor(m/60),mm=String(m%60).padStart(2,'0');return format==='12'?`${h%12||12}:${mm} ${h<12?'AM':'PM'}`:`${String(h).padStart(2,'0')}:${mm}`;},text(value){return String(value??'').replace(/\b([01]\d|2[0-3]):([0-5]\d)\b/g,(_,h,m)=>this.format(Number(h)*60+Number(m)));},stamp(minutes){return `Day ${Math.floor(minutes/1440)+1} · ${this.format(minutes)}`;}});
 AL.Gameplay=(()=>{
   const offline=new WeakSet(),day=s=>Math.floor(s.time/1440);

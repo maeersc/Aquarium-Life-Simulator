@@ -6,7 +6,7 @@ AL.StoreRules=(()=>{
     if(action==='buyFish'||action==='buyEgg'){
       const d=AL.Data.species[a.species];if(!d)return {ok:false,reasons:['Species is not implemented.'],warnings};
       const added=action==='buyEgg'?1:Number(a.count??1),r=AL.Core.compatibility(s,t,d.id,added);reasons.push(...r.reasons);warnings.push(...r.warnings);
-      const w=t.waterParams;
+      if(a.market==='black'&&(s.level<4||!s.stats.nightMarket||!AL.Core.nightOpen(s)))reasons.push('Black Market access and opening hours are required.');const w=t.waterParams;
       for(const [key,range] of [['temperature',d.temp],['ph',d.ph],['salinity',d.salinity]])if(w[key]<range[0]||w[key]>range[1])reasons.push(`${key==='ph'?'pH':key} is outside this species' safe purchase range.`);
       if(w.oxygen<5.5)reasons.push('Increase dissolved oxygen to at least 5.5 mg/L.');
       if(w.ammonia>.15||w.nitrite>.15)reasons.push('Lower ammonia and nitrite to 0.15 mg/L or less before purchase.');

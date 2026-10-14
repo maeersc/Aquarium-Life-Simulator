@@ -12,7 +12,7 @@ AL.HealthSave={validate(s,identity){
   if(s.healthExtensionVersion!==1)fail('unsupported extension version');arr(s.medicalInventory,80);if(!s.medicineStock||typeof s.medicineStock!=='object')fail('stock missing');for(const id of Object.keys(P))integer(s.medicineStock[id],0,100);
   for(const b of s.medicalInventory){identity(b.id);if(!P[b.product])fail('unknown medicine');integer(b.quantity,0,1000);num(b.acquired,0,1e9);bool(b.examined);if(P[b.product].restricted)quality(b.quality);else if(b.quality!==null)fail('ordinary batch cannot have hidden dealer quality');}
   const m=s.livestockMarket;if(!m||m.version!==1||!m.listings||typeof m.listings!=='object')fail('market version');
-  const required=[];for(const d of Object.values(AL.Data.species))if(d.water==='marine'&&d.fictional)required.push('fish:'+d.id,'egg:'+d.id);for(const [id,p] of Object.entries(P))if(p.restricted)required.push('medicine:'+id);
+  const required=AL.LivestockMarket.keys();
   if(Object.keys(m.listings).length!==required.length)fail('listing set mismatch');
   for(const key of required){const l=m.listings[key];if(!l||l.key!==key)fail('listing missing');identity(l.id);integer(l.price,1,1000000);integer(l.remaining,0,100);num(l.created,0,1e9);integer(l.day,0,1e9);if(!['healthy','stressed','malnourished','infected','carrier'].includes(l.state)||!C[l.infection])fail('listing condition');num(l.severity,.01,1);quality(l.quality);}
   for(const t of s.tanks)if(t.water==='marine'){

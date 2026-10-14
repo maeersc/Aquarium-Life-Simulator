@@ -43,7 +43,7 @@ Official instructions: [publishing source](https://docs.github.com/en/pages/gett
 
 ## Saves stay on each player's computer
 
-- The active game (`aquarium-life-v2`), recovery backup and offline timeline are
+- The active game (`aquarium-life-v2`), recovery backup, offline timeline and diving completion receipts are
   stored in that player's browser localStorage. GitHub serves static game files;
   the game does not upload saves or send them to GitHub or another player.
 - Autosave, Save now, settings and transaction saves use the same local save

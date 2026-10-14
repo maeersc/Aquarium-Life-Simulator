@@ -39,7 +39,9 @@
   <script defer src="js/store.js"></script>
   <script defer src="js/app-shell.js"></script><script defer src="js/expansion-ui.js"></script>
   <script defer src="js/gameplay-ui.js"></script>
+  <script defer src="js/diving-data.js"></script><script defer src="js/diving.js"></script><script defer src="js/diving-art-data.js"></script><script defer src="js/diving-art.js"></script><script defer src="js/diving-ui.js"></script>
   <script defer src="js/main.js"></script>
+  <link rel="stylesheet" href="css/diving.css">
 <link rel="stylesheet" href="css/rarity.css"></head>
 <body>
   <div id="app">
@@ -50,7 +52,7 @@
       <div class="sidebar-bottom"><span class="status-dot"></span> OFFLINE & UNHURRIED<small>A world worth caring for.</small><span class="version">FIRST PLAYABLE · v0.1</span></div>
     </aside>
     <main>
-      <header class="topbar"><button class="level-badge" id="level" aria-label="Open Keeper Progress">01</button><div class="keeper">Aquarium keeper<small id="rank">A new beginning</small></div><div class="top-spacer"></div><div id="clock" class="clock"></div><div class="currency"><span class="coin">◈</span><strong id="credits">3,000</strong><small>AC</small></div><span class="premium-preview" title="VIP preview currency — purchases disabled">◇ 0 <small>PREVIEW</small></span><button class="icon-button" data-action="notifications" aria-label="Notifications and event history">≡</button><button id="save-button" class="quiet" title="Save now">Save</button><button id="settings-button" class="icon-button" aria-label="Settings">⚙</button></header>
+      <header class="topbar"><button class="level-badge" id="level" aria-label="Open Keeper Progress">01</button><button id="ocean-diving" class="ocean-diving-button" aria-haspopup="dialog"><span aria-hidden="true">◉</span> Ocean Diving</button><div class="keeper">Aquarium keeper<small id="rank">A new beginning</small></div><div class="top-spacer"></div><div id="clock" class="clock"></div><div class="currency"><span class="coin">◈</span><strong id="credits">3,000</strong><small>AC</small></div><span class="premium-preview" title="VIP preview currency — purchases disabled">◇ 0 <small>PREVIEW</small></span><button class="icon-button" data-action="notifications" aria-label="Notifications and event history">≡</button><button id="save-button" class="quiet" title="Save now">Save</button><button id="settings-button" class="icon-button" aria-label="Settings">⚙</button></header>
       <div class="workspace">
         <div class="page-heading"><div><div class="eyebrow">A LITTLE CARE. A WORLD OF LIFE.</div><h1 id="page-title">Your aquariums<span>.</span></h1></div><button class="outline" id="new-tank">+ New aquarium</button></div>
         <div id="tank-tabs" class="tank-tabs" aria-label="Select aquarium"></div>

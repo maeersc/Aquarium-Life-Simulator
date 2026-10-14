@@ -1,6 +1,27 @@
 # Current livestock catalog — 2026-10-14
 
-## Livestock expansion v2.7 — current, 2026-10-14
+## Ocean Diving v2.8 — current, 2026-10-14
+
+MDP **v3.3**, retaining all 31 major sections. **Ocean Diving** beside Keeper Level opens Reef (Level 5 / 1,000 AC) or Deep Sea (Level 10 / 10,000 AC). Fiji, Caribbean, Hawaii and Japan have original regional scenery and a compact playable map. W/A/S/D, arrows and on-screen buttons move one tile; every successful step costs exactly 5% oxygen from 100%. Blocked movement and collection clicks cost none. Eight temporary slots become owned only on a successful boat return with oxygen remaining. Exhaustion/confirmed abandonment forfeits discoveries without a fee refund.
+
+Aquariums continue at 1× during planning, diving and results, using the existing 20-real-minute game day. Explicit safe receivers, supported coral mounts, species-conditioned survival, finite transport holding, persistent provenance and Reputation 5 Black Market-only resale are integrated. Confirmed paid Black Market purchases earn bounded reputation; canceled/failed/duplicate transactions do not. Direct normal-store livestock is restricted to Tiers 1–3; eight daily Fish slots and independent Mystery Egg odds remain unchanged. Nominal tank/equipment capacities now ceil to whole US gallons; physical liters and precise water-change calculations remain exact.
+
+**No new biological species.** The approved 38-entry v2.7 batch and all protected freshwater content remain the roster baseline. Six sourced encounter profiles reference existing IDs; Hawaii wildlife is observation-only, and unsupported regional/depth combinations offer inert fictional salvage rather than invented animals. All captures are fictional restricted game recovery, not real collection authorization. New art is unapproved pending user review. Saves and expedition receipts remain on each player's PC in browser storage. See [DIVING_UPDATE_REPORT.md](DIVING_UPDATE_REPORT.md) and [the region ledger](assets/diving/registry.json). DIST is rebuilt through `python build.py`. Earlier milestones below are historical where superseded.
+
+### Regional encounter ledger — no new species
+
+The six entries below are references to existing implemented species, not additions to the 38-entry batch or biological totals. Current totals remain 80 fish (69 marine/11 freshwater), ten marine corals and five non-fish invertebrates, plus six protected freshwater plants. Unassigned species never acquire a region based on their common name. The region ledger records scientific names, habitat, game depth bands, conservation/collection class, care, art, health/transport, holding and central valuation model. Existing real individual values continue to come from `AL.Valuation`.
+
+| Existing species / ID | Region / mode / game depth band | Collection / conservation | Evidence |
+|---|---|---|---|
+| Chalk Bass / *Serranus tortugarum* / `chalk-bass` | caribbean / reef / 12–90 m | fictional-restricted; Not treated as protected by this game; legal access is not asserted | [source](https://repository.library.noaa.gov/view/noaa/18269/noaa_18269_DS1.pdf) · [range](https://stri-sites.si.edu/docs/publications/pdfs/carvalho_filho_et_al_2023_serranus_fuscula.pdf) |
+| Candy Basslet / *Liopropoma carmabi* / `candy-basslet` | caribbean / deep / 10–70 m | fictional-restricted; Game restricted specimen; no legal collection claim | [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC4042691/) |
+| Cactus Coral / *Pavona cactus* / `pavona-cactus` | fiji / reef / 3–20 m | fictional-restricted-fragment; CITES Appendix II stony coral; controlled trade, never an ordinary legal collectible. Fictional restricted fragment only. | [source](https://library.sprep.org/sites/default/files/518.pdf) · [range](https://www.coraltraits.org/species/1149/traits/218) |
+| Porcelain Anemone Crab / *Neopetrolisthes maculatus* / `porcelain-anemone-crab` | japan / reef / 8–8 m | fictional-restricted; No real collection authorization; habitat/host sensitivity retained | [source](https://www.godac.jamstec.go.jp/bismal/e/view/9004880) |
+| Blotched Anthias / *Odontanthias borbonius* / `blotched-anthias` | japan / deep / 70–300 m | fictional-restricted; IUCN Least Concern in cited museum profile; rarity is independent | [source](https://fishesofaustralia.net.au/Home/species/5363) · [range](https://www.jstage.jst.go.jp/article/jji/70/1/70_22-013/_pdf/-char/en) |
+| Spotted Boxfish / *Ostracion meleagris* / `spotted-boxfish` | hawaii, japan / reef / 0–30 m | fictional-restricted; Least Concern in cited profile; Hawaii is observation-only regardless of rarity | [source](https://fishbase.se/Fieldguide/FieldGuideSummary.php?c_code=608&genusname=Ostracion&speciesname=meleagris) |
+
+## Livestock expansion v2.7 — roster baseline milestone, 2026-10-14
 
 MDP **v3.2** retains exactly 31 major sections. Added **38 unique marine entries: 28 fish, five named stony corals and five non-fish invertebrates**. All 38 passed the pre-registration scientific-name/synonym duplicate audit; none were skipped. The runtime now has **80 fish (69 marine, 11 protected freshwater), ten marine coral entries and five non-fish invertebrates**. The six existing freshwater plants are unchanged. Existing art-only and planned entries are excluded from these totals.
 

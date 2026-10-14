@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-14",
+  "reference": "assets/reference/approved_clownfish_hybrid.png",
+  "records": [
+    {
+      "id": "fiji-reef",
+      "prompt": "Original premium Aquarium Life game pixel art: crisp classic 16-bit pixel clusters, detailed realistic marine surfaces, vibrant arcade color with dark slate and luminous teal, premium indie finish. No text, labels, logos, frames, watermark, people or fish. Side-view 2D underwater exploration backdrop, landscape 1536x1024 composition, sparse unobstructed central swimming space; terrain at bottom and edges; not a UI mockup. Fiji shallow Indo-Pacific reef at 12m, sunlit turquoise channels, layered limestone reef pinnacles, mixed plate and branching coral silhouettes along margins, pale carbonate sand.",
+      "path": "assets/diving/fiji-reef-v1.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-558e1eaf-7adc-472c-be0b-a2bc7bbac42e.png",
+      "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    },
+    {
+      "id": "fiji-deep",
+      "prompt": "Original premium Aquarium Life game pixel art: crisp classic 16-bit pixel clusters, detailed realistic marine surfaces, vibrant arcade color with dark slate and luminous teal, premium indie finish. No text, labels, logos, frames, watermark, people or fish. Side-view 2D underwater exploration backdrop, landscape 1536x1024 composition, sparse unobstructed central swimming space; terrain at bottom and edges; not a UI mockup. Fiji mesophotic reef slope at 75m, dramatic blue limestone overhang, sparse low-light growth, dark cobalt water, no sunbeams reaching bottom and no glowing fictional organisms.",
+      "path": "assets/diving/fiji-deep-v1.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-4889513b-a653-463e-916d-5744927f36e6.png",
+      "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    },
+    {
+      "id": "caribbean-reef",
+      "prompt": "Original premium Aquarium Life game pixel art: crisp classic 16-bit pixel clusters, detailed realistic marine surfaces, vibrant arcade color with dark slate and luminous teal, premium indie finish. No text, labels, logos, frames, watermark, people or fish. Side-view 2D underwater exploration backdrop, landscape 1536x1024 composition, sparse unobstructed central swimming space; terrain at bottom and edges; not a UI mockup. Caribbean reef at 18m, azure water, rounded massive coral heads and sponge silhouettes at margins, pale sand winding between limestone ledges, no Indo-Pacific branching table-coral stereotypes.",
+      "path": "assets/diving/caribbean-reef-v1.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-294b08b0-3f95-4eae-ace5-df162ab6cfb3.png",
+      "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    },
+    {
+      "id": "caribbean-deep",
+      "prompt": "Original premium Aquarium Life game pixel art: crisp classic 16-bit pixel clusters, detailed realistic marine surfaces, vibrant arcade color with dark slate and luminous teal, premium indie finish. No text, labels, logos, frames, watermark, people or fish. Side-view 2D underwater exploration backdrop, landscape 1536x1024 composition, sparse unobstructed central swimming space; terrain at bottom and edges; not a UI mockup. Caribbean mesophotic limestone ledges at 55m, deep blue water, shadowed rock cavities and restrained sponges at margins, sandy terrace, dim ambient illumination.",
+      "path": "assets/diving/caribbean-deep-v1.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-35e2fc75-5074-4051-a3cc-5c9e46dafd4f.png",
+      "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    },
+    {
+      "id": "hawaii-reef",
+      "prompt": "Original premium Aquarium Life game pixel art: crisp classic 16-bit pixel clusters, detailed realistic marine surfaces, vibrant arcade color with dark slate and luminous teal, premium indie finish. No text, labels, logos, frames, watermark, people or fish. Side-view 2D underwater exploration backdrop, landscape 1536x1024 composition, sparse unobstructed central swimming space; terrain at bottom and edges; not a UI mockup. Hawaiian reef at 15m, recognizable black volcanic basalt boulder field, clear sapphire water, restrained low encrusting coral and pale sand, no tropical buildings or islands visible.",
+      "path": "assets/diving/hawaii-reef-v1.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-6fbc76c9-eae0-4875-bbee-9fca8a3ad87f.png",
+      "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    },
+    {
+      "id": "hawaii-deep",
+      "prompt": "Original premium Aquarium Life game pixel art: crisp classic 16-bit pixel clusters, detailed realistic marine surfaces, vibrant arcade color with dark slate and luminous teal, premium indie finish. No text, labels, logos, frames, watermark, people or fish. Side-view 2D underwater exploration backdrop, landscape 1536x1024 composition, sparse unobstructed central swimming space; terrain at bottom and edges; not a UI mockup. Hawaiian deep volcanic slope at 90m, dark basalt outcrops and rubble with occasional sparse low-light sponge, indigo water fading to navy, no sunbeams at depth.",
+      "path": "assets/diving/hawaii-deep-v1.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-800d9cd3-e5f4-455e-b041-a6ed50e9f85a.png",
+      "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    },
+    {
+      "id": "japan-reef",
+      "prompt": "Original premium Aquarium Life game pixel art: crisp classic 16-bit pixel clusters, detailed realistic marine surfaces, vibrant arcade color with dark slate and luminous teal, premium indie finish. No text, labels, logos, frames, watermark, people or fish. Side-view 2D underwater exploration backdrop, landscape 1536x1024 composition, sparse unobstructed central swimming space; terrain at bottom and edges; not a UI mockup. Southern Japan Ryukyu subtropical reef at 8m, clear teal water, mixed boulder and terrace coral margin with pale sand channel, cool cyan highlights, no cultural symbols or buildings.",
+      "path": "assets/diving/japan-reef-v1.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-db8f71c5-8240-4b57-98da-67481c965c48.png",
+      "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    },
+    {
+      "id": "japan-deep",
+      "prompt": "Original premium Aquarium Life game pixel art: crisp classic 16-bit pixel clusters, detailed realistic marine surfaces, vibrant arcade color with dark slate and luminous teal, premium indie finish. No text, labels, logos, frames, watermark, people or fish. Side-view 2D underwater exploration backdrop, landscape 1536x1024 composition, sparse unobstructed central swimming space; terrain at bottom and edges; not a UI mockup. Japan deep rocky reef at 100m, steep slate volcanic wall ledges, sparse filter-feeder silhouettes, very dark blue water with localized muted light from offscreen dive lamp, not bioluminescent fantasy.",
+      "path": "assets/diving/japan-deep-v1.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-6db1036f-af39-41c6-91c5-16eb01aba189.png",
+      "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    },
+    {
+      "id": "equipment",
+      "prompt": "A single transparent sprite atlas for Aquarium Life. EXACT uniform 4-column by 2-row grid, eight isolated fully visible objects with wide transparent gutters. Row 1 left to right: small horizontal scuba diver facing RIGHT in navy wetsuit, silver tank, teal mask and gold flippers; small expedition boat side view; silver oxygen cylinder with dark valve; natural limestone rock. Row 2: collection sparkle; pixel scuba mask icon; eight-slot specimen transport crate; orange return-point buoy. Crisp premium hybrid pixel art, clear silhouettes, cyan-gold highlights, no words, no backgrounds, no shadows outside objects. Each sprite fits wholly inside its equal grid cell. Not an inventory UI, just raw transparent isolated sprites.",
+      "path": "assets/diving/equipment-v1.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-00df3cf7-1a5c-47b3-8f0f-7d1aed0aa0f8.png",
+      "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    }
+  ]
+}
