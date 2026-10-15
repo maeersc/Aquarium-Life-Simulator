@@ -21,7 +21,7 @@ AL.Core = (() => {
     for(const key of Object.keys(D.flora))s.stock[key]=12;
     for(const key of Object.keys(D.equipment))s.stock[key]=8;
     for(const key of [...Object.keys(D.foods),...Object.keys(D.supplies)])s.stock[key]=30;
-    for(const [key,n] of Object.entries(AL.Habitat?.initialStock||{}))s.stock[key]=n;for(const [key,v] of Object.entries(AL.Clownfish?.varieties||{}))s.stock['variety:'+key]=v.initialStock;for(const d of Object.values(D.species))if(d.purchaseVerified===false)s.stock[d.id]=0;AL.Expansion?.migrate(s);AL.Update29?.newGame(s);AL.Diving?.migrate(s);AL.LivestockMarket?.initialize(s);AL.Gameplay?.migrate(s);AL.Offline?.migrate(s);AL.Finance?.initialize(s);AL.Update31?.migrate(s);AL.Research?.migrate(s);AL.MarineCare?.migrate(s);AL.Mortality?.migrate(s);log(s,'Your first aquarium is ready to prepare. Welcome home.');return s;
+    for(const [key,n] of Object.entries(AL.Habitat?.initialStock||{}))s.stock[key]=n;for(const [key,v] of Object.entries(AL.Clownfish?.varieties||{}))s.stock['variety:'+key]=v.initialStock;for(const d of Object.values(D.species))if(d.purchaseVerified===false)s.stock[d.id]=0;AL.Expansion?.migrate(s);AL.Update29?.newGame(s);AL.Diving?.migrate(s);AL.LivestockMarket?.initialize(s);AL.Gameplay?.migrate(s);AL.Offline?.migrate(s);AL.Finance?.initialize(s);AL.Casino?.migrate(s);AL.Update31?.migrate(s);AL.Research?.migrate(s);AL.MarineCare?.migrate(s);AL.Mortality?.migrate(s);log(s,'Your first aquarium is ready to prepare. Welcome home.');return s;
   }
   function selected(s){return s.tanks.find(t=>t.id===s.selectedTank)||s.tanks[0];}
   function alive(t){return t.fish.filter(f=>!f.dead&&(D.species[f.species].water!=='marine'||f.hp>0));}
@@ -71,6 +71,9 @@ AL.Core = (() => {
     fragCoral(s,t,a){AL.Update31.frag(s,t,a);},
     sellLivestock(s,t,a){AL.Update31.sell(s,t,a);},
     buyResearch(s,t,a){AL.Research.buy(s,a);},
+    casinoWager(s,t,a){AL.Casino.wager(s,a);},
+    casinoSettle(s,t,a){AL.Casino.settle(s,a);},
+    casinoLimit(s,t,a){AL.Casino.limit(s,a);},
     tutorialProgress(s,t,a){AL.Update29.tutorial(s,a);},
     buyMysteryCoral(s,t,a){AL.Update29.mystery(s,t,a,"coral");},
     buyMysteryBottom(s,t,a){AL.Update29.mystery(s,t,a,"bottom");},
@@ -152,7 +155,7 @@ AL.Core = (() => {
   // so rejected operations cannot partially spend money or create entities.
   function act(s,action,args={},token){
     if(!actions[action])throw Error('Unknown action.');if(token&&s.transactions.includes(token))return s;
-    const draft=JSON.parse(JSON.stringify(s)),originalSelection=draft.selectedTank;AL.Mortality?.defer?.(draft);AL.Finance?.initialize(draft);AL.MarineCare?.migrate(draft);AL.Mortality?.migrate(draft);AL.Update31?.migrate(draft);AL.Research?.migrate(draft);
+    const draft=JSON.parse(JSON.stringify(s)),originalSelection=draft.selectedTank;AL.Mortality?.defer?.(draft);AL.Finance?.initialize(draft);AL.Casino?.migrate(draft);AL.MarineCare?.migrate(draft);AL.Mortality?.migrate(draft);AL.Update31?.migrate(draft);AL.Research?.migrate(draft);
     const destination=args.destinationTankId===undefined?selected(draft):draft.tanks.find(t=>t.id===args.destinationTankId);
     if(!destination)throw Error('The destination aquarium no longer exists. Choose another aquarium.');
     if(args.destinationTankId!==undefined&&!AL.StoreRules?.purchases.has(action)&&!['reposition','moveRock','moveDecoration','diveInstallRock'].includes(action))throw Error('This action does not accept a shopping destination.');

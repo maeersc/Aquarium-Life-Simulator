@@ -2,6 +2,15 @@
 // Local canvas object previews for the existing equipment and consumables.
 AL.StoreArt={draw(g,p){
   const r=(x,y,w,h,c)=>{g.fillStyle=c;g.fillRect(x,y,w,h);},poly=AL.Art.poly,type=p.args.type;
+  if(type?.startsWith('frag-')){
+    const steel='#b8d6e6',edge='#62869d',grip='#45d6d0',dark='#183143';
+    const cutters=(ox=0,oy=0)=>{poly(g,[[83+ox,62+oy],[61+ox,104+oy],[49+ox,108+oy],[49+ox,98+oy],[75+ox,58+oy]],grip);poly(g,[[93+ox,61+oy],[120+ox,98+oy],[120+ox,109+oy],[108+ox,108+oy],[83+ox,67+oy]],'#f3ad64');poly(g,[[78+ox,61+oy],[60+ox,26+oy],[65+ox,17+oy],[88+ox,51+oy],[110+ox,17+oy],[114+ox,28+oy],[94+ox,64+oy]],edge);poly(g,[[65+ox,25+oy],[69+ox,24+oy],[87+ox,49+oy],[85+ox,55+oy]],steel);poly(g,[[106+ox,24+oy],[111+ox,26+oy],[92+ox,57+oy],[89+ox,51+oy]],steel);r(81+ox,56+oy,13,13,dark);r(85+ox,60+oy,5,5,steel);};
+    if(type==='frag-cutters'){cutters();return;}
+    if(type==='frag-kit'){r(18,13,156,104,dark);r(22,17,148,96,edge);r(26,21,140,88,'#243b50');g.save();g.translate(-14,4);g.scale(.8,.8);cutters();g.restore();r(116,34,7,61,steel);poly(g,[[116,34],[116,23],[132,23],[122,34]],steel);r(139,25,5,67,grip);r(134,22,15,6,steel);for(let i=0;i<2;i++){r(114+i*24,100,15,5,'#d6c9ae');r(120+i*24,105,4,7,'#ac9d7e');}return;}
+    if(type==='frag-saw'){r(44,104,106,9,edge);r(49,95,96,9,steel);r(44,27,17,69,dark);r(49,23,12,12,grip);r(55,21,83,10,edge);r(129,29,9,59,steel);for(let i=0;i<10;i++)r(126,38+i*5,3,3,'#eef8ff');r(65,82,70,9,edge);r(68,75,65,7,steel);r(61,43,27,31,'#334f66');r(65,48,19,19,grip);return;}
+    if(type==='frag-plugs'){for(let i=0;i<3;i++){const x=34+i*49,y=35+(i%2)*20;r(x+12,y+13,12,40,'#9c8f75');r(x+15,y+17,4,30,'#d6c9ae');poly(g,[[x,y+6],[x+10,y],[x+30,y],[x+40,y+7],[x+40,y+17],[x+30,y+23],[x+10,y+23],[x,y+17]],'#d6c9ae');r(x+9,y+7,24,7,'#f1e7d0');}return;}
+    if(type==='frag-mounting'){r(40,39,37,65,steel);r(46,29,25,13,grip);r(53,11,10,20,'#e1edf5');r(45,59,27,23,'#517fa4');r(95,51,55,50,'#f1e7d0');r(100,56,45,36,'#b5a78b');r(106,63,32,5,'#f1e7d0');r(106,76,23,5,'#f1e7d0');return;}
+  }
   if(p.kind==='medicine'){const colors={diagnostic:'#91b5d3',copper:'#be996b',ciliate:'#8cbba5',fluke:'#98b3d3',antibacterial:'#d3a2b7',support:'#b5c88b',coralDip:'#c7a2d9',coralSupport:'#7ec7bf',mystery:'#e39172',experimental:'#a594dc'},id=p.args.product;r(68,30,56,81,'#253449');r(77,20,38,17,'#536B83');r(74,55,44,44,colors[id]||'#91b5d3');r(88,62,15,5,'#F3F7FC');r(93,57,5,16,'#F3F7FC');if(id==='diagnostic'){r(135,44,13,65,'#91b5d3');r(137,43,9,8,'#F3F7FC');}if(AL.Health.products[id]?.restricted){r(80,85,30,4,'#EF7075');r(94,79,4,15,'#EF7075');}return;}
   if(p.kind==='decor'){
     if(type==='cave'){AL.AssetBank.drawObject(g,'rocks','fiji',3,96,118,124);return;}

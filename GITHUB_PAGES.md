@@ -1,5 +1,9 @@
 # Aquarium Life — GitHub Pages deployment
 
+## v3.7 equipment, inspector research and Dock Casino - 2026-10-15
+
+Current playable release is v3.7 / consolidated MDP v4.0. DIST includes equipment-category search filters, original fragging-tool previews, owned-fish inspector research at 5 AC once per species, playable Gold Fish and Predator & Prey, and aligned aquarium header controls. All player data, including casino rounds and research, remains device-local. Use the rebuilt DIST contents or AquariumLife-GitHub-Pages.zip at the site root. See STORE_CASINO_UPDATE_REPORT.md and CASINO_RULES.md for changes, odds, persistence and limitations. Earlier build/release sections below are historical.
+
 ## Heater levels and permanent mortality journal v3.6 - current, 2026-10-15
 
 Marine equipment now offers seven fixed heater levels: 5-20, 20-75, 75-250, 250-1,000, 1,000-3,000, 3,000-7,500 and 7,500-15,000 US gallons. Store recommendations use the selected aquarium; undersized new purchases are blocked. The main tank view shows heater state, rated capacity and condition. Legacy heaters retain their actual saved ratings; transfers never resize a heater.

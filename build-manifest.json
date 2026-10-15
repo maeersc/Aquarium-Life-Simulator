@@ -1,21 +1,26 @@
 {
-  "builtAt": "2026-10-15T16:18:57.799860+00:00",
+  "builtAt": "2026-10-15T17:16:24.041567+00:00",
   "entryPoint": "index.html",
-  "gameContent": "v3.6",
+  "gameContent": "v3.7",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1522,
-  "sourceBytes": 456032555,
+  "sourceFiles": 1530,
+  "sourceBytes": 456083799,
   "files": [
     {
       "path": "ART_DIRECTION.md",
-      "bytes": 26112,
-      "sha256": "8fc58164c45aec196562dff994eb0c1530a2352f041228c4c3ead154e784accc"
+      "bytes": 26995,
+      "sha256": "d93fbb89ee3292cd03fe6323f3299e6a861689d5a4c826bb52326480313c1d2a"
     },
     {
       "path": "ART_UPDATE_REPORT.md",
       "bytes": 8084,
       "sha256": "17401daf03d3029daa11dc4447350e15fe83069d5387077c2709f5ff548a0cac"
+    },
+    {
+      "path": "CASINO_RULES.md",
+      "bytes": 5190,
+      "sha256": "ce3e2d459837c182abd19c07c8b5eeda8d394070834c1bd48b7c188422c3a551"
     },
     {
       "path": "CURRENT_FISH_CATALOG.md",
@@ -29,13 +34,13 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 40167,
-      "sha256": "1735d1d3e652df24ec313981eeaee0f009b65be836962324fc79dc8ed4cff74c"
+      "bytes": 41050,
+      "sha256": "274d171c72b5c53206ab89d573d744d43fb063118703ae40e263eacb5d8f50ca"
     },
     {
       "path": "GITHUB_PAGES.md",
-      "bytes": 7367,
-      "sha256": "73cfe572c8ef2d92f523ba1ef0a0bc987685f85367ff3e4407b07a39dda95745"
+      "bytes": 8027,
+      "sha256": "2ffddc159a094df94b925c74e0949b1fd055253b8816bd9da743534c74ce6229"
     },
     {
       "path": "HEATER_MORTALITY_REPORT.md",
@@ -46,6 +51,11 @@
       "path": "MORTALITY_LOG_SCHEMA.md",
       "bytes": 6942,
       "sha256": "faa3d80c665c74039c82e6a5767bebec16839ec98b8f3251b6365632746dfe96"
+    },
+    {
+      "path": "STORE_CASINO_UPDATE_REPORT.md",
+      "bytes": 8726,
+      "sha256": "c7a16cb8cffae70c8632d3ab7228665284f8028b6472fdfa9da4fa615e793c04"
     },
     {
       "path": "UI_LAYOUT_CLEANUP_REPORT.md",
@@ -7218,6 +7228,11 @@
       "sha256": "6349c4189a2b35326c2950cbca0b9abc8361b2850d023add346a1d26e5398d76"
     },
     {
+      "path": "css/store-casino.css",
+      "bytes": 4118,
+      "sha256": "72eba925d4cd973cfeffc656af6111de1794feb49d27118af21cac2b996cfa34"
+    },
+    {
       "path": "css/store.css",
       "bytes": 3882,
       "sha256": "8b24275065a250925d31bb40cb30cf1fcb148b534fb84b45e483709f92ec82f6"
@@ -7229,8 +7244,8 @@
     },
     {
       "path": "css/ui-cleanup.css",
-      "bytes": 2114,
-      "sha256": "ce985e37380dbd0cfc64a6dba380e2226cd7bf3f348707c6dd80c4fa8b5270ec"
+      "bytes": 2630,
+      "sha256": "a0d898e8f64ef4e4ae1c7f3154bd9d99737c8458d7f0f7d4f355b5286863bcfe"
     },
     {
       "path": "css/update29.css",
@@ -7249,13 +7264,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 12146,
-      "sha256": "75162927dd099d1947102d8bacd9556c09d7e19ee6b453217762a2a644cf0b76"
+      "bytes": 12655,
+      "sha256": "49fcae90db5a7fa8dc1d3037e0a3e4f898acb147d4b87a136a2cea479148846c"
     },
     {
       "path": "js/app-shell.js",
-      "bytes": 29901,
-      "sha256": "5b770ee238a94714a3b49b126630045357d93a956adf93fe72814efe55e98fa6"
+      "bytes": 30889,
+      "sha256": "e879fd8edc49072ae43e84fb13bafd43cd9ad84acd6a263119bebf4ec2c6e300"
     },
     {
       "path": "js/art-assets-data.js",
@@ -7281,6 +7296,26 @@
       "path": "js/brood-view.js",
       "bytes": 7445,
       "sha256": "e95a39143f6f185d5f5ce0b3d4ae803359ea2df7ff39f9f354f35e8e89468631"
+    },
+    {
+      "path": "js/casino-art.js",
+      "bytes": 2449,
+      "sha256": "807d0185d84563797014d13801e5ed6588b84b5fb091cd363e163c45f9fc7048"
+    },
+    {
+      "path": "js/casino-rules.js",
+      "bytes": 3812,
+      "sha256": "ff52ea57e5e1912769d699d42d5e9ead578ab397c953962bfbe33145e63d30bb"
+    },
+    {
+      "path": "js/casino-ui.js",
+      "bytes": 11179,
+      "sha256": "d64c2be029e263f649fa4c0469a2f0387c537be1ab8fd538d6ca631033acd724"
+    },
+    {
+      "path": "js/casino.js",
+      "bytes": 6487,
+      "sha256": "d8400e0dcf8c7e047879b097fa2c25a8df3322ce3b4bbc7a6a3b4e786163ccb1"
     },
     {
       "path": "js/clownfish-art-bank.js",
@@ -7314,8 +7349,8 @@
     },
     {
       "path": "js/core.js",
-      "bytes": 38303,
-      "sha256": "fb27d106798bffdeb4652f919ae357c41952ed6657eee3ad392f5e11ebb9f194"
+      "bytes": 38497,
+      "sha256": "c37cb201dd1363f4a429496a08b591f0993cdde07bbb9cd12bca235d09a82953"
     },
     {
       "path": "js/daily-store.js",
@@ -7353,6 +7388,11 @@
       "sha256": "b9f1db4cc333aa82084ee11f5c2ea5282a2b2800ef134c97b42b4db596ae96cd"
     },
     {
+      "path": "js/equipment-catalog.js",
+      "bytes": 2115,
+      "sha256": "6bc24d9d01f292e09ff31637254853dc1e552ad303ddb4c6f5b28698635296e4"
+    },
+    {
       "path": "js/expansion-art-data.js",
       "bytes": 8503026,
       "sha256": "719ee07fba208829ca8985b09fc68514b5cb85156303c71e3cedd77de2122009"
@@ -7384,8 +7424,8 @@
     },
     {
       "path": "js/finance.js",
-      "bytes": 8332,
-      "sha256": "178eed9495ef831e12cd272a929022450e24b88a124a873c8f373f9bc3415dfa"
+      "bytes": 8356,
+      "sha256": "ad13e83edccfc49a17173b73da6597669f955d671ac5a530884bf15fd24def7c"
     },
     {
       "path": "js/gameplay-ui.js",
@@ -7459,8 +7499,8 @@
     },
     {
       "path": "js/main.js",
-      "bytes": 3173,
-      "sha256": "81f4c373f5f4d35afa4a28f7308b518e7d4630c269c65d7a531de80dfcf28399"
+      "bytes": 3233,
+      "sha256": "1390a99609e2a57260b3801db017b5e89210862ef913e264081b7d91d8490740"
     },
     {
       "path": "js/marine-care.js",
@@ -7484,8 +7524,8 @@
     },
     {
       "path": "js/offline.js",
-      "bytes": 8947,
-      "sha256": "f191068bff546541878285f7a40adfcfc16b3721ab5003f8c56ece667b97f214"
+      "bytes": 8972,
+      "sha256": "577409bc862baa774800e2ddfa9591c1323b78ce1ed904342de444d1ebf297f0"
     },
     {
       "path": "js/overnight-ui.js",
@@ -7519,13 +7559,13 @@
     },
     {
       "path": "js/research.js",
-      "bytes": 1946,
-      "sha256": "2bd04cb33da42d1b2b95f93731553f1792b259cc4ad7568d24bbd9a90017ddd0"
+      "bytes": 2280,
+      "sha256": "55a182902dc3c93cacc38389656cb4d18b7ba6b3990996b82983306caad63184"
     },
     {
       "path": "js/save.js",
-      "bytes": 16130,
-      "sha256": "9ca46cd70c36e8ab9c5bb5cfa41e3c969550c99074f981017627f92736ffc048"
+      "bytes": 16252,
+      "sha256": "6659325e0bef9d0f37eeaee2228c0b3ba5a7aacf76ee55da2bf69f5fec0a04e8"
     },
     {
       "path": "js/simulation.js",
@@ -7539,8 +7579,8 @@
     },
     {
       "path": "js/store-art.js",
-      "bytes": 2836,
-      "sha256": "9c4e3d4ba180b79c27065ac31b5640f5c7634b0a22940a47b086c96bf3ee206e"
+      "bytes": 4694,
+      "sha256": "df888de25818e67044dba284328428115905075ac39f7dcaf7d5b23f5dd2ebab"
     },
     {
       "path": "js/store-rules.js",
@@ -7549,8 +7589,8 @@
     },
     {
       "path": "js/store.js",
-      "bytes": 26910,
-      "sha256": "ba7504a631ab252b74b47e6606c6b04136d177853ae88e8141a5ecd3a9d3607c"
+      "bytes": 28204,
+      "sha256": "96eaa7ee271030037253cff7cdb455913b024acf6198da3b3fc3c3598bab00a2"
     },
     {
       "path": "js/thermal.js",
@@ -7559,8 +7599,8 @@
     },
     {
       "path": "js/ui.js",
-      "bytes": 68594,
-      "sha256": "d0d1f408bd12cd1af9896b0d6fd00d80169bfdedcf912b7d72e4e6cd0f306bdc"
+      "bytes": 68772,
+      "sha256": "191f022e1c3e799358832f2d9bf6d9e4aaff1577352ef4cccfbf29534bb59e99"
     },
     {
       "path": "js/update29-art-data.js",
@@ -7589,13 +7629,13 @@
     },
     {
       "path": "js/update29.js",
-      "bytes": 14209,
-      "sha256": "8948bd3ea3d30af5c87ee73996cbc121f2c809952d35a48ebb58c52b8c68501a"
+      "bytes": 14252,
+      "sha256": "4b7fb5d4884100b700692d5383be66fbf51f3ef37424beedba2542a14ff8e406"
     },
     {
       "path": "js/update31-ui.js",
-      "bytes": 23977,
-      "sha256": "83492d77761e80d2c58e369e0c43fd33a3725fdcc4ce7abce06fd3cd3139444d"
+      "bytes": 22574,
+      "sha256": "58b9c22f6022214dce38ad0ff314de01a11491d60b34f53221b78af2f56f9623"
     },
     {
       "path": "js/update31.js",

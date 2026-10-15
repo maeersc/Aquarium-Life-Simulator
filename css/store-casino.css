@@ -1,0 +1,31 @@
+[hidden]{display:none!important}
+.store-searchbar{flex-wrap:wrap;align-items:end;gap:12px}
+.store-searchbar label{display:flex;flex:1 1 240px;flex-direction:column;align-items:stretch;gap:6px;min-width:0}
+#store-dialog .store-searchbar input{width:100%;max-width:none}
+.store-searchbar #equipment-filter-label{flex:0 1 260px}
+#equipment-filter{width:100%}
+.fish-research-action{padding:15px;border:1px solid var(--line);border-radius:8px;background:var(--panel-dark);margin:16px 0}
+#dialog .store-preview{max-width:260px;margin:12px auto;object-fit:contain}
+.nav-icon svg{display:inline-block;vertical-align:middle;image-rendering:pixelated}
+#casino-dialog{padding:0;width:min(900px,calc(100vw - 28px));max-width:900px;height:min(850px,90dvh);max-height:90dvh;background:var(--panel-dark);overflow:hidden}
+#casino-dialog[open]{display:flex;flex-direction:column}
+.casino-header{position:relative;display:flex;gap:18px;align-items:center;background:var(--panel);padding:20px 60px 20px 22px;flex-shrink:0}
+.casino-header>canvas{width:144px;height:96px;image-rendering:pixelated;border-radius:6px}
+.casino-header h2{font-size:25px;margin:0 0 5px}.casino-header p{margin:0 0 8px}.casino-header strong{color:var(--accent)}
+#casino-close{position:absolute;right:12px;top:12px;padding:3px 10px;font-size:24px}
+.casino-body{min-height:0;overflow:auto;overscroll-behavior:contain;padding:20px 24px}
+.casino-body p{font-size:12px;line-height:1.7;overflow-wrap:anywhere}
+.casino-games{display:flex;flex-direction:row;gap:8px;margin-bottom:20px}
+.casino-games button[aria-pressed=true]{border-color:var(--accent);color:var(--accent);background:var(--panel)}
+.casino-payouts{width:100%;border-collapse:collapse;font-size:12px;margin:15px 0}.casino-payouts caption{text-align:left;color:var(--text-muted);margin-bottom:10px}.casino-payouts th,.casino-payouts td{text-align:left;padding:9px;border-bottom:1px solid var(--line)}
+.casino-scene{display:flex;align-items:center;justify-content:center;gap:12px;min-height:140px;padding:14px;background:#132334;border:1px solid var(--line);border-radius:8px;margin:16px 0}
+.casino-scene>canvas{display:block;width:min(25%,160px);height:auto;image-rendering:pixelated}
+.casino-card{background:var(--panel);border:1px solid #54758c;border-radius:8px;padding:12px;flex:1;max-width:300px;min-width:0}.casino-card img{width:100%;height:100px;object-fit:contain;image-rendering:pixelated}.casino-card h3{margin:6px 0;font-size:15px}.casino-card em{font-size:11px}.casino-card small{color:var(--accent)}
+.casino-roster{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}.casino-roster .casino-card{max-width:none}
+.casino-body form{display:flex;align-items:end;gap:12px;flex-wrap:wrap;margin:18px 0}.casino-body label{display:flex;flex-direction:column;gap:7px;min-width:0;font-size:12px}.casino-body input{max-width:200px}
+.casino-confirm{padding:16px;border:1px solid var(--accent);border-radius:8px}.casino-confirm button{margin-right:8px}.casino-effect{display:block;margin:0 auto;width:72px;height:48px;image-rendering:pixelated}
+#casino-feedback{color:var(--warning)}.casino-body details{padding:12px 0;border-top:1px solid var(--line)}.casino-body summary{cursor:pointer;font-size:13px}
+.casino-spinning canvas{animation:casino-bob .3s steps(2,end) infinite alternate}.casino-spinning canvas:nth-child(2){animation-delay:.1s}.casino-spinning canvas:nth-child(3){animation-delay:.2s}
+@keyframes casino-bob{from{transform:translateY(-5px)}to{transform:translateY(5px)}}
+@media(max-width:650px){.store-searchbar #equipment-filter-label{flex:1 1 240px}.casino-header>canvas{width:72px;height:48px}.casino-header{padding:20px 48px 15px 14px;gap:10px}.casino-header h2{font-size:20px}.casino-header p{font-size:11px}.casino-body{padding:14px}.casino-roster{grid-template-columns:repeat(2,minmax(0,1fr))}.casino-payouts{font-size:10px}.casino-scene{gap:6px;padding:8px}.casino-card{padding:8px}.casino-card img{height:70px}.casino-card h3{font-size:12px}.casino-card p{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.casino-spinning canvas{animation:none}}
