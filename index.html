@@ -44,7 +44,7 @@
   <script defer src="js/update31.js"></script><script defer src="js/research-data.js"></script><script defer src="js/research.js"></script><script defer src="js/update29.js"></script><script defer src="js/update29-ui.js"></script>
   <script defer src="js/update31-ui.js"></script><script defer src="js/overnight-ui.js"></script><script defer src="js/mortality-ui.js"></script><script defer src="js/main.js"></script>
   <link rel="stylesheet" href="css/diving.css"><link rel="stylesheet" href="css/update29.css"><link rel="stylesheet" href="css/update31.css">
-<link rel="stylesheet" href="css/rarity.css"></head>
+<link rel="stylesheet" href="css/rarity.css"><link rel="stylesheet" href="css/ui-cleanup.css"></head>
 <body>
   <div id="app">
     <aside class="sidebar">
@@ -56,8 +56,7 @@
     <main>
       <header class="topbar"><button class="level-badge" id="level" aria-label="Open Keeper Progress">01</button><button id="ocean-diving" class="ocean-diving-button" aria-haspopup="dialog"><span aria-hidden="true">◉</span> Ocean Diving</button><div class="keeper">Aquarium keeper<small id="rank">A new beginning</small></div><div class="top-spacer"></div><div id="clock" class="clock"></div><button class="currency" id="finance-open" aria-label="Aquarium Credits - Financial Overview"><span class="coin">◈</span><strong id="credits">5,000</strong><small>AC</small></button><span class="premium-preview" title="VIP preview currency — purchases disabled">◇ 0 <small>PREVIEW</small></span><button class="icon-button" data-action="notifications" aria-label="Notifications and event history">≡</button><button id="save-button" class="quiet" title="Save now">Save</button><button id="settings-button" class="icon-button" aria-label="Settings">⚙</button></header>
       <div class="workspace">
-        <div class="page-heading"><div><div class="eyebrow">A LITTLE CARE. A WORLD OF LIFE.</div><h1 id="page-title">Your aquariums<span>.</span></h1></div><button class="outline" id="new-tank">+ New aquarium</button></div>
-        <div id="tank-tabs" class="tank-tabs" aria-label="Select aquarium"></div>
+        <div class="page-heading"><h1 id="page-title">Your aquariums<span>.</span></h1><div class="aquarium-controls"><label class="aquarium-selector"><span class="visually-hidden">Current aquarium</span><select id="aquarium-selector" aria-label="Current aquarium"></select></label><button class="outline" id="new-tank">+ New aquarium</button></div></div>
         <div class="main-grid">
           <section class="aquarium-column">
             <div class="tank-card">
@@ -66,7 +65,6 @@
               <div id="placement-banner" class="placement-banner" hidden><div><strong id="placement-title">Place your coral</strong><small id="placement-instructions">Move the preview and click to place. Arrow keys and Enter also work.</small></div><button id="cancel-placement" class="outline">Cancel</button></div>
               <div class="tank-footer"><span id="livestock-count">0 residents</span><div class="time-controls" aria-label="Simulation speed"><button data-speed="0" aria-label="Pause">Ⅱ</button><button data-speed="1" class="active">1×</button><button data-speed="5">5×</button><button data-speed="20">20×</button></div></div>
             </div>
-            <div class="care-actions"><button id="feed-quick"><span class="action-icon">⁙</span><div>Feed fish<small>A little goes a long way</small></div><span>↗</span></button><button id="water-quick"><span class="action-icon">≈</span><div>Water change<small>Keep things in balance</small></div><span>↗</span></button><button id="store-quick"><span class="action-icon">⌑</span><div>Add a resident<small>Find the right company</small></div><span>↗</span></button></div>
             <section id="management" class="management" aria-live="polite"></section>
           </section>
           <aside class="right-column"><section class="panel water-panel"><div class="section-title"><h2>Water & wellbeing</h2><span id="condition" class="pill">Settling in</span></div><div id="water-stats"></div><div class="bioload"><div><span>Bioload <small title="A normalized game indicator, not a universal biological measurement">ⓘ</small></span><strong id="bioload-label">0 / 100</strong></div><div class="meter"><i id="bioload-bar"></i></div></div><div id="water-warning" class="water-warning"></div><button class="text-button" id="advanced-water">View water laboratory →</button></section><section class="panel next-panel"><div class="eyebrow">ONE SMALL STEP</div><h2 id="next-title">Make yourself at home</h2><p id="next-description">Prepare a safe home for your first residents.</p><div id="quest-progress"></div><button class="text-button" id="quest-link">Open field journal →</button></section><section class="panel log-panel"><div class="section-title"><h2>Life lately</h2><span class="live-label">LIVE</span></div><div id="event-log"></div></section></aside>

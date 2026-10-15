@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-15T15:12:58.398684+00:00",
+  "builtAt": "2026-10-15T16:18:57.799860+00:00",
   "entryPoint": "index.html",
   "gameContent": "v3.6",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1520,
-  "sourceBytes": 456024826,
+  "sourceFiles": 1522,
+  "sourceBytes": 456032555,
   "files": [
     {
       "path": "ART_DIRECTION.md",
@@ -29,8 +29,8 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 39400,
-      "sha256": "4e7a15ad8096454cb2a1744a46a8d41d8fb79d4581acb5bf7df0c18f80241ecd"
+      "bytes": 40167,
+      "sha256": "1735d1d3e652df24ec313981eeaee0f009b65be836962324fc79dc8ed4cff74c"
     },
     {
       "path": "GITHUB_PAGES.md",
@@ -46,6 +46,11 @@
       "path": "MORTALITY_LOG_SCHEMA.md",
       "bytes": 6942,
       "sha256": "faa3d80c665c74039c82e6a5767bebec16839ec98b8f3251b6365632746dfe96"
+    },
+    {
+      "path": "UI_LAYOUT_CLEANUP_REPORT.md",
+      "bytes": 5342,
+      "sha256": "d1f519c4f86696bceccbfe271281b159dabe968b69aafb69a14eec348552fa9a"
     },
     {
       "path": "art-review-v1.html",
@@ -7223,6 +7228,11 @@
       "sha256": "f5a1ba0dea8ac7532f07b2112ff1adc73d51b060744493bc947ae463ae7988a0"
     },
     {
+      "path": "css/ui-cleanup.css",
+      "bytes": 2114,
+      "sha256": "ce985e37380dbd0cfc64a6dba380e2226cd7bf3f348707c6dd80c4fa8b5270ec"
+    },
+    {
       "path": "css/update29.css",
       "bytes": 1845,
       "sha256": "db65565d2cdfc84a03cd29bad17aa5c3b0ab118218fa21a68a07bd51ac60f290"
@@ -7239,13 +7249,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 12532,
-      "sha256": "890346be07c55068983a09222c8ecd53be2c1302505202a3f3a4dc688498dda3"
+      "bytes": 12146,
+      "sha256": "75162927dd099d1947102d8bacd9556c09d7e19ee6b453217762a2a644cf0b76"
     },
     {
       "path": "js/app-shell.js",
-      "bytes": 30030,
-      "sha256": "c938457b476a77f8f9d60e83fdb2cfef510b670f6d406c92c4f4f421cbc3bc6d"
+      "bytes": 29901,
+      "sha256": "5b770ee238a94714a3b49b126630045357d93a956adf93fe72814efe55e98fa6"
     },
     {
       "path": "js/art-assets-data.js",
@@ -7549,8 +7559,8 @@
     },
     {
       "path": "js/ui.js",
-      "bytes": 68573,
-      "sha256": "39c4c3fd52e4643947d5157d0c36204f043fb3ae79665a89bd1ed98a2d91821c"
+      "bytes": 68594,
+      "sha256": "d0d1f408bd12cd1af9896b0d6fd00d80169bfdedcf912b7d72e4e6cd0f306bdc"
     },
     {
       "path": "js/update29-art-data.js",

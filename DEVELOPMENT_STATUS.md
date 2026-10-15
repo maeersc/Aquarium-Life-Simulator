@@ -1,5 +1,9 @@
 # Development status — 2026-10-15
 
+## Main aquarium layout cleanup - 2026-10-15
+
+The main screen now pairs a compact owned-aquarium dropdown with + New aquarium, centers the Keeper badge, removes the decorative slogan and three bottom care cards, and uses the reclaimed space for a larger proportional tank. Feeding remains in Equipment > Tank Care > Feeding, water changes in Equipment > Water Change, and livestock purchases in Aquarium Store. The dropdown preserves the selected destination through existing local saves. Canvas coordinates, three-second selection highlights, freshwater lockout and simulation rules remain unchanged. See [UI_LAYOUT_CLEANUP_REPORT.md](UI_LAYOUT_CLEANUP_REPORT.md) for changed files, desktop measurements, offline Chrome/Edge acceptance results and limitations.
+
 ## Heater levels and permanent mortality journal v3.6 - current, 2026-10-15
 
 Marine equipment now offers seven fixed heater levels: 5-20, 20-75, 75-250, 250-1,000, 1,000-3,000, 3,000-7,500 and 7,500-15,000 US gallons. Store recommendations use the selected aquarium; undersized new purchases are blocked. The main tank view shows heater state, rated capacity and condition. Legacy heaters retain their actual saved ratings; transfers never resize a heater.
