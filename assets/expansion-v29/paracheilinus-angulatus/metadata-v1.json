@@ -1,0 +1,161 @@
+{
+  "id": "paracheilinus-angulatus",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "357ebc1e3d0af98622fdd564b7ab9c1c0b82f126ccba8620908776a668be6e9e",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        216,
+        170,
+        380
+      ],
+      "packedBounds": [
+        21,
+        8,
+        170,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        141,
+        170,
+        303
+      ],
+      "packedBounds": [
+        20,
+        8,
+        171,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        212,
+        273,
+        379
+      ],
+      "packedBounds": [
+        8,
+        26,
+        184,
+        134
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        139,
+        273,
+        304
+      ],
+      "packedBounds": [
+        8,
+        27,
+        184,
+        133
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        162,
+        366,
+        393
+      ],
+      "packedBounds": [
+        8,
+        24,
+        184,
+        135
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        103,
+        374,
+        329
+      ],
+      "packedBounds": [
+        8,
+        27,
+        184,
+        133
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        73,
+        505,
+        395
+      ],
+      "packedBounds": [
+        8,
+        24,
+        184,
+        136
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        70,
+        506,
+        375
+      ],
+      "packedBounds": [
+        8,
+        27,
+        184,
+        133
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

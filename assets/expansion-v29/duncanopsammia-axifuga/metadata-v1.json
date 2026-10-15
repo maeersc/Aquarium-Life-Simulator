@@ -1,0 +1,161 @@
+{
+  "id": "duncanopsammia-axifuga",
+  "category": "coral",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "0cbd66e699c87a479bd19a20fa994d783695dd9842ca77abd83b2407aac1e0f9",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        260,
+        132,
+        425
+      ],
+      "packedBounds": [
+        38,
+        8,
+        153,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        131,
+        117,
+        286
+      ],
+      "packedBounds": [
+        41,
+        8,
+        150,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        228,
+        185,
+        428
+      ],
+      "packedBounds": [
+        29,
+        8,
+        162,
+        152
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        112,
+        187,
+        298
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        131,
+        328,
+        428
+      ],
+      "packedBounds": [
+        16,
+        8,
+        175,
+        152
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        66,
+        313,
+        348
+      ],
+      "packedBounds": [
+        16,
+        8,
+        176,
+        152
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        42,
+        482,
+        427
+      ],
+      "packedBounds": [
+        8,
+        9,
+        184,
+        150
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        33,
+        448,
+        382
+      ],
+      "packedBounds": [
+        8,
+        11,
+        184,
+        148
+      ]
+    }
+  ],
+  "lifeStageBiology": "settled coral polyp or appropriately small propagated frag, NOT a fish egg",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

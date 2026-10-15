@@ -1,0 +1,161 @@
+{
+  "id": "zebrasoma-gemmatum",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "d894f41da2e61105152d2a32348ff4ad7c480d2ad56f7affd7953d64bebd3965",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        184,
+        229,
+        409
+      ],
+      "packedBounds": [
+        22,
+        8,
+        169,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        104,
+        229,
+        331
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        224,
+        286,
+        371
+      ],
+      "packedBounds": [
+        8,
+        35,
+        184,
+        125
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        149,
+        300,
+        293
+      ],
+      "packedBounds": [
+        8,
+        38,
+        184,
+        122
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        135,
+        323,
+        401
+      ],
+      "packedBounds": [
+        8,
+        8,
+        183,
+        152
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        82,
+        336,
+        351
+      ],
+      "packedBounds": [
+        8,
+        9,
+        184,
+        150
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        25,
+        523,
+        423
+      ],
+      "packedBounds": [
+        8,
+        13,
+        184,
+        147
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        21,
+        520,
+        427
+      ],
+      "packedBounds": [
+        8,
+        11,
+        184,
+        148
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

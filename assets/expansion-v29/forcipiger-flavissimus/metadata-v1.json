@@ -1,0 +1,161 @@
+{
+  "id": "forcipiger-flavissimus",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "9e8fe121b779253880803c2253e79336064f5ca85866f947a929e1e948b1eb74",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        196,
+        246,
+        436
+      ],
+      "packedBounds": [
+        22,
+        8,
+        170,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        82,
+        238,
+        308
+      ],
+      "packedBounds": [
+        20,
+        8,
+        172,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        197,
+        359,
+        391
+      ],
+      "packedBounds": [
+        8,
+        32,
+        184,
+        127
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        115,
+        369,
+        300
+      ],
+      "packedBounds": [
+        8,
+        36,
+        184,
+        124
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        123,
+        383,
+        405
+      ],
+      "packedBounds": [
+        8,
+        15,
+        184,
+        145
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        71,
+        381,
+        354
+      ],
+      "packedBounds": [
+        8,
+        14,
+        184,
+        145
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        52,
+        519,
+        429
+      ],
+      "packedBounds": [
+        8,
+        16,
+        184,
+        144
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        25,
+        523,
+        405
+      ],
+      "packedBounds": [
+        8,
+        16,
+        184,
+        144
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

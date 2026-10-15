@@ -1,0 +1,161 @@
+{
+  "id": "periclimenes-colemani",
+  "category": "bottom_dweller",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "34a7ff949c8ccd3f416fa0d0dd762b5e86c1cfb4e61341a2ba1f3585d603ef40",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        174,
+        274,
+        413
+      ],
+      "packedBounds": [
+        13,
+        8,
+        178,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        83,
+        280,
+        321
+      ],
+      "packedBounds": [
+        11,
+        8,
+        180,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        129,
+        311,
+        412
+      ],
+      "packedBounds": [
+        17,
+        8,
+        175,
+        152
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        64,
+        311,
+        344
+      ],
+      "packedBounds": [
+        16,
+        8,
+        176,
+        152
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        109,
+        379,
+        417
+      ],
+      "packedBounds": [
+        8,
+        8,
+        184,
+        151
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        75,
+        383,
+        319
+      ],
+      "packedBounds": [
+        8,
+        24,
+        184,
+        136
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        56,
+        571,
+        418
+      ],
+      "packedBounds": [
+        8,
+        24,
+        184,
+        136
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        38,
+        554,
+        386
+      ],
+      "packedBounds": [
+        8,
+        24,
+        184,
+        135
+      ]
+    }
+  ],
+  "lifeStageBiology": "brooded embryonic cluster, then free swimming zoea larva, then settled juvenile; depict shrimp anatomy, NOT miniature adult in a fish egg",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

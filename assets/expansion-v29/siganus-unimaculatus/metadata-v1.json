@@ -1,0 +1,161 @@
+{
+  "id": "siganus-unimaculatus",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "17fd451f0c4811a162df8eb0b0402054f29409fd2cfcb16262ad817e1076998f",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        220,
+        184,
+        403
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        123,
+        185,
+        307
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        208,
+        329,
+        386
+      ],
+      "packedBounds": [
+        8,
+        32,
+        184,
+        127
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        127,
+        332,
+        299
+      ],
+      "packedBounds": [
+        8,
+        34,
+        184,
+        125
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        127,
+        385,
+        392
+      ],
+      "packedBounds": [
+        8,
+        19,
+        184,
+        140
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        80,
+        383,
+        351
+      ],
+      "packedBounds": [
+        8,
+        17,
+        184,
+        142
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        41,
+        551,
+        420
+      ],
+      "packedBounds": [
+        8,
+        19,
+        184,
+        140
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        28,
+        551,
+        411
+      ],
+      "packedBounds": [
+        8,
+        19,
+        184,
+        141
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

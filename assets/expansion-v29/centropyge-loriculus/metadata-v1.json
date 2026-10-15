@@ -1,0 +1,161 @@
+{
+  "id": "centropyge-loriculus",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "f64b32e4ebc25205e02a8d0bfa9876d6cd47810e8642614949437caaae1f4293",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        222,
+        198,
+        415
+      ],
+      "packedBounds": [
+        22,
+        8,
+        170,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        89,
+        200,
+        288
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        150,
+        341,
+        412
+      ],
+      "packedBounds": [
+        8,
+        12,
+        184,
+        147
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        65,
+        336,
+        333
+      ],
+      "packedBounds": [
+        8,
+        10,
+        184,
+        150
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        141,
+        368,
+        415
+      ],
+      "packedBounds": [
+        8,
+        14,
+        184,
+        145
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        62,
+        362,
+        333
+      ],
+      "packedBounds": [
+        8,
+        14,
+        184,
+        146
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        48,
+        506,
+        432
+      ],
+      "packedBounds": [
+        8,
+        13,
+        184,
+        147
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        17,
+        499,
+        392
+      ],
+      "packedBounds": [
+        8,
+        14,
+        184,
+        146
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

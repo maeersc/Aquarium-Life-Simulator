@@ -1,0 +1,161 @@
+{
+  "id": "lysmata-debelius",
+  "category": "bottom_dweller",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "113c076280ffee806f569b944a3a2816466b89610796509026b18ad61776d45c",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        97,
+        348,
+        364
+      ],
+      "packedBounds": [
+        8,
+        12,
+        184,
+        147
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        90,
+        340,
+        338
+      ],
+      "packedBounds": [
+        8,
+        16,
+        184,
+        144
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        98,
+        351,
+        382
+      ],
+      "packedBounds": [
+        8,
+        9,
+        184,
+        151
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        72,
+        336,
+        344
+      ],
+      "packedBounds": [
+        8,
+        9,
+        184,
+        151
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        140,
+        312,
+        371
+      ],
+      "packedBounds": [
+        8,
+        15,
+        184,
+        145
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        103,
+        313,
+        323
+      ],
+      "packedBounds": [
+        8,
+        18,
+        184,
+        142
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        60,
+        559,
+        408
+      ],
+      "packedBounds": [
+        8,
+        25,
+        184,
+        135
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        50,
+        552,
+        378
+      ],
+      "packedBounds": [
+        8,
+        27,
+        184,
+        132
+      ]
+    }
+  ],
+  "lifeStageBiology": "brooded embryonic cluster, then free swimming zoea larva, then settled juvenile; depict shrimp anatomy, NOT miniature adult in a fish egg",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

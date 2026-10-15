@@ -1,0 +1,161 @@
+{
+  "id": "ctenochaetus-tominiensis",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "ec39c68aa64e8149e72ad63aef3c003e06f1ecbff1f16ae2937dd0f47ee44222",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        174,
+        205,
+        373
+      ],
+      "packedBounds": [
+        22,
+        8,
+        170,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        111,
+        205,
+        311
+      ],
+      "packedBounds": [
+        22,
+        8,
+        170,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        192,
+        320,
+        351
+      ],
+      "packedBounds": [
+        8,
+        36,
+        184,
+        123
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        129,
+        319,
+        293
+      ],
+      "packedBounds": [
+        8,
+        35,
+        184,
+        125
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        130,
+        356,
+        378
+      ],
+      "packedBounds": [
+        8,
+        18,
+        184,
+        141
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        84,
+        356,
+        331
+      ],
+      "packedBounds": [
+        8,
+        19,
+        184,
+        141
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        65,
+        498,
+        394
+      ],
+      "packedBounds": [
+        8,
+        22,
+        184,
+        138
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        44,
+        505,
+        375
+      ],
+      "packedBounds": [
+        8,
+        22,
+        184,
+        137
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

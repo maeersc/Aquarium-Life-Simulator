@@ -22,7 +22,7 @@ AL.Expansion=(()=>{
  register();
  function migrate(s){if(!s?.tanks||!s.stock||!s.inventory)return;for(const d of records)s.stock[d.id]??=d.category==='coral'?12:24;for(const id of ['live-plankton','phyto','coral-polyp']){s.inventory[id]??=0;s.stock[id]??=30;}for(const t of s.tanks)if(t.water==='marine'){t.invertebrates??=[];t.ecosystemAge??=0;}if(s.medicineStock&&AL.Health?.products.invertSupport)s.medicineStock.invertSupport??=20;s.expansionVersion??=1;}
  function report(s,t,species){const d=byId[species],reasons=[],warnings=[];if(!d||!t)return {ok:true,reasons,warnings};const r=AL.Data.species[species]||AL.Data.invertebrates[species]||AL.Data.flora[species];
-  if(t.volume<r.minTank)reasons.push('Requires '+d.minGallons+' gal or more.');
+  if(t.volume<r.minTank)reasons.push('Requires '+d.minGallons+' gal or more.');if(r.purchaseVerified===false)reasons.push(r.acquisitionHold||'Care requirements are not yet supported.');if(d.batch==='v2.9'){if(['centropyge-potteri','salarias-fasciatus','macropharyngodon-meleagris','ctenochaetus-strigosus','ctenochaetus-tominiensis'].includes(species)&&(t.ecosystemAge??0)<72)reasons.push('This specialist needs at least 72 game hours of prepared mature habitat.');if(['pygoplites-diacanthus','hymenocera-picta','nemanthias-bartlettorum','macropharyngodon-meleagris','tubastraea-micranthus','rhizotrochus-typus'].includes(species)&&r.diet.some(id=>(s.inventory[id]??0)<5))reasons.push('Keep at least five portions of each listed specialist food before introduction.');if(species==='acanthurus-achilles'&&(!AL.Core.has(t,'flow')||t.waterParams.oxygen<7))reasons.push('Achilles tang requires strong circulation and at least 7 mg/L oxygen.');}
   if(d.category==='coral')return {ok:!reasons.length,reasons,warnings};
   const rocks=t.hardscape?.length||t.decorations.some(x=>x.type==='cave');
   if(['sand','rocks'].includes(d.habitat)&&!rocks)reasons.push('Provide rock shelter or a rock cave before introduction.');
@@ -39,12 +39,12 @@ AL.Expansion=(()=>{
   return {ok:!reasons.length,reasons,warnings};
  }
  function step(s,t,h){if(t.water!=='marine')return;t.ecosystemAge=(t.ecosystemAge||0)+(t.prepared?h:0);
-  for(const f of t.fish){const d=byId[f.species];if(!d||f.dead)continue;const demand=f.species==='purple-queen-anthias'?1.4:f.species==='blotched-anthias'?.6:0;if(demand)f.hunger=AL.Core.clamp(f.hunger+h*demand,0,100);
-   if(f.species==='orange-spotted-filefish'&&f.hunger>55){const coral=t.flora.find(c=>c.hp>0&&c.type==='sps');if(coral){coral.hp=AL.Core.clamp(coral.hp-h*.4,0,100);f.hunger=AL.Core.clamp(f.hunger-h*2,0,100);}}
+  for(const f of t.fish){const d=byId[f.species];if(!d||f.dead)continue;const demand=f.species==='purple-queen-anthias'?1.4:f.species==='blotched-anthias'?.6:0;if(demand&&!AL.MarineCare)f.hunger=AL.Core.clamp(f.hunger+h*demand,0,100);
+   if(f.species==='orange-spotted-filefish'&&f.hunger>55){const coral=t.flora.find(c=>c.hp>0&&c.type==='sps');if(coral){AL.Mortality?.note(s,t,coral,'Coral predation',h*.4);coral.hp=AL.Core.clamp(coral.hp-h*.4,0,100);f.hunger=AL.Core.clamp(f.hunger-h*2,0,100);}}
    if(['assessor','possum'].includes(d.shape)&&f.behavior==='Explore')f.behavior='Hover near shelter';
   }
   const risky=t.fish.find(f=>f.species==='spotted-boxfish'&&(f.dead||f.stress>85));if(risky){t.boxToxin=AL.Core.clamp((t.boxToxin||0)+h*(risky.dead?.12:.025),0,1);if(!t.toxinWarned){t.toxinWarned=true;AL.Core.log(s,t.name+': Spotted Boxfish toxin risk. Correct stress, remove remains and change water.','danger');}}
-  t.boxToxin=Math.max(0,(t.boxToxin||0)*Math.exp(-h*(AL.Core.has(t,'skimmer')?.15:.04)));if(t.boxToxin>0){for(const f of [...t.fish,...(t.invertebrates||[])].filter(f=>!f.dead)){f.hp=AL.Core.clamp(f.hp-h*t.boxToxin*4,0,100);if(f.hp===0){if(f.species)AL.Core.kill(s,t,f,'Boxfish toxin exposure');else AL.Invertebrates.kill(s,t,f,'Boxfish toxin exposure');}}}
+  t.boxToxin=Math.max(0,(t.boxToxin||0)*Math.exp(-h*(AL.Core.has(t,'skimmer')?.15:.04)));if(t.boxToxin>0){for(const f of [...t.fish,...(t.invertebrates||[])].filter(f=>!f.dead)){AL.Mortality?.note(s,t,f,'Boxfish toxin exposure',h*t.boxToxin*4);f.hp=AL.Core.clamp(f.hp-h*t.boxToxin*4,0,100);if(f.hp===0){if(f.species)AL.Core.kill(s,t,f,'Boxfish toxin exposure');else AL.Invertebrates.kill(s,t,f,'Boxfish toxin exposure');}}}
   AL.Invertebrates.step(s,t,h);
  }
  return {records,byId,migrate,report,step};

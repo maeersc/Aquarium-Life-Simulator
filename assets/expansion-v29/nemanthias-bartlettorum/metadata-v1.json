@@ -1,0 +1,161 @@
+{
+  "id": "nemanthias-bartlettorum",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "d6e2ce5fd7aab11d278a672d7756512be5479f164d13202c7923a28398cf58a5",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        178,
+        195,
+        366
+      ],
+      "packedBounds": [
+        21,
+        8,
+        170,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        100,
+        194,
+        289
+      ],
+      "packedBounds": [
+        22,
+        8,
+        170,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        193,
+        306,
+        363
+      ],
+      "packedBounds": [
+        8,
+        31,
+        184,
+        129
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        119,
+        303,
+        282
+      ],
+      "packedBounds": [
+        8,
+        32,
+        184,
+        127
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        157,
+        356,
+        383
+      ],
+      "packedBounds": [
+        8,
+        24,
+        184,
+        136
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        91,
+        360,
+        307
+      ],
+      "packedBounds": [
+        8,
+        27,
+        184,
+        133
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        95,
+        532,
+        393
+      ],
+      "packedBounds": [
+        8,
+        30,
+        184,
+        129
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        71,
+        535,
+        344
+      ],
+      "packedBounds": [
+        8,
+        35,
+        184,
+        125
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

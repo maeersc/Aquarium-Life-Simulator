@@ -1,0 +1,161 @@
+{
+  "id": "pygoplites-diacanthus",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "829fe2e17d5f781640faa69fc7d28ed4b4fcffede6b0731434b9ef960666a42d",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        185,
+        213,
+        396
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        105,
+        213,
+        316
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        152,
+        313,
+        388
+      ],
+      "packedBounds": [
+        8,
+        13,
+        184,
+        146
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        94,
+        321,
+        329
+      ],
+      "packedBounds": [
+        8,
+        15,
+        184,
+        144
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        120,
+        365,
+        396
+      ],
+      "packedBounds": [
+        8,
+        13,
+        184,
+        146
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        72,
+        376,
+        350
+      ],
+      "packedBounds": [
+        8,
+        15,
+        184,
+        145
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        51,
+        514,
+        424
+      ],
+      "packedBounds": [
+        8,
+        16,
+        184,
+        144
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        22,
+        516,
+        397
+      ],
+      "packedBounds": [
+        8,
+        16,
+        184,
+        144
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

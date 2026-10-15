@@ -1,0 +1,161 @@
+{
+  "id": "tubastraea-micranthus",
+  "category": "coral",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceSha256": "d1af5aafcdc93bfe188962710f4f609cd721d8513689636651b97dbd572a3a48",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        324,
+        141,
+        506
+      ],
+      "packedBounds": [
+        40,
+        8,
+        152,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        152,
+        141,
+        334
+      ],
+      "packedBounds": [
+        40,
+        8,
+        152,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        258,
+        194,
+        506
+      ],
+      "packedBounds": [
+        39,
+        8,
+        152,
+        152
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        116,
+        196,
+        368
+      ],
+      "packedBounds": [
+        40,
+        8,
+        152,
+        152
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        156,
+        298,
+        503
+      ],
+      "packedBounds": [
+        34,
+        8,
+        158,
+        152
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        65,
+        295,
+        425
+      ],
+      "packedBounds": [
+        37,
+        8,
+        155,
+        152
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        14,
+        459,
+        503
+      ],
+      "packedBounds": [
+        28,
+        8,
+        163,
+        152
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        11,
+        444,
+        480
+      ],
+      "packedBounds": [
+        28,
+        8,
+        164,
+        152
+      ]
+    }
+  ],
+  "lifeStageBiology": "settled coral polyp or appropriately small propagated frag, NOT a fish egg",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

@@ -1,0 +1,161 @@
+{
+  "id": "halichoeres-chrysus",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "b8ae978756e814aa22dac7468ebac3a0a782f2a317fc7c39b2f5a4190ef83eb8",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        240,
+        182,
+        419
+      ],
+      "packedBounds": [
+        23,
+        8,
+        169,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        79,
+        182,
+        260
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        260,
+        318,
+        385
+      ],
+      "packedBounds": [
+        8,
+        45,
+        184,
+        114
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        109,
+        320,
+        233
+      ],
+      "packedBounds": [
+        8,
+        46,
+        184,
+        114
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        218,
+        372,
+        389
+      ],
+      "packedBounds": [
+        8,
+        39,
+        184,
+        120
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        83,
+        373,
+        257
+      ],
+      "packedBounds": [
+        8,
+        39,
+        184,
+        121
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        156,
+        543,
+        397
+      ],
+      "packedBounds": [
+        8,
+        41,
+        184,
+        119
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        53,
+        541,
+        297
+      ],
+      "packedBounds": [
+        8,
+        40,
+        184,
+        119
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

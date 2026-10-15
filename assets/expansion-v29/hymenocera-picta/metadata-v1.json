@@ -1,0 +1,161 @@
+{
+  "id": "hymenocera-picta",
+  "category": "bottom_dweller",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "366b835be0ec9d5bb41d6b8794d6ff273761a5984ad5fd77c3c89f8b56f3f659",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        212,
+        196,
+        457
+      ],
+      "packedBounds": [
+        38,
+        8,
+        153,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        70,
+        204,
+        318
+      ],
+      "packedBounds": [
+        37,
+        8,
+        155,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        222,
+        336,
+        465
+      ],
+      "packedBounds": [
+        8,
+        16,
+        184,
+        143
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        103,
+        372,
+        272
+      ],
+      "packedBounds": [
+        8,
+        40,
+        184,
+        120
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        149,
+        344,
+        461
+      ],
+      "packedBounds": [
+        16,
+        8,
+        175,
+        152
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        91,
+        382,
+        297
+      ],
+      "packedBounds": [
+        8,
+        32,
+        184,
+        127
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        19,
+        537,
+        465
+      ],
+      "packedBounds": [
+        9,
+        8,
+        182,
+        152
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        37,
+        528,
+        347
+      ],
+      "packedBounds": [
+        8,
+        28,
+        184,
+        131
+      ]
+    }
+  ],
+  "lifeStageBiology": "brooded embryonic cluster, then free swimming zoea larva, then settled juvenile; depict shrimp anatomy, NOT miniature adult in a fish egg",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

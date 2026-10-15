@@ -1,0 +1,161 @@
+{
+  "id": "macropharyngodon-meleagris",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "6345eadf5f85fbe9b0512086c0e2dac9a7e4165ec0ffe69d0d6f94f314ff17d1",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        211,
+        190,
+        392
+      ],
+      "packedBounds": [
+        20,
+        8,
+        171,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        105,
+        190,
+        286
+      ],
+      "packedBounds": [
+        20,
+        8,
+        171,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        215,
+        377,
+        361
+      ],
+      "packedBounds": [
+        8,
+        46,
+        184,
+        114
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        123,
+        376,
+        269
+      ],
+      "packedBounds": [
+        8,
+        46,
+        184,
+        114
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        186,
+        375,
+        382
+      ],
+      "packedBounds": [
+        8,
+        34,
+        184,
+        126
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        98,
+        374,
+        295
+      ],
+      "packedBounds": [
+        8,
+        33,
+        184,
+        126
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        119,
+        535,
+        408
+      ],
+      "packedBounds": [
+        8,
+        32,
+        184,
+        127
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        56,
+        536,
+        344
+      ],
+      "packedBounds": [
+        8,
+        32,
+        184,
+        127
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

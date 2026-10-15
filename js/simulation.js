@@ -13,13 +13,13 @@ AL.Sim = (() => {
   }
   function water(s,t,h){
     const w=t.waterParams,live=K.alive(t),filter=K.capacity(t,'filter')/t.volume;
-    for(const e of t.equipment){if(!e.enabled||e.durability<=0||(t.lightMode==='off'&&['light','reefLight'].includes(e.type)))continue;const before=e.durability;e.durability=clamp(e.durability-h*0.018*(1+t.volume/e.capacity*0.15),0,100);if(before>0&&e.durability===0)K.log(s,`${t.name}: ${D.equipment[e.type].name} failed from wear. Service it now.`,'danger');}
+    for(const e of t.equipment){if(!e.enabled||e.durability<=0||(t.lightMode==='off'&&['light','reefLight'].includes(e.type)))continue;const before=e.durability;e.durability=clamp(e.durability-h*0.018*(1+t.volume/e.capacity*0.15),0,100);if(before>0&&e.durability===0){AL.Mortality?.event?.(s,t,'equipmentFailure',{equipmentType:e.type});K.log(s,`${t.name}: ${D.equipment[e.type].name} failed from wear. Service it now.`,'danger');}}
     const room=22,thermal=Math.min(1,h*0.09*Math.sqrt(75/t.volume));
     const heater=K.capacity(t,'heater')/t.volume,chiller=K.capacity(t,'chiller')/t.volume;
     let target=room+light(s,t)*0.4;
     if(heater&&t.temperatureTarget>target)target=Math.min(t.temperatureTarget,target+heater*8);
     if(chiller&&t.temperatureTarget<target)target=Math.max(t.temperatureTarget,target-chiller*8);
-    w.temperature+=(target-w.temperature)*thermal;
+    if(t.water==='marine')AL.Thermal.step(s,t,h);else w.temperature+=(target-w.temperature)*thermal;
     if(!t.prepared)return;
     const waste=live.reduce((n,f)=>n+D.species[f.species].load*(0.2+f.growth*0.8),0)*0.0025*75/t.volume;
     w.organic+=h*(waste+t.fish.filter(f=>f.dead).length*0.06*75/t.volume);
@@ -44,15 +44,15 @@ AL.Sim = (() => {
     t.safeHours=safe?t.safeHours+h:0;t.peaceHours=safe&&live.length>=6&&live.every(f=>f.hp>80&&f.stress<25)?t.peaceHours+h:0;
   }
   function food(s,t,h){
-    for(const p of t.food){p.age+=h;p.y=clamp(p.y+h*0.5,0.08,0.94);const candidates=K.alive(t).filter(f=>(f.growth<0.3?p.type==='fry':D.species[f.species].diet.includes(p.type))&&f.hunger>8).sort((a,b)=>b.hunger-a.hunger);
-      if(candidates.length){const f=candidates[0];const distance=Math.hypot(f.x-p.x,(f.y-p.y)*0.5);if(distance<0.25||p.age>0.5){f.hunger=clamp(f.hunger-p.nutrition,0,100);f.energy=clamp(f.energy+4,0,100);f.behavior='Eat';AL.Health?.fed(f,D.foods[p.type].quality);p.eaten=true;s.stats.fed++;}}
+    for(const p of t.food){p.age+=h;p.y=clamp(p.y+h*0.5,0.08,0.94);const candidates=K.alive(t).filter(f=>(!p.targetId||p.targetId===f.id)&&(f.growth<0.3?p.type==='fry':D.species[f.species].diet.includes(p.type))&&f.hunger>8).sort((a,b)=>b.hunger-a.hunger);
+      if(candidates.length){const f=candidates[0];const distance=Math.hypot(f.x-p.x,(f.y-p.y)*0.5);if(distance<0.25||p.age>0.5){f.hunger=clamp(f.hunger-p.nutrition,0,100);f.energy=clamp(f.energy+4,0,100);f.behavior='Eat';AL.Health?.fed(f,D.foods[p.type].quality);AL.Mortality?.fed?.(s,t,f,p.type,p.nutrition);p.eaten=true;s.stats.fed++;}}
       if(!p.eaten&&p.age>2){t.waterParams.organic+=D.foods[p.type].pollution*0.12*75/t.volume;p.eaten=true;}
     }t.food=t.food.filter(p=>!p.eaten);
   }
   function fishHealth(s,t,h){
     const w=t.waterParams,living=K.alive(t);
-    for(const f of t.fish){if(f.dead){f.deadHours+=h;continue;}const d=D.species[f.species];
-      f.age+=h/24;f.growth=clamp(f.age/d.maturity,0.08,1);f.hunger=clamp(f.hunger+h*(f.growth<0.3?2.4:1.25),0,100);f.attackCooldown=Math.max(0,f.attackCooldown-h);
+    for(const f of t.fish){if(f.dead){f.deadHours+=h;continue;}if(D.species[f.species].water==='marine'&&f.hp<=0){K.kill(s,t,f,f.deathCause||'Cause of death undetermined.');continue;}const d=D.species[f.species];
+      f.age+=h/24;f.growth=clamp(f.age/d.maturity,0.08,1);f.hunger=clamp(f.hunger+h*(d.water==='marine'?AL.MarineCare.profile(f).hungerPerHour:(f.growth<0.3?2.4:1.25)),0,100);f.attackCooldown=Math.max(0,f.attackCooldown-h);
       if(!f.raised&&!f.bought&&f.growth>=0.3){f.raised=true;s.stats.raised++;K.log(s,`${f.name} has grown into a juvenile.`);}
       const school=living.filter(n=>n.species===f.species).length;
       const shelter=t.flora.filter(n=>n.hp>0).length+t.decorations.length;
@@ -61,12 +61,13 @@ AL.Sim = (() => {
       const social=school<d.group?12:0;
       const stressTarget=clamp(toxins*22+thermal*12+salt*10+oxygen*15+outside(w.ph,d.ph)*18+social+(shelter===0?8:0)+Math.max(0,f.hunger-65)*0.7+(d.id==='voidfin'&&light(s,t)>0.4?35:0),0,100);
       f.stress=clamp(f.stress+(stressTarget-f.stress)*Math.min(1,h*0.15),0,100);f.happiness=clamp(100-f.stress*0.65-f.hunger*0.2-(100-f.hp)*0.3,0,100);
-      let damage=toxins*1.5+thermal*0.8+salt*0.8+oxygen*1.5+Math.max(0,f.hunger-85)*0.16+Math.max(0,f.stress-65)*0.03;
+      let damage=toxins*1.5+thermal*0.8+salt*0.8+oxygen*1.5+(d.water==='marine'?AL.MarineCare.starving(f):Math.max(0,f.hunger-85)*0.16)+Math.max(0,f.stress-65)*0.03;
       if(f.disease&&(d.water==='fresh'||!AL.Health))damage+=0.7;
       if((d.water==='fresh'||!AL.Health)&&f.stress>45&&!f.disease&&K.random(s)<h*0.008*(1-f.immune)){f.disease='Stress infection';K.log(s,`${f.name} developed a stress-related infection. Improve conditions and consider treatment.`,'warning');}
+      if(d.water==='marine'){for(const [cause,value]of [['Ammonia toxicity',w.ammonia*(.7+Math.pow(10,clamp(w.ph-7,0,2))*.08)*1.5],['Nitrite toxicity',w.nitrite*2.25],['Nitrate toxicity',Math.max(0,w.nitrate-40)*.018],['Extreme temperature',thermal*.8],['Salinity shock',salt*.8],['Oxygen deprivation',oxygen*1.5],['Prolonged severe malnutrition',AL.MarineCare.starving(f)],['Sustained severe stress',Math.max(0,f.stress-65)*.03]])if(damage>.15)AL.Mortality.note(s,t,f,cause,value*h);}
       f.hp=clamp(f.hp+h*(damage>0.15?-damage:f.hunger<65&&f.stress<25?0.8:0),0,100);
       const night=light(s,t)<0.1,rest=d.nocturnal?!night:night;f.energy=clamp(f.energy+h*(rest?3:-1.2),5,100);
-      if(f.hp<=0){const causes=[[toxins*1.5,'Water toxicity'],[thermal*0.8,'Extreme temperature'],[salt*0.8,'Salinity shock'],[oxygen*1.5,'Oxygen deprivation'],[Math.max(0,f.hunger-85)*0.16,'Starvation'],[f.disease?0.7:0,'Disease']];causes.sort((a,b)=>b[0]-a[0]);K.kill(s,t,f,causes[0][1]);}
+      if(f.hp<=0){const causes=[[toxins*1.5,'Water toxicity'],[thermal*0.8,'Extreme temperature'],[salt*0.8,'Salinity shock'],[oxygen*1.5,'Oxygen deprivation'],[Math.max(0,f.hunger-85)*0.16,'Starvation'],[f.disease?0.7:0,'Disease']];causes.sort((a,b)=>b[0]-a[0]);K.kill(s,t,f,d.water==='marine'?AL.Mortality.cause(s,t,f,causes[0][1]):causes[0][1]);}
       else if(f.age>=f.maxLifespan||(f.age>f.lifeExpectancy&&K.random(s)<h/24*0.0005*Math.pow(f.age/f.lifeExpectancy,3)))K.kill(s,t,f,'Old age');
     }
     // Encounters are probabilistic, cooldown-bound, and allow shelter to reduce risk.
@@ -75,7 +76,7 @@ AL.Sim = (() => {
       const victim=living.find(n=>n!==f&&!n.dead&&Math.abs(n.x-f.x)<0.17&&Math.abs(n.y-f.y)<0.25);if(!victim)continue;
       const preySize=victim.adultSize*victim.growth;
       if(d.predator>0&&f.hunger>55&&preySize<f.adultSize*f.growth*0.45&&K.random(s)<h*d.predator*0.18/cover){K.kill(s,t,victim,'Predation');f.hunger=Math.max(0,f.hunger-35);f.behavior='Hunt';f.attackCooldown=12;}
-      else if((f.stress>30||f.hunger>60||victim.species===f.species)&&K.random(s)<h*f.aggression*0.1/cover){victim.hp=clamp(victim.hp-4-f.aggression*4,0,100);victim.stress=clamp(victim.stress+12,0,100);victim.behavior='Flee';victim.targetX=f.x>0.5?0.1:0.9;f.behavior='Chase';f.attackCooldown=6;if(victim.hp===0)K.kill(s,t,victim,'Aggressive tankmate');else K.log(s,`${f.name} chased ${victim.name}. Add cover or separate territorial fish.`,'warning');}
+      else if((f.stress>30||f.hunger>60||victim.species===f.species)&&K.random(s)<h*f.aggression*0.1/cover){AL.Mortality?.note(s,t,victim,'Aggressive tankmate',4+f.aggression*4);victim.hp=clamp(victim.hp-4-f.aggression*4,0,100);victim.stress=clamp(victim.stress+12,0,100);victim.behavior='Flee';victim.targetX=f.x>0.5?0.1:0.9;f.behavior='Chase';f.attackCooldown=6;if(victim.hp===0)K.kill(s,t,victim,'Aggressive tankmate');else K.log(s,`${f.name} chased ${victim.name}. Add cover or separate territorial fish.`,'warning');}
     }
   }
   function floraConditions(s,t,f){
@@ -102,10 +103,10 @@ AL.Sim = (() => {
     for(const f of t.flora){if(f.hp<=0)continue;const d=D.flora[f.type];f.age+=h/24;
       // Inspection and simulation use the same care conditions and 2D spacing.
       const {stress}=floraConditions(s,t,f);
-      if(d.water==='marine'){w.calcium=Math.max(0,w.calcium-h*f.size*0.09);w.magnesium=Math.max(0,w.magnesium-h*f.size*0.01);w.alkalinity=Math.max(0,w.alkalinity-h*f.size*0.0008);}
-      f.hp=clamp(f.hp+h*(stress>0.15?-stress:0.4),0,100);f.color=clamp(f.hp/100,0.3,1);
+      if(d.water==='marine'){w.calcium=Math.max(0,w.calcium-h*f.size*0.09*(75/t.volume)*(d.stony||['sps','lps'].includes(f.type)?1:0));w.magnesium=Math.max(0,w.magnesium-h*f.size*0.01*(75/t.volume)*(d.stony||['sps','lps'].includes(f.type)?1:0));w.alkalinity=Math.max(0,w.alkalinity-h*f.size*0.0008*(75/t.volume)*(d.stony||['sps','lps'].includes(f.type)?1:0));}
+      if(d.water==='marine'&&stress>.15)AL.Mortality.note(s,t,f,'Sustained coral environmental stress',h*stress);f.hp=clamp(f.hp+h*(stress>0.15?-stress:d.water==='marine'&&(f.healthState?.nutrition<30||d.nonPhotosynthetic&&(f.coralHunger??20)>65)?0:0.4),0,100);f.color=clamp(f.hp/100,0.3,1);
       if(f.hp>70&&l>0.1){const nutrient=d.water==='fresh'?clamp(w.nitrate/3,0.1,1):clamp((w.nitrate+w.phosphate*10)/3,0.15,1);f.size=clamp(f.size+h*d.growth*0.15*nutrient,0.2,2.5);}
-      if(f.hp===0)K.log(s,`${d.name} died in ${t.name}. Check light, water and space.`,'warning');
+      if(f.hp===0&&d.water==='marine')AL.Update29?.death(s,t,f);if(f.hp===0)K.log(s,`${d.name} died in ${t.name}. Check light, water and space.`,'warning');
     }
   }
   function breedingReady(s,t,species){const d=D.species[species];if(!d)return {ok:false,reason:'Unknown species.'};if(d.breedingSupported===false)return {ok:false,reason:d.breedingStatus};if(species==='betta')return {ok:false,reason:'Specialist betta spawning is not modeled in this slice.'};const parents=K.alive(t).filter(f=>f.species===species&&f.age>=d.maturity&&f.hp>=85&&f.hunger<=40&&f.stress<25&&s.time-f.lastBreed>=d.breedCooldown*60);
@@ -127,22 +128,22 @@ AL.Sim = (() => {
     }t.eggs=t.eggs.filter(e=>!e.done);
   }
   function daily(s,day){s.market.day=day;s.market.budget=AL.Config.dayBuyerBudget;s.market.sales=0;for(const key of Object.keys(s.stock)){const max=D.species[key]?(D.species[key].fictional?2:24):D.flora[key]?12:D.equipment[key]?8:30;s.stock[key]=Math.min(max,s.stock[key]+(D.species[key]?.fictional?1:4));}for(const key of Object.keys(s.market.demand))s.market.demand[key]=clamp(s.market.demand[key]+0.08,0.35,1.1);
-    AL.DailyStore?.rotate(s);AL.LivestockMarket?.rotate(s);const cost=Math.ceil(s.tanks.reduce((n,t)=>n+t.equipment.filter(e=>e.enabled&&e.durability>0&&!(t.lightMode==='off'&&['light','reefLight'].includes(e.type))).reduce((k,e)=>k+D.equipment[e.type].watts*e.capacity/D.equipment[e.type].capacity*0.035,0),0));const paid=Math.min(cost,s.credits);s.credits-=paid;s.stats.expenses+=paid;K.log(s,`Day ${day+1}: energy cost ${paid} AC. Local buyers and shop stock refreshed.`);
+    AL.DailyStore?.rotate(s);AL.LivestockMarket?.rotate(s);const cost=Math.ceil(s.tanks.reduce((n,t)=>n+t.equipment.filter(e=>e.enabled&&e.durability>0&&!(t.lightMode==='off'&&['light','reefLight'].includes(e.type))).reduce((k,e)=>k+D.equipment[e.type].watts*e.capacity/D.equipment[e.type].capacity*0.035,0),0));const paid=Math.min(cost,s.credits);if(AL.Finance)AL.Finance.change(s,-paid,{category:'maintenance',name:'Daily energy',action:'energy',actionId:'energy:'+day,key:'energy:'+day});else s.credits-=paid;s.stats.expenses+=paid;K.log(s,`Day ${day+1}: energy cost ${paid} AC. Local buyers and shop stock refreshed.`);
     if(paid<cost)K.log(s,'Your emergency utility allowance covered the shortfall. Fish welfare equipment stays on.','warning');
     if(day%7===0){for(const t of s.tanks){const contraband=K.alive(t).find(f=>D.species[f.species].fictional);if(contraband&&K.random(s)<(K.has(t,'containment')?0.12:0.65)){t.fish=t.fish.filter(f=>f!==contraband);K.log(s,`Fictional inspection: ${contraband.name} was confiscated. Night-market ownership carries risk.`,'warning');}}}
     if(s.discovered.length>=5&&!s.achievements.includes('Five living colors')){s.achievements.push('Five living colors');K.log(s,'Collection achievement: Five living colors.');}
     if(s.stats.hatched>=1&&!s.achievements.includes('A new generation'))s.achievements.push('A new generation');
     if(s.tanks.some(t=>t.safeHours>=168)&&!s.achievements.includes('A week in balance'))s.achievements.push('A week in balance');
   }
-  function step(s,minutes=5){if(!Number.isFinite(minutes)||minutes<=0||minutes>5)throw Error('Simulation steps must be between 0 and 5 minutes.');const untilMidnight=1440-s.time%1440;if(AL.Gameplay&&minutes>untilMidnight){step(s,untilMidnight);return step(s,minutes-untilMidnight);}const previous=s.time;AL.Gameplay?.observe(s,minutes);s.time+=minutes;const h=minutes/60;
-    for(const t of s.tanks){motion(s,t,minutes);water(s,t,h);food(s,t,h);fishHealth(s,t,h);AL.Expansion?.step(s,t,h);ecosystems(s,t,h);AL.Health?.step(s,t,h);eggs(s,t,h);AL.Valuation?.record(s,t);
-      const day=Math.floor(s.time/1440),hour=s.time/60%24;if(K.has(t,'feeder')&&hour>=9&&t.lastAutoFeed!==day&&(K.alive(t).length||(t.invertebrates||[]).some(f=>!f.dead))){t.lastAutoFeed=day;try{K.feed(s,t,t.foodType);}catch(e){K.log(s,`${t.name}: automatic feeder needs ${D.foods[t.foodType].name}.`,'warning');}}
+  function step(s,minutes=5){if(!Number.isFinite(minutes)||minutes<=0||minutes>5)throw Error('Simulation steps must be between 0 and 5 minutes.');const untilMidnight=1440-s.time%1440;if(AL.Gameplay&&minutes>untilMidnight){step(s,untilMidnight);return step(s,minutes-untilMidnight);}const previous=s.time;AL.Finance?.initialize(s);AL.Update31?.migrate(s);AL.Update29?.beforeStep(s,minutes);AL.Gameplay?.observe(s,minutes);s.time+=minutes;AL.Mortality?.step?.(s);const h=minutes/60;
+    for(const t of s.tanks){AL.Mortality?.begin(s,t,previous);AL.MarineCare?.forage(s,t,h);AL.MarineCare?.autofeed(s,t,previous);motion(s,t,minutes);water(s,t,h);food(s,t,h);fishHealth(s,t,h);AL.Expansion?.step(s,t,h);AL.Update31?.step(s,t,h);ecosystems(s,t,h);AL.Health?.step(s,t,h);eggs(s,t,h);AL.Valuation?.record(s,t);
+      const day=Math.floor(s.time/1440),hour=s.time/60%24;if(t.water!=='marine'&&K.has(t,'feeder')&&hour>=9&&t.lastAutoFeed!==day&&(K.alive(t).length||(t.invertebrates||[]).some(f=>!f.dead))){t.lastAutoFeed=day;try{K.feed(s,t,t.foodType);}catch(e){K.log(s,`${t.name}: automatic feeder needs ${D.foods[t.foodType].name}.`,'warning');}}
       // Marine-only clownfish pairing: established females never revert to male.
       const clown=K.alive(t).filter(f=>D.species[f.species].clownfish||f.species==='clown');
       for(const species of new Set(clown.map(f=>f.species))){const group=clown.filter(f=>f.species===species);if(group.length>=2&&!group.some(f=>f.sex==='F')){group.sort((a,b)=>b.adultSize-a.adultSize);group[0].sex='F';}}
       // End marine-only clownfish pairing.
     }
-    AL.Gameplay?.step(s,previous,minutes);if(Math.floor(previous/1440)!==Math.floor(s.time/1440))daily(s,Math.floor(s.time/1440));return s;
+    AL.Update29?.afterStep(s,previous,minutes);AL.Gameplay?.step(s,previous,minutes);if(Math.floor(previous/1440)!==Math.floor(s.time/1440))daily(s,Math.floor(s.time/1440));return s;
   }
   function advance(s,minutes){const bounded=clamp(Number(minutes)||0,0,60*24*365);for(let n=0;n<bounded;n+=5)step(s,Math.min(5,bounded-n));return s;}
   function motion(s,t,dt){const living=K.alive(t),illumination=light(s,t);for(const f of t.fish){if(f.dead){f.y=clamp(f.y-dt*0.004,0.09,0.94);continue;}const d=D.species[f.species];f.aiTimer-=dt;const hungry=f.hunger>20;const food=hungry?t.food.find(p=>(f.growth<0.3?p.type==='fry':d.diet.includes(p.type))):null;const night=illumination<0.1,rest=d.nocturnal?!night:night;

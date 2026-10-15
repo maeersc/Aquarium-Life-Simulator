@@ -118,7 +118,7 @@ AL.Renderer = class {
       if(this.selected===f.id){g.strokeStyle='#d0e6b7';g.setLineDash([2,3]);g.strokeRect(x-w/2-3,y-h/2-3,w+6,h+6);g.setLineDash([]);}if(f.stress>55&&!f.dead){g.fillStyle='#d7b979';g.fillRect(x,y-h/2-5,2,3);}if(!s.settings.reducedViolence&&f.dead){g.fillStyle='#bc6864';g.fillRect(x+3,y,2,1);}
       this.hitboxes.push({id:f.id,x:((x-W*this.pan)*this.zoom+W/2)/W,y:((y-H/2)*this.zoom+H/2)/H,w:w*this.zoom/W,h:h*this.zoom/H});
     }
-    AL.ExpansionUI?.draw(this,t);for(const p of t.food){g.fillStyle=p.type==='algae'?'#aac47d':'#d4b085';g.fillRect(Math.round(p.x*W),Math.round(p.y*H),2,2);}
+    AL.ExpansionUI?.draw(this,t);AL.Update29UI?.drawNurseries(this,t);for(const p of t.food){g.fillStyle=p.type==='algae'?'#aac47d':'#d4b085';g.fillRect(Math.round(p.x*W),Math.round(p.y*H),2,2);}
     if(!marine)for(const f of t.flora.filter(f=>f.x>=.45))drawFlora(f);
     AL.Placement?.draw(this,t,true,drawFlora);
     for(let i=0;i<t.eggs.length;i++){

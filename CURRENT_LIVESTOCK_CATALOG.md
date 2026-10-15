@@ -1,5 +1,78 @@
 # Current livestock catalog — 2026-10-14
 
+## Daily livestock survival reward v3.4 - current rule, 2026-10-15
+
+Players earn **100 AC** for every completed qualifying in-game day without a livestock death. The player must own eligible living marine livestock throughout the full simulated day. This is one account-wide payment, not one per aquarium. The separate healthy-aquarium award remains **50 AC**; both independently qualified awards total **150 AC**.
+
+A confirmed fish, coral or bottom-invertebrate death cancels the current qualifying day and starts 1,440 game minutes of recovery. Another confirmed death restarts recovery. Recovery time cannot count toward a qualifying reward day. Illness or living coral bleaching is not a death. The authoritative game calendar remains 20 real minutes per day; legitimate offline catch-up processes the same conditions. Game windows do not stop simulation. Casino requirements apply only if that game is implemented.
+
+Existing balances and actual historical ledger receipts remain unchanged. Every future survival payment is 100 AC through the existing financial service, with canonical account/transaction IDs, actual payment time and completed qualifying day/status. Local save, financial sequence and offline timeline guards prevent re-awarding a settled day. See [V34_UPDATE_REPORT.md](V34_UPDATE_REPORT.md) and [FINANCIAL_TRANSACTIONS.md](FINANCIAL_TRANSACTIONS.md).
+
+## Earlier milestone material - superseded where inconsistent
+
+## v3.3 current release - 2026-10-14
+
+Implemented the authorized v3.1 coral fragging/trading, v3.2 financial dashboard and v3.3 Marine Research Center. Equipment has three reusable coral tools and two mounting consumables; eligible parents produce independently simulated, mounted clones with tissue loss, recovery and lineage. Diving livestock can use regular or Deep Market dealers; regular pays floor(0.60 x the same Deep reference), and Deep requires Reputation 5 plus an active wanted request. Wanted Livestock remains separate from exactly four rotating dealer stock slots.
+
+The AC button opens a reconciled, persisted financial history. Existing wallets migrate unchanged; new profiles start at the requested 5,000 AC. Saltwater Research and the existing Encyclopedia share permanent 5-AC canonical-species unlocks. All 94 marine fish are indexed; 93 real species are researchable, one fictional entry is preview-only. Fully verified dossiers: 0; incomplete: 93; five have reviewed biological annotations. Partial content is disclosed before purchase. See [V33_UPDATE_REPORT.md](V33_UPDATE_REPORT.md), [FINANCIAL_TRANSACTIONS.md](FINANCIAL_TRANSACTIONS.md) and [RESEARCH_SOURCES.md](RESEARCH_SOURCES.md).
+
+Saltwater-only scope, safe persistent store destinations, local PC/browser saves, existing rewards/odds, all old livestock and artwork approvals/holds remain. No new biological species or art assets were added. Full printable continuity source is updated; binary PDF regeneration remains pending. Current playable version v3.3 / consolidated MDP v3.6.
+
+Current totals remain 105 fish (94 marine, 11 freshwater), 15 marine coral records, 10 marine invertebrates and six protected freshwater plant records. Player fragments are individuals, not additional species. The 38-entry and 35-entry expansion registries remain separate and unchanged. Scientific identity backfills and per-species incomplete research coverage are documented in RESEARCH_SOURCES.md and planning/v3.1-v3.3/research-coverage.json. Coleman shrimp and bottom mystery acquisition holds remain.
+
+## Earlier milestone record - historical where superseded
+
+**Authorized 2026-10-14:** The user approved the complete 25/5/5 roster and rarities, confirmed saltwater-only, and explicitly requested "Implement v2.9". Roster approval and artwork approval are separate; new artwork remains unapproved. [Authorization](planning/v2.9/approval.json).
+
+## v2.9 — current implementation
+
+Implemented the twelve-step saved/skippable saltwater tutorial with medical guidance, three-second selection outlines, disabled freshwater UI, separate +50 healthy / +100 survival rewards with persistent death/recovery tracking, Deep Market display rename, local asset-value leaderboard preview, exact 15,000-US-gallon / 5,000-AC aquarium, proportional water-change salt consumption, independent mystery products and the approved 35-species marine batch. Saves remain local to each player's browser on their PC. The bottom mystery product is content-held because its Legendary host specialist is not eligible. See [V29_UPDATE_REPORT.md](V29_UPDATE_REPORT.md) for actual checks, care/art limits and release details. Earlier milestone sections below are historical wherever superseded.
+
+Current totals: **105 fish (94 saltwater / 11 retained freshwater), 15 marine coral records, 10 non-fish marine invertebrates and six retained freshwater plants.** Five generic legacy coral groups remain legacy identities, not newly verified biological species. Designer clownfish patterns are varieties, not species. Coleman’s shrimp is registered/acquisition-held.
+
+| Common / scientific name / stable ID | Category / approved rarity / care | Batch / status | Art |
+|---|---|---|---|
+| Flame angelfish / *Centropyge loriculus* / `centropyge-loriculus` | fish / Rare / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/centropyge-loriculus/atlas-v1.png); NOT APPROVED |
+| Coral beauty angelfish / *Centropyge bispinosa* / `centropyge-bispinosa` | fish / Uncommon / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/centropyge-bispinosa/atlas-v1.png); NOT APPROVED |
+| Cherub angelfish / *Centropyge argi* / `centropyge-argi` | fish / Uncommon / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/centropyge-argi/atlas-v1.png); NOT APPROVED |
+| African flameback angelfish / *Centropyge acanthops* / `centropyge-acanthops` | fish / Rare / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/centropyge-acanthops/atlas-v1.png); NOT APPROVED |
+| Potter's angelfish / *Centropyge potteri* / `centropyge-potteri` | fish / Ultra Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/centropyge-potteri/atlas-v1.png); NOT APPROVED |
+| Joculator angelfish / *Centropyge joculator* / `centropyge-joculator` | fish / Legendary / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/centropyge-joculator/atlas-v1.png); NOT APPROVED |
+| Regal angelfish / *Pygoplites diacanthus* / `pygoplites-diacanthus` | fish / Ultra Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/pygoplites-diacanthus/atlas-v1.png); NOT APPROVED |
+| Orchid dottyback / *Pseudochromis fridmani* / `pseudochromis-fridmani` | fish / Common / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/pseudochromis-fridmani/atlas-v1.png); NOT APPROVED |
+| Yellow longnose butterflyfish / *Forcipiger flavissimus* / `forcipiger-flavissimus` | fish / Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/forcipiger-flavissimus/atlas-v1.png); NOT APPROVED |
+| Pyramid butterflyfish / *Hemitaurichthys polylepis* / `hemitaurichthys-polylepis` | fish / Uncommon / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/hemitaurichthys-polylepis/atlas-v1.png); NOT APPROVED |
+| Kole tang / *Ctenochaetus strigosus* / `ctenochaetus-strigosus` | fish / Rare / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/ctenochaetus-strigosus/atlas-v1.png); NOT APPROVED |
+| Tomini tang / *Ctenochaetus tominiensis* / `ctenochaetus-tominiensis` | fish / Uncommon / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/ctenochaetus-tominiensis/atlas-v1.png); NOT APPROVED |
+| Purple tang / *Zebrasoma xanthurum* / `zebrasoma-xanthurum` | fish / Very Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/zebrasoma-xanthurum/atlas-v1.png); NOT APPROVED |
+| Gem tang / *Zebrasoma gemmatum* / `zebrasoma-gemmatum` | fish / Legendary / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/zebrasoma-gemmatum/atlas-v1.png); NOT APPROVED |
+| Achilles tang / *Acanthurus achilles* / `acanthurus-achilles` | fish / Ultra Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/acanthurus-achilles/atlas-v1.png); NOT APPROVED |
+| Foxface rabbitfish / *Siganus vulpinus* / `siganus-vulpinus` | fish / Uncommon / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/siganus-vulpinus/atlas-v1.png); NOT APPROVED |
+| One-spot foxface / *Siganus unimaculatus* / `siganus-unimaculatus` | fish / Rare / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/siganus-unimaculatus/atlas-v1.png); NOT APPROVED |
+| Midas blenny / *Ecsenius midas* / `ecsenius-midas` | fish / Uncommon / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/ecsenius-midas/atlas-v1.png); NOT APPROVED |
+| Lawnmower blenny / *Salarias fasciatus* / `salarias-fasciatus` | fish / Common / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/salarias-fasciatus/atlas-v1.png); NOT APPROVED |
+| Bicolor blenny / *Ecsenius bicolor* / `ecsenius-bicolor` | fish / Common / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/ecsenius-bicolor/atlas-v1.png); NOT APPROVED |
+| Angular flasher wrasse / *Paracheilinus angulatus* / `paracheilinus-angulatus` | fish / Rare / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/paracheilinus-angulatus/atlas-v1.png); NOT APPROVED |
+| Melanurus wrasse / *Halichoeres melanurus* / `halichoeres-melanurus` | fish / Uncommon / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/halichoeres-melanurus/atlas-v1.png); NOT APPROVED |
+| Yellow wrasse / *Halichoeres chrysus* / `halichoeres-chrysus` | fish / Common / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/halichoeres-chrysus/atlas-v1.png); NOT APPROVED |
+| Leopard wrasse / *Macropharyngodon meleagris* / `macropharyngodon-meleagris` | fish / Very Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/macropharyngodon-meleagris/atlas-v1.png); NOT APPROVED |
+| Bartlett's anthias / *Nemanthias bartlettorum* / `nemanthias-bartlettorum` | fish / Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/nemanthias-bartlettorum/atlas-v1.png); NOT APPROVED |
+| Duncan coral / *Duncanopsammia axifuga* / `duncanopsammia-axifuga` | coral / Common / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/duncanopsammia-axifuga/atlas-v1.png); NOT APPROVED |
+| Candy cane coral / *Caulastraea furcata* / `caulastraea-furcata` | coral / Uncommon / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/caulastraea-furcata/atlas-v1.png); NOT APPROVED |
+| Yellow scroll coral / *Turbinaria reniformis* / `turbinaria-reniformis` | coral / Very Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/turbinaria-reniformis/atlas-v1.png); NOT APPROVED |
+| Black sun coral / *Tubastraea micranthus* / `tubastraea-micranthus` | coral / Ultra Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/tubastraea-micranthus/atlas-v1.png); NOT APPROVED |
+| Rhizo coral / *Rhizotrochus typus* / `rhizotrochus-typus` | coral / Legendary / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/rhizotrochus-typus/atlas-v1.png); NOT APPROVED |
+| Skunk cleaner shrimp / *Lysmata amboinensis* / `lysmata-amboinensis` | bottom_dweller / Common / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/lysmata-amboinensis/atlas-v1.png); NOT APPROVED |
+| Fire shrimp / *Lysmata debelius* / `lysmata-debelius` | bottom_dweller / Very Rare / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/lysmata-debelius/atlas-v1.png); NOT APPROVED |
+| Randall's pistol shrimp / *Alpheus randalli* / `alpheus-randalli` | bottom_dweller / Uncommon / Moderate | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/alpheus-randalli/atlas-v1.png); NOT APPROVED |
+| Harlequin shrimp / *Hymenocera picta* / `hymenocera-picta` | bottom_dweller / Ultra Rare / Difficult | v2.9 / 2026-10-14 / IMPLEMENTED; game care calibration; art not user approved | [8 stage/state views](assets/expansion-v29/hymenocera-picta/atlas-v1.png); NOT APPROVED |
+| Coleman's shrimp / *Periclimenes colemani* / `periclimenes-colemani` | bottom_dweller / Legendary / Difficult | v2.9 / 2026-10-14 / REGISTERED; ACQUISITION HELD pending required fire-urchin host support | [8 stage/state views](assets/expansion-v29/periclimenes-colemani/atlas-v1.png); NOT APPROVED |
+
+## Earlier milestone record
+
+
+
+
 ## Ocean Diving v2.8 — current, 2026-10-14
 
 MDP **v3.3**, retaining all 31 major sections. **Ocean Diving** beside Keeper Level opens Reef (Level 5 / 1,000 AC) or Deep Sea (Level 10 / 10,000 AC). Fiji, Caribbean, Hawaii and Japan have original regional scenery and a compact playable map. W/A/S/D, arrows and on-screen buttons move one tile; every successful step costs exactly 5% oxygen from 100%. Blocked movement and collection clicks cost none. Eight temporary slots become owned only on a successful boat return with oxygen remaining. Exhaustion/confirmed abandonment forfeits discoveries without a fee refund.

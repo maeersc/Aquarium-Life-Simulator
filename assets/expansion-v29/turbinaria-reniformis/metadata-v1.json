@@ -1,0 +1,163 @@
+{
+  "id": "turbinaria-reniformis",
+  "category": "coral",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved; source boundary review required",
+  "framingReviewFrames": [
+    6
+  ],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "6bc6590639a23b670b968c8a5622f605b64d8f1b93335406be19d1a8fa96e10b",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        245,
+        177,
+        430
+      ],
+      "packedBounds": [
+        27,
+        8,
+        165,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        128,
+        177,
+        308
+      ],
+      "packedBounds": [
+        25,
+        8,
+        167,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        174,
+        227,
+        430
+      ],
+      "packedBounds": [
+        32,
+        8,
+        160,
+        152
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        88,
+        227,
+        350
+      ],
+      "packedBounds": [
+        33,
+        8,
+        158,
+        152
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        111,
+        347,
+        431
+      ],
+      "packedBounds": [
+        18,
+        8,
+        174,
+        152
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        55,
+        347,
+        382
+      ],
+      "packedBounds": [
+        19,
+        8,
+        172,
+        152
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        13,
+        561,
+        437
+      ],
+      "packedBounds": [
+        8,
+        13,
+        184,
+        146
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        10,
+        555,
+        429
+      ],
+      "packedBounds": [
+        8,
+        13,
+        184,
+        146
+      ]
+    }
+  ],
+  "lifeStageBiology": "settled coral polyp or appropriately small propagated frag, NOT a fish egg",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}

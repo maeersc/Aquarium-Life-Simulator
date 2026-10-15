@@ -1,0 +1,161 @@
+{
+  "id": "pseudochromis-fridmani",
+  "category": "fish",
+  "batch": "v2.9",
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "frameCount": 8,
+  "nativeFacings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "eyes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "approved": false,
+  "artStatus": "Original generated sprite sheet; NOT user approved",
+  "framingReviewFrames": [],
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceSha256": "a7a3210925577165683484cdf3769f41ec1e4c50fa63e98f19a2b00763ac4b64",
+  "packing": "Alpha-only crop, nearest-neighbor fit; no semantic painting or recoloring",
+  "frames": [
+    {
+      "sourceCell": 0,
+      "sourceBounds": [
+        0,
+        159,
+        180,
+        338
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 4,
+      "sourceBounds": [
+        0,
+        123,
+        182,
+        304
+      ],
+      "packedBounds": [
+        23,
+        8,
+        168,
+        152
+      ]
+    },
+    {
+      "sourceCell": 1,
+      "sourceBounds": [
+        0,
+        181,
+        304,
+        295
+      ],
+      "packedBounds": [
+        8,
+        47,
+        184,
+        113
+      ]
+    },
+    {
+      "sourceCell": 5,
+      "sourceBounds": [
+        0,
+        157,
+        295,
+        281
+      ],
+      "packedBounds": [
+        8,
+        43,
+        184,
+        117
+      ]
+    },
+    {
+      "sourceCell": 2,
+      "sourceBounds": [
+        0,
+        151,
+        359,
+        333
+      ],
+      "packedBounds": [
+        8,
+        35,
+        184,
+        124
+      ]
+    },
+    {
+      "sourceCell": 6,
+      "sourceBounds": [
+        0,
+        118,
+        359,
+        308
+      ],
+      "packedBounds": [
+        8,
+        33,
+        184,
+        126
+      ]
+    },
+    {
+      "sourceCell": 3,
+      "sourceBounds": [
+        0,
+        94,
+        513,
+        374
+      ],
+      "packedBounds": [
+        8,
+        32,
+        184,
+        128
+      ]
+    },
+    {
+      "sourceCell": 7,
+      "sourceBounds": [
+        0,
+        71,
+        512,
+        355
+      ],
+      "packedBounds": [
+        8,
+        31,
+        184,
+        129
+      ]
+    }
+  ],
+  "lifeStageBiology": "pelagic egg and developing fish larva",
+  "limits": "Static authored stage/state poses; full swim/turn/feeding animation is not claimed."
+}
