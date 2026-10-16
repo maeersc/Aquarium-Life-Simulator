@@ -54,7 +54,7 @@ AL.Habitat=(()=>{
       if(dist<(d.footprint*size+(other?.footprint||12)*f.size)/2)reasons.push('This footprint overlaps another colony.');
       else if(dist<Math.max(d.clearance,other?.clearance||0)&&('lps'===type||f.type==='lps'))warnings.push('Leave more clearance from stinging LPS tissue.');
     }
-    const w=t.waterParams;if(!t.prepared||t.bacteria<.65||t.bacteria2<.5||t.kind!=='reef')warnings.push('Use a prepared, cycled reef aquarium.');
+    const w=t.waterParams;if(!AL.Preparation.prepared(t)||t.bacteria<.65||t.bacteria2<.5||t.kind!=='reef')warnings.push('Use a prepared, cycled reef aquarium.');
     if(AL.Sim){const c=AL.Sim.floraConditions(s,t,{type,x:choice.x,y:choice.y,size,hp:100,id:ignoreId||'preview'});warnings.push(...c.issues);}
     if(w.ammonia>.15||w.nitrite>.15)warnings.push('Reduce toxic ammonia and nitrite before introducing coral.');
     return {ok:!reasons.length,status:reasons.length?'Invalid':warnings.length?'Conditional':'Suitable',reasons:[...new Set(reasons)],warnings:[...new Set(warnings)],position:{x:choice.x,y:choice.y,z:choice.z,attachment:choice.attachment},alternatives:choices.length};

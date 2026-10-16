@@ -13,15 +13,15 @@ AL.StoreRules=(()=>{
       if(w.oxygen<5.5)reasons.push('Increase dissolved oxygen to at least 5.5 mg/L.');
       if(w.ammonia>.15||w.nitrite>.15)reasons.push('Lower ammonia and nitrite to 0.15 mg/L or less before purchase.');
       if(r.status==='High risk')reasons.push('Predatory tankmates make this destination unsafe. Choose a different aquarium.');
-      if(t.eggs.some(e=>{const other=AL.Data.species[e.species];return d.predator>0&&other.size<d.size*.45||other.predator>0&&d.size<other.size*.45;}))reasons.push('Reserved offspring and this species would form an unsafe predatory combination.');
+      if(t.eggs.filter(e=>t.water!=='marine'||e.viability>0).some(e=>{const other=AL.Data.species[e.species];return d.predator>0&&other.size<d.size*.45||other.predator>0&&d.size<other.size*.45;}))reasons.push('Reserved offspring and this species would form an unsafe predatory combination.');
       if(d.purchaseVerified===false)reasons.push('This catalog entry is not offered until its care profile is verified.');
-      if(d.clownfish){const residents=AL.Core.alive(t).filter(f=>AL.Data.species[f.species].clownfish),broods=t.eggs.filter(e=>AL.Data.species[e.species].clownfish);if(residents.some(f=>f.species!==d.id)||broods.some(e=>e.species!==d.id))reasons.push('Keep different clownfish species in separate established territories. Choose another aquarium.');if(residents.length+broods.reduce((n,e)=>n+e.count,0)+added>2)reasons.push('This aquarium supports one established clownfish pair, including reserved offspring. Choose another aquarium.');}
+      if(d.clownfish){const residents=AL.Core.alive(t).filter(f=>AL.Data.species[f.species].clownfish),broods=t.eggs.filter(e=>e.viability>0&&AL.Data.species[e.species].clownfish);if(residents.some(f=>f.species!==d.id)||broods.some(e=>e.species!==d.id))reasons.push('Keep different clownfish species in separate established territories. Choose another aquarium.');if(residents.length+broods.reduce((n,e)=>n+e.count,0)+added>2)reasons.push('This aquarium supports one established clownfish pair, including reserved offspring. Choose another aquarium.');}
       if(s.level<d.level)reasons.push(`Requires keeper level ${d.level}.`);
       if(d.fictional&&(s.level<4||!s.stats.nightMarket||!AL.Core.nightOpen(s)))reasons.push(`Discover the night market at level 4 and shop between ${AL.Clock.format(1200)} and ${AL.Clock.format(240)}.`);
     }
     if(action==='buyFlora'){if(t.fish.some(f=>!f.dead&&f.species==='spotted-boxfish'))reasons.push('Do not place corals in the dedicated Spotted Boxfish home.');
       const d=AL.Data.flora[a.type];if(!d||d.water!==t.water)reasons.push('This organism needs a different water habitat.');
-      if(!t.prepared)reasons.push('Prepare the water first.');
+      if(!AL.Preparation.prepared(t))reasons.push('Prepare the water first.');
       if(d?.water==='marine'){
         if(s.level<(d.level||1))reasons.push('Requires keeper level '+d.level+'.');
         const w=t.waterParams,c=AL.Data.coralCare;

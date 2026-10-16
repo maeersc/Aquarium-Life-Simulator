@@ -87,7 +87,7 @@ AL.Renderer = class {
     };
     this.pan=AL.Core.clamp(this.pan,.5/this.zoom,1-.5/this.zoom);
     const currentIds=new Set(t.fish.map(f=>f.id));for(const id of this.positions.keys())if(!currentIds.has(id))this.positions.delete(id);
-    const dry=t.emptyDry===true&&!t.prepared;
+    const dry=t.water==='marine'?!AL.Preparation.filled(t):t.emptyDry===true&&!t.prepared;
     g.imageSmoothingEnabled=false;const bg=g.createLinearGradient(0,0,0,H);bg.addColorStop(0,dry?'#253449':marine?'#174957':'#1c4b4c');bg.addColorStop(.5,dry?'#253449':marine?'#123747':'#153b3e');bg.addColorStop(1,'#102a30');g.fillStyle=bg;g.fillRect(0,0,W,H);
     g.save();g.translate(W/2,H/2);g.scale(this.zoom,this.zoom);g.translate(-W*this.pan,-H/2);
     // Printed backdrop silhouettes provide depth; living vegetation is rendered separately.

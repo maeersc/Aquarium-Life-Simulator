@@ -55,7 +55,7 @@ AL.Breeding = (() => {
     return t.fish.length+broods.reduce((n,e)=>n+e.count,0)+pairs.reduce((n,r)=>n+r.eggCount,0)+count<=AL.Config.maxFish&&adults+reserved+d.load*count<=K.loadLimit(t)*.8&&broods.length+pairs.length<20;
   }
   function illness(f){return !!f.disease||!!f.healthState?.treatment||(f.healthState?.conditions||[]).some(c=>c.severity>.15);}
-  function water(t,species){const w=t.waterParams,d=D.species[species];return t.prepared&&t.bacteria>=.65&&t.bacteria2>=.5&&w.ammonia<=.05&&w.nitrite<=.05&&w.nitrate<=30&&w.oxygen>=6&&w.temperature>=d.temp[0]&&w.temperature<=d.temp[1]&&w.ph>=d.ph[0]&&w.ph<=d.ph[1]&&w.salinity>=d.salinity[0]&&w.salinity<=d.salinity[1];}
+  function water(t,species){const w=t.waterParams,d=D.species[species];return AL.Preparation.prepared(t)&&t.bacteria>=.65&&t.bacteria2>=.5&&w.ammonia<=.05&&w.nitrite<=.05&&w.nitrate<=30&&w.oxygen>=6&&w.temperature>=d.temp[0]&&w.temperature<=d.temp[1]&&w.ph>=d.ph[0]&&w.ph<=d.ph[1]&&w.salinity>=d.salinity[0]&&w.salinity<=d.salinity[1];}
   function condition(s,f,ignorePair=false){if(!living(f))return 'This individual is deceased.';const p=profile(f.species);if(!p)return hold(f.species);const d=D.species[f.species],r=f.reproduction;
     if(f.age<d.maturity)return 'Not sexually mature.';if(r?.roleChangeUntil)return 'Reproductive transition is still developing.';
     if(f.hp<85||f.hunger>40||(f.healthState?.nutrition??90)<75||f.stress>=25||f.energy<20)return 'Needs at least 85 HP, 75% nutrition, energy 20, hunger at most 40 and stress below 25.';

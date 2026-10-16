@@ -13,7 +13,7 @@ AL.Update29=(()=>{
   for(const t of s.tanks)if(t.water==='marine')t.nurseries??=[];
  }
  function newGame(s){migrate(s);s.update29.tutorial={step:0,status:'active'};}
- function eligibleResidents(s){return s.tanks.filter(t=>t.prepared&&t.water==='marine').flatMap(t=>[...t.fish,...(t.water==='marine'?t.flora:[]),...(t.invertebrates||[]),...(t.nurseries||[])]).filter(f=>!f.dead&&f.hp>0);}
+ function eligibleResidents(s){return s.tanks.filter(t=>AL.Preparation.prepared(t)&&t.water==='marine').flatMap(t=>[...t.fish,...(t.water==='marine'?t.flora:[]),...(t.invertebrates||[]),...(t.nurseries||[])]).filter(f=>!f.dead&&f.hp>0);}
  function death(s,t,f){migrate(s);const r=s.update29.survival;if((!f.dead&&f.hp>0)||f.survivalLossRecorded)return;AL.Mortality?.record(s,t,f);f.survivalLossRecorded=true;r.lost=true;r.lastDeath=s.time;r.recoveryUntil=s.time+1440;K.log(s,lossMessage,'warning');}
  function beforeStep(s,minutes){migrate(s);const r=s.update29.survival;if(r.day!==day(s)){r.day=day(s);r.tracked=0;r.stocked=0;r.lost=false;}r.tracked=Math.min(1440,r.tracked+minutes);if(s.time>=r.recoveryUntil&&eligibleResidents(s).length)r.stocked=Math.min(1440,r.stocked+minutes);}
  function afterStep(s,previous,minutes){

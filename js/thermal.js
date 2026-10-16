@@ -19,7 +19,7 @@ AL.TankStatus=(()=>{
   if(temperature.length)reasons.push('Temperature outside resident range: '+temperature.join('; '));if(dead)reasons.push('Remove deceased livestock; normal current chemistry does not explain past losses.');if(!living.length&&!broods.length)reasons.push('No living stocked aquarium.');
   const care=AL.Gameplay.health({...s,tanks:[t]});if(living.length||broods.length)reasons.push(...care.reasons);const heat=AL.Thermal.status(s,t);if((living.length||broods.length)&&!heat.canMaintain)reasons.push('Heating/cooling output cannot maintain the '+t.temperatureTarget+' °C setpoint at its actual capacity/condition.');
   const danger=dead||w.ammonia>.5||w.nitrite>.5||w.oxygen<4||temperature.length>0,stocked=living.length+broods.length;
-  return {stocked,general,temperatureUnsafe:temperature.length>0,reasons:[...new Set(reasons)],danger,label:!t.prepared?'Unprepared':!stocked?(dead?'No living livestock':'Empty aquarium'):danger?'Needs care':t.bacteria<.65||t.bacteria2<.5?'Cycling':!care.ok||!general||!heat.canMaintain?'Watch closely':'Suitable for residents'};
+  return {stocked,general,temperatureUnsafe:temperature.length>0,reasons:[...new Set(reasons)],danger,label:!AL.Preparation.prepared(t)?'Unprepared':!stocked?(dead?'No living livestock':'Empty aquarium'):danger?'Needs care':t.bacteria<.65||t.bacteria2<.5?'Cycling':!care.ok||!general||!heat.canMaintain?'Watch closely':'Suitable for residents'};
  }
  return {evaluate};
 })();

@@ -38,7 +38,7 @@ AL.Expansion=(()=>{
   if(['starry-blenny','redspotted-blenny','tiger-sand-conch'].includes(species)&&(t.ecosystemAge??0)<72)reasons.push('Let this prepared marine habitat mature for at least 72 game hours before adding a grazing specialist.');
   return {ok:!reasons.length,reasons,warnings};
  }
- function step(s,t,h){if(t.water!=='marine')return;t.ecosystemAge=(t.ecosystemAge||0)+(t.prepared?h:0);
+ function step(s,t,h){if(t.water!=='marine')return;t.ecosystemAge=(t.ecosystemAge||0)+(AL.Preparation.prepared(t)?h:0);
   for(const f of t.fish){const d=byId[f.species];if(!d||f.dead)continue;const demand=f.species==='purple-queen-anthias'?1.4:f.species==='blotched-anthias'?.6:0;if(demand&&!AL.MarineCare)f.hunger=AL.Core.clamp(f.hunger+h*demand,0,100);
    if(f.species==='orange-spotted-filefish'&&f.hunger>55){const coral=t.flora.find(c=>c.hp>0&&c.type==='sps');if(coral){AL.Mortality?.note(s,t,coral,'Coral predation',h*.4);coral.hp=AL.Core.clamp(coral.hp-h*.4,0,100);f.hunger=AL.Core.clamp(f.hunger-h*2,0,100);}}
    if(['assessor','possum'].includes(d.shape)&&f.behavior==='Explore')f.behavior='Hover near shelter';

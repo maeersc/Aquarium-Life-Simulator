@@ -20,12 +20,12 @@ AL.Sim = (() => {
     if(heater&&t.temperatureTarget>target)target=Math.min(t.temperatureTarget,target+heater*8);
     if(chiller&&t.temperatureTarget<target)target=Math.max(t.temperatureTarget,target-chiller*8);
     if(t.water==='marine')AL.Thermal.step(s,t,h);else w.temperature+=(target-w.temperature)*thermal;
-    if(!t.prepared)return;
+    if(!AL.Preparation.prepared(t))return;
     const waste=live.reduce((n,f)=>n+D.species[f.species].load*(0.2+f.growth*0.8),0)*0.0025*75/t.volume;
     w.organic+=h*(waste+t.fish.filter(f=>f.dead).length*0.06*75/t.volume);
     if(K.has(t,'skimmer'))w.organic*=Math.exp(-h*0.12*Math.min(2,K.capacity(t,'skimmer')/t.volume));
     const decomposed=w.organic*(1-Math.exp(-h*0.12));w.organic-=decomposed;w.ammonia+=decomposed;
-    if(t.cycleActive&&filter>0){t.cycle+=h;t.bacteria=clamp(t.bacteria+h/AL.Config.cycleHours,0,1);t.bacteria2=clamp(t.bacteria2+h/AL.Config.cycleHours,0,1);if(t.cycle>=AL.Config.cycleHours){t.cycleActive=false;t.bacteria=1;t.bacteria2=1;w.ammonia=0.04;w.nitrite=0.03;w.nitrate+=4;s.stats.cycled++;K.log(s,`${t.name}: biological cycling is complete. Check stocking compatibility before adding residents.`);}}
+    if(t.cycleActive&&filter>0){t.cycle+=h;t.bacteria=clamp(t.bacteria+h/AL.Config.cycleHours,0,1);t.bacteria2=clamp(t.bacteria2+h/AL.Config.cycleHours,0,1);if(t.cycle>=AL.Config.cycleHours){t.cycleActive=false;t.bacteria=1;t.bacteria2=1;w.ammonia=0.04;w.nitrite=0.03;w.nitrate+=4;s.stats.cycled++;if(t.water==='marine')AL.Preparation.record(s,t,'cycled','Fishless cycling completed through the existing simulation.');K.log(s,`${t.name}: biological cycling is complete. Check stocking compatibility before adding residents.`);}}
     else if(filter>0&&w.oxygen>4){t.bacteria=clamp(t.bacteria+h*0.008*w.ammonia,0,1);t.bacteria2=clamp(t.bacteria2+h*0.008*w.nitrite,0,1);}
     else{t.bacteria=Math.max(0.005,t.bacteria-h*0.002);t.bacteria2=Math.max(0.005,t.bacteria2-h*0.002);}
     // Sequential conversions conserve the simplified nitrogen quantity.
@@ -114,7 +114,7 @@ AL.Sim = (() => {
     const geneticHold=AL.Patterns?.ready(female,male);if(geneticHold)return {ok:false,reason:geneticHold};const w=t.waterParams;if(w.ammonia>0.15||w.nitrite>0.15||w.oxygen<6||outside(w.temperature,d.temp)||outside(w.ph,d.ph)||outside(w.salinity,d.salinity))return {ok:false,reason:'Water must be within species ranges, with low toxins and oxygen ≥6 mg/L.'};
     if(t.flora.length+t.decorations.length<1)return {ok:false,reason:'Add live plants, coral or a shelter before courtship.'};
     if(t.eggs.length>=20||t.fish.length+d.brood>AL.Config.maxFish)return {ok:false,reason:'No incubation space remains.'};
-    if(t.fish.reduce((n,f)=>n+(f.dead?0:D.species[f.species].load),0)+t.eggs.reduce((n,e)=>n+D.species[e.species].load*e.count,0)+d.brood*d.load>K.loadLimit(t))return {ok:false,reason:'Reserve enough adult stocking space for the offspring.'};
+    if(t.fish.reduce((n,f)=>n+(f.dead?0:D.species[f.species].load),0)+t.eggs.filter(e=>t.water!=='marine'||e.viability>0).reduce((n,e)=>n+D.species[e.species].load*e.count,0)+d.brood*d.load>K.loadLimit(t))return {ok:false,reason:'Reserve enough adult stocking space for the offspring.'};
     return {ok:true,female,male,reason:'A healthy pair is ready to breed.'};
   }
   function makeBrood(s,t,species,a,b,purchased=false){const d=D.species[species],genes={};for(const key of ['color','size','longevity','immunity','fertility'])genes[key]=clamp(a&&b?(a.genes[key]+b.genes[key])/2+(K.random(s)-0.5)*0.08:0.9+K.random(s)*0.2,0.8,1.2);
@@ -135,7 +135,7 @@ AL.Sim = (() => {
     if(s.stats.hatched>=1&&!s.achievements.includes('A new generation'))s.achievements.push('A new generation');
     if(s.tanks.some(t=>t.safeHours>=168)&&!s.achievements.includes('A week in balance'))s.achievements.push('A week in balance');
   }
-  function step(s,minutes=5){if(!Number.isFinite(minutes)||minutes<=0||minutes>5)throw Error('Simulation steps must be between 0 and 5 minutes.');const untilMidnight=1440-s.time%1440;if(AL.Gameplay&&minutes>untilMidnight){step(s,untilMidnight);return step(s,minutes-untilMidnight);}const previous=s.time;AL.Finance?.initialize(s);AL.Update31?.migrate(s);AL.Update29?.beforeStep(s,minutes);AL.Gameplay?.observe(s,minutes);s.time+=minutes;AL.Mortality?.step?.(s);const h=minutes/60;
+  function step(s,minutes=5){if(!Number.isFinite(minutes)||minutes<=0||minutes>5)throw Error('Simulation steps must be between 0 and 5 minutes.');const untilMidnight=1440-s.time%1440;if(AL.Gameplay&&minutes>untilMidnight){step(s,untilMidnight);return step(s,minutes-untilMidnight);}AL.Preparation.migrate(s);const previous=s.time;AL.Finance?.initialize(s);AL.Update31?.migrate(s);AL.Update29?.beforeStep(s,minutes);AL.Gameplay?.observe(s,minutes);s.time+=minutes;AL.Mortality?.step?.(s);const h=minutes/60;
     for(const t of s.tanks){AL.Mortality?.begin(s,t,previous);AL.MarineCare?.forage(s,t,h);AL.MarineCare?.autofeed(s,t,previous);motion(s,t,minutes);water(s,t,h);food(s,t,h);fishHealth(s,t,h);AL.Expansion?.step(s,t,h);AL.Update31?.step(s,t,h);ecosystems(s,t,h);AL.Health?.step(s,t,h);AL.Breeding?.step(s,t,minutes);eggs(s,t,h);AL.Valuation?.record(s,t);
       const day=Math.floor(s.time/1440),hour=s.time/60%24;if(t.water!=='marine'&&K.has(t,'feeder')&&hour>=9&&t.lastAutoFeed!==day&&(K.alive(t).length||(t.invertebrates||[]).some(f=>!f.dead))){t.lastAutoFeed=day;try{K.feed(s,t,t.foodType);}catch(e){K.log(s,`${t.name}: automatic feeder needs ${D.foods[t.foodType].name}.`,'warning');}}
 

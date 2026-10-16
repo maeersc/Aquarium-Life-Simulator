@@ -1,12 +1,17 @@
 {
-  "builtAt": "2026-10-16T13:50:49.865565+00:00",
+  "builtAt": "2026-10-16T16:18:21.724484+00:00",
   "entryPoint": "index.html",
-  "gameContent": "v4.0",
+  "gameContent": "v4.0.1",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1553,
-  "sourceBytes": 456312964,
+  "sourceFiles": 1555,
+  "sourceBytes": 456328518,
   "files": [
+    {
+      "path": "AQUARIUM_PREPARATION_REPAIR_REPORT.md",
+      "bytes": 9754,
+      "sha256": "7f9ccfcb75d4f1fc27e5e848d8a155f9c91c07014489e7eea7855ecf2ac9d5dd"
+    },
     {
       "path": "ART_DIRECTION.md",
       "bytes": 27703,
@@ -49,8 +54,8 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 46026,
-      "sha256": "4f5f010e59257442b9576f62d2c81721fb40d9e76a9f61d5c38559468d6a1195"
+      "bytes": 46598,
+      "sha256": "67397232107659087ebb51b60b78bd7d94bbee88e44c4020396576b95eab6237"
     },
     {
       "path": "DIVING_EXPANSION_REPORT.md",
@@ -109,18 +114,18 @@
     },
     {
       "path": "art-review-v1.html",
-      "bytes": 7785,
-      "sha256": "ba66b8e7426eac8fe31645c836642ed3245744ea0e7069b30a0e90d306a54299"
+      "bytes": 7841,
+      "sha256": "0b5a9259bfa4ce0e45035efb9a5774917ac686d1780ca47961f0bbaeb01b7445"
     },
     {
       "path": "art-review-v11.html",
-      "bytes": 6716,
-      "sha256": "5c96ca4e23bc63c152139c05c0dfc348caa4ba3f6973a3db4e8c5bc83aa6ca4c"
+      "bytes": 6772,
+      "sha256": "548f44bdfcf4b78a077a3169715ee7fb5706e3f1b43d2c6031c641200c30a956"
     },
     {
       "path": "art-review.html",
-      "bytes": 6886,
-      "sha256": "f39d769be1ad07a4f074820a651930a555713e522fb51fabbbfdaf649d2a9a44"
+      "bytes": 6942,
+      "sha256": "6fe9e97978a271dae55be6c34c1f1e5f3b4d446c8b37f2876f245698dcf16237"
     },
     {
       "path": "assets/diving/art-prompts.json",
@@ -7259,13 +7264,13 @@
     },
     {
       "path": "clownfish-review.html",
-      "bytes": 6631,
-      "sha256": "87487a2f1e34001d2f217ed511a85677ed3c7bc8accb506a1de0470f4f7896fc"
+      "bytes": 6687,
+      "sha256": "8ab1f79ffb01a7920d01d7fb36cd06f3a3cfb5b5ef45c852c383e2f91d121441"
     },
     {
       "path": "coral-placement-review.html",
-      "bytes": 3381,
-      "sha256": "54d049125be58dd2074c3fe0d90a75bed9c0a5d174b0a709f459ca3c04a454c2"
+      "bytes": 3437,
+      "sha256": "062b47ec9aab81fa25dffab784a0506758e8d9d247078902f762c2720eace632"
     },
     {
       "path": "css/app-shell.css",
@@ -7354,13 +7359,18 @@
     },
     {
       "path": "index.html",
-      "bytes": 12947,
-      "sha256": "558ff8304161d11b191d2a98c214a37433e91920f7fa1726467556d4c32010fb"
+      "bytes": 13005,
+      "sha256": "b9a6a404d6d87a1eff4308f0291acaa7d5a059f2cf93da374b9cfc37f9d50de6"
     },
     {
       "path": "js/app-shell.js",
-      "bytes": 30123,
-      "sha256": "2e4e7ea27c4e6d937a1acfaf136c6b03a4001950abc2b296aef3351b11b3487f"
+      "bytes": 30220,
+      "sha256": "daf636b06f37dbf66a25be3110acbfc13649274906186f0a67873f045e70b78d"
+    },
+    {
+      "path": "js/aquarium-preparation.js",
+      "bytes": 3556,
+      "sha256": "a2b8a946df970a439940e002304132f40d6c91040964512232aae6574806483a"
     },
     {
       "path": "js/art-assets-data.js",
@@ -7389,8 +7399,8 @@
     },
     {
       "path": "js/breeding.js",
-      "bytes": 30697,
-      "sha256": "3c0be245156b533eb2ba651ba369b29a2d7f4ff19d6cbabc6c4a0cdded883025"
+      "bytes": 30713,
+      "sha256": "2f2438cdcee9de591b94120875aebba17e113790c3c7d4a3a72f4f21b5b9df72"
     },
     {
       "path": "js/brood-view.js",
@@ -7449,8 +7459,8 @@
     },
     {
       "path": "js/core.js",
-      "bytes": 39294,
-      "sha256": "1b6ce6c2b05a40b5ffc5f1d6dcebfc21d771232d652b2e3e4bd4d7ff87d88e38"
+      "bytes": 39626,
+      "sha256": "313473aaf28b505c537d0f262098b10ee620a304ea9237d51369acd373713ea2"
     },
     {
       "path": "js/daily-store.js",
@@ -7489,8 +7499,8 @@
     },
     {
       "path": "js/diving-receiving.js",
-      "bytes": 16374,
-      "sha256": "2569e80abb0de09b240f3cb5fbef1a5f348e37695a8ef38f09f387e47d431646"
+      "bytes": 16369,
+      "sha256": "ec14621f702c9b4b930fb541382f4d1b16bbb5f796e8f9dd25b1023c8b692a26"
     },
     {
       "path": "js/diving-ui.js",
@@ -7534,8 +7544,8 @@
     },
     {
       "path": "js/expansion.js",
-      "bytes": 8998,
-      "sha256": "a90bc68b1f0abc6b60d55ca4ef82f0641ef7471968f71286b4d9689da4a55d36"
+      "bytes": 9014,
+      "sha256": "9cdafab192cf10d75d795d88453189228c7d319459975c6e5ffe9242b7ce5982"
     },
     {
       "path": "js/finance.js",
@@ -7549,8 +7559,8 @@
     },
     {
       "path": "js/gameplay.js",
-      "bytes": 6830,
-      "sha256": "dade039047d10a4bc6dc5534072d77dd93b9dcec86012aee0e0d2b594c3bceef"
+      "bytes": 6846,
+      "sha256": "0d63f442ed18166e2b91368432d25c62b92e33e5bf980de2fd1c69219d64e516"
     },
     {
       "path": "js/habitat-drawing.js",
@@ -7564,8 +7574,8 @@
     },
     {
       "path": "js/habitat.js",
-      "bytes": 9236,
-      "sha256": "e71341f6d5f68d620c06cc2c78e86b73ecd5e145273f9476d237b2b73b33ee59"
+      "bytes": 9252,
+      "sha256": "c9a1ec3d8f7647ad03076a580da3d18cce0fdce18b1801e67b6886491d741d10"
     },
     {
       "path": "js/health-save.js",
@@ -7584,8 +7594,8 @@
     },
     {
       "path": "js/invertebrates.js",
-      "bytes": 8832,
-      "sha256": "a63ab782e7a18ffcabb19753b7f161b7b7782dadb434d20fc638962afeffbe06"
+      "bytes": 8848,
+      "sha256": "8e9919ef1da4eb61472b1825090edd4057c5c075fc5d0c8d65d22bc65be0d400"
     },
     {
       "path": "js/life-stage-data.js",
@@ -7604,8 +7614,8 @@
     },
     {
       "path": "js/livestock-health.js",
-      "bytes": 21152,
-      "sha256": "dd82ba572d1297209961d81f4c67098b43b764a635d305b4b8bb1d86ecee193a"
+      "bytes": 21168,
+      "sha256": "6ca57ccaf1e256662e15a8718ee6000d97753d517eb342d640e7bc5ea2765aca"
     },
     {
       "path": "js/livestock-market.js",
@@ -7619,8 +7629,8 @@
     },
     {
       "path": "js/marine-care.js",
-      "bytes": 6802,
-      "sha256": "65011fee86fb3031ebc60f35d77f62d75bcc542568baa36c520d74ba3e5e2918"
+      "bytes": 6818,
+      "sha256": "59b6d9c44ade533f324a28d22c4986b5bf2e8d204a16ce62e8dd66ac6a6e0cb1"
     },
     {
       "path": "js/mortality-journal.js",
@@ -7664,8 +7674,8 @@
     },
     {
       "path": "js/render.js",
-      "bytes": 21815,
-      "sha256": "a9f3f670ef8b7ed4e7c5304087df71e034fd0623b38a8cee9b8e58c731950cb9"
+      "bytes": 21860,
+      "sha256": "a46ad74a847ff912913296c1d1e3552131746c6f53f8a313183963ca6b4f4405"
     },
     {
       "path": "js/research-data.js",
@@ -7679,13 +7689,13 @@
     },
     {
       "path": "js/save.js",
-      "bytes": 16310,
-      "sha256": "990235c13bc0d882da3c7023d9c66ea1ca43d8e9b428b9e966fed12caff392c1"
+      "bytes": 16392,
+      "sha256": "bf3a1797143bcaa0011d8dacd8fb5b7cd1460fa710f654cf6c7efdb132eb11ce"
     },
     {
       "path": "js/simulation.js",
-      "bytes": 22776,
-      "sha256": "3881657c5babed6303f133966e5fc39ac9d2167325e255a236aec1805826fc84"
+      "bytes": 22983,
+      "sha256": "d4c87dc2acd20e246d9fd8ae6bafaf1bab7f40355acc3044eea0b53b269f7a8e"
     },
     {
       "path": "js/sprite-kit.js",
@@ -7699,8 +7709,8 @@
     },
     {
       "path": "js/store-rules.js",
-      "bytes": 6999,
-      "sha256": "03d80ff0451c10e2a3ab63ff04fc13e3488a7a9f30792f729af5fa8217c1d4bc"
+      "bytes": 7075,
+      "sha256": "e52ecee02d6a787af7aff229e1dbb80e9363375efc47860843a942f1e2c35218"
     },
     {
       "path": "js/store.js",
@@ -7709,13 +7719,13 @@
     },
     {
       "path": "js/thermal.js",
-      "bytes": 3567,
-      "sha256": "d961cd02dfccfd35bf4d3eb751a2e74dfc4f4b0f0ca367fd950d6db018a636ee"
+      "bytes": 3583,
+      "sha256": "ac7d2256ef82d436609d55100c06f29174f0543edc9fd57084257d302a6dbfda"
     },
     {
       "path": "js/ui.js",
-      "bytes": 67652,
-      "sha256": "bb7c71756f31ef62d8efab780d361e2b33ba86730fd005a1bbaa0eef0bb9987a"
+      "bytes": 67952,
+      "sha256": "c1731ed24057ebf42f79103b88f4aee03d8374d964d9a9ca548815feaa483d8f"
     },
     {
       "path": "js/update29-art-data.js",
@@ -7744,8 +7754,8 @@
     },
     {
       "path": "js/update29.js",
-      "bytes": 14252,
-      "sha256": "4b7fb5d4884100b700692d5383be66fbf51f3ef37424beedba2542a14ff8e406"
+      "bytes": 14268,
+      "sha256": "97c64c1dfcf6db32a858e099da44eff5f9ea81d65ca93d2d91ddbe6248360d17"
     },
     {
       "path": "js/update31-ui.js",
@@ -7764,8 +7774,8 @@
     },
     {
       "path": "life-stage-review.html",
-      "bytes": 4937,
-      "sha256": "2fd8d31673805db2a7e857cb50ec544c370c65f32ef7754e1b5e24d1d618076f"
+      "bytes": 4993,
+      "sha256": "b1606adcdf7437e2dbaa8e1110225a67b8df662c35ce33b263d758252fe83b2c"
     },
     {
       "path": "v29-review.html",
