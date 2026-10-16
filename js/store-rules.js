@@ -25,7 +25,7 @@ AL.StoreRules=(()=>{
       if(d?.water==='marine'){
         if(s.level<(d.level||1))reasons.push('Requires keeper level '+d.level+'.');
         const w=t.waterParams,c=AL.Data.coralCare;
-        if(t.kind!=='reef'||t.bacteria<.65||t.bacteria2<.5)reasons.push('Corals require a prepared, fully cycled reef aquarium.');
+        if((t.kind!=='reef'&&!(a.receiving===true&&t.kind==='quarantine'&&!AL.Core.alive(t).length&&!(t.invertebrates||[]).some(f=>!f.dead&&f.hp>0)&&!t.eggs.some(e=>e.viability>0)&&!(t.nurseries||[]).some(n=>!n.dead&&n.hp>0)))||t.bacteria<.65||t.bacteria2<.5)reasons.push('Corals require a prepared, fully cycled reef aquarium.');
         if(w.ammonia>.15||w.nitrite>.15||w.oxygen<5.5||w.salinity<c.salinity[0]||w.salinity>c.salinity[1]||w.temperature<c.temperature[0]||w.temperature>c.temperature[1]||w.calcium<c.minCalcium||w.magnesium<c.minMagnesium||w.alkalinity<c.alkalinity[0]||w.alkalinity>c.alkalinity[1]||w.nitrate>c.maxNitrate)reasons.push('Correct the reef water conditions before introducing a living colony.');
         if(AL.Sim){const cond=AL.Sim.floraConditions(s,t,{type:a.type,x:.5,y:.9,size:1,hp:100});if(cond.dailyLight<d.light||cond.flow<d.flow)reasons.push('Install suitable lighting and flow before introducing this coral.');}
         if(!AL.Habitat.candidates(t,.5,AL.Habitat.bed(t),a.type).length&&!(t.hardscape?.length||t.mounts?.length))reasons.push('Provide a permitted mounting surface.');

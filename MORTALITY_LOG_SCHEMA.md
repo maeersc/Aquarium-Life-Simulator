@@ -1,5 +1,9 @@
 # Aquarium Life - permanent mortality journal schema
 
+## Universal transport hosts — 2026-10-16
+
+Transport schema 3 now resolves fish, coral and invertebrate identities/categories from the same registry used for receiving. Pending recovery, settlement receipts and expiry are shared; all real transport losses use the existing permanent journal with unknown measurements left unknown. Old fish-only transport and legacy records remain valid. See GLOBAL_DIVING_RECEIVING_REPORT.md.
+
 ## Additive transport evidence — playable v3.9
 
 The same journal accepts schemaVersion 3 / context diving-transport events for unowned mystery-fish DOA. Stable account/trip/encounter IDs prevent duplicate events. Evidence stores actual simulated loss time, live/offline run context, species, expedition, diver movement/oxygen, collection/deadline, transport quality, prior-condition and committed assessment draws. Water and equipment are empty, hunger/nutrition/hpBefore are null: these were not measured in transport. No invented biological diagnosis or owned-tank death/reward mutation. Existing detailed schema 2 and legacy records remain valid and unchanged; full exports include these transport records. See MYSTERY_DIVING_RULES.md and §5.5 of the master.

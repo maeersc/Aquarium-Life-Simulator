@@ -1,5 +1,9 @@
 # Mystery fish diving rules — playable v3.9 / MDP v4.2
 
+## Universal ocean diving receiving — 2026-10-16
+
+All registered diving fish, corals and invertebrates now share species-aware diagnostics and explicit saved post-boat receiving. Every owned aquarium is shown; supported coral mounts and host-compatible quarantine retain all safeguards. The repair also corrects invalid noninfectious carrier flags, rock surface discovery and missing/ambiguous host mappings. Tests enumerate the real eligible registry, plus old-save, condition, expiry, replay and future-registration checks. See [GLOBAL_DIVING_RECEIVING_REPORT.md](GLOBAL_DIVING_RECEIVING_REPORT.md). Earlier host-limited flow descriptions are historical where superseded. Game v3.9 / master v4.2; local saves and freshwater lock remain.
+
 Every valid Reef Diving and Deep Sea Diving expedition must provide at least one reachable mystery fish encounter. Its species is concealed using a question-mark silhouette until successful return to the boat. Geographic eligibility, inventory, oxygen, post-dive survival, and save persistence remain mandatory.
 
 This release implements the requested Mystery Fish update, labeled v3.5 in the request, on top of playable v3.8. It does not downgrade prior features or save schema 2. Freshwater remains locked; existing freshwater data and biology are preserved.
@@ -23,6 +27,10 @@ Selection is **uniform among eligible fish** for the chosen region/mode/depth, u
 The first eight existing rock encounters remain. Object 9 is always replaced by the guaranteed mystery fish at (4,1); optional objects 10–12 retain the earlier region pool and presence rolls (35% for tier 4–6, 85% for lower tiers). Those optional draws include non-fish and may repeat species. Every optional fish also uses the same generic silhouette and concealed inventory. The table describes the guaranteed encounter, not the distribution of all optional objects.
 
 Both existing terrain layouts admit a six-movement round trip to the fish cell (30% oxygen), or four movements when capturing from an adjacent cell (20%). A logical fish cell stays fixed while the shared original canvas silhouette swims smoothly within it. This avoids moving the guaranteed encounter out of its safe return budget. Guarantee means encounter availability, not automatic capture, survival, profit or ownership. A player can fill all eight slots with rocks and must return rather than discard or overflow them.
+
+## Receiving diagnostics repair — 2026-10-16
+
+All owned destinations are listed, including disabled incompatible tanks with precise reasons and actual/required checks. Working filter/circulation and absence of an active restricted medication course are checked alongside all prior biological safeguards. Eligibility updates with live aquarium state; explicit selection/focus is retained. Holding displays remaining game time and approximate real seconds, without changing the original finite deadline or simulation. Report/validation queries never alter health, assignment, survival draws or deadline. The original player's particular failed predicate cannot be reconstructed from volume/temperature alone. See [DIVING_RECEIVING_REPAIR_REPORT.md](DIVING_RECEIVING_REPAIR_REPORT.md).
 
 ## Interaction and reveal
 

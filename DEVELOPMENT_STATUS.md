@@ -1,5 +1,13 @@
 # Development status — 2026-10-15
 
+## Universal ocean diving receiving — 2026-10-16
+
+All registered diving fish, corals and invertebrates now share species-aware diagnostics and explicit saved post-boat receiving. Every owned aquarium is shown; supported coral mounts and host-compatible quarantine retain all safeguards. The repair also corrects invalid noninfectious carrier flags, rock surface discovery and missing/ambiguous host mappings. Tests enumerate the real eligible registry, plus old-save, condition, expiry, replay and future-registration checks. See [GLOBAL_DIVING_RECEIVING_REPORT.md](GLOBAL_DIVING_RECEIVING_REPORT.md). Earlier host-limited flow descriptions are historical where superseded. Game v3.9 / master v4.2; local saves and freshwater lock remain.
+
+## Diving receiving diagnostics repair — 2026-10-16
+
+All owned aquariums now remain visible in receiving, with disabled incompatible options, exact actual/required checks, preparation/quarantine guidance, live eligibility refresh and the unchanged finite holding countdown. Properly prepared 80-gal marine tanks at exactly 27°C can receive Chalk Bass subject to existing transport survival; legitimate safeguards remain enforced. See [DIVING_RECEIVING_REPAIR_REPORT.md](DIVING_RECEIVING_REPAIR_REPORT.md) for the confirmed UI cause, data audit, files, tests and the limits of identifying an unsupplied player save. Current gameplay stays v3.9 / master v4.2, with local saves and freshwater lock preserved.
+
 ## v3.9 final verified release — 2026-10-15
 
 **1288 selected browser/model/deployment checks passed, zero failed.** Both browsers passed the mystery feature and built Pages/local-save flows; existing diving/resale, automatic breeding, heater/mortality and store/casino/header regressions passed. Viewports: 1920×1080, 1600×900, 1366×768 and 390×844. See [MYSTERY_DIVING_UPDATE_REPORT.md](MYSTERY_DIVING_UPDATE_REPORT.md) for exact suites, all 19 acceptance categories, changed files and limits. DIST and both ZIPs are current; source/DIST/ZIP hashes and CRC checks are independently verified. Browser saves, receipts and mortality history remain local. No public deployment was performed.

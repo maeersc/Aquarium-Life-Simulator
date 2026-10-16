@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-16T00:32:47.484931+00:00",
+  "builtAt": "2026-10-16T12:56:07.186140+00:00",
   "entryPoint": "index.html",
   "gameContent": "v3.9",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1539,
-  "sourceBytes": 456201107,
+  "sourceFiles": 1542,
+  "sourceBytes": 456252788,
   "files": [
     {
       "path": "ART_DIRECTION.md",
@@ -49,13 +49,23 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 43858,
-      "sha256": "09734667e63675fd8ef36253143cd4118825ce21c8dbe610ddd5a18e724534b0"
+      "bytes": 45318,
+      "sha256": "c0579841a35d3361e415e34218b5d604534de67bc00497eed257b376a163ab45"
+    },
+    {
+      "path": "DIVING_RECEIVING_REPAIR_REPORT.md",
+      "bytes": 10808,
+      "sha256": "65e80980a6aafb6bc2682f693cbd6f37e8f79381d7d86a5ead19d4a54df06b96"
     },
     {
       "path": "GITHUB_PAGES.md",
       "bytes": 8455,
       "sha256": "1c4c10ffc1ee2008c17c892746dba568a00fe28f0f1390dddffde952c9fcb548"
+    },
+    {
+      "path": "GLOBAL_DIVING_RECEIVING_REPORT.md",
+      "bytes": 11805,
+      "sha256": "e297e08747b121b32052b05e27e83b9a5fe6228e16a472de512c182c2acbb2d4"
     },
     {
       "path": "HEATER_MORTALITY_REPORT.md",
@@ -64,13 +74,13 @@
     },
     {
       "path": "MORTALITY_LOG_SCHEMA.md",
-      "bytes": 7712,
-      "sha256": "720b0820d9ca978c1ce6b9e90bec0af9254a0b43adcbbbabbcce47e6b7728862"
+      "bytes": 8146,
+      "sha256": "6031300b33f06217677ae3a63330c43507864b9e910eb315b66a1f5766b791b3"
     },
     {
       "path": "MYSTERY_DIVING_RULES.md",
-      "bytes": 9905,
-      "sha256": "480f408fb648e7422cc66d27fcebcf606a4b4d37f038098c9282ca814c3b0e20"
+      "bytes": 11441,
+      "sha256": "73110ccda3113e5ad1a1dacdc3dc8a69b800abbd58b2f64983e7de6b55aeeeb8"
     },
     {
       "path": "MYSTERY_DIVING_UPDATE_REPORT.md",
@@ -7234,8 +7244,8 @@
     },
     {
       "path": "css/diving.css",
-      "bytes": 3765,
-      "sha256": "c5ea0b94fcfac1d7a63ac559f838359235ed36d924d47badd1c42058909a805a"
+      "bytes": 4806,
+      "sha256": "cc6f7f0ab3b9530f05bb34cf554f80b795d7f5d63034bb3406dbada4d19d9d8c"
     },
     {
       "path": "css/gameplay.css",
@@ -7294,8 +7304,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 12843,
-      "sha256": "3ecb156a362d1ad1502222152e629347fc5172cd63a717b0141e50e35ef02aba"
+      "bytes": 12895,
+      "sha256": "0b719e3f155b3d09513fdd8b942352d5f552c13f24259f932fecbb424c226b01"
     },
     {
       "path": "js/app-shell.js",
@@ -7419,18 +7429,23 @@
     },
     {
       "path": "js/diving-mystery.js",
-      "bytes": 8985,
-      "sha256": "e37b35e3fa689103f9058efabd4c5e39939480b8f4c38ccc638ebc2989ab7ce4"
+      "bytes": 9147,
+      "sha256": "ed709a86e3517f764970b4d401767f998833fbf36e1b0622214de098507fd839"
+    },
+    {
+      "path": "js/diving-receiving.js",
+      "bytes": 16374,
+      "sha256": "2569e80abb0de09b240f3cb5fbef1a5f348e37695a8ef38f09f387e47d431646"
     },
     {
       "path": "js/diving-ui.js",
-      "bytes": 23805,
-      "sha256": "2f18d13dd308438f44b6908111e56795b0963b45f9769512adfe06006d34010e"
+      "bytes": 31184,
+      "sha256": "448d569730d4e9ed90759b51c24c7c3880efee777f479ceba5cb51823c4057a9"
     },
     {
       "path": "js/diving.js",
-      "bytes": 22814,
-      "sha256": "2c52090e35cc73839770b6646c4dfab11fe3f5d632bcaaff0be4645272c82247"
+      "bytes": 23177,
+      "sha256": "9c494751f7f174f5d2c457bc4e3ff20cac63578a380d96de437d32c3a5d6c9df"
     },
     {
       "path": "js/equipment-catalog.js",
@@ -7554,8 +7569,8 @@
     },
     {
       "path": "js/mortality-journal.js",
-      "bytes": 17729,
-      "sha256": "ebab074b50d45d83a888cc94f8da13b36fcb6f98aaba9a6d9e6bd1fc8646b03f"
+      "bytes": 17796,
+      "sha256": "104c08fd0e02a7fc1a4099e40d6c3180426edeb6b5a3312bb565c2d1eaaafc36"
     },
     {
       "path": "js/mortality-ui.js",
@@ -7629,8 +7644,8 @@
     },
     {
       "path": "js/store-rules.js",
-      "bytes": 6799,
-      "sha256": "00cb9428d75aa24da1168a845baccde234e63d6ac8d571ad8ee0bd96ba6e7eb5"
+      "bytes": 6999,
+      "sha256": "03d80ff0451c10e2a3ab63ff04fc13e3488a7a9f30792f729af5fa8217c1d4bc"
     },
     {
       "path": "js/store.js",
