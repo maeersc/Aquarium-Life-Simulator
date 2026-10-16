@@ -1,16 +1,16 @@
 {
-  "builtAt": "2026-10-16T12:56:07.186140+00:00",
+  "builtAt": "2026-10-16T13:50:49.865565+00:00",
   "entryPoint": "index.html",
-  "gameContent": "v3.9",
+  "gameContent": "v4.0",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1542,
-  "sourceBytes": 456252788,
+  "sourceFiles": 1553,
+  "sourceBytes": 456312964,
   "files": [
     {
       "path": "ART_DIRECTION.md",
-      "bytes": 26995,
-      "sha256": "d93fbb89ee3292cd03fe6323f3299e6a861689d5a4c826bb52326480313c1d2a"
+      "bytes": 27703,
+      "sha256": "a24dc279bf05195e7c4462cc30fe4b285993a17f3d3b92fef8238747e4148429"
     },
     {
       "path": "ART_UPDATE_REPORT.md",
@@ -44,13 +44,23 @@
     },
     {
       "path": "CURRENT_LIVESTOCK_CATALOG.md",
-      "bytes": 90571,
-      "sha256": "7741371ec80d079e6d3fd772822c41e6075e687593892f7ddf01c86df4767076"
+      "bytes": 91279,
+      "sha256": "4c7e023271b2ecccde6e4ab81a710c55da5807c5bff8f3244ca6f0dc28af3a76"
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 45318,
-      "sha256": "c0579841a35d3361e415e34218b5d604534de67bc00497eed257b376a163ab45"
+      "bytes": 46026,
+      "sha256": "4f5f010e59257442b9576f62d2c81721fb40d9e76a9f61d5c38559468d6a1195"
+    },
+    {
+      "path": "DIVING_EXPANSION_REPORT.md",
+      "bytes": 10315,
+      "sha256": "a8581ff97890dace75e817a369cf1e1ae6cbb3261374c8823333df01699378c5"
+    },
+    {
+      "path": "DIVING_EXPANSION_SAVE_SCHEMA.md",
+      "bytes": 3337,
+      "sha256": "00f0003298db95f8bd1a2a8edaea47283eaca42c64da19de1f3e38fe08690387"
     },
     {
       "path": "DIVING_RECEIVING_REPAIR_REPORT.md",
@@ -79,8 +89,8 @@
     },
     {
       "path": "MYSTERY_DIVING_RULES.md",
-      "bytes": 11441,
-      "sha256": "73110ccda3113e5ad1a1dacdc3dc8a69b800abbd58b2f64983e7de6b55aeeeb8"
+      "bytes": 12149,
+      "sha256": "99f0f516886269a2050658b2a254a6d5d37314391cb52bb361017c8794d6b0b5"
     },
     {
       "path": "MYSTERY_DIVING_UPDATE_REPORT.md",
@@ -118,6 +128,11 @@
       "sha256": "4a084ef797164358a27b07e03278b410cd12014a99918e55591143c57d1e7794"
     },
     {
+      "path": "assets/diving/australia-reef.svg",
+      "bytes": 1087,
+      "sha256": "81c16aa4787f6ad4a968c8fe8eabc453775830537e611041fc3065d6e651b396"
+    },
+    {
       "path": "assets/diving/caribbean-deep-v1.png",
       "bytes": 2744787,
       "sha256": "49ec0c2687cab32e0d13a7ad9c0aea6b16b92e3f9e31ec56b9bdf104dfaf0b7e"
@@ -148,6 +163,11 @@
       "sha256": "fea945fa635d66fd1a9d5858de2207e84e1e5fab1673a368fe736ddfd9c3b525"
     },
     {
+      "path": "assets/diving/florida-reef.svg",
+      "bytes": 1087,
+      "sha256": "86e141463dd6ec9ab0eef97179f999ef67e1af3de84a9a348dfeb5126f06c40b"
+    },
+    {
       "path": "assets/diving/hawaii-deep-v1.png",
       "bytes": 2593402,
       "sha256": "52e58c9f9bd2b3ccb1fbdc5f360c24141542bd028521676647076ea5d50450c5"
@@ -158,6 +178,11 @@
       "sha256": "9a1666023ab18efdbf574c445ce2be281b1d03a6dae568a471e46ea601a1e74d"
     },
     {
+      "path": "assets/diving/indonesia-reef.svg",
+      "bytes": 1093,
+      "sha256": "c064cf750706b54827ad19257435618e8e30559516c5dc8e6713ba8e1f31d5b8"
+    },
+    {
       "path": "assets/diving/japan-deep-v1.png",
       "bytes": 2538299,
       "sha256": "ee5348ca5d8ba8743807cbc0b385ae646bb37975f089a4043b8a6f133582dfba"
@@ -166,6 +191,31 @@
       "path": "assets/diving/japan-reef-v1.png",
       "bytes": 3012772,
       "sha256": "ac4075f7a6c3cf52f11dc894db56d128b3a979135090be6c8f945a44d1ee97c7"
+    },
+    {
+      "path": "assets/diving/maldives-reef.svg",
+      "bytes": 1078,
+      "sha256": "51757e90a362dfd539999aceaf959ee58b4f8d15ad3b86f649b62163eef31bb8"
+    },
+    {
+      "path": "assets/diving/mariana-deep.svg",
+      "bytes": 679,
+      "sha256": "994d289123988f0866a8481449b88a259bcdc85830d39e0097a9d736ae54d23b"
+    },
+    {
+      "path": "assets/diving/marshall-reef.svg",
+      "bytes": 1082,
+      "sha256": "87b2f217a720ffb7d9d889c87db8a3330dccf69401544546414d1a6c2c5b046e"
+    },
+    {
+      "path": "assets/diving/philippines-reef.svg",
+      "bytes": 1102,
+      "sha256": "384a6e477c19ec8cb8299b1dd40224ba9f26ec5de0f3ec0e22d5628ce85e016c"
+    },
+    {
+      "path": "assets/diving/sri-lanka-reef.svg",
+      "bytes": 1079,
+      "sha256": "9532ac574e7d953906d7cc6963598db86c82803ced8e9c95c0aa6b22fc4f9752"
     },
     {
       "path": "assets/expansion-v27/blastomussa-wellsi/atlas-v1.png",
@@ -7304,13 +7354,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 12895,
-      "sha256": "0b719e3f155b3d09513fdd8b942352d5f552c13f24259f932fecbb424c226b01"
+      "bytes": 12947,
+      "sha256": "558ff8304161d11b191d2a98c214a37433e91920f7fa1726467556d4c32010fb"
     },
     {
       "path": "js/app-shell.js",
-      "bytes": 30056,
-      "sha256": "5abe782ca30b842f151e298819fb90a05fb8e021a746ceba1dde29072d877813"
+      "bytes": 30123,
+      "sha256": "2e4e7ea27c4e6d937a1acfaf136c6b03a4001950abc2b296aef3351b11b3487f"
     },
     {
       "path": "js/art-assets-data.js",
@@ -7344,8 +7394,8 @@
     },
     {
       "path": "js/brood-view.js",
-      "bytes": 7798,
-      "sha256": "c445e450eb6bc4a8320323122486590aeeba61f03ce833a079dee2444792ed54"
+      "bytes": 7908,
+      "sha256": "aac11058840561b9a70b403ba9d8a76eeb7eb1678c4d5f0d1c94ca07a08c2b65"
     },
     {
       "path": "js/casino-art.js",
@@ -7399,8 +7449,8 @@
     },
     {
       "path": "js/core.js",
-      "bytes": 38917,
-      "sha256": "e00b80cc20c893c8b152f6a423254064262492a75108a38f43dd900056974a56"
+      "bytes": 39294,
+      "sha256": "1b6ce6c2b05a40b5ffc5f1d6dcebfc21d771232d652b2e3e4bd4d7ff87d88e38"
     },
     {
       "path": "js/daily-store.js",
@@ -7419,18 +7469,23 @@
     },
     {
       "path": "js/diving-art.js",
-      "bytes": 2116,
-      "sha256": "c4bb23c23705a31b1808d2216c82cd29e70d45bd18f98bc0e217cc15ed2c59fe"
+      "bytes": 3143,
+      "sha256": "52edb2cc24e5cd653dd991793256ec8b1c8946141e90554db40a0e4ed8ab6485"
     },
     {
       "path": "js/diving-data.js",
-      "bytes": 9087,
-      "sha256": "6414eec5cdf987d7fea30f7e3a66aa97ce02dab458f3a70f41ba8c9148781e82"
+      "bytes": 16554,
+      "sha256": "cc96af3ca2b7e3d70d5efc9a9a1c96bfdd4a1d7c9923d7d02a640bc91678d100"
+    },
+    {
+      "path": "js/diving-expansion.js",
+      "bytes": 19184,
+      "sha256": "717e9650c37bdbc9c52f869165e4a86c9efc05cb2b3d2fb3160d90c5e995931f"
     },
     {
       "path": "js/diving-mystery.js",
-      "bytes": 9147,
-      "sha256": "ed709a86e3517f764970b4d401767f998833fbf36e1b0622214de098507fd839"
+      "bytes": 9851,
+      "sha256": "88ab02b5e23c603c23bde3c8b8e755129f2203865501493e19184378f1132bee"
     },
     {
       "path": "js/diving-receiving.js",
@@ -7439,13 +7494,13 @@
     },
     {
       "path": "js/diving-ui.js",
-      "bytes": 31184,
-      "sha256": "448d569730d4e9ed90759b51c24c7c3880efee777f479ceba5cb51823c4057a9"
+      "bytes": 35969,
+      "sha256": "c018ebb29cac8c3288a324c6e231dee4da6b644113793a2f2704ec7c7915c98c"
     },
     {
       "path": "js/diving.js",
-      "bytes": 23177,
-      "sha256": "9c494751f7f174f5d2c457bc4e3ff20cac63578a380d96de437d32c3a5d6c9df"
+      "bytes": 23887,
+      "sha256": "284d68f47acb6d603d3b62685cb44ce229224c94a1031f41fad6048502199574"
     },
     {
       "path": "js/equipment-catalog.js",
@@ -7484,8 +7539,8 @@
     },
     {
       "path": "js/finance.js",
-      "bytes": 8356,
-      "sha256": "ad13e83edccfc49a17173b73da6597669f955d671ac5a530884bf15fd24def7c"
+      "bytes": 8480,
+      "sha256": "80ba4d95aec0adf9f70b834dc7e4dd7d839de69c306f9e4dadf04b3d22ed402d"
     },
     {
       "path": "js/gameplay-ui.js",
@@ -7564,8 +7619,8 @@
     },
     {
       "path": "js/marine-care.js",
-      "bytes": 6761,
-      "sha256": "5e403a3bb7de3d4eb6dc1cad2b46393ae9a8c66929e857a35bbdf6d5bc52cf43"
+      "bytes": 6802,
+      "sha256": "65011fee86fb3031ebc60f35d77f62d75bcc542568baa36c520d74ba3e5e2918"
     },
     {
       "path": "js/mortality-journal.js",
@@ -7629,8 +7684,8 @@
     },
     {
       "path": "js/simulation.js",
-      "bytes": 22621,
-      "sha256": "d3193df784dc7bb3598eb24a046190114beb0ca0955a33cd38464af93d6c0e17"
+      "bytes": 22776,
+      "sha256": "3881657c5babed6303f133966e5fc39ac9d2167325e255a236aec1805826fc84"
     },
     {
       "path": "js/sprite-kit.js",
@@ -7694,18 +7749,18 @@
     },
     {
       "path": "js/update31-ui.js",
-      "bytes": 22606,
-      "sha256": "0e02d4a7f04b0296d32461bfca0bf09f4fe9ebd8dd9b0a89a9a8ff42cdd15d94"
+      "bytes": 22823,
+      "sha256": "33d3a67d3497c3b608163bd3fc34972af4a0e9be91c86fb601603786de0802d8"
     },
     {
       "path": "js/update31.js",
-      "bytes": 13855,
-      "sha256": "87757fcff7ea79d78629102be6b3285edda8ce332719fe8a9f8821f08628ae18"
+      "bytes": 14215,
+      "sha256": "8dd38ce06af279df2d587d333f0bffa01c85c9f9fb3559df346fed6b4c904e2b"
     },
     {
       "path": "js/valuation.js",
-      "bytes": 4629,
-      "sha256": "966af7bb0c4d17fb1096363789a2acbbce88f4b712b1f7400460cf5b65369944"
+      "bytes": 4654,
+      "sha256": "dae4b692c3f0cccc6e8db7045503b0a22bd93fec978db0fb106ac58b401b6f39"
     },
     {
       "path": "life-stage-review.html",
