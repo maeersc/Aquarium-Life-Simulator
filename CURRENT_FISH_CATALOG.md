@@ -1,5 +1,27 @@
 # Current fish catalog - art update 1.1
 
+## Current reproductive metadata — v3.8
+
+No species, scientific identity, rarity, aquarium requirement, sprite or collection count is added or removed. Runtime metadata now uses AL.Breeding's reviewed profiles rather than inferring reproduction from a body shape. All rates/cohort sizes are game calibrations.
+
+| Existing group / ID | Current autonomous status |
+|---|---|
+| 26 purchase-eligible clownfish including `clown` | Protandrous; hard-substrate eggs, male tending, fine-food larvae |
+| `banggai` | Separate reproductive roles; paternal mouthbrooding; developed juvenile release |
+| `chalk-bass` | Simultaneous hermaphroditism and alternating egg-donor roles; pelagic eggs; live-plankton larvae |
+| `sharknose-goby` | Compatible male/female; demersal cavity nest and male care |
+| Specialist clownfish five existing acquisition/art holds | Remain held; no breeding bypass |
+| Other incomplete marine profiles, including Royal Gramma, Yellow/Blue Assessor and Greenbanded Goby | Autonomous breeding held pending reviewed roles/nest/larval protocol; not a claim of biological impossibility |
+| Already saved/purchased broods | Keep original strategy, incubation and inherited identities; no inferred historical spawning |
+| Existing freshwater, corals and non-fish invertebrates | No reproductive-system expansion; freshwater remains locked, coral fragging stays separate |
+
+The historical v2.7 registry's five simplified enabled flags are superseded for current natural reproduction. Current runtime `breedingSupported`, `breedingStatus` and `autonomousBreeding` are authoritative; the batch registries remain intact for continuity. See BREEDING_RULES.md for species boundaries and references, and BREEDING_SAVE_SCHEMA.md for migration.
+
+## Automatic marine breeding — v3.8 current, 2026-10-15
+
+Replaced manual marine courtship with autonomous, species-aware breeding, visible swimming/nest behavior, individual reproductive status and a read-only Breeding & Eggs observation dashboard. New clutches use real parent/tank IDs, saved reproductive roles and RNG, species-specific care/losses and bounded offspring reservations. All prior local accounts, art/genetic identities, coral lineage, rewards, heaters, mortality logs, store/casino functionality and the 20-minute day remain. Freshwater stays locked. See [BREEDING_RULES.md](BREEDING_RULES.md), [BREEDING_SAVE_SCHEMA.md](BREEDING_SAVE_SCHEMA.md) and [BREEDING_UPDATE_REPORT.md](BREEDING_UPDATE_REPORT.md). Earlier release entries are historical wherever superseded.
+
+
 ## Livestock expansion v2.7 — current, 2026-10-14
 
 MDP **v3.2** retains exactly 31 major sections. Added **38 unique marine entries: 28 fish, five named stony corals and five non-fish invertebrates**. All 38 passed the pre-registration scientific-name/synonym duplicate audit; none were skipped. The runtime now has **80 fish (69 marine, 11 protected freshwater), ten marine coral entries and five non-fish invertebrates**. The six existing freshwater plants are unchanged. Existing art-only and planned entries are excluded from these totals.

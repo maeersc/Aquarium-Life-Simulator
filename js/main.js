@@ -11,7 +11,7 @@
       if(running){accumulator+=dt*AL.Config.minutesPerSecond*(diving?1:liveModal?Math.max(1,s.settings.speed):s.settings.speed);while(accumulator>=AL.Config.stepMinutes){AL.Sim.step(s,AL.Config.stepMinutes);accumulator-=AL.Config.stepMinutes;}}
       drawBudget+=dt;const interval=s.settings.particles?1/fpsCap:1/30;if(drawBudget>=interval){const started=performance.now();if(diving)AL.DivingUI.draw();else AL.renderer.draw(s,drawBudget);renderCost=renderCost*.9+(performance.now()-started)*.1;if(renderCost>14)fpsCap=30;else if(renderCost<8)fpsCap=60;drawBudget=0;}
       vitals+=dt;panels+=dt;autosave+=dt;
-      if(vitals>=1){if(AL.Store.opened&&document.getElementById('store-dialog').dataset.calendarDay!==String(AL.game.dailyStore.day))AL.Store.render();const timer=document.getElementById('rotation-countdown');if(timer)timer.textContent=AL.DailyStore.countdown(AL.game);AL.UI.updateVitals();AL.DivingUI?.update();AL.Update29UI?.update();AL.Update31UI?.update();AL.CasinoUI.update();vitals=0;}
+      if(vitals>=1){if(AL.Store.opened&&document.getElementById('store-dialog').dataset.calendarDay!==String(AL.game.dailyStore.day))AL.Store.render();const timer=document.getElementById('rotation-countdown');if(timer)timer.textContent=AL.DailyStore.countdown(AL.game);AL.UI.updateVitals();AL.DivingUI?.update();AL.Update29UI?.update();AL.Update31UI?.update();AL.CasinoUI.update();AL.BreedingUI?.update();vitals=0;}
       if(panels>=10&&!AL.UI.modalOpen&&!['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName)){AL.UI.render();panels=0;}
       if(autosave>=AL.Config.autosaveSeconds){if(!AL.Startup.pending&&!AL.Save.locked)AL.UI.save();autosave=0;}
     }requestAnimationFrame(frame);

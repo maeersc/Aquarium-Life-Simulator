@@ -1,5 +1,9 @@
 # Aquarium Life - permanent mortality journal schema
 
+## Additive transport evidence — playable v3.9
+
+The same journal accepts schemaVersion 3 / context diving-transport events for unowned mystery-fish DOA. Stable account/trip/encounter IDs prevent duplicate events. Evidence stores actual simulated loss time, live/offline run context, species, expedition, diver movement/oxygen, collection/deadline, transport quality, prior-condition and committed assessment draws. Water and equipment are empty, hunger/nutrition/hpBefore are null: these were not measured in transport. No invented biological diagnosis or owned-tank death/reward mutation. Existing detailed schema 2 and legacy records remain valid and unchanged; full exports include these transport records. See MYSTERY_DIVING_RULES.md and §5.5 of the master.
+
 Current: playable v3.6 / MDP v3.9, 2026-10-15. The permanent rule is authoritative in MDP 24.9. This document describes its serialization; it does not introduce a second logger.
 
 ## Storage and migration

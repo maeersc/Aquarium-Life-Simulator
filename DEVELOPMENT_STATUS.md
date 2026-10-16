@@ -1,5 +1,22 @@
 # Development status — 2026-10-15
 
+## v3.9 final verified release — 2026-10-15
+
+**1288 selected browser/model/deployment checks passed, zero failed.** Both browsers passed the mystery feature and built Pages/local-save flows; existing diving/resale, automatic breeding, heater/mortality and store/casino/header regressions passed. Viewports: 1920×1080, 1600×900, 1366×768 and 390×844. See [MYSTERY_DIVING_UPDATE_REPORT.md](MYSTERY_DIVING_UPDATE_REPORT.md) for exact suites, all 19 acceptance categories, changed files and limits. DIST and both ZIPs are current; source/DIST/ZIP hashes and CRC checks are independently verified. Browser saves, receipts and mortality history remain local. No public deployment was performed.
+
+## Mystery fish diving — v3.9 current, 2026-10-15
+
+Implemented the authorized Mystery Fish update (request v3.5) on top of playable v3.8. New valid Reef/Deep trips guarantee a reachable regional fish, concealed until boat return, with saved assignments, original question-mark art/reveal, explicit safe receiving and permanent transport-loss evidence. Empty/closed collectible pools block launch. Existing oxygen, fees, resale, local accounts, biology, genetics, breeding, care rewards and freshwater lock remain. See [MYSTERY_DIVING_RULES.md](MYSTERY_DIVING_RULES.md) and [MYSTERY_DIVING_UPDATE_REPORT.md](MYSTERY_DIVING_UPDATE_REPORT.md). Current master is v4.2; earlier release entries are historical where superseded.
+
+## Automatic marine breeding — v3.8 current, 2026-10-15
+
+Replaced manual marine courtship with autonomous, species-aware breeding, visible swimming/nest behavior, individual reproductive status and a read-only Breeding & Eggs observation dashboard. New clutches use real parent/tank IDs, saved reproductive roles and RNG, species-specific care/losses and bounded offspring reservations. All prior local accounts, art/genetic identities, coral lineage, rewards, heaters, mortality logs, store/casino functionality and the 20-minute day remain. Freshwater stays locked. See [BREEDING_RULES.md](BREEDING_RULES.md), [BREEDING_SAVE_SCHEMA.md](BREEDING_SAVE_SCHEMA.md) and [BREEDING_UPDATE_REPORT.md](BREEDING_UPDATE_REPORT.md). Earlier release entries are historical wherever superseded.
+
+
+## v3.8 verified acceptance
+
+Automatic breeding: 86/86 in Chrome and 86/86 in Edge. Current regression/deployment suites total 1,808 overlapping assertions with zero current-suite failures; the detailed table, retired-runner caveat and not-run coverage are in BREEDING_UPDATE_REPORT.md. DIST/Pages/source ZIPs are rebuilt and byte-checked; local save policy, 31-section MDP/continuity, roster ledgers and existing genetic/art identities are preserved. The simulator remains a simplified game with incomplete species profiles and art holds; binary continuity PDF remains pending.
+
 ## Equipment filters, inspector research and The Dock Casino - v3.7 current
 
 Implemented the equipment-category dropdown and original fragging-tool previews, moved paid species research to living owned-fish inspectors, and added the authorized seventh sidebar entry The Dock Casino with playable Gold Fish and Predator & Prey. All wagers and returns use the existing account wallet/ledger and saved round authority; all research remains 5 AC once per canonical species. The aquarium header controls share the information-column grid and align to its actual panel edge. See STORE_CASINO_UPDATE_REPORT.md and CASINO_RULES.md for the release, verified probabilities, local persistence and limitations. Existing biological simulation, 20-minute day, rewards, freshwater lock, livestock/art approvals and local saves remain. Earlier release sections are historical where superseded.
@@ -59,7 +76,7 @@ Playable v2.9 / MDP v3.5. Approved batch registered additively; Coleman’s shri
 
 
 
-## Ocean Diving v2.8 — current, 2026-10-14
+## Ocean Diving v2.8 — historical, 2026-10-14
 
 MDP **v3.3**, retaining all 31 major sections. **Ocean Diving** beside Keeper Level opens Reef (Level 5 / 1,000 AC) or Deep Sea (Level 10 / 10,000 AC). Fiji, Caribbean, Hawaii and Japan have original regional scenery and a compact playable map. W/A/S/D, arrows and on-screen buttons move one tile; every successful step costs exactly 5% oxygen from 100%. Blocked movement and collection clicks cost none. Eight temporary slots become owned only on a successful boat return with oxygen remaining. Exhaustion/confirmed abandonment forfeits discoveries without a fee refund.
 

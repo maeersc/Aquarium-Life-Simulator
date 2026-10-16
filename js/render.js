@@ -115,6 +115,8 @@ AL.Renderer = class {
       const pos=this.positions.get(f.id)||{x:f.x,y:f.y,facing:f.heading||1};const oldX=pos.x,blend=1-Math.exp(-dt*Math.max(.7,s.settings.speed*.7));pos.x+=(f.x-pos.x)*blend;pos.y+=(f.y-pos.y)*blend;if(!f.dead&&blend>0)pos.facing=AL.SpriteKit.facing(pos.facing,f.x-oldX);this.positions.set(f.id,pos);
       const w=Math.round(64*scale),h=stageSprite?Math.round(w*sprite.height/sprite.width):Math.round(40*scale),x=Math.round(pos.x*W),y=Math.round(pos.y*H);
       g.save();g.globalAlpha=f.dead?.65:f.behavior==='Hide'?.65:1;if(f.disease)g.globalAlpha=.75;AL.SpriteKit.draw(g,sprite,x,y,w,h,pos.facing,f.dead&&!stageSprite);g.restore();
+      if(!f.dead&&f.reproduction?.pairId){g.fillStyle='#45d6d0';g.fillRect(Math.round(x-3),Math.round(y-h/2-7),2,2);g.fillRect(Math.round(x+1),Math.round(y-h/2-7),2,2);}
+      if(!f.dead&&f.behavior==='Male mouthbrooding'){g.fillStyle='#e6cf94';g.fillRect(Math.round(x-2),Math.round(y-h/2-7),4,2);}
       if(this.selected===f.id){g.strokeStyle='#d0e6b7';g.setLineDash([2,3]);g.strokeRect(x-w/2-3,y-h/2-3,w+6,h+6);g.setLineDash([]);}if(f.stress>55&&!f.dead){g.fillStyle='#d7b979';g.fillRect(x,y-h/2-5,2,3);}if(!s.settings.reducedViolence&&f.dead){g.fillStyle='#bc6864';g.fillRect(x+3,y,2,1);}
       this.hitboxes.push({id:f.id,x:((x-W*this.pan)*this.zoom+W/2)/W,y:((y-H/2)*this.zoom+H/2)/H,w:w*this.zoom/W,h:h*this.zoom/H});
     }

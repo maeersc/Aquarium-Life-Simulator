@@ -21,7 +21,7 @@ AL.Core = (() => {
     for(const key of Object.keys(D.flora))s.stock[key]=12;
     for(const key of Object.keys(D.equipment))s.stock[key]=8;
     for(const key of [...Object.keys(D.foods),...Object.keys(D.supplies)])s.stock[key]=30;
-    for(const [key,n] of Object.entries(AL.Habitat?.initialStock||{}))s.stock[key]=n;for(const [key,v] of Object.entries(AL.Clownfish?.varieties||{}))s.stock['variety:'+key]=v.initialStock;for(const d of Object.values(D.species))if(d.purchaseVerified===false)s.stock[d.id]=0;AL.Expansion?.migrate(s);AL.Update29?.newGame(s);AL.Diving?.migrate(s);AL.LivestockMarket?.initialize(s);AL.Gameplay?.migrate(s);AL.Offline?.migrate(s);AL.Finance?.initialize(s);AL.Casino?.migrate(s);AL.Update31?.migrate(s);AL.Research?.migrate(s);AL.MarineCare?.migrate(s);AL.Mortality?.migrate(s);log(s,'Your first aquarium is ready to prepare. Welcome home.');return s;
+    for(const [key,n] of Object.entries(AL.Habitat?.initialStock||{}))s.stock[key]=n;for(const [key,v] of Object.entries(AL.Clownfish?.varieties||{}))s.stock['variety:'+key]=v.initialStock;for(const d of Object.values(D.species))if(d.purchaseVerified===false)s.stock[d.id]=0;AL.Expansion?.migrate(s);AL.Update29?.newGame(s);AL.Diving?.migrate(s);AL.LivestockMarket?.initialize(s);AL.Gameplay?.migrate(s);AL.Offline?.migrate(s);AL.Finance?.initialize(s);AL.Casino?.migrate(s);AL.Update31?.migrate(s);AL.Research?.migrate(s);AL.MarineCare?.migrate(s);AL.Mortality?.migrate(s);AL.Breeding?.migrate(s);log(s,'Your first aquarium is ready to prepare. Welcome home.');return s;
   }
   function selected(s){return s.tanks.find(t=>t.id===s.selectedTank)||s.tanks[0];}
   function alive(t){return t.fish.filter(f=>!f.dead&&(D.species[f.species].water!=='marine'||f.hp>0));}
@@ -32,7 +32,7 @@ AL.Core = (() => {
   function fish(s,species,options={}){
     const d=D.species[species],r=()=>random(s),genes=options.genes||{color:0.85+r()*0.3,size:0.9+r()*0.2,longevity:0.9+r()*0.2,immunity:0.85+r()*0.3,fertility:0.85+r()*0.3};
     const age=options.age??d.maturity+10+r()*50;
-    const f={id:id(s,'fish'),species,name:d.name,sex:options.sex||(r()<0.5?'F':'M'),age,lifeExpectancy:d.life*365,maxLifespan:d.maxLife*365*genes.longevity,hp:100,maxHp:100,hunger:25,stress:8,happiness:90,energy:90,fertility:clamp(d.fertility*genes.fertility,0.2,0.95),growth:clamp(age/d.maturity,0.08,1),adultSize:d.size*genes.size,aggression:clamp(d.aggression*(0.8+r()*0.4),0,1),temperament:d.aggression>0.5?'Territorial':d.group>1?'Social':'Peaceful',disease:null,immune:clamp(d.immune*genes.immunity,0.2,0.98),genes,rarity:AL.Rarity?.species(species).name||d.rarity,parents:options.parents||[],generation:options.generation||0,born:s.time,bought:options.bought??true,raised:false,lastBreed:-99999,attackCooldown:0,dead:false,deathCause:null,deadHours:0,x:0.12+r()*0.76,y:clamp(d.zone+(r()-0.5)*0.3,0.15,0.9),vx:(r()<0.5?-1:1)*0.012,vy:0,heading:1,behavior:'Explore',targetX:r(),targetY:d.zone,aiTimer:0};if(d.water==='marine')AL.Health?.initialize(f);AL.Patterns?.ensure(f);return f;
+    const f={id:id(s,'fish'),species,name:d.name,sex:options.sex||(r()<0.5?'F':'M'),age,lifeExpectancy:d.life*365,maxLifespan:d.maxLife*365*genes.longevity,hp:100,maxHp:100,hunger:25,stress:8,happiness:90,energy:90,fertility:clamp(d.fertility*genes.fertility,0.2,0.95),growth:clamp(age/d.maturity,0.08,1),adultSize:d.size*genes.size,aggression:clamp(d.aggression*(0.8+r()*0.4),0,1),temperament:d.aggression>0.5?'Territorial':d.group>1?'Social':'Peaceful',disease:null,immune:clamp(d.immune*genes.immunity,0.2,0.98),genes,rarity:AL.Rarity?.species(species).name||d.rarity,parents:options.parents||[],generation:options.generation||0,born:s.time,bought:options.bought??true,raised:false,lastBreed:-99999,attackCooldown:0,dead:false,deathCause:null,deadHours:0,x:0.12+r()*0.76,y:clamp(d.zone+(r()-0.5)*0.3,0.15,0.9),vx:(r()<0.5?-1:1)*0.012,vy:0,heading:1,behavior:'Explore',targetX:r(),targetY:d.zone,aiTimer:0};if(d.water==='marine')AL.Health?.initialize(f);AL.Patterns?.ensure(f);AL.Breeding?.ensureFish(s,f);return f;
   }
   function compatibility(s,t,species,count=1,ignoreIds=[]){
     const d=D.species[species],reasons=[],warnings=[],residents=alive(t).filter(f=>!ignoreIds.includes(f.id));
@@ -41,9 +41,9 @@ AL.Core = (() => {
     if(t.volume<d.minTank)reasons.push(`Needs at least ${AL.Units.volume(d.minTank)} of swimming space.`);
     if(!t.prepared||t.bacteria<0.65||t.bacteria2<0.5)reasons.push('Prepare and cycle this aquarium before adding fish.');
     if(t.waterParams.ammonia>0.3||t.waterParams.nitrite>0.3)reasons.push('Reduce ammonia and nitrite below 0.30 mg/L first.');
-    if(d.water==='marine'){const extra=AL.Expansion?.report(s,t,species);if(extra){reasons.push(...extra.reasons);warnings.push(...extra.warnings);}}const reserved=t.eggs.reduce((n,e)=>n+D.species[e.species].load*e.count,0)+(AL.Update29?.reservedLoad(t)||0)+(t.invertebrates||[]).filter(f=>!f.dead).reduce((n,f)=>n+D.invertebrates[f.invertebrate].load,0);
+    if(d.water==='marine'){const extra=AL.Expansion?.report(s,t,species);if(extra){reasons.push(...extra.reasons);warnings.push(...extra.warnings);}}const reserved=(AL.Breeding?.reservedLoad(t)||0)+t.eggs.reduce((n,e)=>n+D.species[e.species].load*e.count,0)+(AL.Update29?.reservedLoad(t)||0)+(t.invertebrates||[]).filter(f=>!f.dead).reduce((n,f)=>n+D.invertebrates[f.invertebrate].load,0);
     if(residents.reduce((n,f)=>n+D.species[f.species].load,0)+reserved+d.load*count>loadLimit(t))reasons.push('Adult stocking load, including reserved brood space, exceeds this aquarium’s capacity.');
-    if(residents.length+count>C.maxFish)reasons.push('This aquarium has reached the entity limit.');
+    if(residents.length+(t.water==='marine'?t.eggs.filter(e=>e.viability>0).reduce((n,e)=>n+e.count,0)+(AL.Breeding?.reservedCount(t)||0):0)+count>C.maxFish)reasons.push('This aquarium has reached the entity limit.');
     if(d.fictional&&!has(t,'containment'))reasons.push('Reinforced containment is required.');
     const same=residents.filter(f=>f.species===species).length;
     if(same+count<d.group)reasons.push(`This social species needs a group of at least ${d.group}.`);
@@ -66,6 +66,8 @@ AL.Core = (() => {
   function discover(s,key){if(!s.discovered.includes(key))s.discovered.push(key);}
   function kill(s,t,f,cause){if(f.dead)return;if(f.hp>0)AL.Mortality?.beforeDamage?.(s,t,f);f.dead=true;f.hp=0;f.deathCause=cause;if(AL.Rarity){s.lineageHistory??=[];s.lineageHistory.push({id:f.id,species:f.species,rarity:AL.Rarity.of(f).name,parents:[...f.parents],pattern:f.patternProfile||null,provenance:f.provenance||null,time:s.time,cause});s.lineageHistory=s.lineageHistory.slice(-100);}AL.Update29?.death(s,t,f);f.behavior='Deceased';s.stats.deaths++;log(s,`${f.name} died: ${cause}. Remove the remains to protect water quality.`,'danger');}
   const actions={
+    diveRecover(s,t,a){AL.Diving.action(s,t,'diveRecover',a);},
+    diveRelease(s,t,a){AL.Diving.action(s,t,'diveRelease',a);},
     buyFragTool(s,t,a){AL.Update31.buyTool(s,t,a);},
     buyFragSupplies(s,t,a){AL.Update31.buySupplies(s,t,a);},
     fragCoral(s,t,a){AL.Update31.frag(s,t,a);},
@@ -155,7 +157,7 @@ AL.Core = (() => {
   // so rejected operations cannot partially spend money or create entities.
   function act(s,action,args={},token){
     if(!actions[action])throw Error('Unknown action.');if(token&&s.transactions.includes(token))return s;
-    const draft=JSON.parse(JSON.stringify(s)),originalSelection=draft.selectedTank;AL.Mortality?.defer?.(draft);AL.Finance?.initialize(draft);AL.Casino?.migrate(draft);AL.MarineCare?.migrate(draft);AL.Mortality?.migrate(draft);AL.Update31?.migrate(draft);AL.Research?.migrate(draft);
+    const draft=JSON.parse(JSON.stringify(s)),originalSelection=draft.selectedTank;AL.Mortality?.defer?.(draft);AL.Finance?.initialize(draft);AL.Casino?.migrate(draft);AL.MarineCare?.migrate(draft);AL.Mortality?.migrate(draft);AL.Update31?.migrate(draft);AL.Research?.migrate(draft);AL.Breeding?.migrate(draft);
     const destination=args.destinationTankId===undefined?selected(draft):draft.tanks.find(t=>t.id===args.destinationTankId);
     if(!destination)throw Error('The destination aquarium no longer exists. Choose another aquarium.');
     if(args.destinationTankId!==undefined&&!AL.StoreRules?.purchases.has(action)&&!['reposition','moveRock','moveDecoration','diveInstallRock'].includes(action))throw Error('This action does not accept a shopping destination.');
@@ -163,7 +165,7 @@ AL.Core = (() => {
     AL.Finance?.begin(draft,action,args,destination,token);AL.Update31?.beforeAction(draft,destination,action,args);AL.Gameplay?.observe(draft);actions[action](draft,destination,args);if(['waterChange','controls','toggleEquipment','service','buyEquipment','moveEquipment'].includes(action))AL.Mortality?.event?.(draft,destination,action,{water:{...destination.waterParams},equipment:destination.equipment.map(e=>({...e})),setpoint:destination.temperatureTarget});AL.Update29?.afterAction(draft,destination,action,args,s);AL.Diving?.afterAction(draft,destination,action,args,s);AL.Gameplay?.migrate(draft);AL.MarineCare?.migrate(draft);AL.Mortality?.migrate(draft);AL.Gameplay?.observe(draft);if(AL.Valuation){AL.Valuation.invalidate(draft);for(const tank of draft.tanks)AL.Valuation.record(draft,tank);}
     AL.Finance?.finish(draft,destination,s);if(args.destinationTankId!==undefined)draft.selectedTank=originalSelection;
     if(token){draft.transactions.push(token);draft.transactions=draft.transactions.slice(-100);}
-    if(!Number.isFinite(draft.credits)||draft.credits<0)throw Error('Invalid transaction.');AL.Rarity?.migrate(draft);AL.Patterns?.migrate(draft);if(AL.Save)AL.Save.validate(draft);AL.Mortality?.commit?.(draft);return draft;
+    if(!Number.isFinite(draft.credits)||draft.credits<0)throw Error('Invalid transaction.');AL.Rarity?.migrate(draft);AL.Patterns?.migrate(draft);AL.Breeding?.migrate(draft);AL.Breeding?.reconcile(draft);if(AL.Save)AL.Save.validate(draft);AL.Mortality?.commit?.(draft);return draft;
   }
   return {purchaseSupply:(...args)=>actions.buySupply(...args),clamp,random,id,log,newGame,tank,selected,alive,has,capacity,load,loadLimit,fish,compatibility,value,assets,progress,questAvailable,kill,act,feed,nightOpen,discover};
 })();

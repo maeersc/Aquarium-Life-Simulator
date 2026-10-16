@@ -1,5 +1,9 @@
 # Aquarium Life — GitHub Pages deployment
 
+## Current v3.8 delivery — 2026-10-15
+
+DIST is rebuilt from current local source with python build.py; deploy its contents (including .nojekyll) at the Pages site root. The Pages ZIP contains those same contents. Breeding, all account saves and JSON backups remain local to the player's browser/PC. Export/import JSON when changing file/site/browser origin. See BREEDING_UPDATE_REPORT.md for actual release verification.
+
 ## v3.7 equipment, inspector research and Dock Casino - 2026-10-15
 
 Current playable release is v3.7 / consolidated MDP v4.0. DIST includes equipment-category search filters, original fragging-tool previews, owned-fish inspector research at 5 AC once per species, playable Gold Fish and Predator & Prey, and aligned aquarium header controls. All player data, including casino rounds and research, remains device-local. Use the rebuilt DIST contents or AquariumLife-GitHub-Pages.zip at the site root. See STORE_CASINO_UPDATE_REPORT.md and CASINO_RULES.md for changes, odds, persistence and limitations. Earlier build/release sections below are historical.

@@ -45,7 +45,7 @@ AL.Save = (() => {
       array(t.decorations,12,'decorations');for(const d of t.decorations){identity(d.id);if(!['wood','cave','lantern'].includes(d.type))fail('Unknown decoration.');num(d.x,0,1,'decoration position');}
     }
     if(s.ownedEquipment!==undefined){array(s.ownedEquipment,50,'owned equipment');for(const e of s.ownedEquipment){identity(e.id);if(!AL.Data.equipment[e.type])fail('Unknown stored equipment.');num(e.capacity,1,100000,'stored equipment capacity');num(e.durability,0,100,'stored equipment condition');if(typeof e.enabled!=='boolean')fail('Invalid stored equipment state.');}}
-    AL.Finance?.validate(s);AL.Casino?.validate(s);AL.Update31?.validate(s);AL.Research?.validate(s);AL.Update29?.validate(s,identity);AL.MarineCare?.validate(s);AL.Mortality?.validate(s);AL.Heaters?.validate(s);AL.Diving?.validate(s,identity);AL.Invertebrates?.validate(s,identity);AL.HealthSave?.validate(s,identity);AL.Gameplay?.validate(s);AL.Offline?.validate(s);
+    AL.Finance?.validate(s);AL.Casino?.validate(s);AL.Update31?.validate(s);AL.Research?.validate(s);AL.Update29?.validate(s,identity);AL.MarineCare?.validate(s);AL.Mortality?.validate(s);AL.Heaters?.validate(s);AL.Diving?.validate(s,identity);AL.Invertebrates?.validate(s,identity);AL.HealthSave?.validate(s,identity);AL.Gameplay?.validate(s);AL.Offline?.validate(s);AL.Breeding?.validate(s,identity);
     if(largest>=s.nextId)fail('Entity counter would duplicate an existing identity.');if(!s.tanks.some(t=>t.id===s.selectedTank))fail('Selected aquarium is missing.');return s;
   }
   function migrate(s){if(s?.version===1){s=JSON.parse(JSON.stringify(s));s.version=2;s.transactions=s.transactions||[];s.vip={tier:null,currency:0,preview:'none',paymentsEnabled:false};s.settings={...s.settings,offlineCap:s.settings?.offlineCap??4};}
@@ -53,7 +53,7 @@ AL.Save = (() => {
       for(const [key,n] of Object.entries(AL.Habitat?.initialStock||{}))if(s.stock[key]===undefined)s.stock[key]=n;
       for(const id of AL.Clownfish?.newSpeciesIds||[])if(s.stock[id]===undefined)s.stock[id]=AL.Data.species[id].purchaseVerified===false?0:24;
       for(const [id,v] of Object.entries(AL.Clownfish?.varieties||{}))if(s.stock['variety:'+id]===undefined)s.stock['variety:'+id]=v.initialStock;
-      AL.Expansion?.migrate(s);AL.Update29?.migrate(s);AL.Finance?.initialize(s);AL.Casino?.migrate(s);AL.Update31?.migrate(s);AL.Research?.migrate(s);AL.Diving?.migrate(s);AL.Habitat?.migrate(s);AL.LivestockMarket?.initialize(s);AL.BroodView?.migrate(s);AL.Gameplay?.migrate(s);AL.Offline?.migrate(s);AL.MarineCare?.migrate(s);AL.Mortality?.migrate(s);
+      AL.Expansion?.migrate(s);AL.Update29?.migrate(s);AL.Finance?.initialize(s);AL.Casino?.migrate(s);AL.Update31?.migrate(s);AL.Research?.migrate(s);AL.Diving?.migrate(s);AL.Habitat?.migrate(s);AL.LivestockMarket?.initialize(s);AL.BroodView?.migrate(s);AL.Gameplay?.migrate(s);AL.Offline?.migrate(s);AL.MarineCare?.migrate(s);AL.Mortality?.migrate(s);AL.Breeding?.migrate(s);
     }return s;
   }
   function parse(raw){if(typeof raw!=='string'||raw.length>MAX_BYTES)fail('Save file is too large (maximum 5 MB).');const data=JSON.parse(raw);if(data.ecosystemVersion===undefined)data.importFingerprint='legacy-'+AL.Random.hash(raw);return validate(migrate(data));}
