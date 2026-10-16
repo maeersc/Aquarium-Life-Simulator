@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-16",
   "reference": "assets/reference/approved_clownfish_hybrid.png",
   "records": [
     {
@@ -82,6 +82,134 @@
       "approved": false,
       "originalGeneratedFilename": "exec-00df3cf7-1a5c-47b3-8f0f-7d1aed0aa0f8.png",
       "originalPreservedBy": "built-in ImageGen in Codex generated_images; project copy retained at path"
+    },
+    {
+      "id": "indonesia-reef",
+      "region": "indonesia",
+      "mode": "reef",
+      "prompt": "Use case: stylized-concept. Asset: original pixel-art background for Aquarium Life, a premium offline indie aquarium game. Landscape 3:2 composition, 1536x1024. Side-view underwater environment, not an aerial view or UI mockup. Crisp detailed 16-bit pixel clusters, stepped edges, textured stone and coral, rich believable underwater light, polished pixel-art palette. Keep the central half mostly open low-contrast water/sand so gameplay silhouettes and movement grid remain readable. Terrain concentrated at bottom and sides. No text, borders, logos, watermarks, fish, eggs or collectible animals. Bunaken, Indonesia: dense layered coral buttresses on both edges, abundant small table corals and branching fans, vibrant amber, pink, violet and turquoise accents; a narrow pale-sand channel opening diagonally into deep teal water, dense biodiversity expressed by coral structure, not animals.",
+      "path": "assets/diving/indonesia-reef-v2.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-d27f436b-7f36-40e6-8980-c1429dfb800a.png",
+      "originalPreservedBy": "Built-in ImageGen; unmodified original PNG copied into project",
+      "usage": [
+        "destination-preview",
+        "in-dive-environment",
+        "expedition-result-accent"
+      ]
+    },
+    {
+      "id": "philippines-reef",
+      "region": "philippines",
+      "mode": "reef",
+      "prompt": "Use case: stylized-concept. Asset: original pixel-art background for Aquarium Life, a premium offline indie aquarium game. Landscape 3:2 composition, 1536x1024. Side-view underwater environment, not an aerial view or UI mockup. Crisp detailed 16-bit pixel clusters, stepped edges, textured stone and coral, rich believable underwater light, polished pixel-art palette. Keep the central half mostly open low-contrast water/sand so gameplay silhouettes and movement grid remain readable. Terrain concentrated at bottom and sides. No text, borders, logos, watermarks, fish, eggs or collectible animals. Puerto Galera, Philippines: a sloping reef garden swept by bright cyan shafts, many broad purple foliose coral scrolls, cream branching coral thickets and orange encrusting rock along a low ridge; an open blue water corridor and soft sand basin. Distinct broad leaves and sloping topology, not vertical coral pinnacles.",
+      "path": "assets/diving/philippines-reef-v2.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-17537cbb-9d2f-464e-862b-b4e0b142f88b.png",
+      "originalPreservedBy": "Built-in ImageGen; unmodified original PNG copied into project",
+      "usage": [
+        "destination-preview",
+        "in-dive-environment",
+        "expedition-result-accent"
+      ]
+    },
+    {
+      "id": "sri-lanka-reef",
+      "region": "sri-lanka",
+      "mode": "reef",
+      "prompt": "Use case: stylized-concept. Asset: original pixel-art background for Aquarium Life, a premium offline indie aquarium game. Landscape 3:2 composition, 1536x1024. Side-view underwater environment, not an aerial view or UI mockup. Crisp detailed 16-bit pixel clusters, stepped edges, textured stone and coral, rich believable underwater light, polished pixel-art palette. Keep the central half mostly open low-contrast water/sand so gameplay silhouettes and movement grid remain readable. Terrain concentrated at bottom and sides. No text, borders, logos, watermarks, fish, eggs or collectible animals. Kayankerni, Sri Lanka: weathered golden granite boulders and angular rocky reef shelves, small patches of olive massive coral and rust encrusting growth, a broad winding pale sand path through rocky terrain, luminous Indian Ocean aquamarine, sun-dappled rugged textures.",
+      "path": "assets/diving/sri-lanka-reef-v2.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-4bd484e5-fb2e-404f-b0c2-7ff982ed5cbf.png",
+      "originalPreservedBy": "Built-in ImageGen; unmodified original PNG copied into project",
+      "usage": [
+        "destination-preview",
+        "in-dive-environment",
+        "expedition-result-accent"
+      ]
+    },
+    {
+      "id": "marshall-reef",
+      "region": "marshall",
+      "mode": "reef",
+      "prompt": "Use case: stylized-concept. Asset: original pixel-art background for Aquarium Life, a premium offline indie aquarium game. Landscape 3:2 composition, 1536x1024. Side-view underwater environment, not an aerial view or UI mockup. Crisp detailed 16-bit pixel clusters, stepped edges, textured stone and coral, rich believable underwater light, polished pixel-art palette. Keep the central half mostly open low-contrast water/sand so gameplay silhouettes and movement grid remain readable. Terrain concentrated at bottom and sides. No text, borders, logos, watermarks, fish, eggs or collectible animals. Majuro lagoon, Marshall Islands: exceptionally calm pale turquoise atoll lagoon, long white carbonate sand basin, scattered rounded coral bommies in widely separated clusters, shallow cyan water meeting deeper cobalt opening, quiet open airy composition.",
+      "path": "assets/diving/marshall-reef-v2.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-41108683-6840-4dc1-96fd-515e25c9ac64.png",
+      "originalPreservedBy": "Built-in ImageGen; unmodified original PNG copied into project",
+      "usage": [
+        "destination-preview",
+        "in-dive-environment",
+        "expedition-result-accent"
+      ]
+    },
+    {
+      "id": "maldives-reef",
+      "region": "maldives",
+      "mode": "reef",
+      "prompt": "Use case: stylized-concept. Asset: original pixel-art background for Aquarium Life, a premium offline indie aquarium game. Landscape 3:2 composition, 1536x1024. Side-view underwater environment, not an aerial view or UI mockup. Crisp detailed 16-bit pixel clusters, stepped edges, textured stone and coral, rich believable underwater light, polished pixel-art palette. Keep the central half mostly open low-contrast water/sand so gameplay silhouettes and movement grid remain readable. Terrain concentrated at bottom and sides. No text, borders, logos, watermarks, fish, eggs or collectible animals. Madivaru Beyru, Maldives: a dramatic coral shelf projecting from the lower left and descending into open saturated blue on the right, stacked cream table corals and pink cauliflower coral on the rim, sapphire drop-off and translucent sunbeams, clear oceanic depth with lots of open water.",
+      "path": "assets/diving/maldives-reef-v2.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-6bcfde4c-24e5-45c7-ac21-82589c2c095e.png",
+      "originalPreservedBy": "Built-in ImageGen; unmodified original PNG copied into project",
+      "usage": [
+        "destination-preview",
+        "in-dive-environment",
+        "expedition-result-accent"
+      ]
+    },
+    {
+      "id": "australia-reef",
+      "region": "australia",
+      "mode": "reef",
+      "prompt": "Use case: stylized-concept. Asset: original pixel-art background for Aquarium Life, a premium offline indie aquarium game. Landscape 3:2 composition, 1536x1024. Side-view underwater environment, not an aerial view or UI mockup. Crisp detailed 16-bit pixel clusters, stepped edges, textured stone and coral, rich believable underwater light, polished pixel-art palette. Keep the central half mostly open low-contrast water/sand so gameplay silhouettes and movement grid remain readable. Terrain concentrated at bottom and sides. No text, borders, logos, watermarks, fish, eggs or collectible animals. Lady Musgrave, Australia, Great Barrier Reef: wide sprawling reef terraces, spectacular sculptural tan branching staghorn thickets and broad green table corals with lilac tips, pale sandy gutters between them, turquoise shallow water and bright lemon-white caustics, horizontal interlocking reef mosaic.",
+      "path": "assets/diving/australia-reef-v2.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-08012f22-d458-4220-8240-f2e85c28eb51.png",
+      "originalPreservedBy": "Built-in ImageGen; unmodified original PNG copied into project",
+      "usage": [
+        "destination-preview",
+        "in-dive-environment",
+        "expedition-result-accent"
+      ]
+    },
+    {
+      "id": "florida-reef",
+      "region": "florida",
+      "mode": "reef",
+      "prompt": "Use case: stylized-concept. Asset: original pixel-art background for Aquarium Life, a premium offline indie aquarium game. Landscape 3:2 composition, 1536x1024. Side-view underwater environment, not an aerial view or UI mockup. Crisp detailed 16-bit pixel clusters, stepped edges, textured stone and coral, rich believable underwater light, polished pixel-art palette. Keep the central half mostly open low-contrast water/sand so gameplay silhouettes and movement grid remain readable. Terrain concentrated at bottom and sides. No text, borders, logos, watermarks, fish, eggs or collectible animals. Tortugas, Florida Keys: low Atlantic limestone ledges and rubble beside a sandy channel, swaying purple sea fans, amber finger sponges and rounded brain coral heads, sparse low seagrass tufts on the sandy margins, luminous Atlantic blue-green water. No Indo-Pacific table corals.",
+      "path": "assets/diving/florida-reef-v2.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-e86d9666-3f6b-4f2c-bd05-8c5c712100e9.png",
+      "originalPreservedBy": "Built-in ImageGen; unmodified original PNG copied into project",
+      "usage": [
+        "destination-preview",
+        "in-dive-environment",
+        "expedition-result-accent"
+      ]
+    },
+    {
+      "id": "mariana-deep",
+      "region": "mariana",
+      "mode": "deep",
+      "prompt": "Use case: stylized-concept. Asset: original pixel-art background for Aquarium Life, a premium offline indie aquarium game. Landscape 3:2 composition, 1536x1024. Side-view underwater environment, not an aerial view or UI mockup. Crisp detailed 16-bit pixel clusters, stepped edges, textured stone and coral, rich believable underwater light, polished pixel-art palette. Keep the central half mostly open low-contrast water/sand so gameplay silhouettes and movement grid remain readable. Terrain concentrated at bottom and sides. No text, borders, logos, watermarks, fish, eggs or collectible animals. Mariana Trench hadal research slope at 6000m: black-navy water with NO sunlight, jagged dark basalt escarpment on right, broad cold gray sediment floor and scattered angular stones; a small unoccupied yellow remote research lander on lower left with white-cyan lamp cones illuminating sediment and suspended particles, a trailing thin tether. Cold slate and sparse cyan-white illumination. NO corals, fish, divers, tropical plants, glowing fantasy organisms, surface, or volcanic lava.",
+      "path": "assets/diving/mariana-deep-v2.png",
+      "tool": "built-in image_gen",
+      "approved": false,
+      "originalGeneratedFilename": "exec-9964235b-b9ca-4f1e-991b-7ea827f2be94.png",
+      "originalPreservedBy": "Built-in ImageGen; unmodified original PNG copied into project",
+      "usage": [
+        "destination-preview",
+        "in-dive-environment",
+        "expedition-result-accent"
+      ]
     }
   ]
 }

@@ -75,8 +75,8 @@ AL.Art = (()=>{
   return {sprite,legacySprite,thumb,plant,plantBounds,shade,poly,ready,get clownfishArtLoaded(){return !!assignedImage;}};
 })();
 AL.Renderer = class {
-  constructor(canvas){this.canvas=canvas;this.ctx=canvas.getContext('2d',{alpha:false});this.scene=document.createElement('canvas');this.scene.width=480;this.scene.height=240;this.g=this.scene.getContext('2d',{alpha:false});this.time=0;this.zoom=1;this.pan=0.5;this.hitboxes=[];this.selected=null;this.fps=60;this.last=0;this.positions=new Map();}
-  draw(s,dt){this.time+=dt;const t=AL.Core.selected(s),g=this.g,W=480,H=240,time=this.time;const marine=t.water==='marine',illumination=AL.Sim.light(s,t),lamp=AL.Core.clamp(illumination/1.2,0,1),hour=s.time/60%24,roomNight=hour<6||hour>=19,preview=s.vip.preview;this.hitboxes=[];
+  constructor(canvas){this.canvas=canvas;this.ctx=canvas.getContext('2d',{alpha:false});this.scene=document.createElement('canvas');this.scene.width=480;this.scene.height=240;this.g=this.scene.getContext('2d',{alpha:false});this.time=0;this.zoom=1;this.pan=0.5;this.hitboxes=[];this.selected=null;this.fps=60;this.last=0;this.positions=new Map();this.drawFish=[];this.fishOrder=(a,b)=>a.y-b.y;this.visualFrame=0;}
+  draw(s,dt){this.time+=dt;const t=AL.Core.selected(s),g=this.g,W=480,H=240,time=this.time;const marine=t.water==='marine',illumination=AL.Sim.light(s,t),lamp=AL.Core.clamp(illumination/1.2,0,1),hour=s.time/60%24,roomNight=hour<6||hour>=19,preview=s.vip.preview;this.hitboxes.length=0;this.visualFrame++;
     const drawFlora=f=>{
       if(f.relocationRequired)return;
       const x=f.x*W,y=(f.y??0.92)*H,bounds=AL.Art.plantBounds(f.type,f.size);
@@ -86,7 +86,7 @@ AL.Renderer = class {
       this.hitboxes.push({id:f.id,kind:'flora',x:((x-W*this.pan)*this.zoom+W/2)/W,y:((y-bounds.height/2-H/2)*this.zoom+H/2)/H,w:bounds.width*this.zoom/W,h:bounds.height*this.zoom/H});
     };
     this.pan=AL.Core.clamp(this.pan,.5/this.zoom,1-.5/this.zoom);
-    const currentIds=new Set(t.fish.map(f=>f.id));for(const id of this.positions.keys())if(!currentIds.has(id))this.positions.delete(id);
+    this.drawFish.length=t.fish.length;for(let i=0;i<t.fish.length;i++)this.drawFish[i]=t.fish[i];this.drawFish.sort(this.fishOrder);
     const dry=t.water==='marine'?!AL.Preparation.filled(t):t.emptyDry===true&&!t.prepared;
     g.imageSmoothingEnabled=false;const bg=g.createLinearGradient(0,0,0,H);bg.addColorStop(0,dry?'#253449':marine?'#174957':'#1c4b4c');bg.addColorStop(.5,dry?'#253449':marine?'#123747':'#153b3e');bg.addColorStop(1,'#102a30');g.fillStyle=bg;g.fillRect(0,0,W,H);
     g.save();g.translate(W/2,H/2);g.scale(this.zoom,this.zoom);g.translate(-W*this.pan,-H/2);
@@ -106,20 +106,26 @@ AL.Renderer = class {
     if(!marine)for(const f of t.flora.filter(f=>f.x<.45))drawFlora(f);
     for(const e of t.equipment.filter(e=>e.enabled&&e.durability>0)){if(e.type==='filter'){g.fillStyle='#152f32';g.fillRect(458,17,13,38);g.fillStyle='#3a5756';g.fillRect(460,20,8,26);g.fillStyle='#163438';g.fillRect(463,55,3,45);for(let i=0;i<4;i++)g.fillRect(459,24+i*5,10,2);}if(e.type==='heater'){g.fillStyle='#547b75';g.fillRect(15,53,4,68);g.fillStyle='#b9b696';g.fillRect(16,58,1,53);g.fillStyle='#ac7448';g.fillRect(16,114,2,3);}}
     if(s.settings.particles){for(let i=0;i<23;i++){const y=220-((time*(4+i%3)+(i*29))%220),x=453+Math.sin(time*.7+i)*5;g.strokeStyle='#8ac4bd66';g.strokeRect(Math.round(x),Math.round(y),i%4?2:3,i%4?3:4);}for(let i=0;i<35;i++){g.fillStyle='#b8d4be22';g.fillRect(Math.round((i*73+time*.5)%480),Math.round((i*43+Math.sin(time*.1+i)*5)%220),1,1);}}
-    for(const f of [...t.fish].sort((a,b)=>a.y-b.y)){
-      const d=AL.Data.species[f.species],frame=f.dead?0:Math.floor(time*(f.behavior==='Rest'?3:6)*d.activity)%4;
-      const keepApprovedClown=f.species==='clown'&&!f.variety&&!f.dead&&f.growth>=1;
-      const stageSprite=AL.ExpansionArt?.forFish(f)|| (keepApprovedClown?null:(AL.ClownArt?.forFish(f,time)||AL.LifeStages?.forFish(f)));
-      const baseSprite=stageSprite||AL.Art.sprite(f.species,frame,f.genes.color),sprite=AL.Patterns?.sprite(f,baseSprite)||baseSprite,scale=Math.max(.35,Math.min(1.7,.6+d.size/28)*Math.sqrt(f.growth)*f.genes.size);
-      // Renderer interpolation never mutates simulation positions or its random seed.
-      const pos=this.positions.get(f.id)||{x:f.x,y:f.y,facing:f.heading||1};const oldX=pos.x,blend=1-Math.exp(-dt*Math.max(.7,s.settings.speed*.7));pos.x+=(f.x-pos.x)*blend;pos.y+=(f.y-pos.y)*blend;if(!f.dead&&blend>0)pos.facing=AL.SpriteKit.facing(pos.facing,f.x-oldX);this.positions.set(f.id,pos);
-      const w=Math.round(64*scale),h=stageSprite?Math.round(w*sprite.height/sprite.width):Math.round(40*scale),x=Math.round(pos.x*W),y=Math.round(pos.y*H);
-      g.save();g.globalAlpha=f.dead?.65:f.behavior==='Hide'?.65:1;if(f.disease)g.globalAlpha=.75;AL.SpriteKit.draw(g,sprite,x,y,w,h,pos.facing,f.dead&&!stageSprite);g.restore();
+    for(const f of this.drawFish){
+      const d=AL.Data.species[f.species],animated=marine&&AL.FishAnimation?.profile(f.species);
+      // Interpolation, turns and fin clocks live only in renderer-owned records.
+      const pos=this.positions.get(f.id)||{x:f.x,y:f.y,facing:f.heading||1};const oldX=pos.x,blend=1-Math.exp(-dt*Math.max(.7,s.settings.speed*.7));pos.x+=(f.x-pos.x)*blend;pos.y+=(f.y-pos.y)*blend;
+      const desired=!f.dead&&blend>0?AL.SpriteKit.facing(pos.facing,f.x-oldX):pos.facing;
+      if(animated){const motion=AL.FishAnimation.update(f,pos,dt,desired);pos.facing=motion.direction;}else pos.facing=desired;
+      pos.seen=this.visualFrame;this.positions.set(f.id,pos);
+      const scale=Math.max(.35,Math.min(1.7,.6+d.size/28)*Math.sqrt(f.growth)*f.genes.size),w=Math.round(64*scale),x=Math.round(pos.x*W),y=Math.round(pos.y*H);
+      // Conservative world-space culling avoids all sprite/rig work offscreen.
+      if(animated&&(x+w+12<W*this.pan-W/(2*this.zoom)||x-w-12>W*this.pan+W/(2*this.zoom)||y+w+12<H/2-H/(2*this.zoom)||y-w-12>H/2+H/(2*this.zoom)))continue;
+      const frame=f.dead?0:Math.floor(time*(f.behavior==='Rest'?3:6)*d.activity)%4,keepApprovedClown=f.species==='clown'&&!f.variety&&!f.dead&&f.growth>=1;
+      const stageSprite=animated?AL.FishAnimation.source(f,pos.animation.phase):AL.ExpansionArt?.forFish(f)||(keepApprovedClown?null:(AL.ClownArt?.forFish(f,time)||AL.LifeStages?.forFish(f)));
+      const baseSprite=stageSprite||AL.Art.sprite(f.species,frame,f.genes.color),sprite=AL.Patterns?.sprite(f,baseSprite)||baseSprite,h=stageSprite?Math.round(w*sprite.height/sprite.width):Math.round(40*scale);
+      g.save();g.globalAlpha=f.dead?.65:f.behavior==='Hide'?.65:1;if(f.disease)g.globalAlpha=.75;if(animated)AL.FishAnimation.draw(g,f,sprite,x,y,w,h,pos);else AL.SpriteKit.draw(g,sprite,x,y,w,h,pos.facing,f.dead&&!stageSprite);g.restore();
       if(!f.dead&&f.reproduction?.pairId){g.fillStyle='#45d6d0';g.fillRect(Math.round(x-3),Math.round(y-h/2-7),2,2);g.fillRect(Math.round(x+1),Math.round(y-h/2-7),2,2);}
       if(!f.dead&&f.behavior==='Male mouthbrooding'){g.fillStyle='#e6cf94';g.fillRect(Math.round(x-2),Math.round(y-h/2-7),4,2);}
       if(this.selected===f.id){g.strokeStyle='#d0e6b7';g.setLineDash([2,3]);g.strokeRect(x-w/2-3,y-h/2-3,w+6,h+6);g.setLineDash([]);}if(f.stress>55&&!f.dead){g.fillStyle='#d7b979';g.fillRect(x,y-h/2-5,2,3);}if(!s.settings.reducedViolence&&f.dead){g.fillStyle='#bc6864';g.fillRect(x+3,y,2,1);}
-      this.hitboxes.push({id:f.id,x:((x-W*this.pan)*this.zoom+W/2)/W,y:((y-H/2)*this.zoom+H/2)/H,w:w*this.zoom/W,h:h*this.zoom/H});
+      this.hitboxes.push({id:f.id,x:((x-W*this.pan)*this.zoom+W/2)/W,y:((y-H/2)*this.zoom+H/2)/H,w:(w+(animated?16:0))*this.zoom/W,h:(h+(animated?16:0))*this.zoom/H});
     }
+    for(const [id,pos] of this.positions)if(pos.seen!==this.visualFrame)this.positions.delete(id);
     AL.ExpansionUI?.draw(this,t);AL.Update29UI?.drawNurseries(this,t);for(const p of t.food){g.fillStyle=p.type==='algae'?'#aac47d':'#d4b085';g.fillRect(Math.round(p.x*W),Math.round(p.y*H),2,2);}
     if(!marine)for(const f of t.flora.filter(f=>f.x>=.45))drawFlora(f);
     AL.Placement?.draw(this,t,true,drawFlora);
