@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-16T20:25:23.806327+00:00",
+  "builtAt": "2026-10-19T19:50:18.547065+00:00",
   "entryPoint": "index.html",
-  "gameContent": "v4.0.3",
+  "gameContent": "v4.0.4",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1563,
-  "sourceBytes": 505815599,
+  "sourceFiles": 1977,
+  "sourceBytes": 843998535,
   "files": [
     {
       "path": "AQUARIUM_PREPARATION_REPAIR_REPORT.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "ART_DIRECTION.md",
-      "bytes": 29218,
-      "sha256": "d41aa048d9b728b7f4ef4e19b7c46fa5ccbc6cc983fcf86b81921b6ac43deef7"
+      "bytes": 30360,
+      "sha256": "ca39a7b5bbfac34370c1566e2ce333987ed400114895975962d07d41f83599b2"
     },
     {
       "path": "ART_UPDATE_REPORT.md",
@@ -49,13 +49,13 @@
     },
     {
       "path": "CURRENT_LIVESTOCK_CATALOG.md",
-      "bytes": 92153,
-      "sha256": "076bf7db41cf7178ccffd39f06673bb8e595fe09c317f6f77401a05fca70ee43"
+      "bytes": 93295,
+      "sha256": "e99cb39f95eaa5b18e138f46973d63ec0687d7b74f4605049d37f075fe750c10"
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 48113,
-      "sha256": "c28606bbcebe5b1e68571b3f41a62589cddf12525b5b51f47433242df6bc0ae3"
+      "bytes": 49255,
+      "sha256": "66f1ddb2047df68611603bc748d68a6604484c40c0ea81c473c29cc54382d42d"
     },
     {
       "path": "DIVING_EXPANSION_REPORT.md",
@@ -84,8 +84,8 @@
     },
     {
       "path": "FISH_ANIMATION_SYSTEM.md",
-      "bytes": 5657,
-      "sha256": "7ea6e899b6f4088597d6b6bf1709a6e7a7dc37791619fbfb0199ff2b2a0a9264"
+      "bytes": 12034,
+      "sha256": "f000e168ba5040e34e2a18edaf47f20d381c7525d4787c78a16671652d7fea01"
     },
     {
       "path": "GITHUB_PAGES.md",
@@ -101,6 +101,16 @@
       "path": "HEATER_MORTALITY_REPORT.md",
       "bytes": 13793,
       "sha256": "5bfda6cca80b46aca89c232c4addf08405365d411cf2e5faa4f965121a03f59c"
+    },
+    {
+      "path": "LIVESTOCK_16_FRAME_SPRITE_PRODUCTION_REPORT.md",
+      "bytes": 77670,
+      "sha256": "861a9c01e051089416f74d2bd31f22dec1382d0c088fb9382f194a9b633090c4"
+    },
+    {
+      "path": "LIVESTOCK_ANIMATION_16_FRAME_REPORT.md",
+      "bytes": 78139,
+      "sha256": "1764156a8e847c9bfcc3a6b2eb184fb42da5bece18fd70e0aa680723a696dfcc"
     },
     {
       "path": "MORTALITY_LOG_SCHEMA.md",
@@ -144,8 +154,13 @@
     },
     {
       "path": "assets/animation/fish-registry.json",
-      "bytes": 45404,
-      "sha256": "ddeb0f9a41c9ca271a63b2efa2b1766799ac608b49bdac1b6b2636e2df56b1ac"
+      "bytes": 45522,
+      "sha256": "a9f6b9954d7e632310e014e0a0009ff6a7c28609d4813660f2ea6837c0b8371c"
+    },
+    {
+      "path": "assets/animation/livestock-registry.json",
+      "bytes": 3475936,
+      "sha256": "28f94748c1c5c482b6d7e4f06199d0cff4223d0014d87b218580fdcd11553d78"
     },
     {
       "path": "assets/diving/art-prompts.json",
@@ -1356,6 +1371,1916 @@
       "path": "assets/expansion-v29/zebrasoma-xanthurum/source-v1.png",
       "bytes": 1226928,
       "sha256": "5aafca86fb16edc16b33498aae2a37684b79df8d193d01395af3f04b85b8a2b9"
+    },
+    {
+      "path": "assets/livestock/animations/acanthurus-achilles/adult_swim_16.png",
+      "bytes": 519195,
+      "sha256": "5a541b6d176af048c3eb610970dc28bacacce9d2169fd709de7c9484ef9af202"
+    },
+    {
+      "path": "assets/livestock/animations/acanthurus-achilles/baby_swim_16.png",
+      "bytes": 471898,
+      "sha256": "c8ba6f1eabce95bd0e10b69ba547235d0f84a252631d9019eef7b1e24447fb01"
+    },
+    {
+      "path": "assets/livestock/animations/acanthurus-achilles/juvenile_swim_16.png",
+      "bytes": 516669,
+      "sha256": "f5e582977e78c985e939e6915017d21cd4210afdbae867763b528aa566f845ea"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-akallopisos/adult_swim_16.png",
+      "bytes": 407310,
+      "sha256": "d8f35b040de488cec88026d1eff3b2594a1de2399766f7f4d64b169fd27f5c2b"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-akallopisos/baby_swim_16.png",
+      "bytes": 247497,
+      "sha256": "252d65c92ccca37ac45cb532197c9f3f2c8618540e4c3824ea215748554d978a"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-akallopisos/juvenile_swim_16.png",
+      "bytes": 514849,
+      "sha256": "fcbbb5c1cd8546b9c4eca4fd91f0f6f649bfa791570e1e58c2df31d01c45caaa"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-akindynos/adult_swim_16.png",
+      "bytes": 413045,
+      "sha256": "54fb964551283ea1d3b553818e65749eb9c3ab0062746d7640b4f98d178f9388"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-akindynos/baby_swim_16.png",
+      "bytes": 342068,
+      "sha256": "fa1b3435030c2ddf93e3faed344b6de3e9d6e102e932c89255551cd216c27174"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-akindynos/juvenile_swim_16.png",
+      "bytes": 510352,
+      "sha256": "6107bfa6c373f9e434d3daf30ae722cedfc771877585349682346422a8bddbde"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-allardi/adult_swim_16.png",
+      "bytes": 458161,
+      "sha256": "cb21cd78b5805abb6bfa7e22983f47952f0cef0ae52386245d5fb3ea92070fb0"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-allardi/baby_swim_16.png",
+      "bytes": 329422,
+      "sha256": "6d9427c4737ca00349b02035b2fa90b41a0c04d47f57283139be6f9369779715"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-allardi/juvenile_swim_16.png",
+      "bytes": 475802,
+      "sha256": "a2e21cd1f558c5126a2ef2e61ee7b03a2d775ee033c9eb11eda9eef8c76c2d26"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-barberi/adult_swim_16.png",
+      "bytes": 415383,
+      "sha256": "729f53a12ea9f492ef75b6f4ea98d8e29f131ff926f2f8e8381e8c3a5fed48b4"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-barberi/baby_swim_16.png",
+      "bytes": 336980,
+      "sha256": "a1e8d2eae1bbda638ce7dda1dfc5645fe605cbfdd8e6bfe96122f135dde89480"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-barberi/juvenile_swim_16.png",
+      "bytes": 513769,
+      "sha256": "a178d1cd1522ff34f46f3dac559d030f1c03060f678b06ce2a0f4e1bb05e3a24"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-biaculeatus/adult_swim_16.png",
+      "bytes": 407815,
+      "sha256": "7e0df38586f4876adc4cb893e1e8c4e4f2f3169c4851a181979e1f9f227e7d5d"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-biaculeatus/baby_swim_16.png",
+      "bytes": 385103,
+      "sha256": "b1aeba5edbd406aa09ce630323db8f4770e750f9431b9da08bcde2408b524ceb"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-biaculeatus/juvenile_swim_16.png",
+      "bytes": 497252,
+      "sha256": "11c94a081c27f9975201e7a047c3621c1b404d0b647c7e1f043e5921ddb1fefd"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-biaculeatus/varieties/lightning-maroon/adult_swim_16.png",
+      "bytes": 467681,
+      "sha256": "ecc0cfcdb8ac7376df6d6eec2d4d040a370de9773a981e0d88c34516c65461bd"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-biaculeatus/varieties/lightning-maroon/juvenile_swim_16.png",
+      "bytes": 440458,
+      "sha256": "1eaa37c6e89f9416e2c7c1afc92816e5421a78201128bbba5a96732539989653"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-bicinctus/adult_swim_16.png",
+      "bytes": 433377,
+      "sha256": "38b328dddf7c63453d930861f7cc4e1cbf3d34913c9ba4b2b69eae54b5e9ac72"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-bicinctus/baby_swim_16.png",
+      "bytes": 302688,
+      "sha256": "9d01825771eb082c36ce0ca77711c1e888ee2e9b0db4e07ce7cc6d1a4cf55cf5"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-bicinctus/juvenile_swim_16.png",
+      "bytes": 496811,
+      "sha256": "3d749ffa7e36b5f98c7715841d066170c3ad1017699a4e5e60e9d649d85ca375"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-chagosensis/adult_swim_16.png",
+      "bytes": 379881,
+      "sha256": "0c65127fa5abaef98b6e546f9e0a994189c72b825e66f4e76713780a3fdd1cd3"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-chagosensis/baby_swim_16.png",
+      "bytes": 332837,
+      "sha256": "d9f7091b3a1241c9e940dad2764ca682fff048293182a0e082614fe31770a345"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-chagosensis/juvenile_swim_16.png",
+      "bytes": 508346,
+      "sha256": "ffd148a3d5aa9051bb957dfeb8f2d8b76160ea08b1e945f2e7e57a1f0c7f77ad"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-chrysogaster/adult_swim_16.png",
+      "bytes": 474537,
+      "sha256": "c7507c957a9ee1f504fa233fbda0d15670350b5d9d51138627ce2a4429a66fe8"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-chrysogaster/baby_swim_16.png",
+      "bytes": 349258,
+      "sha256": "43e851801db465da93af20a62ec751bf89d8c24f47585477e279e12e6866bcb9"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-chrysogaster/juvenile_swim_16.png",
+      "bytes": 494720,
+      "sha256": "08cf7d2d64a6eb2a8e9d692d4de943bba5a9719d70b5763b12eb20af567601cd"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-chrysopterus/adult_swim_16.png",
+      "bytes": 407147,
+      "sha256": "60658bf28c7ea95f6d04d4216c761faa9948814ea50cffc9c53aa9ed8806fbce"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-chrysopterus/baby_swim_16.png",
+      "bytes": 321882,
+      "sha256": "20ebb5ca857246caf207cd7f5c89ec406c65fc823fd5c24b75035dc3c8627945"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-chrysopterus/juvenile_swim_16.png",
+      "bytes": 475992,
+      "sha256": "8fdcf58347ec37e4bc5e5303e85d3c083c0e36254cfc91c2c3d2a9c896abff14"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-clarkii/adult_swim_16.png",
+      "bytes": 438960,
+      "sha256": "166178c5cc1f448c97c1a6137fc1341c654be8ebb74ae5129cf7840035d2b9b7"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-clarkii/baby_swim_16.png",
+      "bytes": 337362,
+      "sha256": "e9848c2bf665c9b48f88453e2a3927cda6c890c4b0bf4804d92f13537a914c3e"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-clarkii/juvenile_swim_16.png",
+      "bytes": 503142,
+      "sha256": "262dfa2a3f8e7160423eb23afe3868e645f24e2fd0c8c70f6be48e8652da9bd0"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-ephippium/adult_swim_16.png",
+      "bytes": 410737,
+      "sha256": "937b6bf16e221779d3b34d97aef013f7ac340cf3d55c2ac459455b984bfe2294"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-ephippium/baby_swim_16.png",
+      "bytes": 345054,
+      "sha256": "7a6406dee8768092819bcad3e7a2e5c878b923190eb9d959da826509e094acb1"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-ephippium/juvenile_swim_16.png",
+      "bytes": 488408,
+      "sha256": "ffbd375d7530851ad0772fce834da14e48e8327b1dbe661856a850224aad9013"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-frenatus/adult_swim_16.png",
+      "bytes": 381230,
+      "sha256": "2c59daa52ceeaa43de40d84701f5b855677f9a0c9619436e51ac8512ceb1216b"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-frenatus/baby_swim_16.png",
+      "bytes": 298624,
+      "sha256": "8a3f977f3806a235d239822f98f418f51164331860f35a4951385dc493b5e6ee"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-frenatus/juvenile_swim_16.png",
+      "bytes": 486419,
+      "sha256": "b0dc9448a5cc4f7a3a1fac0a8d5acbcb6fa9bcb8a7928976ce6302c36562e893"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-fuscocaudatus/adult_swim_16.png",
+      "bytes": 493694,
+      "sha256": "3c8fc3beab25d7bda653f608d81a3a6c52eaf282d416c4cd4db37bbb4715e837"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-fuscocaudatus/baby_swim_16.png",
+      "bytes": 243380,
+      "sha256": "6d18b72a24417ee5534f0a5147f3310d59755987fc69eaa56437849801908530"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-fuscocaudatus/juvenile_swim_16.png",
+      "bytes": 595761,
+      "sha256": "db55d7376e4d857db496b444b1b7c7b30d24d63effae7d52e79b11a33f400592"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-latifasciatus/adult_swim_16.png",
+      "bytes": 428873,
+      "sha256": "e60464dbb557bf4887ce3c29316431c341c495b769e6cca6864c5cef90d3171a"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-latifasciatus/baby_swim_16.png",
+      "bytes": 326148,
+      "sha256": "22b4171cb9ddacb088f67185b2977a7366363e815ed1cd65f8e1bdff6446b363"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-latifasciatus/juvenile_swim_16.png",
+      "bytes": 465563,
+      "sha256": "79d5a6d51746e2887240cff1258ee5b0250c5568bbdcb9559c8e345972fe6368"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-melanopus/adult_swim_16.png",
+      "bytes": 410966,
+      "sha256": "71f9ca99c96023ad3e15ffda8f3648812eaf476559783b10c6e42fb9f9fae6db"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-melanopus/baby_swim_16.png",
+      "bytes": 281088,
+      "sha256": "3cbb40e2391c6833090e08b29b3044b8a27cefd477f0a694033ea267744a5733"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-melanopus/juvenile_swim_16.png",
+      "bytes": 486236,
+      "sha256": "f1c28f2663be1447f21a7695d0cda28c0d2bca43260bef3b2c700b819246e7fb"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-nigripes/adult_swim_16.png",
+      "bytes": 359164,
+      "sha256": "c6ef5a02ff8c75dcd7c112bc8f1f841f97ef0db4a30f8debb0e630ccc6d0e988"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-nigripes/baby_swim_16.png",
+      "bytes": 368518,
+      "sha256": "f18a837ce660d22f07a9511d7e2fbc754bd0409f7cbc954ae52348ea49b57386"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-nigripes/juvenile_swim_16.png",
+      "bytes": 454202,
+      "sha256": "253b1ada9a26a110520a20489db1b555e072b94e5db4e5397c672e038268b32c"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-omanensis/adult_swim_16.png",
+      "bytes": 416608,
+      "sha256": "951e895204fa0378b260c91a0f9f148688e13280402f6643f4f21187959a5116"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-omanensis/baby_swim_16.png",
+      "bytes": 332432,
+      "sha256": "e2ce379486e5e04436a5e8ba9aded11f23068f9fa624a60cf65825ed628aa7b5"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-omanensis/juvenile_swim_16.png",
+      "bytes": 535394,
+      "sha256": "81afcb649b6139597ee8c25f64f4aca976212c906f9732f521885adc7d085ce8"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-pacificus/adult_swim_16.png",
+      "bytes": 471153,
+      "sha256": "fd79d4d885700f5ffee026b0e245ccd5548e3736b72fff5f1945d2506e3dc6e1"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-pacificus/baby_swim_16.png",
+      "bytes": 266051,
+      "sha256": "2971e9f24543fd3306c133cab22c2c65b397d89789004913082546ab13975b2f"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-pacificus/juvenile_swim_16.png",
+      "bytes": 546466,
+      "sha256": "9d3a19da632d3eaea89d1ed686edf1fb47f73e33f684365da84f38d9987dfda2"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/adult_swim_16.png",
+      "bytes": 406913,
+      "sha256": "d36f5ce1db30eae9636d9848e0bc8514054220b872c88884ea978bf99a1eeab6"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/baby_swim_16.png",
+      "bytes": 329872,
+      "sha256": "6e60d1f0eb52605ad64b9c4f2ff5b31191577cef949f42323dc6d3ced91c752b"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/juvenile_swim_16.png",
+      "bytes": 471727,
+      "sha256": "b0061338312f2e8b87901f6b1ac8a5c32aff7e4498911d4d7a0d0ca33c75844f"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/varieties/onyx-percula/adult_swim_16.png",
+      "bytes": 367883,
+      "sha256": "433791d6be3e524085a7f92b652dbcfa9de29821542620e593fd243ab579854a"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/varieties/onyx-percula/juvenile_swim_16.png",
+      "bytes": 447593,
+      "sha256": "10a382676f11d9cde8db3fb1416faae73d99ffa6de5b904203f54b81de4dd883"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/varieties/picasso-percula/adult_swim_16.png",
+      "bytes": 394344,
+      "sha256": "e304a7ad082656e20a5ea7e8738f967ab34eb49beaeceaaf890b2a83c190da4e"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/varieties/picasso-percula/juvenile_swim_16.png",
+      "bytes": 444924,
+      "sha256": "993007bbbf1e0db8927f6ee12438e7643dc99070eeb1415004df4b7b8e1acc06"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/varieties/platinum-percula/adult_swim_16.png",
+      "bytes": 383481,
+      "sha256": "580c688b6e8e2f3fa2a7b6e0811cec8276ffa27ba40189a8f23ec7630279e93f"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/varieties/platinum-percula/juvenile_swim_16.png",
+      "bytes": 461417,
+      "sha256": "f07a293741bf86a7d484ae5008d9e5700aac0af4c0e69cfc531988c56dcb11cc"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/varieties/premium-picasso-percula/adult_swim_16.png",
+      "bytes": 426247,
+      "sha256": "b66690b1cd5db118c31f92099cc654e2305b4ba648480aa1344f5e1a505ca769"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-percula/varieties/premium-picasso-percula/juvenile_swim_16.png",
+      "bytes": 493938,
+      "sha256": "c2732fa4e74c1ee15632cbb1fcaf6a09afb169b9273a4a2054313569a7116fec"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-perideraion/adult_swim_16.png",
+      "bytes": 460006,
+      "sha256": "18d47628ec1cba7a260cb1ee2cc2484ec5c0aa086d31df06e7112796564825e2"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-perideraion/baby_swim_16.png",
+      "bytes": 278527,
+      "sha256": "d33e1c48f80a444cfe5daa863d273fe4c997b0aeac36bed77a1c31b33e55b4e1"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-perideraion/juvenile_swim_16.png",
+      "bytes": 524286,
+      "sha256": "830c63564398e45864ad9ec0babb04c4168dbb00c25d82fb7c87aaaab500ef39"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-polymnus/adult_swim_16.png",
+      "bytes": 395046,
+      "sha256": "0e234b86f328e9c0d2002be825d5058a9439d651055577353971e72699fe6bd2"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-polymnus/baby_swim_16.png",
+      "bytes": 330305,
+      "sha256": "7f87b7ac69f945cedbaa44ef15f6948c69fafda4c4dec1bc1893b0d843eec837"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-polymnus/juvenile_swim_16.png",
+      "bytes": 454231,
+      "sha256": "510477243718c9d2eb18c5b88a347b5cb794d985a94977a2da2bbff5e9267977"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-rubrocinctus/adult_swim_16.png",
+      "bytes": 440341,
+      "sha256": "992a9d36a4c45073b74c572a4a8c2d58b6326d20654c8b277a9947584b9a6393"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-rubrocinctus/baby_swim_16.png",
+      "bytes": 369607,
+      "sha256": "732d8a30d9a84a024826d62f8752ab7289b0ac1d371b2164c9bbeb0021da475f"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-rubrocinctus/juvenile_swim_16.png",
+      "bytes": 531484,
+      "sha256": "fefb3c5ccfcdf78f8778a0cbf7e74db3153a21c949e1b59bf33a1297eaaaafa9"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-sandaracinos/adult_swim_16.png",
+      "bytes": 456292,
+      "sha256": "e1e723af770639a1fe9adef8a92ea3f3aa1e140498391ec1b2b230137ee89e68"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-sandaracinos/baby_swim_16.png",
+      "bytes": 323382,
+      "sha256": "0489d87888f13027dba89219c2ad3428377c296fad8c5f8f1780bd7a7ba73420"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-sandaracinos/juvenile_swim_16.png",
+      "bytes": 441567,
+      "sha256": "7a10f47fa366a9ccdabf549dce3abeee5935fc3e99b7b53691138ce168824169"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-sebae/adult_swim_16.png",
+      "bytes": 442805,
+      "sha256": "deeafcd3030ccec0739de718f1893a976eba85cef5d2d3f478faaf1104a17ff3"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-sebae/baby_swim_16.png",
+      "bytes": 336379,
+      "sha256": "09659cb53ff99b2b954128cd991991ef08f5919177aaaf2dd737eb44b36f63f6"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-sebae/juvenile_swim_16.png",
+      "bytes": 481903,
+      "sha256": "41e4e0483330009c83da4f14a07d3cf245ee2fdd26e970dffc9633ffea15a80c"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-tricinctus/adult_swim_16.png",
+      "bytes": 440466,
+      "sha256": "431d4665c477f14cb2dc73d16d84141db218adf675fc08cd82046936d646c401"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-tricinctus/baby_swim_16.png",
+      "bytes": 344079,
+      "sha256": "38edfc2d4a037867aea2f97c95e02a5302e95f1b47d052bf651ca7eee6b4e6bc"
+    },
+    {
+      "path": "assets/livestock/animations/amphiprion-tricinctus/juvenile_swim_16.png",
+      "bytes": 492665,
+      "sha256": "f2518a5aa9517232680bf4a72b6162c249d8af1878687de980debaa62f03c99e"
+    },
+    {
+      "path": "assets/livestock/animations/banggai/adult_swim_16.png",
+      "bytes": 441086,
+      "sha256": "e977c35d9b8229cf7af173a55d8a97ca7d74f0336527b697c87d42ef047a3c67"
+    },
+    {
+      "path": "assets/livestock/animations/banggai/juvenile_swim_16.png",
+      "bytes": 527198,
+      "sha256": "815ab59779398eedda203ac27dd4bb98691261178149dd39608ec3a648499875"
+    },
+    {
+      "path": "assets/livestock/animations/blastomussa-wellsi/colony_polyp_motion_16.png",
+      "bytes": 424623,
+      "sha256": "e27e9e1e1855afe0c890620d090cea0a8b23f81071e6b1428d609fe15312cfcc"
+    },
+    {
+      "path": "assets/livestock/animations/blastomussa-wellsi/frag_polyp_motion_16.png",
+      "bytes": 277408,
+      "sha256": "c539dc1bda3c42bf1897aac8cf080130b00b1aaae470e36d2c32f2bae1734ad7"
+    },
+    {
+      "path": "assets/livestock/animations/blenny/adult_swim_16.png",
+      "bytes": 501639,
+      "sha256": "924638bf899c3968a0553ef70b67bc957b6b27eae5291adb5f62e01b66c46aea"
+    },
+    {
+      "path": "assets/livestock/animations/blenny/baby_swim_16.png",
+      "bytes": 283419,
+      "sha256": "78b0f968c5b7a2ddc564cff4003f2381ed727195f3606b01d1d68fc296d8b325"
+    },
+    {
+      "path": "assets/livestock/animations/blenny/juvenile_swim_16.png",
+      "bytes": 360204,
+      "sha256": "e9133984484deb379d90d6716feb4696bfa851905838178b57a022a08e20f59f"
+    },
+    {
+      "path": "assets/livestock/animations/blotched-anthias/adult_swim_16.png",
+      "bytes": 488274,
+      "sha256": "7eb1e7a2d828097d1215a5c754bd8be7cac47d3bc8b73a8774bd6226c8cb0a5c"
+    },
+    {
+      "path": "assets/livestock/animations/blotched-anthias/baby_swim_16.png",
+      "bytes": 128632,
+      "sha256": "ee25b3cd4d07ddd8a3f3aded1a73d8ecc126dfac46555220292e117004782d16"
+    },
+    {
+      "path": "assets/livestock/animations/blotched-anthias/juvenile_swim_16.png",
+      "bytes": 271463,
+      "sha256": "d216c1da69947944dae72e3a170b8fbd91c66ec2e370af86d549302b9623faba"
+    },
+    {
+      "path": "assets/livestock/animations/blue-assessor/adult_swim_16.png",
+      "bytes": 466713,
+      "sha256": "cf966c54122762015f75786f0d92bd825380a142b054eebb6745f638416a1d8f"
+    },
+    {
+      "path": "assets/livestock/animations/blue-assessor/baby_swim_16.png",
+      "bytes": 137480,
+      "sha256": "59819c8233936abe35b29d24dc9bd4b5a84dd5f593285d6d895a2f12f0de8afc"
+    },
+    {
+      "path": "assets/livestock/animations/blue-assessor/juvenile_swim_16.png",
+      "bytes": 299094,
+      "sha256": "1f8c918041f56b4751b9f1f864ea07e76b4b8561b16946bd11e123e3305274ac"
+    },
+    {
+      "path": "assets/livestock/animations/blue-striped-trimma-goby/adult_swim_16.png",
+      "bytes": 366831,
+      "sha256": "f6a82d8df721edc136cc9791ca921350cbe4a2f6803a2dab9d60c08abceb07e6"
+    },
+    {
+      "path": "assets/livestock/animations/blue-striped-trimma-goby/baby_swim_16.png",
+      "bytes": 110563,
+      "sha256": "ea0f6e4767bd08b2a7c82c74532f15c5f7c6e5b7b59cf9f9947be2e8a16f3ab0"
+    },
+    {
+      "path": "assets/livestock/animations/blue-striped-trimma-goby/juvenile_swim_16.png",
+      "bytes": 195987,
+      "sha256": "9d26d6132fb8ceb276c8a57fcfda7bc5ea7b71a33ce41ca8af5cb1e08d54c512"
+    },
+    {
+      "path": "assets/livestock/animations/bumblebee-snail/adult_idle_16.png",
+      "bytes": 209306,
+      "sha256": "58f4bc92a663968173139ced8372ad0d4ab84b2c0e0065cbe6f3c23d6002f26d"
+    },
+    {
+      "path": "assets/livestock/animations/bumblebee-snail/adult_walk_16.png",
+      "bytes": 208436,
+      "sha256": "bf9ba587a04b5ebe45ba5d920403014bc3ca23f06c51427e530642f5cd0b56c1"
+    },
+    {
+      "path": "assets/livestock/animations/bumblebee-snail/baby_idle_16.png",
+      "bytes": 79471,
+      "sha256": "8940ff517892e6f70a2609e992ea68a1d2c9602f68b78cc58004f46bc3da3fc2"
+    },
+    {
+      "path": "assets/livestock/animations/bumblebee-snail/baby_walk_16.png",
+      "bytes": 86620,
+      "sha256": "f798bc722763a133e42f9e8e430d8f2870bc74e328bec8be24d456f1056152a7"
+    },
+    {
+      "path": "assets/livestock/animations/bumblebee-snail/juvenile_idle_16.png",
+      "bytes": 130489,
+      "sha256": "cd60cccbeeedd2a8a08bd4a202f4b332624e3462de357655f294b89e89f67eed"
+    },
+    {
+      "path": "assets/livestock/animations/bumblebee-snail/juvenile_walk_16.png",
+      "bytes": 148627,
+      "sha256": "fa95b77122392483bb09da1fffdd1cf378e4389f9844d5a7f7c2dbfdeef5479d"
+    },
+    {
+      "path": "assets/livestock/animations/candy-basslet/adult_swim_16.png",
+      "bytes": 445342,
+      "sha256": "54d4819e4d55cabb8ff1950bdbbe4d3eccccbda2643ec5659d553027ab491562"
+    },
+    {
+      "path": "assets/livestock/animations/candy-basslet/baby_swim_16.png",
+      "bytes": 138764,
+      "sha256": "42ab762e57311147f6e8d24b13587b67fe1f9cd1ba2b141390bf582ae63276a4"
+    },
+    {
+      "path": "assets/livestock/animations/candy-basslet/juvenile_swim_16.png",
+      "bytes": 326854,
+      "sha256": "c4bf6811ce1ee1b845e00a2b51434c3edb48d75abdbcfce8655451f86a158306"
+    },
+    {
+      "path": "assets/livestock/animations/carpenters-flasher-wrasse/adult_swim_16.png",
+      "bytes": 492517,
+      "sha256": "b660de7428e6d2c9496222f3e6f6642955de65eef4a3280c6c3e7a92484117c8"
+    },
+    {
+      "path": "assets/livestock/animations/carpenters-flasher-wrasse/baby_swim_16.png",
+      "bytes": 129753,
+      "sha256": "f5d01c790e86c44637896ce2832de1087f63b718d75a6b95ba8525969c5496bb"
+    },
+    {
+      "path": "assets/livestock/animations/carpenters-flasher-wrasse/juvenile_swim_16.png",
+      "bytes": 256129,
+      "sha256": "42e0b4f1d06f9f806d79ac4d475ba66815f3da4f3544a1d1195fe0afe937843c"
+    },
+    {
+      "path": "assets/livestock/animations/caulastraea-furcata/colony_polyp_motion_16.png",
+      "bytes": 336424,
+      "sha256": "4a0a22b645acce50bd3214a3d3db22031dc33f0272c3ed5fc3469a608fc3403a"
+    },
+    {
+      "path": "assets/livestock/animations/caulastraea-furcata/frag_polyp_motion_16.png",
+      "bytes": 203932,
+      "sha256": "7e23b0f9022b47992f3bc5bc7d445c64c60165689cefa03050f64469e84a347d"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-acanthops/adult_swim_16.png",
+      "bytes": 623210,
+      "sha256": "e8587e0541d5e374d004e6b0501622cf71fe3576edbc27d4aef0a64bc4d0ecdd"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-acanthops/baby_swim_16.png",
+      "bytes": 301520,
+      "sha256": "f2b533bbc35c43dd9b37480a52cdb1d6318996da287e55e6787ee46614ef3a0c"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-acanthops/juvenile_swim_16.png",
+      "bytes": 625118,
+      "sha256": "37a210bae460aec320ac8ff226da8f8f6d81f7db1076030bf139c5ccd9236463"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-argi/adult_swim_16.png",
+      "bytes": 632514,
+      "sha256": "a82da858555766fdb4d257c4546d2ce6457164db427193fc71018da43ad629b5"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-argi/baby_swim_16.png",
+      "bytes": 420624,
+      "sha256": "f7c8ad16d94999ec65fe48dbe4bd053fd1e4f101624eb16085b30a90a34e5cae"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-argi/juvenile_swim_16.png",
+      "bytes": 649940,
+      "sha256": "3cf1f28bf8d6ab06ea2bcf6eaa0105926adfc3ac07517b739fdee81f12c9566a"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-bispinosa/adult_swim_16.png",
+      "bytes": 689858,
+      "sha256": "984c3971dca725d6e3d7d798d9d5c97446e767f7ac355c139bed79a688641f99"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-bispinosa/baby_swim_16.png",
+      "bytes": 406654,
+      "sha256": "f6bd84fded2d9ccc871e1bf825842da00e7e40b5b2b88adaf4bdaf3c216e2e49"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-bispinosa/juvenile_swim_16.png",
+      "bytes": 681916,
+      "sha256": "920a9c036598cb7f7bbffcf5a5431bb54715b7cc5f5a8d984b6f8185aba6834a"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-joculator/adult_swim_16.png",
+      "bytes": 602584,
+      "sha256": "e6ad1d0bc09f05176ea0bdb1202dff65b7f67cda850e7b93b9c3ea9ac71ba1ec"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-joculator/baby_swim_16.png",
+      "bytes": 452816,
+      "sha256": "a4d43c814297bc608b8c46032b94c983a6ba93186e804020fb83256e8f15e575"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-joculator/juvenile_swim_16.png",
+      "bytes": 632960,
+      "sha256": "1b78ffb367cae8dc63fdd7932ff82aabfb3a81b6c0aa653232f554d6bb836a9b"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-loriculus/adult_swim_16.png",
+      "bytes": 639103,
+      "sha256": "576e5b67b1f24f893e2da44abdefcb00407568523727820574c62eb7db978977"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-loriculus/baby_swim_16.png",
+      "bytes": 548387,
+      "sha256": "2439366382a381c4a64649c9dd412247f390930a6c00268639fb4e2ca143ea60"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-loriculus/juvenile_swim_16.png",
+      "bytes": 665823,
+      "sha256": "7fc99ce4bf719b0c4688b98027910fd0746983648fb7b80f8f14e20c95cee039"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-potteri/adult_swim_16.png",
+      "bytes": 661578,
+      "sha256": "926ebedbc8eebe953e5ca70a7c6ceb1e95597f5d55c1e042ffc2d5011d49d95c"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-potteri/baby_swim_16.png",
+      "bytes": 286983,
+      "sha256": "e09008c15b2516f1ee359b856ff81bc35523df3cbfc8334a8d4c39c74b894933"
+    },
+    {
+      "path": "assets/livestock/animations/centropyge-potteri/juvenile_swim_16.png",
+      "bytes": 647200,
+      "sha256": "f62c896b5089c93d6b286ac4dd1e9b6c8d1724b66f66add96d11296f40bd4a91"
+    },
+    {
+      "path": "assets/livestock/animations/chalk-bass/adult_swim_16.png",
+      "bytes": 425118,
+      "sha256": "829da9a5795c5290f7994cc7c81ca27585ad095038b8fe60deb44814c911b3e1"
+    },
+    {
+      "path": "assets/livestock/animations/chalk-bass/baby_swim_16.png",
+      "bytes": 97478,
+      "sha256": "da83913a31d54ec798694b3707a94740625c45e33c18b0bc41c5f7d3588b8db0"
+    },
+    {
+      "path": "assets/livestock/animations/chalk-bass/juvenile_swim_16.png",
+      "bytes": 253369,
+      "sha256": "088d739d4ba82013e4bfe2d07760251ffd6270368145c019add7cd6675252920"
+    },
+    {
+      "path": "assets/livestock/animations/chromis/adult_swim_16.png",
+      "bytes": 620822,
+      "sha256": "b1a22a08d62d35b188ce9dfc5b33c1aa873ef8aa6602043dafab87fe19ab0a89"
+    },
+    {
+      "path": "assets/livestock/animations/chromis/baby_swim_16.png",
+      "bytes": 304218,
+      "sha256": "03827d37e22dee43dcb49a708753d25be946772004a008a600088f706fa90d91"
+    },
+    {
+      "path": "assets/livestock/animations/chromis/juvenile_swim_16.png",
+      "bytes": 512793,
+      "sha256": "43fa6f23df06a69b900c0643e180551132df3beb15d2e4feb953b82d454e490f"
+    },
+    {
+      "path": "assets/livestock/animations/clown/adult_swim_16.png",
+      "bytes": 200652,
+      "sha256": "2a34442c4532606e69715640c96487e3cfb79975f5890e3897a348475fd0ec47"
+    },
+    {
+      "path": "assets/livestock/animations/clown/baby_swim_16.png",
+      "bytes": 336289,
+      "sha256": "dbd0a89ccde3756c1b33ef9f14322668401458cb4818d1ceadb85cab9c36db93"
+    },
+    {
+      "path": "assets/livestock/animations/clown/juvenile_swim_16.png",
+      "bytes": 596619,
+      "sha256": "ecb735df8dd1922d7efe526f57aba9811ca734a0d995b0de0e12616846d8aa9e"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-frostbite/adult_swim_16.png",
+      "bytes": 383842,
+      "sha256": "a10d0d9a218be00fe15fee1018dae7539e54221431b1e7e612563c9d5de5bcb3"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-frostbite/juvenile_swim_16.png",
+      "bytes": 466491,
+      "sha256": "248e6aa3d35c50ba1f71408b544ce6e704f320c2b744231d79632f76d17d79ae"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-ice-snowflake/adult_swim_16.png",
+      "bytes": 452192,
+      "sha256": "ac2590ca19aa72f88b06453f271140418f4634f56a5a38c02da971e1bae32582"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-ice-snowflake/juvenile_swim_16.png",
+      "bytes": 542488,
+      "sha256": "d1b2ebedc65afba5d663aaed10ecf4125625cdfe75b62b458bc264d936c3f6b3"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-ocellaris/adult_swim_16.png",
+      "bytes": 420169,
+      "sha256": "694b48e5d1310fb7c673bb6f7fe74bb4eaccd673386c72b0148a67824d8a8c26"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-ocellaris/juvenile_swim_16.png",
+      "bytes": 498502,
+      "sha256": "b7b38462090e37c744a2c520302eb5406c20429c97d8faeb3d07c4ba1709c721"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-snowflake/adult_swim_16.png",
+      "bytes": 404035,
+      "sha256": "c4fd016cb3a7135ea81b3e2da5a5141a4fd99c82b9c735ffa02b150ab4b53d9a"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-snowflake/juvenile_swim_16.png",
+      "bytes": 552260,
+      "sha256": "2be9127e90bb229bbe954e540536f292b0e762dba597e6e7fbb8bfd23ec6fd44"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-storm/adult_swim_16.png",
+      "bytes": 375520,
+      "sha256": "50a10fbbc82f78eaa112bc746228e073a61de443028a1e01a404718ce956c26e"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/black-storm/juvenile_swim_16.png",
+      "bytes": 395751,
+      "sha256": "774d213b1ebf18d2ec60eca6cde571281c010113125e532b750260a30e970894"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/davinci/adult_swim_16.png",
+      "bytes": 473025,
+      "sha256": "a9b9526926d2b0214ba85952053dc66cfb97adb6f3ecf6e824716eedadbe282e"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/davinci/juvenile_swim_16.png",
+      "bytes": 507706,
+      "sha256": "3e77a61455ff17fb6db0ba7a9f4884d59efe3cfb8cf42b1cf876afe31af81c14"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/domino/adult_swim_16.png",
+      "bytes": 381745,
+      "sha256": "1abe167e0271009f498fd48fcbe099aafc05f545ae0a791c58bfd9a7166eabfc"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/domino/juvenile_swim_16.png",
+      "bytes": 526175,
+      "sha256": "cd259b6c4ea66caea9eb161901ed2d5b2d9e850bdb66a1d99cfee9cea99e8b28"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/frostbite/adult_swim_16.png",
+      "bytes": 447506,
+      "sha256": "4eae4c285181640a3e5511d411cc1f92961fb68638e644dd2a38a42027bf8be7"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/frostbite/juvenile_swim_16.png",
+      "bytes": 504459,
+      "sha256": "857f8f5f3bc1da081befc5b9ef86dc750183592b0c8d4e6c00e68b6ad7fd6a49"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/gladiator/adult_swim_16.png",
+      "bytes": 424575,
+      "sha256": "334a582c7e35420c1bfdfe0a59058a3379920ac843eb1d3e375cb40aa49077ea"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/gladiator/juvenile_swim_16.png",
+      "bytes": 492292,
+      "sha256": "1efce14c22cc931896f1715388df5e92de3848537ebc3f339509ebb24c727d42"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/longfin-ocellaris/adult_swim_16.png",
+      "bytes": 540919,
+      "sha256": "fd9b8cb4a5405c0e31ec0f7342abfa39d1e7ff23c78052be3cb43f63a033d674"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/longfin-ocellaris/juvenile_swim_16.png",
+      "bytes": 553380,
+      "sha256": "35021df093adbc25b27633d9cabbb1fe3a1e4aa42c72cfcd353791e7ce755c9f"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/midnight/adult_swim_16.png",
+      "bytes": 379663,
+      "sha256": "dc8349d9bf6e470a04c73c8264aa2e8a0d629e08e8d0418bd0a18143193d90c0"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/midnight/juvenile_swim_16.png",
+      "bytes": 476892,
+      "sha256": "6b028c2b9770c00c683cd33fce0156751475202480a187703fce1e63dce742d7"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/misbar-ocellaris/adult_swim_16.png",
+      "bytes": 373377,
+      "sha256": "d5e1e2e40550c91c8b1341fe63aa83d026e836750379d8baacdd914687f559b9"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/misbar-ocellaris/juvenile_swim_16.png",
+      "bytes": 427785,
+      "sha256": "c2ae8dcffdeb573f69049c726b3a1b6704e5d2fc20f7c45eff6ef77b279034b0"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/mocha-gladiator/adult_swim_16.png",
+      "bytes": 428831,
+      "sha256": "ad1148b0ee271ed49af41b3c53853f111cabfe6d8c0dad5564e447c0fe0b3843"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/mocha-gladiator/juvenile_swim_16.png",
+      "bytes": 477913,
+      "sha256": "60488371a0647694a9e54c6002ad33486fc7e9401e694ee5c438ce945593ee3a"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/mocha-ocellaris/adult_swim_16.png",
+      "bytes": 375243,
+      "sha256": "3408c152369f4f6a0f92d06687e1943508039f04b57c8d25dd7c1aa97e45f7cf"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/mocha-ocellaris/juvenile_swim_16.png",
+      "bytes": 493539,
+      "sha256": "ca0095af89f0699d924ea3a45bf0d02e2b24d2704f2c10cc4e1ffda5888483f6"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/mocha-storm/adult_swim_16.png",
+      "bytes": 432742,
+      "sha256": "a8c71e1bf11aba07b5cb62ab10e87d0f53aeadf91ba47f33311c00cb9289f77a"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/mocha-storm/juvenile_swim_16.png",
+      "bytes": 472213,
+      "sha256": "b447df082693cbc93cf2edb9754a655abec0fab2016b194231793f491722cc64"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/naked-ocellaris/adult_swim_16.png",
+      "bytes": 413203,
+      "sha256": "edc3a08cda31b8ec8dce87b452ac4f6708fc3ece59de2255245bb9ede350daf7"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/naked-ocellaris/juvenile_swim_16.png",
+      "bytes": 436500,
+      "sha256": "fd18cf4d7a79e533b80683055ff3bd716017b8379c16b9ddb6ee2a937ee46444"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/premium-snowflake/adult_swim_16.png",
+      "bytes": 443046,
+      "sha256": "e7cb02dfcddbf7bc532c60202521174041b01752bd9e635e1523f20a58147e89"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/premium-snowflake/juvenile_swim_16.png",
+      "bytes": 473435,
+      "sha256": "1e5e52e024200f2f6ebbeb12bfeef57a0950f63aa16f1dcc1fa66c51ffb85f8c"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/snow-storm/adult_swim_16.png",
+      "bytes": 423729,
+      "sha256": "6abc4f0b569c3042d47b9bf11c4e84384df384e1aa8a3577e85bc0a9815e65b5"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/snow-storm/juvenile_swim_16.png",
+      "bytes": 474806,
+      "sha256": "cff708b0625e2097a39a91e9716c5da121a7054b6095318b966c032dcafdbe78"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/snowflake-ocellaris/adult_swim_16.png",
+      "bytes": 410841,
+      "sha256": "91f72523c215bd0362a6adf9022399054a265ba05af8bb0819f36447687ec273"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/snowflake-ocellaris/juvenile_swim_16.png",
+      "bytes": 463517,
+      "sha256": "d793e748fa861f7a5c8b557e5284b84271d1f7938cf6960ad62f9b39e03d638e"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/wyoming-white/adult_swim_16.png",
+      "bytes": 511245,
+      "sha256": "3aee5c931bbf0e94e0d59a4a73392543ad3226c2c275de866efbe91205e761ad"
+    },
+    {
+      "path": "assets/livestock/animations/clown/varieties/wyoming-white/juvenile_swim_16.png",
+      "bytes": 545096,
+      "sha256": "822575395c366e3292fae95d751eca5aed729a2a4135a63571244c721141d542"
+    },
+    {
+      "path": "assets/livestock/animations/copperband-butterflyfish/adult_swim_16.png",
+      "bytes": 530261,
+      "sha256": "4460b589e7a0bc95def6333da9d443778e282b9bee0e7c4fc67b13386fbe3d6d"
+    },
+    {
+      "path": "assets/livestock/animations/copperband-butterflyfish/baby_swim_16.png",
+      "bytes": 158938,
+      "sha256": "98ffd8e24c624575840c54dad1b823167e535ef66a65d6d30f6dcceb689cc0b9"
+    },
+    {
+      "path": "assets/livestock/animations/copperband-butterflyfish/juvenile_swim_16.png",
+      "bytes": 293210,
+      "sha256": "12ee366f7d19ded965f1ba1cb1af00fc8a6b3154a983c926c3d2748633de4128"
+    },
+    {
+      "path": "assets/livestock/animations/ctenochaetus-strigosus/adult_swim_16.png",
+      "bytes": 575679,
+      "sha256": "59c534d2d0a7a21d9ade1ffd7c77c0dd36ee7d6dc15b1e41272e1b2a6c414f6a"
+    },
+    {
+      "path": "assets/livestock/animations/ctenochaetus-strigosus/baby_swim_16.png",
+      "bytes": 464271,
+      "sha256": "ead3a322a603d28aa9da8e09e8f5a1a90adb51a96de862d785b37a731c89ecbb"
+    },
+    {
+      "path": "assets/livestock/animations/ctenochaetus-strigosus/juvenile_swim_16.png",
+      "bytes": 604616,
+      "sha256": "f63ed9dc47e31a592805f459497fa7b529f774eb9c93ff3fd77ab02ce0c593a6"
+    },
+    {
+      "path": "assets/livestock/animations/ctenochaetus-tominiensis/adult_swim_16.png",
+      "bytes": 591782,
+      "sha256": "0c3ebd18c7a765ac59b9d98a0643496cc6cb964786485e8a4f9f9a773f64d476"
+    },
+    {
+      "path": "assets/livestock/animations/ctenochaetus-tominiensis/baby_swim_16.png",
+      "bytes": 438585,
+      "sha256": "d2e09ddc0e166759b33bf66a51e770cbe7d5e12190465aa401565bce9bee7289"
+    },
+    {
+      "path": "assets/livestock/animations/ctenochaetus-tominiensis/juvenile_swim_16.png",
+      "bytes": 602560,
+      "sha256": "27f2b439959ddb89c0377141eeed35f288990dec9dc4bdc1ffe76f2127648768"
+    },
+    {
+      "path": "assets/livestock/animations/cyphastrea-serailia/colony_polyp_motion_16.png",
+      "bytes": 267773,
+      "sha256": "8fa1ef9a5680aa8afe25825cd3bc102b0ff4b792f9770c8c9e9e4e3fc17008ce"
+    },
+    {
+      "path": "assets/livestock/animations/cyphastrea-serailia/frag_polyp_motion_16.png",
+      "bytes": 96588,
+      "sha256": "e91f4836eb8457d483bfc52fa67bcf72e71e0fc985f6133fbb1b055018514b3c"
+    },
+    {
+      "path": "assets/livestock/animations/duncanopsammia-axifuga/colony_polyp_motion_16.png",
+      "bytes": 520461,
+      "sha256": "cd484e96d85f42e2b3ac09dde2c0b1e32b979c29d43dd19e01ceb2ac91cc1b00"
+    },
+    {
+      "path": "assets/livestock/animations/duncanopsammia-axifuga/frag_polyp_motion_16.png",
+      "bytes": 173563,
+      "sha256": "3d7049fd4cf3b829908926b4b2fc2f0197a7b70df2cd292b5355b66099964604"
+    },
+    {
+      "path": "assets/livestock/animations/ecsenius-bicolor/adult_swim_16.png",
+      "bytes": 423215,
+      "sha256": "0857d569b2a89074f31c4b6a62cf1a83072d047eec30bb5df2a578653bd7e86e"
+    },
+    {
+      "path": "assets/livestock/animations/ecsenius-bicolor/baby_swim_16.png",
+      "bytes": 324212,
+      "sha256": "2d4537cbd4b86b00ffdee8d9b1d43120f04c5ee0c120cbccb871d9f9e92d2261"
+    },
+    {
+      "path": "assets/livestock/animations/ecsenius-bicolor/juvenile_swim_16.png",
+      "bytes": 377453,
+      "sha256": "bebd44204c1cb086623280fcf8003439fe90a0eb8fec9d61d03ea9b5064984a7"
+    },
+    {
+      "path": "assets/livestock/animations/ecsenius-midas/adult_swim_16.png",
+      "bytes": 442363,
+      "sha256": "75747710ee336bd76e1751da437766807dace2921bc3f9191440baa6326400e0"
+    },
+    {
+      "path": "assets/livestock/animations/ecsenius-midas/baby_swim_16.png",
+      "bytes": 321370,
+      "sha256": "c69cd7a577dc6014150d4368611abb4a1009ae132d365bde4abd660b72ff6f87"
+    },
+    {
+      "path": "assets/livestock/animations/ecsenius-midas/juvenile_swim_16.png",
+      "bytes": 396320,
+      "sha256": "bb4c50a228148c4ae7916ea12bd4402dc3b386c2b09f9826ab34456aa4572516"
+    },
+    {
+      "path": "assets/livestock/animations/exquisite-fairy-wrasse/adult_swim_16.png",
+      "bytes": 496776,
+      "sha256": "4e98873b3e166049c8560e58e09828a5a3dc65db86438849d45586836e8e960a"
+    },
+    {
+      "path": "assets/livestock/animations/exquisite-fairy-wrasse/baby_swim_16.png",
+      "bytes": 130605,
+      "sha256": "98bd5a6d5cbed24a9fe3b9135b174a4c9574be7b87c7af22afbd72c3189b38d3"
+    },
+    {
+      "path": "assets/livestock/animations/exquisite-fairy-wrasse/juvenile_swim_16.png",
+      "bytes": 272294,
+      "sha256": "c51f428643063cef9822884b01464d4e3c23ec36d479f716634e34a34aaa4652"
+    },
+    {
+      "path": "assets/livestock/animations/firefish/adult_swim_16.png",
+      "bytes": 335253,
+      "sha256": "a4fa54e589faced6471d7f1bce0165d00606fd0316b00ba9adf2c6aacc507980"
+    },
+    {
+      "path": "assets/livestock/animations/firefish/baby_swim_16.png",
+      "bytes": 189278,
+      "sha256": "7bbfea837add769a2ed94bd070f161a3b30267e8bd7ebb39b5fbd3cbae4548df"
+    },
+    {
+      "path": "assets/livestock/animations/firefish/juvenile_swim_16.png",
+      "bytes": 421430,
+      "sha256": "d41cd87005ae301316f5114163c7d42aaa69c28bdb5fd94ee948c2062acca9fe"
+    },
+    {
+      "path": "assets/livestock/animations/forcipiger-flavissimus/adult_swim_16.png",
+      "bytes": 531640,
+      "sha256": "8f7144cc074e7f5cd067317ee8bddee70951e2f74f8e5e7b09dbef3fb4a0ff9a"
+    },
+    {
+      "path": "assets/livestock/animations/forcipiger-flavissimus/baby_swim_16.png",
+      "bytes": 405167,
+      "sha256": "1b921bfeb09f54239f8564ecd153a8fab480b4fcf10fab7b65b13b4c4b2c134c"
+    },
+    {
+      "path": "assets/livestock/animations/forcipiger-flavissimus/juvenile_swim_16.png",
+      "bytes": 512575,
+      "sha256": "06052aeedcb77f0e32d51aa13b50713d9c47f20b445c7cd5ea33093e538b8210"
+    },
+    {
+      "path": "assets/livestock/animations/gramma/adult_swim_16.png",
+      "bytes": 575178,
+      "sha256": "9e402339617660dbce1261dbfb89bf04a39cf4867a919624dd4190c352cc36d0"
+    },
+    {
+      "path": "assets/livestock/animations/gramma/baby_swim_16.png",
+      "bytes": 271054,
+      "sha256": "a4737d8691831f5887675baa8a806290adc5e770373350d93c9411180db55d45"
+    },
+    {
+      "path": "assets/livestock/animations/gramma/juvenile_swim_16.png",
+      "bytes": 485404,
+      "sha256": "6ecdb4b780a4d86a43a5e7b5ca3e005b043b5c414bd20430be2e3f54dfbdedee"
+    },
+    {
+      "path": "assets/livestock/animations/greenbanded-goby/adult_swim_16.png",
+      "bytes": 326964,
+      "sha256": "670d3691bf2c49dd1acd8b9e17442e141a7e8fe7871da0377dbaf9e513b1ccf9"
+    },
+    {
+      "path": "assets/livestock/animations/greenbanded-goby/baby_swim_16.png",
+      "bytes": 107429,
+      "sha256": "45295c26a323af9155fff420bac570a19f9a984ceec9f7d1903ad717ee946fa6"
+    },
+    {
+      "path": "assets/livestock/animations/greenbanded-goby/juvenile_swim_16.png",
+      "bytes": 202736,
+      "sha256": "736038a07872fc92a8e3be7627229c58851f5818b4288275e3d0e11dc0f98cd3"
+    },
+    {
+      "path": "assets/livestock/animations/halichoeres-chrysus/adult_swim_16.png",
+      "bytes": 405527,
+      "sha256": "ddb0207cc9670d41431c0c7d7bf4819b434cde4f8c75c8780ea69393f5e2eb87"
+    },
+    {
+      "path": "assets/livestock/animations/halichoeres-chrysus/baby_swim_16.png",
+      "bytes": 253215,
+      "sha256": "5642d7d7953e71fd732dcab438a834938e28c27f8b7791c54b2563734028ff4a"
+    },
+    {
+      "path": "assets/livestock/animations/halichoeres-chrysus/juvenile_swim_16.png",
+      "bytes": 399950,
+      "sha256": "4a6e6a98596b90428e4632a386a5d8a8bba49e6cef9f976437647d3e8db19f30"
+    },
+    {
+      "path": "assets/livestock/animations/halichoeres-melanurus/adult_swim_16.png",
+      "bytes": 452313,
+      "sha256": "ff2119ee8fd4b893527dc8e70f853a568315cb94e7921b587cc3330e4f45158c"
+    },
+    {
+      "path": "assets/livestock/animations/halichoeres-melanurus/baby_swim_16.png",
+      "bytes": 321616,
+      "sha256": "0bfa3f251dd7e65c675186ade5f583e154822f17b069f8e22a3f42d87116788a"
+    },
+    {
+      "path": "assets/livestock/animations/halichoeres-melanurus/juvenile_swim_16.png",
+      "bytes": 477369,
+      "sha256": "5a6ec009bccaf67af7d1c4e4cec534bbcd0de7ac88ce3ad9f8de9f44d92d9383"
+    },
+    {
+      "path": "assets/livestock/animations/halloween-hermit-crab/adult_idle_16.png",
+      "bytes": 142158,
+      "sha256": "b77a36cc906e3b48873829eb284920bf326118327603d7febf50993250d6d6aa"
+    },
+    {
+      "path": "assets/livestock/animations/halloween-hermit-crab/adult_walk_16.png",
+      "bytes": 116483,
+      "sha256": "5d8ee392921786e8522a2cf776f864e36ffe9f67219d9a38fdd9a306176e9139"
+    },
+    {
+      "path": "assets/livestock/animations/halloween-hermit-crab/baby_idle_16.png",
+      "bytes": 60667,
+      "sha256": "08659c6fc1e5c142e349b0c77cea50e34d487ef6fc96ad0121a1682bed2b32e6"
+    },
+    {
+      "path": "assets/livestock/animations/halloween-hermit-crab/baby_walk_16.png",
+      "bytes": 62239,
+      "sha256": "b119c7a70a72dea738a3c5381c389e7a7ca34c32d20020231fd55c8459b468d1"
+    },
+    {
+      "path": "assets/livestock/animations/halloween-hermit-crab/juvenile_idle_16.png",
+      "bytes": 77203,
+      "sha256": "65a5548689f3e97ed598bc1e20b5b626f0b77db2068cb56d3f4d633ae051903d"
+    },
+    {
+      "path": "assets/livestock/animations/halloween-hermit-crab/juvenile_walk_16.png",
+      "bytes": 95867,
+      "sha256": "185a174f5b3d1ea9827014379608c018f3d664583692429c7e9f2a4febdf3222"
+    },
+    {
+      "path": "assets/livestock/animations/hemitaurichthys-polylepis/adult_swim_16.png",
+      "bytes": 485764,
+      "sha256": "0a0e1d98d173f092d6728b7f5570b163d26daf1fb4705067f1ce23c33e4e9542"
+    },
+    {
+      "path": "assets/livestock/animations/hemitaurichthys-polylepis/baby_swim_16.png",
+      "bytes": 347866,
+      "sha256": "42d8924e2cc1d254c91065227f2c3e43b84a06817e9be16c57900f2933068188"
+    },
+    {
+      "path": "assets/livestock/animations/hemitaurichthys-polylepis/juvenile_swim_16.png",
+      "bytes": 428282,
+      "sha256": "181f48368dd150ba8288ec69c42c4c3d97ac884419e073c936bd0727b9c672f1"
+    },
+    {
+      "path": "assets/livestock/animations/hi-fin-red-banded-goby/adult_swim_16.png",
+      "bytes": 364037,
+      "sha256": "3ac2815dc039eedad5f748291b3dbd59429203dc540a08e58f893b8ee1a238e1"
+    },
+    {
+      "path": "assets/livestock/animations/hi-fin-red-banded-goby/baby_swim_16.png",
+      "bytes": 98457,
+      "sha256": "830be3bd549e209a8476b93e48799fc49627d0c0040cfd4dd3face2f2696982b"
+    },
+    {
+      "path": "assets/livestock/animations/hi-fin-red-banded-goby/juvenile_swim_16.png",
+      "bytes": 262709,
+      "sha256": "9ce6ec710117dda7a11cf26a76cb82689dd018cb3b3af8f11fec3be0e96f41ee"
+    },
+    {
+      "path": "assets/livestock/animations/lantern-bass/adult_swim_16.png",
+      "bytes": 502047,
+      "sha256": "2954226d0c4ebe36b8e16f2684c897b9ae31b15ec75fb63156ef40f870ac6f7e"
+    },
+    {
+      "path": "assets/livestock/animations/lantern-bass/baby_swim_16.png",
+      "bytes": 93818,
+      "sha256": "a301726742a43a476d922937eaa24d38044ef862294c247eadc0ca39921ac8f1"
+    },
+    {
+      "path": "assets/livestock/animations/lantern-bass/juvenile_swim_16.png",
+      "bytes": 322907,
+      "sha256": "8d0919907c527799e28bf71386db492eb3c4774911e0e1cfd7f541665a8c7f21"
+    },
+    {
+      "path": "assets/livestock/animations/leptastrea-purpurea/colony_polyp_motion_16.png",
+      "bytes": 371204,
+      "sha256": "6e0aa7f2bb25b8d470be16cdab0ee850082eaf955d68e4def64a66f89fe3c744"
+    },
+    {
+      "path": "assets/livestock/animations/leptastrea-purpurea/frag_polyp_motion_16.png",
+      "bytes": 126154,
+      "sha256": "f2e4fee0075fe43f1d223018e15988c029476190baab38d910880b9c64d39f24"
+    },
+    {
+      "path": "assets/livestock/animations/lps/colony_polyp_motion_16.png",
+      "bytes": 391723,
+      "sha256": "e28dd48c34b46c30ca1c9744b87f5823409cd2ab1dd8f90a0a9ae6aeab37136c"
+    },
+    {
+      "path": "assets/livestock/animations/lps/frag_polyp_motion_16.png",
+      "bytes": 398189,
+      "sha256": "309edd461766a9a830656969743f6b5ac287e4d0ea3a1692d4e5f67f575973fa"
+    },
+    {
+      "path": "assets/livestock/animations/lubbocks-fairy-wrasse/adult_swim_16.png",
+      "bytes": 526792,
+      "sha256": "dd7c524d7cc8e9823c55d3bc40c88048c7d6c4a7f1968ec6c043bd9953082d5f"
+    },
+    {
+      "path": "assets/livestock/animations/lubbocks-fairy-wrasse/baby_swim_16.png",
+      "bytes": 119360,
+      "sha256": "3b7cf4a15d24b5b3d407e35cf835c006b29e0a1824d43d66738ade99972a2d18"
+    },
+    {
+      "path": "assets/livestock/animations/lubbocks-fairy-wrasse/juvenile_swim_16.png",
+      "bytes": 212808,
+      "sha256": "74605ae3a36f7d937d9b48658714be8027ec6d8328d00f8f0068cf3b0b22f299"
+    },
+    {
+      "path": "assets/livestock/animations/lysmata-amboinensis/adult_idle_16.png",
+      "bytes": 189412,
+      "sha256": "60ff57f0313b2d6a4d8e784b21c38450abd3c1d656ec49824bc48b6c4cf34b15"
+    },
+    {
+      "path": "assets/livestock/animations/lysmata-amboinensis/adult_walk_16.png",
+      "bytes": 169195,
+      "sha256": "007576b75cded80e1497987d8b7bd3af82caeb5dd32c430af3482b34af11f274"
+    },
+    {
+      "path": "assets/livestock/animations/lysmata-amboinensis/baby_idle_16.png",
+      "bytes": 184340,
+      "sha256": "05fbfb58e59235a4ccf01e367417c6b270abd6ecdd55866c5fe2b1e622f753a8"
+    },
+    {
+      "path": "assets/livestock/animations/lysmata-amboinensis/baby_walk_16.png",
+      "bytes": 197309,
+      "sha256": "ba18072b9f3e57f9c512933f6dbd4403df42fe683441f5a6c04680a09e8a71ed"
+    },
+    {
+      "path": "assets/livestock/animations/lysmata-amboinensis/juvenile_idle_16.png",
+      "bytes": 196408,
+      "sha256": "cdcf087e59de45a2f3edeff1f431a4e825857fa1dec148276a760ad8b0626272"
+    },
+    {
+      "path": "assets/livestock/animations/lysmata-amboinensis/juvenile_walk_16.png",
+      "bytes": 180760,
+      "sha256": "4d815dabde013cf35c1a84ec6447c19429822dae8acf8f67aa891c7a7618144e"
+    },
+    {
+      "path": "assets/livestock/animations/macropharyngodon-meleagris/adult_swim_16.png",
+      "bytes": 522553,
+      "sha256": "8a920ee8231f878a8f655fe25e07a202590e44244cfe20dc6acf53d2bf5934aa"
+    },
+    {
+      "path": "assets/livestock/animations/macropharyngodon-meleagris/baby_swim_16.png",
+      "bytes": 306143,
+      "sha256": "5568640936c9992c40c4412994ca33fd4064f099c3ea426f2423fdbfcb42f61c"
+    },
+    {
+      "path": "assets/livestock/animations/macropharyngodon-meleagris/juvenile_swim_16.png",
+      "bytes": 516525,
+      "sha256": "4f38a1ccf2e0e4a43660b86cf05f561f1b9f6fdb31dadd285fc62d7cda53d05e"
+    },
+    {
+      "path": "assets/livestock/animations/marinebetta/adult_swim_16.png",
+      "bytes": 767330,
+      "sha256": "54b32700fbfdda29e3069a105432b2ac04a7515d98e2410c8f30d1c65a03b2f9"
+    },
+    {
+      "path": "assets/livestock/animations/marinebetta/baby_swim_16.png",
+      "bytes": 388878,
+      "sha256": "5b4d174460c9e0688042821b64784e033881c11e8395dd6641b0ab6c691117f4"
+    },
+    {
+      "path": "assets/livestock/animations/marinebetta/juvenile_swim_16.png",
+      "bytes": 507897,
+      "sha256": "cd7d7b4295b17424236d85f3d6fbe28bdc3324268e481517bc1e6729322c4622"
+    },
+    {
+      "path": "assets/livestock/animations/mccoskers-flasher-wrasse/adult_swim_16.png",
+      "bytes": 440307,
+      "sha256": "21a106ad6d1ee0d21bfd7f10e4001d273c41ba4f44726fa42d5d263853f684fc"
+    },
+    {
+      "path": "assets/livestock/animations/mccoskers-flasher-wrasse/baby_swim_16.png",
+      "bytes": 101436,
+      "sha256": "695c7a9f05b5f9821fa51852d3fbc618fcf2c5c4495db601f9f561f5ed9ece4b"
+    },
+    {
+      "path": "assets/livestock/animations/mccoskers-flasher-wrasse/juvenile_swim_16.png",
+      "bytes": 253134,
+      "sha256": "b1c0002b7f50dd813fb9960a2d34f2729db6da5d85c30ef197c4ca9e8e1c9da7"
+    },
+    {
+      "path": "assets/livestock/animations/micromussa-lordhowensis/colony_polyp_motion_16.png",
+      "bytes": 438140,
+      "sha256": "552b7484d0db39a24a3bb17896a92a08ead05c4d582a73b125e10bf9e7609392"
+    },
+    {
+      "path": "assets/livestock/animations/micromussa-lordhowensis/frag_polyp_motion_16.png",
+      "bytes": 152177,
+      "sha256": "58e76b74e4e96035e13ddc5c5c2c470036c310629c9ac2564fbbaef2548808c6"
+    },
+    {
+      "path": "assets/livestock/animations/mushroom/colony_polyp_motion_16.png",
+      "bytes": 353881,
+      "sha256": "dbe34c9fad80034647703c41223d4d7b5551d980c3fcb638583f69a40428b282"
+    },
+    {
+      "path": "assets/livestock/animations/mushroom/frag_polyp_motion_16.png",
+      "bytes": 367619,
+      "sha256": "4d0d5e8139f3098919277124524c0afbb49c8e98eee560aa157e59d19990f017"
+    },
+    {
+      "path": "assets/livestock/animations/nemanthias-bartlettorum/adult_swim_16.png",
+      "bytes": 452526,
+      "sha256": "9bff999c8814732f081ffe6af28eadf2019d44881217fbe017b8ee2d87dfe0fa"
+    },
+    {
+      "path": "assets/livestock/animations/nemanthias-bartlettorum/baby_swim_16.png",
+      "bytes": 430005,
+      "sha256": "bdc9c7de91d90e02f97fb241931f393c4b15b42728c2eaa443b4efdf397fadcd"
+    },
+    {
+      "path": "assets/livestock/animations/nemanthias-bartlettorum/juvenile_swim_16.png",
+      "bytes": 502226,
+      "sha256": "0d428bf5d510ba3cfb5ce58c2809f5f0bbc86d847695ff7c85cb811591e0a689"
+    },
+    {
+      "path": "assets/livestock/animations/orange-spotted-filefish/adult_swim_16.png",
+      "bytes": 403679,
+      "sha256": "1ce11cbfdd498e73c80c3c3beeba7e7c879e5801e192d7336a5c334df120d820"
+    },
+    {
+      "path": "assets/livestock/animations/orange-spotted-filefish/baby_swim_16.png",
+      "bytes": 86374,
+      "sha256": "abfb340581477a5884751975cb965c5f73fbd8c98eeb5f90ddb3cd84e11ade14"
+    },
+    {
+      "path": "assets/livestock/animations/orange-spotted-filefish/juvenile_swim_16.png",
+      "bytes": 223933,
+      "sha256": "54ffb03dfc4ca6d29aedd0dd6856f5c223548bc3e12eea1c138820c98d79111d"
+    },
+    {
+      "path": "assets/livestock/animations/orange-spotted-prawn-goby/adult_swim_16.png",
+      "bytes": 473716,
+      "sha256": "0e5fd67e3cec6e75206e3889825913ee86de5356e8cb9dd9f719ac8990c89bed"
+    },
+    {
+      "path": "assets/livestock/animations/orange-spotted-prawn-goby/baby_swim_16.png",
+      "bytes": 130009,
+      "sha256": "76d5f5f9f7de4f33498359b9ea9d6d575443c08348311de6b16a4885d24f5df0"
+    },
+    {
+      "path": "assets/livestock/animations/orange-spotted-prawn-goby/juvenile_swim_16.png",
+      "bytes": 250402,
+      "sha256": "0731d8a4890b542734c5fdc6b541f106a3fb29f2ebae4f4bd5f714cbce25852b"
+    },
+    {
+      "path": "assets/livestock/animations/paracheilinus-angulatus/adult_swim_16.png",
+      "bytes": 585376,
+      "sha256": "b71665ee8f3725302cef515d971d078fb7170ad4a6d82def2b4b3a47c2cf0560"
+    },
+    {
+      "path": "assets/livestock/animations/paracheilinus-angulatus/baby_swim_16.png",
+      "bytes": 415344,
+      "sha256": "3565f2013a7281d040bb58e68ff50ef4724111b323ae007c518d2e173014416a"
+    },
+    {
+      "path": "assets/livestock/animations/paracheilinus-angulatus/juvenile_swim_16.png",
+      "bytes": 543333,
+      "sha256": "21013540edc3d4caf6eb3c9381ef5cf0c1014141ea30c7c493d5dacbba6b9e76"
+    },
+    {
+      "path": "assets/livestock/animations/pavona-cactus/colony_polyp_motion_16.png",
+      "bytes": 209500,
+      "sha256": "c539db9842ca2df6e5555ce94c608acb23ba317ffc7482bc1a9f5a3e1171f23a"
+    },
+    {
+      "path": "assets/livestock/animations/pavona-cactus/frag_polyp_motion_16.png",
+      "bytes": 86157,
+      "sha256": "a1ac7a97212142313b256c1bda347c7a12b0fa320fc64a051cef22efebc30fc1"
+    },
+    {
+      "path": "assets/livestock/animations/pink-streaked-wrasse/adult_swim_16.png",
+      "bytes": 426735,
+      "sha256": "83aec994a7f1af6318d66b8fcc4b043106f02903aac90283559845c50902a4de"
+    },
+    {
+      "path": "assets/livestock/animations/pink-streaked-wrasse/baby_swim_16.png",
+      "bytes": 113009,
+      "sha256": "296de0fe16d2ab03b3b6684bab8c333589be92d39cc5cd16d07697c1b7be41d4"
+    },
+    {
+      "path": "assets/livestock/animations/pink-streaked-wrasse/juvenile_swim_16.png",
+      "bytes": 263820,
+      "sha256": "a09c1be2b823bb90b8b78d40a4f9a8d41ad3f26b31b3a1466365315a04ce5cfa"
+    },
+    {
+      "path": "assets/livestock/animations/porcelain-anemone-crab/adult_idle_16.png",
+      "bytes": 399071,
+      "sha256": "d576c693b01f98c7f6510b111fe6d27151bfca1c1c17c937c8fc18a6004349e4"
+    },
+    {
+      "path": "assets/livestock/animations/porcelain-anemone-crab/adult_walk_16.png",
+      "bytes": 373158,
+      "sha256": "dba1b5f3af238fdbd85bb14fb7e4ff3089136c0547c91e2e5f2bdf3f754b1f37"
+    },
+    {
+      "path": "assets/livestock/animations/porcelain-anemone-crab/baby_idle_16.png",
+      "bytes": 159377,
+      "sha256": "5935fc360ff9e8b9cbcb58045d12d2140e551662887115d7e4fd4efccdd92655"
+    },
+    {
+      "path": "assets/livestock/animations/porcelain-anemone-crab/baby_walk_16.png",
+      "bytes": 126192,
+      "sha256": "f98cdfaa900c9190bda37e090b7395c4b84414b71bab78e4da3f1e2fd9e2037f"
+    },
+    {
+      "path": "assets/livestock/animations/porcelain-anemone-crab/juvenile_idle_16.png",
+      "bytes": 238806,
+      "sha256": "e003c3b9784c5fb44ac73110bfa9161d663f068427aabf0c3b34e6fbdaed44da"
+    },
+    {
+      "path": "assets/livestock/animations/porcelain-anemone-crab/juvenile_walk_16.png",
+      "bytes": 209309,
+      "sha256": "240e1e6f87c3078232db7061d394fb32c75f481f8d4de0ef4537ffc20d755841"
+    },
+    {
+      "path": "assets/livestock/animations/pseudochromis-fridmani/adult_swim_16.png",
+      "bytes": 460183,
+      "sha256": "6942358d962106e56b6d7acc88300fd14fcf68cfa4f1963734bcef7fa1533fe0"
+    },
+    {
+      "path": "assets/livestock/animations/pseudochromis-fridmani/baby_swim_16.png",
+      "bytes": 306765,
+      "sha256": "cf16ebbc5cf0e849c3f0e0125a92ff68bd66666b6dce1f396ef7e4ad79d31b37"
+    },
+    {
+      "path": "assets/livestock/animations/pseudochromis-fridmani/juvenile_swim_16.png",
+      "bytes": 443616,
+      "sha256": "d353e6889d95daf9a9356d21c537e9758a62d124ed8aac775a4fb0af92f836d8"
+    },
+    {
+      "path": "assets/livestock/animations/purple-queen-anthias/adult_swim_16.png",
+      "bytes": 405989,
+      "sha256": "4e547b1416ecc3a1eceba32cf68a546f7d24531197f4af42edf7f24ae383ca6f"
+    },
+    {
+      "path": "assets/livestock/animations/purple-queen-anthias/baby_swim_16.png",
+      "bytes": 107272,
+      "sha256": "27b1de003cfdc0a6225667a8d9e4c1e08ccc5c49185eb8109b2f71d0e4e2ffe2"
+    },
+    {
+      "path": "assets/livestock/animations/purple-queen-anthias/juvenile_swim_16.png",
+      "bytes": 291073,
+      "sha256": "5516304595c3b15c8a790033a4ca3d9026e0268542547518c9adb8d924614cad"
+    },
+    {
+      "path": "assets/livestock/animations/pygoplites-diacanthus/adult_swim_16.png",
+      "bytes": 694818,
+      "sha256": "f88d1442437b5011ef99c799115790b97f2ca22f17d8a1c232f2198464b2a7c7"
+    },
+    {
+      "path": "assets/livestock/animations/pygoplites-diacanthus/baby_swim_16.png",
+      "bytes": 555885,
+      "sha256": "0fae53dbb455fe2f7d17d0cc9635347580bd1aa4adc97e7d1c631d54358fad67"
+    },
+    {
+      "path": "assets/livestock/animations/pygoplites-diacanthus/juvenile_swim_16.png",
+      "bytes": 720312,
+      "sha256": "27b3973a34492217a8342c8155d41978da800804e2f8a781f523cd74bdb6739d"
+    },
+    {
+      "path": "assets/livestock/animations/randalls-prawn-goby/adult_swim_16.png",
+      "bytes": 326467,
+      "sha256": "273209acd76b1898e646479f4d223b7fa9532bcbeb73662fdf6169e1108c58bd"
+    },
+    {
+      "path": "assets/livestock/animations/randalls-prawn-goby/baby_swim_16.png",
+      "bytes": 105006,
+      "sha256": "66a58198c3badcfa931f9d938b5fd8693bee64c1fa1f75250725cf0bbdf5fc0e"
+    },
+    {
+      "path": "assets/livestock/animations/randalls-prawn-goby/juvenile_swim_16.png",
+      "bytes": 254356,
+      "sha256": "50ac95dbe4afbd8229f39103474f985c5b7653eee4ebf62dca715f6dfbc9c3ae"
+    },
+    {
+      "path": "assets/livestock/animations/redspotted-blenny/adult_swim_16.png",
+      "bytes": 399561,
+      "sha256": "40f513c03b050579bf2ac9e502cad318547bcfb2a10869b8348f2391bcee99e9"
+    },
+    {
+      "path": "assets/livestock/animations/redspotted-blenny/baby_swim_16.png",
+      "bytes": 117946,
+      "sha256": "d89c5d4d0e4df788124456e7ab17289a52af0f1efb08a45924a1d915c2f73630"
+    },
+    {
+      "path": "assets/livestock/animations/redspotted-blenny/juvenile_swim_16.png",
+      "bytes": 244564,
+      "sha256": "a15c7769ec354ba232cab68a294a94771b0171690f1e6fee394c6b8893ebe010"
+    },
+    {
+      "path": "assets/livestock/animations/rhizotrochus-typus/colony_polyp_motion_16.png",
+      "bytes": 230458,
+      "sha256": "e7581a9809acb988d4370d4699c7ce1f9bc3aafdbae4364268519ae5fac5c20b"
+    },
+    {
+      "path": "assets/livestock/animations/rhizotrochus-typus/frag_polyp_motion_16.png",
+      "bytes": 187501,
+      "sha256": "a4918183f00bdc8f6b006b17eb70315b4bc8941f6b6ed86af78f2cf3ba83ae6f"
+    },
+    {
+      "path": "assets/livestock/animations/ruby-longfin-fairy-wrasse/adult_swim_16.png",
+      "bytes": 540412,
+      "sha256": "4c3264a4a60e2d935bc3476b2c3c12b7a0914a9c8b05cd2891f1bde2b5c92717"
+    },
+    {
+      "path": "assets/livestock/animations/ruby-longfin-fairy-wrasse/baby_swim_16.png",
+      "bytes": 105598,
+      "sha256": "ad5aa9ce6fa6d2c6a13bd835b60db20545cdaa86e3d7802147010e4df82363d5"
+    },
+    {
+      "path": "assets/livestock/animations/ruby-longfin-fairy-wrasse/juvenile_swim_16.png",
+      "bytes": 233623,
+      "sha256": "b8822e1f91b061011cc819ccdc7a5cfc57bb9eb69108521de29341bca88cf957"
+    },
+    {
+      "path": "assets/livestock/animations/salarias-fasciatus/adult_swim_16.png",
+      "bytes": 549540,
+      "sha256": "e1526cab7870e058d3efd360244c797bcc019eb7b3557af5bcaee56c8c5f0b6a"
+    },
+    {
+      "path": "assets/livestock/animations/salarias-fasciatus/baby_swim_16.png",
+      "bytes": 317778,
+      "sha256": "45da6af384ce2eaeaa1ea49aa6fc102b61239089fddadd3095a44392a7c68177"
+    },
+    {
+      "path": "assets/livestock/animations/salarias-fasciatus/juvenile_swim_16.png",
+      "bytes": 532117,
+      "sha256": "8295f134e5d2d890a1dc79ac0eb9afe81550d77ec953f91490d5dac623cfad93"
+    },
+    {
+      "path": "assets/livestock/animations/sexy-anemone-shrimp/adult_idle_16.png",
+      "bytes": 197129,
+      "sha256": "a2260572ad4742f0f9e9f7dcfbfe65af574fa144bc2929773df194baaa319c53"
+    },
+    {
+      "path": "assets/livestock/animations/sexy-anemone-shrimp/adult_walk_16.png",
+      "bytes": 232464,
+      "sha256": "6360e247d3da04c8570d58c100f3e62cd4171b91aabc1b1e2d3f1b1d17595fbf"
+    },
+    {
+      "path": "assets/livestock/animations/sexy-anemone-shrimp/baby_idle_16.png",
+      "bytes": 111401,
+      "sha256": "a00cceb14c7024bb00361846639ff37c86cc7c898bd98bb82fc5fc4f41543e64"
+    },
+    {
+      "path": "assets/livestock/animations/sexy-anemone-shrimp/baby_walk_16.png",
+      "bytes": 115573,
+      "sha256": "e70548d8ea3bbffcbeb6940a1808902338b4a931b4435f5db75dd1551f52d213"
+    },
+    {
+      "path": "assets/livestock/animations/sexy-anemone-shrimp/juvenile_idle_16.png",
+      "bytes": 155707,
+      "sha256": "9643b40e7eed726a2a5926434bcd779434e1c0e244671fd7a2420e17a0add15e"
+    },
+    {
+      "path": "assets/livestock/animations/sexy-anemone-shrimp/juvenile_walk_16.png",
+      "bytes": 172337,
+      "sha256": "ce93c162ba03fcc564c0ea985a74cf0a8f11168c80199a1a1794de0fe39920ba"
+    },
+    {
+      "path": "assets/livestock/animations/sharknose-goby/adult_swim_16.png",
+      "bytes": 294646,
+      "sha256": "eaea5f8b319c20ada3ffcae8ea80a743aff904de9be30720681a48a30144cf3d"
+    },
+    {
+      "path": "assets/livestock/animations/sharknose-goby/baby_swim_16.png",
+      "bytes": 113705,
+      "sha256": "e646b7c15fb52200f44a41da62935395f8029c583d273a5a9ed41e5c3db330b2"
+    },
+    {
+      "path": "assets/livestock/animations/sharknose-goby/juvenile_swim_16.png",
+      "bytes": 167688,
+      "sha256": "c6543fb3eb0707544a137b9f09cadd8c04381dbc75370b96065d3ab529130171"
+    },
+    {
+      "path": "assets/livestock/animations/siganus-unimaculatus/adult_swim_16.png",
+      "bytes": 588936,
+      "sha256": "a409f906f5bbebcde156f0a379849e0a5bdf4e116feeb9dc293d885bb05d9bc1"
+    },
+    {
+      "path": "assets/livestock/animations/siganus-unimaculatus/baby_swim_16.png",
+      "bytes": 406860,
+      "sha256": "91e8726509d0120594b44ab454ac3aa93ab0c99c3520054c7a0392826ba612c6"
+    },
+    {
+      "path": "assets/livestock/animations/siganus-unimaculatus/juvenile_swim_16.png",
+      "bytes": 579483,
+      "sha256": "a1ad3036438d14f40c6109fec9a3413239e4863c89f10ffdf6364f2ec2e2eb06"
+    },
+    {
+      "path": "assets/livestock/animations/siganus-vulpinus/adult_swim_16.png",
+      "bytes": 552785,
+      "sha256": "10fb65f295d57fde4d3fe20df5d9c6efd95b1c2674d9d1526d1d2dcc61d3ab07"
+    },
+    {
+      "path": "assets/livestock/animations/siganus-vulpinus/baby_swim_16.png",
+      "bytes": 442173,
+      "sha256": "cb9b4696920a38d65bc858e8f9959a633a8de48740c2b95209d61194d7a49c53"
+    },
+    {
+      "path": "assets/livestock/animations/siganus-vulpinus/juvenile_swim_16.png",
+      "bytes": 529053,
+      "sha256": "77160a75494ea0d12d20c27ec759d885c830476eaf1bcb4f9eb6e6a3c348d0bf"
+    },
+    {
+      "path": "assets/livestock/animations/sixline/adult_swim_16.png",
+      "bytes": 549971,
+      "sha256": "c3779f006a7429a897de71adcdcfbb01dca2765b34a029efeb1ade491443a018"
+    },
+    {
+      "path": "assets/livestock/animations/sixline/baby_swim_16.png",
+      "bytes": 237930,
+      "sha256": "bf4de2bf1672930ed1b9f1c20c872fb9aea34c59f07476c50a3845790ced1498"
+    },
+    {
+      "path": "assets/livestock/animations/sixline/juvenile_swim_16.png",
+      "bytes": 357400,
+      "sha256": "6ebb6be517d205fe0d77335a7cba6e701939bc0985076ca1cb7980dc8accad39"
+    },
+    {
+      "path": "assets/livestock/animations/soft/colony_polyp_motion_16.png",
+      "bytes": 421809,
+      "sha256": "961aa954b20c264c863bc09c33607133d67e9ff5c38c7538b8f339df22e897b3"
+    },
+    {
+      "path": "assets/livestock/animations/soft/frag_polyp_motion_16.png",
+      "bytes": 398251,
+      "sha256": "3f433299a103a561414d37e2cc43543dcb2c7c30401c68fe33e4961eae07dcd9"
+    },
+    {
+      "path": "assets/livestock/animations/spotted-boxfish/adult_swim_16.png",
+      "bytes": 378854,
+      "sha256": "0a452836de7163c6e0b6e7950dcf8fd5caf9bcad3d5ca2d8f7cd516d0f35d0f4"
+    },
+    {
+      "path": "assets/livestock/animations/spotted-boxfish/baby_swim_16.png",
+      "bytes": 119365,
+      "sha256": "a79c46a7c03807c379984cd5cbaac979b6affec6b823668e58fd96c452840bc5"
+    },
+    {
+      "path": "assets/livestock/animations/spotted-boxfish/juvenile_swim_16.png",
+      "bytes": 252797,
+      "sha256": "f985357ef26dcab577be588ee690aaf97290c164694f2360471cc8c7a87882d0"
+    },
+    {
+      "path": "assets/livestock/animations/sps/colony_polyp_motion_16.png",
+      "bytes": 240813,
+      "sha256": "a5cf882f84f36d537495da27f0c9ff7f4abdc2fb6e599712923dc9c119836f52"
+    },
+    {
+      "path": "assets/livestock/animations/sps/frag_polyp_motion_16.png",
+      "bytes": 255150,
+      "sha256": "5c2f3421f2c4b0f397d4ac0405ba2a80a782f164d4e2ea2a8c5992e26818a818"
+    },
+    {
+      "path": "assets/livestock/animations/starry-blenny/adult_swim_16.png",
+      "bytes": 489615,
+      "sha256": "139fa45356230f394fe97c5e8cd05cda864ac4bd0b4a86a0b9bba143caae0092"
+    },
+    {
+      "path": "assets/livestock/animations/starry-blenny/baby_swim_16.png",
+      "bytes": 118668,
+      "sha256": "f91a50b383f823316eefbf15597c1e024038c252f4a6add6a890ddd99e2ea9e2"
+    },
+    {
+      "path": "assets/livestock/animations/starry-blenny/juvenile_swim_16.png",
+      "bytes": 298302,
+      "sha256": "b86b865974211f9884ed6efb8be98e4e1881303a32f50c40aa931483aadafb23"
+    },
+    {
+      "path": "assets/livestock/animations/tanakas-pygmy-wrasse/adult_swim_16.png",
+      "bytes": 443945,
+      "sha256": "5ea74f46478d92b38904d88c17d95ffd04fa4849d747226342d2d4ba8a776eba"
+    },
+    {
+      "path": "assets/livestock/animations/tanakas-pygmy-wrasse/baby_swim_16.png",
+      "bytes": 127612,
+      "sha256": "036c65aedcbd6106447f20a979d86f5e220afdf0e05f976f6675ee3670f07379"
+    },
+    {
+      "path": "assets/livestock/animations/tanakas-pygmy-wrasse/juvenile_swim_16.png",
+      "bytes": 283971,
+      "sha256": "26d684453ca58b854b5f7bcbfa2f6cb1f0fbcb551b0ae47e4ba72c0508e0921b"
+    },
+    {
+      "path": "assets/livestock/animations/tiger-sand-conch/adult_idle_16.png",
+      "bytes": 197525,
+      "sha256": "b38b1346b7d094ac1428170f18d263915566baf5b0927c07ef3a372dbdef1741"
+    },
+    {
+      "path": "assets/livestock/animations/tiger-sand-conch/adult_walk_16.png",
+      "bytes": 164134,
+      "sha256": "3b40a72a27ba267914ae523c84f87498515adc9da96706b3d5813cd7d2c6efb9"
+    },
+    {
+      "path": "assets/livestock/animations/tiger-sand-conch/baby_idle_16.png",
+      "bytes": 79123,
+      "sha256": "655361d03040a00b052312d64ea1da9770cd600d1b1e7fd927db54bbe2b07390"
+    },
+    {
+      "path": "assets/livestock/animations/tiger-sand-conch/baby_walk_16.png",
+      "bytes": 84875,
+      "sha256": "a1cb87c5ce7eba292a18ea2fe4729ab3d392b40aae338e54a248a4b2bc3934ba"
+    },
+    {
+      "path": "assets/livestock/animations/tiger-sand-conch/juvenile_idle_16.png",
+      "bytes": 103236,
+      "sha256": "9363a8d95be14bdbccc83f0999edfef90da900e62458e0ca74cd072980766fc2"
+    },
+    {
+      "path": "assets/livestock/animations/tiger-sand-conch/juvenile_walk_16.png",
+      "bytes": 101049,
+      "sha256": "1d1378adfb31f4f17d6406e6e809dd42d6b29ed9eabb1e1d84b29a34a63dcc6f"
+    },
+    {
+      "path": "assets/livestock/animations/tubastraea-micranthus/colony_polyp_motion_16.png",
+      "bytes": 220809,
+      "sha256": "6db87332ce8f8f274907e7ffee0ff7428a2c4cf759903bcc2b6fdf10501b8f54"
+    },
+    {
+      "path": "assets/livestock/animations/tubastraea-micranthus/frag_polyp_motion_16.png",
+      "bytes": 107127,
+      "sha256": "3cddb69f418a537819525a1de7c586fbf63a8d2fe1b164f680814e13b2d2cefe"
+    },
+    {
+      "path": "assets/livestock/animations/turbinaria-reniformis/colony_polyp_motion_16.png",
+      "bytes": 237343,
+      "sha256": "6a67e88f339bd9005ef40a833db5d4e0bac3556779a81c9b07338155c8da3011"
+    },
+    {
+      "path": "assets/livestock/animations/turbinaria-reniformis/frag_polyp_motion_16.png",
+      "bytes": 110260,
+      "sha256": "4fda28b3398c93e8c9be350a5a3c13e453aa246080fd23081181c3b970cf732d"
+    },
+    {
+      "path": "assets/livestock/animations/two-spot-blenny/adult_swim_16.png",
+      "bytes": 453033,
+      "sha256": "86a18ed36480cc797e7e6d6d9a5fd096a5c74116cb39f6e1e343e409ee0ee2b1"
+    },
+    {
+      "path": "assets/livestock/animations/two-spot-blenny/baby_swim_16.png",
+      "bytes": 139210,
+      "sha256": "e7d6a4ab74bfbd39eb472bc0bc451165a4af6ff9ca3a1d3f4b4129d7f457374d"
+    },
+    {
+      "path": "assets/livestock/animations/two-spot-blenny/juvenile_swim_16.png",
+      "bytes": 295620,
+      "sha256": "49d685483a7341fe6ec7ff39b35dfae44b6b8a8d7c8676a9f6249f5b34255224"
+    },
+    {
+      "path": "assets/livestock/animations/voidfin/adult_swim_16.png",
+      "bytes": 418292,
+      "sha256": "9b9750169c1180fa1c3a6d42021d70ba12e56444f8d723e75907bca6029e847a"
+    },
+    {
+      "path": "assets/livestock/animations/voidfin/baby_swim_16.png",
+      "bytes": 471849,
+      "sha256": "43574cbe1e09065544038e6f2b7c48b960fb64ec613f040cb2966b4975dd5ecc"
+    },
+    {
+      "path": "assets/livestock/animations/voidfin/juvenile_swim_16.png",
+      "bytes": 449037,
+      "sha256": "c77611e5e64a27873ae9a08d6bb69b05de1d4ea56b1f0cb4e59d5404105a4821"
+    },
+    {
+      "path": "assets/livestock/animations/watchman/adult_swim_16.png",
+      "bytes": 543936,
+      "sha256": "93f5deaace2782a6fb59f8541a3bc9c98cb0562b0ae79b0b1a06aa7d38eb3f50"
+    },
+    {
+      "path": "assets/livestock/animations/watchman/baby_swim_16.png",
+      "bytes": 275223,
+      "sha256": "9829a0f810b64bf5cc05655a9ae15709a13f0e4f5068ef730d381b94fc576998"
+    },
+    {
+      "path": "assets/livestock/animations/watchman/juvenile_swim_16.png",
+      "bytes": 479679,
+      "sha256": "9579437a1035402cf1c7de890b40a0466e8a2a257c687d9c65caf2a0e7392479"
+    },
+    {
+      "path": "assets/livestock/animations/white-banded-possum-wrasse/adult_swim_16.png",
+      "bytes": 419792,
+      "sha256": "c61deb7cf31dff7830f2528a57655334fb057a6d7c77686b926f07c2e0ffd520"
+    },
+    {
+      "path": "assets/livestock/animations/white-banded-possum-wrasse/baby_swim_16.png",
+      "bytes": 117706,
+      "sha256": "d6aabcc1405a1fe49faef9da3a92552973cd4a85ba07cbcb0c4b7b104112bf93"
+    },
+    {
+      "path": "assets/livestock/animations/white-banded-possum-wrasse/juvenile_swim_16.png",
+      "bytes": 265264,
+      "sha256": "d00bd942683b96d4f99898ccc8a7da86cb53b4c2c037fa3fef488b60ce9119e9"
+    },
+    {
+      "path": "assets/livestock/animations/yellow-assessor/adult_swim_16.png",
+      "bytes": 510762,
+      "sha256": "3eefe1383143f19d7497ec3dd59cbea06d91963ee4f5e7667965b9fb223f1926"
+    },
+    {
+      "path": "assets/livestock/animations/yellow-assessor/baby_swim_16.png",
+      "bytes": 124990,
+      "sha256": "74c17e926829f167da5b50d327259cbf903c64978393fa8b8dab26e4d56d7de5"
+    },
+    {
+      "path": "assets/livestock/animations/yellow-assessor/juvenile_swim_16.png",
+      "bytes": 327431,
+      "sha256": "51753a52c5632940c21fbaa3491ce5ba3a0b1c5d60c0e67137f5ddef77284e39"
+    },
+    {
+      "path": "assets/livestock/animations/yellow-candy-hogfish/adult_swim_16.png",
+      "bytes": 463107,
+      "sha256": "22961f49c0b360a546057fbe547f86ed674f43b5a00fb8807a219a98972347ae"
+    },
+    {
+      "path": "assets/livestock/animations/yellow-candy-hogfish/baby_swim_16.png",
+      "bytes": 120938,
+      "sha256": "d9622c2cf41c70ac758e374f363fc30aee854251ce51b0d1a45879f306466e43"
+    },
+    {
+      "path": "assets/livestock/animations/yellow-candy-hogfish/juvenile_swim_16.png",
+      "bytes": 292873,
+      "sha256": "d53c80c3ab6e25dd59231ef241a129a6c9f431949055ff9bb3068870b2c88921"
+    },
+    {
+      "path": "assets/livestock/animations/yellowtang/adult_swim_16.png",
+      "bytes": 629785,
+      "sha256": "0ae6714d8047a977b19a0f717fa694a368c1475da12582f8743f608a3d156ea0"
+    },
+    {
+      "path": "assets/livestock/animations/yellowtang/baby_swim_16.png",
+      "bytes": 345925,
+      "sha256": "6b864c7e750ee7c2901a67d930f622617ab49f7976ea3730e447cbeab220d603"
+    },
+    {
+      "path": "assets/livestock/animations/yellowtang/juvenile_swim_16.png",
+      "bytes": 604463,
+      "sha256": "087a56a00199e723742fb766b85964d791310bfce83e7ae8991fc77bef389a3d"
+    },
+    {
+      "path": "assets/livestock/animations/zebrasoma-gemmatum/adult_swim_16.png",
+      "bytes": 565242,
+      "sha256": "6cc54876c5759fdb5cae134c50c655afcc84d380b2bcb7efa70cc014065fb9e4"
+    },
+    {
+      "path": "assets/livestock/animations/zebrasoma-gemmatum/baby_swim_16.png",
+      "bytes": 403701,
+      "sha256": "e38d13c29ffd1eacfa1f81598c404b620bda5b1f40ddcda2a02ae267ded346e4"
+    },
+    {
+      "path": "assets/livestock/animations/zebrasoma-gemmatum/juvenile_swim_16.png",
+      "bytes": 568349,
+      "sha256": "1fd0f7ce9a7fa552da52fc6ec9d5df64e79dd37555dad50f412b8e0966c00899"
+    },
+    {
+      "path": "assets/livestock/animations/zebrasoma-xanthurum/adult_swim_16.png",
+      "bytes": 692663,
+      "sha256": "2642d4da0a00c244081d51e21a81fa73195384d68b2d86ae4687103ad5b8fbbb"
+    },
+    {
+      "path": "assets/livestock/animations/zebrasoma-xanthurum/baby_swim_16.png",
+      "bytes": 419042,
+      "sha256": "a695311f372462d8d85d5aff903139ce0b07f13ef7cb9df41d15551b070ab263"
+    },
+    {
+      "path": "assets/livestock/animations/zebrasoma-xanthurum/juvenile_swim_16.png",
+      "bytes": 688871,
+      "sha256": "fe2bbc55afd4e541d36ad9f128c9eb5cf5d7b39dbf7dfc89ef5b52c8ae68799b"
+    },
+    {
+      "path": "assets/livestock/animations/zoa/colony_polyp_motion_16.png",
+      "bytes": 590780,
+      "sha256": "9d8b9151793358b09608755756e9c030e3b2243df3e5ead6c86debd8f61c9cd1"
+    },
+    {
+      "path": "assets/livestock/animations/zoa/frag_polyp_motion_16.png",
+      "bytes": 564797,
+      "sha256": "56d5bca0382f6354a9dba348923022d47dd9ca30cb48da9aca4c153587d6e6cd"
     },
     {
       "path": "assets/livestock/corals/lps/atlas-v11.png",
@@ -7333,6 +9258,11 @@
       "sha256": "28ed115843b6f0e48799a35e4ae96474e1fa7b4baf40190f06fd58c263e2a830"
     },
     {
+      "path": "css/livestock-animation-review.css",
+      "bytes": 1249,
+      "sha256": "2e9961517f2e97affe840a13c7d2e20bab5adb204e5373fc60e98ae1508db52a"
+    },
+    {
       "path": "css/main.css",
       "bytes": 17361,
       "sha256": "af0d20284ba0a3a04f80441dce0a7dffc5b40c8e2e4801afc7022a15b15723b5"
@@ -7379,13 +9309,13 @@
     },
     {
       "path": "fish-animation-review.html",
-      "bytes": 4159,
-      "sha256": "1549c0ce23a17d49c42ad05d182cdfa96b56d5000859a2879c23c42225fc2e1b"
+      "bytes": 4224,
+      "sha256": "d70401bcaec364906cd2f7cb645d7df15f973f6bd196425a841b048317b73322"
     },
     {
       "path": "index.html",
-      "bytes": 13110,
-      "sha256": "24f17a2e89bef8ed95235d21c16ada77b0c85962a39e01efdeabd21f66f28b71"
+      "bytes": 15263,
+      "sha256": "5628e2fbc69b5e451b356666633f5d8479c02923b455a8eb5c4949bf3c9d4112"
     },
     {
       "path": "js/app-shell.js",
@@ -7564,8 +9494,8 @@
     },
     {
       "path": "js/expansion-ui.js",
-      "bytes": 4469,
-      "sha256": "82dcee9ef9eebf414efdb028ea010aad13408e0a7c79bc0ec795762c7c05dca1"
+      "bytes": 4708,
+      "sha256": "a4b02ca1a2d024627d82ce0e5ba9a29738865078160a5a7975fc283edd5565f3"
     },
     {
       "path": "js/expansion.js",
@@ -7579,8 +9509,8 @@
     },
     {
       "path": "js/fish-animation-data.js",
-      "bytes": 32319,
-      "sha256": "54e1d93de67861614d398eca79db149daa8098adcd0e8aa0cfa4affabaedaf12"
+      "bytes": 32432,
+      "sha256": "69c4250c9a0a2518fc7f70cd99c4384d602426944ce0525b9568365fb0a22d98"
     },
     {
       "path": "js/fish-animation-review.js",
@@ -7589,8 +9519,8 @@
     },
     {
       "path": "js/fish-animation.js",
-      "bytes": 8412,
-      "sha256": "e7947e348f73451944312d6c6a233be51f6885ae4533422ff0990987baa94359"
+      "bytes": 15373,
+      "sha256": "6e14cc9e29536ff1918419bb566da78115fa66fb65d7e79330128cac275b472d"
     },
     {
       "path": "js/gameplay-ui.js",
@@ -7651,6 +9581,141 @@
       "path": "js/life-stages.js",
       "bytes": 2147,
       "sha256": "5482307a057f67738dd21bd39c9e9c206bb44611bf71e255d65a7e0708374fd8"
+    },
+    {
+      "path": "js/livestock-animation-data.js",
+      "bytes": 1308646,
+      "sha256": "2d081e6cf124ac97226844b1aaf519152a57a43e09c59a92b43a9a2166e22a57"
+    },
+    {
+      "path": "js/livestock-animation-review.js",
+      "bytes": 6322,
+      "sha256": "1f6e7361b9cafaefe87dddc4da0d59b11f5d1df54ac3255a9dca8aefd5dad612"
+    },
+    {
+      "path": "js/livestock-animation-sheets-000-a95b1a2a7bcb.js",
+      "bytes": 7797347,
+      "sha256": "d6ba7500e4547793af838695b79b12b06fec73481ee8984cafde50f1094029cc"
+    },
+    {
+      "path": "js/livestock-animation-sheets-001-5ecaf052cd51.js",
+      "bytes": 7839049,
+      "sha256": "da6ebd72857cb6424db401f55254b9551b7414994581102bc5e45347c66e99a7"
+    },
+    {
+      "path": "js/livestock-animation-sheets-002-6b09593d90f8.js",
+      "bytes": 7719897,
+      "sha256": "e4b4feefa4ad3f8bb17edf6295de8ac2add739958f8dba6ad68ed197c2b64541"
+    },
+    {
+      "path": "js/livestock-animation-sheets-003-f48eabbe241b.js",
+      "bytes": 7885141,
+      "sha256": "9969a32faadbbfac7b0eac3fc2493b869b45653e4a3c743777ffc51d51715bc4"
+    },
+    {
+      "path": "js/livestock-animation-sheets-004-126bff95f667.js",
+      "bytes": 7782108,
+      "sha256": "595fcc1ffb6569b1ec40de2b26c57d04c505b29271a73bc93619082414fe1554"
+    },
+    {
+      "path": "js/livestock-animation-sheets-005-b811e79433db.js",
+      "bytes": 7962758,
+      "sha256": "6bb01a1311d04ddc4ce8f7fd9e6501e68551d1fab3b7a72a932faabcff79fe4a"
+    },
+    {
+      "path": "js/livestock-animation-sheets-006-7f727add84e1.js",
+      "bytes": 7758516,
+      "sha256": "f46fbac6d490e9db8d71a1cbd05dfe70bfe163ac7e7f9391a9185d714e239643"
+    },
+    {
+      "path": "js/livestock-animation-sheets-007-1f6be0abfcc5.js",
+      "bytes": 7734883,
+      "sha256": "6d9ee4700504e04e356fd3aafabd4f933fab466019e3f343a1b9a2e8b50c8059"
+    },
+    {
+      "path": "js/livestock-animation-sheets-008-04f10dd1ac6e.js",
+      "bytes": 7643675,
+      "sha256": "4f7b4c3411fc975d5ec45310cd3833920780ea44633832168e2da8223257c259"
+    },
+    {
+      "path": "js/livestock-animation-sheets-009-e36ec739e2e1.js",
+      "bytes": 7661711,
+      "sha256": "d1a2c0663e9ffd4c16cc7b238a173d669c112ab8e38920d60359c9ddbaad5310"
+    },
+    {
+      "path": "js/livestock-animation-sheets-010-683961ada98f.js",
+      "bytes": 7458765,
+      "sha256": "e5f5bbecf27e413cf5ac81d37ded9f70b84977de8679095bc8945b22d93bbe84"
+    },
+    {
+      "path": "js/livestock-animation-sheets-011-01c622b85f48.js",
+      "bytes": 7363589,
+      "sha256": "2754eace9bdf9782b08ac599435259f54b2c4a1bc1fa2af45990f7b83231216a"
+    },
+    {
+      "path": "js/livestock-animation-sheets-012-a31ce9aee8e7.js",
+      "bytes": 7985567,
+      "sha256": "dd04d39a7e7a3af3a80fc487b0ee36366e6f66627431cac651b153a166c4b40d"
+    },
+    {
+      "path": "js/livestock-animation-sheets-013-b854802430fd.js",
+      "bytes": 7944109,
+      "sha256": "660b0786d718bdca71458047837d2f87128ba14695811debee5b9e46dfc629cc"
+    },
+    {
+      "path": "js/livestock-animation-sheets-014-be0a3bd3a696.js",
+      "bytes": 7936635,
+      "sha256": "a98dfd265ee655d360d013f52a3f429edd5755c09bea03f4b0aded9ab115af4c"
+    },
+    {
+      "path": "js/livestock-animation-sheets-015-6d80bc34089a.js",
+      "bytes": 7899493,
+      "sha256": "163dca5354d69d7c3307e09484bc1e07e0f6d48832a2b503a9adbed0659754e0"
+    },
+    {
+      "path": "js/livestock-animation-sheets-016-1db622bc1c09.js",
+      "bytes": 7917285,
+      "sha256": "b501e753a8ec17053b17d9f817cdb29a56486ed2743528b48f03904dde6c2ba3"
+    },
+    {
+      "path": "js/livestock-animation-sheets-017-ddf7be30af46.js",
+      "bytes": 7886481,
+      "sha256": "f58590a2177007b0f3c2d47b05e3b399462a8b07d7de91d00ccd15796fde9285"
+    },
+    {
+      "path": "js/livestock-animation-sheets-018-be3b488aefa1.js",
+      "bytes": 7512201,
+      "sha256": "4675d730058dd6389af273d82118642df84e07e16ee2b2d84e381f0219c81f2c"
+    },
+    {
+      "path": "js/livestock-animation-sheets-019-5841a6ddfde0.js",
+      "bytes": 7575297,
+      "sha256": "9df9964d5fab6140006ed25d657d474c469f06521ec674c28cf11650bcb03a7c"
+    },
+    {
+      "path": "js/livestock-animation-sheets-020-ee99b089927b.js",
+      "bytes": 7567753,
+      "sha256": "3479e816239ad1fa928e4d7c7e9818cc3e05413e58966011be0c8ea8a4f0901b"
+    },
+    {
+      "path": "js/livestock-animation-sheets-021-24f997532d58.js",
+      "bytes": 7622633,
+      "sha256": "3757c14445671dbdd4f7eed252f90e5acd747bff795eed825acadbf643b96b70"
+    },
+    {
+      "path": "js/livestock-animation-sheets-022-9039a9b3164b.js",
+      "bytes": 7767306,
+      "sha256": "af679c415a144b3d2ab439941808c8c07934c70a3c27989932d297efb7257af8"
+    },
+    {
+      "path": "js/livestock-animation-sheets-023-42ec597d3fd7.js",
+      "bytes": 7947207,
+      "sha256": "e0613aeb22828ed598e1f0fcaccecee3664b78c91eaff4934b6029ea15ff1567"
+    },
+    {
+      "path": "js/livestock-animation-sheets-024-e958ff76c0fb.js",
+      "bytes": 4249212,
+      "sha256": "3715599cb06acedaad4218f6cbb77be98b96256e599f7fe81137e267d693181b"
     },
     {
       "path": "js/livestock-health.js",
@@ -7714,8 +9779,8 @@
     },
     {
       "path": "js/render.js",
-      "bytes": 22651,
-      "sha256": "c69a1d7b355575d4f8f876726ca5109c2dca32f23e145c0b8b093062e5bda729"
+      "bytes": 23221,
+      "sha256": "dcc21bc8b2cb06f34fd1ace8747362fac9d56b9b1bdd717f643d289918d1cd8a"
     },
     {
       "path": "js/research-data.js",
@@ -7816,6 +9881,11 @@
       "path": "life-stage-review.html",
       "bytes": 4993,
       "sha256": "b1606adcdf7437e2dbaa8e1110225a67b8df662c35ce33b263d758252fe83b2c"
+    },
+    {
+      "path": "livestock-animation-review.html",
+      "bytes": 6432,
+      "sha256": "84f1b7ec038f261e9657fa1c88ba297badb624cb9dad9616a994a45115303030"
     },
     {
       "path": "v29-review.html",

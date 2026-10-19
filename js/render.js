@@ -58,7 +58,14 @@ AL.Art = (()=>{
     assignedCache.set(key,c);return c;
   }
   function thumb(species,variety=null){if(AL.ExpansionArt?.has(species))return AL.ExpansionArt.thumb(species);return (species==='clown'&&!variety?sprite(species):(AL.ClownArt?.frame(species,variety)||AL.LifeStages?.frame(species,'adult','alive')||sprite(species))).toDataURL();}
-  function plant(ctx,type,x,y,size,time,seed=1,health=1,state=null){if(AL.ExpansionArt?.has(type)){AL.ExpansionArt.plant(ctx,type,x,y,size,health,state);return;}
+  function plant(ctx,type,x,y,size,time,seed=1,health=1,state=null){
+    if(AL.Data.flora[type]?.water==='marine'){
+      const life=size<1.2?'frag':'colony',motion=health<=0?'dead':state&&state!=='healthy'?state:'polyp_motion',record=AL.FishAnimation?.sheets.find(type,life,motion);
+      // Legacy colonies are192x192; expansion colonies are192x160. Retain
+      // their original attachment point and expansion's four-pixel bed offset.
+      if(record&&AL.FishAnimation.drawResident(ctx,type,life,motion,x,y+(AL.ExpansionArt?.has(type)?4:0),50*size,50*size*record.clip.frameHeight/record.clip.frameWidth,time))return;
+    }
+    if(AL.ExpansionArt?.has(type)){AL.ExpansionArt.plant(ctx,type,x,y,size,health,state);return;}
     if(AL.Data.flora[type]?.water==='marine'&&AL.AssetBank?.drawCoral(ctx,type,x,y,size,time,health,state))return;
     const quantized=Math.round(size*10)/10,phase=Math.floor(time*3)%8,key=[type,quantized,phase,seed%5,health<.2].join(':');let tile=plantCache.get(key);
     if(!tile){const canvas=document.createElement('canvas');canvas.width=Math.ceil(100*quantized+20);canvas.height=Math.ceil(85*quantized+20);const originX=Math.floor(canvas.width/2),originY=canvas.height-5;paintPlant(canvas.getContext('2d'),type,originX,originY,quantized,phase*Math.PI/4,seed%5,health);tile={canvas,x:originX,y:originY};if(plantCache.size>=192)plantCache.delete(plantCache.keys().next().value);plantCache.set(key,tile);}
