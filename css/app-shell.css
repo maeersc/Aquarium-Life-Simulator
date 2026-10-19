@@ -10,3 +10,8 @@ html,body{height:100%;overflow:hidden}#app{height:100dvh;min-height:0}.sidebar{w
 #egg-inspector{display:block;margin:auto;image-rendering:pixelated;max-width:100%;background:var(--panel-dark);border-radius:6px}
 .modal-feedback{padding:8px 10px;margin:10px 0 0!important;border:1px solid var(--border);border-radius:5px;background:var(--panel-dark);font-size:11px!important}.modal-feedback.danger-text{color:var(--danger)!important}
 @media(max-width:760px){.primary-jump{max-width:140px}}
+
+/* Stored items use the existing compact dark cards and modal layout. */
+.inventory-filters{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:12px}.inventory-cards .item-card{min-width:0}.inventory-cards p{overflow-wrap:anywhere}.inventory-cards canvas{max-width:100%;image-rendering:pixelated}#inventory-destination{max-width:100%}#inventory-compatibility p{overflow-wrap:anywhere}.inventory-filters input,.inventory-filters select{min-width:0;width:100%}
+@media(min-width:961px){#navigation [data-page=leaderboards]{display:flex;align-items:center;line-height:14px}#navigation [data-page=leaderboards] .nav-icon{flex:0 0 24px}#navigation [data-page=leaderboards] .nav-text{display:block;line-height:14px;min-width:0}}
+@media(max-width:650px){.inventory-filters{grid-template-columns:minmax(0,1fr)}}

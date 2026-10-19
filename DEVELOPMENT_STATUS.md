@@ -1,5 +1,10 @@
 # Development status — 2026-10-15
 
+## Equipment inventory and interface reorganization — 2026-10-19
+
+The five authorized interface/inventory changes are implemented. Persistent per-unit IDs and authoritative physical locations prevent installation/removal from cloning or losing equipment. Purchases go to storage; compatibility is rechecked at installation, and removal warns of real life-support consequences. All existing saves migrate additively without moving installed items. See [EQUIPMENT_INVENTORY_UPDATE_REPORT.md](EQUIPMENT_INVENTORY_UPDATE_REPORT.md) for exact tested scope, results, release artifacts and limits. Earlier dated sections below are historical when they conflict with this update.
+
+
 ## Full livestock sprite production — current work
 
 The verified production checkpoint contains382 native sixteen-frame sheets (6112 actual authored cells), covering110 of113 usable marine entries: all89 fish, all15 corals and6 of9 invertebrates. Batches1–11 are complete. The remaining18 sheets belong to Fire Shrimp (Lysmata debelius), Randall's pistol shrimp (Alpheus randalli) and Harlequin Shrimp (Hymenocera picta). Built-in image generation returned HTTP429 daily usage_limit_reached; four Fire Shrimp source candidates were rejected for alpha noise and webbed appendages, and14 sources were not generated. No rejected candidate enters gameplay. The reported reset is2026-10-20 at09:37AM America/New_York. Original approved art remains active for these three species. All119 biological records, six acquisition holds, freshwater lock, local saves, biology and economy are preserved. Full production is NOT complete. Exact per-entry paths, missing work and current Chrome/Edge evidence are in [LIVESTOCK_16_FRAME_SPRITE_PRODUCTION_REPORT.md](LIVESTOCK_16_FRAME_SPRITE_PRODUCTION_REPORT.md). Player visual approval is separate.
@@ -69,7 +74,7 @@ Repaired marine starvation, diet selection and coral-only automatic feeding on t
 
 Automatic feeders check six times per game day, consume actual compatible inventory and adapt to maturation. Natural grazing/scavenging uses finite available resources. Hunger must coincide with depleted nutrition before calorie-deprivation damage; the separate malnutrition condition does not apply the same damage twice. No existing dead livestock is restored, no credits are compensated, and freshwater biology remains protected.
 
-Equipment > Tank Care and Field Journal > Tank History show **Overnight Readiness**. Welcome Back and Tank History retain actual death-step causes, identities, food, equipment and chemistry separately from current recovered water. Local loads retain an untouched pre-repair snapshot when storage permits, exportable in Settings. Saves and downloads remain on each player's PC/browser. Review [OVERNIGHT_REPAIR_REPORT.md](OVERNIGHT_REPAIR_REPORT.md) for formulas, the complete absence matrix, reproducible evidence and limitations. Current playable release is v3.5 / consolidated MDP v3.8. Earlier release sections below are historical where superseded.
+Current feeding forecasts remain in Food & Feeding; historical reports remain in Tank History → Reports. The standalone Overnight Readiness panel is removed. Welcome Back and Tank History retain actual death-step causes, identities, food, equipment and chemistry separately from current recovered water. Local loads retain an untouched pre-repair snapshot when storage permits, exportable in Settings. Saves and downloads remain on each player's PC/browser. Review [OVERNIGHT_REPAIR_REPORT.md](OVERNIGHT_REPAIR_REPORT.md) for formulas, the complete absence matrix, reproducible evidence and limitations. Current playable release is v3.5 / consolidated MDP v3.8. Earlier release sections below are historical where superseded.
 
 ## Daily livestock survival reward v3.4 - current rule, 2026-10-15
 

@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-19T19:50:18.547065+00:00",
+  "builtAt": "2026-10-19T21:09:59.208229+00:00",
   "entryPoint": "index.html",
   "gameContent": "v4.0.4",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1977,
-  "sourceBytes": 843998535,
+  "sourceFiles": 1982,
+  "sourceBytes": 844033806,
   "files": [
     {
       "path": "AQUARIUM_PREPARATION_REPAIR_REPORT.md",
@@ -54,8 +54,8 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 49255,
-      "sha256": "66f1ddb2047df68611603bc748d68a6604484c40c0ea81c473c29cc54382d42d"
+      "bytes": 50011,
+      "sha256": "ea5ce675eb2c6a3fcd7696616f2f1b5c2916941d12a2293cacc6762ec0424792"
     },
     {
       "path": "DIVING_EXPANSION_REPORT.md",
@@ -76,6 +76,21 @@
       "path": "DIVING_RECEIVING_REPAIR_REPORT.md",
       "bytes": 10808,
       "sha256": "65e80980a6aafb6bc2682f693cbd6f37e8f79381d7d86a5ead19d4a54df06b96"
+    },
+    {
+      "path": "EQUIPMENT_INVENTORY.md",
+      "bytes": 3212,
+      "sha256": "f4259a150870c3dd05164c333b62e69d11167cb9ca875fb3fc1ef6c4d70eaee1"
+    },
+    {
+      "path": "EQUIPMENT_INVENTORY_SAVE_SCHEMA.md",
+      "bytes": 2928,
+      "sha256": "e2bf9050ad67b52940e0c4543e4d6f63655b8ac793cb5d528baba442dee1ecc7"
+    },
+    {
+      "path": "EQUIPMENT_INVENTORY_UPDATE_REPORT.md",
+      "bytes": 10059,
+      "sha256": "4ec13c3942a236134820034599a310e1e41d524b6678f4ddda080a64a13b4509"
     },
     {
       "path": "FISH_ANIMATION_AUDIT.md",
@@ -9219,8 +9234,8 @@
     },
     {
       "path": "css/app-shell.css",
-      "bytes": 8936,
-      "sha256": "5a9cc24aa717986e9d750e9cc3b6679fc431630f6264a7daa9bd633d787aca94"
+      "bytes": 9760,
+      "sha256": "0d7d4d2489da853957a939db709951bab784835098ec6b99b929f605fa52e0d1"
     },
     {
       "path": "css/art-review.css",
@@ -9314,13 +9329,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 15263,
-      "sha256": "5628e2fbc69b5e451b356666633f5d8479c02923b455a8eb5c4949bf3c9d4112"
+      "bytes": 15370,
+      "sha256": "136c9398b992d6550bb829a4115e3a2c46cccf848228cfb82d4b991a52dc0c1f"
     },
     {
       "path": "js/app-shell.js",
-      "bytes": 30220,
-      "sha256": "daf636b06f37dbf66a25be3110acbfc13649274906186f0a67873f045e70b78d"
+      "bytes": 30951,
+      "sha256": "d90c846a3c1f2c0a38ee9241ebe6118f8f57e20f6fc0b42451089d68fc97ca34"
     },
     {
       "path": "js/aquarium-preparation.js",
@@ -9414,8 +9429,8 @@
     },
     {
       "path": "js/core.js",
-      "bytes": 39626,
-      "sha256": "313473aaf28b505c537d0f262098b10ee620a304ea9237d51369acd373713ea2"
+      "bytes": 37641,
+      "sha256": "f0f820b9dcd89af96e5a9537b1907ef0bb532653fa3866d656211a00b63ce0d3"
     },
     {
       "path": "js/daily-store.js",
@@ -9471,6 +9486,11 @@
       "path": "js/equipment-catalog.js",
       "bytes": 2115,
       "sha256": "6bc24d9d01f292e09ff31637254853dc1e552ad303ddb4c6f5b28698635296e4"
+    },
+    {
+      "path": "js/equipment-inventory.js",
+      "bytes": 7401,
+      "sha256": "07b749eb11376519283c0ff614cf274195135a1c197528fd8e6740d8b621327a"
     },
     {
       "path": "js/expansion-art-data.js",
@@ -9559,8 +9579,13 @@
     },
     {
       "path": "js/heaters.js",
-      "bytes": 1838,
-      "sha256": "0bbfbda579096c98c60f5f86904dd11ed7253d1be8ade8e636c9f814d99cbd9e"
+      "bytes": 1881,
+      "sha256": "db0176281120f0d506583066477f28cb12d615670fff1e9678ce2d1af1e71380"
+    },
+    {
+      "path": "js/inventory-ui.js",
+      "bytes": 11143,
+      "sha256": "4b852d024d23c6758bed3c514ed17828e262161d5daaf7d3eb84968096ed0a31"
     },
     {
       "path": "js/invertebrates.js",
@@ -9794,8 +9819,8 @@
     },
     {
       "path": "js/save.js",
-      "bytes": 16392,
-      "sha256": "bf3a1797143bcaa0011d8dacd8fb5b7cd1460fa710f654cf6c7efdb132eb11ce"
+      "bytes": 16492,
+      "sha256": "9693b78417bcd53156b437053b31eba5850a187b79fd0db6ca5a356b7a0b17ce"
     },
     {
       "path": "js/simulation.js",
@@ -9814,23 +9839,23 @@
     },
     {
       "path": "js/store-rules.js",
-      "bytes": 7075,
-      "sha256": "e52ecee02d6a787af7aff229e1dbb80e9363375efc47860843a942f1e2c35218"
+      "bytes": 6921,
+      "sha256": "561596e813a6ec7102d082912bd0e83949c37cc6d39812ed7f4ec03f38d30332"
     },
     {
       "path": "js/store.js",
-      "bytes": 28204,
-      "sha256": "96eaa7ee271030037253cff7cdb455913b024acf6198da3b3fc3c3598bab00a2"
+      "bytes": 28379,
+      "sha256": "21488834c335d7e87d683689cd3472e1a624f87a6cbe25d17c6fee68bc261c5a"
     },
     {
       "path": "js/thermal.js",
-      "bytes": 3583,
-      "sha256": "ac7d2256ef82d436609d55100c06f29174f0543edc9fd57084257d302a6dbfda"
+      "bytes": 3669,
+      "sha256": "2febabfe396cf9e4dfd32774e1aae6519f88d70dc4de6142462fdbbfa5b74f81"
     },
     {
       "path": "js/ui.js",
-      "bytes": 67952,
-      "sha256": "c1731ed24057ebf42f79103b88f4aee03d8374d964d9a9ca548815feaa483d8f"
+      "bytes": 67797,
+      "sha256": "4ec88d4c67b6d299c55c83f870c5292a10c7b7994f772342a1d23c8eed57a31f"
     },
     {
       "path": "js/update29-art-data.js",
