@@ -15,3 +15,7 @@ Removed rocks, decorations and frag racks return to storage with their original 
 Thermostats are configured in individual installed heater/chiller inspectors. Water temperature changes through the existing thermal simulation. Tank Care retains installed operation, service and removal; Food & Feeding retains current food forecasts. Tank History → Reports retains offline audit runs and mortality/chemistry evidence. Opening history does not create a report.
 
 Storage bounds remain explicit: 50 equipment instances, 100 ordinary objects and the existing 80 recovered rocks. Existing quantities, handheld-tool durability limitations and product catalog remain unchanged. See [save schema](EQUIPMENT_INVENTORY_SAVE_SCHEMA.md) and [acceptance report](EQUIPMENT_INVENTORY_UPDATE_REPORT.md).
+
+## Reliability state follows physical ownership
+
+The same equipment instance retains condition, maintenance, component wear, tracked age, private failure thresholds and actual service history when removed, installed or transferred. Storage supplies no aquarium effects and accrues no powered wear. A beyond-repair unit remains owned and removable but cannot be installed as functioning life support. Legacy condition is never reset by migration. Installed-device care/history is documented in EQUIPMENT_MAINTENANCE.md; persistent fields in EQUIPMENT_RELIABILITY_SAVE_SCHEMA.md.

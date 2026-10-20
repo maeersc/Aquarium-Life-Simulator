@@ -2,7 +2,7 @@
 AL.Sim = (() => {
   const K=AL.Core,D=AL.Data,clamp=K.clamp;
   const outside=(v,r)=>Math.max(r[0]-v,0,v-r[1]);
-  function lightPower(t){return K.has(t,'reefLight')?1.5:K.has(t,'light')?1:0;}
+  function lightPower(t){if(t.water!=='marine')return K.has(t,'reefLight')?1.5:K.has(t,'light')?1:0;return Math.max(0,...t.equipment.filter(e=>['light','reefLight'].includes(e.type)).map(e=>(e.type==='reefLight'?1.5:1)*AL.EquipmentReliability.efficiency(e,t)));}
   function light(s,t){
     const mode=t.lightMode||'auto';
     if(mode==='off')return 0;
@@ -13,7 +13,7 @@ AL.Sim = (() => {
   }
   function water(s,t,h){
     const w=t.waterParams,live=K.alive(t),filter=K.capacity(t,'filter')/t.volume;
-    for(const e of t.equipment){if(!e.enabled||e.durability<=0||(t.lightMode==='off'&&['light','reefLight'].includes(e.type)))continue;const before=e.durability;e.durability=clamp(e.durability-h*0.018*(1+t.volume/e.capacity*0.15),0,100);if(before>0&&e.durability===0){AL.Mortality?.event?.(s,t,'equipmentFailure',{equipmentType:e.type});K.log(s,`${t.name}: ${D.equipment[e.type].name} failed from wear. Service it now.`,'danger');}}
+    if(t.water!=='marine')for(const e of t.equipment){if(!e.enabled||e.durability<=0||(t.lightMode==='off'&&['light','reefLight'].includes(e.type)))continue;const before=e.durability;e.durability=clamp(e.durability-h*0.018*(1+t.volume/e.capacity*0.15),0,100);if(before>0&&e.durability===0){AL.Mortality?.event?.(s,t,'equipmentFailure',{equipmentType:e.type});K.log(s,`${t.name}: ${D.equipment[e.type].name} failed from wear. Service it now.`,'danger');}}
     const room=22,thermal=Math.min(1,h*0.09*Math.sqrt(75/t.volume));
     const heater=K.capacity(t,'heater')/t.volume,chiller=K.capacity(t,'chiller')/t.volume;
     let target=room+light(s,t)*0.4;
@@ -33,7 +33,7 @@ AL.Sim = (() => {
     const nitrated=Math.min(w.nitrite,h*0.5*t.bacteria2*filter*clamp(w.oxygen/5,0,1));w.nitrite-=nitrated;w.nitrate+=nitrated;
     const plants=t.flora.filter(f=>D.flora[f.type].water==='fresh'&&f.hp>0).reduce((n,f)=>n+f.size,0);
     const illumination=light(s,t);w.nitrate=Math.max(0,w.nitrate-h*plants*0.028*illumination);w.phosphate=Math.max(0,w.phosphate+h*waste*0.01-h*plants*0.0002*illumination);
-    const aeration=0.35+(K.has(t,'air')?0.5:0)+(K.has(t,'flow')?0.15:0);
+    const aeration=t.water==='marine'?.35+.5*Math.min(1,K.capacity(t,'air')/t.volume)+.15*Math.min(1,K.capacity(t,'flow')/t.volume):0.35+(K.has(t,'air')?0.5:0)+(K.has(t,'flow')?0.15:0);
     const saturation=8.4-(w.temperature-22)*0.14-(t.water==='marine'?0.6:0);
     const respiration=K.load(t)/t.volume*0.6+plants*0.004+(oxidized+nitrated)*0.15/h;
     w.oxygen=clamp(w.oxygen+h*(aeration*(saturation-w.oxygen)-respiration+plants*0.02*illumination),0,12);
@@ -136,7 +136,7 @@ AL.Sim = (() => {
     if(s.tanks.some(t=>t.safeHours>=168)&&!s.achievements.includes('A week in balance'))s.achievements.push('A week in balance');
   }
   function step(s,minutes=5){if(!Number.isFinite(minutes)||minutes<=0||minutes>5)throw Error('Simulation steps must be between 0 and 5 minutes.');const untilMidnight=1440-s.time%1440;if(AL.Gameplay&&minutes>untilMidnight){step(s,untilMidnight);return step(s,minutes-untilMidnight);}AL.Preparation.migrate(s);const previous=s.time;AL.Finance?.initialize(s);AL.Update31?.migrate(s);AL.Update29?.beforeStep(s,minutes);AL.Gameplay?.observe(s,minutes);s.time+=minutes;AL.Mortality?.step?.(s);const h=minutes/60;
-    for(const t of s.tanks){AL.Mortality?.begin(s,t,previous);AL.MarineCare?.forage(s,t,h);AL.MarineCare?.autofeed(s,t,previous);motion(s,t,minutes);water(s,t,h);food(s,t,h);fishHealth(s,t,h);AL.Expansion?.step(s,t,h);AL.Update31?.step(s,t,h);ecosystems(s,t,h);AL.Health?.step(s,t,h);AL.Breeding?.step(s,t,minutes);eggs(s,t,h);AL.Valuation?.record(s,t);
+    for(const t of s.tanks){AL.Mortality?.begin(s,t,previous);AL.EquipmentReliability?.step(s,t,h);AL.MarineCare?.forage(s,t,h);AL.MarineCare?.autofeed(s,t,previous);motion(s,t,minutes);water(s,t,h);food(s,t,h);fishHealth(s,t,h);AL.Expansion?.step(s,t,h);AL.Update31?.step(s,t,h);ecosystems(s,t,h);AL.Health?.step(s,t,h);AL.Breeding?.step(s,t,minutes);eggs(s,t,h);AL.Valuation?.record(s,t);
       const day=Math.floor(s.time/1440),hour=s.time/60%24;if(t.water!=='marine'&&K.has(t,'feeder')&&hour>=9&&t.lastAutoFeed!==day&&(K.alive(t).length||(t.invertebrates||[]).some(f=>!f.dead))){t.lastAutoFeed=day;try{K.feed(s,t,t.foodType);}catch(e){K.log(s,`${t.name}: automatic feeder needs ${D.foods[t.foodType].name}.`,'warning');}}
 
     }

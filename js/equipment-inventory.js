@@ -7,12 +7,12 @@ AL.Inventory=(()=>{
   // Only allocate missing legacy IDs; existing identities and all attributes survive.
   const used=new Set();function scan(o){if(!o||typeof o!=='object')return;if(typeof o.id==='string')used.add(o.id);for(const v of Object.values(o))if(v&&typeof v==='object')scan(v);}scan(s);
   for(const e of [...s.tanks.flatMap(t=>t.equipment),...s.ownedEquipment]){if(e.id===undefined||e.id===null){do{e.id=K.id(s,'equipment');}while(used.has(e.id));used.add(e.id);}}
-  s.itemLocationVersion??=1;
+  s.itemLocationVersion??=1;AL.EquipmentReliability?.migrate(s);
  }
  function equipmentReport(s,e,t){const reasons=[],d=e&&D.equipment[e.type];
   if(!e||!d)reasons.push('Stored equipment no longer exists.');
   if(!t||!s.tanks.includes(t))reasons.push('Choose an owned aquarium.');
-  if(t){if(t.water!=='marine')reasons.push(AL.Update29.lockText);if(d?.water&&d.water!==t.water)reasons.push('Requires '+d.water+' water.');
+  if(e?.reliability?.state==='beyond-repair')reasons.push('This device is beyond repair; install a replacement unit.');if(t){if(t.water!=='marine')reasons.push(AL.Update29.lockText);if(d?.water&&d.water!==t.water)reasons.push('Requires '+d.water+' water.');
    if(e&&e.capacity+.000001<t.volume)reasons.push('Rated '+AL.Units.volume(e.capacity)+'; aquarium requires '+AL.Units.volume(t.volume)+' capacity.');
    if(t.equipment.length>=20)reasons.push('All 20 equipment positions are occupied.');if(e&&t.equipment.some(n=>n.type===e.type))reasons.push('A '+d.name+' is already installed; remove it first.');
   }return {ok:!reasons.length,reasons};
@@ -27,7 +27,7 @@ AL.Inventory=(()=>{
   const capacity=m?.capacity||Math.max(d.capacity,t.volume),price=m?.price||Math.ceil(d.price*Math.max(1,t.volume/d.capacity));K.pay(s,price);s.stock[a.type]--;
   const e={id:K.id(s,'equipment'),type:a.type,capacity,durability:100,enabled:true,...(m?{heaterModel:m.id}: {})};
   if(['heater','chiller'].includes(a.type))e.temperatureTarget=t.temperatureTarget;
-  s.ownedEquipment.push(e);s.stats.equipmentBought++;K.log(s,d.name+' purchased into Equipment → Inventory.');
+  AL.EquipmentReliability?.initialize(s,e,true);s.ownedEquipment.push(e);s.stats.equipmentBought++;K.log(s,d.name+' purchased into Equipment → Inventory.');
  }
  function install(s,t,a){const e=s.ownedEquipment.find(e=>e.id===a.id),r=equipmentReport(s,e,t);if(!r.ok)throw Error(r.reasons.join(' '));t.equipment.push(e);s.ownedEquipment=s.ownedEquipment.filter(n=>n!==e);K.log(s,D.equipment[e.type].name+' installed in '+t.name+'.');}
  function installed(t,a){return t.equipment.find(e=>a.id?e.id===a.id:e.type===a.type);}

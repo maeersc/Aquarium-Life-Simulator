@@ -20,3 +20,7 @@ Equipment may have `temperatureTarget` from an individual heater/chiller control
 Purchases use the existing stock, AC ledger, idempotency, local save and JSON export/import pipeline. Standard equipment retains the purchase-sizing capacity; fixed heater models never expand on transfer. Installation/removal do not generate purchase receipts. Profile storage is read only from the active profile’s state; stale inventory dialogs verify account identity.
 
 Storage limits: equipment 50; ordinary objects 100; recovered rocks 80 under the existing diving validator. Stored object kinds reference existing catalog definitions; physical placement and attached-support safety revalidate before commit. No livestock or old breeding/history fields are removed. Local browser storage/export/recovery policies and their visible storage-failure warnings remain unchanged.
+
+## Additive reliability extension
+
+Equipment now carries `reliability.version=1` and a bounded per-item history; the profile has an equipmentReliability event ledger. These fields follow the exact physical ID and location without altering the schema2 ownership contract. Migration preserves all original fields and current condition, adding unknown-prior-age tracking only when absent. Storage/transfer never rerolls thresholds or ages a disconnected device. See EQUIPMENT_RELIABILITY_SAVE_SCHEMA.md for every field, guard and history bound.

@@ -1,4 +1,8 @@
-# Development status — 2026-10-15
+# Development status — 2026-10-19
+
+## Equipment reliability — 2026-10-19
+
+Implemented separate marine condition/maintenance/failure, equipment-specific multi-year exposure, private saved hazards, repair/service, factual history, actual output integration and additive no-restoration migration. Source Chrome and Edge each passed 787 reliability checks; heater 108, Inventory 70, preparation/receiving 207 and breeding 86 passed. Quantitative evidence covers 2,048 paired seeds/type and 64 actual multi-year histories/type. Final deployed-file checks and release integrity are recorded in tests/equipment-reliability-evidence. See EQUIPMENT_DURABILITY_BALANCE_REPORT.md for exact formulas, service intervals, real-time frequency and limits. Master/complete continuity are v4.9; removed panels stay absent. Earlier full-sprite artwork and binary PDF limitations are unchanged, not completed by this task.
 
 ## Equipment inventory and interface reorganization — 2026-10-19
 

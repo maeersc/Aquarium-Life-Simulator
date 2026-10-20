@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-19T21:09:59.208229+00:00",
+  "builtAt": "2026-10-20T00:29:42.296135+00:00",
   "entryPoint": "index.html",
   "gameContent": "v4.0.4",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1982,
-  "sourceBytes": 844033806,
+  "sourceFiles": 1987,
+  "sourceBytes": 844076161,
   "files": [
     {
       "path": "AQUARIUM_PREPARATION_REPAIR_REPORT.md",
@@ -54,8 +54,8 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 50011,
-      "sha256": "ea5ce675eb2c6a3fcd7696616f2f1b5c2916941d12a2293cacc6762ec0424792"
+      "bytes": 50886,
+      "sha256": "85928313b96bcd64b6fed724c6fdb9848e88deff356f073929cc48e6acceee97"
     },
     {
       "path": "DIVING_EXPANSION_REPORT.md",
@@ -78,19 +78,34 @@
       "sha256": "65e80980a6aafb6bc2682f693cbd6f37e8f79381d7d86a5ead19d4a54df06b96"
     },
     {
+      "path": "EQUIPMENT_DURABILITY_BALANCE_REPORT.md",
+      "bytes": 15076,
+      "sha256": "7c52cd9f5c1ae8824def39245003458eccf2d30b61fc3b7f0900f616673c767e"
+    },
+    {
       "path": "EQUIPMENT_INVENTORY.md",
-      "bytes": 3212,
-      "sha256": "f4259a150870c3dd05164c333b62e69d11167cb9ca875fb3fc1ef6c4d70eaee1"
+      "bytes": 3812,
+      "sha256": "3bc0701bec9393f12d724a409cae4c2f1557184896cb0cddfce4bd29851b259d"
     },
     {
       "path": "EQUIPMENT_INVENTORY_SAVE_SCHEMA.md",
-      "bytes": 2928,
-      "sha256": "e2bf9050ad67b52940e0c4543e4d6f63655b8ac793cb5d528baba442dee1ecc7"
+      "bytes": 3497,
+      "sha256": "b2df89698ce890e4bc6ddf409d1dc53f27d4f217b0eef765001f68aa8c75ccf5"
     },
     {
       "path": "EQUIPMENT_INVENTORY_UPDATE_REPORT.md",
       "bytes": 10059,
       "sha256": "4ec13c3942a236134820034599a310e1e41d524b6678f4ddda080a64a13b4509"
+    },
+    {
+      "path": "EQUIPMENT_MAINTENANCE.md",
+      "bytes": 2454,
+      "sha256": "7da8df582fa740e0079497c745c8353c98870c2ca3c5e3756f05c70271044590"
+    },
+    {
+      "path": "EQUIPMENT_RELIABILITY_SAVE_SCHEMA.md",
+      "bytes": 4144,
+      "sha256": "3850f5a0b3c2d5aa7fe24e79390bdbcf7b1697bdb0d44198dabac002a94c4817"
     },
     {
       "path": "FISH_ANIMATION_AUDIT.md",
@@ -9329,13 +9344,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 15370,
-      "sha256": "136c9398b992d6550bb829a4115e3a2c46cccf848228cfb82d4b991a52dc0c1f"
+      "bytes": 15491,
+      "sha256": "d108079ae1731280d8be6b17c8f9b6031ce0ca65e31f09f93c34b93b72889221"
     },
     {
       "path": "js/app-shell.js",
-      "bytes": 30951,
-      "sha256": "d90c846a3c1f2c0a38ee9241ebe6118f8f57e20f6fc0b42451089d68fc97ca34"
+      "bytes": 30933,
+      "sha256": "128e258d2bb5a10b5da112916afeb16f3fef81e053a2ee924504d6f9ba72d5d8"
     },
     {
       "path": "js/aquarium-preparation.js",
@@ -9429,8 +9444,8 @@
     },
     {
       "path": "js/core.js",
-      "bytes": 37641,
-      "sha256": "f0f820b9dcd89af96e5a9537b1907ef0bb532653fa3866d656211a00b63ce0d3"
+      "bytes": 38100,
+      "sha256": "772d158260052025af5775de77e9ae5ebf9e819b3b3a0a685947f77dbf561bfa"
     },
     {
       "path": "js/daily-store.js",
@@ -9489,8 +9504,18 @@
     },
     {
       "path": "js/equipment-inventory.js",
-      "bytes": 7401,
-      "sha256": "07b749eb11376519283c0ff614cf274195135a1c197528fd8e6740d8b621327a"
+      "bytes": 7600,
+      "sha256": "e04de1d374502dd5c0a334d620d5f201ebbd33b1de23582745e14329d0593d33"
+    },
+    {
+      "path": "js/equipment-maintenance-ui.js",
+      "bytes": 3691,
+      "sha256": "ed386fef989e5115e66b0decd3a72d39b53e92a3892127936005c84c5e82d722"
+    },
+    {
+      "path": "js/equipment-reliability.js",
+      "bytes": 12712,
+      "sha256": "18ed0112a36de28494705033725f75f36f545cffef06021f89aa92177bf6388a"
     },
     {
       "path": "js/expansion-art-data.js",
@@ -9584,8 +9609,8 @@
     },
     {
       "path": "js/inventory-ui.js",
-      "bytes": 11143,
-      "sha256": "4b852d024d23c6758bed3c514ed17828e262161d5daaf7d3eb84968096ed0a31"
+      "bytes": 11307,
+      "sha256": "971055e27a3c30a37f27bba962200adc63aa28949992da2abb6b442b2c5394c2"
     },
     {
       "path": "js/invertebrates.js",
@@ -9764,8 +9789,8 @@
     },
     {
       "path": "js/mortality-journal.js",
-      "bytes": 17796,
-      "sha256": "104c08fd0e02a7fc1a4099e40d6c3180426edeb6b5a3312bb565c2d1eaaafc36"
+      "bytes": 17999,
+      "sha256": "2b1d0e8d3c86258f10cb7d7285ec77918e90239edeb140c4f9d7e4196d321e55"
     },
     {
       "path": "js/mortality-ui.js",
@@ -9774,18 +9799,18 @@
     },
     {
       "path": "js/mortality.js",
-      "bytes": 4146,
-      "sha256": "3237f6a860786c345747481e6365ee872c0b29fedc3438ed7b44add01769d6a5"
+      "bytes": 4308,
+      "sha256": "99963eb7a2fc377ad527e4f7751921bc553271f59750cd3f1ae08b61b34d6b68"
     },
     {
       "path": "js/offline.js",
-      "bytes": 8972,
-      "sha256": "577409bc862baa774800e2ddfa9591c1323b78ce1ed904342de444d1ebf297f0"
+      "bytes": 9053,
+      "sha256": "bd42f7efe8c3e00eaaf016487f426cb0c2ea261c589371eb9e9295335d023503"
     },
     {
       "path": "js/overnight-ui.js",
-      "bytes": 8520,
-      "sha256": "01614d50fe86c4ec7eddae0beb74bdf14cbef15392020e13ca99339e15046ac6"
+      "bytes": 8639,
+      "sha256": "f1f78d4e229128a5a2328924e38e5bc627d5a5ff2885f1d7f3f15d25ec9d5a93"
     },
     {
       "path": "js/patterns.js",
@@ -9804,8 +9829,8 @@
     },
     {
       "path": "js/render.js",
-      "bytes": 23221,
-      "sha256": "dcc21bc8b2cb06f34fd1ace8747362fac9d56b9b1bdd717f643d289918d1cd8a"
+      "bytes": 23286,
+      "sha256": "971e2d3cdd1541d94ca5c916a6114c02fb1ebc92ad60358d8c833ae338daab5d"
     },
     {
       "path": "js/research-data.js",
@@ -9819,13 +9844,13 @@
     },
     {
       "path": "js/save.js",
-      "bytes": 16492,
-      "sha256": "9693b78417bcd53156b437053b31eba5850a187b79fd0db6ca5a356b7a0b17ce"
+      "bytes": 16529,
+      "sha256": "3759544758902537681b35273bbda4c1936fe480378540b8b0800f42c8d68aca"
     },
     {
       "path": "js/simulation.js",
-      "bytes": 22983,
-      "sha256": "d4c87dc2acd20e246d9fd8ae6bafaf1bab7f40355acc3044eea0b53b269f7a8e"
+      "bytes": 23338,
+      "sha256": "da1f9e820096003d062695cca4f094a2691bc74f9d81a05c10d558245ef6ccc8"
     },
     {
       "path": "js/sprite-kit.js",
@@ -9849,13 +9874,13 @@
     },
     {
       "path": "js/thermal.js",
-      "bytes": 3669,
-      "sha256": "2febabfe396cf9e4dfd32774e1aae6519f88d70dc4de6142462fdbbfa5b74f81"
+      "bytes": 3794,
+      "sha256": "07713beec115bb8d0ffe37cc5a585001d1c38bd86ecf7c8661f7410d71f4b844"
     },
     {
       "path": "js/ui.js",
-      "bytes": 67797,
-      "sha256": "4ec88d4c67b6d299c55c83f870c5292a10c7b7994f772342a1d23c8eed57a31f"
+      "bytes": 67959,
+      "sha256": "3b1c6eeb5708ab13ef57de5a94b0d8085f994bad654836e87741535cdf9ae878"
     },
     {
       "path": "js/update29-art-data.js",
