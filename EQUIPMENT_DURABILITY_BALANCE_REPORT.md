@@ -1,5 +1,9 @@
 # Equipment durability and long-term reliability — 2026-10-19
 
+## October20 authorized service revision
+
+The multi-year wear/major hazard, clock, maintenance intervals and migration preservation remain. Maintenance and Replace Part now differ explicitly. Seven new catalogued serviceable part families cost their exact rated Store new-part prices and renew only themselves to100%; unlisted sealed assemblies/zero-condition chassis require whole-unit replacement. This supersedes the earlier generic discounted repair,80%renewal and25%legacy-zero restoration below. Output also accounts for worn supported parts. Current64-unit/type histories therefore end at major failure OR an unserviceable component fault, not an invented repair of sealed gear. All704 histories,22,528 fixed-seed major-life samples and8/12/24h live/offline parity are rerun in the current reliability suite; actual results are in ECONOMY_UPDATE_REPORT.md and current evidence. Earlier numerical major-risk distribution remains distinct from whole-unit replacement lifetime under the new serviceability policy.
+
 Marine equipment now has independent physical condition, maintenance and persistent probabilistic failure state. The authoritative day remains 20 real minutes, with full chronological offline progression. No products, livestock, remote saving, price tiers, rewards or freshwater biology were added.
 
 ## Confirmed original cause

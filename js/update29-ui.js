@@ -29,7 +29,7 @@ AL.Update29UI=(()=>{
  function lockUI(){for(const n of document.querySelectorAll('[data-store-action="tab"],[data-encyclopedia-water],.welcome-routes [data-action="start"]')){let fresh=n.dataset.encyclopediaWater==='fresh';try{const a=JSON.parse(n.dataset.storeArgs||n.dataset.args||'{}');fresh||=a.id==='freshwater'||a.route==='fresh';}catch{}if(fresh){n.disabled=true;n.title=AL.Update29.lockText;n.setAttribute('aria-disabled','true');}}
   for(const o of document.querySelectorAll('option[value="fresh"]')){o.disabled=true;o.textContent=AL.Update29.lockText;}
   for(const n of document.querySelectorAll('[data-tank]')){if(AL.game.tanks.find(t=>t.id===n.dataset.tank)?.water==='fresh'){n.disabled=true;n.title=AL.Update29.lockText;}}
-  const fresh=AL.Core.selected(AL.game).water==='fresh';for(const id of ['feed-quick','water-quick','store-quick','onboard-action','tank-light-mode','rename-tank']){const n=$(id);if(n){n.disabled=fresh;if(fresh)n.title=AL.Update29.lockText;}}
+  const tank=AL.Core.selected(AL.game),fresh=tank?.water==='fresh';for(const id of ['feed-quick','water-quick','store-quick','onboard-action','tank-light-mode','rename-tank']){const n=$(id);if(n){n.disabled=fresh||!tank&&!['onboard-action','store-quick'].includes(id);if(fresh)n.title=AL.Update29.lockText;}}
  }
  const rewardSeen=new Map();
  function settleNotifications(s){rewardSeen.set(s.accountId,{paid:s.update29.survival.lastPaid,death:s.update29.survival.lastDeath});}

@@ -83,7 +83,7 @@ AL.Art = (()=>{
 })();
 AL.Renderer = class {
   constructor(canvas){this.canvas=canvas;this.ctx=canvas.getContext('2d',{alpha:false});this.scene=document.createElement('canvas');this.scene.width=480;this.scene.height=240;this.g=this.scene.getContext('2d',{alpha:false});this.time=0;this.zoom=1;this.pan=0.5;this.hitboxes=[];this.selected=null;this.fps=60;this.last=0;this.positions=new Map();this.drawFish=[];this.fishOrder=(a,b)=>a.y-b.y;this.visualFrame=0;}
-  draw(s,dt){this.time+=dt;const t=AL.Core.selected(s),g=this.g,W=480,H=240,time=this.time;const marine=t.water==='marine',illumination=AL.Sim.light(s,t),lamp=AL.Core.clamp(illumination/1.2,0,1),hour=s.time/60%24,roomNight=hour<6||hour>=19,preview=s.vip.preview;this.hitboxes.length=0;this.visualFrame++;
+  draw(s,dt){this.time+=dt;const t=AL.Core.selected(s),g=this.g,W=480,H=240,time=this.time;if(!t){this.hitboxes.length=0;this.ctx.fillStyle='#080b10';this.ctx.fillRect(0,0,this.canvas.width,this.canvas.height);return;}const marine=t.water==='marine',illumination=AL.Sim.light(s,t),lamp=AL.Core.clamp(illumination/1.2,0,1),hour=s.time/60%24,roomNight=hour<6||hour>=19,preview=s.vip.preview;this.hitboxes.length=0;this.visualFrame++;
     const drawFlora=f=>{
       if(f.relocationRequired)return;
       const x=f.x*W,y=(f.y??0.92)*H,bounds=AL.Art.plantBounds(f.type,f.size);

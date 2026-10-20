@@ -2,6 +2,12 @@
 // Local canvas object previews for the existing equipment and consumables.
 AL.StoreArt={draw(g,p){
   const r=(x,y,w,h,c)=>{g.fillStyle=c;g.fillRect(x,y,w,h);},poly=AL.Art.poly,type=p.args.type;
+  if(p.kind==='part'){
+    const part=AL.Data.parts[p.args.sku]?.part,steel='#b8d6e6',dark='#233f50',edge='#62869d';
+    if(part==='impeller'){r(82,28,28,73,dark);r(89,13,14,102,steel);for(const [x,y,w,h]of [[49,37,80,12],[66,18,12,83],[109,63,33,12]]){r(x,y,w,h,edge);r(x+2,y+2,w-4,h-4,steel);}r(81,47,31,31,dark);r(89,55,15,15,steel);}
+    else if(part==='tubing'){for(const [x,y,w,h]of [[42,27,14,72],[42,87,100,14],[128,43,14,55],[76,29,66,14]])r(x,y,w,h,'#45d6d0');}
+    else {r(51,28,90,77,edge);r(57,34,78,65,dark);for(let n=0;n<5;n++)r(64,44+n*10,64,4,steel);r(89,12,15,17,steel);r(90,105,13,14,steel);}return;
+  }
   if(type?.startsWith('frag-')){
     const steel='#b8d6e6',edge='#62869d',grip='#45d6d0',dark='#183143';
     const cutters=(ox=0,oy=0)=>{poly(g,[[83+ox,62+oy],[61+ox,104+oy],[49+ox,108+oy],[49+ox,98+oy],[75+ox,58+oy]],grip);poly(g,[[93+ox,61+oy],[120+ox,98+oy],[120+ox,109+oy],[108+ox,108+oy],[83+ox,67+oy]],'#f3ad64');poly(g,[[78+ox,61+oy],[60+ox,26+oy],[65+ox,17+oy],[88+ox,51+oy],[110+ox,17+oy],[114+ox,28+oy],[94+ox,64+oy]],edge);poly(g,[[65+ox,25+oy],[69+ox,24+oy],[87+ox,49+oy],[85+ox,55+oy]],steel);poly(g,[[106+ox,24+oy],[111+ox,26+oy],[92+ox,57+oy],[89+ox,51+oy]],steel);r(81+ox,56+oy,13,13,dark);r(85+ox,60+oy,5,5,steel);};

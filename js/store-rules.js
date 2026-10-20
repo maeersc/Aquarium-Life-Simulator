@@ -1,7 +1,10 @@
 "use strict";
 AL.StoreRules=(()=>{
-  const purchases=new Set(['buyMysteryCoral','buyMysteryBottom','buyInvertebrate','buyMysteryEgg','buyFish','buyEgg','buyFlora','buyEquipment','buyFood','buySupply','decorate','buyTank','buyRock','buySand','buyRack','buyMedicine']);
+  const purchases=new Set(['buyMysteryCoral','buyMysteryBottom','buyInvertebrate','buyMysteryEgg','buyFish','buyEgg','buyFlora','buyEquipment','buyFood','buySupply','decorate','buyTank','buyRock','buySand','buyRack','buyMedicine','buyBreedingPair','buyEquipmentPart']);
   function report(s,t,action,a={}){
+    if(action==='buyTank')return {ok:a.water==='marine',reasons:a.water==='marine'?[]:[AL.Update29.lockText],warnings:[]};
+    if(action==='buyBreedingPair')return AL.PairOffers.report(s,t,s.pairOffers.offers[a.offerId]);
+    if(action==='buyEquipmentPart')return {ok:t?.water!=='fresh',reasons:t?.water==='fresh'?[AL.Update29.lockText]:[],warnings:['The rated new part is delivered to Inventory.']};
     if(action==='buyTank'&&a.water==='fresh'||t?.water==='fresh'&&action!=='buyTank')return {ok:false,reasons:[AL.Update29?.lockText||'Freshwater — Coming in a Future Update.'],warnings:[]};
     if(action==='buyMysteryCoral'||action==='buyMysteryBottom')return AL.Update29.mysteryReport(s,t,action==='buyMysteryCoral'?'coral':'bottom',a);
     if(action==='buyInvertebrate')return AL.Invertebrates.report(s,t,a.species);if(action==='buyMysteryEgg')return AL.DailyStore.report(s,t);const reasons=[],warnings=[];if(!t)return {ok:false,reasons:['Choose an existing destination aquarium.'],warnings};

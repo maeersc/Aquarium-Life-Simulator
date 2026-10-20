@@ -23,4 +23,8 @@ Storage limits: equipment 50; ordinary objects 100; recovered rocks 80 under the
 
 ## Additive reliability extension
 
-Equipment now carries `reliability.version=1` and a bounded per-item history; the profile has an equipmentReliability event ledger. These fields follow the exact physical ID and location without altering the schema2 ownership contract. Migration preserves all original fields and current condition, adding unknown-prior-age tracking only when absent. Storage/transfer never rerolls thresholds or ages a disconnected device. See EQUIPMENT_RELIABILITY_SAVE_SCHEMA.md for every field, guard and history bound.
+Equipment now carries `reliability.version=1` and a bounded per-item history; the profile has an equipmentReliability event ledger. These fields follow the exact physical ID and location without altering the schema 2 ownership contract. Migration preserves all original fields and current condition, adding unknown-prior-age tracking only when absent. Storage/transfer never rerolls thresholds or ages a disconnected device. See EQUIPMENT_RELIABILITY_SAVE_SCHEMA.md for every field, guard and history bound.
+
+## October20 coordinated extension
+
+equipmentParts stores rated spare quantities, separate from physical equipment identities. Pair offer IDs are reserved and checked in global identity validation until ownership transfers; bought previews clear. Whole-aquarium receipts retain historical IDs without creating owned duplicates; tanks may become empty with selectedTank empty string. All old item-location rules persist. Full fields are in ECONOMY_UPDATE_SAVE_SCHEMA.md.

@@ -1,0 +1,7 @@
+# Aquarium catalog and buyback
+
+The sole runtime size catalog is AL.Data.sizes, with the Ocean Sanctuary addition in js/update29-catalog.js. Physical water is saved in liters. AL.Progression assigns stable catalog IDs, not rounded gallon labels: tank-size-<liters>l for the original nine categories and tank-size-15000gal for Ocean Sanctuary. No new capacity is added.
+
+**15,000-Gallon Aquarium: Purchase price is 25,000 AC. Existing purchases are not retroactively charged.** Its exact capacity remains56,781.17676L, Keeper Level10; both base and marinePrice are25,000 with no extra25% surcharge. Core purchase, catalog/configuration, affordability, Finance receipt and authoritative shell asset valuation read the same record. Old receipts stay actual; current shell asset value becomes25,000, without posting a wallet transaction. All other nine catalog prices remain 220/330/450/900/1850/3200/6200/14000/27000 AC before their existing marine 25% surcharge. Freshwater remains locked.
+
+Whole-aquarium shell buyback is floor(current shell asset value×0.50), following the existing physical-asset half-value convention. This newly defined shell buyback is 12,500 AC for Ocean Sanctuary; shell asset value is not the guaranteed sale total. Equipment/objects use their existing condition/physical values; restrictions and livestock dealer budgets may block a bundle. See WHOLE_AQUARIUM_SALES.md. The price inversion relative to the existing5,000-L marine shell33,750 AC remains because the user changed only the 15,000-gallon category.

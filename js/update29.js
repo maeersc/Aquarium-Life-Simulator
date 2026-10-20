@@ -32,7 +32,7 @@ AL.Update29=(()=>{
  function waterQuote(t,fraction){const changed=t.volume*fraction,marine=t.water==='marine';return {liters:changed,water:Math.ceil(changed*(marine?.13:.04)),supply:marine?'salt':'conditioner',doses:marine?Math.max(1,Math.ceil(changed/2-1e-10)):1};}
  function beforeAction(s,t,name,a){migrate(s);
   if(name==='buyTank'&&a.water==='fresh'||name==='selectAquarium'&&s.tanks.find(n=>n.id===a.id)?.water==='fresh')throw Error(lockText);
-  if(t.water==='fresh'&&!['buyTank','selectAquarium','claim','discoverMarket','tutorialProgress','buyResearch','casinoWager','casinoSettle','casinoLimit'].includes(name))throw Error(lockText);
+  if(t?.water==='fresh'&&!['buyTank','selectAquarium','claim','discoverMarket','tutorialProgress','buyResearch','casinoWager','casinoSettle','casinoLimit','casinoVisit','casinoVisitClose'].includes(name))throw Error(lockText);
   if(name==='buyFish'&&D.species[a.species]?.water==='fresh'||name==='buyFlora'&&D.flora[a.type]?.water==='fresh'||name==='buyEgg'&&D.species[a.species]?.water==='fresh')throw Error(lockText);
   const id=a.species||a.type,d=D.species[id]||D.flora[id]||D.invertebrates[id];
   if(['buyFish','buyFlora','buyInvertebrate','buyEgg'].includes(name)&&d?.purchaseVerified===false)throw Error(d.acquisitionHold||'This species is held until its care requirements are supported.');

@@ -19,3 +19,7 @@ Storage bounds remain explicit: 50 equipment instances, 100 ordinary objects and
 ## Reliability state follows physical ownership
 
 The same equipment instance retains condition, maintenance, component wear, tracked age, private failure thresholds and actual service history when removed, installed or transferred. Storage supplies no aquarium effects and accrues no powered wear. A beyond-repair unit remains owned and removable but cannot be installed as functioning life support. Legacy condition is never reset by migration. Installed-device care/history is documented in EQUIPMENT_MAINTENANCE.md; persistent fields in EQUIPMENT_RELIABILITY_SAVE_SCHEMA.md.
+
+## October20 parts and whole-sale boundary
+
+Matching rated new service-part quantities appear in Inventory and are consumed only by Replace Part. Stored gear/parts/supplies/objects and other aquariums are excluded from a whole-aquarium sale. Installed gear belonging to the sold tank transfers with it and remains historical rather than copied into storage. Zero owned aquariums is a valid profile; storage remains accessible. See EQUIPMENT_PART_CATALOG.md and WHOLE_AQUARIUM_SALES.md.

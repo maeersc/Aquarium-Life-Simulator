@@ -5,6 +5,7 @@ AL.InventoryUI=(()=>{
  const button=(label,action,args={},disabled=false)=>`<button data-action="${action}" data-args="${esc(JSON.stringify(args))}" ${disabled?'disabled':''}>${label}</button>`;
  function ensure(){if(owner!==AL.game.accountId){owner=AL.game.accountId;search='';category='all';pending=null;}}
  function entries(){const s=AL.game;return [
+  ...(AL.EconomyUI?.partInventory()||[]),
   ...(s.ownedEquipment||[]).map(e=>({id:e.id,kind:'equipment',name:e.type==='heater'?AL.Heaters.label(e):D.equipment[e.type].name,category:D.equipment[e.type].categoryId||'other',quantity:1,condition:e.durability,details:AL.Units.volume(e.capacity)+' fixed capacity · '+(D.equipment[e.type].watts*e.capacity/D.equipment[e.type].capacity).toFixed(1)+' W · '+(D.equipment[e.type].water||'Marine-compatible')+' · one installed unit per type',args:{type:e.type},item:e})),
   ...(s.ownedObjects||[]).map(o=>({id:o.id,kind:o.kind,name:o.kind==='rock'?AL.Habitat.rockProducts[o.group].name:o.kind==='rack'?'Mounted Frag Rack':['cave','wood','lantern'].includes(o.type)?o.type+' decoration':'Decoration',category:o.kind==='rock'?'rocks':o.kind==='rack'?'mounting':'decor',quantity:1,details:'Stored physical object · retains original identity and attributes',args:o,item:o})),
   ...(s.diving?.rocks||[]).map(o=>({id:o.id,kind:'rock',name:AL.Habitat.rockProducts[o.group].name,category:'rocks',quantity:1,details:'Recovered diving rock · '+(o.region||'regional provenance')+' · original provenance retained',args:{...o,recoveredId:o.id},item:{...o,kind:'rock'},recovered:true})),

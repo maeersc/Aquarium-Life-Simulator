@@ -1,6 +1,6 @@
 # The Dock Casino - rules and persistence
 
-Playable v3.7, rules version 1. `js/casino-rules.js` is the sole runtime definition of symbols, weights, payouts, card statistics and comparisons. UI probabilities are enumerated directly from those rules before wagers are offered. Changes to the rules require a new version and migration for pending rounds; never silently reinterpret a saved wager.
+Playable v4.1, rules version 2. `js/casino-rules.js` is the sole runtime definition of symbols, weights, payouts, card statistics and comparisons. UI probabilities are enumerated directly from those rules before wagers are offered. Changes to the rules require a new version and migration for pending rounds; settled version 1 rounds keep their actual old1×pair payout. Unsettled version 1 draws upgrade explicitly to corrected version 2, with originalRulesVersion retained, identical draws, no new stake and no double settlement.
 
 ## Gold Fish
 
@@ -10,10 +10,10 @@ Each of three independent draws uses ten equally likely buckets: Blue Reef Fish 
 | --- | ---: | ---: | ---: |
 | Three Gold Fish | 1 | 0.10% | 25 x wager |
 | Any other three identical symbols | 99 | 9.90% | 3 x wager |
-| Exactly one matching pair | 600 | 60.00% | 1 x wager |
+| Exactly one matching pair | 600 | 60.00% | 2 x wager |
 | All different | 300 | 30.00% | 0 |
 
-Expected total return per AC = (1 x 25 + 99 x 3 + 600 x 1) / 1,000 = 0.922, or 92.2%. Net expected change is -7.8% of wagers. This describes the probability model, not a guaranteed session result or an external fairness certification.
+Expected total return per AC = (1 x25 +99 x3 +600 x2) /1000 =1.522, or 152.2%. Net expected change is +52.2%of wagers. This positive player expectation follows the explicit pair correction while other payouts remain unchanged. This describes the probability model, not a guaranteed session result or an external fairness certification.
 
 ## Predator & Prey
 
@@ -34,3 +34,7 @@ The draft is saved successfully before the live UI commits a new wager or settle
 The optional account-wide daily limit counts wagers across both games per **in-game day** (20 real minutes); zero disables it. It does not refund wagers or change the odds. Balance space for maximum payout is required under the existing 1-billion-AC wallet cap. If an unrelated credit gain fills that cap before settlement, the pending round remains saved until wallet space is available; it is never erased or downgraded.
 
 Casino wager/payout spending and earnings use the normal totals and receipts. Existing +50 healthy-care and +100 survival rewards, death/recovery rules, simulation time, maintenance, Deep Market reputation and freshwater biology are unchanged. Casino is an account activity and can be opened while a retained legacy freshwater tank is selected, without enabling freshwater actions. All data is local. No deposits, payments, withdrawals or real-money prizes exist.
+
+## Profile tab
+
+Gold Fish, Predator & Prey and Profile are the casino navigation. Optional Spending Limit and Recent Casino Visits exist only in Profile. The editor and remaining allowance use the original dailyLimit/dayWagered authority; moving it never weakens wager enforcement. Existing completed rounds remain under Profile history. New visits record actual game opening/closing times and cumulative wager/payout deltas, latest 100; no earlier dates/sessions are invented. A save failure cannot trap the player in the casino merely to persist an optional closing timestamp. The saved open session can resume. See ECONOMY_UPDATE_SAVE_SCHEMA.md.

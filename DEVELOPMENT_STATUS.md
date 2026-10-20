@@ -1,4 +1,10 @@
-# Development status — 2026-10-19
+# Development status — 2026-10-20
+
+## Coordinated economy/progression update — 2026-10-20
+
+Implemented the authorized sanctuary25,000-AC price (no retrocharge), profile-specific first species/size/destination rewards,13 unpaid optional objectives, distinct Maintenance/catalog-priced Replace Part, itemized confirmed whole-aquarium sales including safe zero-tank ownership, Gold Fish 2×pair gross return, Casino Profile controls/actual visits and persistent 5%compatible-pair offers across all 29 currently supported fish. New marine profiles retain5,000-AC opening plus a separately receipted 250-AC starter-size award. Existing saves backfill known history without payments. Other tank/retail prices, autonomous biology, long-term durability,20-minute day, local saves, protected art and freshwater lock remain.
+
+Gold Fish now has 152.2%theoretical return with other payouts preserved; this positive player expectation is explicitly documented, not secretly offset. Ordinary eligible livestock resale uses the requested 60%Deep reference for all origins. Shell buyback is50%; cumulative animal dealer/biological restrictions can block a whole bundle. Parts use only the seven documented serviceable catalog families; sealed devices are not given invented replaceable internals. Detailed mechanics/schema/catalogs and actual source/deployment tests are in ECONOMY_UPDATE_REPORT.md and its linked home documents. Master/full exact continuity are v4.10. Earlier milestone narratives below remain historical wherever inconsistent with these new explicit authorizations.
 
 ## Equipment reliability — 2026-10-19
 

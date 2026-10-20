@@ -1,16 +1,26 @@
 {
-  "builtAt": "2026-10-20T00:29:42.296135+00:00",
+  "builtAt": "2026-10-20T16:16:31.366654+00:00",
   "entryPoint": "index.html",
-  "gameContent": "v4.0.4",
+  "gameContent": "v4.1",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1987,
-  "sourceBytes": 844076161,
+  "sourceFiles": 1999,
+  "sourceBytes": 844164520,
   "files": [
+    {
+      "path": "ACHIEVEMENT_OBJECTIVES.md",
+      "bytes": 3722,
+      "sha256": "553178ab29aef63cfe7a24b10fb082a94ebac25a19e1acbb25b6afbdf83ac57c"
+    },
     {
       "path": "AQUARIUM_PREPARATION_REPAIR_REPORT.md",
       "bytes": 9754,
       "sha256": "7f9ccfcb75d4f1fc27e5e848d8a155f9c91c07014489e7eea7855ecf2ac9d5dd"
+    },
+    {
+      "path": "AQUARIUM_PRICING.md",
+      "bytes": 1543,
+      "sha256": "41a2daa2b4c52bc32bf206c4ce3c364d4b1dee5c6ca37f8296f6414df15fa3c9"
     },
     {
       "path": "ART_DIRECTION.md",
@@ -23,9 +33,14 @@
       "sha256": "17401daf03d3029daa11dc4447350e15fe83069d5387077c2709f5ff548a0cac"
     },
     {
+      "path": "BREEDING_PAIR_OFFERS.md",
+      "bytes": 4287,
+      "sha256": "2a8cc65e8e34b04ef8698a961cfee48e9f88ccfed2b25808fe7512b8475ec614"
+    },
+    {
       "path": "BREEDING_RULES.md",
-      "bytes": 13008,
-      "sha256": "384185b4d9fc365379410f57bcf341589da7f85b679f48c4e36d4b46eabc0f88"
+      "bytes": 13652,
+      "sha256": "75656d3fb547dbb09bc59fc30027c396bd0d909d07a145170b87af96d1e59ece"
     },
     {
       "path": "BREEDING_SAVE_SCHEMA.md",
@@ -39,8 +54,8 @@
     },
     {
       "path": "CASINO_RULES.md",
-      "bytes": 5190,
-      "sha256": "ce3e2d459837c182abd19c07c8b5eeda8d394070834c1bd48b7c188422c3a551"
+      "bytes": 6126,
+      "sha256": "48590d60a3826512765341f1d43c5f0c1c6fc506fa2f5390fc291356af2d6d7a"
     },
     {
       "path": "CURRENT_FISH_CATALOG.md",
@@ -54,8 +69,8 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 50886,
-      "sha256": "85928313b96bcd64b6fed724c6fdb9848e88deff356f073929cc48e6acceee97"
+      "bytes": 52429,
+      "sha256": "325058ac192c8f7d96fd20a6e50c12059aed8127fb2e30b42af75b7ab51f9707"
     },
     {
       "path": "DIVING_EXPANSION_REPORT.md",
@@ -78,19 +93,29 @@
       "sha256": "65e80980a6aafb6bc2682f693cbd6f37e8f79381d7d86a5ead19d4a54df06b96"
     },
     {
+      "path": "ECONOMY_UPDATE_REPORT.md",
+      "bytes": 16895,
+      "sha256": "81b6dadd0c7bbf248b43315835223a63c979d9af26fa92211104ad7e717cdfc6"
+    },
+    {
+      "path": "ECONOMY_UPDATE_SAVE_SCHEMA.md",
+      "bytes": 4594,
+      "sha256": "8cf4f456cec99b56ae9174c2db8ca8b15ce96e933bb92ed071852705ff0e9d17"
+    },
+    {
       "path": "EQUIPMENT_DURABILITY_BALANCE_REPORT.md",
-      "bytes": 15076,
-      "sha256": "7c52cd9f5c1ae8824def39245003458eccf2d30b61fc3b7f0900f616673c767e"
+      "bytes": 16099,
+      "sha256": "e7ace9e356020a1db10742e409a6e326e5ff352a5e4561952e7566bb73bba2d9"
     },
     {
       "path": "EQUIPMENT_INVENTORY.md",
-      "bytes": 3812,
-      "sha256": "3bc0701bec9393f12d724a409cae4c2f1557184896cb0cddfce4bd29851b259d"
+      "bytes": 4303,
+      "sha256": "4084c88183d854810e484fcf28a00f5dd3810657bd71c690e56388021f8676b2"
     },
     {
       "path": "EQUIPMENT_INVENTORY_SAVE_SCHEMA.md",
-      "bytes": 3497,
-      "sha256": "b2df89698ce890e4bc6ddf409d1dc53f27d4f217b0eef765001f68aa8c75ccf5"
+      "bytes": 3973,
+      "sha256": "8b6957e9681e841e90020930c895fd3a35a6e7de26becd1ea4f28b63996f49f6"
     },
     {
       "path": "EQUIPMENT_INVENTORY_UPDATE_REPORT.md",
@@ -99,13 +124,18 @@
     },
     {
       "path": "EQUIPMENT_MAINTENANCE.md",
-      "bytes": 2454,
-      "sha256": "7da8df582fa740e0079497c745c8353c98870c2ca3c5e3756f05c70271044590"
+      "bytes": 2270,
+      "sha256": "d5742499d21065642060d1d8503791f4b9e5163f154a3ce9d63b8d1aa36bb8cf"
+    },
+    {
+      "path": "EQUIPMENT_PART_CATALOG.md",
+      "bytes": 1904,
+      "sha256": "f953fbeada9b5a572b8a9c1eb0a4671fdb4e63ae2d17b94323e22cf975f0d269"
     },
     {
       "path": "EQUIPMENT_RELIABILITY_SAVE_SCHEMA.md",
-      "bytes": 4144,
-      "sha256": "3850f5a0b3c2d5aa7fe24e79390bdbcf7b1697bdb0d44198dabac002a94c4817"
+      "bytes": 4762,
+      "sha256": "a3fa0abf88d9cc288afe73edc9859fd694efbd430367bfd701f76aa05f26c42c"
     },
     {
       "path": "FISH_ANIMATION_AUDIT.md",
@@ -166,6 +196,11 @@
       "path": "UI_LAYOUT_CLEANUP_REPORT.md",
       "bytes": 5342,
       "sha256": "d1f519c4f86696bceccbfe271281b159dabe968b69aafb69a14eec348552fa9a"
+    },
+    {
+      "path": "WHOLE_AQUARIUM_SALES.md",
+      "bytes": 3498,
+      "sha256": "b1a6eb9f8ce5890aab5da549029232dc1d43954847225f15a497f6d0d4bb3ad1"
     },
     {
       "path": "art-review-v1.html",
@@ -9344,18 +9379,23 @@
     },
     {
       "path": "index.html",
-      "bytes": 15491,
-      "sha256": "d108079ae1731280d8be6b17c8f9b6031ce0ca65e31f09f93c34b93b72889221"
+      "bytes": 15736,
+      "sha256": "1443b1aebe9bc32b02e2892f3374dc78def86ba5d0a3e69cfc994243f648a9e2"
     },
     {
       "path": "js/app-shell.js",
-      "bytes": 30933,
-      "sha256": "128e258d2bb5a10b5da112916afeb16f3fef81e053a2ee924504d6f9ba72d5d8"
+      "bytes": 31295,
+      "sha256": "e83c3b4a2f0e57e66894cbab525480b40b8b92cef731b32fb8ed96a2c3c45ec8"
     },
     {
       "path": "js/aquarium-preparation.js",
       "bytes": 3556,
       "sha256": "a2b8a946df970a439940e002304132f40d6c91040964512232aae6574806483a"
+    },
+    {
+      "path": "js/aquarium-sale.js",
+      "bytes": 6820,
+      "sha256": "5394c0c3003aaacbe0f8ce97b2a3103c782fc9b7f398aa0c4e1e87449e68f552"
     },
     {
       "path": "js/art-assets-data.js",
@@ -9384,8 +9424,8 @@
     },
     {
       "path": "js/breeding.js",
-      "bytes": 30713,
-      "sha256": "2f2438cdcee9de591b94120875aebba17e113790c3c7d4a3a72f4f21b5b9df72"
+      "bytes": 30784,
+      "sha256": "6ed0ac0ab1c39372aaa678df5d01284432d3a0f363a70425cacc96b3bc5ed685"
     },
     {
       "path": "js/brood-view.js",
@@ -9399,18 +9439,18 @@
     },
     {
       "path": "js/casino-rules.js",
-      "bytes": 3812,
-      "sha256": "ff52ea57e5e1912769d699d42d5e9ead578ab397c953962bfbe33145e63d30bb"
+      "bytes": 4065,
+      "sha256": "b16867f96ecf3c4cce08a3aa784ade74d202d2f53f60fafc369e9aa43ddf5cae"
     },
     {
       "path": "js/casino-ui.js",
-      "bytes": 11179,
-      "sha256": "d64c2be029e263f649fa4c0469a2f0387c537be1ab8fd538d6ca631033acd724"
+      "bytes": 12503,
+      "sha256": "8044d8f8adc2cd8f93ddb47f67e4b9272a7b57dd8234215fe3db90e7490e8d20"
     },
     {
       "path": "js/casino.js",
-      "bytes": 6487,
-      "sha256": "d8400e0dcf8c7e047879b097fa2c25a8df3322ce3b4bbc7a6a3b4e786163ccb1"
+      "bytes": 7649,
+      "sha256": "413be1203b7825873f8f6a1f1e75b1735a41a437a5802361d762aa0ba1c21c34"
     },
     {
       "path": "js/clownfish-art-bank.js",
@@ -9444,8 +9484,8 @@
     },
     {
       "path": "js/core.js",
-      "bytes": 38100,
-      "sha256": "772d158260052025af5775de77e9ae5ebf9e819b3b3a0a685947f77dbf561bfa"
+      "bytes": 39145,
+      "sha256": "d2f6c275fc79c7c31a61629407b986c2409c3455ae5dd9f23ba29c51c028a3af"
     },
     {
       "path": "js/daily-store.js",
@@ -9494,13 +9534,18 @@
     },
     {
       "path": "js/diving.js",
-      "bytes": 23887,
-      "sha256": "284d68f47acb6d603d3b62685cb44ce229224c94a1031f41fad6048502199574"
+      "bytes": 23999,
+      "sha256": "06e97f4caf9509eccbdc7dbf379911159561d617ee97001678d58b062249df46"
+    },
+    {
+      "path": "js/economy-update-ui.js",
+      "bytes": 11235,
+      "sha256": "820e6b896d26286f8bb1cc191671647be2f409252c94deec36a92d15ecfecd52"
     },
     {
       "path": "js/equipment-catalog.js",
-      "bytes": 2115,
-      "sha256": "6bc24d9d01f292e09ff31637254853dc1e552ad303ddb4c6f5b28698635296e4"
+      "bytes": 2180,
+      "sha256": "3be87e16b1463afda2ce399c68e38af8ed9b9a2f35834d3789ce3f467f262824"
     },
     {
       "path": "js/equipment-inventory.js",
@@ -9509,13 +9554,18 @@
     },
     {
       "path": "js/equipment-maintenance-ui.js",
-      "bytes": 3691,
-      "sha256": "ed386fef989e5115e66b0decd3a72d39b53e92a3892127936005c84c5e82d722"
+      "bytes": 3704,
+      "sha256": "394c4a821960a23677d074d819739c6b0705f368171ba27569db5c16bcbd0063"
+    },
+    {
+      "path": "js/equipment-parts.js",
+      "bytes": 4340,
+      "sha256": "03a2569d0e3296b97e9855c55960097a176ade4436e0c2469fcfb0533d392a57"
     },
     {
       "path": "js/equipment-reliability.js",
-      "bytes": 12712,
-      "sha256": "18ed0112a36de28494705033725f75f36f545cffef06021f89aa92177bf6388a"
+      "bytes": 12790,
+      "sha256": "6270bf3f118aa2ae3b6f6256fc71f18260d5bad3360f09c89aaa4ee3084a5110"
     },
     {
       "path": "js/expansion-art-data.js",
@@ -9539,8 +9589,8 @@
     },
     {
       "path": "js/expansion-ui.js",
-      "bytes": 4708,
-      "sha256": "a4b02ca1a2d024627d82ce0e5ba9a29738865078160a5a7975fc283edd5565f3"
+      "bytes": 4715,
+      "sha256": "b1bb5c9995fac17a4fdabdebfb0646e89695160bf6d4406100d006cdc38cf4e8"
     },
     {
       "path": "js/expansion.js",
@@ -9609,8 +9659,8 @@
     },
     {
       "path": "js/inventory-ui.js",
-      "bytes": 11307,
-      "sha256": "971055e27a3c30a37f27bba962200adc63aa28949992da2abb6b442b2c5394c2"
+      "bytes": 11350,
+      "sha256": "4b328e379f584c5aaa11a5188333f782914ada41cd0f772b4d46bad126b56516"
     },
     {
       "path": "js/invertebrates.js",
@@ -9813,6 +9863,11 @@
       "sha256": "f1f78d4e229128a5a2328924e38e5bc627d5a5ff2885f1d7f3f15d25ec9d5a93"
     },
     {
+      "path": "js/pair-offers.js",
+      "bytes": 8611,
+      "sha256": "0b85400d9538c1aec7d3c8fbf2261a8e33d689ea705ca87e80c8f9d1387b3e87"
+    },
+    {
       "path": "js/patterns.js",
       "bytes": 7506,
       "sha256": "f435e11296ca2af9553e6b8307a5ba4f765b4bc8badea01708612f4478a4b57b"
@@ -9823,14 +9878,19 @@
       "sha256": "d13a73b835fb41f5bb0a3db77d96d00d63785496fbfaefa6c1d335b5beb50ddb"
     },
     {
+      "path": "js/progression.js",
+      "bytes": 7602,
+      "sha256": "86a1302869b70012482cf5d42adcdb4446de8626bd9eb475224a68dce02a196b"
+    },
+    {
       "path": "js/rarity.js",
       "bytes": 2961,
       "sha256": "a91b759d307d12ebaf620fced7c457749398e919f7fecd0022fd79fb81d70518"
     },
     {
       "path": "js/render.js",
-      "bytes": 23286,
-      "sha256": "971e2d3cdd1541d94ca5c916a6114c02fb1ebc92ad60358d8c833ae338daab5d"
+      "bytes": 23413,
+      "sha256": "a4386baf8f111f796bf853a14d4ff275a2cb50a4210d70f1353202fafadaed13"
     },
     {
       "path": "js/research-data.js",
@@ -9844,13 +9904,13 @@
     },
     {
       "path": "js/save.js",
-      "bytes": 16529,
-      "sha256": "3759544758902537681b35273bbda4c1936fe480378540b8b0800f42c8d68aca"
+      "bytes": 16822,
+      "sha256": "c5e817d4e55edfa0a096661172a090ccfe06ef39439952d3be83c1c1a4432034"
     },
     {
       "path": "js/simulation.js",
-      "bytes": 23338,
-      "sha256": "da1f9e820096003d062695cca4f094a2691bc74f9d81a05c10d558245ef6ccc8"
+      "bytes": 23456,
+      "sha256": "e5ebcf7624b2dd4dffd69b969d0c9905c88044b6eb45812a84f82bed3e1adc19"
     },
     {
       "path": "js/sprite-kit.js",
@@ -9859,18 +9919,18 @@
     },
     {
       "path": "js/store-art.js",
-      "bytes": 4694,
-      "sha256": "df888de25818e67044dba284328428115905075ac39f7dcaf7d5b23f5dd2ebab"
+      "bytes": 5323,
+      "sha256": "8d1da90afdc77095504d38c3b56cf9e331687fbb85c8b85aaa494271ee439d34"
     },
     {
       "path": "js/store-rules.js",
-      "bytes": 6921,
-      "sha256": "561596e813a6ec7102d082912bd0e83949c37cc6d39812ed7f4ec03f38d30332"
+      "bytes": 7362,
+      "sha256": "8595433ea9b2f60ee2db7664eb4b4f597d5825ca56b213273eae28effa66fa34"
     },
     {
       "path": "js/store.js",
-      "bytes": 28379,
-      "sha256": "21488834c335d7e87d683689cd3472e1a624f87a6cbe25d17c6fee68bc261c5a"
+      "bytes": 29453,
+      "sha256": "f02b5fd2065e79e9e844fb1d0cd5a19618b63ddff1fc0ca6df59cb3b87500f75"
     },
     {
       "path": "js/thermal.js",
@@ -9879,8 +9939,8 @@
     },
     {
       "path": "js/ui.js",
-      "bytes": 67959,
-      "sha256": "3b1c6eeb5708ab13ef57de5a94b0d8085f994bad654836e87741535cdf9ae878"
+      "bytes": 68164,
+      "sha256": "d0f6855251d1f38c80e5324775f727238de5980c1c9479befe1e99c3cdbc2815"
     },
     {
       "path": "js/update29-art-data.js",
@@ -9889,8 +9949,8 @@
     },
     {
       "path": "js/update29-catalog.js",
-      "bytes": 2785,
-      "sha256": "06e8d39d31b72c735153ff68bc5cdee9864409953469da08b768c1761e7ec901"
+      "bytes": 2787,
+      "sha256": "b87f46fc354d91881ac7833e0a034f4428f37d9062ffdaec3d86a1f8340b671b"
     },
     {
       "path": "js/update29-data.js",
@@ -9904,13 +9964,13 @@
     },
     {
       "path": "js/update29-ui.js",
-      "bytes": 16489,
-      "sha256": "c33f9bb946eaebc8790153eb2e79f928ac49c7a47d6fc5c43ba6426a147339dd"
+      "bytes": 16555,
+      "sha256": "6be32643dcaad528873967377072ec99a1ca71964b37861cd202813f8cbaff41"
     },
     {
       "path": "js/update29.js",
-      "bytes": 14268,
-      "sha256": "97c64c1dfcf6db32a858e099da44eff5f9ea81d65ca93d2d91ddbe6248360d17"
+      "bytes": 14302,
+      "sha256": "edd955e1874a22c15561b82024f51c97cf4a51d0b7769858ae70e035dfca6ebf"
     },
     {
       "path": "js/update31-ui.js",
@@ -9919,8 +9979,8 @@
     },
     {
       "path": "js/update31.js",
-      "bytes": 14215,
-      "sha256": "8dd38ce06af279df2d587d333f0bffa01c85c9f9fb3559df346fed6b4c904e2b"
+      "bytes": 14207,
+      "sha256": "d90f739060ad36bef2c8610991cb82c41460822accd208bc993a19ff83f2c2fc"
     },
     {
       "path": "js/valuation.js",

@@ -21,6 +21,6 @@ AL.Update29Catalog=(()=>{
  });
  D.supplies.salt.description='Marine salt: one dose prepares up to 2 liters of actual replacement water; larger changes consume proportionally more doses.';
  const capacity=56781.17676;
- D.sizes.push({volume:capacity,name:'Ocean Sanctuary',price:5000,marinePrice:5000,level:10,nominalGallons:15000,waterDimensionsCm:[1000,400,141.9529419],substrateAreaM2:40,capacityNote:'15,000 US gallons of usable simulation water. Engineering and structural loads are outside this game; substrate displacement is not modeled.',supports:['marine','fresh']});
+ D.sizes.push({volume:capacity,name:'Ocean Sanctuary',price:25000,marinePrice:25000,level:10,nominalGallons:15000,waterDimensionsCm:[1000,400,141.9529419],substrateAreaM2:40,capacityNote:'15,000 US gallons of usable simulation water. Engineering and structural loads are outside this game; substrate displacement is not modeled.',supports:['marine','fresh']});
  return {records,byId,capacity};
 })();

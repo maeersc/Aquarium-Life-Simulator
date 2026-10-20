@@ -81,3 +81,7 @@ Biological structure is based on primary or institution-maintained references; a
 - [ORA — Blue Assessor](https://www.orafarm.com/product/blue-assessor/): confirms captive mouthbrooding, but does not by itself verify the complete role/larval protocol; the new autonomous profile remains held. [ORA — Greenbanded Goby](https://www.orafarm.com/product/greenbanded-goby/): identity/habitat; the game does not guess its sex-change implementation.
 
 Accessed 2026-10-15. This simulator is not a real-life breeding or treatment manual. Exact reproductive physiology, nest microstructure, live-culture density/enrichment and species-specific larval settlement are simplified. No biological species, approved sprite replacement, freshwater development or network service is introduced.
+
+## Compatible Store pairs — October20
+
+The5%listing-bound offer uses only existing supported profiles and roles, does not assert established bonding, and does not generate courtship/spawn history or guarantee a brood. Two mature individuals carry separate identities/genes/health, while actual reproductive readiness, autonomy, cooldowns, spawning windows and offspring care remain unchanged. Current coverage and inheritance holds are in BREEDING_PAIR_OFFERS.md. Completed breeding records referring to a sold tank require its real whole-sale receipt; current courtship closes factually as transferred and is not recorded as mortality.
