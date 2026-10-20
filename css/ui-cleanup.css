@@ -33,3 +33,15 @@ main{margin-left:176px;width:calc(100% - 176px)}
  .topbar .level-badge{width:32px;height:36px;flex-basis:32px}
 }
 @media(max-height:650px) and (min-width:761px){.workspace{grid-template-rows:36px minmax(0,1fr) 16px;padding-top:8px}}
+
+/* Focused aquarium care: keep details available without crowding routine actions. */
+#water-warning ul{padding-left:18px;margin:8px 0;display:grid;gap:6px}
+#water-warning details{margin-top:8px}
+#water-warning .text-button{text-align:left;white-space:normal}
+.care-table-scroll{max-width:100%;overflow-x:auto}
+.tank-comparison,.developer-tools{margin:18px 0;padding:14px;border:1px solid var(--border);border-radius:10px}
+.progress-sections{gap:8px;margin-bottom:18px;flex-wrap:wrap}
+.progress-sections [aria-pressed=true]{border-color:var(--mint);color:var(--mint)}
+.equipment-reliability details{margin:12px 0}
+
+#primary-content>.text-button{margin-right:14px;margin-bottom:8px}

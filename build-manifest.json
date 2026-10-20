@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-20T16:16:31.366654+00:00",
+  "builtAt": "2026-10-20T16:51:26.569221+00:00",
   "entryPoint": "index.html",
-  "gameContent": "v4.1",
+  "gameContent": "v4.1.1",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 1999,
-  "sourceBytes": 844164520,
+  "sourceFiles": 2001,
+  "sourceBytes": 844173744,
   "files": [
     {
       "path": "ACHIEVEMENT_OBJECTIVES.md",
@@ -69,8 +69,8 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 52429,
-      "sha256": "325058ac192c8f7d96fd20a6e50c12059aed8127fb2e30b42af75b7ab51f9707"
+      "bytes": 53485,
+      "sha256": "ce07b815b0db0c465759e338ac757efd48fa13615608ad2c0d20a8f579d0744a"
     },
     {
       "path": "DIVING_EXPANSION_REPORT.md",
@@ -186,6 +186,11 @@
       "path": "MYSTERY_DIVING_UPDATE_REPORT.md",
       "bytes": 9133,
       "sha256": "399f76a12be86de88bb0a36b6ab9ec94c42b5fe9d3005e3abb9260852edcf2cd"
+    },
+    {
+      "path": "SIMPLIFICATION_REPORT.md",
+      "bytes": 5776,
+      "sha256": "d209052ad08e1e774ab1cc5167de22cb1ea45123534d109864d5bab05d6cbf31"
     },
     {
       "path": "STORE_CASINO_UPDATE_REPORT.md",
@@ -9354,8 +9359,8 @@
     },
     {
       "path": "css/ui-cleanup.css",
-      "bytes": 2630,
-      "sha256": "a0d898e8f64ef4e4ae1c7f3154bd9d99737c8458d7f0f7d4f355b5286863bcfe"
+      "bytes": 3325,
+      "sha256": "a0032e7c3a77f0fb759f4790390a79ddf1ceb2388b8aee66909b17688d2cd49f"
     },
     {
       "path": "css/update29.css",
@@ -9379,13 +9384,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 15736,
-      "sha256": "1443b1aebe9bc32b02e2892f3374dc78def86ba5d0a3e69cfc994243f648a9e2"
+      "bytes": 15393,
+      "sha256": "f72e795f0b71f9466b8e7d31dd267f0787dd14e3572d283c2e8a9bba926cb642"
     },
     {
       "path": "js/app-shell.js",
-      "bytes": 31295,
-      "sha256": "e83c3b4a2f0e57e66894cbab525480b40b8b92cef731b32fb8ed96a2c3c45ec8"
+      "bytes": 30560,
+      "sha256": "c4a9bcff7d2dfa6a10d2b75cab76c48dd5a67f804282ea27535bedb39a6c4691"
     },
     {
       "path": "js/aquarium-preparation.js",
@@ -9431,6 +9436,11 @@
       "path": "js/brood-view.js",
       "bytes": 7908,
       "sha256": "aac11058840561b9a70b403ba9d8a76eeb7eb1678c4d5f0d1c94ca07a08c2b65"
+    },
+    {
+      "path": "js/care-ui.js",
+      "bytes": 2753,
+      "sha256": "1dfe0fcf75d5b685dea0071f52864d14ef475d766ed5ae3015ca22472a859f7a"
     },
     {
       "path": "js/casino-art.js",
@@ -9554,8 +9564,8 @@
     },
     {
       "path": "js/equipment-maintenance-ui.js",
-      "bytes": 3704,
-      "sha256": "394c4a821960a23677d074d819739c6b0705f368171ba27569db5c16bcbd0063"
+      "bytes": 3781,
+      "sha256": "d394a7a75ffdc10a7383881f83fe3339a2671afa002392d0f0d396b0af6144d3"
     },
     {
       "path": "js/equipment-parts.js",
@@ -9659,8 +9669,8 @@
     },
     {
       "path": "js/inventory-ui.js",
-      "bytes": 11350,
-      "sha256": "4b328e379f584c5aaa11a5188333f782914ada41cd0f772b4d46bad126b56516"
+      "bytes": 11681,
+      "sha256": "7ddd2ffb4212cac77d7b4515b3c5a5fe80f4ec1a02d74a8eb3bbe6b888acfd1e"
     },
     {
       "path": "js/invertebrates.js",
@@ -9939,8 +9949,8 @@
     },
     {
       "path": "js/ui.js",
-      "bytes": 68164,
-      "sha256": "d0f6855251d1f38c80e5324775f727238de5980c1c9479befe1e99c3cdbc2815"
+      "bytes": 67748,
+      "sha256": "e41da64bf991fbaa2fe8bc69cf437618cb40f629490e6bd59b8b304ba1a5f905"
     },
     {
       "path": "js/update29-art-data.js",
@@ -9964,8 +9974,8 @@
     },
     {
       "path": "js/update29-ui.js",
-      "bytes": 16555,
-      "sha256": "6be32643dcaad528873967377072ec99a1ca71964b37861cd202813f8cbaff41"
+      "bytes": 16585,
+      "sha256": "7938a06240dcc5e722d9513aa23508a8e5e28504216df69ab21230c481a79f40"
     },
     {
       "path": "js/update29.js",

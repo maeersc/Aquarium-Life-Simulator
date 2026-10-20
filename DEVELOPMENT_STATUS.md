@@ -1,5 +1,12 @@
 # Development status — 2026-10-20
 
+## Interface simplification - playable v4.1.1, 2026-10-20
+
+The authorized first cleanup uses six main destinations: Aquariums, Aquarium Store, Field Journal, Tank Care, The Dock Casino and Settings. VIP/premium and leaderboard placeholders leave normal navigation; local asset comparison moves into My Aquariums and art review into collapsed Settings developer tools. Progress groups Keeper Level, Objectives and Achievements. Tank Care contains Installed Equipment, Feeding, Water Changes, Lighting, Coral Fragging and Inventory. Detailed condition/history stays in Inspect; exact service and removal safeguards remain. Water changes use one preview/confirmation; warnings retain all reasons with expandable notes. Food forecasts also show real hours at 1x.
+
+No biological, clock, reward, casino payout, ownership or save-schema changes. Existing saved accounts, local storage and freshwater lock remain. Historical interface descriptions below are superseded by master sections26.3-26.4. See SIMPLIFICATION_REPORT.md for actual tests and files.
+
+
 ## Coordinated economy/progression update — 2026-10-20
 
 Implemented the authorized sanctuary25,000-AC price (no retrocharge), profile-specific first species/size/destination rewards,13 unpaid optional objectives, distinct Maintenance/catalog-priced Replace Part, itemized confirmed whole-aquarium sales including safe zero-tank ownership, Gold Fish 2×pair gross return, Casino Profile controls/actual visits and persistent 5%compatible-pair offers across all 29 currently supported fish. New marine profiles retain5,000-AC opening plus a separately receipted 250-AC starter-size award. Existing saves backfill known history without payments. Other tank/retail prices, autonomous biology, long-term durability,20-minute day, local saves, protected art and freshwater lock remain.
