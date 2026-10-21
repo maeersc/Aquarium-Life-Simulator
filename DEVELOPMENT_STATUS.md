@@ -1,5 +1,10 @@
 # Development status — 2026-10-20
 
+## Interactive saltwater onboarding - playable v4.2, 2026-10-20
+
+The passive corner guide is replaced by contextual DOM spotlights and12 phases/22 verified tasks. Players use actual sand/depth, filling/preparation, owned equipment installation, supported rock placement, temperature control, real cycling/water checks, compatible paid Store receiving/stocking and feeding/inspection controls. No Next/Back bypass, free purchase, invented tutorial reward or chemistry/time override. Existing real setup and documented individual meals are recognized; old completed/skipped guides retain opt-out. Pause/Resume, confirmed Skip/Restart, pinned aquarium selection, actual save/reload recovery and bounded Settings Local Debug Log are implemented. Main schema2, all existing biology/economy,20-minute day, offline progression, local saves and freshwater lock remain. Details and actual tests: TUTORIAL_OVERHAUL_REPORT.md, TUTORIAL_STATE_MACHINE.md and TUTORIAL_SAVE_SCHEMA.md. Earlier tutorial descriptions below are historical where superseded.
+
+
 ## Interface simplification - playable v4.1.1, 2026-10-20
 
 The authorized first cleanup uses six main destinations: Aquariums, Aquarium Store, Field Journal, Tank Care, The Dock Casino and Settings. VIP/premium and leaderboard placeholders leave normal navigation; local asset comparison moves into My Aquariums and art review into collapsed Settings developer tools. Progress groups Keeper Level, Objectives and Achievements. Tank Care contains Installed Equipment, Feeding, Water Changes, Lighting, Coral Fragging and Inventory. Detailed condition/history stays in Inspect; exact service and removal safeguards remain. Water changes use one preview/confirmation; warnings retain all reasons with expandable notes. Food forecasts also show real hours at 1x.

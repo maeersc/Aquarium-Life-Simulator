@@ -30,7 +30,7 @@ AL.Update29=(()=>{
 
  }
  function waterQuote(t,fraction){const changed=t.volume*fraction,marine=t.water==='marine';return {liters:changed,water:Math.ceil(changed*(marine?.13:.04)),supply:marine?'salt':'conditioner',doses:marine?Math.max(1,Math.ceil(changed/2-1e-10)):1};}
- function beforeAction(s,t,name,a){migrate(s);
+ function beforeAction(s,t,name,a){migrate(s);AL.Tutorial?.beforeAction(s,t,name,a);
   if(name==='buyTank'&&a.water==='fresh'||name==='selectAquarium'&&s.tanks.find(n=>n.id===a.id)?.water==='fresh')throw Error(lockText);
   if(t?.water==='fresh'&&!['buyTank','selectAquarium','claim','discoverMarket','tutorialProgress','buyResearch','casinoWager','casinoSettle','casinoLimit','casinoVisit','casinoVisitClose'].includes(name))throw Error(lockText);
   if(name==='buyFish'&&D.species[a.species]?.water==='fresh'||name==='buyFlora'&&D.flora[a.type]?.water==='fresh'||name==='buyEgg'&&D.species[a.species]?.water==='fresh')throw Error(lockText);
@@ -58,7 +58,7 @@ AL.Update29=(()=>{
  function products(s,category){const type=category==='flora'?'coral':'bottom',name=type==='coral'?'Mystery Coral':'Mystery Bottom-Dweller Egg',short=missing(type);return [{id:'mystery:'+type,kind:'mystery',mysteryCategory:type,name,price:type==='coral'?450:500,stock:short.length?0:s.update29.mysteryStock[type],action:type==='coral'?'buyMysteryCoral':'buyMysteryBottom',args:{},habitat:'marine',description:'Independent Common 50%, Uncommon 25%, Rare 15%, Very Rare 7.5%, Ultra Rare 2%, Legendary 0.5%. '+(short.length?'Catalog content hold: missing eligible '+short.join(', ')+'. No substitution or charge.':type==='coral'?'Resolves to a living frag on an existing valid supported mount; reposition it afterward.':'Species-appropriate early specimen in a labeled nursery abstraction; never instant adult.')}];}
  function validate(s,identity){const v=s.update29;if(!v||v.version!==1)throw Error('Invalid v2.9 extension.');const r=v.survival,t=v.tutorial,ms=v.mysteryStock;
   const integer=(n,min,max)=>Number.isInteger(n)&&n>=min&&n<=max,num=(n,min,max)=>Number.isFinite(n)&&n>=min&&n<=max;
-  if(!t||!integer(t.step,0,11)||!['active','skipped','completed'].includes(t.status))throw Error('Invalid tutorial progress.');
+  if(!t||!integer(t.step,0,11)||!['active','paused','skipped','completed'].includes(t.status))throw Error('Invalid tutorial progress.');
   if(!r||r.policyVersion!==2||r.day!==day(s)||!num(r.tracked,0,1440)||!num(r.stocked,0,r.tracked)||typeof r.lost!=='boolean'||!num(r.recoveryUntil,0,1e9+1440)||r.lastDeath!==null&&!num(r.lastDeath,0,s.time)||r.lastDeath!==null&&r.recoveryUntil!==r.lastDeath+1440||!integer(r.lastCompleted,-1,day(s)-1)||!integer(r.lastPaid,-1,r.lastCompleted)||!integer(r.earned,0,1e9)||r.earned%survivalAmount)throw Error('Invalid survival reward checkpoint.');
   if(!ms||ms.day!==day(s)||!integer(ms.coral,0,3)||!integer(ms.bottom,0,3))throw Error('Invalid new mystery stock.');
   for(const key of ['coralMysteryRng','bottomMysteryRng'])if(s[key]!==undefined&&!integer(s[key],0,4294967295))throw Error('Invalid independent mystery stream.');
@@ -68,6 +68,6 @@ AL.Update29=(()=>{
  }
  function reservedLoad(t){return (t.nurseries||[]).filter(n=>!n.dead).reduce((total,n)=>total+(D.invertebrates[n.invertebrate]?.load||0),0);}
  function nurseryValue(n){return n.dead?0:Math.floor((D.invertebrates[n.invertebrate]?.price||0)*.25*n.viability/100);}
- function tutorial(s,a){if(!Number.isInteger(a.step)||a.step<0||a.step>11||!['active','skipped','completed'].includes(a.status))throw Error('Invalid tutorial request.');s.update29.tutorial={step:a.step,status:a.status};}
+ function tutorial(s,a){if(!AL.Tutorial)throw Error('Interactive tutorial is unavailable.');AL.Tutorial.action(s,a);}
  return {survivalAmount,lossMessage,migrate,newGame,beforeAction,afterAction,beforeStep,afterStep,death,eligibleResidents,waterQuote,pool,missing,mounting,mysteryReport,mystery,products,validate,tutorial,nurseryValue,reservedLoad,lockText};
 })();

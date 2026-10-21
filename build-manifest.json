@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-20T16:51:26.569221+00:00",
+  "builtAt": "2026-10-20T20:10:42.944236+00:00",
   "entryPoint": "index.html",
-  "gameContent": "v4.1.1",
+  "gameContent": "v4.2",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 2001,
-  "sourceBytes": 844173744,
+  "sourceFiles": 2007,
+  "sourceBytes": 844250480,
   "files": [
     {
       "path": "ACHIEVEMENT_OBJECTIVES.md",
@@ -69,8 +69,8 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 53485,
-      "sha256": "ce07b815b0db0c465759e338ac757efd48fa13615608ad2c0d20a8f579d0744a"
+      "bytes": 54532,
+      "sha256": "0fa618717a526feef9d4e0eeea4452a9d185e98de120e1daa154eaf2fd2b8cc5"
     },
     {
       "path": "DIVING_EXPANSION_REPORT.md",
@@ -196,6 +196,21 @@
       "path": "STORE_CASINO_UPDATE_REPORT.md",
       "bytes": 8726,
       "sha256": "c7a16cb8cffae70c8632d3ab7228665284f8028b6472fdfa9da4fa615e793c04"
+    },
+    {
+      "path": "TUTORIAL_OVERHAUL_REPORT.md",
+      "bytes": 13591,
+      "sha256": "ac84b6406a7c2911d81be21766c7b50433e12df23559a01baeb263335c689f4a"
+    },
+    {
+      "path": "TUTORIAL_SAVE_SCHEMA.md",
+      "bytes": 4186,
+      "sha256": "23c24c8f5053aed7f4bbac0bf7a2d7e00ceb7d6109b1d4e85153d27aac03f876"
+    },
+    {
+      "path": "TUTORIAL_STATE_MACHINE.md",
+      "bytes": 8195,
+      "sha256": "79c07a668b242e88e2398c18af6abce1ad137032508d188e3e451f3adf0f9941"
     },
     {
       "path": "UI_LAYOUT_CLEANUP_REPORT.md",
@@ -9358,14 +9373,19 @@
       "sha256": "f5a1ba0dea8ac7532f07b2112ff1adc73d51b060744493bc947ae463ae7988a0"
     },
     {
+      "path": "css/tutorial.css",
+      "bytes": 2191,
+      "sha256": "6d6def5b713b2fdcde56bc530fc4e316da5338e7ba17146be342038615f09db1"
+    },
+    {
       "path": "css/ui-cleanup.css",
       "bytes": 3325,
       "sha256": "a0032e7c3a77f0fb759f4790390a79ddf1ceb2388b8aee66909b17688d2cd49f"
     },
     {
       "path": "css/update29.css",
-      "bytes": 1845,
-      "sha256": "db65565d2cdfc84a03cd29bad17aa5c3b0ab118218fa21a68a07bd51ac60f290"
+      "bytes": 974,
+      "sha256": "1e110501233ec22fa726bac0e303a56a96265ee59e8851ad7aba374758c7cb05"
     },
     {
       "path": "css/update31.css",
@@ -9384,8 +9404,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 15393,
-      "sha256": "f72e795f0b71f9466b8e7d31dd267f0787dd14e3572d283c2e8a9bba926cb642"
+      "bytes": 15586,
+      "sha256": "7e33720e20bc3a700529880e307de4424a76f7f334b66d63b9013e1eef63a9f2"
     },
     {
       "path": "js/app-shell.js",
@@ -9494,8 +9514,8 @@
     },
     {
       "path": "js/core.js",
-      "bytes": 39145,
-      "sha256": "d2f6c275fc79c7c31a61629407b986c2409c3455ae5dd9f23ba29c51c028a3af"
+      "bytes": 39260,
+      "sha256": "ef0c6a2ef280c3e9a6a98eb2dcc499fca142e790d0f7a30b3a583747cc76b43c"
     },
     {
       "path": "js/daily-store.js",
@@ -9534,8 +9554,8 @@
     },
     {
       "path": "js/diving-receiving.js",
-      "bytes": 16369,
-      "sha256": "ec14621f702c9b4b930fb541382f4d1b16bbb5f796e8f9dd25b1023c8b692a26"
+      "bytes": 16575,
+      "sha256": "8409e9c000243a14de7411824132dde8350f9deb0d9331e42153b9fd94a48dea"
     },
     {
       "path": "js/diving-ui.js",
@@ -9669,8 +9689,8 @@
     },
     {
       "path": "js/inventory-ui.js",
-      "bytes": 11681,
-      "sha256": "7ddd2ffb4212cac77d7b4515b3c5a5fe80f4ec1a02d74a8eb3bbe6b888acfd1e"
+      "bytes": 11721,
+      "sha256": "b3c9938585a280a33852ebf85a6c4716ce152c8e30112fc5671bf7fae6974a81"
     },
     {
       "path": "js/invertebrates.js",
@@ -9914,13 +9934,13 @@
     },
     {
       "path": "js/save.js",
-      "bytes": 16822,
-      "sha256": "c5e817d4e55edfa0a096661172a090ccfe06ef39439952d3be83c1c1a4432034"
+      "bytes": 17139,
+      "sha256": "9f8965e2e677aea5b53d60f9127e4e5bdb8037f1215d3e617f65a73c318c1533"
     },
     {
       "path": "js/simulation.js",
-      "bytes": 23456,
-      "sha256": "e5ebcf7624b2dd4dffd69b969d0c9905c88044b6eb45812a84f82bed3e1adc19"
+      "bytes": 23493,
+      "sha256": "bcd11cc6d0b14971d9999147666b25ede5f4a6c4d6a2d4720acbfec9e19205d2"
     },
     {
       "path": "js/sprite-kit.js",
@@ -9939,8 +9959,8 @@
     },
     {
       "path": "js/store.js",
-      "bytes": 29453,
-      "sha256": "f02b5fd2065e79e9e844fb1d0cd5a19618b63ddff1fc0ca6df59cb3b87500f75"
+      "bytes": 29583,
+      "sha256": "475bd7ade6353824e40f0d069575ed61c662e5c20ebfb5bbca1d89dc38431b2e"
     },
     {
       "path": "js/thermal.js",
@@ -9948,9 +9968,19 @@
       "sha256": "07713beec115bb8d0ffe37cc5a585001d1c38bd86ecf7c8661f7410d71f4b844"
     },
     {
+      "path": "js/tutorial-ui.js",
+      "bytes": 31639,
+      "sha256": "aaae3adeac8ee1eeee5214145f652ede96c78d12a84761dc3a2ca30eae4aa360"
+    },
+    {
+      "path": "js/tutorial.js",
+      "bytes": 22163,
+      "sha256": "cd02231b0dfc5f5f94e071a04582f2344b43bde5f1847277394fedf9d69eff19"
+    },
+    {
       "path": "js/ui.js",
-      "bytes": 67748,
-      "sha256": "e41da64bf991fbaa2fe8bc69cf437618cb40f629490e6bd59b8b304ba1a5f905"
+      "bytes": 68287,
+      "sha256": "582261fa68ce3272e8233a994373f2da65bd4c72f6533a92efa4681332e6b183"
     },
     {
       "path": "js/update29-art-data.js",
@@ -9974,13 +10004,13 @@
     },
     {
       "path": "js/update29-ui.js",
-      "bytes": 16585,
-      "sha256": "7938a06240dcc5e722d9513aa23508a8e5e28504216df69ab21230c481a79f40"
+      "bytes": 9659,
+      "sha256": "c1f3b3b24cf37498b5c655d912b684388a1b94573ca51adaaf7e72ad62fd6f71"
     },
     {
       "path": "js/update29.js",
-      "bytes": 14302,
-      "sha256": "edd955e1874a22c15561b82024f51c97cf4a51d0b7769858ae70e035dfca6ebf"
+      "bytes": 14246,
+      "sha256": "eb4e1a13b74f20d9dfce8ff43e54819b2f2da22b63022fbd7f5d89b792aa5dcc"
     },
     {
       "path": "js/update31-ui.js",

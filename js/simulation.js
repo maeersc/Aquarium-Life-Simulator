@@ -140,7 +140,7 @@ AL.Sim = (() => {
       const day=Math.floor(s.time/1440),hour=s.time/60%24;if(t.water!=='marine'&&K.has(t,'feeder')&&hour>=9&&t.lastAutoFeed!==day&&(K.alive(t).length||(t.invertebrates||[]).some(f=>!f.dead))){t.lastAutoFeed=day;try{K.feed(s,t,t.foodType);}catch(e){K.log(s,`${t.name}: automatic feeder needs ${D.foods[t.foodType].name}.`,'warning');}}
 
     }
-    AL.Progression?.migrate(s);AL.EquipmentParts?.migrate(s);AL.Progression?.observe(s);AL.Progression?.objectivesStep(s);AL.Update29?.afterStep(s,previous,minutes);AL.Gameplay?.step(s,previous,minutes);AL.DiveMystery?.step(s);if(Math.floor(previous/1440)!==Math.floor(s.time/1440))daily(s,Math.floor(s.time/1440));return s;
+    AL.Progression?.migrate(s);AL.EquipmentParts?.migrate(s);AL.Progression?.observe(s);AL.Progression?.objectivesStep(s);AL.Update29?.afterStep(s,previous,minutes);AL.Gameplay?.step(s,previous,minutes);AL.DiveMystery?.step(s);if(Math.floor(previous/1440)!==Math.floor(s.time/1440))daily(s,Math.floor(s.time/1440));AL.Tutorial?.observe(s,'simulation');return s;
   }
   function advance(s,minutes){const bounded=clamp(Number(minutes)||0,0,60*24*365);for(let n=0;n<bounded;n+=5)step(s,Math.min(5,bounded-n));return s;}
   function motion(s,t,dt){const living=K.alive(t),illumination=light(s,t);for(const f of t.fish){if(f.dead){f.y=clamp(f.y-dt*0.004,0.09,0.94);continue;}const d=D.species[f.species];f.aiTimer-=dt;const hungry=f.hunger>20;const food=hungry?t.food.find(p=>(t.water==='marine'?AL.MarineCare.profile(f).foods.includes(p.type):(f.growth<0.3?p.type==='fry':d.diet.includes(p.type)))):null;const night=illumination<0.1,rest=d.nocturnal?!night:night;
