@@ -1,8 +1,8 @@
 # Development status — 2026-10-20
 
-## Interactive saltwater onboarding - playable v4.2, 2026-10-20
+## Interactive saltwater tutorial loop repair - playable v4.2.1, 2026-10-21
 
-The passive corner guide is replaced by contextual DOM spotlights and12 phases/22 verified tasks. Players use actual sand/depth, filling/preparation, owned equipment installation, supported rock placement, temperature control, real cycling/water checks, compatible paid Store receiving/stocking and feeding/inspection controls. No Next/Back bypass, free purchase, invented tutorial reward or chemistry/time override. Existing real setup and documented individual meals are recognized; old completed/skipped guides retain opt-out. Pause/Resume, confirmed Skip/Restart, pinned aquarium selection, actual save/reload recovery and bounded Settings Local Debug Log are implemented. Main schema2, all existing biology/economy,20-minute day, offline progression, local saves and freshwater lock remain. Details and actual tests: TUTORIAL_OVERHAUL_REPORT.md, TUTORIAL_STATE_MACHINE.md and TUTORIAL_SAVE_SCHEMA.md. Earlier tutorial descriptions below are historical where superseded.
+The interactive12-phase/22-task guide retains its real gameplay requirements. The full route audit corrects the covered empty-canvas target, trusted-event observation order and retained closed-dialog targets. The visible empty-tank setup button opens Tank Setup during the viewing task; it does not auto-fill or prepare the tank. Stable task prerequisites, idempotent observation and opt-in development loop diagnostics support future changes. Resource/filter instructions use actual controls and leave prices, stocks and biological restrictions intact. Existing guide state and verified milestones remain version2; no player save reset is required. See TUTORIAL_FULL_AUDIT_AND_REPAIR_REPORT.md for the flow, modified files, actual browser walkthroughs, interruption/recovery tests and limitations. Earlier tutorial test evidence below is historical where superseded.
 
 
 ## Interface simplification - playable v4.1.1, 2026-10-20

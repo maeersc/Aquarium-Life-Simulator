@@ -2,16 +2,18 @@
 // Onboarding observes real game authorities. It never installs, buys, feeds or
 // changes chemistry, time, RNG, ownership, XP or AC on the player's behalf.
 AL.Tutorial=(()=>{
- const K=AL.Core,D=AL.Data;
+ const K=AL.Core,D=AL.Data,observing=new WeakSet();
+ // Opt-in development diagnostics. Sampling never completes or resets a task.
+ const diagnostics={enabled:false,events:[],sample(s,event){if(!this.enabled)return;const r=state(s),previous=this.events.at(-1),row={...event,profileId:s.accountId,completed:Object.keys(r.completed).join(','),prerequisites:byId[r.current].prerequisites.map(id=>id+':'+!!r.completed[id])};this.events.push(row);this.events=this.events.slice(-80);const tail=this.events.slice(-6);if(tail.length===6&&tail.every(e=>e.profileId===row.profileId&&e.current===row.current&&e.completed===row.completed)&&tail.every((e,i)=>i<2||e.route===tail[i-2].route)&&this.lastDiagnostic!==row.profileId+':'+row.current+':'+row.completed){this.lastDiagnostic=row.profileId+':'+row.current+':'+row.completed;row.diagnosed=true;note(s,'loop-detected',JSON.stringify({previous:row.previous,current:row.current,event:row.trigger,result:row.result,prerequisites:row.prerequisites,route:row.route}));console.warn('Tutorial unresolved route repetition',tail);}}};
  const steps=[
   ['welcome',0,'Build your first healthy saltwater aquarium','Open Aquariums to begin.'],
   ['aquarium',0,'Choose your tutorial aquarium','Use an owned saltwater aquarium, or create one through New Aquarium.'],
-  ['view',0,'Meet your aquarium','Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.'],
-  ['substrate',1,'Choose and place sand','Select sand in Aquarium Store, set its depth and confirm the real purchase. Sand installs directly into the selected aquarium.'],
+  ['view',0,'Meet your aquarium','Review the aquarium. If its empty-tank message is showing, use its highlighted setup button; otherwise click the aquarium or press Enter.'],
+  ['substrate',1,'Choose and place sand','Open the highlighted sand listing. Set Substrate depth (inches), check the price and confirm your aquarium.'],
   ['fill',1,'Fill the aquarium','Use Add water in Tank Setup. Filling and preparing saltwater are separate from biological cycling.'],
   ['prepare',1,'Prepare saltwater','Use Prepare water in Tank Setup. This records actual preparation; it does not establish the nitrogen cycle.'],
   ['filter',2,'Install biological filtration','Use Tank Care > Inventory to install a compatible owned filter. Buy missing equipment in Aquarium Store first.'],
-  ['controller',2,'Provide temperature control','Install an appropriately rated heater or chiller when room conditions require it. Its output and condition matter.'],
+  ['controller',2,'Provide temperature control','Install a heater or chiller rated for your aquarium. Room temperature and equipment condition affect the water.'],
   ['flow',2,'Provide circulation','Install and enable circulation through Tank Care. Stored equipment does not support an aquarium.'],
   ['hardscape',3,'Provide appropriate shelter','For a reef or a species that needs rock shelter, place a compatible rock or cave using the real placement controls.'],
   ['temperature',4,'Check actual temperature and salinity','The thermostat is a target. Wait for actual water temperature to enter the species range; prepare matched saltwater if salinity needs correction.'],
@@ -20,13 +22,13 @@ AL.Tutorial=(()=>{
   ['shop',7,'Find compatible starter livestock','Open Aquarium Store > Saltwater > Fish. Recommendations use real care requirements, volume, level, stock and price.'],
   ['details',8,'Read the fish requirements','Open a suitable fish listing and review its care, minimum volume, water ranges and price. A breeding pair is optional.'],
   ['destination',9,'Review the receiving destination','Use the real Destination aquarium selector, then inspect the compatibility report. Every owned aquarium remains listed.'],
-  ['stocking',9,'Confirm safe stocking','Confirm the real purchase. Store receiving and stocking happen together in one existing transaction; there is no second fee or fictional holding step.'],
+  ['stocking',9,'Confirm safe stocking','Confirm the real purchase. Your payment and the fish entering your aquarium are one transaction.'],
   ['observe',9,'Observe your new resident','Close the store and click the aquarium, or focus it and press Enter. Your fish must actually belong to the tutorial aquarium.'],
-  ['feed',10,'Provide an appropriate meal','Use Tank Care > Feeding. Choose a stocked food from this resident’s diet and submit the real feeding form.'],
+  ['feed',10,'Provide an appropriate meal','Open Tank Care > Feeding. Choose food this fish eats and feed one portion.'],
   ['appetite',10,'Watch the fish eat','Wait for an actual meal to be consumed. Additional portions are not needed while compatible food is still in the water.'],
   ['inspect',10,'Inspect your resident','Open the living fish inspector from Livestock Collection or the aquarium. Review hunger, stress, health and care; symptoms alone do not diagnose disease.'],
-  ['complete',11,'Your First Saltwater Aquarium Is Ready!','Verified setup, safe stocking and real care are recorded. Existing achievements remain in Field Journal > Progress. No extra tutorial AC or XP is invented.']
- ].map(([id,phase,title,instruction],i,a)=>({id,phase,title,instruction,next:a[i+1]?.[0]||null,uiContext:({welcome:'Aquariums / My Aquariums',aquarium:'Aquariums / selection or new purchase',view:'Main aquarium',substrate:'Store / Saltwater / Sand',fill:'Aquariums / Tank Setup',prepare:'Aquariums / Tank Setup',filter:'Tank Care / Inventory or equipment store',controller:'Tank Care / installed controller or Inventory',flow:'Tank Care / Inventory or equipment store',hardscape:'Inventory or Store / Rocks, then aquarium placement',temperature:'Actual readings or installed thermostat',cycle:'Tank Setup then actual chemistry',quality:'Actual aquarium water readings',shop:'Store / Saltwater / Fish',details:'Actual fish listing details',destination:'Purchase destination and compatibility report',stocking:'Existing atomic purchase confirmation',observe:'Main aquarium',feed:'Tank Care / Feeding',appetite:'Main aquarium / real meal',inspect:'Living fish inspector',complete:'Completion summary'})[id],target:id,validation:phase<7?'Authoritative physical state and required observation':'Actual interface or individual gameplay evidence',completionEvent:'step-completed:'+id,expected:id==='feed'?'Successful compatible feed action':id==='appetite'?'Recorded consumption of a real meal':id==='stocking'?'Permanent owned fish identity':id==='cycle'?'Authoritative biological cycling':id==='complete'?'All verified milestones':'Verified state or actual interface interaction',recovery:'Return to the pinned aquarium and resolve the current real requirement.'}));
+  ['complete',11,'Your First Saltwater Aquarium Is Ready!','Your setup, fish and first meal are recorded. Keep checking water, food and installed equipment. View earned rewards in Field Journal > Progress.']
+ ].map(([id,phase,title,instruction],i,a)=>({id,phase,title,instruction,prerequisites:i?[a[i-1][0]]:[],next:a[i+1]?.[0]||null,uiContext:({welcome:'Aquariums / My Aquariums',aquarium:'Aquariums / selection or new purchase',view:'Main aquarium',substrate:'Store / Saltwater / Sand',fill:'Aquariums / Tank Setup',prepare:'Aquariums / Tank Setup',filter:'Tank Care / Inventory or equipment store',controller:'Tank Care / installed controller or Inventory',flow:'Tank Care / Inventory or equipment store',hardscape:'Inventory or Store / Rocks, then aquarium placement',temperature:'Actual readings or installed thermostat',cycle:'Tank Setup then actual chemistry',quality:'Actual aquarium water readings',shop:'Store / Saltwater / Fish',details:'Actual fish listing details',destination:'Purchase destination and compatibility report',stocking:'Existing atomic purchase confirmation',observe:'Main aquarium',feed:'Tank Care / Feeding',appetite:'Main aquarium / real meal',inspect:'Living fish inspector',complete:'Completion summary'})[id],target:id,validation:phase<7?'Authoritative physical state and required observation':'Actual interface or individual gameplay evidence',completionEvent:'step-completed:'+id,expected:id==='feed'?'Successful compatible feed action':id==='appetite'?'Recorded consumption of a real meal':id==='stocking'?'Permanent owned fish identity':id==='cycle'?'Authoritative biological cycling':id==='complete'?'All verified milestones':'Verified state or actual interface interaction',recovery:'Return to the pinned aquarium and resolve the current real requirement.'}));
  const byId=Object.fromEntries(steps.map(d=>[d.id,d]));
  const physical=new Set(['aquarium','substrate','fill','prepare','filter','controller','flow','hardscape','temperature','cycle']);
  function note(s,kind,detail='',stepId){const r=s.update29?.tutorial;if(r?.version!==2)return;r.audit.push({seq:r.nextAudit++,time:s.time,kind,stepId:stepId||r.current,detail:String(detail).slice(0,350)});r.audit=r.audit.slice(-200);}
@@ -51,7 +53,8 @@ AL.Tutorial=(()=>{
  function hardscapeNeeded(s,t){return ['rocks','sand'].includes(species(s).habitat)||!state(s).signals.priorOwnership&&t.kind==='reef';}
  function sandNeeded(s,t){return species(s).habitat==='sand'||t.kind!=='quarantine'&&!state(s).signals.priorOwnership;}
  function current(s){return byId[state(s)?.current]||steps[0];}
- function observe(s,source='state'){migrate(s);const r=state(s);if(!r||r.status!=='active')return;let t=tank(s);
+ function observe(s,source='state'){if(observing.has(s))return;observing.add(s);try{return observeState(s,source);}finally{observing.delete(s);}}
+ function observeState(s,source){migrate(s);const r=state(s);if(!r||r.status!=='active')return;let t=tank(s);
   if(r.tankId&&!t){r.previousTanks.push({tankId:r.tankId,ended:s.time,completed:Object.keys(r.completed)});r.previousTanks=r.previousTanks.slice(-8);r.tankId=null;r.fishId=null;r.species=null;r.productId=null;r.completed={};r.signals={};r.current='aquarium';r.step=0;note(s,'aquarium-unavailable','The tutorial aquarium was sold or removed. Choose another owned saltwater aquarium.');}
   if(!r.tankId&&K.selected(s)?.water==='marine'){bindTank(s,K.selected(s).id);t=tank(s);}
   if(!t)return;
@@ -85,7 +88,7 @@ AL.Tutorial=(()=>{
   if(a.op==='chooseTank'){bindTank(s,a.tankId);observe(s);return;}if(a.op==='acknowledge'){if(r.status==='completed')r.completionSeen=true;return;}if(a.op==='review'){if(r.status==='completed')r.completionSeen=false;return;}
   if(a.op!=='interaction'||!AL.TutorialUI?.consumeInteraction(s,a))throw Error('Tutorial progression requires a verified gameplay action or actual interface interaction.');
   if(r.status!=='active'||s.selectedTank!==r.tankId)return;const stamp={time:s.time,tankId:r.tankId};
-  if(a.kind==='details'){const p=AL.DailyStore.products(s).find(p=>p.id===a.productId);if(!p||p.kind!=='fish'||!eligible(D.species[p.species],tank(s))||!report(s,tank(s),p.species).ok)throw Error('Choose a currently compatible starter listing.');r.species=p.species;r.productId=p.id;r.signals.details={...stamp,productId:p.id};delete r.signals.destination;delete r.signals.compatibility;delete r.completed.details;delete r.completed.destination;}
+  if(a.kind==='details'){const p=AL.DailyStore.products(s).find(p=>p.id===a.productId);if(!p||p.kind!=='fish'||!eligible(D.species[p.species],tank(s))||!report(s,tank(s),p.species).ok)throw Error('Choose a currently compatible starter listing.');if(r.productId!==p.id){delete r.signals.destination;delete r.signals.compatibility;delete r.completed.destination;}r.species=p.species;r.productId=p.id;r.signals.details={...stamp,productId:p.id};}
   else if(['destination','compatibility'].includes(a.kind)){if(a.productId!==r.productId||!report(s).ok)return;r.signals[a.kind]={...stamp,productId:a.productId};}
   else if(a.kind==='inspect'){if(resident(s)?.id!==a.fishId)return;r.signals.inspect={...stamp,fishId:a.fishId};}
   else if(['welcome','view','readings','shop','observe'].includes(a.kind)){if(a.kind==='readings'&&!report(s).ok)return;r.signals[a.kind]=stamp;}else throw Error('Unknown tutorial interaction.');
@@ -100,5 +103,5 @@ AL.Tutorial=(()=>{
  }
  const protects=(s,t)=>!!t&&state(s)?.tankId===t.id&&['active','paused'].includes(state(s).status);
  function saveCheckpoint(s){const r=state(s);if(r?.version!==2)return ()=>{};const audit=r.audit.slice(),next=r.nextAudit;note(s,'saved','Main save successfully written to browser localStorage.');return ()=>{r.audit=audit;r.nextAudit=next;};}
- return {steps,byId,migrate,observe,action,beforeAction,afterAction,validate,note,state,tank,resident,species,eligible,candidate,report,current,heatNeeded,hardscapeNeeded,protects,storeReport,saveCheckpoint};
+ return {diagnostics,steps,byId,migrate,observe,action,beforeAction,afterAction,validate,note,state,tank,resident,species,eligible,candidate,report,current,heatNeeded,hardscapeNeeded,protects,storeReport,saveCheckpoint};
 })();

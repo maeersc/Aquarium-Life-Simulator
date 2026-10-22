@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-20T20:10:42.944236+00:00",
+  "builtAt": "2026-10-21T21:00:58.621317+00:00",
   "entryPoint": "index.html",
-  "gameContent": "v4.2",
+  "gameContent": "v4.2.1",
   "buildCommand": "python build.py",
   "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
-  "sourceFiles": 2007,
-  "sourceBytes": 844250480,
+  "sourceFiles": 2008,
+  "sourceBytes": 844273006,
   "files": [
     {
       "path": "ACHIEVEMENT_OBJECTIVES.md",
@@ -69,8 +69,8 @@
     },
     {
       "path": "DEVELOPMENT_STATUS.md",
-      "bytes": 54532,
-      "sha256": "0fa618717a526feef9d4e0eeea4452a9d185e98de120e1daa154eaf2fd2b8cc5"
+      "bytes": 54437,
+      "sha256": "f919955fccd2785948cfd14e6631c716324747350988ed416da65d702a84c5c1"
     },
     {
       "path": "DIVING_EXPANSION_REPORT.md",
@@ -198,19 +198,24 @@
       "sha256": "c7a16cb8cffae70c8632d3ab7228665284f8028b6472fdfa9da4fa615e793c04"
     },
     {
+      "path": "TUTORIAL_FULL_AUDIT_AND_REPAIR_REPORT.md",
+      "bytes": 15292,
+      "sha256": "c119194a89b30fc9b6745103889f7bcd72df9d663563694ba67d52658d85e5f2"
+    },
+    {
       "path": "TUTORIAL_OVERHAUL_REPORT.md",
-      "bytes": 13591,
-      "sha256": "ac84b6406a7c2911d81be21766c7b50433e12df23559a01baeb263335c689f4a"
+      "bytes": 13848,
+      "sha256": "f0e5944ac33b18de58e61c441a946dec25cf684a4de238c4dca791c3153931c3"
     },
     {
       "path": "TUTORIAL_SAVE_SCHEMA.md",
-      "bytes": 4186,
-      "sha256": "23c24c8f5053aed7f4bbac0bf7a2d7e00ceb7d6109b1d4e85153d27aac03f876"
+      "bytes": 4942,
+      "sha256": "2bdb61c7afd3a7720a05e9ce51d378a03713c8864c59ded453b725aa7a4a0647"
     },
     {
       "path": "TUTORIAL_STATE_MACHINE.md",
-      "bytes": 8195,
-      "sha256": "79c07a668b242e88e2398c18af6abce1ad137032508d188e3e451f3adf0f9941"
+      "bytes": 10518,
+      "sha256": "b3993cb343512b19a43c56131b444dbd519b92e0ac36bb944739f10c5a11113d"
     },
     {
       "path": "UI_LAYOUT_CLEANUP_REPORT.md",
@@ -9404,8 +9409,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 15586,
-      "sha256": "7e33720e20bc3a700529880e307de4424a76f7f334b66d63b9013e1eef63a9f2"
+      "bytes": 15588,
+      "sha256": "498127ce0ec1a13e52bb1fb0f134ff5e8b9515afeb07a439feeac8f5f2fa0e9f"
     },
     {
       "path": "js/app-shell.js",
@@ -9969,18 +9974,18 @@
     },
     {
       "path": "js/tutorial-ui.js",
-      "bytes": 31639,
-      "sha256": "aaae3adeac8ee1eeee5214145f652ede96c78d12a84761dc3a2ca30eae4aa360"
+      "bytes": 34236,
+      "sha256": "da4e0b60d1c3c0f1f594c55921c1c558a0d2e01c826a0c269b18b16ab1311af4"
     },
     {
       "path": "js/tutorial.js",
-      "bytes": 22163,
-      "sha256": "cd02231b0dfc5f5f94e071a04582f2344b43bde5f1847277394fedf9d69eff19"
+      "bytes": 23423,
+      "sha256": "e3d4543cc767cdd3e46e30d6389ebf2d7c9d4168c1dfb91a539d37e527977d60"
     },
     {
       "path": "js/ui.js",
-      "bytes": 68287,
-      "sha256": "582261fa68ce3272e8233a994373f2da65bd4c72f6533a92efa4681332e6b183"
+      "bytes": 68421,
+      "sha256": "9e74a82255d687a862b54854f2a1e2fc45811a7d9b11d81321b9fa03a04579d2"
     },
     {
       "path": "js/update29-art-data.js",

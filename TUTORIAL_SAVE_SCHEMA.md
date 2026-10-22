@@ -33,3 +33,7 @@ Actual successful save diagnostics are included in the encoded main checkpoint. 
 Switching the selected aquarium keeps the tutorial's pinned identity. Deliberately choosing another guide tank starts fresh task observations for that tank and preserves previous references. Losing the active guide tank clears its current task evidence safely. Losing the target fish clears that individual's stocking/care observations without removing remains, altering death history or creating another animal.
 
 No remote account, server save, analytics service or external logging endpoint is introduced. Profile/origin separation and the existing local financial replay guards remain unchanged.
+
+## Loop repair compatibility - v4.2.1
+
+No new save version or required field is introduced. Explicit descriptor prerequisites and the observer guard are code-only. Pending capture timers and developer route traces are ephemeral and never persisted as verified actions. Previously verified milestones retain their IDs/times; same-product detail reopening preserves destination checks. Reopening after a browser reload guides the player back to the actual uncommitted form, with the existing transaction guards preventing repeat ownership or payments. Native details/modal state is intentionally not restored as a pending financial transaction. Five real interruption checkpoints are covered in the full audit report.

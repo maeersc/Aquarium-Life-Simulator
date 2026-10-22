@@ -1,5 +1,7 @@
 # Interactive saltwater tutorial overhaul
 
+Historical v4.2 record. The original synthetic-click checks did not prove that the highlighted pointer route worked. Current repairs and executed route evidence are in [TUTORIAL_FULL_AUDIT_AND_REPAIR_REPORT.md](TUTORIAL_FULL_AUDIT_AND_REPAIR_REPORT.md).
+
 October 20, 2026 - playable v4.2 - consolidated master v4.12
 
 The passive corner tutorial has been replaced with a guided, persistent real-action experience. Twenty-two tasks cover the twelve requested phases. Progress requires genuine state or interaction evidence; there is no Next-button completion path.

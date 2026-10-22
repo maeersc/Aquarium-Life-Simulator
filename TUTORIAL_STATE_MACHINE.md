@@ -1,16 +1,16 @@
 # Interactive saltwater onboarding
 
-Playable v4.2 - master v4.12 - October 20, 2026
+Playable v4.2.1 - master v4.13 - October 21, 2026
 
 The authoritative tutorial rule lives in master section 5.6. This document describes the implementation in `js/tutorial.js` and `js/tutorial-ui.js`.
 
 ## Model and transitions
 
-There are 22 stable task IDs grouped into twelve phases. Each descriptor defines its ID, phase, context, logical target, instruction, expected action, validation, completion event, next ID and interruption recovery. The model observes real Core transactions and fixed simulation steps. The UI resolves actual DOM elements; it never performs the task by clicking a tutorial button.
+There are 22 stable task IDs grouped into twelve phases. Each descriptor defines its ID, phase, explicit prerequisite ID, context, logical target, instruction, expected action, validation, completion event, next ID and interruption recovery. The prerequisite graph is a directed acyclic chain; independently verified physical states may already be satisfied. The current task is always the first missing required evidence. The model observes real Core transactions and fixed simulation steps. The UI resolves actual DOM elements; it never performs the task by clicking a tutorial button.
 
 | Phase | Task IDs | Required evidence |
 |---|---|---|
-|1 Welcome and selection|`welcome`, `aquarium`, `view`|Actual Aquariums interaction; owned marine tank; actual canvas click or keyboard interaction|
+|1 Welcome and selection|`welcome`, `aquarium`, `view`|Actual Aquariums interaction; owned marine tank; visible empty-tank setup button or an unobstructed canvas interaction|
 |2 Preparation|`substrate`, `fill`, `prepare`|Actual sand depth where appropriate; authoritative filled and prepared flags|
 |3 Life support|`filter`, `controller`, `flow`|Operational installed devices; temperature control where room/species conditions require it|
 |4 Shelter|`hardscape`|Actual supported rock/cave where relevant; a preview or canceled placement does not count|
@@ -31,7 +31,7 @@ The model changes tutorial records only. It does not advance time, change bacter
 
 The resolver walks the currently open native modal, primary window, Store habitat/category, product details, real destination selector and final action. It points to Close, the existing window selector or a tab when the player has navigated elsewhere. It uses stable IDs/data attributes rather than recorded pixel coordinates.
 
-The small tooltip, outline/ring and four dim regions derive their position from actual DOM bounds, clipped against scroll containers. Only the tooltip accepts pointer events; the ring and dim regions cannot intercept the target. Resizing, scrolling, native dialogs, dynamic listings and keyboard focus are handled. A missing target produces a logged recoverable message and working Pause/Skip controls. Repeated checks do not continuously log the same failure. Offscreen targets do not leave a misleading ring on unrelated controls.
+The small tooltip, outline/ring and four dim regions derive their position from actual DOM bounds, clipped against scroll containers. Placement protects the full active purchase, installation or thermostat form so the tooltip does not cover other required price, quantity or destination fields. Only the tooltip accepts pointer events; the ring and dim regions cannot intercept the target. Resizing, scrolling, native dialogs, dynamic listings and keyboard focus are handled. A missing target produces a logged recoverable message and working Pause/Skip controls. Repeated checks do not continuously log the same failure. Offscreen targets do not leave a misleading ring on unrelated controls.
 
 No Next/Back interface exists. Focus target scrolls and focuses an actual element without clicking it. Pause hides guidance; Resume returns to the saved objective. Skip and Restart use a separate native confirmation dialog, preserving pending Store/details content. Restart resets guide progress only and retains bounded diagnostic history. Completion has an explicit review/dismiss control and shows the recorded completion time separately from current aquarium status.
 
@@ -58,3 +58,13 @@ Starter recommendations use actual implemented care data, minimum volume, level,
 Settings > Local Debug Log shows the last 200 profile-specific guide events and can export them as a local JSON file. Events include action, validation, step start/completion, target resolution/missing targets, pause/resume, skip/restart, save and restoration. Save success is committed with the main local save; failed storage rolls back the provisional success record. Restoration observes saved state without simulating elapsed time.
 
 The current build had no separate Local Debug Log service before this update; this view exposes the bounded tutorial audit instead of inventing a remote logging dependency. All data stays in the existing local profile save. The guide has visible text and outlines, labeled native controls, keyboard support and static reduced-motion presentation. It requires no rapid reactions. Existing native transaction confirmations and modal-close behavior remain.
+
+## Full route audit and transition safety - v4.2.1
+
+A visible empty-tank panel intercepts pointer input, so its setup button is the actual initial target. The guided viewing action opens Tank Setup and records real navigation; sand, fill and preparation still require their own ordinary actions. A covered canvas is never demanded as the only initial pointer path.
+
+Trusted native input can checkpoint microtasks between event listeners. Capture metadata and arguments immediately, then validate the completed UI outcome in a later timer task. Discard queued observations from a different profile or a task that has since changed. One-use tickets and the bind-once guard remain. The model has a reentrancy guard and idempotent milestone writes. Reopening the same product does not erase reviewed destination evidence; choosing a different listing legitimately invalidates only listing-specific review.
+
+Only open details dialogs supply purchase markers, destination forms and thermostat inputs. A closed dialog may retain HTML, but it supplies no active target. Store/Inventory search and category blockers use their actual visible controls. Existing installed/prepared/cycled/owned/recorded-care states remain valid observations. Current safety is always checked again before stocking and completion.
+
+`AL.Tutorial.diagnostics.enabled` defaults to false. Developers may opt in through DevTools. Its bounded80-event in-memory trace detects six unresolved alternating/repeated routes with unchanged profile/task/milestones, emits one Local Debug Log warning per unchanged progress state, and records previous/current task, triggering event, result and prerequisites. It never changes progress, money, biology or UI navigation. Real cycling/meal waiting produces no diagnostic without repeated user actions. The complete task-by-task map and current executed A-F cases are in TUTORIAL_FULL_AUDIT_AND_REPAIR_REPORT.md.
