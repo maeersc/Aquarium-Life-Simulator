@@ -1,0 +1,135 @@
+[
+  {
+    "id": "amphiprion-fuscocaudatus",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Pale caudal, three narrow body bands and subdued olive fins match the captured stage reference. Adult true iris manually tracked across all sixteen original poses to remove false-outline detections; corrected whole bodies and attached fins re-inspected."
+  },
+  {
+    "id": "amphiprion-latifasciatus",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Juvenile pale rear patch and yellow fins retained; adult forked yellow caudal, broad white bands and black body match the source. All sixteen silhouettes have a stable front iris and quiet pectoral/caudal changes."
+  },
+  {
+    "id": "amphiprion-rubrocinctus",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Single pale front band, dark red adult trunk and orange-red juvenile stage preserved. All sixteen cells keep one front iris, complete tail and connected dorsal/ventral/pectoral fins with small pose changes."
+  },
+  {
+    "id": "amphiprion-tricinctus",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Three distinct pale bars, warm brown trunk and yellow fins retain stage identity in all sixteen cells. Head and single iris remain fixed; caudal and pectoral changes stay within clear transparent margins."
+  },
+  {
+    "id": "amphiprion-barberi",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Adult red body with thin pale head bar and juvenile unbanded orange body remain correctly distinct. All sixteen whole silhouettes retain a single iris, original fin roots and restrained attached fin adjustments."
+  },
+  {
+    "id": "amphiprion-pacificus",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Pale dorsal stripe, brown-pink trunk and ivory fins retain the original stage style. All sixteen cells inspected for fixed single iris, quiet pectoral changes and full uncut dorsal and caudal outlines."
+  },
+  {
+    "id": "amphiprion-fuscocaudatus",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Pale caudal, three narrow body bands and subdued olive fins match the captured stage reference. Adult true iris manually tracked across all sixteen original poses to remove false-outline detections; corrected whole bodies and attached fins re-inspected."
+  },
+  {
+    "id": "amphiprion-latifasciatus",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Juvenile pale rear patch and yellow fins retained; adult forked yellow caudal, broad white bands and black body match the source. All sixteen silhouettes have a stable front iris and quiet pectoral/caudal changes."
+  },
+  {
+    "id": "amphiprion-rubrocinctus",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Single pale front band, dark red adult trunk and orange-red juvenile stage preserved. All sixteen cells keep one front iris, complete tail and connected dorsal/ventral/pectoral fins with small pose changes."
+  },
+  {
+    "id": "amphiprion-tricinctus",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Three distinct pale bars, warm brown trunk and yellow fins retain stage identity in all sixteen cells. Head and single iris remain fixed; caudal and pectoral changes stay within clear transparent margins."
+  },
+  {
+    "id": "amphiprion-barberi",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Adult red body with thin pale head bar and juvenile unbanded orange body remain correctly distinct. All sixteen whole silhouettes retain a single iris, original fin roots and restrained attached fin adjustments."
+  },
+  {
+    "id": "amphiprion-pacificus",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Pale dorsal stripe, brown-pink trunk and ivory fins retain the original stage style. All sixteen cells inspected for fixed single iris, quiet pectoral changes and full uncut dorsal and caudal outlines."
+  },
+  {
+    "id": "chalk-bass",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "All sixteen juvenile basslet cells inspected against the actual small juvenile reference. Blue-silver body and orange vertical marks remain consistent; restrained pectoral and tail corrections retain a stable single front iris."
+  },
+  {
+    "id": "amphiprion-fuscocaudatus",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "All sixteen native larval cells inspected against the captured biological baby reference: original translucent developing body, visible large single eye and yolk retained, no adult-downscaling, no clipped silhouette. Small caudal-fold changes remain stage appropriate."
+  },
+  {
+    "id": "amphiprion-latifasciatus",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "All sixteen native larval cells inspected against the captured biological baby reference: original translucent developing body, visible large single eye and yolk retained, no adult-downscaling, no clipped silhouette. Small caudal-fold changes remain stage appropriate."
+  },
+  {
+    "id": "amphiprion-rubrocinctus",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "All sixteen native larval cells inspected against the captured biological baby reference: original translucent developing body, visible large single eye and yolk retained, no adult-downscaling, no clipped silhouette. Small caudal-fold changes remain stage appropriate."
+  },
+  {
+    "id": "amphiprion-tricinctus",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "All sixteen native larval cells inspected against the captured biological baby reference: original translucent developing body, visible large single eye and yolk retained, no adult-downscaling, no clipped silhouette. Small caudal-fold changes remain stage appropriate."
+  },
+  {
+    "id": "amphiprion-barberi",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "All sixteen native larval cells inspected against the captured biological baby reference: original translucent developing body, visible large single eye and yolk retained, no adult-downscaling, no clipped silhouette. Small caudal-fold changes remain stage appropriate."
+  },
+  {
+    "id": "amphiprion-pacificus",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "All sixteen native larval cells inspected against the captured biological baby reference: original translucent developing body, visible large single eye and yolk retained, no adult-downscaling, no clipped silhouette. Small caudal-fold changes remain stage appropriate."
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "gameContent": "v2.9",
+  "sourceFiles": 1505,
+  "sourceBytes": 455864429,
+  "manifestSha256": "414cd21bedf51bdb21c58d122c6648d1e5ba38cace7be16f37eaf0545e612c35",
+  "allSourceDistHashesMatch": true,
+  "pagesArchive": {
+    "name": "AquariumLife-GitHub-Pages.zip",
+    "bytes": 425551063,
+    "sha256": "71d56653a14dfff02ce1ffa277cdec49a55e1e6a81cfd10a2893d7e5f358d506",
+    "crcVerified": true,
+    "rootReady": true
+  },
+  "sourceArchive": {
+    "name": "AquariumLife-v0.1.zip",
+    "command": "python tests/package.py",
+    "crcVerification": "Performed by the packaging command; no recursive archive self-hash is embedded."
+  },
+  "browserResults": [
+    {
+      "browser": "chrome",
+      "suite": "update29",
+      "passed": 412,
+      "failed": 0
+    },
+    {
+      "browser": "chrome",
+      "suite": "expansion",
+      "passed": 362,
+      "failed": 0
+    },
+    {
+      "browser": "chrome",
+      "suite": "diving",
+      "passed": 108,
+      "failed": 0
+    },
+    {
+      "browser": "chrome",
+      "suite": "clownfish",
+      "passed": 7583,
+      "failed": 0
+    },
+    {
+      "browser": "chrome",
+      "suite": "pages",
+      "passed": 247,
+      "failed": 0
+    },
+    {
+      "browser": "edge",
+      "suite": "update29",
+      "passed": 412,
+      "failed": 0
+    },
+    {
+      "browser": "edge",
+      "suite": "expansion",
+      "passed": 362,
+      "failed": 0
+    },
+    {
+      "browser": "edge",
+      "suite": "diving",
+      "passed": 108,
+      "failed": 0
+    },
+    {
+      "browser": "edge",
+      "suite": "clownfish",
+      "passed": 7583,
+      "failed": 0
+    },
+    {
+      "browser": "edge",
+      "suite": "pages",
+      "passed": 247,
+      "failed": 0
+    }
+  ],
+  "combinedPassed": 17424,
+  "combinedFailed": 0,
+  "artworkApproval": "Pending user review",
+  "pdfExport": "Pending; continuity source updated",
+  "bottomMystery": "Content hold for unsupported Legendary host specialist",
+  "finalRebuildNote": "Final document-only boundary-label correction; browser-tested runtime files are unchanged."
+}

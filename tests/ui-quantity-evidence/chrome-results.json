@@ -1,0 +1,724 @@
+{
+  "entry": "C:\\Users\\camae\\Desktop\\Aquarium Game\\index.html",
+  "runtimeSha256": {
+    "js/core.js": "c6acbb832f524aa159fb1510e02bfb8dbf0f81dc7d2c66f6308e17fde81f81a2",
+    "js/store.js": "8ca899df61d0742caaf7f81f769cf8a7cdcbf4d63aef90ceceec074fd722e858",
+    "js/store-rules.js": "0e7345a712747b075ea23584a3f986a7e64b82e20547f189a91fd449bd1ca8ef",
+    "js/equipment-inventory.js": "37e298f94f5f5a90b4b09cdf668ee818623fb0f17c4901a4a44e344c8b12dde3",
+    "js/livestock-market.js": "5859c13abf93c4330b65ad8a449256d44e13dac56eec37306f4ca02cccec1021",
+    "js/equipment-parts.js": "abf5fa09ef9326749d7a96b8d11a0f96cf98e6a896df785984ca47c24c46de32",
+    "js/finance.js": "9e9983e94b78e14ecacb4ac40394a362a5fa708d0be2ed355e0252cc0c79eb3f",
+    "css/ui-cleanup.css": "ab73d5ab526f9fce9d6ab83e965193e4c7468bd5194360ba9551689b3162e8ea",
+    "css/theme.css": "f5a1ba0dea8ac7532f07b2112ff1adc73d51b060744493bc947ae463ae7988a0",
+    "index.html": "60b092ccbc6432e9707cbacff94508477c9839c865367a612ef57d734f3a3399",
+    "js/ui.js": "64ca4b5ecccba953a1e8e250965981d65b407b1d5c1b41038b9b43307b18f834",
+    "assets/ui/downward-scales.svg": "ef33b16d6026c6f0c417be9b0c4268ffa4a3334997a95ae78a568bde2d4d838c"
+  },
+  "checks": [
+    {
+      "name": "buyEquipment: quantity3 is one accurate debit/stock/ledger entry, selected tank preserved",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: invalid 0 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: invalid -1 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: invalid 1.5 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: invalid 100 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: invalid NaN rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: invalid Infinity rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: invalid 3 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: invalid null rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: insufficient AC rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: beyond stock rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipment: reload and duplicate/replayed receipt cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "buyFood: quantity3 is one accurate debit/stock/ledger entry, selected tank preserved",
+      "pass": true
+    },
+    {
+      "name": "buyFood: invalid 0 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: invalid -1 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: invalid 1.5 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: invalid 100 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: invalid NaN rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: invalid Infinity rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: invalid 3 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: invalid null rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: insufficient AC rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: beyond stock rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyFood: reload and duplicate/replayed receipt cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "buySupply: quantity3 is one accurate debit/stock/ledger entry, selected tank preserved",
+      "pass": true
+    },
+    {
+      "name": "buySupply: invalid 0 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: invalid -1 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: invalid 1.5 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: invalid 100 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: invalid NaN rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: invalid Infinity rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: invalid 3 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: invalid null rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: insufficient AC rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: beyond stock rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buySupply: reload and duplicate/replayed receipt cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: quantity3 is one accurate debit/stock/ledger entry, selected tank preserved",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: invalid 0 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: invalid -1 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: invalid 1.5 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: invalid 100 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: invalid NaN rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: invalid Infinity rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: invalid 3 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: invalid null rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: insufficient AC rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: beyond stock rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyMedicine: reload and duplicate/replayed receipt cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: quantity3 is one accurate debit/stock/ledger entry, selected tank preserved",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: invalid 0 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: invalid -1 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: invalid 1.5 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: invalid 100 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: invalid NaN rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: invalid Infinity rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: invalid 3 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: invalid null rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: insufficient AC rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: beyond stock rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyEquipmentPart: reload and duplicate/replayed receipt cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "buyRock: quantity3 is one accurate debit/stock/ledger entry, selected tank preserved",
+      "pass": true
+    },
+    {
+      "name": "buyRock: invalid 0 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: invalid -1 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: invalid 1.5 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: invalid 100 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: invalid NaN rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: invalid Infinity rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: invalid 3 rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: invalid null rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: insufficient AC rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: beyond stock rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "buyRock: reload and duplicate/replayed receipt cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Equipment3 creates3 different valid stored identities with full fixed heater ratings",
+      "pass": true
+    },
+    {
+      "name": "Equipment capacity guard rejects full order, not a partial purchase",
+      "pass": true
+    },
+    {
+      "name": "Food adds20 portions per pack; supply preserves doses per pack",
+      "pass": true
+    },
+    {
+      "name": "Ordinary medicine merges safely at1000 and creates a separate valid batch for overflow",
+      "pass": true
+    },
+    {
+      "name": "Bulk rocks stay exclusively in storage and retain exact identity when placed",
+      "pass": true
+    },
+    {
+      "name": "Bulk rock storage capacity blocks the complete order",
+      "pass": true
+    },
+    {
+      "name": "buyFlora: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "buyInvertebrate: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "buyMysteryEgg: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "buyEgg: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "buyFish: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "buyBreedingPair: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "buySand: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "decorate: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "buyRack: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "buySupply: generic bulk cannot bypass individual rules",
+      "pass": true
+    },
+    {
+      "name": "Restricted dealer batches remain single purchase",
+      "pass": true
+    },
+    {
+      "name": "Changing destination sizes equipment but preserves selected aquarium and residents",
+      "pass": true
+    },
+    {
+      "name": "Wrong habitat and missing aquarium still reject quantity purchases",
+      "pass": true
+    },
+    {
+      "name": "Inventory overflow fails atomically without spending",
+      "pass": true
+    },
+    {
+      "name": "A final save validation failure discards every new item and the whole debit",
+      "pass": true
+    },
+    {
+      "name": "Invalid individual rock placement rejects after its draft debit without changing the original",
+      "pass": true
+    },
+    {
+      "name": "Existing residents still require their own compatibility checks",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: filter supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: heater supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: light supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: air supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: skimmer supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: reefLight supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: flow supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: feeder supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: chiller supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: dosing supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All equipment catalog: containment supports distinct units through the shared policy",
+      "pass": true
+    },
+    {
+      "name": "All ordinary medical catalog: invertSupport preserves dose count",
+      "pass": true
+    },
+    {
+      "name": "All ordinary medical catalog: diagnostic preserves dose count",
+      "pass": true
+    },
+    {
+      "name": "All ordinary medical catalog: copper preserves dose count",
+      "pass": true
+    },
+    {
+      "name": "All ordinary medical catalog: ciliate preserves dose count",
+      "pass": true
+    },
+    {
+      "name": "All ordinary medical catalog: fluke preserves dose count",
+      "pass": true
+    },
+    {
+      "name": "All ordinary medical catalog: antibacterial preserves dose count",
+      "pass": true
+    },
+    {
+      "name": "All ordinary medical catalog: support preserves dose count",
+      "pass": true
+    },
+    {
+      "name": "All ordinary medical catalog: coralDip preserves dose count",
+      "pass": true
+    },
+    {
+      "name": "All ordinary medical catalog: coralSupport preserves dose count",
+      "pass": true
+    },
+    {
+      "name": "Medical capacity rejects a complete unmergeable order and preserves all batches",
+      "pass": true
+    },
+    {
+      "name": "Receipt item IDs match the exact delivered equipment identities",
+      "pass": true
+    },
+    {
+      "name": "Details exposes unit price, accessible quantity stepper and total",
+      "pass": true
+    },
+    {
+      "name": "Trusted plus buttons instantly update quantity and exact total",
+      "pass": true
+    },
+    {
+      "name": "Trusted minus preserves whole positive quantities",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: store details and quantity controls do not overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: store details and quantity controls do not overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: store details and quantity controls do not overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: store details and quantity controls do not overflow",
+      "pass": true
+    },
+    {
+      "name": "Actual purchase and immediate duplicate submission charge once and create3 identities",
+      "pass": true
+    },
+    {
+      "name": "UI invalid/excessive quantity '0' disables confirmation",
+      "pass": true
+    },
+    {
+      "name": "UI invalid/excessive quantity '-2' disables confirmation",
+      "pass": true
+    },
+    {
+      "name": "UI invalid/excessive quantity '1.5' disables confirmation",
+      "pass": true
+    },
+    {
+      "name": "UI invalid/excessive quantity '99' disables confirmation",
+      "pass": true
+    },
+    {
+      "name": "UI invalid/excessive quantity '' disables confirmation",
+      "pass": true
+    },
+    {
+      "name": "Actual food UI adds40 portions for2 packs",
+      "pass": true
+    },
+    {
+      "name": "Actual supply UI retains doses per pack",
+      "pass": true
+    },
+    {
+      "name": "Actual ordinary medical purchase records pack count",
+      "pass": true
+    },
+    {
+      "name": "Rock details explicitly explain storage then individual placement",
+      "pass": true
+    },
+    {
+      "name": "Actual bulk rock UI adds2 stored pieces without entering placement",
+      "pass": true
+    },
+    {
+      "name": "Substrate stays a single depth installation with explanation",
+      "pass": true
+    },
+    {
+      "name": "Reusable tools remain individually owned",
+      "pass": true
+    },
+    {
+      "name": "Store opening retains selected aquarium and shows its name",
+      "pass": true
+    },
+    {
+      "name": "Freshwater stays locked and preserves destination",
+      "pass": true
+    },
+    {
+      "name": "Deep Market tab preserves selected destination",
+      "pass": true
+    },
+    {
+      "name": "Deep Market equipment uses the same quantity UI and current quote",
+      "pass": true
+    },
+    {
+      "name": "Deep Market uses shared equipment delivery and ledger category",
+      "pass": true
+    },
+    {
+      "name": "Close/reopen retains current aquarium",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: familiar layout has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: aquarium header aligns with wellbeing column",
+      "pass": true
+    },
+    {
+      "name": "1600x900: familiar layout has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: aquarium header aligns with wellbeing column",
+      "pass": true
+    },
+    {
+      "name": "1366x768: familiar layout has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: aquarium header aligns with wellbeing column",
+      "pass": true
+    },
+    {
+      "name": "390x844: familiar layout has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Background is black with a static repeat and solid slate panels",
+      "pass": true
+    },
+    {
+      "name": "Aquarium Canvas has no decorative background image or overlay",
+      "pass": true
+    },
+    {
+      "name": "Existing sidebar destination journal remains usable",
+      "pass": true
+    },
+    {
+      "name": "Selected sidebar state journal retains a solid highlighted surface",
+      "pass": true
+    },
+    {
+      "name": "Existing sidebar destination equipment remains usable",
+      "pass": true
+    },
+    {
+      "name": "Selected sidebar state equipment retains a solid highlighted surface",
+      "pass": true
+    },
+    {
+      "name": "Existing sidebar destination aquariums remains usable",
+      "pass": true
+    },
+    {
+      "name": "Selected sidebar state aquariums retains a solid highlighted surface",
+      "pass": true
+    },
+    {
+      "name": "Existing sidebar destination settings remains usable",
+      "pass": true
+    },
+    {
+      "name": "Selected sidebar state settings retains a solid highlighted surface",
+      "pass": true
+    },
+    {
+      "name": "Static texture retains capped scene FPS (within10% in same-scene comparison)",
+      "pass": true,
+      "samples": [
+        {
+          "pattern": false,
+          "frames": 181,
+          "elapsed": 3001.199999999255,
+          "fps": 60.309209649488515,
+          "drawMs": 105.69999999552965,
+          "meanDrawMs": 0.5839779005277881
+        },
+        {
+          "pattern": true,
+          "frames": 181,
+          "elapsed": 3003.7000000011176,
+          "fps": 60.25901388285536,
+          "drawMs": 92.40000000037253,
+          "meanDrawMs": 0.510497237571119
+        }
+      ]
+    },
+    {
+      "name": "Local save accepts the complete purchased state",
+      "pass": true
+    },
+    {
+      "name": "Browser reload preserves exact items/stacks/identities/wallet/receipts/destination",
+      "pass": true
+    },
+    {
+      "name": "No uncaught runtime exceptions",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "passed": 164,
+  "failed": 0,
+  "networkDisabled": true,
+  "performance": {
+    "samples": [
+      {
+        "pattern": false,
+        "frames": 181,
+        "elapsed": 3001.199999999255,
+        "fps": 60.309209649488515,
+        "drawMs": 105.69999999552965,
+        "meanDrawMs": 0.5839779005277881
+      },
+      {
+        "pattern": true,
+        "frames": 181,
+        "elapsed": 3003.7000000011176,
+        "fps": 60.25901388285536,
+        "drawMs": 92.40000000037253,
+        "meanDrawMs": 0.510497237571119
+      }
+    ],
+    "stats": {
+      "raf": 1,
+      "timer": 0,
+      "mode": "tank",
+      "returning": false,
+      "pendingMinutes": 1.1777600000008952
+    }
+  }
+}

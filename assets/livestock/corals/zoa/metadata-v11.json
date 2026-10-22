@@ -1,0 +1,112 @@
+{
+  "id": "zoa",
+  "name": "Zoanthids",
+  "family": "corals",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "frames": 10,
+  "frameDurationMs": 1250,
+  "atlas": "assets/livestock/corals/zoa/atlas-v11.png",
+  "bounds": [
+    [
+      12,
+      21,
+      180,
+      184
+    ],
+    [
+      9,
+      28,
+      182,
+      184
+    ],
+    [
+      12,
+      21,
+      179,
+      184
+    ],
+    [
+      16,
+      21,
+      183,
+      184
+    ],
+    [
+      11,
+      30,
+      181,
+      184
+    ],
+    [
+      12,
+      18,
+      180,
+      184
+    ],
+    [
+      9,
+      28,
+      182,
+      184
+    ],
+    [
+      12,
+      20,
+      180,
+      184
+    ],
+    [
+      16,
+      21,
+      183,
+      184
+    ],
+    [
+      11,
+      30,
+      181,
+      184
+    ]
+  ],
+  "anchor": [
+    96,
+    184
+  ],
+  "runtimeFloraId": "zoa",
+  "states": [
+    "healthy",
+    "stressed",
+    "bleached",
+    "tissue-loss",
+    "dead"
+  ],
+  "stateFrames": {
+    "healthy": [
+      0,
+      5
+    ],
+    "stressed": [
+      1,
+      6
+    ],
+    "bleached": [
+      2,
+      7
+    ],
+    "tissue-loss": [
+      3,
+      8
+    ],
+    "dead": [
+      4,
+      9
+    ]
+  },
+  "facingBehavior": "stationary",
+  "layer": "flora",
+  "source": "source-v2.png",
+  "rigid": false
+}

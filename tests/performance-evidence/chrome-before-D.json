@@ -1,0 +1,74 @@
+{
+  "elapsedMs": 7001.799999999814,
+  "draws": 277,
+  "fps": 39.561255677112655,
+  "frameGapP50": 32.200000000186265,
+  "frameGapP95": 34.3000000002794,
+  "frameGapP99": 34.90000000037253,
+  "drawMsP50": 2.2000000001862645,
+  "drawMsP95": 3.1999999997206032,
+  "drawMsMax": 3.6000000000931323,
+  "calls": {
+    "draw": {
+      "count": 277,
+      "ms": 641.6000000019558,
+      "max": 3.6000000000931323
+    },
+    "shell": {
+      "count": 1,
+      "ms": 0,
+      "max": 0
+    },
+    "UI": {
+      "count": 1,
+      "ms": 1.1000000000931323,
+      "max": 1.1000000000931323
+    },
+    "vitals": {
+      "count": 7,
+      "ms": 5.000000000465661,
+      "max": 0.8999999999068677
+    },
+    "simulation": {
+      "count": 1,
+      "ms": 1.8000000002793968,
+      "max": 1.8000000002793968
+    }
+  },
+  "longTasks": [],
+  "caches": {
+    "sheets": {
+      "loaded": 15,
+      "maxDecodedSheets": 128,
+      "frameCache": 225,
+      "maxFrames": 1024,
+      "frameHits": 52625,
+      "frameMisses": 225,
+      "frameEvictions": 0
+    },
+    "animation": {
+      "rigBuilds": 24,
+      "poseHits": 0,
+      "poseCache": 26,
+      "maxPoses": 768
+    }
+  },
+  "state": {
+    "fish": 32,
+    "tanks": 4,
+    "gameTime": 2675.030319999999,
+    "hidden": false
+  },
+  "label": "D",
+  "wallSeconds": 7.0,
+  "metrics": {
+    "TaskDuration": 0.8245060000000004,
+    "ScriptDuration": 0.6637520000000001,
+    "LayoutDuration": 0.008522999999999989,
+    "RecalcStyleDuration": 0.002475999999999999
+  },
+  "heapBytes": 329788900,
+  "nodes": 7938,
+  "listeners": 537,
+  "mainThreadCorePercent": 11.778657142857147
+}

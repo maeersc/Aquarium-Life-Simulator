@@ -1,0 +1,112 @@
+{
+  "id": "mushroom",
+  "name": "Mushroom corals",
+  "family": "corals",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "frames": 10,
+  "frameDurationMs": 1250,
+  "atlas": "assets/livestock/corals/mushroom/atlas-v11.png",
+  "bounds": [
+    [
+      12,
+      20,
+      180,
+      184
+    ],
+    [
+      11,
+      36,
+      181,
+      184
+    ],
+    [
+      10,
+      25,
+      181,
+      184
+    ],
+    [
+      14,
+      32,
+      178,
+      184
+    ],
+    [
+      25,
+      43,
+      183,
+      184
+    ],
+    [
+      10,
+      20,
+      181,
+      184
+    ],
+    [
+      10,
+      33,
+      182,
+      184
+    ],
+    [
+      9,
+      21,
+      182,
+      184
+    ],
+    [
+      14,
+      34,
+      178,
+      184
+    ],
+    [
+      9,
+      40,
+      183,
+      184
+    ]
+  ],
+  "anchor": [
+    96,
+    184
+  ],
+  "runtimeFloraId": "mushroom",
+  "states": [
+    "healthy",
+    "stressed",
+    "bleached",
+    "tissue-loss",
+    "dead"
+  ],
+  "stateFrames": {
+    "healthy": [
+      0,
+      5
+    ],
+    "stressed": [
+      1,
+      6
+    ],
+    "bleached": [
+      2,
+      7
+    ],
+    "tissue-loss": [
+      3,
+      8
+    ],
+    "dead": [
+      4,
+      9
+    ]
+  },
+  "facingBehavior": "stationary",
+  "layer": "flora",
+  "source": "source-v2.png",
+  "rigid": false
+}

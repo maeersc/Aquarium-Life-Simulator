@@ -1,0 +1,94 @@
+{
+  "elapsedMs": 7033.300000000745,
+  "draws": 422,
+  "fps": 60.0002843615309,
+  "frameGapP50": 16.700000000186265,
+  "frameGapP95": 17.700000000186265,
+  "frameGapP99": 18.100000000558794,
+  "drawMsP50": 0.7000000001862645,
+  "drawMsP95": 1.099999999627471,
+  "drawMsMax": 1.7999999998137355,
+  "calls": {
+    "draw": {
+      "count": 422,
+      "ms": 305.49999998975545,
+      "max": 1.7999999998137355
+    },
+    "vitals": {
+      "count": 7,
+      "ms": 2.7999999998137355,
+      "max": 0.5
+    },
+    "simulation": {
+      "count": 2,
+      "ms": 3.599999999627471,
+      "max": 2.599999999627471
+    }
+  },
+  "longTasks": [],
+  "scheduler": {
+    "raf": 1,
+    "timer": 0,
+    "mode": "tank",
+    "returning": false,
+    "pendingMinutes": 0.8352799999993239
+  },
+  "caches": {
+    "sheets": {
+      "loaded": 9,
+      "maxDecodedSheets": 128,
+      "frameCache": 117,
+      "maxFrames": 512,
+      "frameHits": 6112,
+      "frameMisses": 117,
+      "frameEvictions": 0,
+      "frameBytes": 15286272,
+      "maxFrameBytes": 33554432,
+      "decodedBytes": 19267584,
+      "maxDecodedBytes": 268435456
+    },
+    "animation": {
+      "rigBuilds": 8,
+      "poseHits": 199,
+      "poseCache": 21,
+      "maxPoses": 768
+    },
+    "rasters": {
+      "entries": 153,
+      "bytes": 1840896,
+      "maxBytes": 33554432,
+      "maxEntries": 8192,
+      "hits": 4501,
+      "misses": 153,
+      "evictions": 0
+    },
+    "sources": {
+      "active": 0,
+      "queued": 0,
+      "pending": 0
+    },
+    "layers": {
+      "entries": 6,
+      "bytes": 2764800,
+      "builds": 43
+    }
+  },
+  "state": {
+    "fish": 8,
+    "tanks": 1,
+    "gameTime": 2675.030319999999,
+    "hidden": false
+  },
+  "label": "B",
+  "wallSeconds": 7.0,
+  "metrics": {
+    "TaskDuration": 0.5278590000000001,
+    "ScriptDuration": 0.343214,
+    "LayoutDuration": 0.004482,
+    "RecalcStyleDuration": 0.000987
+  },
+  "heapBytes": 9441352,
+  "nodes": 1455,
+  "listeners": 490,
+  "mainThreadCorePercent": 7.540842857142858
+}

@@ -1,0 +1,31 @@
+{
+  "usable": 113,
+  "excluded": [
+    {
+      "id": "amphiprion-leucokranos",
+      "reason": "Existing acquisition hold; not usable livestock"
+    },
+    {
+      "id": "amphiprion-mccullochi",
+      "reason": "Existing acquisition hold; not usable livestock"
+    },
+    {
+      "id": "amphiprion-latezonatus",
+      "reason": "Existing acquisition hold; not usable livestock"
+    },
+    {
+      "id": "amphiprion-thiellei",
+      "reason": "Existing acquisition hold; not usable livestock"
+    },
+    {
+      "id": "amphiprion-maohiensis",
+      "reason": "Existing acquisition hold; not usable livestock"
+    },
+    {
+      "id": "periclimenes-colemani",
+      "reason": "Verified living fire-urchin host support is not implemented; no acquisition by any route."
+    }
+  ],
+  "captured": 324,
+  "playerStorageAccess": false
+}

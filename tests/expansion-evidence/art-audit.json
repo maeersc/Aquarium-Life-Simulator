@@ -1,0 +1,262 @@
+{
+  "sheets": 38,
+  "frames": 304,
+  "entries": [
+    {
+      "id": "chalk-bass",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        0
+      ],
+      "sha256": "0c12060318c80fbdaffcbd9da81379e64c28f651220d73c622cb2b0928e2e58a"
+    },
+    {
+      "id": "lantern-bass",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "a3e0fa2f87fe95d027fbbbd1e06dd9c58fae31cc73e333dbdd5b3ad767aeebdf"
+    },
+    {
+      "id": "yellow-assessor",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        6
+      ],
+      "sha256": "778f43ad1fd0f272a21244334e98b687be30a7e44875857baf1c165c3fd495e6"
+    },
+    {
+      "id": "blue-assessor",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "4770572c5ee48aa0fd17e10a1362dda603cfbd6842497c6b13de05b13184e810"
+    },
+    {
+      "id": "candy-basslet",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "2ba4bb7dbc64101cc84dda1b4f1df387322f09bfc41c6034b8fe57066f6a0036"
+    },
+    {
+      "id": "pink-streaked-wrasse",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "755430558cde9ced5c783f4af283c3e771b49bde9620624a4ed2fe1c22687233"
+    },
+    {
+      "id": "white-banded-possum-wrasse",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "1b5c1f01b3382d5d44d29ab4b4df5361bf71aabf4bf6684a92138cda270988bf"
+    },
+    {
+      "id": "tanakas-pygmy-wrasse",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "9425025c1f8c59b9aa4aa29519275d9517bc4b988a8635169843e55953918f8e"
+    },
+    {
+      "id": "carpenters-flasher-wrasse",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "f07b3c391f3b3f65dbdd4defcb98f5b2f5b15c50212a6c9e411ee060999cd718"
+    },
+    {
+      "id": "mccoskers-flasher-wrasse",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "9ade745280ca24f230ac6815a0ad364b27dcb01f19cbec8ec2bc876c40372124"
+    },
+    {
+      "id": "exquisite-fairy-wrasse",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        1
+      ],
+      "sha256": "651ff27f7119597e9cb57348e4b7f16f1a1d1cbe237f3bc2ead6bd9b5ba9f55d"
+    },
+    {
+      "id": "lubbocks-fairy-wrasse",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        6
+      ],
+      "sha256": "7ab0e2f0456a8eb21547481cb671de1ef8589ce0b61a0c93670cd74eb79a6b02"
+    },
+    {
+      "id": "ruby-longfin-fairy-wrasse",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "17fa0e3c74f23af13a2960146862086f10dba350468044730773c76366f05d0d"
+    },
+    {
+      "id": "greenbanded-goby",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        1,
+        6
+      ],
+      "sha256": "77c9baa2bd919b1215058e4f11591780398e1363fc4c7609ce7f6f9b2ddbedc3"
+    },
+    {
+      "id": "sharknose-goby",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "0bdda5e0c5b006c6a7266454f59eea1a5e41adf7eb83cfaba8f11e04c5a8154c"
+    },
+    {
+      "id": "orange-spotted-prawn-goby",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "1c40ba4de3305f5d6a849ae3981efc2a5b71ae070d5be0806883855f18ea0f4e"
+    },
+    {
+      "id": "randalls-prawn-goby",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        0
+      ],
+      "sha256": "6d9ed6ececae69a189b07b70df61493409398e00cb55ba0f66f51c75768f8e69"
+    },
+    {
+      "id": "hi-fin-red-banded-goby",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        4,
+        6
+      ],
+      "sha256": "a7b8d6c4d79101e28d63048e610e8ea39113b3cda95fb29ab36d6ec652b6d599"
+    },
+    {
+      "id": "blue-striped-trimma-goby",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "745b999d00f2fcae530afb0ee62eece93c6daa3441fe7e1fefa37156b71a8a3f"
+    },
+    {
+      "id": "redspotted-blenny",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        1
+      ],
+      "sha256": "061795f92b277446008d20d4d39908fceb6d64181a854b2e4c5f881672d0c2bd"
+    },
+    {
+      "id": "starry-blenny",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "e215bf70b2ae54ac5d78ce0b035195572ef8e548abc53c80cf68f9e8102dd4d4"
+    },
+    {
+      "id": "two-spot-blenny",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "fa59d60301a707b35e447dff87898e133b1475cb98d1457291892aa4b4854664"
+    },
+    {
+      "id": "yellow-candy-hogfish",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        6,
+        7
+      ],
+      "sha256": "fd8b4dbe123def96882613322c19b04679f7cfdea724c14e744875a3c58495c8"
+    },
+    {
+      "id": "blotched-anthias",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "a652c8bfbb7b95a7235b6a4410c8b8749defc87daca8fd6aed142a55f02f5432"
+    },
+    {
+      "id": "purple-queen-anthias",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "071bfe02747ac6029b2e6a0158361069b9f919908021fce4b864bb0f5be91a0b"
+    },
+    {
+      "id": "copperband-butterflyfish",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "f0c50b40053db0b04f5e3869ba957b0d15034104897ed2e0b8a826c04d7a31d5"
+    },
+    {
+      "id": "orange-spotted-filefish",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        4,
+        6
+      ],
+      "sha256": "d0490a88d18ab3fe98162a827c3230ce6ff728e44af56554e1cbed2be9f666ba"
+    },
+    {
+      "id": "spotted-boxfish",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "cb71c7816ff40110c05f13285a5cc986d02be872a8ebdd08c46acacdc85de568"
+    },
+    {
+      "id": "blastomussa-wellsi",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "f4a80c2686b195092ef820765b38bebc8b5c08db42e873fb09b8a4d717041bfe"
+    },
+    {
+      "id": "micromussa-lordhowensis",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "8fc1fb75bf1a2b4aaf5a3d347365bb5a14bf7e9a95895b64e42edebe88b68320"
+    },
+    {
+      "id": "cyphastrea-serailia",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "7a0dcce2d13368099253d26fac21adb6995db78e70ff802693bcbb714b057fe2"
+    },
+    {
+      "id": "leptastrea-purpurea",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        6
+      ],
+      "sha256": "c092b5762e371c40366025bb53e9d4d771bc76f5ca3f603e1fd9803549f63024"
+    },
+    {
+      "id": "pavona-cactus",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "60b2937827599c056350259610c03adaccecad458fa39556f0ce3d6ea72defe3"
+    },
+    {
+      "id": "sexy-anemone-shrimp",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "590d839434a20e789748533bdf17dfadf4487d2f39a172f22a19cdd5530f2f3e"
+    },
+    {
+      "id": "porcelain-anemone-crab",
+      "artStatus": "PARTIAL: source framing needs review",
+      "clippedSourceCells": [
+        6
+      ],
+      "sha256": "d07c5bf3c34c86f0a5df5050e60060c5bb258e8a9091b4cec32df3de42a9f48d"
+    },
+    {
+      "id": "bumblebee-snail",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "76f908b5260091d3146004868a4b24e093d184ea731a0095663f0e9e7b72618f"
+    },
+    {
+      "id": "tiger-sand-conch",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "31be399046943c500014cfca3b7d25ba0bda006ecc83f0f77adc3adf23b3b146"
+    },
+    {
+      "id": "halloween-hermit-crab",
+      "artStatus": "Ready for user visual review",
+      "clippedSourceCells": [],
+      "sha256": "d2982482bcb25dac4afb9fa4439e7b6b8283a4df6e852f4b0fff8aed57f37a74"
+    }
+  ]
+}

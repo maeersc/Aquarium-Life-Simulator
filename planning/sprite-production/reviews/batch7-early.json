@@ -1,0 +1,65 @@
+[
+  {
+    "id": "purple-queen-anthias",
+    "stage": "adult",
+    "notes": "All sixteen native cells inspected: purple body, yellow dorsal/back line, forked yellow caudal and pink/violet lower fins retain stage identity. Single iris and trunk remain stable with gentle pectoral balance and modest tail-tip corrections; no clipped fin.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "purple-queen-anthias",
+    "stage": "juvenile",
+    "notes": "All sixteen native cells inspected: purple body, yellow dorsal/back line, forked yellow caudal and pink/violet lower fins retain stage identity. Single iris and trunk remain stable with gentle pectoral balance and modest tail-tip corrections; no clipped fin.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "purple-queen-anthias",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the baby source. Original pale translucent developing body, yolk, large single iris and existing small fins retained. Quiet developing fin-tip changes, no adult forked display substituted for the supplied stage.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "copperband-butterflyfish",
+    "stage": "adult",
+    "notes": "All sixteen native cells inspected: white disc body, copper vertical bars and original rear dorsal ocellus remain separate from the true front iris. Long narrow snout, fin roots and complete disc outline retain reference proportions with small hovering fin corrections.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "copperband-butterflyfish",
+    "stage": "juvenile",
+    "notes": "All sixteen native cells inspected: white disc body, copper vertical bars and original rear dorsal ocellus remain separate from the true front iris. Long narrow snout, fin roots and complete disc outline retain reference proportions with small hovering fin corrections.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "copperband-butterflyfish",
+    "stage": "baby",
+    "notes": "All sixteen early-stage cells inspected against the original developing baby reference. Pale developing body, original yolk and visible single iris retained, with small existing fin/caudal adjustments. Adult disc bars and ocellus were not imposed on this early source.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "orange-spotted-filefish",
+    "stage": "adult",
+    "notes": "All sixteen corrected native cells inspected. Manual original-iris template registration replaced false beak/outline detections that caused head jumps and spurious eye patches. Turquoise body, orange spots, long slender snout and pale spotted caudal retain identity, with restrained opposed dorsal/anal fin motion and tiny tail corrections.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "orange-spotted-filefish",
+    "stage": "juvenile",
+    "notes": "All sixteen corrected native cells inspected. Manual original-iris template registration replaced false beak/outline detections that caused head jumps and spurious eye patches. Turquoise body, orange spots, long slender snout and pale spotted caudal retain identity, with restrained opposed dorsal/anal fin motion and tiny tail corrections.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "spotted-boxfish",
+    "stage": "juvenile",
+    "notes": "All sixteen native cells inspected: dotted dark armored body and gold-rimmed single iris remain stable; small attached dorsal, anal, pectoral and tail-rudder changes drive the hovering cycle. No body flex or inflation; complete unclipped fins and clear margins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  }
+]

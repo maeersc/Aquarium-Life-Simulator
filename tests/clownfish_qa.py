@@ -1,0 +1,65 @@
+"""Offline collection artwork, gallery, save and attachment review validation."""
+import base64,json,time
+def run(client,root,name,check):
+    results=[]
+    def evaluate(js,label):results.append(check(client.evaluate(js),label))
+    def wait(expr):
+        for _ in range(100):
+            if client.evaluate(expr):return
+            time.sleep(.05)
+        raise RuntimeError('Review startup timeout: '+expr)
+    def shot(label):
+        image=client.call('Page.captureScreenshot',{'format':'png','captureBeyondViewport':False})
+        (root/'assets/previews'/f'{name}-{label}.png').write_bytes(base64.b64decode(image['data']))
+    client.call('Emulation.setDeviceMetricsOverride',{'width':1440,'height':1100,'deviceScaleFactor':1,'mobile':False})
+    client.navigate(root/'clownfish-review.html');wait('!!window.CLOWN_REVIEW?.ready')
+    before=client.evaluate("localStorage.getItem('aquarium-life-v2')")
+    client.evaluate((root/'tests/clownfish_checks.js').read_text(encoding='utf-8'))
+    matrix=client.evaluate('runClownChecks()');results.extend(matrix['checks'])
+    evaluate("document.getElementById('collection-entry').options.length===31",'Species gallery has all 31 names')
+    shot('clownfish-gallery')
+    client.evaluate("document.querySelector('[data-view=varieties]').click()")
+    evaluate("document.getElementById('collection-entry').options.length===25",'Designer gallery has all 25 varieties')
+    evaluate("document.getElementById('collection-stages').querySelectorAll('canvas').length===8&&!document.getElementById('collection-stages').textContent.includes('MISSING')",'Gallery displays eight stage/state views')
+    client.evaluate("document.getElementById('base-filter').value='amphiprion-percula';document.getElementById('base-filter').dispatchEvent(new Event('input'))")
+    evaluate("document.getElementById('collection-entry').options.length===4",'Base species filter isolates four Percula varieties')
+    client.evaluate("document.getElementById('base-filter').value='';document.getElementById('collection-search').value='lightning';document.getElementById('collection-search').dispatchEvent(new Event('input'))")
+    evaluate("document.getElementById('collection-entry').options.length===1&&CLOWN_REVIEW.entry==='lightning-maroon'",'Designer search resolves linked maroon phenotype')
+    client.evaluate("document.getElementById('collection-review-notes').value='Automated isolated profile review';document.getElementById('collection-review-form').requestSubmit()")
+    evaluate("JSON.parse(localStorage.getItem('aquarium-life-clownfish-reviews-v1'))['varieties:lightning-maroon'].status==='Provisional'",'Saving notes does not automatically approve art')
+    evaluate("localStorage.getItem('aquarium-life-v2')==="+json.dumps(before),'Review notes leave player aquarium save untouched')
+    client.evaluate("document.getElementById('collection-search').value='';document.querySelector('[data-view=global]').click()")
+    evaluate("CLOWN_REVIEW.globalEntries===103&&document.querySelectorAll('#global-art-rows tr').length===103",'Global audit distinguishes 95 current catalog entries, five art-only and three planned')
+    client.evaluate("document.getElementById('collection-search').value='emperor';document.getElementById('collection-search').dispatchEvent(new Event('input'))")
+    evaluate("document.querySelectorAll('#global-art-rows tr').length===1&&document.getElementById('global-art-rows').textContent.includes('ART ONLY')",'Global search exposes preserved art-only entry and missing stage status')
+    client.evaluate("document.getElementById('collection-search').value='';document.querySelector('[data-view=species]').click()")
+    for width in [1440,1024,760,390]:
+        client.call('Emulation.setDeviceMetricsOverride',{'width':width,'height':950,'deviceScaleFactor':1,'mobile':False})
+        evaluate('document.documentElement.scrollWidth<=innerWidth',f'Gallery remains within {width}px viewport')
+    shot('clownfish-mobile')
+    client.call('Emulation.setDeviceMetricsOverride',{'width':1440,'height':1100,'deviceScaleFactor':1,'mobile':False})
+    client.navigate(root/'coral-placement-review.html');wait('!!window.CORAL_REVIEW?.ready&&!!CORAL_REVIEW.state')
+    evaluate("CORAL_REVIEW.state.tanks[0].mounts.length===3",'Separate attachment scene contains back/left/right glass-mounted racks')
+    client.evaluate('CORAL_REVIEW.point(.5,.4)')
+    evaluate('!CORAL_REVIEW.report.ok&&!CORAL_REVIEW.place()','Attachment scene rejects unsupported open water')
+    client.evaluate('CORAL_REVIEW.point(.5,AL.Habitat.bed(CORAL_REVIEW.state.tanks[0]));CORAL_REVIEW.place()')
+    evaluate("CORAL_REVIEW.state.tanks[0].flora[0].attachment.surface==='sand'",'Attachment scene commits a stable sandbed base')
+    client.evaluate("document.getElementById('mount-coral').value='sps';CORAL_REVIEW.point(.6,.48);CORAL_REVIEW.place()")
+    evaluate("CORAL_REVIEW.state.tanks[0].flora[1].attachment.surface==='rack'",'SPS attachment commits to a mounted glass rack')
+    client.evaluate("document.getElementById('mount-move-support').click()")
+    evaluate("Math.abs(CORAL_REVIEW.state.tanks[0].flora[1].x-.615)<.000001",'Moving the rack carries its attached coral')
+    client.evaluate("document.getElementById('mount-remove-support').click()")
+    evaluate("document.getElementById('mount-result').textContent.includes('Relocate')",'Occupied support removal is blocked in the review scene')
+    client.evaluate("document.getElementById('mount-roundtrip').click()")
+    evaluate("document.getElementById('mount-result').textContent.includes('survived')",'Attachment study persists support IDs and local coordinates through JSON save/load')
+    evaluate("localStorage.getItem('aquarium-life-v2')==="+json.dumps(before),'Attachment scene leaves the player save untouched')
+    evaluate("(()=>{const old=CORAL_REVIEW.state,next=AL.Core.act(old,'buyFish',{species:'clown',variety:'snowflake-ocellaris',count:1}),loaded=AL.Save.parse(JSON.stringify(next));return loaded.selectedTank===old.selectedTank&&loaded.tanks[0].fish[0].species==='clown'&&loaded.tanks[0].fish[0].variety==='snowflake-ocellaris'&&loaded.tanks[0].fish[0].genes.color===next.tanks[0].fish[0].genes.color;})()",'Designer identity, base species, genetics and aquarium selection survive save/load')
+    evaluate("(()=>{const s=CORAL_REVIEW.state,before=JSON.stringify(s);try{AL.Core.act(s,'buyFish',{species:'amphiprion-maohiensis',count:1});return false;}catch{return JSON.stringify(s)===before;}})()",'Unverified specialist purchase hold rejects atomically')
+    shot('coral-attachment-study')
+    errors=[e for e in client.events if e.get('method')=='Runtime.exceptionThrown'];network=[e['params']['request']['url'] for e in client.events if e.get('method')=='Network.requestWillBeSent' and e['params']['request']['url'].startswith(('http:','https:'))]
+    results.append(check(not errors,'No collection/review JavaScript exceptions'));results.append(check(not network,'All review images and scripts run without HTTP/HTTPS requests'))
+    failed=[r for r in results if not r['pass']];output={'browser':name,'passed':len(results)-len(failed),'failed':len(failed),'directionalCases':matrix['cases'],'checks':results,'errors':errors,'networkRequests':network}
+    (root/'tests'/f'{name}-clownfish-results.json').write_text(json.dumps(output,indent=2),encoding='utf-8')
+    print(json.dumps({k:output[k] for k in ['browser','passed','failed','directionalCases']}),flush=True)
+    for r in failed:print('FAIL:',r['name'],flush=True)
+    return 1 if failed else 0

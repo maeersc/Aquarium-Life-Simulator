@@ -1,0 +1,4050 @@
+{
+  "source": "C:\\Users\\camae\\.codex\\attachments\\5cf43744-9a2d-4523-8887-ddff1340cc87\\Pasted text.txt",
+  "sha256": "a8c30b3a07c1c79d6405f24dfe5a9f41ac072fc79a7eccb8c0fcc0e5bbe374bf",
+  "items": [
+    {
+      "id": "A001",
+      "section": "",
+      "subsection": "Codex GPT-6 Astra",
+      "item": "PASS \u2014 Implemented, functioning, and verified."
+    },
+    {
+      "id": "A002",
+      "section": "",
+      "subsection": "Codex GPT-6 Astra",
+      "item": "PARTIAL \u2014 Exists but is incomplete."
+    },
+    {
+      "id": "A003",
+      "section": "",
+      "subsection": "Codex GPT-6 Astra",
+      "item": "FAIL \u2014 Implemented but broken."
+    },
+    {
+      "id": "A004",
+      "section": "",
+      "subsection": "Codex GPT-6 Astra",
+      "item": "MISSING \u2014 Not implemented."
+    },
+    {
+      "id": "A005",
+      "section": "",
+      "subsection": "Codex GPT-6 Astra",
+      "item": "NOT TESTED \u2014 Could not be verified."
+    },
+    {
+      "id": "A006",
+      "section": "",
+      "subsection": "Codex GPT-6 Astra",
+      "item": "NOT APPLICABLE \u2014 Not relevant to the current project phase."
+    },
+    {
+      "id": "A007",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "Game launches through `index.html`."
+    },
+    {
+      "id": "A008",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "Game works without internet."
+    },
+    {
+      "id": "A009",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "No external CDN dependencies."
+    },
+    {
+      "id": "A010",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "No mandatory backend."
+    },
+    {
+      "id": "A011",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "No account required."
+    },
+    {
+      "id": "A012",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "No payment processor."
+    },
+    {
+      "id": "A013",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "No runtime external asset requests."
+    },
+    {
+      "id": "A014",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "JavaScript loads correctly under `file://`."
+    },
+    {
+      "id": "A015",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "CSS loads correctly."
+    },
+    {
+      "id": "A016",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "All local images load."
+    },
+    {
+      "id": "A017",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "No missing assets."
+    },
+    {
+      "id": "A018",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "No fatal console errors."
+    },
+    {
+      "id": "A019",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "Game starts correctly from a new installation."
+    },
+    {
+      "id": "A020",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "Existing saves load without crashing."
+    },
+    {
+      "id": "A021",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "Codebase is organized and maintainable."
+    },
+    {
+      "id": "A022",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "No unnecessary duplicate systems."
+    },
+    {
+      "id": "A023",
+      "section": "1. PROJECT FOUNDATION",
+      "subsection": "",
+      "item": "All game data has valid identifiers."
+    },
+    {
+      "id": "A024",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Approved reference exists in the project."
+    },
+    {
+      "id": "A025",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "All current saltwater fish artwork follows the reference."
+    },
+    {
+      "id": "A026",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Coral artwork follows the reference."
+    },
+    {
+      "id": "A027",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Bottom-feeder artwork follows the reference."
+    },
+    {
+      "id": "A028",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Rock artwork follows the reference."
+    },
+    {
+      "id": "A029",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Sand artwork follows the reference."
+    },
+    {
+      "id": "A030",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Store thumbnails show appropriate artwork."
+    },
+    {
+      "id": "A031",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "VIP preview artwork is visually consistent."
+    },
+    {
+      "id": "A032",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Sprites have crisp pixel boundaries."
+    },
+    {
+      "id": "A033",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Sprites are not blurry at gameplay scale."
+    },
+    {
+      "id": "A034",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Fish have recognizable species anatomy."
+    },
+    {
+      "id": "A035",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Colors are vivid but appropriate to species."
+    },
+    {
+      "id": "A036",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Artwork has consistent pixel density."
+    },
+    {
+      "id": "A037",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Sprites use suitable transparent backgrounds."
+    },
+    {
+      "id": "A038",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Existing approved artwork is preserved."
+    },
+    {
+      "id": "A039",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "Artwork differences are documented."
+    },
+    {
+      "id": "A040",
+      "section": "2. OFFICIAL ART STYLE",
+      "subsection": "",
+      "item": "No generic placeholder shapes are presented as finished artwork."
+    },
+    {
+      "id": "A041",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Every species has a unique internal ID."
+    },
+    {
+      "id": "A042",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Every species has an appropriate common name."
+    },
+    {
+      "id": "A043",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Scientific names are recorded where applicable."
+    },
+    {
+      "id": "A044",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Saltwater/freshwater classification is correct."
+    },
+    {
+      "id": "A045",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Species data is valid."
+    },
+    {
+      "id": "A046",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Designer morphs are distinguished from biological species."
+    },
+    {
+      "id": "A047",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "No duplicate catalog records."
+    },
+    {
+      "id": "A048",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Every implemented species has a working sprite."
+    },
+    {
+      "id": "A049",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Every implemented species can be displayed correctly."
+    },
+    {
+      "id": "A050",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Catalog entries match store entries."
+    },
+    {
+      "id": "A051",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Planned species are not marked implemented."
+    },
+    {
+      "id": "A052",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Art-only species are identified."
+    },
+    {
+      "id": "A053",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Data-only species are identified."
+    },
+    {
+      "id": "A054",
+      "section": "3. LIVESTOCK CATALOG",
+      "subsection": "",
+      "item": "Implementation counts are accurate."
+    },
+    {
+      "id": "A055",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Egg/early-stage artwork exists."
+    },
+    {
+      "id": "A056",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Nonviable egg/early-stage artwork exists."
+    },
+    {
+      "id": "A057",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Baby/larval artwork exists."
+    },
+    {
+      "id": "A058",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Dead baby/larval artwork exists."
+    },
+    {
+      "id": "A059",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Juvenile artwork exists."
+    },
+    {
+      "id": "A060",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Dead juvenile artwork exists."
+    },
+    {
+      "id": "A061",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Adult artwork exists."
+    },
+    {
+      "id": "A062",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Dead adult artwork exists."
+    },
+    {
+      "id": "A063",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Stage artwork follows species biology."
+    },
+    {
+      "id": "A064",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Juveniles are visually distinct from adults."
+    },
+    {
+      "id": "A065",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Baby fish are not merely shrunken adult sprites."
+    },
+    {
+      "id": "A066",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Designer morph artwork changes at biologically appropriate stages."
+    },
+    {
+      "id": "A067",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Artwork transitions correctly between stages."
+    },
+    {
+      "id": "A068",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Unnecessary duplicated sprite assets are avoided."
+    },
+    {
+      "id": "A069",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Dead artwork remains recognizable as the correct species."
+    },
+    {
+      "id": "A070",
+      "section": "4. LIFE-STAGE ARTWORK",
+      "subsection": "",
+      "item": "Sprite asset paths remain valid after saving/loading."
+    },
+    {
+      "id": "A071",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eyes remain attached to the head."
+    },
+    {
+      "id": "A072",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eyes do not disappear."
+    },
+    {
+      "id": "A073",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eyes do not flicker."
+    },
+    {
+      "id": "A074",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eyes do not float independently."
+    },
+    {
+      "id": "A075",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eyes are visible in the appropriate side profile."
+    },
+    {
+      "id": "A076",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eyes remain correctly positioned when facing left."
+    },
+    {
+      "id": "A077",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eyes remain correctly positioned when facing right."
+    },
+    {
+      "id": "A078",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eye positioning survives sprite scaling."
+    },
+    {
+      "id": "A079",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eye positioning survives animation changes."
+    },
+    {
+      "id": "A080",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eye positioning survives turning."
+    },
+    {
+      "id": "A081",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eye layers render in the correct order."
+    },
+    {
+      "id": "A082",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eye pixels are not accidentally cropped."
+    },
+    {
+      "id": "A083",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Canvas transformations reset correctly."
+    },
+    {
+      "id": "A084",
+      "section": "5. FISH EYES \u2014 CRITICAL PERMANENT RULE",
+      "subsection": "",
+      "item": "Eye correctness has been reviewed across all implemented fish."
+    },
+    {
+      "id": "A085",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Fish face left when swimming left."
+    },
+    {
+      "id": "A086",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Fish face right when swimming right."
+    },
+    {
+      "id": "A087",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Fish do not continuously flicker between directions."
+    },
+    {
+      "id": "A088",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Turning animation works."
+    },
+    {
+      "id": "A089",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Idle swimming works."
+    },
+    {
+      "id": "A090",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Normal swimming works."
+    },
+    {
+      "id": "A091",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Fast swimming works where supported."
+    },
+    {
+      "id": "A092",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Feeding animation works where supported."
+    },
+    {
+      "id": "A093",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Resting animation works."
+    },
+    {
+      "id": "A094",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Species have distinctive swimming behavior."
+    },
+    {
+      "id": "A095",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Fins and tails animate appropriately."
+    },
+    {
+      "id": "A096",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Fish do not pass through solid rocks."
+    },
+    {
+      "id": "A097",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Fish stay within aquarium boundaries."
+    },
+    {
+      "id": "A098",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Sprite flipping does not mirror UI text."
+    },
+    {
+      "id": "A099",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Animation does not detach body parts."
+    },
+    {
+      "id": "A100",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "No visible sprite clipping."
+    },
+    {
+      "id": "A101",
+      "section": "6. SWIMMING AND ANIMATION",
+      "subsection": "",
+      "item": "Fish movement remains smooth at different frame rates."
+    },
+    {
+      "id": "A102",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Ocellaris."
+    },
+    {
+      "id": "A103",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "True Percula."
+    },
+    {
+      "id": "A104",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Maroon."
+    },
+    {
+      "id": "A105",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Clark's."
+    },
+    {
+      "id": "A106",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Tomato."
+    },
+    {
+      "id": "A107",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Cinnamon."
+    },
+    {
+      "id": "A108",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Red Saddleback."
+    },
+    {
+      "id": "A109",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Pink Skunk."
+    },
+    {
+      "id": "A110",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Orange Skunk."
+    },
+    {
+      "id": "A111",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Skunk/Nosestripe."
+    },
+    {
+      "id": "A112",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Saddleback."
+    },
+    {
+      "id": "A113",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Sebae."
+    },
+    {
+      "id": "A114",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Barrier Reef."
+    },
+    {
+      "id": "A115",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Allard's."
+    },
+    {
+      "id": "A116",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Red Sea Twoband."
+    },
+    {
+      "id": "A117",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Orangefin."
+    },
+    {
+      "id": "A118",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Maldives."
+    },
+    {
+      "id": "A119",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Oman."
+    },
+    {
+      "id": "A120",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Chagos."
+    },
+    {
+      "id": "A121",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Mauritius."
+    },
+    {
+      "id": "A122",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Seychelles."
+    },
+    {
+      "id": "A123",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Madagascar."
+    },
+    {
+      "id": "A124",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Whitebonnet."
+    },
+    {
+      "id": "A125",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "McCulloch's."
+    },
+    {
+      "id": "A126",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Wide-band."
+    },
+    {
+      "id": "A127",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Australian Red."
+    },
+    {
+      "id": "A128",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Three-band."
+    },
+    {
+      "id": "A129",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Barber's."
+    },
+    {
+      "id": "A130",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Pacific."
+    },
+    {
+      "id": "A131",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Thielle's."
+    },
+    {
+      "id": "A132",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Species",
+      "item": "Polynesian."
+    },
+    {
+      "id": "A133",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Black Ocellaris."
+    },
+    {
+      "id": "A134",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Snowflake."
+    },
+    {
+      "id": "A135",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Premium Snowflake."
+    },
+    {
+      "id": "A136",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Black Snowflake."
+    },
+    {
+      "id": "A137",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Black Ice."
+    },
+    {
+      "id": "A138",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Wyoming White."
+    },
+    {
+      "id": "A139",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Snow Storm."
+    },
+    {
+      "id": "A140",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Black Storm."
+    },
+    {
+      "id": "A141",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Mocha Storm."
+    },
+    {
+      "id": "A142",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Mocha."
+    },
+    {
+      "id": "A143",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Gladiator."
+    },
+    {
+      "id": "A144",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Mocha Gladiator."
+    },
+    {
+      "id": "A145",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "DaVinci."
+    },
+    {
+      "id": "A146",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Frostbite."
+    },
+    {
+      "id": "A147",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Black Frostbite."
+    },
+    {
+      "id": "A148",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Midnight."
+    },
+    {
+      "id": "A149",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Domino."
+    },
+    {
+      "id": "A150",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Naked."
+    },
+    {
+      "id": "A151",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Misbar."
+    },
+    {
+      "id": "A152",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Longfin."
+    },
+    {
+      "id": "A153",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Picasso."
+    },
+    {
+      "id": "A154",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Premium Picasso."
+    },
+    {
+      "id": "A155",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Platinum."
+    },
+    {
+      "id": "A156",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Onyx Percula."
+    },
+    {
+      "id": "A157",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Lightning Maroon."
+    },
+    {
+      "id": "A158",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Designer varieties reference their correct biological species."
+    },
+    {
+      "id": "A159",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Varieties are not misrepresented as separate species."
+    },
+    {
+      "id": "A160",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Pattern artwork matches its intended variety."
+    },
+    {
+      "id": "A161",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Species-specific anatomy is preserved."
+    },
+    {
+      "id": "A162",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Life stages render correctly."
+    },
+    {
+      "id": "A163",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Eye and swimming rules are satisfied."
+    },
+    {
+      "id": "A164",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Care requirements are correctly inherited."
+    },
+    {
+      "id": "A165",
+      "section": "7. CLOWNFISH COLLECTION",
+      "subsection": "Designer varieties",
+      "item": "Species and variety counts are accurate."
+    },
+    {
+      "id": "A166",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "No new freshwater fish were added unintentionally."
+    },
+    {
+      "id": "A167",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "No freshwater bottom feeders were added."
+    },
+    {
+      "id": "A168",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "No freshwater plants were added."
+    },
+    {
+      "id": "A169",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "No freshwater breeding systems were expanded."
+    },
+    {
+      "id": "A170",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "Existing freshwater sprites were preserved."
+    },
+    {
+      "id": "A171",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "Existing freshwater species data was preserved."
+    },
+    {
+      "id": "A172",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "Existing freshwater biology remains unchanged."
+    },
+    {
+      "id": "A173",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "Shared UI changes do not damage freshwater systems."
+    },
+    {
+      "id": "A174",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "Saltwater and freshwater catalogs remain separated."
+    },
+    {
+      "id": "A175",
+      "section": "8. SALTWATER-ONLY DEVELOPMENT RULE",
+      "subsection": "",
+      "item": "Freshwater store navigation does not authorize freshwater content development."
+    },
+    {
+      "id": "A176",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Correct species/group data."
+    },
+    {
+      "id": "A177",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Species-appropriate artwork."
+    },
+    {
+      "id": "A178",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Healthy art."
+    },
+    {
+      "id": "A179",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Stressed art."
+    },
+    {
+      "id": "A180",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Bleached art."
+    },
+    {
+      "id": "A181",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Tissue-loss art."
+    },
+    {
+      "id": "A182",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Dead-state art."
+    },
+    {
+      "id": "A183",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Exposed skeleton for applicable stony corals."
+    },
+    {
+      "id": "A184",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Soft-coral death states differ appropriately."
+    },
+    {
+      "id": "A185",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Coral animations are subtle and natural."
+    },
+    {
+      "id": "A186",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Growth stages have consistent artwork."
+    },
+    {
+      "id": "A187",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "Coral sprites do not look like generic shapes."
+    },
+    {
+      "id": "A188",
+      "section": "9. CORAL CATALOG AND ARTWORK",
+      "subsection": "",
+      "item": "All coral art matches the approved reference."
+    },
+    {
+      "id": "A189",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Placement requires a valid surface or mounting structure."
+    },
+    {
+      "id": "A190",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Suitable rock placement works."
+    },
+    {
+      "id": "A191",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Species-appropriate sandbed placement works."
+    },
+    {
+      "id": "A192",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Glass-mounted racks or other valid supports work."
+    },
+    {
+      "id": "A193",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Open-water placement is rejected."
+    },
+    {
+      "id": "A194",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Coral placement inside solid rock is rejected."
+    },
+    {
+      "id": "A195",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Coral placement outside the aquarium is rejected."
+    },
+    {
+      "id": "A196",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Coral mounting information is saved."
+    },
+    {
+      "id": "A197",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Coral attachment survives reload."
+    },
+    {
+      "id": "A198",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Moving a rock moves attached corals correctly."
+    },
+    {
+      "id": "A199",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Removing a rock cannot leave floating corals."
+    },
+    {
+      "id": "A200",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Changing sand depth revalidates relevant coral placement."
+    },
+    {
+      "id": "A201",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Placement previews show valid/conditional/invalid states."
+    },
+    {
+      "id": "A202",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Lighting requirements influence placement warnings."
+    },
+    {
+      "id": "A203",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Water-flow requirements influence placement warnings."
+    },
+    {
+      "id": "A204",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Neighbor aggression/spacing is checked."
+    },
+    {
+      "id": "A205",
+      "section": "10. CORAL PLACEMENT \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Species-specific allowed surfaces are respected."
+    },
+    {
+      "id": "A206",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Fiji Rock artwork exists."
+    },
+    {
+      "id": "A207",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Caribbean Rock artwork exists."
+    },
+    {
+      "id": "A208",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Hawaiian Rock artwork exists."
+    },
+    {
+      "id": "A209",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Each category has recognizable visual differences."
+    },
+    {
+      "id": "A210",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Small rock variants exist."
+    },
+    {
+      "id": "A211",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Medium rock variants exist."
+    },
+    {
+      "id": "A212",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Large rock variants exist."
+    },
+    {
+      "id": "A213",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Cave/arch variants exist where implemented."
+    },
+    {
+      "id": "A214",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Rocks can be purchased."
+    },
+    {
+      "id": "A215",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Rocks can be placed."
+    },
+    {
+      "id": "A216",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Rocks can be moved."
+    },
+    {
+      "id": "A217",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Rocks can be removed safely."
+    },
+    {
+      "id": "A218",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Rock positions save/load correctly."
+    },
+    {
+      "id": "A219",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Rocks provide appropriate habitat geometry."
+    },
+    {
+      "id": "A220",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Fish respect rock collision."
+    },
+    {
+      "id": "A221",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Coral attachments to rocks remain valid."
+    },
+    {
+      "id": "A222",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Dry and live rock states are distinguished where supported."
+    },
+    {
+      "id": "A223",
+      "section": "11. ROCKS AND ENVIRONMENT",
+      "subsection": "",
+      "item": "Rock artwork matches the approved visual style."
+    },
+    {
+      "id": "A224",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Three required sand categories exist."
+    },
+    {
+      "id": "A225",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Each has distinct visual artwork."
+    },
+    {
+      "id": "A226",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Sand can be purchased."
+    },
+    {
+      "id": "A227",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Sand quantity is calculated."
+    },
+    {
+      "id": "A228",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Sand can be added to empty tanks."
+    },
+    {
+      "id": "A229",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Sand depth supports 0\u20135 inches."
+    },
+    {
+      "id": "A230",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Depth changes in 0.25-inch increments."
+    },
+    {
+      "id": "A231",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Inches and centimeters are displayed."
+    },
+    {
+      "id": "A232",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Required mass scales with aquarium floor area."
+    },
+    {
+      "id": "A233",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Sand depth changes the tank's visual profile."
+    },
+    {
+      "id": "A234",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Sand reduces effective water volume appropriately."
+    },
+    {
+      "id": "A235",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Sand changes persist after reload."
+    },
+    {
+      "id": "A236",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Substrate depth affects appropriate habitat checks."
+    },
+    {
+      "id": "A237",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "Deep-bed conditions are modeled appropriately."
+    },
+    {
+      "id": "A238",
+      "section": "12. SAND AND SUBSTRATE",
+      "subsection": "",
+      "item": "No arbitrary bonuses are assigned solely from geographical sand names."
+    },
+    {
+      "id": "A239",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Sand develops biological maturation over time."
+    },
+    {
+      "id": "A240",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Brown diatom growth is supported."
+    },
+    {
+      "id": "A241",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Green algae growth is supported."
+    },
+    {
+      "id": "A242",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Cyanobacterial growth is distinguished from true algae."
+    },
+    {
+      "id": "A243",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Biofilm development is supported."
+    },
+    {
+      "id": "A244",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Growth responds to light."
+    },
+    {
+      "id": "A245",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Growth responds to relevant nutrients."
+    },
+    {
+      "id": "A246",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Growth responds to water flow."
+    },
+    {
+      "id": "A247",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Growth responds to maintenance."
+    },
+    {
+      "id": "A248",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Growth responds to grazing organisms where implemented."
+    },
+    {
+      "id": "A249",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Algae does not appear solely because a fixed timer elapsed."
+    },
+    {
+      "id": "A250",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Substrate remains visually clean under suitable conditions."
+    },
+    {
+      "id": "A251",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Surface cleaning functions."
+    },
+    {
+      "id": "A252",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Organic waste accumulation is modeled."
+    },
+    {
+      "id": "A253",
+      "section": "13. SUBSTRATE MATURATION AND ALGAE",
+      "subsection": "",
+      "item": "Deep sand disturbance risks are condition-dependent."
+    },
+    {
+      "id": "A254",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "No automatic fish."
+    },
+    {
+      "id": "A255",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "No automatic coral."
+    },
+    {
+      "id": "A256",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "No automatic rock."
+    },
+    {
+      "id": "A257",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "No automatic sand."
+    },
+    {
+      "id": "A258",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "No automatic water."
+    },
+    {
+      "id": "A259",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Empty glass tank is shown."
+    },
+    {
+      "id": "A260",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Player selects substrate."
+    },
+    {
+      "id": "A261",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Player adds substrate."
+    },
+    {
+      "id": "A262",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Player prepares appropriate water."
+    },
+    {
+      "id": "A263",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Player fills aquarium."
+    },
+    {
+      "id": "A264",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Equipment can be installed."
+    },
+    {
+      "id": "A265",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Rock placement is supported during appropriate setup stages."
+    },
+    {
+      "id": "A266",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Nitrogen cycling occurs."
+    },
+    {
+      "id": "A267",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Readiness is based on actual conditions."
+    },
+    {
+      "id": "A268",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Fish cannot be introduced when critical conditions are unsafe."
+    },
+    {
+      "id": "A269",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Coral-specific habitat maturity is checked."
+    },
+    {
+      "id": "A270",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Setup progress remains saved."
+    },
+    {
+      "id": "A271",
+      "section": "14. NEW AQUARIUM SETUP",
+      "subsection": "",
+      "item": "Setup guidance explains the next action."
+    },
+    {
+      "id": "A272",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Temperature."
+    },
+    {
+      "id": "A273",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Salinity."
+    },
+    {
+      "id": "A274",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "pH."
+    },
+    {
+      "id": "A275",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Ammonia."
+    },
+    {
+      "id": "A276",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Nitrite."
+    },
+    {
+      "id": "A277",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Nitrate."
+    },
+    {
+      "id": "A278",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Dissolved oxygen."
+    },
+    {
+      "id": "A279",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Alkalinity."
+    },
+    {
+      "id": "A280",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Calcium."
+    },
+    {
+      "id": "A281",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Magnesium."
+    },
+    {
+      "id": "A282",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Phosphate."
+    },
+    {
+      "id": "A283",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Organic waste."
+    },
+    {
+      "id": "A284",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Water clarity."
+    },
+    {
+      "id": "A285",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Nitrogen cycle."
+    },
+    {
+      "id": "A286",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Biological filtration maturity."
+    },
+    {
+      "id": "A287",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Water changes."
+    },
+    {
+      "id": "A288",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Equipment influence."
+    },
+    {
+      "id": "A289",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Waste from feeding."
+    },
+    {
+      "id": "A290",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Waste from fish."
+    },
+    {
+      "id": "A291",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Effects of dead organisms."
+    },
+    {
+      "id": "A292",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Relevant substrate nutrient processes."
+    },
+    {
+      "id": "A293",
+      "section": "15. WATER CHEMISTRY",
+      "subsection": "",
+      "item": "Tank readiness uses actual water values."
+    },
+    {
+      "id": "A294",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Unique identity."
+    },
+    {
+      "id": "A295",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Age."
+    },
+    {
+      "id": "A296",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Life stage."
+    },
+    {
+      "id": "A297",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Expected lifespan."
+    },
+    {
+      "id": "A298",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Maximum lifespan."
+    },
+    {
+      "id": "A299",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Health/HP."
+    },
+    {
+      "id": "A300",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Hunger."
+    },
+    {
+      "id": "A301",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Nutrition."
+    },
+    {
+      "id": "A302",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Stress."
+    },
+    {
+      "id": "A303",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Happiness/welfare."
+    },
+    {
+      "id": "A304",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Energy."
+    },
+    {
+      "id": "A305",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Fertility."
+    },
+    {
+      "id": "A306",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Genetics."
+    },
+    {
+      "id": "A307",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Growth."
+    },
+    {
+      "id": "A308",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Temperament."
+    },
+    {
+      "id": "A309",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Aggression."
+    },
+    {
+      "id": "A310",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Disease status."
+    },
+    {
+      "id": "A311",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Oxygen requirements."
+    },
+    {
+      "id": "A312",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Habitat requirements."
+    },
+    {
+      "id": "A313",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Tank bioload."
+    },
+    {
+      "id": "A314",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Appropriate aging."
+    },
+    {
+      "id": "A315",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Disease effects."
+    },
+    {
+      "id": "A316",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Environmental damage."
+    },
+    {
+      "id": "A317",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Natural death."
+    },
+    {
+      "id": "A318",
+      "section": "16. FISH HEALTH, AGING AND SURVIVAL",
+      "subsection": "",
+      "item": "Death records."
+    },
+    {
+      "id": "A319",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Fish stops swimming at death."
+    },
+    {
+      "id": "A320",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Death pose appears."
+    },
+    {
+      "id": "A321",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Fish rolls sideways/upside down."
+    },
+    {
+      "id": "A322",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Buoyancy and current affect corpse movement."
+    },
+    {
+      "id": "A323",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Sinking corpses reach the bottom."
+    },
+    {
+      "id": "A324",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Corpse remains visible."
+    },
+    {
+      "id": "A325",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Decomposition stages are displayed."
+    },
+    {
+      "id": "A326",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Decomposition affects chemistry."
+    },
+    {
+      "id": "A327",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Corpse removal works."
+    },
+    {
+      "id": "A328",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Dead fish cannot reproduce or be sold as living fish."
+    },
+    {
+      "id": "A329",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Fish",
+      "item": "Death cause is recorded."
+    },
+    {
+      "id": "A330",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Coral",
+      "item": "Bleaching is distinct from death."
+    },
+    {
+      "id": "A331",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Coral",
+      "item": "Bleached living coral may recover."
+    },
+    {
+      "id": "A332",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Coral",
+      "item": "Dead tissue degrades."
+    },
+    {
+      "id": "A333",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Coral",
+      "item": "Stony skeleton can remain."
+    },
+    {
+      "id": "A334",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Coral",
+      "item": "Skeleton may accumulate algae."
+    },
+    {
+      "id": "A335",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Coral",
+      "item": "Chemical dissolution is conditional."
+    },
+    {
+      "id": "A336",
+      "section": "17. DEATH ART AND DECOMPOSITION",
+      "subsection": "Coral",
+      "item": "Dead tissue affects organic waste."
+    },
+    {
+      "id": "A337",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Species compatibility rules."
+    },
+    {
+      "id": "A338",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Adult size requirements."
+    },
+    {
+      "id": "A339",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Physical tank-space requirements."
+    },
+    {
+      "id": "A340",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Territorial behavior."
+    },
+    {
+      "id": "A341",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Schooling behavior."
+    },
+    {
+      "id": "A342",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Predator/prey relationships."
+    },
+    {
+      "id": "A343",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Chase behavior."
+    },
+    {
+      "id": "A344",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Fleeing behavior."
+    },
+    {
+      "id": "A345",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Stress from aggression."
+    },
+    {
+      "id": "A346",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Injury from attacks."
+    },
+    {
+      "id": "A347",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Death from severe predation or aggression."
+    },
+    {
+      "id": "A348",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Compatibility warnings before purchases."
+    },
+    {
+      "id": "A349",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Reef compatibility."
+    },
+    {
+      "id": "A350",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Species-specific social needs."
+    },
+    {
+      "id": "A351",
+      "section": "18. COMPATIBILITY, AGGRESSION AND PREDATION",
+      "subsection": "",
+      "item": "Predation does not behave randomly without triggers."
+    },
+    {
+      "id": "A352",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Flakes."
+    },
+    {
+      "id": "A353",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Pellets."
+    },
+    {
+      "id": "A354",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Sinking foods."
+    },
+    {
+      "id": "A355",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Frozen foods."
+    },
+    {
+      "id": "A356",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Live foods."
+    },
+    {
+      "id": "A357",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Herbivore foods."
+    },
+    {
+      "id": "A358",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Predator foods."
+    },
+    {
+      "id": "A359",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Fry food."
+    },
+    {
+      "id": "A360",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Coral food where appropriate."
+    },
+    {
+      "id": "A361",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Species-specific diet rules."
+    },
+    {
+      "id": "A362",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Hunger changes correctly."
+    },
+    {
+      "id": "A363",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Feeding animations."
+    },
+    {
+      "id": "A364",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Uneaten food produces waste."
+    },
+    {
+      "id": "A365",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Starvation affects health."
+    },
+    {
+      "id": "A366",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Overfeeding affects water."
+    },
+    {
+      "id": "A367",
+      "section": "19. FOOD AND FEEDING",
+      "subsection": "",
+      "item": "Automatic feeding where implemented."
+    },
+    {
+      "id": "A368",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Species-appropriate breeding."
+    },
+    {
+      "id": "A369",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Biological maturity checks."
+    },
+    {
+      "id": "A370",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Fertility."
+    },
+    {
+      "id": "A371",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Sex/reproductive structure."
+    },
+    {
+      "id": "A372",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Clownfish sex-change biology."
+    },
+    {
+      "id": "A373",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Eggs."
+    },
+    {
+      "id": "A374",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Incubation."
+    },
+    {
+      "id": "A375",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Species-dependent hatch duration."
+    },
+    {
+      "id": "A376",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Egg viability."
+    },
+    {
+      "id": "A377",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Baby/fry stages."
+    },
+    {
+      "id": "A378",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Juvenile growth."
+    },
+    {
+      "id": "A379",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Genetic inheritance."
+    },
+    {
+      "id": "A380",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Color/pattern genetics."
+    },
+    {
+      "id": "A381",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Designer variety integration."
+    },
+    {
+      "id": "A382",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Parent lineage."
+    },
+    {
+      "id": "A383",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Breeding cannot duplicate fish."
+    },
+    {
+      "id": "A384",
+      "section": "20. BREEDING AND GENETICS",
+      "subsection": "",
+      "item": "Offspring become valid persistent entities."
+    },
+    {
+      "id": "A385",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "20 L."
+    },
+    {
+      "id": "A386",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "40 L."
+    },
+    {
+      "id": "A387",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "75 L."
+    },
+    {
+      "id": "A388",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "150 L."
+    },
+    {
+      "id": "A389",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "300 L."
+    },
+    {
+      "id": "A390",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "500 L."
+    },
+    {
+      "id": "A391",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "1,000 L."
+    },
+    {
+      "id": "A392",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "2,500 L."
+    },
+    {
+      "id": "A393",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "5,000 L."
+    },
+    {
+      "id": "A394",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Multiple tank ownership."
+    },
+    {
+      "id": "A395",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Tank naming."
+    },
+    {
+      "id": "A396",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Tank switching."
+    },
+    {
+      "id": "A397",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Tank dimensions."
+    },
+    {
+      "id": "A398",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Effective water volume."
+    },
+    {
+      "id": "A399",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Stocking capacity."
+    },
+    {
+      "id": "A400",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Physical suitability."
+    },
+    {
+      "id": "A401",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Equipment capacity."
+    },
+    {
+      "id": "A402",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Maintenance costs."
+    },
+    {
+      "id": "A403",
+      "section": "21. AQUARIUM SIZES AND CAPACITY",
+      "subsection": "",
+      "item": "Tank asset value."
+    },
+    {
+      "id": "A404",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "In-game clock."
+    },
+    {
+      "id": "A405",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Dawn."
+    },
+    {
+      "id": "A406",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Day."
+    },
+    {
+      "id": "A407",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Dusk."
+    },
+    {
+      "id": "A408",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Night."
+    },
+    {
+      "id": "A409",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Light intensity."
+    },
+    {
+      "id": "A410",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Light schedule."
+    },
+    {
+      "id": "A411",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Light spectrum where implemented."
+    },
+    {
+      "id": "A412",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Coral response."
+    },
+    {
+      "id": "A413",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Fish activity changes."
+    },
+    {
+      "id": "A414",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Nocturnal behavior."
+    },
+    {
+      "id": "A415",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Algae response."
+    },
+    {
+      "id": "A416",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Heater functionality."
+    },
+    {
+      "id": "A417",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Chiller functionality."
+    },
+    {
+      "id": "A418",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Temperature stability."
+    },
+    {
+      "id": "A419",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Lighting/temperature interactions."
+    },
+    {
+      "id": "A420",
+      "section": "22. DAY/NIGHT, LIGHTING AND TEMPERATURE",
+      "subsection": "",
+      "item": "Configurable simulation speed."
+    },
+    {
+      "id": "A421",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Filters."
+    },
+    {
+      "id": "A422",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Heaters."
+    },
+    {
+      "id": "A423",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Chillers."
+    },
+    {
+      "id": "A424",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Circulation pumps."
+    },
+    {
+      "id": "A425",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Aeration."
+    },
+    {
+      "id": "A426",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Protein skimmers."
+    },
+    {
+      "id": "A427",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Lighting."
+    },
+    {
+      "id": "A428",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Water testing."
+    },
+    {
+      "id": "A429",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Automatic feeders."
+    },
+    {
+      "id": "A430",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Relevant reef equipment."
+    },
+    {
+      "id": "A431",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Equipment purchase."
+    },
+    {
+      "id": "A432",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Equipment installation."
+    },
+    {
+      "id": "A433",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Equipment operation."
+    },
+    {
+      "id": "A434",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Equipment maintenance."
+    },
+    {
+      "id": "A435",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Equipment failure."
+    },
+    {
+      "id": "A436",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Electricity costs."
+    },
+    {
+      "id": "A437",
+      "section": "23. EQUIPMENT",
+      "subsection": "",
+      "item": "Equipment state saved correctly."
+    },
+    {
+      "id": "A438",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Store opens through Store button."
+    },
+    {
+      "id": "A439",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Modal is centered."
+    },
+    {
+      "id": "A440",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Aquarium remains visible behind dark overlay."
+    },
+    {
+      "id": "A441",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Background clicks do not affect the tank."
+    },
+    {
+      "id": "A442",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "X button is in the top-right corner."
+    },
+    {
+      "id": "A443",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "X closes the store."
+    },
+    {
+      "id": "A444",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Escape closes the store."
+    },
+    {
+      "id": "A445",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Closing does not reload the game."
+    },
+    {
+      "id": "A446",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Modal scrolls internally."
+    },
+    {
+      "id": "A447",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Header remains visible."
+    },
+    {
+      "id": "A448",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Tabs remain usable."
+    },
+    {
+      "id": "A449",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Keyboard focus remains appropriate."
+    },
+    {
+      "id": "A450",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Opening repeatedly does not duplicate windows."
+    },
+    {
+      "id": "A451",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "",
+      "item": "Existing inventory/economy connections work."
+    },
+    {
+      "id": "A452",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Three main store tabs",
+      "item": "Saltwater."
+    },
+    {
+      "id": "A453",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Three main store tabs",
+      "item": "Freshwater."
+    },
+    {
+      "id": "A454",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Three main store tabs",
+      "item": "Black Market."
+    },
+    {
+      "id": "A455",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Saltwater sub-tabs",
+      "item": "Fish."
+    },
+    {
+      "id": "A456",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Saltwater sub-tabs",
+      "item": "Bottom Feeders."
+    },
+    {
+      "id": "A457",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Saltwater sub-tabs",
+      "item": "Corals."
+    },
+    {
+      "id": "A458",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Saltwater sub-tabs",
+      "item": "Rocks & Environment."
+    },
+    {
+      "id": "A459",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Saltwater sub-tabs",
+      "item": "Sand & Substrate."
+    },
+    {
+      "id": "A460",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Saltwater sub-tabs",
+      "item": "Equipment."
+    },
+    {
+      "id": "A461",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Saltwater sub-tabs",
+      "item": "Food & Supplies."
+    },
+    {
+      "id": "A462",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Freshwater sub-tabs",
+      "item": "Fish."
+    },
+    {
+      "id": "A463",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Freshwater sub-tabs",
+      "item": "Bottom Feeders."
+    },
+    {
+      "id": "A464",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Freshwater sub-tabs",
+      "item": "Plants."
+    },
+    {
+      "id": "A465",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Freshwater sub-tabs",
+      "item": "Rocks & Environment."
+    },
+    {
+      "id": "A466",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Freshwater sub-tabs",
+      "item": "Sand & Substrate."
+    },
+    {
+      "id": "A467",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Freshwater sub-tabs",
+      "item": "Equipment."
+    },
+    {
+      "id": "A468",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Freshwater sub-tabs",
+      "item": "Food & Supplies."
+    },
+    {
+      "id": "A469",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Black Market sub-tabs",
+      "item": "Fish."
+    },
+    {
+      "id": "A470",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Black Market sub-tabs",
+      "item": "Bottom Feeders."
+    },
+    {
+      "id": "A471",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Black Market sub-tabs",
+      "item": "Corals."
+    },
+    {
+      "id": "A472",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Black Market sub-tabs",
+      "item": "Rocks & Environment."
+    },
+    {
+      "id": "A473",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Black Market sub-tabs",
+      "item": "Eggs & Specimens."
+    },
+    {
+      "id": "A474",
+      "section": "24. MAIN STORE UI \u2014 CRITICAL",
+      "subsection": "Black Market sub-tabs",
+      "item": "Special Equipment."
+    },
+    {
+      "id": "A475",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Opening store preserves selected aquarium."
+    },
+    {
+      "id": "A476",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Closing store preserves selected aquarium."
+    },
+    {
+      "id": "A477",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Switching main tabs preserves selected aquarium."
+    },
+    {
+      "id": "A478",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Switching sub-tabs preserves selected aquarium."
+    },
+    {
+      "id": "A479",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Store header displays selected aquarium."
+    },
+    {
+      "id": "A480",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Purchasing does not automatically switch tanks."
+    },
+    {
+      "id": "A481",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Livestock purchases validate destination aquarium."
+    },
+    {
+      "id": "A482",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Incompatible destinations are clearly identified."
+    },
+    {
+      "id": "A483",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Player may choose another eligible destination."
+    },
+    {
+      "id": "A484",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "An unsafe aquarium cannot receive livestock through a purchase bypass."
+    },
+    {
+      "id": "A485",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Equipment goes to the correct destination or inventory."
+    },
+    {
+      "id": "A486",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Rock goes to correct destination or inventory."
+    },
+    {
+      "id": "A487",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Sand goes to correct destination or inventory."
+    },
+    {
+      "id": "A488",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Coral placement still requires suitable surface."
+    },
+    {
+      "id": "A489",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Destination-related state persists correctly after saving."
+    },
+    {
+      "id": "A490",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Freshwater animals cannot accidentally enter a marine tank."
+    },
+    {
+      "id": "A491",
+      "section": "25. STORE DESTINATION AQUARIUM \u2014 PERMANENT RULE",
+      "subsection": "",
+      "item": "Saltwater animals cannot accidentally enter a freshwater tank."
+    },
+    {
+      "id": "A492",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Product preview images."
+    },
+    {
+      "id": "A493",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Correct names."
+    },
+    {
+      "id": "A494",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Correct prices."
+    },
+    {
+      "id": "A495",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Correct stock."
+    },
+    {
+      "id": "A496",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Care difficulty labels."
+    },
+    {
+      "id": "A497",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Product detail windows."
+    },
+    {
+      "id": "A498",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Species compatibility information."
+    },
+    {
+      "id": "A499",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Insufficient funds validation."
+    },
+    {
+      "id": "A500",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Purchase confirmation."
+    },
+    {
+      "id": "A501",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Atomic transactions."
+    },
+    {
+      "id": "A502",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "No double-click duplication."
+    },
+    {
+      "id": "A503",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Inventory updates."
+    },
+    {
+      "id": "A504",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Store stock updates."
+    },
+    {
+      "id": "A505",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Transaction history where implemented."
+    },
+    {
+      "id": "A506",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Purchases remain after reload."
+    },
+    {
+      "id": "A507",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Living livestock is not stored indefinitely in invalid inventory."
+    },
+    {
+      "id": "A508",
+      "section": "26. STORE PURCHASES AND INVENTORY",
+      "subsection": "",
+      "item": "Empty categories have honest empty states."
+    },
+    {
+      "id": "A509",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Black Market tab exists."
+    },
+    {
+      "id": "A510",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Unlock state is respected."
+    },
+    {
+      "id": "A511",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Existing black-market stock loads."
+    },
+    {
+      "id": "A512",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Appropriate rare/fictional items display."
+    },
+    {
+      "id": "A513",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Dealer stock restrictions work."
+    },
+    {
+      "id": "A514",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Prices work."
+    },
+    {
+      "id": "A515",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Reputation where implemented."
+    },
+    {
+      "id": "A516",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Special care requirements are shown."
+    },
+    {
+      "id": "A517",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Dangerous creatures have suitable warnings."
+    },
+    {
+      "id": "A518",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "Transactions use normal validation."
+    },
+    {
+      "id": "A519",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "No freshwater content was added during the current phase."
+    },
+    {
+      "id": "A520",
+      "section": "27. BLACK MARKET",
+      "subsection": "",
+      "item": "No infinite-profit exploit."
+    },
+    {
+      "id": "A521",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Aquarium Credits currency."
+    },
+    {
+      "id": "A522",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Starting balance."
+    },
+    {
+      "id": "A523",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Livestock market values."
+    },
+    {
+      "id": "A524",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Individual fish value modifiers."
+    },
+    {
+      "id": "A525",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Rarity."
+    },
+    {
+      "id": "A526",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Health influence."
+    },
+    {
+      "id": "A527",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Age influence."
+    },
+    {
+      "id": "A528",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Genetics influence."
+    },
+    {
+      "id": "A529",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Supply/demand."
+    },
+    {
+      "id": "A530",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Aquarium asset value."
+    },
+    {
+      "id": "A531",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Tank biological capacity value."
+    },
+    {
+      "id": "A532",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Limited store budgets."
+    },
+    {
+      "id": "A533",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Controlled selling."
+    },
+    {
+      "id": "A534",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Market saturation."
+    },
+    {
+      "id": "A535",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Transaction cooldowns."
+    },
+    {
+      "id": "A536",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Maintenance expenses."
+    },
+    {
+      "id": "A537",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "No infinite buy/sell loops."
+    },
+    {
+      "id": "A538",
+      "section": "28. ECONOMY AND VALUATION",
+      "subsection": "",
+      "item": "Economy balancing tests."
+    },
+    {
+      "id": "A539",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Quest list."
+    },
+    {
+      "id": "A540",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Active quests."
+    },
+    {
+      "id": "A541",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Completed quests."
+    },
+    {
+      "id": "A542",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Locked quests."
+    },
+    {
+      "id": "A543",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Objective tracking."
+    },
+    {
+      "id": "A544",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Rewards."
+    },
+    {
+      "id": "A545",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Unlock conditions."
+    },
+    {
+      "id": "A546",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "One-time reward claims."
+    },
+    {
+      "id": "A547",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Tank setup quests."
+    },
+    {
+      "id": "A548",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Cycling quests."
+    },
+    {
+      "id": "A549",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Fish care quests."
+    },
+    {
+      "id": "A550",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Coral quests."
+    },
+    {
+      "id": "A551",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Breeding quests."
+    },
+    {
+      "id": "A552",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Marketplace quests."
+    },
+    {
+      "id": "A553",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Aquarium prestige."
+    },
+    {
+      "id": "A554",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Achievements."
+    },
+    {
+      "id": "A555",
+      "section": "29. QUESTS AND ACHIEVEMENTS",
+      "subsection": "",
+      "item": "Progress saving."
+    },
+    {
+      "id": "A556",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Bronze."
+    },
+    {
+      "id": "A557",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Silver."
+    },
+    {
+      "id": "A558",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Gold."
+    },
+    {
+      "id": "A559",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Platinum."
+    },
+    {
+      "id": "A560",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Diamond."
+    },
+    {
+      "id": "A561",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Image previews."
+    },
+    {
+      "id": "A562",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Exclusive cosmetic fish previews."
+    },
+    {
+      "id": "A563",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Coral cosmetic previews."
+    },
+    {
+      "id": "A564",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Seasonal item previews."
+    },
+    {
+      "id": "A565",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Decoration previews."
+    },
+    {
+      "id": "A566",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Premium background previews."
+    },
+    {
+      "id": "A567",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "Clear VIP Preview label."
+    },
+    {
+      "id": "A568",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "No payment processor."
+    },
+    {
+      "id": "A569",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "No checkout."
+    },
+    {
+      "id": "A570",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "No subscription charge."
+    },
+    {
+      "id": "A571",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "No payment-card collection."
+    },
+    {
+      "id": "A572",
+      "section": "30. VIP PREVIEW",
+      "subsection": "",
+      "item": "No unauthorized entitlement activation."
+    },
+    {
+      "id": "A573",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Halloween framework."
+    },
+    {
+      "id": "A574",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Winter event framework."
+    },
+    {
+      "id": "A575",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Valentine's event framework."
+    },
+    {
+      "id": "A576",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Spring event framework."
+    },
+    {
+      "id": "A577",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Summer event framework."
+    },
+    {
+      "id": "A578",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Anniversary event framework."
+    },
+    {
+      "id": "A579",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Event artwork consistency."
+    },
+    {
+      "id": "A580",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Event quests where implemented."
+    },
+    {
+      "id": "A581",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Offline event testing."
+    },
+    {
+      "id": "A582",
+      "section": "31. SEASONAL EVENTS",
+      "subsection": "",
+      "item": "Previously acquired event items remain owned."
+    },
+    {
+      "id": "A583",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Main background is near-black."
+    },
+    {
+      "id": "A584",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Panels are slate blue."
+    },
+    {
+      "id": "A585",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Aquarium is the main visual centerpiece."
+    },
+    {
+      "id": "A586",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "UI has original identity."
+    },
+    {
+      "id": "A587",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Navigation is understandable."
+    },
+    {
+      "id": "A588",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Text is readable."
+    },
+    {
+      "id": "A589",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Menus have consistent styling."
+    },
+    {
+      "id": "A590",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Buttons have hover states."
+    },
+    {
+      "id": "A591",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Buttons have focus states."
+    },
+    {
+      "id": "A592",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Warnings are clear."
+    },
+    {
+      "id": "A593",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Tooltips explain unfamiliar systems."
+    },
+    {
+      "id": "A594",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Fish inspector works."
+    },
+    {
+      "id": "A595",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Coral inspector works."
+    },
+    {
+      "id": "A596",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Substrate inspector works."
+    },
+    {
+      "id": "A597",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Water conditions panel works."
+    },
+    {
+      "id": "A598",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Equipment inspector works."
+    },
+    {
+      "id": "A599",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Quest interface works."
+    },
+    {
+      "id": "A600",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Inventory interface works."
+    },
+    {
+      "id": "A601",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "Aquarium selector works."
+    },
+    {
+      "id": "A602",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "UI remains usable at smaller desktop resolutions."
+    },
+    {
+      "id": "A603",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "No misleading buttons."
+    },
+    {
+      "id": "A604",
+      "section": "32. USER INTERFACE AND EXPERIENCE",
+      "subsection": "",
+      "item": "No invisible interactive elements."
+    },
+    {
+      "id": "A605",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Autosave."
+    },
+    {
+      "id": "A606",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Manual save."
+    },
+    {
+      "id": "A607",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Save schema version."
+    },
+    {
+      "id": "A608",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Save validation."
+    },
+    {
+      "id": "A609",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Save migration."
+    },
+    {
+      "id": "A610",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Export save."
+    },
+    {
+      "id": "A611",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Import save."
+    },
+    {
+      "id": "A612",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Corrupt-save handling."
+    },
+    {
+      "id": "A613",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Fish identities persist."
+    },
+    {
+      "id": "A614",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Life stages persist."
+    },
+    {
+      "id": "A615",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Fish death states persist."
+    },
+    {
+      "id": "A616",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Coral states persist."
+    },
+    {
+      "id": "A617",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Coral attachments persist."
+    },
+    {
+      "id": "A618",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Substrate depth persists."
+    },
+    {
+      "id": "A619",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Rock placement persists."
+    },
+    {
+      "id": "A620",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Currency persists."
+    },
+    {
+      "id": "A621",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Inventory persists."
+    },
+    {
+      "id": "A622",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Quests persist."
+    },
+    {
+      "id": "A623",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Store stock persists."
+    },
+    {
+      "id": "A624",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Tank selection persists."
+    },
+    {
+      "id": "A625",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Offline progression is bounded."
+    },
+    {
+      "id": "A626",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Long absence does not cause unintended save corruption."
+    },
+    {
+      "id": "A627",
+      "section": "33. SAVE/LOAD AND OFFLINE PROGRESSION",
+      "subsection": "",
+      "item": "Browser storage limitations are handled."
+    },
+    {
+      "id": "A628",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Rendering and simulation are separated."
+    },
+    {
+      "id": "A629",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Simulation uses consistent timesteps."
+    },
+    {
+      "id": "A630",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Chemistry calculations are not performed unnecessarily every frame."
+    },
+    {
+      "id": "A631",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Sprite atlases or equivalent batching are used appropriately."
+    },
+    {
+      "id": "A632",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Static scenery is cached where useful."
+    },
+    {
+      "id": "A633",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Fish interactions scale reasonably."
+    },
+    {
+      "id": "A634",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Offscreen aquariums are not fully rendered unnecessarily."
+    },
+    {
+      "id": "A635",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Particle effects are bounded."
+    },
+    {
+      "id": "A636",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Lighting is adjustable."
+    },
+    {
+      "id": "A637",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Performance preset works."
+    },
+    {
+      "id": "A638",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Balanced preset works."
+    },
+    {
+      "id": "A639",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Ultra preset works."
+    },
+    {
+      "id": "A640",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Fish remain visually clear under lower graphics settings."
+    },
+    {
+      "id": "A641",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Memory usage remains stable."
+    },
+    {
+      "id": "A642",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Long-running simulation does not cause progressive slowdown."
+    },
+    {
+      "id": "A643",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Browser resizing is handled correctly."
+    },
+    {
+      "id": "A644",
+      "section": "34. PERFORMANCE AND OPTIMIZATION",
+      "subsection": "",
+      "item": "Frame rate is measured rather than assumed."
+    },
+    {
+      "id": "A645",
+      "section": "35. CONTENT EXPANSION RULE",
+      "subsection": "",
+      "item": "Content batch rule is documented."
+    },
+    {
+      "id": "A646",
+      "section": "35. CONTENT EXPANSION RULE",
+      "subsection": "",
+      "item": "Every added species has unique metadata."
+    },
+    {
+      "id": "A647",
+      "section": "35. CONTENT EXPANSION RULE",
+      "subsection": "",
+      "item": "Every added species follows art-stage requirements."
+    },
+    {
+      "id": "A648",
+      "section": "35. CONTENT EXPANSION RULE",
+      "subsection": "",
+      "item": "Every added fish follows eye/direction rules."
+    },
+    {
+      "id": "A649",
+      "section": "35. CONTENT EXPANSION RULE",
+      "subsection": "",
+      "item": "Every added coral follows placement restrictions."
+    },
+    {
+      "id": "A650",
+      "section": "35. CONTENT EXPANSION RULE",
+      "subsection": "",
+      "item": "Every added species has appropriate care difficulty."
+    },
+    {
+      "id": "A651",
+      "section": "35. CONTENT EXPANSION RULE",
+      "subsection": "",
+      "item": "No existing species is duplicated."
+    },
+    {
+      "id": "A652",
+      "section": "35. CONTENT EXPANSION RULE",
+      "subsection": "",
+      "item": "No freshwater livestock expansion occurs without authorization."
+    },
+    {
+      "id": "A653",
+      "section": "35. CONTENT EXPANSION RULE",
+      "subsection": "",
+      "item": "Special approved expansions, such as the clownfish collection, are clearly identified as exceptions."
+    },
+    {
+      "id": "A654",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "`GAME_DESIGN.md`."
+    },
+    {
+      "id": "A655",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "`ART_DIRECTION.md`."
+    },
+    {
+      "id": "A656",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "`UI_SPECIFICATION.md`."
+    },
+    {
+      "id": "A657",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "`CURRENT_LIVESTOCK_CATALOG.md`."
+    },
+    {
+      "id": "A658",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "`DEVELOPMENT_STATUS.md`."
+    },
+    {
+      "id": "A659",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "`BALANCE_REPORT.md`."
+    },
+    {
+      "id": "A660",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "`README.md`."
+    },
+    {
+      "id": "A661",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Consolidated 31-section Master Development Prompt."
+    },
+    {
+      "id": "A662",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Contains every locked rule."
+    },
+    {
+      "id": "A663",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Preserves earlier requirements."
+    },
+    {
+      "id": "A664",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Avoids duplicate descriptions."
+    },
+    {
+      "id": "A665",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Uses one primary section per major mechanic."
+    },
+    {
+      "id": "A666",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Correctly cross-references interacting systems."
+    },
+    {
+      "id": "A667",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Preserves current saltwater-only development scope."
+    },
+    {
+      "id": "A668",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Documents future freshwater expansion."
+    },
+    {
+      "id": "A669",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Records the latest approved art reference."
+    },
+    {
+      "id": "A670",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Includes the store destination aquarium rule."
+    },
+    {
+      "id": "A671",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Includes the life-stage artwork rule."
+    },
+    {
+      "id": "A672",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Includes the coral placement rule."
+    },
+    {
+      "id": "A673",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Includes the eye persistence rule."
+    },
+    {
+      "id": "A674",
+      "section": "36. DOCUMENTATION AND CONTINUITY",
+      "subsection": "",
+      "item": "Includes the 25/5/5 content expansion rule."
+    }
+  ]
+}

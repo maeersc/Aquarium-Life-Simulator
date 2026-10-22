@@ -1,0 +1,18 @@
+{
+  "variant": "protected",
+  "hidden": true,
+  "mainThreadCorePercent": 0.022199999999994446,
+  "draws": 0,
+  "calls": {},
+  "scheduler": {
+    "raf": 0,
+    "timer": 0,
+    "mode": "tank",
+    "returning": false,
+    "pendingMinutes": 0
+  },
+  "profilerSamples": {
+    "(program)": 2,
+    "(idle)": 1012
+  }
+}

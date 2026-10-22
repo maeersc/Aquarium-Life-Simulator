@@ -1,0 +1,61 @@
+{
+  "status": "PLANNING CHECKS PASSED",
+  "date": "2026-10-14",
+  "runtime": "v2.8 UNCHANGED",
+  "mdp": "v3.4 PLANNING REVISION",
+  "majorSections": 31,
+  "candidateCounts": {
+    "fish": 25,
+    "coral": 5,
+    "bottom_dweller": 5
+  },
+  "newSpeciesImplemented": 0,
+  "artGenerated": 0,
+  "candidateIdsUnique": true,
+  "sourceReviewedIdentityCollisions": 0,
+  "categoryT5T6Coverage": true,
+  "combinedPotentialCoralAndBottomTierCoverage": true,
+  "emptyPoolGuardStillRequired": true,
+  "oddsPercentTotal": 100,
+  "protectedFilesVerified": 2888,
+  "changedProtectedFiles": [],
+  "addedRuntimeFiles": [],
+  "originalRequirementsByteIdentical": true,
+  "localDocumentationLinksValid": true,
+  "mdpContinuitySourceMatches": true,
+  "maintenanceAudit": {
+    "actualSmallestLiters": 20,
+    "smallestMarineTenPercentWaterAC": 1,
+    "plannedTankLiters": "56781.176760000",
+    "plannedTenPercentWaterChargeAC": 739,
+    "flatSaltDoseIssue": true
+  },
+  "executed": [
+    "Static candidate counts/IDs/reviewed-name and alias collision audit",
+    "Premium and combined potential tier coverage",
+    "Exact probability sum",
+    "Original specification byte equality",
+    "31 MDP headings/unique subsections/full continuity equality",
+    "Local documentation links",
+    "2888 runtime/art/DIST/archive source hashes",
+    "Read-only decimal maintenance calculations"
+  ],
+  "failed": [],
+  "notRun": [
+    "All 35 future gameplay acceptance items",
+    "Browser gameplay tests for v2.9",
+    "Affordability simulation",
+    "New art generation/review",
+    "Binary PDF authoring/rendering",
+    "Build or packaging (no runtime edits authorized)"
+  ],
+  "authorization": {
+    "saltwaterOnly": "USER CONFIRMED 2026-10-14",
+    "roster": "USER APPROVED 2026-10-14",
+    "rarity": "USER APPROVED 2026-10-14",
+    "implementation": "NOT AUTHORIZED"
+  },
+  "limits": "Source-reviewed aliases, current IDs, 38-entry ledger, 31 clownfish records, 25 designer varieties as exclusions, five art-only subjects and legacy common-name exclusions. Generic coral groups cannot prove a precise species identity; no species identification or renaming of those groups is claimed. This is not an exhaustive worldwide synonym database or certified care guide.",
+  "approvalRecord": "planning/v2.9/approval.json",
+  "approvalUpdateVerified": true
+}

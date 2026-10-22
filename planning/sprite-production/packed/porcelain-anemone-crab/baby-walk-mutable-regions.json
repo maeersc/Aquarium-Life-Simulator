@@ -1,0 +1,83 @@
+{
+  "agentInspected": true,
+  "inspectionScope": "First native tissue geometry inspected; final all16-cell review still required before registration.",
+  "description": "Inspected baby porcelain crab attached walking legs, original articulated claws and soft feeding fans below the fixed red-spotted carapace. The rigid main carapace, paired stalk eyes and central body landmark remain canonical protected pixels. Complete authored appendage/root areas are retained to avoid severed leg tips from an over-restrictive claw mask. Original walk source drawings supply all motion.",
+  "polygons": [
+    [
+      [
+        28,
+        84
+      ],
+      [
+        83,
+        81
+      ],
+      [
+        120,
+        84
+      ],
+      [
+        177,
+        77
+      ],
+      [
+        184,
+        142
+      ],
+      [
+        28,
+        142
+      ]
+    ]
+  ],
+  "protectedPolygons": [
+    [
+      [
+        65,
+        55
+      ],
+      [
+        111,
+        53
+      ],
+      [
+        131,
+        66
+      ],
+      [
+        128,
+        81
+      ],
+      [
+        111,
+        86
+      ],
+      [
+        84,
+        86
+      ],
+      [
+        63,
+        80
+      ]
+    ],
+    [
+      [
+        109,
+        53
+      ],
+      [
+        142,
+        53
+      ],
+      [
+        142,
+        80
+      ],
+      [
+        109,
+        80
+      ]
+    ]
+  ]
+}

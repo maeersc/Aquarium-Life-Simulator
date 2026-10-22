@@ -1,0 +1,577 @@
+{
+  "entry": "index.html",
+  "browser": "edge",
+  "passed": 142,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Freshwater new-game route remains visibly disabled",
+      "pass": true
+    },
+    {
+      "name": "Eligible new saltwater profile launches interactive tutorial",
+      "pass": true
+    },
+    {
+      "name": "Real new aquarium starts dry and has no installed gear",
+      "pass": true
+    },
+    {
+      "name": "Old passive corner tutorial and Next/Back bypass removed",
+      "pass": true
+    },
+    {
+      "name": "Forged old Next/completion action rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "Forged interaction ticket is rejected",
+      "pass": true
+    },
+    {
+      "name": "Welcome targets a real navigation control",
+      "pass": true
+    },
+    {
+      "name": "Independent finance modal keeps guide target inside its active window",
+      "pass": true
+    },
+    {
+      "name": "Opening Aquariums verifies navigation but does not prepare water",
+      "pass": true
+    },
+    {
+      "name": "Keyboard interaction with actual aquarium advances the viewing objective",
+      "pass": true
+    },
+    {
+      "name": "Sand objective highlights a real product/depth control",
+      "pass": true
+    },
+    {
+      "name": "Looking at sand does not install it or complete the task",
+      "pass": true
+    },
+    {
+      "name": "Sand purchase installs the actual selected depth and charges40AC once",
+      "pass": true
+    },
+    {
+      "name": "Filling records wet state without falsely preparing/cycling",
+      "pass": true
+    },
+    {
+      "name": "Preparation clears dry marker and preserves actual cold temperature",
+      "pass": true
+    },
+    {
+      "name": "filter: real equipment purchase enters storage without installing",
+      "pass": true
+    },
+    {
+      "name": "filter: spotlight follows installation modal",
+      "pass": true
+    },
+    {
+      "name": "filter: every owned aquarium appears in installation destinations",
+      "pass": true
+    },
+    {
+      "name": "filter: installation transfers exactly one permanent equipment identity",
+      "pass": true
+    },
+    {
+      "name": "filter: repeat installation is rejected without mutation",
+      "pass": true
+    },
+    {
+      "name": "Filter objective requires real installed operational filter",
+      "pass": true
+    },
+    {
+      "name": "heater: real equipment purchase enters storage without installing",
+      "pass": true
+    },
+    {
+      "name": "heater: spotlight follows installation modal",
+      "pass": true
+    },
+    {
+      "name": "heater: every owned aquarium appears in installation destinations",
+      "pass": true
+    },
+    {
+      "name": "heater: installation transfers exactly one permanent equipment identity",
+      "pass": true
+    },
+    {
+      "name": "heater: repeat installation is rejected without mutation",
+      "pass": true
+    },
+    {
+      "name": "flow: real equipment purchase enters storage without installing",
+      "pass": true
+    },
+    {
+      "name": "flow: spotlight follows installation modal",
+      "pass": true
+    },
+    {
+      "name": "flow: every owned aquarium appears in installation destinations",
+      "pass": true
+    },
+    {
+      "name": "flow: installation transfers exactly one permanent equipment identity",
+      "pass": true
+    },
+    {
+      "name": "flow: repeat installation is rejected without mutation",
+      "pass": true
+    },
+    {
+      "name": "Existing approved preparation quest uses its own reward ledger",
+      "pass": true
+    },
+    {
+      "name": "Rock purchase waits for actual placement and does not charge early",
+      "pass": true
+    },
+    {
+      "name": "Canceled placement does not complete shelter or spend money",
+      "pass": true
+    },
+    {
+      "name": "Real keyboard placement creates one rock and verifies shelter",
+      "pass": true
+    },
+    {
+      "name": "Thermostat stays in installed equipment inspector, not a standalone panel",
+      "pass": true
+    },
+    {
+      "name": "Saving thermostat does not force measured water to25C",
+      "pass": true
+    },
+    {
+      "name": "Actual thermal simulation gradually warms water into species range",
+      "pass": true
+    },
+    {
+      "name": "Starting cycle requires genuine time and leaves bacterial task incomplete",
+      "pass": true
+    },
+    {
+      "name": "Fishless finish/skip button is removed during guided setup",
+      "pass": true
+    },
+    {
+      "name": "Legacy finish-cycle dispatch cannot bypass the tutorial wait",
+      "pass": true
+    },
+    {
+      "name": "Unsafe first fish cannot be stocked during cycling",
+      "pass": true
+    },
+    {
+      "name": "Cycle completes only through432 authoritative five-minute steps",
+      "pass": true
+    },
+    {
+      "name": "Simulation does not spam a debug event every fixed step",
+      "pass": true
+    },
+    {
+      "name": "Viewing earlier steps did not fabricate water verification",
+      "pass": true
+    },
+    {
+      "name": "Verification uses real nitrate, temperature and biological receiving checks",
+      "pass": true
+    },
+    {
+      "name": "Actual new aquarium purchase creates an empty unprepared alternate receiver",
+      "pass": true
+    },
+    {
+      "name": "Recommendation fits actual tank, supported care, level, stock and price",
+      "pass": true
+    },
+    {
+      "name": "Actual listing details retain price, species care and receiving destination",
+      "pass": true
+    },
+    {
+      "name": "Every owned aquarium is listed during receiving selection",
+      "pass": true
+    },
+    {
+      "name": "Unprepared receiver is disabled with its actual rejection reason",
+      "pass": true
+    },
+    {
+      "name": "Existing atomic purchase transfers a permanently owned fish exactly once",
+      "pass": true
+    },
+    {
+      "name": "Fish debit and approved first-species reward remain exact",
+      "pass": true
+    },
+    {
+      "name": "Breeding-pair offer rule remains configured5percent",
+      "pass": true
+    },
+    {
+      "name": "Opening Feeding does not count as a real feed",
+      "pass": true
+    },
+    {
+      "name": "Feeding objective requires real compatible inventory-consuming action",
+      "pass": true
+    },
+    {
+      "name": "Appetite waits for actual individual consumption evidence",
+      "pass": true
+    },
+    {
+      "name": "Completion requires all verified steps and current safe water",
+      "pass": true
+    },
+    {
+      "name": "Concise completion shows real resident, milestones and no invented reward",
+      "pass": true
+    },
+    {
+      "name": "Repeated completion observation grants no extra AC orXP",
+      "pass": true
+    },
+    {
+      "name": "Completed onboarding survives a schema2 JSON round trip",
+      "pass": true
+    },
+    {
+      "name": "Confirmed restart retains equipment, fish, genes, cash, XP and RNG",
+      "pass": true
+    },
+    {
+      "name": "Restart is a guide reset only and requires confirmation",
+      "pass": true
+    },
+    {
+      "name": "Pause/resume does not perform gameplay or erase verified milestones",
+      "pass": true
+    },
+    {
+      "name": "Skip without confirmation rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "Confirmed skip grants no reward and does not simulate tasks",
+      "pass": true
+    },
+    {
+      "name": "Legacy active guide migrates without treating Next clicks as evidence",
+      "pass": true
+    },
+    {
+      "name": "Legacy completed guide preserves opt-out without false interactive completion",
+      "pass": true
+    },
+    {
+      "name": "Legacy skipped guide stays skipped and preserves the whole aquarium",
+      "pass": true
+    },
+    {
+      "name": "Already established aquarium is recognized without repeat purchases/cycling",
+      "pass": true
+    },
+    {
+      "name": "Previously recorded individual feeding satisfies existing-player care truthfully",
+      "pass": true
+    },
+    {
+      "name": "Established bare-bottom aquarium retains its required shelter without new sand purchase",
+      "pass": true
+    },
+    {
+      "name": "Preparation migration does not recreate a stale dry marker",
+      "pass": true
+    },
+    {
+      "name": "A fresh dry tank cannot advance by reading or fake status changes",
+      "pass": true
+    },
+    {
+      "name": "The guide does not alter real day length or cycling duration",
+      "pass": true
+    },
+    {
+      "name": "Disabled filtration still blocks shared guided receiving",
+      "pass": true
+    },
+    {
+      "name": "Uncycled water still blocks fish even with normal displayed chemistry",
+      "pass": true
+    },
+    {
+      "name": "Species temperature requirements use actual water rather than thermostat",
+      "pass": true
+    },
+    {
+      "name": "High nitrate remains visible and blocks tutorial readiness",
+      "pass": true
+    },
+    {
+      "name": "Multiple aquarium selection does not silently retarget the guide",
+      "pass": true
+    },
+    {
+      "name": "Explicit guide aquarium change does not change selected aquarium or transfer assets",
+      "pass": true
+    },
+    {
+      "name": "Sold active tutorial aquarium recovers to honest empty ownership",
+      "pass": true
+    },
+    {
+      "name": "Tutorial cannot select a nonowned aquarium",
+      "pass": true
+    },
+    {
+      "name": "Freshwater creation remains locked",
+      "pass": true
+    },
+    {
+      "name": "Freshwater cannot become the tutorial aquarium",
+      "pass": true
+    },
+    {
+      "name": "Two profiles keep independent guide records and evidence",
+      "pass": true
+    },
+    {
+      "name": "Unsupported future tutorial version rejects rather than downgrades",
+      "pass": true
+    },
+    {
+      "name": "Forged completed status without all milestones is rejected",
+      "pass": true
+    },
+    {
+      "name": "Cross-tank milestone corruption is rejected",
+      "pass": true
+    },
+    {
+      "name": "Debug history is bounded and monotonically sequenced",
+      "pass": true
+    },
+    {
+      "name": "Every step defines identity, phase, context, target, action, validation, event, next and recovery",
+      "pass": true
+    },
+    {
+      "name": "Loss of a tutorial fish clears its care evidence without deleting or restoring it",
+      "pass": true
+    },
+    {
+      "name": "Active quarantine treatment restrictions remain in the shared checks",
+      "pass": true
+    },
+    {
+      "name": "Incoming purchase retains existing same-species treatment restrictions",
+      "pass": true
+    },
+    {
+      "name": "Shared incoming report respects a social species actual group quantity",
+      "pass": true
+    },
+    {
+      "name": "Blocked local storage cannot fabricate a successful save diagnostic",
+      "pass": true
+    },
+    {
+      "name": "Paused status and its verified objective survive normal JSON migration",
+      "pass": true
+    },
+    {
+      "name": "Reviewing a completed guide retains original completion time and rewards",
+      "pass": true
+    },
+    {
+      "name": "Non-fish receiving retains its own oxygen and single-animal capacity diagnostics",
+      "pass": true
+    },
+    {
+      "name": "Settings offers all tutorial controls and Local Debug Log",
+      "pass": true
+    },
+    {
+      "name": "Restart opens its own confirmation without changing ownership",
+      "pass": true
+    },
+    {
+      "name": "Confirmed restart recognizes real existing setup and preserves rewards",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: spotlight aligns with actual modal target",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: contextual tooltip stays inside viewport",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: overlay never intercepts the highlighted control",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: spotlight realigns to responsive sidebar",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: guide adds no horizontal page overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: spotlight aligns with actual modal target",
+      "pass": true
+    },
+    {
+      "name": "1600x900: contextual tooltip stays inside viewport",
+      "pass": true
+    },
+    {
+      "name": "1600x900: overlay never intercepts the highlighted control",
+      "pass": true
+    },
+    {
+      "name": "1600x900: spotlight realigns to responsive sidebar",
+      "pass": true
+    },
+    {
+      "name": "1600x900: guide adds no horizontal page overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: spotlight aligns with actual modal target",
+      "pass": true
+    },
+    {
+      "name": "1366x768: contextual tooltip stays inside viewport",
+      "pass": true
+    },
+    {
+      "name": "1366x768: overlay never intercepts the highlighted control",
+      "pass": true
+    },
+    {
+      "name": "1366x768: spotlight realigns to responsive sidebar",
+      "pass": true
+    },
+    {
+      "name": "1366x768: guide adds no horizontal page overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: spotlight aligns with actual modal target",
+      "pass": true
+    },
+    {
+      "name": "390x844: contextual tooltip stays inside viewport",
+      "pass": true
+    },
+    {
+      "name": "390x844: overlay never intercepts the highlighted control",
+      "pass": true
+    },
+    {
+      "name": "390x844: spotlight realigns to responsive sidebar",
+      "pass": true
+    },
+    {
+      "name": "390x844: guide adds no horizontal page overflow",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion mode uses static highlights without animation",
+      "pass": true
+    },
+    {
+      "name": "Missing target shows recoverable guidance and records one diagnostic",
+      "pass": true
+    },
+    {
+      "name": "Repeated missing-target checks do not spam the debug history",
+      "pass": true
+    },
+    {
+      "name": "Closing an interrupted modal recovers a real clickable target",
+      "pass": true
+    },
+    {
+      "name": "Pause stops guide progression while the ecosystem still advances",
+      "pass": true
+    },
+    {
+      "name": "View Current Objective remains accessible while paused",
+      "pass": true
+    },
+    {
+      "name": "Resume restores the saved objective without repeating transactions",
+      "pass": true
+    },
+    {
+      "name": "Skip requires deliberate confirmation and does not complete anything early",
+      "pass": true
+    },
+    {
+      "name": "Canceling Skip keeps the interactive guide active",
+      "pass": true
+    },
+    {
+      "name": "Confirmed Skip preserves economy, residents and real setup",
+      "pass": true
+    },
+    {
+      "name": "Actual aquarium creation retained the alternate empty saltwater tank safely",
+      "pass": true
+    },
+    {
+      "name": "Switching aquariums guides player back without silently changing selection",
+      "pass": true
+    },
+    {
+      "name": "Real aquarium selector restores the pinned tutorial context",
+      "pass": true
+    },
+    {
+      "name": "Actual reload restores guide objective and verified steps",
+      "pass": true
+    },
+    {
+      "name": "Reload preserves money, XP and every livestock/equipment identity",
+      "pass": true
+    },
+    {
+      "name": "After actual Continue, spotlight resolves the correct real control",
+      "pass": true
+    },
+    {
+      "name": "Debug history contains action, validation, completion, target, save and restoration events",
+      "pass": true
+    },
+    {
+      "name": "Freshwater options remain disabled and no tutorial chooses them",
+      "pass": true
+    },
+    {
+      "name": "Guide and local save are entirely offline with no external service requests",
+      "pass": true
+    },
+    {
+      "name": "No uncaught JavaScript errors",
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

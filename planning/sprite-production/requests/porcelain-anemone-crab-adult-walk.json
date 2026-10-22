@@ -1,0 +1,8 @@
+{
+  "id": "porcelain-anemone-crab",
+  "stage": "adult",
+  "state": "walk",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\porcelain-anemone-crab\\adult.png",
+  "prompt": "Aquarium Life porcelain-anemone-crab ADULT WALK actual16-frame livestock animation sheet. Attached PNG is exact approved life-stage anatomy, scale proportions and detailed classic16-bit pixel-art identity. Cream porcelain crab with original small red spots, paired stalk eyes and large spotted claws. Body/carapace and claw markings remain fixed. Tiny attached walking leg movements and subtle feathery filter-feeding fan opening only.  LOCOMOTION sequence: calm alternating attached leg/foot motions appropriate to this species and stage; drawn in place, no whole-body translation, displacement is handled by the game. ONE square transparent PNG FOUR equal columns FOUR equal rows, sixteen actually authored distinct small successive poses forming a slow seamless16-to1 loop. All16 face RIGHT consistently like reference. Fixed main body center, head/eye points, scale and shell/carapace. No anatomy drift, lost/duplicated legs, disconnected antennae, additional eyes or random pattern changes. Keep long antennae/foot tips fully inside central75%eachcell, broad truly clear transparent gutters. Crisp source pixel clusters, no smoothing/blur/antialias/glow/background/checkerboard/text/grid. Never wobble the rigid shell or carapace.",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-a0fd50ee-994f-4421-8951-68ead231395c.png"
+}

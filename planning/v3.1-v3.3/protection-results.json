@@ -1,0 +1,12 @@
+{
+  "checked": 1464,
+  "centralDataPreserved": true,
+  "excludedRegeneratedEvidencePreviews": [
+    "assets/previews/chrome-clownfish-gallery.png",
+    "assets/previews/chrome-clownfish-mobile.png",
+    "assets/previews/chrome-coral-attachment-study.png"
+  ],
+  "protectedUnchanged": 1461,
+  "changedProtectedAssets": [],
+  "note": "Three QA screenshot previews differ from the pre-v2.9 baseline; they are evidence, not livestock artwork. Other old assets and central data are byte-identical."
+}

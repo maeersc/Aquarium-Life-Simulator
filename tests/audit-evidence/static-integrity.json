@@ -1,0 +1,1802 @@
+{
+  "date": "2026-10-12",
+  "banks": [
+    {
+      "file": "js/art-assets-data.js",
+      "records": [
+        {
+          "id": "niger-triggerfish",
+          "atlas": "assets/livestock/fish/niger-triggerfish/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            768,
+            128
+          ],
+          "expectedDimensions": [
+            768,
+            128
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 4,
+          "approved": false
+        },
+        {
+          "id": "emperor-angelfish",
+          "atlas": "assets/livestock/fish/emperor-angelfish/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            768,
+            128
+          ],
+          "expectedDimensions": [
+            768,
+            128
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 4,
+          "approved": false
+        },
+        {
+          "id": "red-lionfish",
+          "atlas": "assets/livestock/fish/red-lionfish/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            768,
+            128
+          ],
+          "expectedDimensions": [
+            768,
+            128
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 4,
+          "approved": false
+        },
+        {
+          "id": "dogface-puffer",
+          "atlas": "assets/livestock/fish/dogface-puffer/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            768,
+            128
+          ],
+          "expectedDimensions": [
+            768,
+            128
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 4,
+          "approved": false
+        },
+        {
+          "id": "blue-tang",
+          "atlas": "assets/livestock/fish/blue-tang/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            768,
+            128
+          ],
+          "expectedDimensions": [
+            768,
+            128
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 4,
+          "approved": false
+        },
+        {
+          "id": "zoa",
+          "atlas": "assets/livestock/corals/zoa/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1920,
+            192
+          ],
+          "expectedDimensions": [
+            1920,
+            192
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 10,
+          "approved": false
+        },
+        {
+          "id": "mushroom",
+          "atlas": "assets/livestock/corals/mushroom/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1920,
+            192
+          ],
+          "expectedDimensions": [
+            1920,
+            192
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 10,
+          "approved": false
+        },
+        {
+          "id": "sps",
+          "atlas": "assets/livestock/corals/sps/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1920,
+            192
+          ],
+          "expectedDimensions": [
+            1920,
+            192
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 10,
+          "approved": false
+        },
+        {
+          "id": "lps",
+          "atlas": "assets/livestock/corals/lps/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1920,
+            192
+          ],
+          "expectedDimensions": [
+            1920,
+            192
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 10,
+          "approved": false
+        },
+        {
+          "id": "soft",
+          "atlas": "assets/livestock/corals/soft/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1920,
+            192
+          ],
+          "expectedDimensions": [
+            1920,
+            192
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 10,
+          "approved": false
+        },
+        {
+          "id": "fiji",
+          "atlas": "assets/livestock/rocks/fiji/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            768,
+            192
+          ],
+          "expectedDimensions": [
+            768,
+            192
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 4,
+          "approved": false
+        },
+        {
+          "id": "caribbean",
+          "atlas": "assets/livestock/rocks/caribbean/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            768,
+            192
+          ],
+          "expectedDimensions": [
+            768,
+            192
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 4,
+          "approved": false
+        },
+        {
+          "id": "hawaiian",
+          "atlas": "assets/livestock/rocks/hawaiian/atlas-v11.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            768,
+            192
+          ],
+          "expectedDimensions": [
+            768,
+            192
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 4,
+          "approved": false
+        }
+      ]
+    },
+    {
+      "file": "js/life-stage-data.js",
+      "records": [
+        {
+          "id": "guppy",
+          "atlas": "assets/livestock/life-stages/fish/guppy/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "neon",
+          "atlas": "assets/livestock/life-stages/fish/neon/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "cardinal",
+          "atlas": "assets/livestock/life-stages/fish/cardinal/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "betta",
+          "atlas": "assets/livestock/life-stages/fish/betta/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "cory",
+          "atlas": "assets/livestock/life-stages/bottom_feeders/cory/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "danio",
+          "atlas": "assets/livestock/life-stages/fish/danio/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "harlequin",
+          "atlas": "assets/livestock/life-stages/fish/harlequin/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "platy",
+          "atlas": "assets/livestock/life-stages/fish/platy/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "angel",
+          "atlas": "assets/livestock/life-stages/fish/angel/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "pleco",
+          "atlas": "assets/livestock/life-stages/bottom_feeders/pleco/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "clown",
+          "atlas": "assets/livestock/life-stages/fish/clown/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "gramma",
+          "atlas": "assets/livestock/life-stages/fish/gramma/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "firefish",
+          "atlas": "assets/livestock/life-stages/fish/firefish/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "watchman",
+          "atlas": "assets/livestock/life-stages/bottom_feeders/watchman/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "banggai",
+          "atlas": "assets/livestock/life-stages/fish/banggai/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "chromis",
+          "atlas": "assets/livestock/life-stages/fish/chromis/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "yellowtang",
+          "atlas": "assets/livestock/life-stages/fish/yellowtang/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "sixline",
+          "atlas": "assets/livestock/life-stages/fish/sixline/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "blenny",
+          "atlas": "assets/livestock/life-stages/bottom_feeders/blenny/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "marinebetta",
+          "atlas": "assets/livestock/life-stages/fish/marinebetta/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "voidfin",
+          "atlas": "assets/livestock/life-stages/fish/voidfin/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "glassfang",
+          "atlas": "assets/livestock/life-stages/fish/glassfang/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "zoa",
+          "atlas": "assets/livestock/life-stages/corals/zoa/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "mushroom",
+          "atlas": "assets/livestock/life-stages/corals/mushroom/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "sps",
+          "atlas": "assets/livestock/life-stages/corals/sps/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "lps",
+          "atlas": "assets/livestock/life-stages/corals/lps/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "soft",
+          "atlas": "assets/livestock/life-stages/corals/soft/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        }
+      ]
+    },
+    {
+      "file": "js/clownfish-art-data.js",
+      "records": [
+        {
+          "id": "clown",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-ocellaris/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-percula",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-percula/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-biaculeatus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-biaculeatus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-clarkii",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-clarkii/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-frenatus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-frenatus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-melanopus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-melanopus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-ephippium",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-ephippium/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-perideraion",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-perideraion/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-sandaracinos",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-sandaracinos/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-akallopisos",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-akallopisos/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-polymnus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-polymnus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-sebae",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-sebae/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-akindynos",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-akindynos/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-allardi",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-allardi/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-bicinctus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-bicinctus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-chrysopterus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-chrysopterus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-nigripes",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-nigripes/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-omanensis",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-omanensis/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-chagosensis",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-chagosensis/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-chrysogaster",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-chrysogaster/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-fuscocaudatus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-fuscocaudatus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-latifasciatus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-latifasciatus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-leucokranos",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-leucokranos/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-mccullochi",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-mccullochi/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-latezonatus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-latezonatus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-rubrocinctus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-rubrocinctus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-tricinctus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-tricinctus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-barberi",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-barberi/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-pacificus",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-pacificus/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-thiellei",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-thiellei/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "amphiprion-maohiensis",
+          "atlas": "assets/livestock/fish/clownfish/species/amphiprion-maohiensis/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            2304,
+            160
+          ],
+          "expectedDimensions": [
+            2304,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 12,
+          "approved": false
+        },
+        {
+          "id": "black-ocellaris",
+          "atlas": "assets/livestock/fish/clownfish/designer/black-ocellaris/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "snowflake-ocellaris",
+          "atlas": "assets/livestock/fish/clownfish/designer/snowflake-ocellaris/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "premium-snowflake",
+          "atlas": "assets/livestock/fish/clownfish/designer/premium-snowflake/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "black-snowflake",
+          "atlas": "assets/livestock/fish/clownfish/designer/black-snowflake/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "black-ice-snowflake",
+          "atlas": "assets/livestock/fish/clownfish/designer/black-ice-snowflake/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "wyoming-white",
+          "atlas": "assets/livestock/fish/clownfish/designer/wyoming-white/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "snow-storm",
+          "atlas": "assets/livestock/fish/clownfish/designer/snow-storm/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "black-storm",
+          "atlas": "assets/livestock/fish/clownfish/designer/black-storm/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "mocha-storm",
+          "atlas": "assets/livestock/fish/clownfish/designer/mocha-storm/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "mocha-ocellaris",
+          "atlas": "assets/livestock/fish/clownfish/designer/mocha-ocellaris/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "gladiator",
+          "atlas": "assets/livestock/fish/clownfish/designer/gladiator/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "mocha-gladiator",
+          "atlas": "assets/livestock/fish/clownfish/designer/mocha-gladiator/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "davinci",
+          "atlas": "assets/livestock/fish/clownfish/designer/davinci/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "frostbite",
+          "atlas": "assets/livestock/fish/clownfish/designer/frostbite/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "black-frostbite",
+          "atlas": "assets/livestock/fish/clownfish/designer/black-frostbite/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "midnight",
+          "atlas": "assets/livestock/fish/clownfish/designer/midnight/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "domino",
+          "atlas": "assets/livestock/fish/clownfish/designer/domino/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "naked-ocellaris",
+          "atlas": "assets/livestock/fish/clownfish/designer/naked-ocellaris/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "misbar-ocellaris",
+          "atlas": "assets/livestock/fish/clownfish/designer/misbar-ocellaris/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "longfin-ocellaris",
+          "atlas": "assets/livestock/fish/clownfish/designer/longfin-ocellaris/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "picasso-percula",
+          "atlas": "assets/livestock/fish/clownfish/designer/picasso-percula/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "premium-picasso-percula",
+          "atlas": "assets/livestock/fish/clownfish/designer/premium-picasso-percula/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "platinum-percula",
+          "atlas": "assets/livestock/fish/clownfish/designer/platinum-percula/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "onyx-percula",
+          "atlas": "assets/livestock/fish/clownfish/designer/onyx-percula/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        },
+        {
+          "id": "lightning-maroon",
+          "atlas": "assets/livestock/fish/clownfish/designer/lightning-maroon/atlas-v1.png",
+          "embeddedMatchesFile": true,
+          "dimensions": [
+            1536,
+            160
+          ],
+          "expectedDimensions": [
+            1536,
+            160
+          ],
+          "dimensionsValid": true,
+          "binaryAlpha": true,
+          "hasTransparency": true,
+          "frameCount": 8,
+          "approved": false
+        }
+      ]
+    }
+  ],
+  "bankRecords": 96,
+  "literalRuntimeAssetReferences": 134,
+  "missingLiteralReferences": [],
+  "gameBaselineFiles": 42,
+  "gameFilesChangedDuringAudit": [],
+  "freshwaterBaselineEntries": 146,
+  "freshwaterChangesVsProtectedBaseline": [
+    "js/simulation.js"
+  ],
+  "simulationMatchesProtectedSourceAfterMarineBlockRemoval": true,
+  "mdpSectionNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "clownfishSpecies": 31,
+  "designerVarieties": 25,
+  "designerBaseLinksValid": true,
+  "approvedReferenceExists": true,
+  "archive": {
+    "file": "AquariumLife-v0.1.zip",
+    "bytes": 295180043,
+    "members": 1400,
+    "firstBadCRC": null
+  },
+  "scope": "Static integrity only. Does not certify anatomy, care science, gameplay behavior, or approval."
+}

@@ -1,0 +1,80 @@
+{
+  "baby": {
+    "meta": {
+      "speciesId": "two-spot-blenny",
+      "stage": "baby",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 1,
+      "nativeFacing": 1,
+      "eye": {
+        "x": 130,
+        "y": 77,
+        "w": 4,
+        "h": 4,
+        "status": "source-eye registration provisional; visually review"
+      },
+      "facingBehavior": "mirror-side-profile",
+      "authoredDeath": false,
+      "layer": "livestock",
+      "anchor": [
+        96,
+        80
+      ]
+    },
+    "width": 192,
+    "height": 160
+  },
+  "juvenile": {
+    "meta": {
+      "speciesId": "two-spot-blenny",
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 4,
+      "frameCount": 1,
+      "nativeFacing": 1,
+      "eye": {
+        "x": 141,
+        "y": 76,
+        "w": 4,
+        "h": 4,
+        "status": "source-eye registration provisional; visually review"
+      },
+      "facingBehavior": "mirror-side-profile",
+      "authoredDeath": false,
+      "layer": "livestock",
+      "anchor": [
+        96,
+        80
+      ]
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "two-spot-blenny",
+      "stage": "adult",
+      "state": "alive",
+      "frame": 6,
+      "frameCount": 1,
+      "nativeFacing": 1,
+      "eye": {
+        "x": 152,
+        "y": 74,
+        "w": 4,
+        "h": 4,
+        "status": "source-eye registration provisional; visually review"
+      },
+      "facingBehavior": "mirror-side-profile",
+      "authoredDeath": false,
+      "layer": "livestock",
+      "anchor": [
+        96,
+        80
+      ]
+    },
+    "width": 192,
+    "height": 160
+  }
+}

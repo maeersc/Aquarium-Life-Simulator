@@ -1,0 +1,354 @@
+{
+  "passed": 85,
+  "failed": 0,
+  "logic": {
+    "passed": 48,
+    "failed": 0,
+    "checks": [
+      {
+        "name": "New local profile starts with exactly 5,000 AC and reconciled opening balance",
+        "pass": true
+      },
+      {
+        "name": "Every marine fish remains indexed without a duplicated species database",
+        "pass": true
+      },
+      {
+        "name": "Legacy wallet migrates without invented income or bonus",
+        "pass": true
+      },
+      {
+        "name": "Normal food spending records the real charge and reconciles",
+        "pass": true
+      },
+      {
+        "name": "Unaffordable purchase is atomic and records no receipt or item",
+        "pass": true
+      },
+      {
+        "name": "Research costs exactly 5 AC once, uses ledger and survives validation/reload",
+        "pass": true
+      },
+      {
+        "name": "Designer morph research shares one parent species unlock",
+        "pass": true
+      },
+      {
+        "name": "Research cannot charge for freshwater or fictional nonbiological entries",
+        "pass": true
+      },
+      {
+        "name": "Independent profiles cannot mix research or financial records",
+        "pass": true
+      },
+      {
+        "name": "Unsafe or immature parent has explicit fragging refusal reasons",
+        "pass": true
+      },
+      {
+        "name": "Correct tools and consumables are required and purchased at fixed prices",
+        "pass": true
+      },
+      {
+        "name": "Confirmed frag conserves species/clone, reduces parent, consumes mounting only and has valid separate identity",
+        "pass": true
+      },
+      {
+        "name": "Frag reload preserves IDs and lineage; duplicate token never creates a second clone",
+        "pass": true
+      },
+      {
+        "name": "Recovering parent cannot be repeatedly cut; fresh frag cannot sell",
+        "pass": true
+      },
+      {
+        "name": "Wall/branch-unverified hammer does not assume a supported cutting method",
+        "pass": true
+      },
+      {
+        "name": "Deep Market exposes exactly four persisted stock slots and a separate wanted board",
+        "pass": true
+      },
+      {
+        "name": "Water change consumes actual doses and records charged liters and tank",
+        "pass": true
+      },
+      {
+        "name": "Asset valuation changes never manufacture wallet transactions",
+        "pass": true
+      },
+      {
+        "name": "Tampered receipt balance is rejected",
+        "pass": true
+      },
+      {
+        "name": "Real fixed-step daily rewards enter separate +50 and +100 receipts",
+        "pass": true
+      },
+      {
+        "name": "Confirmed loss preserves recovery restrictions in the new reward ledger",
+        "pass": true
+      },
+      {
+        "name": "Offline catch-up records qualifying rewards once and reconciles after reload",
+        "pass": true
+      },
+      {
+        "name": "Dive rental is one exact approved fee and duplicate action token is free",
+        "pass": true
+      },
+      {
+        "name": "Mystery coral purchase records exact fee and the resolved owned individual",
+        "pass": true
+      },
+      {
+        "name": "Regular diving resale computes exactly floor(reference x 0.60), even if not wanted",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 100 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 500 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 1000 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 5000 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 10000 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 101 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Regular diving sale removes only that individual and earns once",
+        "pass": true
+      },
+      {
+        "name": "Deep sale enforces reputation and biological-ID matching, then consumes one request",
+        "pass": true
+      },
+      {
+        "name": "Changing a specimen name cannot satisfy a different wanted species",
+        "pass": true
+      },
+      {
+        "name": "Wanted requests and four-stock rotation persist and advance at real midnight",
+        "pass": true
+      },
+      {
+        "name": "Wrong fragging tool and unsupported mount fail atomically",
+        "pass": true
+      },
+      {
+        "name": "Reusable tool duplication is blocked through both equipment and supply routes",
+        "pass": true
+      },
+      {
+        "name": "Established frag sale removes child only, with parent value retained",
+        "pass": true
+      },
+      {
+        "name": "Financial timeframes reconcile opening/income/expenses/closing without wallet confusion",
+        "pass": true
+      },
+      {
+        "name": "Large histories archive actual sums, preserve account identity and validate",
+        "pass": true
+      },
+      {
+        "name": "Financial service rejects repeated receipt key and preserves balance",
+        "pass": true
+      },
+      {
+        "name": "Older imported financial checkpoints cannot replay a completed research purchase",
+        "pass": true
+      },
+      {
+        "name": "Research works as an account action while a retained freshwater tank is selected",
+        "pass": true
+      },
+      {
+        "name": "A genuine ready quest pays its exact reward once with a named ledger receipt",
+        "pass": true
+      },
+      {
+        "name": "Archived transaction keys remain idempotent after recent action history expires",
+        "pass": true
+      },
+      {
+        "name": "Invalid persisted lineage is rejected rather than becoming a second parent",
+        "pass": true
+      },
+      {
+        "name": "A fragment has independent health and death while preserving its living parent",
+        "pass": true
+      },
+      {
+        "name": "No direct ordinary Tier 4-6 listing or freshwater creation bypass is introduced",
+        "pass": true
+      }
+    ]
+  },
+  "ui": [
+    {
+      "name": "AC icon/amount is one native accessible button and opens the financial modal",
+      "pass": true
+    },
+    {
+      "name": "Dashboard shows balance, opening, income, expenses, net and closing separately",
+      "pass": true
+    },
+    {
+      "name": "Financial modal X closes cleanly",
+      "pass": true
+    },
+    {
+      "name": "Keyboard Enter activates the AC control",
+      "pass": true
+    },
+    {
+      "name": "Escape dismisses the financial modal",
+      "pass": true
+    },
+    {
+      "name": "Backdrop click dismisses the financial modal",
+      "pass": true
+    },
+    {
+      "name": "Real purchase and research receipts appear with resulting balances and details",
+      "pass": true
+    },
+    {
+      "name": "Income filter excludes expense-only receipts without changing wallet",
+      "pass": true
+    },
+    {
+      "name": "Category filter selects only actual research receipts",
+      "pass": true
+    },
+    {
+      "name": "Timeframe change preserves honest reconciliation",
+      "pass": true
+    },
+    {
+      "name": "Aquarium simulation continues while financial dashboard is open",
+      "pass": true
+    },
+    {
+      "name": "Coral Fragging category lives in the existing Equipment window",
+      "pass": true
+    },
+    {
+      "name": "Frag Rack link opens the actual existing 100-AC equipment product",
+      "pass": true
+    },
+    {
+      "name": "Mature coral inspector shows locked Frag Coral and explicit missing-tool reason",
+      "pass": true
+    },
+    {
+      "name": "Fragging modal previews real parent, method, mount, risk, tissue and estimated value before committing",
+      "pass": true
+    },
+    {
+      "name": "Cancel does not cut or consume resources",
+      "pass": true
+    },
+    {
+      "name": "Actual confirmation creates one mounted clone and retains reusable tool",
+      "pass": true
+    },
+    {
+      "name": "Field Journal records parent/child clone lineage and trading education",
+      "pass": true
+    },
+    {
+      "name": "Research lives under Saltwater Store without a seventh sidebar window",
+      "pass": true
+    },
+    {
+      "name": "Every marine record is searchable and indexed; incomplete data is clear",
+      "pass": true
+    },
+    {
+      "name": "Scientific-name search finds the actual species",
+      "pass": true
+    },
+    {
+      "name": "Free research preview explains five-credit permanent unlock and data limits",
+      "pass": true
+    },
+    {
+      "name": "Actual research purchase charges exactly five AC once and shows all ten report sections",
+      "pass": true
+    },
+    {
+      "name": "Report shows source attribution, honest unknowns and game/science distinction",
+      "pass": true
+    },
+    {
+      "name": "Aquarium simulation continues during research report reading",
+      "pass": true
+    },
+    {
+      "name": "Research medical section opens the existing Disease & Treatment Guide",
+      "pass": true
+    },
+    {
+      "name": "Species Encyclopedia uses the same permanent research unlock and report",
+      "pass": true
+    },
+    {
+      "name": "Deep Market has Wanted Livestock requests separate from sale stock",
+      "pass": true
+    },
+    {
+      "name": "Store reopen/tab changes preserve selected aquarium and eight ordinary fish slots",
+      "pass": true
+    },
+    {
+      "name": "Saltwater Sell lists individual corals and actual offers without old flat cutting duplication",
+      "pass": true
+    },
+    {
+      "name": "Financial dashboard fits viewport 390",
+      "pass": true
+    },
+    {
+      "name": "Financial dashboard fits viewport 768",
+      "pass": true
+    },
+    {
+      "name": "Financial dashboard fits viewport 1366",
+      "pass": true
+    },
+    {
+      "name": "Financial dashboard fits viewport 1920",
+      "pass": true
+    },
+    {
+      "name": "Actual reload preserves account identity, financial history and research unlocks",
+      "pass": true
+    },
+    {
+      "name": "No uncaught JavaScript errors in the new flows",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "All gameplay and research data run offline without HTTP requests",
+      "pass": true,
+      "requests": []
+    }
+  ]
+}

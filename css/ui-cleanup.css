@@ -45,3 +45,35 @@ main{margin-left:176px;width:calc(100% - 176px)}
 .equipment-reliability details{margin:12px 0}
 
 #primary-content>.text-button{margin-right:14px;margin-bottom:8px}
+.performance-settings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0;border:1px solid var(--border);border-radius:12px;padding:16px;min-width:0}
+.performance-settings legend{font-weight:700;padding:0 8px}.performance-settings p,.performance-settings .inline-check{grid-column:1/-1}.performance-settings select{width:100%;min-width:0}
+@media(max-width:640px){.performance-settings{grid-template-columns:minmax(0,1fr)}}
+
+/* Static 64 x 32 hanging scales live behind the interface, never on the scene. */
+body{background-color:#000;background-image:url('../assets/ui/downward-scales.svg');background-repeat:repeat}
+.sidebar{background-color:#000;background-image:url('../assets/ui/downward-scales.svg');background-repeat:repeat}
+.sidebar nav button,.sidebar .brand,.sidebar .nav-label,.sidebar-bottom{background-color:#080b10}
+.sidebar nav button.active,.sidebar nav button[aria-current=page]{background-color:var(--panel-raised);border-color:var(--selection);color:var(--accent)}
+.sidebar nav button:hover:not(:disabled){background-color:var(--panel-raised)}
+.topbar{background-color:#080b10}
+.panel,.management{background-color:var(--panel)}
+.panel{padding:16px}
+.panel h2,.panel h3{line-height:1.4}
+.panel h2{margin-top:0;margin-bottom:12px}
+.page-heading button,.page-heading select{min-height:36px}
+.page-heading .outline{background-color:var(--panel-dark)}
+.bottom-bar{background-color:#000}
+.store-tabs button,.store-subtabs button,.store-purchase button{min-height:36px;line-height:1.3}
+.store-item h3{line-height:1.4}
+.store-item .item-bottom{gap:12px}
+.field{gap:8px}
+.dialog-actions,.row-actions{gap:8px}
+button{transition:background-color .12s,border-color .12s,color .12s}
+button:disabled{cursor:not-allowed}
+.quantity-stepper{display:grid;grid-template-columns:38px minmax(70px,110px) 38px;gap:8px;align-items:stretch}
+.quantity-stepper button,.quantity-stepper input{height:38px;min-height:38px;margin:0;text-align:center;padding:6px}
+.quantity-stepper button{font-size:18px}
+.purchase-help{margin:10px 0 14px}
+.purchase-totals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:14px;background:var(--panel-dark);border:1px solid var(--border);border-radius:8px}
+.purchase-totals div{min-width:0}.purchase-totals dt{font-size:11px;color:var(--text-muted);margin-bottom:6px}.purchase-totals dd{margin:0;font-size:14px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.purchase-totals div:last-child dd{color:var(--accent);font-weight:600}
+@media(max-width:420px){.purchase-totals{gap:8px;padding:10px}.purchase-totals dd{font-size:12px}}

@@ -1,0 +1,265 @@
+{
+  "variant": "development",
+  "videoSha256": "3b9c62fef0dacd0756bb16d3dbd4522de093017aed58a27f546ce39d6a311479",
+  "videoBytes": 50361,
+  "samples": [
+    {
+      "elapsedMs": 5003.30000000447,
+      "draws": 300,
+      "fps": 59.96042611870804,
+      "frameGapP50": 16.700000002980232,
+      "frameGapP95": 17.700000002980232,
+      "frameGapP99": 21.700000002980232,
+      "drawMsP50": 1.3999999985098839,
+      "drawMsP95": 2.5,
+      "drawMsMax": 3.2000000029802322,
+      "calls": {
+        "draw": {
+          "count": 300,
+          "ms": 455.300000064075,
+          "max": 3.2000000029802322
+        },
+        "vitals": {
+          "count": 5,
+          "ms": 4,
+          "max": 0.9000000059604645
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 4.799999997019768,
+          "max": 4.799999997019768
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 4.953279999998215
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 99,
+          "maxFrames": 512,
+          "frameHits": 5180,
+          "frameMisses": 99,
+          "frameEvictions": 0,
+          "frameBytes": 13025280,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 35,
+          "poseCache": 15,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 3694,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 26
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2670.030319999999,
+        "hidden": false
+      },
+      "mainThreadCorePercent": 16.074320000000004
+    },
+    {
+      "elapsedMs": 5002.10000000149,
+      "draws": 297,
+      "fps": 59.375062473743334,
+      "frameGapP50": 16.69999999552965,
+      "frameGapP95": 17.799999997019768,
+      "frameGapP99": 33,
+      "drawMsP50": 1.2999999970197678,
+      "drawMsP95": 2.3000000044703484,
+      "drawMsMax": 3.5,
+      "calls": {
+        "draw": {
+          "count": 297,
+          "ms": 414.39999997615814,
+          "max": 3.5
+        },
+        "simulation": {
+          "count": 2,
+          "ms": 3.399999998509884,
+          "max": 1.8999999985098839
+        },
+        "vitals": {
+          "count": 5,
+          "ms": 3.7000000029802322,
+          "max": 1
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 0.9738000000000039
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 109,
+          "maxFrames": 512,
+          "frameHits": 8448,
+          "frameMisses": 109,
+          "frameEvictions": 0,
+          "frameBytes": 14499840,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 35,
+          "poseCache": 15,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 6078,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 35
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2680.030319999999,
+        "hidden": false
+      },
+      "mainThreadCorePercent": 15.173700000000002
+    },
+    {
+      "elapsedMs": 5002.10000000149,
+      "draws": 269,
+      "fps": 53.777413486319716,
+      "frameGapP50": 16.799999997019768,
+      "frameGapP95": 33.5,
+      "frameGapP99": 34.19999999552965,
+      "drawMsP50": 1.5999999940395355,
+      "drawMsP95": 3.0999999940395355,
+      "drawMsMax": 4.600000001490116,
+      "calls": {
+        "draw": {
+          "count": 269,
+          "ms": 463.599999897182,
+          "max": 4.600000001490116
+        },
+        "vitals": {
+          "count": 5,
+          "ms": 3.8000000044703484,
+          "max": 1
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 1.7000000029802322,
+          "max": 1.7000000029802322
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 1.973200000000009
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 11403,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 35,
+          "poseCache": 15,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 8230,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 43
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2685.030319999999,
+        "hidden": false
+      },
+      "mainThreadCorePercent": 17.34916
+    }
+  ],
+  "medianFps": 59.375062473743334,
+  "medianCorePercent": 16.074320000000004,
+  "medianDrawP95": 2.5,
+  "quality": {
+    "total": 541,
+    "dropped": 3
+  },
+  "freshProcess": true,
+  "audio": false
+}

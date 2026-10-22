@@ -1,0 +1,41 @@
+{
+  "assetFiles": 1419,
+  "changedAssets": [],
+  "baseDataUnchanged": true,
+  "modifiedOriginalFiles": [
+    "BALANCE_REPORT.md",
+    "DEVELOPMENT_STATUS.md",
+    "GAME_DESIGN.md",
+    "GITHUB_PAGES.md",
+    "GITHUB_PAGES_BUILD_REPORT.md",
+    "MASTER_DEVELOPMENT_PROMPT.md",
+    "PDF_WORKFLOW.md",
+    "PROJECT_CONTINUITY_SOURCE.md",
+    "README.md",
+    "TEST_REPORT.md",
+    "UI_SPECIFICATION.md",
+    "index.html",
+    "build.py",
+    "js/app-shell.js",
+    "js/core.js",
+    "js/expansion.js",
+    "js/invertebrates.js",
+    "js/livestock-health.js",
+    "js/main.js",
+    "js/marine-care.js",
+    "js/offline.js",
+    "js/overnight-ui.js",
+    "js/save.js",
+    "js/simulation.js",
+    "js/store-rules.js",
+    "js/store.js",
+    "js/ui.js",
+    "js/update29.js"
+  ],
+  "newRuntime": [
+    "js/heaters.js",
+    "js/thermal.js",
+    "js/mortality-journal.js",
+    "js/mortality-ui.js"
+  ]
+}

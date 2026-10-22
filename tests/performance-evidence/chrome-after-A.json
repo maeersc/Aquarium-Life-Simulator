@@ -1,0 +1,94 @@
+{
+  "elapsedMs": 7005,
+  "draws": 417,
+  "fps": 59.528907922912204,
+  "frameGapP50": 16.700000000186265,
+  "frameGapP95": 17.699999999254942,
+  "frameGapP99": 18.299999999813735,
+  "drawMsP50": 0.5,
+  "drawMsP95": 0.7000000001862645,
+  "drawMsMax": 1.300000000745058,
+  "calls": {
+    "draw": {
+      "count": 417,
+      "ms": 216.40000000968575,
+      "max": 1.300000000745058
+    },
+    "vitals": {
+      "count": 7,
+      "ms": 2.899999998509884,
+      "max": 0.5
+    },
+    "simulation": {
+      "count": 2,
+      "ms": 2.2000000001862645,
+      "max": 1.599999999627471
+    }
+  },
+  "longTasks": [],
+  "scheduler": {
+    "raf": 1,
+    "timer": 0,
+    "mode": "tank",
+    "returning": false,
+    "pendingMinutes": 0.7966400000002275
+  },
+  "caches": {
+    "sheets": {
+      "loaded": 3,
+      "maxDecodedSheets": 128,
+      "frameCache": 18,
+      "maxFrames": 512,
+      "frameHits": 529,
+      "frameMisses": 18,
+      "frameEvictions": 0,
+      "frameBytes": 2260992,
+      "maxFrameBytes": 33554432,
+      "decodedBytes": 6684672,
+      "maxDecodedBytes": 268435456
+    },
+    "animation": {
+      "rigBuilds": 0,
+      "poseHits": 0,
+      "poseCache": 0,
+      "maxPoses": 768
+    },
+    "rasters": {
+      "entries": 17,
+      "bytes": 246840,
+      "maxBytes": 33554432,
+      "maxEntries": 8192,
+      "hits": 521,
+      "misses": 17,
+      "evictions": 0
+    },
+    "sources": {
+      "active": 0,
+      "queued": 0,
+      "pending": 0
+    },
+    "layers": {
+      "entries": 6,
+      "bytes": 2764800,
+      "builds": 29
+    }
+  },
+  "state": {
+    "fish": 1,
+    "tanks": 1,
+    "gameTime": 2675.030319999999,
+    "hidden": false
+  },
+  "label": "A",
+  "wallSeconds": 7.0,
+  "metrics": {
+    "TaskDuration": 0.436389,
+    "ScriptDuration": 0.25445,
+    "LayoutDuration": 0.0033970000000000007,
+    "RecalcStyleDuration": 0.0009169999999999998
+  },
+  "heapBytes": 133147360,
+  "nodes": 1328,
+  "listeners": 486,
+  "mainThreadCorePercent": 6.234128571428571
+}

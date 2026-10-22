@@ -1,0 +1,118 @@
+[
+  {
+    "name": "New graphics settings default to60fps/high/full/background saving",
+    "pass": true
+  },
+  {
+    "name": "Existing particle-off preference migrates without enabling it",
+    "pass": true
+  },
+  {
+    "name": "60Hz virtual display / 30fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "60Hz virtual display / 60fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "120Hz virtual display / 30fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "120Hz virtual display / 60fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "144Hz virtual display / 30fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "144Hz virtual display / 60fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "165Hz virtual display / 30fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "165Hz virtual display / 60fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "240Hz virtual display / 30fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "240Hz virtual display / 60fps: bounded target, stable elapsed pacing",
+    "pass": true
+  },
+  {
+    "name": "30/60/144Hz biology and elapsed game time are identical for equivalent60-second input",
+    "pass": true
+  },
+  {
+    "name": "One day remains1200 real seconds",
+    "pass": true
+  },
+  {
+    "name": "Rendering leaves complete saved biological state untouched",
+    "pass": true
+  },
+  {
+    "name": "Actual owned fish retains16 distinct authored frame canvases with eye and anchor metadata",
+    "pass": true
+  },
+  {
+    "name": "Final-size tint retains every authored pixel/eye across16 frames, five tones and both facings (1-channel rounding tolerance)",
+    "pass": true
+  },
+  {
+    "name": "Resident selection still uses displayed aquarium coordinates",
+    "pass": true
+  },
+  {
+    "name": "Unchanged event log retains its actual DOM nodes",
+    "pass": true
+  },
+  {
+    "name": "Old schema2 save receives additive graphics defaults without asset loss",
+    "pass": true
+  },
+  {
+    "name": "Transaction state cloning and its immediate checkpoint retain unsimulated partial time",
+    "pass": true
+  },
+  {
+    "name": "30fps local save/load preserves preferences and resident identity",
+    "pass": true
+  },
+  {
+    "name": "60fps local save/load preserves preferences and resident identity",
+    "pass": true
+  },
+  {
+    "name": "Pixel cache enforces both byte and entry bounds",
+    "pass": true
+  },
+  {
+    "name": "One scheduler owns at most one pending rAF or covered-view timer",
+    "pass": true
+  },
+  {
+    "name": "Sprite caches respect declared byte and entry limits",
+    "pass": true
+  },
+  {
+    "name": "Freshwater remains locked",
+    "pass": true
+  },
+  {
+    "name": "Settings exposes all five compact presentation controls",
+    "pass": true
+  },
+  {
+    "name": "Actual settings form persists all presentation choices locally",
+    "pass": true
+  }
+]

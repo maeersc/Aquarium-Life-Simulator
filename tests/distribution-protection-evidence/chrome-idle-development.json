@@ -1,0 +1,18 @@
+{
+  "variant": "development",
+  "hidden": true,
+  "mainThreadCorePercent": 0.03599999999998715,
+  "draws": 0,
+  "calls": {},
+  "scheduler": {
+    "raf": 0,
+    "timer": 0,
+    "mode": "tank",
+    "returning": false,
+    "pendingMinutes": 0
+  },
+  "profilerSamples": {
+    "(program)": 2,
+    "(idle)": 1910
+  }
+}

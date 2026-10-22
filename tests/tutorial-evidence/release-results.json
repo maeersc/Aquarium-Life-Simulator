@@ -1,0 +1,77 @@
+{
+  "verifiedAt": "2026-10-20T19:55:26.546302+00:00",
+  "version": "v4.2",
+  "builtAt": "2026-10-20T18:35:21.910016+00:00",
+  "manifestSha256": "9f76e149aeee0da81009ed40a3a13dcf3207891bb2d3520f43be31a1361ccf00",
+  "passed": 12,
+  "failed": 0,
+  "suites": {
+    "sourceTutorialEdge": {
+      "passed": 142,
+      "failed": 0,
+      "entry": "index.html",
+      "evidence": "tests/tutorial-evidence/source-edge-results.json",
+      "sha256": "413d91221f0298d3d900714287de9cb09daca9e39d8f4777f32e85328d66949e"
+    },
+    "distTutorialChrome": {
+      "passed": 142,
+      "failed": 0,
+      "entry": "DIST/index.html",
+      "evidence": "tests/tutorial-evidence/chrome-results.json",
+      "sha256": "8cdf304ba3833214d8def419e072b7af9f10e9cbdcba099465236d54effcde1d"
+    },
+    "distReliabilityChrome": {
+      "passed": 787,
+      "failed": 0,
+      "entry": "DIST/index.html",
+      "evidence": "tests/equipment-reliability-evidence/chrome-results.json",
+      "sha256": "ae8ca81920964b39a15098760bad868e3dd8e77dd47733d524741263420f3fad"
+    },
+    "distEconomyEdge": {
+      "passed": 85,
+      "failed": 0,
+      "entry": "DIST/index.html",
+      "evidence": "tests/economy-update-evidence/edge-results.json",
+      "sha256": "eb1116ad5823f6c5f3f1b0572aae04f636f4a49b2b330c2b433fd6c27582feeb"
+    },
+    "distPagesReceivingAndLocalSaveEdge": {
+      "passed": 5162,
+      "failed": 0,
+      "entry": null,
+      "evidence": "tests/pages-evidence/edge-results.json",
+      "sha256": "c89f0ddf9f304f8335734d84829821ac13faea91952196109e41854814c2d144"
+    },
+    "sourceSimplificationChrome": {
+      "passed": 106,
+      "failed": 0,
+      "entry": "index.html",
+      "evidence": "tests/simplification-evidence/chrome-results.json",
+      "sha256": "42dccbd1fbfea109bf2a2d2fa182daacce089dc0518a8f9a2b9b3a25ececc503"
+    }
+  },
+  "distSuiteAssertionsPassed": 6176,
+  "sourceDistAndPagesZipAllHashesMatch": 2007,
+  "sourceBytes": 844250480,
+  "protectedRuntimeDataAndArtFiles": 2481,
+  "coreAndSimulationBodiesPreserved": true,
+  "nonFishReceivingPreserved": true,
+  "masterSections": 31,
+  "continuityExactCopies": 1,
+  "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
+  "pagesArchive": {
+    "path": "AquariumLife-GitHub-Pages.zip",
+    "bytes": 753264728,
+    "sha256": "4dc1cc8a6aac7d5b97af7091f6f63a26bf050c345c66fb65ead7b56e5dac8100",
+    "crcVerified": true
+  },
+  "portableSourceFinalVerificationCommand": "python tests/verify_sprite_production_release.py --source-archive --check-only",
+  "untested": [
+    "Safari",
+    "Firefox",
+    "screen-reader software"
+  ],
+  "remainingTutorialLimitations": [
+    "Real incompatible water, faults, funds, treatment and stock availability continue to block unsafe or unaffordable actions.",
+    "Starter recommendations use implemented, supported group-one beginner care profiles."
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "passed": 69,
+  "failed": 0,
+  "results": [
+    {
+      "name": "All marine disease definitions include hosts, symptoms, route, onset, treatment and research sources",
+      "pass": true
+    },
+    {
+      "name": "Marine retail pricing is fixed across seeds, stock changes and JSON reload",
+      "pass": true
+    },
+    {
+      "name": "Designer retail remains a fixed documented base-linked price",
+      "pass": true
+    },
+    {
+      "name": "Black-market creation persists exact price and hidden condition",
+      "pass": true
+    },
+    {
+      "name": "Reload and reopening listings do not advance random seed or reroll hidden quality",
+      "pass": true
+    },
+    {
+      "name": "Dealer inventory rotates only at an in-game dawn and changes listing identity",
+      "pass": true
+    },
+    {
+      "name": "Stale dealer listing cannot charge or purchase",
+      "pass": true
+    },
+    {
+      "name": "Black-market marine fish charge the saved listing price exactly once",
+      "pass": true
+    },
+    {
+      "name": "Dealer condition classes map to persisted nutrition, stress, illness or carriage",
+      "pass": true
+    },
+    {
+      "name": "Hidden marine infection does not expose its diagnosis before examination",
+      "pass": true
+    },
+    {
+      "name": "Diagnostic supplies reveal a confidence-qualified finding and consume one unit",
+      "pass": true
+    },
+    {
+      "name": "Asymptomatic carrier exam remains suspected rather than automatic certainty",
+      "pass": true
+    },
+    {
+      "name": "Ordinary marine medicines have fixed retail and no hidden dealer quality",
+      "pass": true
+    },
+    {
+      "name": "Restricted medicines preserve hidden quality from listing to owned batch and save",
+      "pass": true
+    },
+    {
+      "name": "Restricted treatment access respects level, discovery and night hours",
+      "pass": true
+    },
+    {
+      "name": "Batch assay consumes diagnostics and reveals quality without reroll",
+      "pass": true
+    },
+    {
+      "name": "Every implemented fish and bottom dweller has bounded current value",
+      "pass": true
+    },
+    {
+      "name": "Growth and maturity increase value before old-age reduction",
+      "pass": true
+    },
+    {
+      "name": "Nutrition, stress, disease and designer traits affect asset value",
+      "pass": true
+    },
+    {
+      "name": "Dead marine fish and coral lose all living value",
+      "pass": true
+    },
+    {
+      "name": "Coral size, bleaching, tissue and polyp condition affect value",
+      "pass": true
+    },
+    {
+      "name": "Copper treatment is rejected in a reef without consuming a batch",
+      "pass": true
+    },
+    {
+      "name": "Copper is rejected for coral, juveniles, eggs and decorated quarantine",
+      "pass": true
+    },
+    {
+      "name": "A correct diagnosed course consumes one unit and cannot instantly cure",
+      "pass": true
+    },
+    {
+      "name": "Correct copper course reduces diagnosed ich over time and restores value",
+      "pass": true
+    },
+    {
+      "name": "Wrong treatment does not cure a different parasite",
+      "pass": true
+    },
+    {
+      "name": "Contaminated fictional course can cause harm and leave illness unresolved",
+      "pass": true
+    },
+    {
+      "name": "Antibacterial treatment requires appropriate diagnosis confidence",
+      "pass": true
+    },
+    {
+      "name": "Unsafe treatment water is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "Active quarantine-only treatment cannot be moved into a reef",
+      "pass": true
+    },
+    {
+      "name": "Stopping a course does not refund or duplicate treatment units",
+      "pass": true
+    },
+    {
+      "name": "Illness progresses, symptoms appear and severe illness uses existing mortality engine",
+      "pass": true
+    },
+    {
+      "name": "Host eligibility prevents fish parasites from infecting corals or future invertebrates",
+      "pass": true
+    },
+    {
+      "name": "Noncontagious bleaching is distinct from death and uses existing bleached art",
+      "pass": true
+    },
+    {
+      "name": "Tank breakdown counts every physical category once without attached-coral duplication",
+      "pass": true
+    },
+    {
+      "name": "Fish transfer preserves illness history/identity and transfers exact living value",
+      "pass": true
+    },
+    {
+      "name": "Unsafe fish/coral transfers and mixed clownfish territories reject",
+      "pass": true
+    },
+    {
+      "name": "Complete illness, treatment, inventory and value state round-trips exactly",
+      "pass": true
+    },
+    {
+      "name": "Legacy schema-2 migration retains existing identities, wallet and health",
+      "pass": true
+    },
+    {
+      "name": "Malformed current hidden-quality and course records reject rather than reroll",
+      "pass": true
+    },
+    {
+      "name": "Freshwater individuals receive no marine health data or disease treatment",
+      "pass": true
+    },
+    {
+      "name": "Neither value calculation nor inspector rendering mutates authoritative save state",
+      "pass": true
+    },
+    {
+      "name": "Retail, asset value and dealer offer are distinct and resale never guarantees profit",
+      "pass": true
+    },
+    {
+      "name": "30-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "90-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "365-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "Bacterial diagnosis needs a delayed follow-up before a targeted course",
+      "pass": true
+    },
+    {
+      "name": "Coral quarantine preserves mounting, identity, health history and current value",
+      "pass": true
+    },
+    {
+      "name": "Coral pest dip is host-specific and improves the eligible condition over time",
+      "pass": true
+    },
+    {
+      "name": "Bleached living coral can recover after environmental correction and supportive care",
+      "pass": true
+    },
+    {
+      "name": "Nutrition and polyp state respond to coral conditions without changing freshwater plants",
+      "pass": true
+    },
+    {
+      "name": "Normal unexamined coral introduction risk is assigned once and survives reload without price change",
+      "pass": true
+    },
+    {
+      "name": "The exact hatching tick refreshes cached tank totals after replacing its brood with fry",
+      "pass": true
+    },
+    {
+      "name": "Fish inspector displays Current Value and nutrition without revealing unexamined disease",
+      "pass": true
+    },
+    {
+      "name": "Actual examination button consumes supplies and displays confidence",
+      "pass": true
+    },
+    {
+      "name": "Clickable Tank Value shows base and total with all category breakdowns",
+      "pass": true
+    },
+    {
+      "name": "Exactly three primary tabs plus legitimate medicine category",
+      "pass": true
+    },
+    {
+      "name": "Actual fixed-price medicine purchase reaches batch inventory and preserves selection",
+      "pass": true
+    },
+    {
+      "name": "Restricted Treatments uses persistent fictional listings without exposing hidden quality",
+      "pass": true
+    },
+    {
+      "name": "Real store quantity change no longer invokes obsolete handler",
+      "pass": true
+    },
+    {
+      "name": "Ten-day freshwater biological values match the pre-update code exactly",
+      "pass": true
+    },
+    {
+      "name": "All 144 protected freshwater art/source files and species definitions remain byte-identical",
+      "pass": true
+    },
+    {
+      "name": "Medical inspector fits 1440px width",
+      "pass": true
+    },
+    {
+      "name": "Medical inspector fits 1024px width",
+      "pass": true
+    },
+    {
+      "name": "Medical inspector fits 760px width",
+      "pass": true
+    },
+    {
+      "name": "Medical inspector fits 390px width",
+      "pass": true
+    },
+    {
+      "name": "Actual Begin course control starts timed treatment and consumes only one unit",
+      "pass": true
+    },
+    {
+      "name": "Offline index produces no HTTP(S) request",
+      "pass": true
+    },
+    {
+      "name": "New runtime and UI produce no uncaught browser exceptions",
+      "pass": true
+    }
+  ],
+  "scenarios": [
+    {
+      "days": 30,
+      "startingCredits": 2640,
+      "endingCredits": 3985,
+      "alive": 2,
+      "expenses": 465,
+      "careRewards": 1450,
+      "tankValue": 1407,
+      "hiddenRerolls": 0
+    },
+    {
+      "days": 90,
+      "startingCredits": 2640,
+      "endingCredits": 6664,
+      "alive": 2,
+      "expenses": 786,
+      "careRewards": 4450,
+      "tankValue": 1407,
+      "hiddenRerolls": 0
+    },
+    {
+      "days": 365,
+      "startingCredits": 2640,
+      "endingCredits": 18768,
+      "alive": 2,
+      "expenses": 2432,
+      "careRewards": 18200,
+      "tankValue": 1437,
+      "hiddenRerolls": 0
+    }
+  ],
+  "browser": "chrome",
+  "exceptions": [],
+  "networkRequests": [],
+  "date": "2026-10-13"
+}

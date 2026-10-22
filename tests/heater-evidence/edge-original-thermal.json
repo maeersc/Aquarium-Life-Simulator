@@ -1,0 +1,688 @@
+[
+  {
+    "kind": "proper",
+    "hours": 8,
+    "equivalent": true,
+    "temperature": 24.99999798109726,
+    "setpoint": 25,
+    "alive": 1,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 1000,
+      "effectiveCapacity": 1000,
+      "availableWatts": 333.3333333333333,
+      "duty": 0.37512274036981097,
+      "outputCPerGameHour": 0.07396674722413174,
+      "maximumCPerGameHour": 0.19718012070185978,
+      "deliveredWatts": 125.04091345660365
+    },
+    "deaths": [],
+    "steps": 0,
+    "gameDays": 24
+  },
+  {
+    "kind": "proper",
+    "hours": 12,
+    "equivalent": true,
+    "temperature": 24.999999998343778,
+    "setpoint": 25,
+    "alive": 1,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 1000,
+      "effectiveCapacity": 1000,
+      "availableWatts": 333.3333333333333,
+      "duty": 0.37500010069105955,
+      "outputCPerGameHour": 0.07394256511747269,
+      "maximumCPerGameHour": 0.19718012070185978,
+      "deliveredWatts": 125.00003356368651
+    },
+    "deaths": [],
+    "steps": 0,
+    "gameDays": 36
+  },
+  {
+    "kind": "proper",
+    "hours": 24,
+    "equivalent": true,
+    "temperature": 24.999999999999137,
+    "setpoint": 25,
+    "alive": 1,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 1000,
+      "effectiveCapacity": 802.8800000017327,
+      "availableWatts": 267.6266666672442,
+      "duty": 0.46706855327291014,
+      "outputCPerGameHour": 0.07394254527356188,
+      "maximumCPerGameHour": 0.15831197530945085,
+      "deliveredWatts": 125.0000000175211
+    },
+    "deaths": [],
+    "steps": 0,
+    "gameDays": 72
+  },
+  {
+    "kind": "oversized",
+    "hours": 8,
+    "equivalent": true,
+    "temperature": 24.99999798109726,
+    "setpoint": 25,
+    "alive": 1,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 2000,
+      "effectiveCapacity": 2000,
+      "availableWatts": 666.6666666666666,
+      "duty": 0.18756137018490548,
+      "outputCPerGameHour": 0.07396674722413174,
+      "maximumCPerGameHour": 0.39436024140371956,
+      "deliveredWatts": 125.04091345660365
+    },
+    "deaths": [],
+    "steps": 0,
+    "gameDays": 24
+  },
+  {
+    "kind": "oversized",
+    "hours": 12,
+    "equivalent": true,
+    "temperature": 24.999999998343778,
+    "setpoint": 25,
+    "alive": 1,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 2000,
+      "effectiveCapacity": 2000,
+      "availableWatts": 666.6666666666666,
+      "duty": 0.18750005034552977,
+      "outputCPerGameHour": 0.07394256511747269,
+      "maximumCPerGameHour": 0.39436024140371956,
+      "deliveredWatts": 125.00003356368651
+    },
+    "deaths": [],
+    "steps": 0,
+    "gameDays": 36
+  },
+  {
+    "kind": "oversized",
+    "hours": 24,
+    "equivalent": true,
+    "temperature": 24.999999999999137,
+    "setpoint": 25,
+    "alive": 1,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 2000,
+      "effectiveCapacity": 1664.0800000035597,
+      "availableWatts": 554.6933333345198,
+      "duty": 0.22534974283193188,
+      "outputCPerGameHour": 0.07394254527356188,
+      "maximumCPerGameHour": 0.32812349525825274,
+      "deliveredWatts": 125.0000000175211
+    },
+    "deaths": [],
+    "steps": 0,
+    "gameDays": 72
+  },
+  {
+    "kind": "weak",
+    "hours": 8,
+    "equivalent": true,
+    "temperature": 22.5330148612393,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 75,
+      "effectiveCapacity": 64.59000000004494,
+      "availableWatts": 21.53000000001498,
+      "duty": 1,
+      "outputCPerGameHour": 0.012735863996141983,
+      "maximumCPerGameHour": 0.012735863996141983,
+      "deliveredWatts": 21.53000000001498
+    },
+    "deaths": [
+      {
+        "id": "world-3e0d5e80-c62c-4596-bf1f-972e9ba49008:death:fish45",
+        "time": 8810,
+        "cause": "Extreme temperature",
+        "hunger": 38.03333333333373,
+        "healthBefore": 0.013852673100561645,
+        "temperature": 22.58397530386694,
+        "target": 25,
+        "oxygen": 7.710872672248104,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 24
+  },
+  {
+    "kind": "weak",
+    "hours": 12,
+    "equivalent": true,
+    "temperature": 22.416477842176228,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 75,
+      "effectiveCapacity": 50.01000000005163,
+      "availableWatts": 16.67000000001721,
+      "duty": 1,
+      "outputCPerGameHour": 0.00986097783631019,
+      "maximumCPerGameHour": 0.00986097783631019,
+      "deliveredWatts": 16.67000000001721
+    },
+    "deaths": [
+      {
+        "id": "world-2586ce0e-57b9-45de-bd1f-2c533e7b9384:death:fish45",
+        "time": 8810,
+        "cause": "Extreme temperature",
+        "hunger": 38.03333333333373,
+        "healthBefore": 0.013852673100561645,
+        "temperature": 22.58397530386694,
+        "target": 25,
+        "oxygen": 7.710872672248104,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 36
+  },
+  {
+    "kind": "weak",
+    "hours": 24,
+    "equivalent": true,
+    "temperature": 22.06655792672472,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 75,
+      "effectiveCapacity": 6.270000000049976,
+      "availableWatts": 2.0900000000166585,
+      "duty": 1,
+      "outputCPerGameHour": 0.001236319356810515,
+      "maximumCPerGameHour": 0.001236319356810515,
+      "deliveredWatts": 2.0900000000166585
+    },
+    "deaths": [
+      {
+        "id": "world-97c238d1-e144-4bee-94f2-08db139e0710:death:fish45",
+        "time": 8810,
+        "cause": "Extreme temperature",
+        "hunger": 38.03333333333373,
+        "healthBefore": 0.013852673100561645,
+        "temperature": 22.58397530386694,
+        "target": 25,
+        "oxygen": 7.710872672248104,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 72
+  },
+  {
+    "kind": "disabled",
+    "hours": 8,
+    "equivalent": true,
+    "temperature": 22,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": false,
+      "operational": false,
+      "ratedCapacity": 2000,
+      "effectiveCapacity": 0,
+      "availableWatts": 0,
+      "duty": 0,
+      "outputCPerGameHour": 0,
+      "maximumCPerGameHour": 0,
+      "deliveredWatts": 0
+    },
+    "deaths": [
+      {
+        "id": "world-28382d35-950d-497b-a977-70c8805f171a:death:fish45",
+        "time": 6090,
+        "cause": "Extreme temperature",
+        "hunger": 32.30000000000008,
+        "healthBefore": 0.012531979786652589,
+        "temperature": 22,
+        "target": 25,
+        "oxygen": 7.7925772462126,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 24
+  },
+  {
+    "kind": "disabled",
+    "hours": 12,
+    "equivalent": true,
+    "temperature": 22,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": false,
+      "operational": false,
+      "ratedCapacity": 2000,
+      "effectiveCapacity": 0,
+      "availableWatts": 0,
+      "duty": 0,
+      "outputCPerGameHour": 0,
+      "maximumCPerGameHour": 0,
+      "deliveredWatts": 0
+    },
+    "deaths": [
+      {
+        "id": "world-129bdc67-e928-407c-af70-838c56550a2d:death:fish45",
+        "time": 6090,
+        "cause": "Extreme temperature",
+        "hunger": 32.30000000000008,
+        "healthBefore": 0.012531979786652589,
+        "temperature": 22,
+        "target": 25,
+        "oxygen": 7.7925772462126,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 36
+  },
+  {
+    "kind": "disabled",
+    "hours": 24,
+    "equivalent": true,
+    "temperature": 22,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": false,
+      "operational": false,
+      "ratedCapacity": 2000,
+      "effectiveCapacity": 0,
+      "availableWatts": 0,
+      "duty": 0,
+      "outputCPerGameHour": 0,
+      "maximumCPerGameHour": 0,
+      "deliveredWatts": 0
+    },
+    "deaths": [
+      {
+        "id": "world-d150d86e-4fe3-433a-b5d4-04f069660820:death:fish45",
+        "time": 6090,
+        "cause": "Extreme temperature",
+        "hunger": 32.30000000000008,
+        "healthBefore": 0.012531979786652589,
+        "temperature": 22,
+        "target": 25,
+        "oxygen": 7.7925772462126,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 72
+  },
+  {
+    "kind": "failed",
+    "hours": 8,
+    "equivalent": true,
+    "temperature": 22,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": false,
+      "ratedCapacity": 2000,
+      "effectiveCapacity": 0,
+      "availableWatts": 0,
+      "duty": 0,
+      "outputCPerGameHour": 0,
+      "maximumCPerGameHour": 0,
+      "deliveredWatts": 0
+    },
+    "deaths": [
+      {
+        "id": "world-70cf6aec-5b74-4b27-8255-0009fce05e03:death:fish45",
+        "time": 6090,
+        "cause": "Extreme temperature",
+        "hunger": 32.30000000000008,
+        "healthBefore": 0.012531979786652589,
+        "temperature": 22,
+        "target": 25,
+        "oxygen": 7.7925772462126,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 24
+  },
+  {
+    "kind": "failed",
+    "hours": 12,
+    "equivalent": true,
+    "temperature": 22,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": false,
+      "ratedCapacity": 2000,
+      "effectiveCapacity": 0,
+      "availableWatts": 0,
+      "duty": 0,
+      "outputCPerGameHour": 0,
+      "maximumCPerGameHour": 0,
+      "deliveredWatts": 0
+    },
+    "deaths": [
+      {
+        "id": "world-0e05ea3a-6778-4985-b28d-70a826abf347:death:fish45",
+        "time": 6090,
+        "cause": "Extreme temperature",
+        "hunger": 32.30000000000008,
+        "healthBefore": 0.012531979786652589,
+        "temperature": 22,
+        "target": 25,
+        "oxygen": 7.7925772462126,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 36
+  },
+  {
+    "kind": "failed",
+    "hours": 24,
+    "equivalent": true,
+    "temperature": 22,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": false,
+      "ratedCapacity": 2000,
+      "effectiveCapacity": 0,
+      "availableWatts": 0,
+      "duty": 0,
+      "outputCPerGameHour": 0,
+      "maximumCPerGameHour": 0,
+      "deliveredWatts": 0
+    },
+    "deaths": [
+      {
+        "id": "world-4a39c089-5b79-453e-b2ff-4a1827ad8bb0:death:fish45",
+        "time": 6090,
+        "cause": "Extreme temperature",
+        "hunger": 32.30000000000008,
+        "healthBefore": 0.012531979786652589,
+        "temperature": 22,
+        "target": 25,
+        "oxygen": 7.7925772462126,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 72
+  },
+  {
+    "kind": "missing",
+    "hours": 8,
+    "equivalent": true,
+    "temperature": 22,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": false,
+      "enabled": false,
+      "operational": false,
+      "ratedCapacity": 0,
+      "effectiveCapacity": 0,
+      "availableWatts": 0,
+      "duty": 0,
+      "outputCPerGameHour": 0,
+      "maximumCPerGameHour": 0,
+      "deliveredWatts": 0
+    },
+    "deaths": [
+      {
+        "id": "world-7859ed16-f962-45da-8905-8c3bf1130b72:death:fish45",
+        "time": 6090,
+        "cause": "Extreme temperature",
+        "hunger": 32.30000000000008,
+        "healthBefore": 0.012531979786652589,
+        "temperature": 22,
+        "target": 25,
+        "oxygen": 7.7925772462126,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 24
+  },
+  {
+    "kind": "missing",
+    "hours": 12,
+    "equivalent": true,
+    "temperature": 22,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": false,
+      "enabled": false,
+      "operational": false,
+      "ratedCapacity": 0,
+      "effectiveCapacity": 0,
+      "availableWatts": 0,
+      "duty": 0,
+      "outputCPerGameHour": 0,
+      "maximumCPerGameHour": 0,
+      "deliveredWatts": 0
+    },
+    "deaths": [
+      {
+        "id": "world-3aab1cc6-f358-47b7-99e7-5b0391990faa:death:fish45",
+        "time": 6090,
+        "cause": "Extreme temperature",
+        "hunger": 32.30000000000008,
+        "healthBefore": 0.012531979786652589,
+        "temperature": 22,
+        "target": 25,
+        "oxygen": 7.7925772462126,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 36
+  },
+  {
+    "kind": "missing",
+    "hours": 24,
+    "equivalent": true,
+    "temperature": 22,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": false,
+      "enabled": false,
+      "operational": false,
+      "ratedCapacity": 0,
+      "effectiveCapacity": 0,
+      "availableWatts": 0,
+      "duty": 0,
+      "outputCPerGameHour": 0,
+      "maximumCPerGameHour": 0,
+      "deliveredWatts": 0
+    },
+    "deaths": [
+      {
+        "id": "world-869af374-a820-4779-b375-87d31aba44d0:death:fish45",
+        "time": 6090,
+        "cause": "Extreme temperature",
+        "hunger": 32.30000000000008,
+        "healthBefore": 0.012531979786652589,
+        "temperature": 22,
+        "target": 25,
+        "oxygen": 7.7925772462126,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 72
+  },
+  {
+    "kind": "shortage",
+    "hours": 8,
+    "equivalent": true,
+    "temperature": 24.99999798109726,
+    "setpoint": 25,
+    "alive": 1,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 1000,
+      "effectiveCapacity": 1000,
+      "availableWatts": 333.3333333333333,
+      "duty": 0.37512274036981097,
+      "outputCPerGameHour": 0.07396674722413174,
+      "maximumCPerGameHour": 0.19718012070185978,
+      "deliveredWatts": 125.04091345660365
+    },
+    "deaths": [],
+    "steps": 0,
+    "gameDays": 24
+  },
+  {
+    "kind": "shortage",
+    "hours": 12,
+    "equivalent": true,
+    "temperature": 24.999999998343778,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 1000,
+      "effectiveCapacity": 1000,
+      "availableWatts": 333.3333333333333,
+      "duty": 0.37500010069105955,
+      "outputCPerGameHour": 0.07394256511747269,
+      "maximumCPerGameHour": 0.19718012070185978,
+      "deliveredWatts": 125.00003356368651
+    },
+    "deaths": [
+      {
+        "id": "world-092bbac4-f501-47cd-83d3-a0a4ecf94872:death:fish45",
+        "time": 44100,
+        "cause": "Prolonged severe malnutrition",
+        "hunger": 100,
+        "healthBefore": 0.02083333334220188,
+        "temperature": 24.99999996006215,
+        "target": 25,
+        "oxygen": 7.372577251933413,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 36
+  },
+  {
+    "kind": "shortage",
+    "hours": 24,
+    "equivalent": true,
+    "temperature": 24.999999999999137,
+    "setpoint": 25,
+    "alive": 0,
+    "heater": {
+      "target": 25,
+      "installed": true,
+      "enabled": true,
+      "operational": true,
+      "ratedCapacity": 1000,
+      "effectiveCapacity": 802.8800000017327,
+      "availableWatts": 267.6266666672442,
+      "duty": 0.46706855327291014,
+      "outputCPerGameHour": 0.07394254527356188,
+      "maximumCPerGameHour": 0.15831197530945085,
+      "deliveredWatts": 125.0000000175211
+    },
+    "deaths": [
+      {
+        "id": "world-e0e15745-88a6-4bf2-be07-a7e5bc3ccc6b:death:fish45",
+        "time": 44100,
+        "cause": "Prolonged severe malnutrition",
+        "hunger": 100,
+        "healthBefore": 0.02083333334220188,
+        "temperature": 24.99999996006215,
+        "target": 25,
+        "oxygen": 7.372577251933413,
+        "ammonia": 0,
+        "simulation": "offline"
+      }
+    ],
+    "steps": 0,
+    "gameDays": 72
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "id": "soft",
+  "stage": "colony",
+  "state": "polyp_motion",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\soft\\colony.png",
+  "prompt": "Aquarium Life soft colony actual16-frame coral motion sheet. Attached PNG is EXACT approved anatomy, palette and detailed classic16-bit pixelart. Orange/pink soft leather toadstool with pale green polyps and a fixed mushroom-like stalk/base. Only tiny top polyp extensions and soft cap edge responses; stalk and attachment remain fixed. Preserve the same cap shape and polyp distribution. ONE square truly transparent PNG with FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living tissue poses forming a calm seamless16-to1 loop. Fixed camera, overall scale, placement and rock contour in everycell. Whole silhouette central75%eachcell with broad transparent gutters. No text/grid/checkerboard/background/blur/glow/antialias, no whole-colony translation/bob. Every pose uses same approved source anatomy and crisp pixel clusters.",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-dedda0a8-8a32-4ac3-873c-ec1591dabe21.png"
+}

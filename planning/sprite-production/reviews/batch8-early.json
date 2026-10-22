@@ -1,0 +1,58 @@
+[
+  {
+    "id": "pygoplites-diacanthus",
+    "stage": "adult",
+    "notes": "All sixteen native cells inspected: yellow/white vertical bars outlined in blue, yellow caudal and the original dorsal ocellus remain distinct from the true front iris. Stage proportions and attached dorsal/anal fins retain the reference, with small controlled pectoral/caudal changes.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "pygoplites-diacanthus",
+    "stage": "juvenile",
+    "notes": "All sixteen native cells inspected: yellow/white vertical bars outlined in blue, yellow caudal and the original dorsal ocellus remain distinct from the true front iris. Stage proportions and attached dorsal/anal fins retain the reference, with small controlled pectoral/caudal changes.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "pygoplites-diacanthus",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the original developing source. Existing translucent body, pigment/yolk, long developing fin extensions and dorsal marking retained separately from the single true head iris. Tiny existing fin-tip adjustments, no adult body substituted and no clipped extensions.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "pseudochromis-fridmani",
+    "stage": "adult",
+    "notes": "All sixteen corrected native cells inspected. Original-pupil template registration corrected false black-stripe/outline detections that displaced heads and created spurious eye patches. Magenta/violet source coloration, fin roots and stage proportions remain consistent; the early stage retains its own translucent developing body/yolk. Small attached fin and tail corrections, one true iris and full margins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "pseudochromis-fridmani",
+    "stage": "juvenile",
+    "notes": "All sixteen corrected native cells inspected. Original-pupil template registration corrected false black-stripe/outline detections that displaced heads and created spurious eye patches. Magenta/violet source coloration, fin roots and stage proportions remain consistent; the early stage retains its own translucent developing body/yolk. Small attached fin and tail corrections, one true iris and full margins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "pseudochromis-fridmani",
+    "stage": "baby",
+    "notes": "All sixteen corrected native cells inspected. Original-pupil template registration corrected false black-stripe/outline detections that displaced heads and created spurious eye patches. Magenta/violet source coloration, fin roots and stage proportions remain consistent; the early stage retains its own translucent developing body/yolk. Small attached fin and tail corrections, one true iris and full margins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "forcipiger-flavissimus",
+    "stage": "adult",
+    "notes": "All sixteen corrected native cells inspected: template registration tracks the true head iris instead of black mask/beak features. Original yellow disc, dark facial mask, long narrow pale snout and rear body markings retained. Calm hovering pectoral/caudal changes with full disc and snout margins; no duplicated eye.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "forcipiger-flavissimus",
+    "stage": "juvenile",
+    "notes": "All sixteen corrected native cells inspected: template registration tracks the true head iris instead of black mask/beak features. Original yellow disc, dark facial mask, long narrow pale snout and rear body markings retained. Calm hovering pectoral/caudal changes with full disc and snout margins; no duplicated eye.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  }
+]

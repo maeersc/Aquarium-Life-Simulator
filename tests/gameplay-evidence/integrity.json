@@ -1,0 +1,50 @@
+{
+  "protectedFilesUnchanged": 145,
+  "protectedDifferences": [],
+  "mdpMajorSections": 31,
+  "mdpVersion": "3.0",
+  "runtimeHashes": {
+    "js/gameplay.js": "f4be689e6f105ba345ff9c09a59828263afe5cee39119a0fc201d11af86ae8ed",
+    "js/gameplay-ui.js": "daef49f70d868b81b0406cb9bac65e9ef32ea0ac6f13268c9f664a370ea29994",
+    "js/placement.js": "2745caa67a0ed15349fbd458f509838a2019623dbade565044df1f41fbff8e9f",
+    "js/core.js": "ab3c16eea67f7509509aeb7f6d9fde1997cce6b02773490406f4f7c6b476e001",
+    "js/simulation.js": "8cbd9585e5daef880246d30c96262382c5ad4140cc4796bbc564a0589c8c35e5",
+    "js/save.js": "67477cc8a1a2b263b0b8000d39370afcee7943dbcd214e40251a6fcf84b60c2c",
+    "js/ui.js": "ddd8c987448d2da62a64ff87002f5325860efc59cfb960492c785b167893de30",
+    "js/app-shell.js": "ba5952a4d7dc5b85770aa4b5a2e1cb0488f88faed305c2ad89e2925047ac9479",
+    "js/store.js": "8459f5c2652913180f622d136bdce8b917765cab2e996ee57dc7d659aff64590",
+    "js/store-rules.js": "d6b91bec9112654642d8471734ccfecbdcbd1d1acc1927ae41550c76091a2aac",
+    "js/habitat.js": "c6a638630b1f49d9e009efab4b3e6afa9db60a36cede3861dc60bc2b978005a5",
+    "js/render.js": "ed5eaeea54a385e2b2ac4c207f03e8e497379a7bed0dbc6b9e37d3650350d5a3",
+    "js/brood-view.js": "8c82cee9f1f85fe49d3e076e902e8ea5e38ed7ebd773d126b0cdf6cfc9392f1f",
+    "js/valuation.js": "01c36df932a7b3a2be7ec8e6f1b4a0915e43b2f13c14b3d144ee9f667dc43b47",
+    "index.html": "b4991e69b84c35800b4ee1b5c91f5f1076408e9d20b21cbaaf3f682b320f809f",
+    "css/gameplay.css": "49e3b903e30ddb88f45430d9938113ca4f0c24ace285688f06481d53defe4cfb"
+  },
+  "suiteResults": {
+    "New gameplay acceptance": {
+      "chrome": 98,
+      "edge": 98
+    },
+    "System regression": {
+      "chrome": 68,
+      "edge": 68
+    },
+    "Store / destination regression": {
+      "chrome": 90,
+      "edge": 90
+    },
+    "Six-window UI regression": {
+      "chrome": 139,
+      "edge": 139
+    },
+    "Health / economy / valuation": {
+      "chrome": 69,
+      "edge": 69
+    },
+    "Clownfish art / direction / mounting": {
+      "chrome": 7583,
+      "edge": 7583
+    }
+  }
+}

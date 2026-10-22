@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mushroom",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      22,
+      25,
+      288,
+      280
+    ],
+    "previewOrigin": [
+      12,
+      49
+    ],
+    "previewScale": 0.8721804511278195,
+    "previewSize": [
+      232,
+      222
+    ]
+  },
+  {
+    "id": "mushroom",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      39,
+      33,
+      310,
+      294
+    ],
+    "previewOrigin": [
+      268,
+      48
+    ],
+    "previewScale": 0.8560885608856088,
+    "previewSize": [
+      232,
+      223
+    ]
+  },
+  {
+    "id": "sps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      32,
+      44,
+      289,
+      299
+    ],
+    "previewOrigin": [
+      527,
+      48
+    ],
+    "previewScale": 0.8784313725490196,
+    "previewSize": [
+      226,
+      224
+    ]
+  },
+  {
+    "id": "sps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      32,
+      27,
+      297,
+      294
+    ],
+    "previewOrigin": [
+      785,
+      48
+    ],
+    "previewScale": 0.8389513108614233,
+    "previewSize": [
+      222,
+      224
+    ]
+  },
+  {
+    "id": "lps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      23,
+      31,
+      301,
+      302
+    ],
+    "previewOrigin": [
+      13,
+      328
+    ],
+    "previewScale": 0.8265682656826568,
+    "previewSize": [
+      230,
+      224
+    ]
+  },
+  {
+    "id": "lps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      23,
+      39,
+      293,
+      301
+    ],
+    "previewOrigin": [
+      268,
+      328
+    ],
+    "previewScale": 0.8549618320610687,
+    "previewSize": [
+      231,
+      224
+    ]
+  },
+  {
+    "id": "soft",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      18,
+      37,
+      302,
+      293
+    ],
+    "previewOrigin": [
+      524,
+      335
+    ],
+    "previewScale": 0.8169014084507042,
+    "previewSize": [
+      232,
+      209
+    ]
+  },
+  {
+    "id": "soft",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      18,
+      33,
+      314,
+      305
+    ],
+    "previewOrigin": [
+      780,
+      333
+    ],
+    "previewScale": 0.7837837837837838,
+    "previewSize": [
+      232,
+      213
+    ]
+  }
+]

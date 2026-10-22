@@ -1,0 +1,69 @@
+{
+  "agentInspected": true,
+  "inspectionScope": "First native tissue geometry inspected; final all16-cell review still required before registration.",
+  "description": "Inspected adult snail muscular foot edge only. The complete rigid black/gold shell, bands, head and both eye-tipped stalks remain canonical protected pixels. Very small original idle foot-edge poses are sampled; no shell bounce or rotation.",
+  "polygons": [
+    [
+      [
+        27,
+        116
+      ],
+      [
+        142,
+        111
+      ],
+      [
+        163,
+        130
+      ],
+      [
+        164,
+        145
+      ],
+      [
+        27,
+        145
+      ]
+    ]
+  ],
+  "protectedPolygons": [
+    [
+      [
+        30,
+        38
+      ],
+      [
+        63,
+        25
+      ],
+      [
+        101,
+        40
+      ],
+      [
+        133,
+        68
+      ],
+      [
+        146,
+        105
+      ],
+      [
+        133,
+        119
+      ],
+      [
+        67,
+        120
+      ],
+      [
+        36,
+        98
+      ],
+      [
+        24,
+        68
+      ]
+    ]
+  ]
+}

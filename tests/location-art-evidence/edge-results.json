@@ -1,0 +1,596 @@
+{
+  "passed": 147,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "All 17 offline art records decode without error",
+      "pass": true
+    },
+    {
+      "name": "fiji-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "fiji-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "fiji-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "fiji-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "fiji-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "fiji-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "fiji-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "fiji-deep: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "fiji-deep: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "fiji-deep: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "fiji-deep: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "fiji-deep: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "fiji-deep: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "fiji-deep: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "caribbean-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "caribbean-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "caribbean-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "caribbean-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "caribbean-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "caribbean-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "caribbean-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "caribbean-deep: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "caribbean-deep: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "caribbean-deep: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "caribbean-deep: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "caribbean-deep: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "caribbean-deep: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "caribbean-deep: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "hawaii-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "hawaii-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "hawaii-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "hawaii-reef: observation-only launch remains disabled",
+      "pass": true
+    },
+    {
+      "name": "hawaii-reef: preserved environment draws directly",
+      "pass": true
+    },
+    {
+      "name": "hawaii-deep: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "hawaii-deep: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "hawaii-deep: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "hawaii-deep: observation-only launch remains disabled",
+      "pass": true
+    },
+    {
+      "name": "hawaii-deep: preserved environment draws directly",
+      "pass": true
+    },
+    {
+      "name": "japan-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "japan-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "japan-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "japan-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "japan-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "japan-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "japan-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "japan-deep: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "japan-deep: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "japan-deep: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "japan-deep: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "japan-deep: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "japan-deep: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "japan-deep: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: map and dialog fit 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: map and dialog fit 1600x900",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: map and dialog fit 1366x768",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: map and dialog fit 390x844",
+      "pass": true
+    },
+    {
+      "name": "indonesia-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: map and dialog fit 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: map and dialog fit 1600x900",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: map and dialog fit 1366x768",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: map and dialog fit 390x844",
+      "pass": true
+    },
+    {
+      "name": "philippines-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: map and dialog fit 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: map and dialog fit 1600x900",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: map and dialog fit 1366x768",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: map and dialog fit 390x844",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: map and dialog fit 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: map and dialog fit 1600x900",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: map and dialog fit 1366x768",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: map and dialog fit 390x844",
+      "pass": true
+    },
+    {
+      "name": "marshall-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: map and dialog fit 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: map and dialog fit 1600x900",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: map and dialog fit 1366x768",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: map and dialog fit 390x844",
+      "pass": true
+    },
+    {
+      "name": "maldives-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: map and dialog fit 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: map and dialog fit 1600x900",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: map and dialog fit 1366x768",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: map and dialog fit 390x844",
+      "pass": true
+    },
+    {
+      "name": "australia-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: map and dialog fit 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: map and dialog fit 1600x900",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: map and dialog fit 1366x768",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: map and dialog fit 390x844",
+      "pass": true
+    },
+    {
+      "name": "florida-reef: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: picker loads this destination image",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: preview keeps source aspect without stretching",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: artwork reading does not mutate save state",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: actual launched dive has correct region and unchanged resource cost",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: actual canvas uses registered environment with proportional crop",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: active expedition save/load retains exact capture and inventory state",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: map and dialog fit 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: map and dialog fit 1600x900",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: map and dialog fit 1366x768",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: map and dialog fit 390x844",
+      "pass": true
+    },
+    {
+      "name": "Mariana uses drone battery and no living collection",
+      "pass": true
+    },
+    {
+      "name": "mariana-deep: actual boat return shows correct results accent",
+      "pass": true
+    },
+    {
+      "name": "No missing or failed image elements remain",
+      "pass": true
+    },
+    {
+      "name": "Freshwater remains unavailable",
+      "pass": true
+    },
+    {
+      "name": "Actual offline browser reload retains expedition result and local save",
+      "pass": true
+    },
+    {
+      "name": "No uncaught browser runtime exceptions",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "All artwork and saves work fully offline",
+      "pass": true,
+      "requests": []
+    }
+  ]
+}

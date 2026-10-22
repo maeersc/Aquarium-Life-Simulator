@@ -1,0 +1,71 @@
+{
+  "id": "dogface-puffer",
+  "name": "Dogface pufferfish",
+  "family": "fish",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "frames": 4,
+  "frameDurationMs": 166.66666666666666,
+  "atlas": "assets/livestock/fish/dogface-puffer/atlas-v11.png",
+  "bounds": [
+    [
+      11,
+      19,
+      177,
+      104
+    ],
+    [
+      11,
+      18,
+      177,
+      103
+    ],
+    [
+      10,
+      18,
+      176,
+      101
+    ],
+    [
+      8,
+      18,
+      175,
+      102
+    ]
+  ],
+  "anchor": [
+    96,
+    64
+  ],
+  "scientificName": "Arothron nigropunctatus",
+  "runtimeSpeciesId": null,
+  "usage": "ART ONLY; no gameplay species added",
+  "eye": {
+    "x": 150,
+    "y": 56,
+    "w": 18,
+    "h": 15
+  },
+  "facingBehavior": "mirror-side-profile",
+  "animations": {
+    "swim": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "idle": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "death": [
+      0
+    ]
+  },
+  "turning": "stable mirrored side views; no intermediate perspective frames",
+  "layer": "livestock"
+}

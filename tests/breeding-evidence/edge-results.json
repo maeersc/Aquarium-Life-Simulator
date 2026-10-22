@@ -1,0 +1,499 @@
+{
+  "supportedSpecies": [
+    {
+      "id": "clown",
+      "name": "Ocellaris clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "banggai",
+      "name": "Banggai cardinalfish",
+      "profile": "mouthbrood"
+    },
+    {
+      "id": "amphiprion-percula",
+      "name": "True Percula clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-biaculeatus",
+      "name": "Maroon clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-clarkii",
+      "name": "Clark's clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-frenatus",
+      "name": "Tomato clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-melanopus",
+      "name": "Cinnamon / Fire clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-ephippium",
+      "name": "Red Saddleback clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-perideraion",
+      "name": "Pink Skunk clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-sandaracinos",
+      "name": "Orange Skunk clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-akallopisos",
+      "name": "Skunk clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-polymnus",
+      "name": "Saddleback clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-sebae",
+      "name": "Sebae clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-akindynos",
+      "name": "Barrier Reef clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-allardi",
+      "name": "Allard's clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-bicinctus",
+      "name": "Red Sea Twoband clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-chrysopterus",
+      "name": "Orangefin clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-nigripes",
+      "name": "Maldives clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-omanensis",
+      "name": "Oman clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-chagosensis",
+      "name": "Chagos clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-chrysogaster",
+      "name": "Mauritius clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-fuscocaudatus",
+      "name": "Seychelles clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-latifasciatus",
+      "name": "Madagascar clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-rubrocinctus",
+      "name": "Australian Red clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-tricinctus",
+      "name": "Three-band clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-barberi",
+      "name": "Barber's clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "amphiprion-pacificus",
+      "name": "Pacific clownfish",
+      "profile": "attached"
+    },
+    {
+      "id": "chalk-bass",
+      "name": "Chalk Bass",
+      "profile": "pelagic"
+    },
+    {
+      "id": "sharknose-goby",
+      "name": "Sharknose Goby",
+      "profile": "demersal"
+    }
+  ],
+  "passed": 86,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Automatic courtship starts from the shared simulation without a manual action",
+      "pass": true
+    },
+    {
+      "name": "Automatic spawning creates one attached clutch in the parents aquarium",
+      "pass": true
+    },
+    {
+      "name": "Marine manual breeding action is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "Immature individuals cannot court or spawn",
+      "pass": true
+    },
+    {
+      "name": "health blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "hunger blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "nutrition blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "stress blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "energy blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "disease blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "temperature unsuitable water blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "salinity unsuitable water blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "ph unsuitable water blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "ammonia unsuitable water blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "nitrite unsuitable water blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "oxygen unsuitable water blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "nitrate unsuitable water blocks reproduction",
+      "pass": true
+    },
+    {
+      "name": "Cross-species and single fish cannot form a reproductive pair",
+      "pass": true
+    },
+    {
+      "name": "Established clownfish females never reverse to fit a same-sex pairing",
+      "pass": true
+    },
+    {
+      "name": "Clownfish male-to-female transition requires maturity and persisted development time",
+      "pass": true
+    },
+    {
+      "name": "New clownfish larvae are nonbreeders and do not become established females at birth",
+      "pass": true
+    },
+    {
+      "name": "Unsupported captive profiles do not fall back to generic marine egg laying",
+      "pass": true
+    },
+    {
+      "name": "Hard-substrate clownfish cannot substitute coral or empty glass for a rock nest",
+      "pass": true
+    },
+    {
+      "name": "Offspring adult-load and entity reservations prevent overcrowding",
+      "pass": true
+    },
+    {
+      "name": "Active courtship reserves the same adult-load cohort that later becomes eggs",
+      "pass": true
+    },
+    {
+      "name": "Occupied nesting territory blocks another pair without unlimited courtship",
+      "pass": true
+    },
+    {
+      "name": "Courtship movement changes targets smoothly while unrelated fish keep moving",
+      "pass": true
+    },
+    {
+      "name": "Female gravid and preparing states are real pre-spawn phases; male never gravid",
+      "pass": true
+    },
+    {
+      "name": "Spawning cooldown and parental-care state prevent immediate repeat cohorts",
+      "pass": true
+    },
+    {
+      "name": "Reload preserves exact clutch, parents, RNG, site and progress without duplicates",
+      "pass": true
+    },
+    {
+      "name": "Natural incubation advances suitable hours with the authoritative clock",
+      "pass": true
+    },
+    {
+      "name": "Egg size stays fixed throughout embryo development",
+      "pass": true
+    },
+    {
+      "name": "Hatching makes unique small larvae with exact genetic inheritance and parent identities",
+      "pass": true
+    },
+    {
+      "name": "No guaranteed hatchling: unfertilized or genetically nonviable eggs can all fail",
+      "pass": true
+    },
+    {
+      "name": "Lethal water reduces viability and records the actual egg-loss category",
+      "pass": true
+    },
+    {
+      "name": "Male Banggai carries internal brood; female is recovering, never pregnant",
+      "pass": true
+    },
+    {
+      "name": "Missing mouthbrooding male loses the brood, never creates an external egg pile",
+      "pass": true
+    },
+    {
+      "name": "Banggai releases small developed juveniles using juvenile art and fine-food establishment",
+      "pass": true
+    },
+    {
+      "name": "Chalk bass uses simultaneous roles even when both legacy sex fields match",
+      "pass": true
+    },
+    {
+      "name": "Pelagic eggs drift in the water column and never attach to rocks",
+      "pass": true
+    },
+    {
+      "name": "Pelagic rearing requires actual cultured live plankton availability",
+      "pass": true
+    },
+    {
+      "name": "Pelagic hatchlings accept plankton; ordinary fry food does not meet their larval diet",
+      "pass": true
+    },
+    {
+      "name": "Sharknose gobies use cavity nests and male care without clownfish genes",
+      "pass": true
+    },
+    {
+      "name": "Another aquarium receives no eggs from this tank",
+      "pass": true
+    },
+    {
+      "name": "Migration is additive, idempotent and never rerolls pattern seeds or old broods",
+      "pass": true
+    },
+    {
+      "name": "8 real hours: continuous and offline breeding outcomes are identical",
+      "pass": true
+    },
+    {
+      "name": "12 real hours: continuous and offline breeding outcomes are identical",
+      "pass": true
+    },
+    {
+      "name": "24 real hours: continuous and offline breeding outcomes are identical",
+      "pass": true
+    },
+    {
+      "name": "Repeated account checkpoint catch-up cannot spawn or hatch the same interval twice",
+      "pass": true
+    },
+    {
+      "name": "Shared authoritative day length remains twenty real minutes",
+      "pass": true
+    },
+    {
+      "name": "Normal Ocellaris exact 100-bucket genetic mapping remains 85/10/4/1",
+      "pass": true
+    },
+    {
+      "name": "Snowflake reference-line inheritance keeps allele segregation and early nonviability",
+      "pass": true
+    },
+    {
+      "name": "Separate aquarium partners cannot start a cross-tank courtship",
+      "pass": true
+    },
+    {
+      "name": "Removing a courtship partner cancels the pair and releases its reservation without spawning",
+      "pass": true
+    },
+    {
+      "name": "Removing a courtship spawning site cancels cleanly rather than moving eggs to unrelated glass",
+      "pass": true
+    },
+    {
+      "name": "Feeding requires both adult and larval rations, not larval food alone",
+      "pass": true
+    },
+    {
+      "name": "Automatic cohorts retain twenty percent capacity headroom beyond adult reservations",
+      "pass": true
+    },
+    {
+      "name": "Subordinate mature clownfish cannot form extra breeding pairs",
+      "pass": true
+    },
+    {
+      "name": "Invertebrate admissions honor active courtship and egg adult-load reservations",
+      "pass": true
+    },
+    {
+      "name": "Existing five specialist clownfish acquisition holds remain reproductive holds",
+      "pass": true
+    },
+    {
+      "name": "Active saved parentage cannot be changed into cross-species or duplicate pairings",
+      "pass": true
+    },
+    {
+      "name": "A missing nest-tending father adds a real parental-care loss risk",
+      "pass": true
+    },
+    {
+      "name": "Egg predation and parental disease add independently recorded survival risks",
+      "pass": true
+    },
+    {
+      "name": "Nonviable external clutches stay inspectable for one day and never hatch",
+      "pass": true
+    },
+    {
+      "name": "Banggai newborn juveniles also have a minimum establishment hold before any AC sale",
+      "pass": true
+    },
+    {
+      "name": "Coral frag lineage remains independent of fish reproductive records",
+      "pass": true
+    },
+    {
+      "name": "Observation dashboard reports completed hatchings with offspring and exact lineage",
+      "pass": true
+    },
+    {
+      "name": "Malformed duplicated pair, RNG, parent and clutch saves are rejected",
+      "pass": true
+    },
+    {
+      "name": "Inspector contains correct reproductive role, mate, maturity and courtship",
+      "pass": true
+    },
+    {
+      "name": "Inspector refreshes female gravid state without resetting the selection timer",
+      "pass": true
+    },
+    {
+      "name": "Selection outline expires after three seconds while inspector stays open",
+      "pass": true
+    },
+    {
+      "name": "Journal is a read-only observation dashboard with all four sections",
+      "pass": true
+    },
+    {
+      "name": "Separate coral fragging lineage remains in journal",
+      "pass": true
+    },
+    {
+      "name": "Attached natural clutch renders a selectable egg hitbox",
+      "pass": true
+    },
+    {
+      "name": "Clutch inspector has small fixed-size cluster preview and real parents",
+      "pass": true
+    },
+    {
+      "name": "Store: courtship and normal swimming continue on the shared game clock",
+      "pass": true
+    },
+    {
+      "name": "Field Journal: courtship and normal swimming continue on the shared game clock",
+      "pass": true
+    },
+    {
+      "name": "Dock Casino: courtship and normal swimming continue on the shared game clock",
+      "pass": true
+    },
+    {
+      "name": "Diving: courtship and normal swimming continue on the shared game clock",
+      "pass": true
+    },
+    {
+      "name": "Actual local save reload retains a single clutch and exact parentage",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: breeding journal has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: breeding journal has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: breeding journal has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: breeding journal has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "No browser JavaScript exceptions",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "Fully offline without HTTP/HTTPS gameplay requests",
+      "pass": true,
+      "requests": []
+    }
+  ]
+}

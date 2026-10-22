@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "reviewDate": "2026-10-14",
+  "modes": {
+    "reef": {
+      "name": "Reef Diving",
+      "level": 5,
+      "cost": 1000,
+      "breakdown": {
+        "boat": 350,
+        "equipment": 300,
+        "oxygen": 150,
+        "access": 200
+      }
+    },
+    "deep": {
+      "name": "Deep Sea Diving",
+      "level": 10,
+      "cost": 10000,
+      "breakdown": {
+        "boat": 3500,
+        "equipment": 3000,
+        "oxygen": 2000,
+        "access": 1500
+      }
+    }
+  },
+  "regions": {
+    "fiji": {
+      "name": "Fiji",
+      "rock": "fiji",
+      "reefDepth": 12,
+      "deepDepth": 75,
+      "habitat": "Limestone reef terraces and sandy channels",
+      "collection": "Fictional restricted research salvage; no real collection authorization."
+    },
+    "caribbean": {
+      "name": "Caribbean",
+      "rock": "caribbean",
+      "reefDepth": 18,
+      "deepDepth": 55,
+      "habitat": "Massive coral heads, sponges and limestone ledges",
+      "collection": "Fictional expedition specimens; not a collection permit."
+    },
+    "hawaii": {
+      "name": "Hawaii",
+      "rock": "hawaiian",
+      "reefDepth": 15,
+      "deepDepth": 90,
+      "habitat": "Basalt boulder reefs and volcanic slopes",
+      "collection": "Observation-only wildlife. Aquarium collection is blocked in this game; inert fictional salvage only.",
+      "wildlifeClosed": true,
+      "source": "https://dlnr.hawaii.gov/dar/announcements/update-on-aquarium-collecting/"
+    },
+    "japan": {
+      "name": "Japan",
+      "rock": "hawaiian",
+      "reefDepth": 8,
+      "deepDepth": 100,
+      "habitat": "Ryukyu shallow reef or deep rocky reef survey",
+      "collection": "Fictional research recovery, not a real-world collection permit."
+    }
+  },
+  "species": [
+    {
+      "id": "chalk-bass",
+      "regions": [
+        "caribbean"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "habitat": "reef rubble and rock shelter",
+      "depth": [
+        12,
+        90
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "Not treated as protected by this game; legal access is not asserted",
+      "sensitivity": 0.18,
+      "transport": 0.9,
+      "source": "https://repository.library.noaa.gov/view/noaa/18269/noaa_18269_DS1.pdf",
+      "rangeSource": "https://stri-sites.si.edu/docs/publications/pdfs/carvalho_filho_et_al_2023_serranus_fuscula.pdf",
+      "scientificName": "Serranus tortugarum",
+      "rarity": "Common",
+      "careDifficulty": "Moderate",
+      "artReference": "assets/expansion-v27/chalk-bass/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.18,
+        "transportQuality": 0.9,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment"
+    },
+    {
+      "id": "candy-basslet",
+      "regions": [
+        "caribbean"
+      ],
+      "modes": [
+        "deep"
+      ],
+      "habitat": "Mesophotic limestone ledges and coral rubble",
+      "depth": [
+        10,
+        70
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "Game restricted specimen; no legal collection claim",
+      "sensitivity": 0.45,
+      "transport": 0.75,
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4042691/",
+      "scientificName": "Liopropoma carmabi",
+      "rarity": "Ultra Rare",
+      "careDifficulty": "Difficult",
+      "artReference": "assets/expansion-v27/candy-basslet/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.45,
+        "transportQuality": 0.75,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment"
+    },
+    {
+      "id": "pavona-cactus",
+      "regions": [
+        "fiji"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "habitat": "Shallow reef; detached fragment recovery only",
+      "depth": [
+        3,
+        20
+      ],
+      "collection": "fictional-restricted-fragment",
+      "conservation": "CITES Appendix II stony coral; controlled trade, never an ordinary legal collectible. Fictional restricted fragment only.",
+      "sensitivity": 0.55,
+      "transport": 0.72,
+      "source": "https://library.sprep.org/sites/default/files/518.pdf",
+      "rangeSource": "https://www.coraltraits.org/species/1149/traits/218",
+      "scientificName": "Pavona cactus",
+      "rarity": "Rare",
+      "careDifficulty": "Difficult",
+      "artReference": "assets/expansion-v27/pavona-cactus/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          28
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.55,
+        "transportQuality": 0.72,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment"
+    },
+    {
+      "id": "porcelain-anemone-crab",
+      "regions": [
+        "japan"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "habitat": "Ryukyu reef-associated anemone habitat",
+      "depth": [
+        8,
+        8
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "No real collection authorization; habitat/host sensitivity retained",
+      "sensitivity": 0.35,
+      "transport": 0.82,
+      "source": "https://www.godac.jamstec.go.jp/bismal/e/view/9004880",
+      "scientificName": "Neopetrolisthes maculatus",
+      "rarity": "Rare",
+      "careDifficulty": "Moderate",
+      "artReference": "assets/expansion-v27/porcelain-anemone-crab/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.35,
+        "transportQuality": 0.82,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment"
+    },
+    {
+      "id": "blotched-anthias",
+      "regions": [
+        "japan"
+      ],
+      "modes": [
+        "deep"
+      ],
+      "habitat": "Deep rocky reef",
+      "depth": [
+        70,
+        300
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "IUCN Least Concern in cited museum profile; rarity is independent",
+      "sensitivity": 0.65,
+      "transport": 0.65,
+      "source": "https://fishesofaustralia.net.au/Home/species/5363",
+      "rangeSource": "https://www.jstage.jst.go.jp/article/jji/70/1/70_22-013/_pdf/-char/en",
+      "scientificName": "Odontanthias borbonius",
+      "rarity": "Very Rare",
+      "careDifficulty": "Difficult",
+      "artReference": "assets/expansion-v27/blotched-anthias/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.65,
+        "transportQuality": 0.65,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment"
+    },
+    {
+      "id": "spotted-boxfish",
+      "regions": [
+        "hawaii",
+        "japan"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "habitat": "Clear reef and rocky boulder habitat; solitary toxic-risk species",
+      "depth": [
+        0,
+        30
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "Least Concern in cited profile; Hawaii is observation-only regardless of rarity",
+      "sensitivity": 0.75,
+      "transport": 0.6,
+      "source": "https://fishbase.se/Fieldguide/FieldGuideSummary.php?c_code=608&genusname=Ostracion&speciesname=meleagris",
+      "scientificName": "Ostracion meleagris",
+      "rarity": "Ultra Rare",
+      "careDifficulty": "Expert",
+      "artReference": "assets/expansion-v27/spotted-boxfish/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.75,
+        "transportQuality": 0.6,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment"
+    }
+  ],
+  "rosterBaseline": "Existing v2.7 roster; six encounter profiles reference existing IDs; zero added species",
+  "policy": "Depth intervals are conservative game eligibility bands within documented habitat; fictional restricted recovery is not a legal collection permit. Hawaii wildlife is observation-only."
+}

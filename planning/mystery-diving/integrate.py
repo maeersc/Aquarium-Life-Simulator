@@ -1,0 +1,25 @@
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2]
+assert 'js/diving-mystery.js' not in (ROOT/'index.html').read_text(encoding='utf8'), 'One-time integration already applied.'
+def edit(name,a,b):
+ p=ROOT/name;s=p.read_text(encoding='utf8');assert a in s,(name,a[:120]);p.write_text(s.replace(a,b),encoding='utf8')
+edit('index.html','<script defer src="js/diving.js"></script>','<script defer src="js/diving.js"></script><script defer src="js/diving-mystery.js"></script>')
+edit('js/diving.js',"artReference:'assets/expansion-v27/'", "artReference:p.artReference||'assets/expansion-v27/'")
+edit('js/diving.js',"...s.diving.history.map(h=>h.id)","...s.diving.history.map(h=>h.id),...(AL.DiveMystery?.settledTokens(s)||[])")
+edit('js/diving.js',"s.diving.active=null;}}", "s.diving.active=null;}AL.DiveMystery?.migrate(s);}")
+edit('js/diving.js',"if(s.credits<mode.cost)throw Error('Not enough Aquarium Credits.');const id=", "if(s.credits<mode.cost)throw Error('Not enough Aquarium Credits.');const available=AL.DiveMystery?.availability(s,a.region,a.mode);if(available&&!available.ok)throw Error(available.reason);const id=")
+edit('js/diving.js',"inventory:[],warnings:[]};if(AL.Finance)","inventory:[],warnings:[]};AL.DiveMystery?.initialize(s,s.diving.active);if(AL.Finance)")
+edit('js/diving.js',"if(o.kind==='livestock'){if(!eligible", "if(o.mystery)return AL.DiveMystery.collect(s,a,o);if(o.kind==='livestock'){if(!eligible")
+edit('js/diving.js',"Use a dedicated transport trip for toxin-risk Boxfish.","Transport safety requires a dedicated livestock trip for this encounter.")
+edit('js/diving.js',"roll=AL.Random.int(s,'divingRng',10000)/10000;", "roll=item.assessment?.roll??AL.Random.int(s,'divingRng',10000)/10000;")
+edit('js/diving.js',"const condition=AL.Random.int(s,'divingRng',100);", "const condition=item.assessment?.condition??AL.Random.int(s,'divingRng',100);")
+edit('js/diving.js',"for(const item of a.inventory){if(item.kind==='rock')", "for(const item of a.inventory){if(item.mystery){report.objects.push(AL.DiveMystery.returned(s,a,item));continue;}if(item.kind==='rock')")
+edit('js/diving.js',"a.inventory.map(i=>({objectId:i.id,name:i.species?definition(i.species).name:'Inert rock salvage',condition:'Forfeited',value:0}))", "a.inventory.map(i=>i.mystery?AL.DiveMystery.forfeited(s,a,i):({objectId:i.id,name:i.species?definition(i.species).name:'Inert rock salvage',condition:'Forfeited',value:0}))")
+edit('js/diving.js',"s.diving.history.unshift(report);", "if(a.mysteryVersion){report.mysteryVersion=a.mysteryVersion;report.revealState=status==='success'?'revealed':'concealed';}s.diving.history.unshift(report);")
+edit('js/diving.js',"else if(name==='diveMove')move", "else if(name==='diveRecover')AL.DiveMystery.recover(s,args);else if(name==='diveRelease')AL.DiveMystery.release(s,args);else if(name==='diveMove')move")
+edit('js/diving.js',"o.kind==='livestock'&&typeof o.destination!=='string'", "o.kind==='livestock'&&!(o.mystery&&o.destination===null)&&typeof o.destination!=='string'")
+edit('js/diving.js',"throw Error('Invalid expedition movement history');}", "throw Error('Invalid expedition movement history');AL.DiveMystery?.validate(s);}")
+edit('js/diving.js',"repLevel,offer,remember,receiptKey", "repLevel,offer,remember,receiptKey,receive")
+edit('js/core.js',"const actions={", "const actions={\n    diveRecover(s,t,a){AL.Diving.action(s,t,'diveRecover',a);},\n    diveRelease(s,t,a){AL.Diving.action(s,t,'diveRelease',a);},")
+edit('js/simulation.js',"AL.Gameplay?.step(s,previous,minutes);if(Math.floor", "AL.Gameplay?.step(s,previous,minutes);AL.DiveMystery?.step(s);if(Math.floor")
+edit('js/diving.js',"report.resale=repLevel(s)>=5?'Deep Market only; condition and budget checks apply':'Deep Market reputation 5 required';", "report.resale='Regular store: 60% of Deep reference when eligible; Deep Market: Reputation 5 and an active Wanted request required';")

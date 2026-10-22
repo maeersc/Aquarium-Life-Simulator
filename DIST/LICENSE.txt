@@ -1,0 +1,6 @@
+Aquarium Life production build
+
+Game code and artwork: original project ownership and existing art approvals apply.
+
+This package is minified and uses shortened internal identifiers. It is not encrypted or tamper-proof.
+Build-time minifiers are not included. Source maps, development tools and review pages are not distributed.

@@ -1,0 +1,4837 @@
+{
+  "entry": "DIST/index.html",
+  "browser": "chrome",
+  "passed": 72,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "A: real new player has the standard starting balance and dry tank",
+      "pass": true
+    },
+    {
+      "name": "A: actual highlighted walkthrough completed all22 milestones",
+      "pass": true
+    },
+    {
+      "name": "A: one owned fish actually ate a manual portion",
+      "pass": true
+    },
+    {
+      "name": "A: devices are installed exclusively and absent from Inventory",
+      "pass": true
+    },
+    {
+      "name": "A: cycle used real time and the unchanged biological clock",
+      "pass": true
+    },
+    {
+      "name": "C: five interrupted stages were captured from real gameplay",
+      "pass": true
+    },
+    {
+      "name": "A: initial setup navigation did not auto-fill or prepare the tank",
+      "pass": true
+    },
+    {
+      "name": "F: every stable task is reachable exactly once and completion is terminal",
+      "pass": true
+    },
+    {
+      "name": "F: explicit prerequisites are valid and acyclic",
+      "pass": true
+    },
+    {
+      "name": "F: each step has a target, instruction, validator and recovery path",
+      "pass": true
+    },
+    {
+      "name": "F: no current instruction refers to removed tutorial navigation",
+      "pass": true
+    },
+    {
+      "name": "F: ordinary state observation is idempotent",
+      "pass": true
+    },
+    {
+      "name": "F: diagnostics are off by default and cannot advance or reset tasks",
+      "pass": true
+    },
+    {
+      "name": "F: opt-in diagnostics detect unresolved route cycling once without altering progress",
+      "pass": true
+    },
+    {
+      "name": "F: established tasks and physical ownership survive a version2 save round trip",
+      "pass": true
+    },
+    {
+      "name": "F: completion requires the actual living resident and verified meal",
+      "pass": true
+    },
+    {
+      "name": "B: existing player completes without repurchases or changed ownership",
+      "pass": true
+    },
+    {
+      "name": "B: actual installed, prepared, cycled and feeding state is recognized",
+      "pass": true
+    },
+    {
+      "name": "C: preparation reload retains every completed prerequisite",
+      "pass": true
+    },
+    {
+      "name": "C: preparation reload retains permanent identities and funds",
+      "pass": true
+    },
+    {
+      "name": "C: preparation resumes through the real highlighted route",
+      "pass": true
+    },
+    {
+      "name": "C: installation reload retains every completed prerequisite",
+      "pass": true
+    },
+    {
+      "name": "C: installation reload retains permanent identities and funds",
+      "pass": true
+    },
+    {
+      "name": "C: installation resumes through the real highlighted route",
+      "pass": true
+    },
+    {
+      "name": "C: cycling reload retains every completed prerequisite",
+      "pass": true
+    },
+    {
+      "name": "C: cycling reload retains permanent identities and funds",
+      "pass": true
+    },
+    {
+      "name": "C: cycling resumes through the real highlighted route",
+      "pass": true
+    },
+    {
+      "name": "C: purchasing reload retains every completed prerequisite",
+      "pass": true
+    },
+    {
+      "name": "C: purchasing reload retains permanent identities and funds",
+      "pass": true
+    },
+    {
+      "name": "C: purchasing resumes through the real highlighted route",
+      "pass": true
+    },
+    {
+      "name": "C: purchasing creates one resident and one paid fish receipt",
+      "pass": true
+    },
+    {
+      "name": "C: receiving reload retains every completed prerequisite",
+      "pass": true
+    },
+    {
+      "name": "C: receiving reload retains permanent identities and funds",
+      "pass": true
+    },
+    {
+      "name": "C: receiving resumes through the real highlighted route",
+      "pass": true
+    },
+    {
+      "name": "C: receiving creates one resident and one paid fish receipt",
+      "pass": true
+    },
+    {
+      "name": "D: insufficient AC shows a blocked report and no free fish",
+      "pass": true
+    },
+    {
+      "name": "D: closed purchase details cannot leave a stale hidden target",
+      "pass": true
+    },
+    {
+      "name": "D: undersized tank blocks stocking using species volume",
+      "pass": true
+    },
+    {
+      "name": "D: stock changed after browsing still blocks a stale offer",
+      "pass": true
+    },
+    {
+      "name": "D: incompatible physical equipment stays uninstalled",
+      "pass": true
+    },
+    {
+      "name": "D: lost filtration blocks stocking without resetting historical tasks",
+      "pass": true
+    },
+    {
+      "name": "D: missing target has recovery and a bounded diagnostic",
+      "pass": true
+    },
+    {
+      "name": "D: closing a missing-target context recovers navigation",
+      "pass": true
+    },
+    {
+      "name": "D: switching to a newly owned aquarium retains the pinned guide",
+      "pass": true
+    },
+    {
+      "name": "D: Ocean Diving interruption highlights its real close control",
+      "pass": true
+    },
+    {
+      "name": "D: returning from Ocean Diving retains the same objective",
+      "pass": true
+    },
+    {
+      "name": "E: 1920x1080 tooltip stays visible",
+      "pass": true
+    },
+    {
+      "name": "E: 1920x1080 actual confirm is highlighted and enabled",
+      "pass": true
+    },
+    {
+      "name": "E: 1920x1080 page has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "E: 1920x1080 tooltip does not cover the confirmation button",
+      "pass": true
+    },
+    {
+      "name": "E: 1920x1080 price, quantity and destination form remain uncovered",
+      "pass": true
+    },
+    {
+      "name": "E: 1920x1080 trusted pointer purchase successfully stocks one fish",
+      "pass": true
+    },
+    {
+      "name": "E: 1600x900 tooltip stays visible",
+      "pass": true
+    },
+    {
+      "name": "E: 1600x900 actual confirm is highlighted and enabled",
+      "pass": true
+    },
+    {
+      "name": "E: 1600x900 page has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "E: 1600x900 tooltip does not cover the confirmation button",
+      "pass": true
+    },
+    {
+      "name": "E: 1600x900 price, quantity and destination form remain uncovered",
+      "pass": true
+    },
+    {
+      "name": "E: 1600x900 trusted pointer purchase successfully stocks one fish",
+      "pass": true
+    },
+    {
+      "name": "E: 1366x768 tooltip stays visible",
+      "pass": true
+    },
+    {
+      "name": "E: 1366x768 actual confirm is highlighted and enabled",
+      "pass": true
+    },
+    {
+      "name": "E: 1366x768 page has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "E: 1366x768 tooltip does not cover the confirmation button",
+      "pass": true
+    },
+    {
+      "name": "E: 1366x768 price, quantity and destination form remain uncovered",
+      "pass": true
+    },
+    {
+      "name": "E: 1366x768 trusted pointer purchase successfully stocks one fish",
+      "pass": true
+    },
+    {
+      "name": "E: 390x844 tooltip stays visible",
+      "pass": true
+    },
+    {
+      "name": "E: 390x844 actual confirm is highlighted and enabled",
+      "pass": true
+    },
+    {
+      "name": "E: 390x844 page has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "E: 390x844 tooltip does not cover the confirmation button",
+      "pass": true
+    },
+    {
+      "name": "E: 390x844 price, quantity and destination form remain uncovered",
+      "pass": true
+    },
+    {
+      "name": "E: 390x844 trusted pointer purchase successfully stocks one fish",
+      "pass": true
+    },
+    {
+      "name": "No uncaught browser errors",
+      "pass": true
+    },
+    {
+      "name": "No external gameplay or save requests",
+      "pass": true
+    }
+  ],
+  "walkthroughTrace": [
+    {
+      "step": "welcome",
+      "instruction": "Open Aquariums.",
+      "route": "open-aquariums",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u25a4Aquariums",
+        "html": "<button data-page=\"aquariums\" title=\"Aquariums\" aria-label=\"Aquariums\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u25a4</span><span class=\"nav-text\">Aquariums</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 0
+    },
+    {
+      "step": "view",
+      "instruction": "Close this window to view the aquarium and its current readings.",
+      "route": "close-primary",
+      "target": {
+        "id": "primary-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"primary-close\" aria-label=\"Close window\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": "aquariums",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 1
+    },
+    {
+      "step": "view",
+      "instruction": "Click Prepare your aquarium to review Tank Setup. A dry aquarium needs sand, saltwater and life support before fish.",
+      "route": "scene-null",
+      "target": {
+        "id": "onboard-action",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Prepare your aquarium \u2192",
+        "html": "<button class=\"primary tutorial-target\" id=\"onboard-action\">Prepare your aquarium \u2192</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 2
+    },
+    {
+      "step": "substrate",
+      "instruction": "Choose Aquarium Store in this window selector.",
+      "route": "switch-store",
+      "target": {
+        "id": "window-switch",
+        "tag": "SELECT",
+        "name": "",
+        "text": "AquariumsAquarium StoreField JournalTank CareThe Dock CasinoSettings",
+        "html": "<select id=\"window-switch\" class=\"primary-jump tutorial-target\" aria-label=\"Switch management window\"><option value=\"aquariums\">Aquariums</option><option value=\"store\">Aquarium Store</option><option value=\"journal\">Field Journal</option><option value=\"equipment\">Tank Care</option><option value=\"casino\">The Dock Casino</option><option value=\"settings\">Settings</option></select>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": "aquariums",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 3
+    },
+    {
+      "step": "substrate",
+      "instruction": "Open Sand & Substrate.",
+      "route": "store-sand",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Sand & Substrate",
+        "html": "<button data-store-action=\"category\" data-store-args=\"{&quot;id&quot;:&quot;sand&quot;}\" class=\"tutorial-target\">Sand &amp; Substrate</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 4
+    },
+    {
+      "step": "substrate",
+      "instruction": "Click View Details for Fiji sand (40 AC).",
+      "route": "store-sand",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "View Details",
+        "html": "<button data-store-action=\"details\" data-store-args=\"{&quot;id&quot;:&quot;sand:fiji&quot;}\" class=\"tutorial-target\">View Details</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 5
+    },
+    {
+      "step": "substrate",
+      "instruction": "Enter a sand depth, such as 2 inches. The price updates before you confirm. Sand-dependent fish may need a deeper bed.",
+      "route": "sand-depth",
+      "target": {
+        "id": "",
+        "tag": "INPUT",
+        "name": "depth",
+        "text": "",
+        "html": "<input name=\"depth\" type=\"number\" min=\"0\" max=\"5\" step=\"0.1\" value=\"0\" required=\"\" class=\"tutorial-target\">",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 6
+    },
+    {
+      "step": "substrate",
+      "instruction": "Check the price and Destination aquarium, then click Confirm purchase to install this sand depth.",
+      "route": "confirm-sand",
+      "target": {
+        "id": "confirm-fish",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm purchase",
+        "html": "<button class=\"primary tutorial-target\" id=\"confirm-fish\" type=\"submit\">Confirm purchase</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 7
+    },
+    {
+      "step": "fill",
+      "instruction": "Close Aquarium Store, then open Aquariums.",
+      "route": "close-store",
+      "target": {
+        "id": "store-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"store-close\" aria-label=\"Close aquarium store\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 8
+    },
+    {
+      "step": "fill",
+      "instruction": "Open Aquariums.",
+      "route": "open-aquariums",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u25a4Aquariums",
+        "html": "<button data-page=\"aquariums\" title=\"Aquariums\" aria-label=\"Aquariums\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u25a4</span><span class=\"nav-text\">Aquariums</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 9
+    },
+    {
+      "step": "fill",
+      "instruction": "Use Add water in Tank Setup. Filling and preparing saltwater are separate from biological cycling.",
+      "route": "aquariums-setup",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Add water",
+        "html": "<button class=\"tutorial-target\" data-action=\"fillWater\" data-args=\"{}\">Add water</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate"
+      ],
+      "shell": "aquariums",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 10
+    },
+    {
+      "step": "prepare",
+      "instruction": "Use Prepare water in Tank Setup. This records actual preparation; it does not establish the nitrogen cycle.",
+      "route": "aquariums-setup",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Prepare water",
+        "html": "<button class=\"primary tutorial-target\" data-action=\"prepare\" data-args=\"{}\">Prepare water</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill"
+      ],
+      "shell": "aquariums",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 11
+    },
+    {
+      "step": "filter",
+      "instruction": "Choose Aquarium Store in this window selector.",
+      "route": "switch-store",
+      "target": {
+        "id": "window-switch",
+        "tag": "SELECT",
+        "name": "",
+        "text": "AquariumsAquarium StoreField JournalTank CareThe Dock CasinoSettings",
+        "html": "<select id=\"window-switch\" class=\"primary-jump tutorial-target\" aria-label=\"Switch management window\"><option value=\"aquariums\">Aquariums</option><option value=\"store\">Aquarium Store</option><option value=\"journal\">Field Journal</option><option value=\"equipment\">Tank Care</option><option value=\"casino\">The Dock Casino</option><option value=\"settings\">Settings</option></select>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": "aquariums",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 12
+    },
+    {
+      "step": "filter",
+      "instruction": "Open Equipment.",
+      "route": "store-equipment",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Equipment",
+        "html": "<button data-store-action=\"category\" data-store-args=\"{&quot;id&quot;:&quot;equipment&quot;}\" class=\"tutorial-target\">Equipment</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 13
+    },
+    {
+      "step": "filter",
+      "instruction": "Click View Details for Biological filter (180 AC).",
+      "route": "store-equipment",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "View Details",
+        "html": "<button data-store-action=\"details\" data-store-args=\"{&quot;id&quot;:&quot;equipment:filter&quot;}\" class=\"tutorial-target\">View Details</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 14
+    },
+    {
+      "step": "filter",
+      "instruction": "Check the rating, price and Sizing aquarium, then click Confirm purchase. Next, install the unit from Tank Care > Inventory.",
+      "route": "confirm-equipment:filter",
+      "target": {
+        "id": "confirm-fish",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm purchase",
+        "html": "<button class=\"primary tutorial-target\" id=\"confirm-fish\" type=\"submit\">Confirm purchase</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 15
+    },
+    {
+      "step": "filter",
+      "instruction": "Close Aquarium Store, then open Tank Care.",
+      "route": "close-store",
+      "target": {
+        "id": "store-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"store-close\" aria-label=\"Close aquarium store\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 16
+    },
+    {
+      "step": "filter",
+      "instruction": "Open Tank Care.",
+      "route": "open-equipment",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u2318Tank Care",
+        "html": "<button data-page=\"equipment\" title=\"Tank Care\" aria-label=\"Tank Care\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u2318</span><span class=\"nav-text\">Tank Care</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 17
+    },
+    {
+      "step": "filter",
+      "instruction": "Choose Inventory.",
+      "route": "tab-inventory",
+      "target": {
+        "id": "primary-tab-inventory",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Inventory",
+        "html": "<button role=\"tab\" id=\"primary-tab-inventory\" aria-controls=\"primary-content\" aria-selected=\"false\" tabindex=\"-1\" data-primary-tab=\"inventory\" class=\"tutorial-target\">Inventory</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 18
+    },
+    {
+      "step": "filter",
+      "instruction": "Find your Biological filter and click Install. Clear Search storage or choose All stored items if it is hidden.",
+      "route": "equipment-inventory",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Install",
+        "html": "<button data-action=\"inventoryInstall\" data-args=\"{&quot;id&quot;:&quot;equipment34&quot;}\" class=\"tutorial-target\">Install</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 19
+    },
+    {
+      "step": "filter",
+      "instruction": "Choose A pocket of ocean and click Confirm installation. The unit moves from Inventory into this aquarium.",
+      "route": "install-filter",
+      "target": {
+        "id": "inventory-confirm",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm installation",
+        "html": "<button id=\"inventory-confirm\" class=\"primary tutorial-target\">Confirm installation</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 20
+    },
+    {
+      "step": "controller",
+      "instruction": "Choose Aquarium Store in this window selector.",
+      "route": "switch-store",
+      "target": {
+        "id": "window-switch",
+        "tag": "SELECT",
+        "name": "",
+        "text": "AquariumsAquarium StoreField JournalTank CareThe Dock CasinoSettings",
+        "html": "<select id=\"window-switch\" class=\"primary-jump tutorial-target\" aria-label=\"Switch management window\"><option value=\"aquariums\">Aquariums</option><option value=\"store\">Aquarium Store</option><option value=\"journal\">Field Journal</option><option value=\"equipment\">Tank Care</option><option value=\"casino\">The Dock Casino</option><option value=\"settings\">Settings</option></select>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 21
+    },
+    {
+      "step": "controller",
+      "instruction": "Click View Details for Level 1 Marine Heater \u00b7 5\u201320 gal (110 AC).",
+      "route": "store-equipment",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "View Details",
+        "html": "<button data-store-action=\"details\" data-store-args=\"{&quot;id&quot;:&quot;equipment:heater:marine-heater-1&quot;}\" class=\"tutorial-target\">View Details</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 22
+    },
+    {
+      "step": "controller",
+      "instruction": "Check the rating, price and Sizing aquarium, then click Confirm purchase. Next, install the unit from Tank Care > Inventory.",
+      "route": "confirm-equipment:heater:marine-heater-1",
+      "target": {
+        "id": "confirm-fish",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm purchase",
+        "html": "<button class=\"primary tutorial-target\" id=\"confirm-fish\" type=\"submit\">Confirm purchase</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 23
+    },
+    {
+      "step": "controller",
+      "instruction": "Close Aquarium Store, then open Tank Care.",
+      "route": "close-store",
+      "target": {
+        "id": "store-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"store-close\" aria-label=\"Close aquarium store\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 24
+    },
+    {
+      "step": "controller",
+      "instruction": "Open Tank Care.",
+      "route": "open-equipment",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u2318Tank Care",
+        "html": "<button data-page=\"equipment\" title=\"Tank Care\" aria-label=\"Tank Care\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u2318</span><span class=\"nav-text\">Tank Care</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 25
+    },
+    {
+      "step": "controller",
+      "instruction": "Find your Thermostatic heater and click Install. Clear Search storage or choose All stored items if it is hidden.",
+      "route": "equipment-inventory",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Install",
+        "html": "<button data-action=\"inventoryInstall\" data-args=\"{&quot;id&quot;:&quot;equipment35&quot;}\" class=\"tutorial-target\">Install</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 26
+    },
+    {
+      "step": "controller",
+      "instruction": "Choose A pocket of ocean and click Confirm installation. The unit moves from Inventory into this aquarium.",
+      "route": "install-heater",
+      "target": {
+        "id": "inventory-confirm",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm installation",
+        "html": "<button id=\"inventory-confirm\" class=\"primary tutorial-target\">Confirm installation</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 27
+    },
+    {
+      "step": "flow",
+      "instruction": "Choose Aquarium Store in this window selector.",
+      "route": "switch-store",
+      "target": {
+        "id": "window-switch",
+        "tag": "SELECT",
+        "name": "",
+        "text": "AquariumsAquarium StoreField JournalTank CareThe Dock CasinoSettings",
+        "html": "<select id=\"window-switch\" class=\"primary-jump tutorial-target\" aria-label=\"Switch management window\"><option value=\"aquariums\">Aquariums</option><option value=\"store\">Aquarium Store</option><option value=\"journal\">Field Journal</option><option value=\"equipment\">Tank Care</option><option value=\"casino\">The Dock Casino</option><option value=\"settings\">Settings</option></select>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 28
+    },
+    {
+      "step": "flow",
+      "instruction": "Click View Details for Circulation pump (130 AC).",
+      "route": "store-equipment",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "View Details",
+        "html": "<button data-store-action=\"details\" data-store-args=\"{&quot;id&quot;:&quot;equipment:flow&quot;}\" class=\"tutorial-target\">View Details</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 29
+    },
+    {
+      "step": "flow",
+      "instruction": "Check the rating, price and Sizing aquarium, then click Confirm purchase. Next, install the unit from Tank Care > Inventory.",
+      "route": "confirm-equipment:flow",
+      "target": {
+        "id": "confirm-fish",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm purchase",
+        "html": "<button class=\"primary tutorial-target\" id=\"confirm-fish\" type=\"submit\">Confirm purchase</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 30
+    },
+    {
+      "step": "flow",
+      "instruction": "Close Aquarium Store, then open Tank Care.",
+      "route": "close-store",
+      "target": {
+        "id": "store-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"store-close\" aria-label=\"Close aquarium store\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 31
+    },
+    {
+      "step": "flow",
+      "instruction": "Open Tank Care.",
+      "route": "open-equipment",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u2318Tank Care",
+        "html": "<button data-page=\"equipment\" title=\"Tank Care\" aria-label=\"Tank Care\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u2318</span><span class=\"nav-text\">Tank Care</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 32
+    },
+    {
+      "step": "flow",
+      "instruction": "Find your Circulation pump and click Install. Clear Search storage or choose All stored items if it is hidden.",
+      "route": "equipment-inventory",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Install",
+        "html": "<button data-action=\"inventoryInstall\" data-args=\"{&quot;id&quot;:&quot;equipment36&quot;}\" class=\"tutorial-target\">Install</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 33
+    },
+    {
+      "step": "flow",
+      "instruction": "Choose A pocket of ocean and click Confirm installation. The unit moves from Inventory into this aquarium.",
+      "route": "install-flow",
+      "target": {
+        "id": "inventory-confirm",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm installation",
+        "html": "<button id=\"inventory-confirm\" class=\"primary tutorial-target\">Confirm installation</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 34
+    },
+    {
+      "step": "hardscape",
+      "instruction": "Choose Aquarium Store in this window selector.",
+      "route": "switch-store",
+      "target": {
+        "id": "window-switch",
+        "tag": "SELECT",
+        "name": "",
+        "text": "AquariumsAquarium StoreField JournalTank CareThe Dock CasinoSettings",
+        "html": "<select id=\"window-switch\" class=\"primary-jump tutorial-target\" aria-label=\"Switch management window\"><option value=\"aquariums\">Aquariums</option><option value=\"store\">Aquarium Store</option><option value=\"journal\">Field Journal</option><option value=\"equipment\">Tank Care</option><option value=\"casino\">The Dock Casino</option><option value=\"settings\">Settings</option></select>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 35
+    },
+    {
+      "step": "hardscape",
+      "instruction": "Open Rocks & Environment.",
+      "route": "store-rocks",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Rocks & Environment",
+        "html": "<button data-store-action=\"category\" data-store-args=\"{&quot;id&quot;:&quot;rocks&quot;}\" class=\"tutorial-target\">Rocks &amp; Environment</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 36
+    },
+    {
+      "step": "hardscape",
+      "instruction": "Click View Details for Hawaiian rock \u00b7 Small (85 AC).",
+      "route": "store-rocks",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "View Details",
+        "html": "<button data-store-action=\"details\" data-store-args=\"{&quot;id&quot;:&quot;rock:hawaiian:0&quot;}\" class=\"tutorial-target\">View Details</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 37
+    },
+    {
+      "step": "hardscape",
+      "instruction": "Check the price and Destination aquarium, then click Confirm purchase and place the rock. The cost is charged when you confirm its position.",
+      "route": "confirm-rock",
+      "target": {
+        "id": "confirm-fish",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm purchase",
+        "html": "<button class=\"primary tutorial-target\" id=\"confirm-fish\" type=\"submit\">Confirm purchase</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 38
+    },
+    {
+      "step": "hardscape",
+      "instruction": "Move the rock near the sandbed until the preview is valid, then click. You can also use arrows and Enter. Canceling leaves the rock unplaced.",
+      "route": "scene-null",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"placing tutorial-target\"></canvas>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 39
+    },
+    {
+      "step": "cycle",
+      "instruction": "Open Aquariums.",
+      "route": "open-aquariums",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u25a4Aquariums",
+        "html": "<button data-page=\"aquariums\" title=\"Aquariums\" aria-label=\"Aquariums\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u25a4</span><span class=\"nav-text\">Aquariums</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 40
+    },
+    {
+      "step": "cycle",
+      "instruction": "Start fishless cycling in Tank Setup. Bacteria process ammonia into nitrite and then nitrate. Wait for the real simulation; normal speed controls remain available.",
+      "route": "aquariums-setup",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Start fishless cycle",
+        "html": "<button class=\"primary tutorial-target\" data-action=\"cycle\" data-args=\"{}\">Start fishless cycle</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape"
+      ],
+      "shell": "aquariums",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 41
+    },
+    {
+      "step": "cycle",
+      "instruction": "Close this window to view the aquarium and its current readings.",
+      "route": "close-primary",
+      "target": {
+        "id": "primary-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"primary-close\" aria-label=\"Close window\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape"
+      ],
+      "shell": "aquariums",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 42
+    },
+    {
+      "step": "cycle",
+      "instruction": "Fishless cycle: 0.0%. Remaining 36.0 game hours (~30.0 real minutes at 1x). Watch ammonia, nitrite and nitrate. Existing 1\u00d7/5\u00d7/20\u00d7 controls change simulation speed; this guide never skips days or edits bacteria.",
+      "route": "scene-null",
+      "target": {
+        "id": "",
+        "tag": "DIV",
+        "text": "Ammonia1.50mg/L",
+        "html": "<div class=\"stat-row tutorial-target\" data-water-stat=\"ammonia\"><span>Ammonia</span><strong class=\"danger\">1.50<small>mg/L</small></strong></div>",
+        "disabled": false,
+        "stat": "ammonia"
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 43
+    },
+    {
+      "step": "quality",
+      "instruction": "Review the actual water readings now that biological cycling is established. Click the readings, or focus them and press Enter. The full checks are available below.",
+      "route": "scene-null",
+      "target": {
+        "id": "water-stats",
+        "tag": "DIV",
+        "text": "Temperature25.0\u00b0CHeaterOnL1 ? 20 galHeater condition100%pH level8.20Salinity35.0pptAmmonia0.00mg/LNi",
+        "html": "<div id=\"water-stats\" tabindex=\"0\" aria-label=\"Actual aquarium water readings\" class=\"tutorial-target\"><div class=\"stat-row\" data-water-stat=\"temperature\"><span>Temperature</span><strong class=\"good\">25.0<small>\u00b0C</small></strong></div><div class=\"stat-row\" data-water-stat=\"heater\"><span>Heater</span><strong class=\"\">On<small>L1 ? 20 gal</small></strong></div><div class=\"stat-row\" data-water-stat=",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 44
+    },
+    {
+      "step": "shop",
+      "instruction": "Open Aquarium Store.",
+      "route": "open-store",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u2311Aquarium Store",
+        "html": "<button data-page=\"store\" title=\"Aquarium Store\" aria-label=\"Aquarium Store\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u2311</span><span class=\"nav-text\">Aquarium Store</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 45
+    },
+    {
+      "step": "shop",
+      "instruction": "Open Fish.",
+      "route": "store-fish",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Fish",
+        "html": "<button data-store-action=\"category\" data-store-args=\"{&quot;id&quot;:&quot;fish&quot;}\" class=\"tutorial-target\">Fish</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 46
+    },
+    {
+      "step": "details",
+      "instruction": "Read Onyx Percula (350 AC). This listing fits the actual tank and supported care profile.",
+      "route": "store-fish",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "View Details",
+        "html": "<button data-store-action=\"details\" data-store-args=\"{&quot;id&quot;:&quot;daily:1:4&quot;}\" class=\"tutorial-target\">View Details</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 47
+    },
+    {
+      "step": "destination",
+      "instruction": "Review A pocket of ocean in the real destination selector. Every aquarium is listed with eligibility.",
+      "route": "fish-destination",
+      "target": {
+        "id": "purchase-destination",
+        "tag": "SELECT",
+        "name": "destination",
+        "text": "A pocket of ocean \u00b7 20 gal \u00b7 Eligible",
+        "html": "<select id=\"purchase-destination\" name=\"destination\" required=\"\" class=\"tutorial-target\"><option value=\"tank1\">A pocket of ocean \u00b7 20 gal \u00b7 Eligible</option></select>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 48
+    },
+    {
+      "step": "destination",
+      "instruction": "Read the compatibility checks and total price. Click this report, or focus it and press Enter.",
+      "route": "fish-compatibility",
+      "target": {
+        "id": "compatibility-report",
+        "tag": "DIV",
+        "text": "Eligible destination \u00b7 350 ACThe chosen aquarium meets this purchase\u2019s requirements.",
+        "html": "<div id=\"compatibility-report\" aria-live=\"polite\" tabindex=\"0\" class=\"tutorial-target\"><div class=\"notice \"><strong>Eligible destination \u00b7 350 AC</strong><br>The chosen aquarium meets this purchase\u2019s requirements.</div></div>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 49
+    },
+    {
+      "step": "stocking",
+      "instruction": "Check the destination and total price. Click Confirm purchase to add this fish to A pocket of ocean.",
+      "route": "stock-fish",
+      "target": {
+        "id": "confirm-fish",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm purchase",
+        "html": "<button class=\"primary tutorial-target\" id=\"confirm-fish\" type=\"submit\">Confirm purchase</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 50
+    },
+    {
+      "step": "observe",
+      "instruction": "Close Aquarium Store to return to the aquarium.",
+      "route": "close-store",
+      "target": {
+        "id": "store-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"store-close\" aria-label=\"Close aquarium store\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 51
+    },
+    {
+      "step": "observe",
+      "instruction": "Close the store and click the aquarium, or focus it and press Enter. Your fish must actually belong to the tutorial aquarium.",
+      "route": "scene-null",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 52
+    },
+    {
+      "step": "feed",
+      "instruction": "Open Tank Care.",
+      "route": "open-equipment",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u2318Tank Care",
+        "html": "<button data-page=\"equipment\" title=\"Tank Care\" aria-label=\"Tank Care\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u2318</span><span class=\"nav-text\">Tank Care</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "observe"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 53
+    },
+    {
+      "step": "feed",
+      "instruction": "Choose Feeding.",
+      "route": "tab-feeding",
+      "target": {
+        "id": "primary-tab-feeding",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Feeding",
+        "html": "<button role=\"tab\" id=\"primary-tab-feeding\" aria-controls=\"primary-content\" aria-selected=\"false\" tabindex=\"-1\" data-primary-tab=\"feeding\" class=\"tutorial-target\">Feeding</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "observe"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 54
+    },
+    {
+      "step": "feed",
+      "instruction": "Choose Community flakes or Balanced pellets or Frozen mysis, then Feed one portion. A real inventory-consuming feed is required.",
+      "route": "equipment-feeding",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Feed one portion",
+        "html": "<button class=\"primary tutorial-target\" type=\"submit\">Feed one portion</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "observe"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 55
+    },
+    {
+      "step": "appetite",
+      "instruction": "Close this window to view the aquarium and its current readings.",
+      "route": "close-primary",
+      "target": {
+        "id": "primary-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"primary-close\" aria-label=\"Close window\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "observe",
+        "feed"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 56
+    },
+    {
+      "step": "appetite",
+      "instruction": "Wait for your fish to eat the food already in the water. Do not add more while a portion remains. Its feeding record will update after a meal.",
+      "route": "scene-null",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "observe",
+        "feed"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 57
+    },
+    {
+      "step": "inspect",
+      "instruction": "Open Field Journal.",
+      "route": "open-journal",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u25a7Field Journal",
+        "html": "<button data-page=\"journal\" title=\"Field Journal\" aria-label=\"Field Journal\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u25a7</span><span class=\"nav-text\">Field Journal</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "observe",
+        "feed",
+        "appetite"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 58
+    },
+    {
+      "step": "inspect",
+      "instruction": "Inspect the tutorial fish and read its hunger, stress and health. If filters hide it, choose the tutorial aquarium or All.",
+      "route": "journal-collection",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Inspect",
+        "html": "<button data-inspect-resident=\"fish61\" data-resident-tank=\"tank1\" class=\"tutorial-target\">Inspect</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "observe",
+        "feed",
+        "appetite"
+      ],
+      "shell": "journal",
+      "store": false,
+      "status": "active",
+      "walkthrough": "A-new-player",
+      "index": 59
+    },
+    {
+      "step": "complete",
+      "instruction": "Completion recorded Day 2 \u00b7 20:28. Current status:",
+      "route": "close-details",
+      "target": {
+        "id": "",
+        "tag": "DIV",
+        "text": "RESIDENT FISH61 \u00b7 Female",
+        "html": "<div class=\"eyebrow tutorial-target\" data-tutorial-inspected-fish=\"fish61\">RESIDENT FISH61 \u00b7 Female</div>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "observe",
+        "feed",
+        "appetite",
+        "inspect",
+        "complete"
+      ],
+      "shell": "journal",
+      "store": false,
+      "status": "completed",
+      "walkthrough": "A-new-player",
+      "index": 60
+    },
+    {
+      "step": "welcome",
+      "instruction": "Choose Aquariums in this window selector.",
+      "route": "switch-aquariums",
+      "target": {
+        "id": "window-switch",
+        "tag": "SELECT",
+        "name": "",
+        "text": "AquariumsAquarium StoreField JournalTank CareThe Dock CasinoSettings",
+        "html": "<select id=\"window-switch\" class=\"primary-jump tutorial-target\" aria-label=\"Switch management window\"><option value=\"aquariums\">Aquariums</option><option value=\"store\">Aquarium Store</option><option value=\"journal\">Field Journal</option><option value=\"equipment\">Tank Care</option><option value=\"casino\">The Dock Casino</option><option value=\"settings\">Settings</option></select>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "substrate",
+        "fill",
+        "prepare",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "temperature",
+        "cycle",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "feed",
+        "appetite"
+      ],
+      "shell": "settings",
+      "store": false,
+      "status": "active",
+      "walkthrough": "B-existing-player",
+      "index": 0
+    },
+    {
+      "step": "view",
+      "instruction": "Close this window to view the aquarium and its current readings.",
+      "route": "close-primary",
+      "target": {
+        "id": "primary-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"primary-close\" aria-label=\"Close window\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "substrate",
+        "fill",
+        "prepare",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "temperature",
+        "cycle",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "feed",
+        "appetite",
+        "welcome"
+      ],
+      "shell": "aquariums",
+      "store": false,
+      "status": "active",
+      "walkthrough": "B-existing-player",
+      "index": 1
+    },
+    {
+      "step": "view",
+      "instruction": "Review the aquarium. If its empty-tank message is showing, use its highlighted setup button; otherwise click the aquarium or press Enter.",
+      "route": "scene-null",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "substrate",
+        "fill",
+        "prepare",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "temperature",
+        "cycle",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "feed",
+        "appetite",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "B-existing-player",
+      "index": 2
+    },
+    {
+      "step": "quality",
+      "instruction": "Review the actual water readings now that biological cycling is established. Click the readings, or focus them and press Enter. The full checks are available below.",
+      "route": "scene-null",
+      "target": {
+        "id": "water-stats",
+        "tag": "DIV",
+        "text": "Temperature25.0\u00b0CHeaterOnL1 ? 20 galHeater condition100%pH level8.20Salinity35.0pptAmmonia0.00mg/LNi",
+        "html": "<div id=\"water-stats\" tabindex=\"0\" aria-label=\"Actual aquarium water readings\" class=\"tutorial-target\"><div class=\"stat-row\" data-water-stat=\"temperature\"><span>Temperature</span><strong class=\"good\">25.0<small>\u00b0C</small></strong></div><div class=\"stat-row\" data-water-stat=\"heater\"><span>Heater</span><strong class=\"\">On<small>L1 ? 20 gal</small></strong></div><div class=\"stat-row\" data-water-stat=",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "substrate",
+        "fill",
+        "prepare",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "temperature",
+        "cycle",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "feed",
+        "appetite",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "B-existing-player",
+      "index": 3
+    },
+    {
+      "step": "observe",
+      "instruction": "Close the store and click the aquarium, or focus it and press Enter. Your fish must actually belong to the tutorial aquarium.",
+      "route": "scene-null",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "substrate",
+        "fill",
+        "prepare",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "temperature",
+        "cycle",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "feed",
+        "appetite",
+        "welcome",
+        "view",
+        "quality"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "B-existing-player",
+      "index": 4
+    },
+    {
+      "step": "inspect",
+      "instruction": "Open Field Journal.",
+      "route": "open-journal",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u25a7Field Journal",
+        "html": "<button data-page=\"journal\" title=\"Field Journal\" aria-label=\"Field Journal\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u25a7</span><span class=\"nav-text\">Field Journal</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "substrate",
+        "fill",
+        "prepare",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "temperature",
+        "cycle",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "feed",
+        "appetite",
+        "welcome",
+        "view",
+        "quality",
+        "observe"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "B-existing-player",
+      "index": 5
+    },
+    {
+      "step": "inspect",
+      "instruction": "Inspect the tutorial fish and read its hunger, stress and health. If filters hide it, choose the tutorial aquarium or All.",
+      "route": "journal-collection",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Inspect",
+        "html": "<button data-inspect-resident=\"fish61\" data-resident-tank=\"tank1\" class=\"tutorial-target\">Inspect</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "substrate",
+        "fill",
+        "prepare",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "temperature",
+        "cycle",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "feed",
+        "appetite",
+        "welcome",
+        "view",
+        "quality",
+        "observe"
+      ],
+      "shell": "journal",
+      "store": false,
+      "status": "active",
+      "walkthrough": "B-existing-player",
+      "index": 6
+    },
+    {
+      "step": "complete",
+      "instruction": "Completion recorded Day 2 \u00b7 20:30. Current status:",
+      "route": "close-details",
+      "target": {
+        "id": "",
+        "tag": "DIV",
+        "text": "RESIDENT FISH61 \u00b7 Female",
+        "html": "<div class=\"eyebrow tutorial-target\" data-tutorial-inspected-fish=\"fish61\">RESIDENT FISH61 \u00b7 Female</div>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "substrate",
+        "fill",
+        "prepare",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "temperature",
+        "cycle",
+        "shop",
+        "details",
+        "destination",
+        "stocking",
+        "feed",
+        "appetite",
+        "welcome",
+        "view",
+        "quality",
+        "observe",
+        "inspect",
+        "complete"
+      ],
+      "shell": "journal",
+      "store": false,
+      "status": "completed",
+      "walkthrough": "B-existing-player",
+      "index": 7
+    },
+    {
+      "step": "substrate",
+      "instruction": "Close these details to continue the current objective.",
+      "route": "close-details",
+      "target": {
+        "id": "dialog-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button class=\"dialog-close tutorial-target\" id=\"dialog-close\" aria-label=\"Close dialog\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-preparation",
+      "index": 0
+    },
+    {
+      "step": "substrate",
+      "instruction": "Open Aquarium Store.",
+      "route": "open-store",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u2311Aquarium Store",
+        "html": "<button data-page=\"store\" title=\"Aquarium Store\" aria-label=\"Aquarium Store\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u2311</span><span class=\"nav-text\">Aquarium Store</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-preparation",
+      "index": 1
+    },
+    {
+      "step": "substrate",
+      "instruction": "Open Sand & Substrate.",
+      "route": "store-sand",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Sand & Substrate",
+        "html": "<button data-store-action=\"category\" data-store-args=\"{&quot;id&quot;:&quot;sand&quot;}\" class=\"tutorial-target\">Sand &amp; Substrate</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-preparation",
+      "index": 2
+    },
+    {
+      "step": "substrate",
+      "instruction": "Click View Details for Fiji sand (40 AC).",
+      "route": "store-sand",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "View Details",
+        "html": "<button data-store-action=\"details\" data-store-args=\"{&quot;id&quot;:&quot;sand:fiji&quot;}\" class=\"tutorial-target\">View Details</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-preparation",
+      "index": 3
+    },
+    {
+      "step": "substrate",
+      "instruction": "Enter a sand depth, such as 2 inches. The price updates before you confirm. Sand-dependent fish may need a deeper bed.",
+      "route": "sand-depth",
+      "target": {
+        "id": "",
+        "tag": "INPUT",
+        "name": "depth",
+        "text": "",
+        "html": "<input name=\"depth\" type=\"number\" min=\"0\" max=\"5\" step=\"0.1\" value=\"0\" required=\"\" class=\"tutorial-target\">",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-preparation",
+      "index": 4
+    },
+    {
+      "step": "substrate",
+      "instruction": "Check the price and Destination aquarium, then click Confirm purchase to install this sand depth.",
+      "route": "confirm-sand",
+      "target": {
+        "id": "confirm-fish",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm purchase",
+        "html": "<button class=\"primary tutorial-target\" id=\"confirm-fish\" type=\"submit\">Confirm purchase</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-preparation",
+      "index": 5
+    },
+    {
+      "step": "fill",
+      "instruction": "Close Aquarium Store, then open Aquariums.",
+      "route": "close-store",
+      "target": {
+        "id": "store-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"store-close\" aria-label=\"Close aquarium store\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-preparation",
+      "index": 6
+    },
+    {
+      "step": "filter",
+      "instruction": "Close these details to continue the current objective.",
+      "route": "close-details",
+      "target": {
+        "id": "dialog-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button class=\"dialog-close tutorial-target\" id=\"dialog-close\" aria-label=\"Close dialog\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-installation",
+      "index": 0
+    },
+    {
+      "step": "filter",
+      "instruction": "Open Tank Care.",
+      "route": "open-equipment",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u2318Tank Care",
+        "html": "<button data-page=\"equipment\" title=\"Tank Care\" aria-label=\"Tank Care\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u2318</span><span class=\"nav-text\">Tank Care</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-installation",
+      "index": 1
+    },
+    {
+      "step": "filter",
+      "instruction": "Choose Inventory.",
+      "route": "tab-inventory",
+      "target": {
+        "id": "primary-tab-inventory",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Inventory",
+        "html": "<button role=\"tab\" id=\"primary-tab-inventory\" aria-controls=\"primary-content\" aria-selected=\"false\" tabindex=\"-1\" data-primary-tab=\"inventory\" class=\"tutorial-target\">Inventory</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-installation",
+      "index": 2
+    },
+    {
+      "step": "filter",
+      "instruction": "Find your Biological filter and click Install. Clear Search storage or choose All stored items if it is hidden.",
+      "route": "equipment-inventory",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Install",
+        "html": "<button data-action=\"inventoryInstall\" data-args=\"{&quot;id&quot;:&quot;equipment34&quot;}\" class=\"tutorial-target\">Install</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-installation",
+      "index": 3
+    },
+    {
+      "step": "filter",
+      "instruction": "Choose A pocket of ocean and click Confirm installation. The unit moves from Inventory into this aquarium.",
+      "route": "install-filter",
+      "target": {
+        "id": "inventory-confirm",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm installation",
+        "html": "<button id=\"inventory-confirm\" class=\"primary tutorial-target\">Confirm installation</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-installation",
+      "index": 4
+    },
+    {
+      "step": "controller",
+      "instruction": "Choose Aquarium Store in this window selector.",
+      "route": "switch-store",
+      "target": {
+        "id": "window-switch",
+        "tag": "SELECT",
+        "name": "",
+        "text": "AquariumsAquarium StoreField JournalTank CareThe Dock CasinoSettings",
+        "html": "<select id=\"window-switch\" class=\"primary-jump tutorial-target\" aria-label=\"Switch management window\"><option value=\"aquariums\">Aquariums</option><option value=\"store\">Aquarium Store</option><option value=\"journal\">Field Journal</option><option value=\"equipment\">Tank Care</option><option value=\"casino\">The Dock Casino</option><option value=\"settings\">Settings</option></select>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter"
+      ],
+      "shell": "equipment",
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-installation",
+      "index": 5
+    },
+    {
+      "step": "cycle",
+      "instruction": "Close these details to continue the current objective.",
+      "route": "close-details",
+      "target": {
+        "id": "dialog-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button class=\"dialog-close tutorial-target\" id=\"dialog-close\" aria-label=\"Close dialog\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-cycling",
+      "index": 0
+    },
+    {
+      "step": "cycle",
+      "instruction": "Fishless cycle: 0.3%. Remaining 35.9 game hours (~29.9 real minutes at 1x). Watch ammonia, nitrite and nitrate. Existing 1\u00d7/5\u00d7/20\u00d7 controls change simulation speed; this guide never skips days or edits bacteria.",
+      "route": "scene-null",
+      "target": {
+        "id": "",
+        "tag": "DIV",
+        "text": "Ammonia1.50mg/L",
+        "html": "<div class=\"stat-row tutorial-target\" data-water-stat=\"ammonia\"><span>Ammonia</span><strong class=\"danger\">1.50<small>mg/L</small></strong></div>",
+        "disabled": false,
+        "stat": "ammonia"
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-cycling",
+      "index": 1
+    },
+    {
+      "step": "details",
+      "instruction": "Close these details to continue the current objective.",
+      "route": "close-details",
+      "target": {
+        "id": "dialog-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button class=\"dialog-close tutorial-target\" id=\"dialog-close\" aria-label=\"Close dialog\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-purchasing",
+      "index": 0
+    },
+    {
+      "step": "details",
+      "instruction": "Open Aquarium Store.",
+      "route": "open-store",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u2311Aquarium Store",
+        "html": "<button data-page=\"store\" title=\"Aquarium Store\" aria-label=\"Aquarium Store\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u2311</span><span class=\"nav-text\">Aquarium Store</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-purchasing",
+      "index": 1
+    },
+    {
+      "step": "details",
+      "instruction": "Read Onyx Percula (350 AC). This listing fits the actual tank and supported care profile.",
+      "route": "store-fish",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "View Details",
+        "html": "<button data-store-action=\"details\" data-store-args=\"{&quot;id&quot;:&quot;daily:1:4&quot;}\" class=\"tutorial-target\">View Details</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-purchasing",
+      "index": 2
+    },
+    {
+      "step": "destination",
+      "instruction": "Review A pocket of ocean in the real destination selector. Every aquarium is listed with eligibility.",
+      "route": "fish-destination",
+      "target": {
+        "id": "purchase-destination",
+        "tag": "SELECT",
+        "name": "destination",
+        "text": "A pocket of ocean \u00b7 20 gal \u00b7 Eligible",
+        "html": "<select id=\"purchase-destination\" name=\"destination\" required=\"\" class=\"tutorial-target\"><option value=\"tank1\">A pocket of ocean \u00b7 20 gal \u00b7 Eligible</option></select>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-purchasing",
+      "index": 3
+    },
+    {
+      "step": "destination",
+      "instruction": "Read the compatibility checks and total price. Click this report, or focus it and press Enter.",
+      "route": "fish-compatibility",
+      "target": {
+        "id": "compatibility-report",
+        "tag": "DIV",
+        "text": "Eligible destination \u00b7 350 ACThe chosen aquarium meets this purchase\u2019s requirements.",
+        "html": "<div id=\"compatibility-report\" aria-live=\"polite\" tabindex=\"0\" class=\"tutorial-target\"><div class=\"notice \"><strong>Eligible destination \u00b7 350 AC</strong><br>The chosen aquarium meets this purchase\u2019s requirements.</div></div>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-purchasing",
+      "index": 4
+    },
+    {
+      "step": "stocking",
+      "instruction": "Check the destination and total price. Click Confirm purchase to add this fish to A pocket of ocean.",
+      "route": "stock-fish",
+      "target": {
+        "id": "confirm-fish",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm purchase",
+        "html": "<button class=\"primary tutorial-target\" id=\"confirm-fish\" type=\"submit\">Confirm purchase</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-purchasing",
+      "index": 5
+    },
+    {
+      "step": "observe",
+      "instruction": "Close Aquarium Store to return to the aquarium.",
+      "route": "close-store",
+      "target": {
+        "id": "store-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"store-close\" aria-label=\"Close aquarium store\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-purchasing",
+      "index": 6
+    },
+    {
+      "step": "stocking",
+      "instruction": "Close these details to continue the current objective.",
+      "route": "close-details",
+      "target": {
+        "id": "dialog-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button class=\"dialog-close tutorial-target\" id=\"dialog-close\" aria-label=\"Close dialog\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-receiving",
+      "index": 0
+    },
+    {
+      "step": "stocking",
+      "instruction": "Open Aquarium Store.",
+      "route": "open-store",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u2311Aquarium Store",
+        "html": "<button data-page=\"store\" title=\"Aquarium Store\" aria-label=\"Aquarium Store\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u2311</span><span class=\"nav-text\">Aquarium Store</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination"
+      ],
+      "shell": null,
+      "store": false,
+      "status": "active",
+      "walkthrough": "C-receiving",
+      "index": 1
+    },
+    {
+      "step": "stocking",
+      "instruction": "Read Onyx Percula (350 AC). This listing fits the actual tank and supported care profile.",
+      "route": "store-fish",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "View Details",
+        "html": "<button data-store-action=\"details\" data-store-args=\"{&quot;id&quot;:&quot;daily:1:4&quot;}\" class=\"tutorial-target\">View Details</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-receiving",
+      "index": 2
+    },
+    {
+      "step": "stocking",
+      "instruction": "Check the destination and total price. Click Confirm purchase to add this fish to A pocket of ocean.",
+      "route": "stock-fish",
+      "target": {
+        "id": "confirm-fish",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "Confirm purchase",
+        "html": "<button class=\"primary tutorial-target\" id=\"confirm-fish\" type=\"submit\">Confirm purchase</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-receiving",
+      "index": 3
+    },
+    {
+      "step": "observe",
+      "instruction": "Close Aquarium Store to return to the aquarium.",
+      "route": "close-store",
+      "target": {
+        "id": "store-close",
+        "tag": "BUTTON",
+        "name": "",
+        "text": "\u00d7",
+        "html": "<button id=\"store-close\" aria-label=\"Close aquarium store\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome",
+        "view",
+        "substrate",
+        "fill",
+        "prepare",
+        "temperature",
+        "filter",
+        "controller",
+        "flow",
+        "hardscape",
+        "cycle",
+        "quality",
+        "shop",
+        "details",
+        "destination",
+        "stocking"
+      ],
+      "shell": null,
+      "store": true,
+      "status": "active",
+      "walkthrough": "C-receiving",
+      "index": 4
+    }
+  ],
+  "realCycleTiming": {
+    "cycleStartGame": 489.29555999999997,
+    "cycleWallSeconds": 90.14000000000306,
+    "cycleEndGame": 2652.6908000000003
+  },
+  "interruptionFixtures": [
+    "preparation",
+    "installation",
+    "cycling",
+    "purchasing",
+    "receiving"
+  ],
+  "graph": [
+    {
+      "id": "welcome",
+      "phase": 0,
+      "title": "Build your first healthy saltwater aquarium",
+      "instruction": "Open Aquariums to begin.",
+      "prerequisites": [],
+      "next": "aquarium",
+      "uiContext": "Aquariums / My Aquariums",
+      "target": "welcome",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:welcome",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "aquarium",
+      "phase": 0,
+      "title": "Choose your tutorial aquarium",
+      "instruction": "Use an owned saltwater aquarium, or create one through New Aquarium.",
+      "prerequisites": [
+        "welcome"
+      ],
+      "next": "view",
+      "uiContext": "Aquariums / selection or new purchase",
+      "target": "aquarium",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:aquarium",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "view",
+      "phase": 0,
+      "title": "Meet your aquarium",
+      "instruction": "Review the aquarium. If its empty-tank message is showing, use its highlighted setup button; otherwise click the aquarium or press Enter.",
+      "prerequisites": [
+        "aquarium"
+      ],
+      "next": "substrate",
+      "uiContext": "Main aquarium",
+      "target": "view",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:view",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "substrate",
+      "phase": 1,
+      "title": "Choose and place sand",
+      "instruction": "Open the highlighted sand listing. Set Substrate depth (inches), check the price and confirm your aquarium.",
+      "prerequisites": [
+        "view"
+      ],
+      "next": "fill",
+      "uiContext": "Store / Saltwater / Sand",
+      "target": "substrate",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:substrate",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "fill",
+      "phase": 1,
+      "title": "Fill the aquarium",
+      "instruction": "Use Add water in Tank Setup. Filling and preparing saltwater are separate from biological cycling.",
+      "prerequisites": [
+        "substrate"
+      ],
+      "next": "prepare",
+      "uiContext": "Aquariums / Tank Setup",
+      "target": "fill",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:fill",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "prepare",
+      "phase": 1,
+      "title": "Prepare saltwater",
+      "instruction": "Use Prepare water in Tank Setup. This records actual preparation; it does not establish the nitrogen cycle.",
+      "prerequisites": [
+        "fill"
+      ],
+      "next": "filter",
+      "uiContext": "Aquariums / Tank Setup",
+      "target": "prepare",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:prepare",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "filter",
+      "phase": 2,
+      "title": "Install biological filtration",
+      "instruction": "Use Tank Care > Inventory to install a compatible owned filter. Buy missing equipment in Aquarium Store first.",
+      "prerequisites": [
+        "prepare"
+      ],
+      "next": "controller",
+      "uiContext": "Tank Care / Inventory or equipment store",
+      "target": "filter",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:filter",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "controller",
+      "phase": 2,
+      "title": "Provide temperature control",
+      "instruction": "Install a heater or chiller rated for your aquarium. Room temperature and equipment condition affect the water.",
+      "prerequisites": [
+        "filter"
+      ],
+      "next": "flow",
+      "uiContext": "Tank Care / installed controller or Inventory",
+      "target": "controller",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:controller",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "flow",
+      "phase": 2,
+      "title": "Provide circulation",
+      "instruction": "Install and enable circulation through Tank Care. Stored equipment does not support an aquarium.",
+      "prerequisites": [
+        "controller"
+      ],
+      "next": "hardscape",
+      "uiContext": "Tank Care / Inventory or equipment store",
+      "target": "flow",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:flow",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "hardscape",
+      "phase": 3,
+      "title": "Provide appropriate shelter",
+      "instruction": "For a reef or a species that needs rock shelter, place a compatible rock or cave using the real placement controls.",
+      "prerequisites": [
+        "flow"
+      ],
+      "next": "temperature",
+      "uiContext": "Inventory or Store / Rocks, then aquarium placement",
+      "target": "hardscape",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:hardscape",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "temperature",
+      "phase": 4,
+      "title": "Check actual temperature and salinity",
+      "instruction": "The thermostat is a target. Wait for actual water temperature to enter the species range; prepare matched saltwater if salinity needs correction.",
+      "prerequisites": [
+        "hardscape"
+      ],
+      "next": "cycle",
+      "uiContext": "Actual readings or installed thermostat",
+      "target": "temperature",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:temperature",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "1": "undefined Optional: Select an owned living fish and choose Research Fish to unlock its biological species for 5 AC permanently. Mature healthy corals can use Equipment - Coral Fragging; parents lose tissue and new mounted clones require recovery before sale. Diving resale: regular store pays 60% of the Deep reference; Deep sales also need Reputation 5 and a matching Wanted Livestock request.",
+      "id": "cycle",
+      "phase": 5,
+      "title": "Establish the nitrogen cycle",
+      "instruction": "Start fishless cycling in Tank Setup. Bacteria process ammonia into nitrite and then nitrate. Wait for the real simulation; normal speed controls remain available.",
+      "prerequisites": [
+        "temperature"
+      ],
+      "next": "quality",
+      "uiContext": "Tank Setup then actual chemistry",
+      "target": "cycle",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:cycle",
+      "expected": "Authoritative biological cycling",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "quality",
+      "phase": 6,
+      "title": "Verify water and life support",
+      "instruction": "Inspect the water readings after cycling. Confirm temperature, salinity, pH, ammonia, nitrite, nitrate, oxygen, filtration and circulation.",
+      "prerequisites": [
+        "cycle"
+      ],
+      "next": "shop",
+      "uiContext": "Actual aquarium water readings",
+      "target": "quality",
+      "validation": "Authoritative physical state and required observation",
+      "completionEvent": "step-completed:quality",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "shop",
+      "phase": 7,
+      "title": "Find compatible starter livestock",
+      "instruction": "Open Aquarium Store > Saltwater > Fish. Recommendations use real care requirements, volume, level, stock and price.",
+      "prerequisites": [
+        "quality"
+      ],
+      "next": "details",
+      "uiContext": "Store / Saltwater / Fish",
+      "target": "shop",
+      "validation": "Actual interface or individual gameplay evidence",
+      "completionEvent": "step-completed:shop",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "details",
+      "phase": 8,
+      "title": "Read the fish requirements",
+      "instruction": "Open a suitable fish listing and review its care, minimum volume, water ranges and price. A breeding pair is optional.",
+      "prerequisites": [
+        "shop"
+      ],
+      "next": "destination",
+      "uiContext": "Actual fish listing details",
+      "target": "details",
+      "validation": "Actual interface or individual gameplay evidence",
+      "completionEvent": "step-completed:details",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "destination",
+      "phase": 9,
+      "title": "Review the receiving destination",
+      "instruction": "Use the real Destination aquarium selector, then inspect the compatibility report. Every owned aquarium remains listed.",
+      "prerequisites": [
+        "details"
+      ],
+      "next": "stocking",
+      "uiContext": "Purchase destination and compatibility report",
+      "target": "destination",
+      "validation": "Actual interface or individual gameplay evidence",
+      "completionEvent": "step-completed:destination",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "stocking",
+      "phase": 9,
+      "title": "Confirm safe stocking",
+      "instruction": "Confirm the real purchase. Your payment and the fish entering your aquarium are one transaction.",
+      "prerequisites": [
+        "destination"
+      ],
+      "next": "observe",
+      "uiContext": "Existing atomic purchase confirmation",
+      "target": "stocking",
+      "validation": "Actual interface or individual gameplay evidence",
+      "completionEvent": "step-completed:stocking",
+      "expected": "Permanent owned fish identity",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "observe",
+      "phase": 9,
+      "title": "Observe your new resident",
+      "instruction": "Close the store and click the aquarium, or focus it and press Enter. Your fish must actually belong to the tutorial aquarium.",
+      "prerequisites": [
+        "stocking"
+      ],
+      "next": "feed",
+      "uiContext": "Main aquarium",
+      "target": "observe",
+      "validation": "Actual interface or individual gameplay evidence",
+      "completionEvent": "step-completed:observe",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "feed",
+      "phase": 10,
+      "title": "Provide an appropriate meal",
+      "instruction": "Open Tank Care > Feeding. Choose food this fish eats and feed one portion.",
+      "prerequisites": [
+        "observe"
+      ],
+      "next": "appetite",
+      "uiContext": "Tank Care / Feeding",
+      "target": "feed",
+      "validation": "Actual interface or individual gameplay evidence",
+      "completionEvent": "step-completed:feed",
+      "expected": "Successful compatible feed action",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "appetite",
+      "phase": 10,
+      "title": "Watch the fish eat",
+      "instruction": "Wait for an actual meal to be consumed. Additional portions are not needed while compatible food is still in the water.",
+      "prerequisites": [
+        "feed"
+      ],
+      "next": "inspect",
+      "uiContext": "Main aquarium / real meal",
+      "target": "appetite",
+      "validation": "Actual interface or individual gameplay evidence",
+      "completionEvent": "step-completed:appetite",
+      "expected": "Recorded consumption of a real meal",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "inspect",
+      "phase": 10,
+      "title": "Inspect your resident",
+      "instruction": "Open the living fish inspector from Livestock Collection or the aquarium. Review hunger, stress, health and care; symptoms alone do not diagnose disease.",
+      "prerequisites": [
+        "appetite"
+      ],
+      "next": "complete",
+      "uiContext": "Living fish inspector",
+      "target": "inspect",
+      "validation": "Actual interface or individual gameplay evidence",
+      "completionEvent": "step-completed:inspect",
+      "expected": "Verified state or actual interface interaction",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    },
+    {
+      "id": "complete",
+      "phase": 11,
+      "title": "Your First Saltwater Aquarium Is Ready!",
+      "instruction": "Your setup, fish and first meal are recorded. Keep checking water, food and installed equipment. View earned rewards in Field Journal > Progress.",
+      "prerequisites": [
+        "inspect"
+      ],
+      "next": null,
+      "uiContext": "Completion summary",
+      "target": "complete",
+      "validation": "Actual interface or individual gameplay evidence",
+      "completionEvent": "step-completed:complete",
+      "expected": "All verified milestones",
+      "recovery": "Return to the pinned aquarium and resolve the current real requirement."
+    }
+  ],
+  "diagnostic": {
+    "state": {
+      "version": 2,
+      "profileId": "world-da24478a-030c-47f1-bb0b-e9ae69ecedbe",
+      "step": 9,
+      "status": "active",
+      "current": "observe",
+      "startedAt": 480,
+      "completedAt": null,
+      "tankId": "tank1",
+      "fishId": "fish61",
+      "species": "amphiprion-percula",
+      "productId": "daily:1:4",
+      "completed": {
+        "aquarium": {
+          "id": "aquarium",
+          "tankId": "tank1",
+          "time": 480,
+          "evidence": "Authoritative aquarium requirement is satisfied in A pocket of ocean.",
+          "source": "state"
+        },
+        "welcome": {
+          "id": "welcome",
+          "tankId": "tank1",
+          "time": 480.03852,
+          "evidence": "Player opened Aquariums.",
+          "source": "interaction"
+        },
+        "view": {
+          "id": "view",
+          "tankId": "tank1",
+          "time": 480.37956,
+          "evidence": "Player interacted with the aquarium view.",
+          "source": "interaction"
+        },
+        "substrate": {
+          "id": "substrate",
+          "tankId": "tank1",
+          "time": 480.74280000000005,
+          "evidence": "Authoritative substrate requirement is satisfied in A pocket of ocean.",
+          "source": "gameplay:buySand"
+        },
+        "fill": {
+          "id": "fill",
+          "tankId": "tank1",
+          "time": 481.79232,
+          "evidence": "Authoritative fill requirement is satisfied in A pocket of ocean.",
+          "source": "gameplay:fillWater"
+        },
+        "prepare": {
+          "id": "prepare",
+          "tankId": "tank1",
+          "time": 482.28096,
+          "evidence": "Authoritative prepare requirement is satisfied in A pocket of ocean.",
+          "source": "gameplay:prepare"
+        },
+        "temperature": {
+          "id": "temperature",
+          "tankId": "tank1",
+          "time": 482.28096,
+          "evidence": "Authoritative temperature requirement is satisfied in A pocket of ocean.",
+          "source": "gameplay:prepare"
+        },
+        "filter": {
+          "id": "filter",
+          "tankId": "tank1",
+          "time": 483.6816,
+          "evidence": "Authoritative filter requirement is satisfied in A pocket of ocean.",
+          "source": "gameplay:installOwnedEquipment"
+        },
+        "controller": {
+          "id": "controller",
+          "tankId": "tank1",
+          "time": 485.63172,
+          "evidence": "Authoritative controller requirement is satisfied in A pocket of ocean.",
+          "source": "gameplay:installOwnedEquipment"
+        },
+        "flow": {
+          "id": "flow",
+          "tankId": "tank1",
+          "time": 487.30379999999997,
+          "evidence": "Authoritative flow requirement is satisfied in A pocket of ocean.",
+          "source": "gameplay:installOwnedEquipment"
+        },
+        "hardscape": {
+          "id": "hardscape",
+          "tankId": "tank1",
+          "time": 488.2068,
+          "evidence": "Authoritative hardscape requirement is satisfied in A pocket of ocean.",
+          "source": "gameplay:buyRock"
+        },
+        "cycle": {
+          "id": "cycle",
+          "tankId": "tank1",
+          "time": 2652.6908000000003,
+          "evidence": "Authoritative cycle requirement is satisfied in A pocket of ocean.",
+          "source": "simulation"
+        },
+        "quality": {
+          "id": "quality",
+          "tankId": "tank1",
+          "time": 2652.8632800000005,
+          "evidence": "Actual species-aware receiving checks and nitrate reading pass. Player reviewed readings after cycling.",
+          "source": "interaction"
+        },
+        "shop": {
+          "id": "shop",
+          "tankId": "tank1",
+          "time": 2653.0695600000004,
+          "evidence": "Player opened the real Saltwater Fish shop.",
+          "source": "interaction"
+        },
+        "details": {
+          "id": "details",
+          "tankId": "tank1",
+          "time": 2653.4832000000006,
+          "evidence": "Player opened True Percula clownfish requirements and price.",
+          "source": "interaction"
+        },
+        "destination": {
+          "id": "destination",
+          "tankId": "tank1",
+          "time": 2653.8355200000005,
+          "evidence": "Pinned destination and actual compatibility report reviewed.",
+          "source": "interaction"
+        },
+        "stocking": {
+          "id": "stocking",
+          "tankId": "tank1",
+          "time": 2654.0768400000006,
+          "evidence": "A living owned True Percula clownfish already belongs to this aquarium.",
+          "source": "existing-ownership"
+        }
+      },
+      "signals": {
+        "welcome": {
+          "time": 480.03852,
+          "tankId": "tank1"
+        },
+        "view": {
+          "time": 480.37956,
+          "tankId": "tank1"
+        },
+        "readings": {
+          "time": 2652.8632800000005,
+          "tankId": "tank1"
+        },
+        "shop": {
+          "time": 2653.0695600000004,
+          "tankId": "tank1"
+        },
+        "details": {
+          "time": 2653.4832000000006,
+          "tankId": "tank1",
+          "productId": "daily:1:4"
+        },
+        "destination": {
+          "time": 2653.6605600000007,
+          "tankId": "tank1",
+          "productId": "daily:1:4"
+        },
+        "compatibility": {
+          "time": 2653.8355200000005,
+          "tankId": "tank1",
+          "productId": "daily:1:4"
+        }
+      },
+      "previousTanks": [],
+      "audit": [
+        {
+          "seq": 1,
+          "time": 480,
+          "kind": "aquarium-selected",
+          "stepId": "welcome",
+          "detail": "A pocket of ocean"
+        },
+        {
+          "seq": 2,
+          "time": 480,
+          "kind": "step-started",
+          "stepId": "welcome",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 3,
+          "time": 480,
+          "kind": "migration",
+          "stepId": "welcome",
+          "detail": "Interactive guide initialized."
+        },
+        {
+          "seq": 4,
+          "time": 480,
+          "kind": "saved",
+          "stepId": "welcome",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 5,
+          "time": 480,
+          "kind": "validation-passed",
+          "stepId": "aquarium",
+          "detail": "Authoritative aquarium requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 6,
+          "time": 480,
+          "kind": "step-completed",
+          "stepId": "aquarium",
+          "detail": "state"
+        },
+        {
+          "seq": 7,
+          "time": 480.03852,
+          "kind": "saved",
+          "stepId": "welcome",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 8,
+          "time": 480.03852,
+          "kind": "target-resolved",
+          "stepId": "welcome",
+          "detail": "open-aquariums"
+        },
+        {
+          "seq": 9,
+          "time": 480.03852,
+          "kind": "target-resolved",
+          "stepId": "welcome",
+          "detail": "aquariums-owned"
+        },
+        {
+          "seq": 10,
+          "time": 480.03852,
+          "kind": "action-performed",
+          "stepId": "welcome",
+          "detail": "Interface interaction: welcome"
+        },
+        {
+          "seq": 11,
+          "time": 480.03852,
+          "kind": "validation-passed",
+          "stepId": "welcome",
+          "detail": "Player opened Aquariums."
+        },
+        {
+          "seq": 12,
+          "time": 480.03852,
+          "kind": "step-completed",
+          "stepId": "welcome",
+          "detail": "interaction"
+        },
+        {
+          "seq": 13,
+          "time": 480.03852,
+          "kind": "step-started",
+          "stepId": "view",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 14,
+          "time": 480.37956,
+          "kind": "saved",
+          "stepId": "view",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 15,
+          "time": 480.37956,
+          "kind": "target-resolved",
+          "stepId": "view",
+          "detail": "close-primary"
+        },
+        {
+          "seq": 16,
+          "time": 480.37956,
+          "kind": "target-resolved",
+          "stepId": "view",
+          "detail": "scene-null"
+        },
+        {
+          "seq": 17,
+          "time": 480.37956,
+          "kind": "target-resolved",
+          "stepId": "view",
+          "detail": "close-primary"
+        },
+        {
+          "seq": 18,
+          "time": 480.37956,
+          "kind": "action-performed",
+          "stepId": "view",
+          "detail": "Interface interaction: view"
+        },
+        {
+          "seq": 19,
+          "time": 480.37956,
+          "kind": "validation-passed",
+          "stepId": "view",
+          "detail": "Player interacted with the aquarium view."
+        },
+        {
+          "seq": 20,
+          "time": 480.37956,
+          "kind": "step-completed",
+          "stepId": "view",
+          "detail": "interaction"
+        },
+        {
+          "seq": 21,
+          "time": 480.37956,
+          "kind": "step-started",
+          "stepId": "substrate",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 22,
+          "time": 480.74280000000005,
+          "kind": "saved",
+          "stepId": "substrate",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 23,
+          "time": 480.74280000000005,
+          "kind": "target-resolved",
+          "stepId": "substrate",
+          "detail": "switch-store"
+        },
+        {
+          "seq": 24,
+          "time": 480.74280000000005,
+          "kind": "target-resolved",
+          "stepId": "substrate",
+          "detail": "store-sand"
+        },
+        {
+          "seq": 25,
+          "time": 480.74280000000005,
+          "kind": "target-resolved",
+          "stepId": "substrate",
+          "detail": "sand-depth"
+        },
+        {
+          "seq": 26,
+          "time": 480.74280000000005,
+          "kind": "target-resolved",
+          "stepId": "substrate",
+          "detail": "confirm-sand"
+        },
+        {
+          "seq": 27,
+          "time": 480.74280000000005,
+          "kind": "action-performed",
+          "stepId": "substrate",
+          "detail": "buySand"
+        },
+        {
+          "seq": 28,
+          "time": 480.74280000000005,
+          "kind": "validation-passed",
+          "stepId": "substrate",
+          "detail": "Authoritative substrate requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 29,
+          "time": 480.74280000000005,
+          "kind": "step-completed",
+          "stepId": "substrate",
+          "detail": "gameplay:buySand"
+        },
+        {
+          "seq": 30,
+          "time": 480.74280000000005,
+          "kind": "step-started",
+          "stepId": "fill",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 31,
+          "time": 481.79232,
+          "kind": "saved",
+          "stepId": "fill",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 32,
+          "time": 481.79232,
+          "kind": "target-resolved",
+          "stepId": "fill",
+          "detail": "close-store"
+        },
+        {
+          "seq": 33,
+          "time": 481.79232,
+          "kind": "target-resolved",
+          "stepId": "fill",
+          "detail": "open-aquariums"
+        },
+        {
+          "seq": 34,
+          "time": 481.79232,
+          "kind": "target-resolved",
+          "stepId": "fill",
+          "detail": "aquariums-setup"
+        },
+        {
+          "seq": 35,
+          "time": 481.79232,
+          "kind": "action-performed",
+          "stepId": "fill",
+          "detail": "fillWater"
+        },
+        {
+          "seq": 36,
+          "time": 481.79232,
+          "kind": "validation-passed",
+          "stepId": "fill",
+          "detail": "Authoritative fill requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 37,
+          "time": 481.79232,
+          "kind": "step-completed",
+          "stepId": "fill",
+          "detail": "gameplay:fillWater"
+        },
+        {
+          "seq": 38,
+          "time": 481.79232,
+          "kind": "step-started",
+          "stepId": "prepare",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 39,
+          "time": 482.28096,
+          "kind": "saved",
+          "stepId": "prepare",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 40,
+          "time": 482.28096,
+          "kind": "target-resolved",
+          "stepId": "prepare",
+          "detail": "aquariums-setup"
+        },
+        {
+          "seq": 41,
+          "time": 482.28096,
+          "kind": "action-performed",
+          "stepId": "prepare",
+          "detail": "prepare"
+        },
+        {
+          "seq": 42,
+          "time": 482.28096,
+          "kind": "validation-passed",
+          "stepId": "prepare",
+          "detail": "Authoritative prepare requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 43,
+          "time": 482.28096,
+          "kind": "step-completed",
+          "stepId": "prepare",
+          "detail": "gameplay:prepare"
+        },
+        {
+          "seq": 44,
+          "time": 482.28096,
+          "kind": "validation-passed",
+          "stepId": "temperature",
+          "detail": "Authoritative temperature requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 45,
+          "time": 482.28096,
+          "kind": "step-completed",
+          "stepId": "temperature",
+          "detail": "gameplay:prepare"
+        },
+        {
+          "seq": 46,
+          "time": 482.28096,
+          "kind": "step-started",
+          "stepId": "filter",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 47,
+          "time": 482.4864,
+          "kind": "saved",
+          "stepId": "filter",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 48,
+          "time": 482.4864,
+          "kind": "target-resolved",
+          "stepId": "filter",
+          "detail": "switch-store"
+        },
+        {
+          "seq": 49,
+          "time": 482.4864,
+          "kind": "target-resolved",
+          "stepId": "filter",
+          "detail": "store-equipment"
+        },
+        {
+          "seq": 50,
+          "time": 482.4864,
+          "kind": "target-resolved",
+          "stepId": "filter",
+          "detail": "confirm-equipment:filter"
+        },
+        {
+          "seq": 51,
+          "time": 482.4864,
+          "kind": "action-performed",
+          "stepId": "filter",
+          "detail": "buyEquipment"
+        },
+        {
+          "seq": 52,
+          "time": 483.6816,
+          "kind": "saved",
+          "stepId": "filter",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 53,
+          "time": 483.6816,
+          "kind": "target-resolved",
+          "stepId": "filter",
+          "detail": "close-store"
+        },
+        {
+          "seq": 54,
+          "time": 483.6816,
+          "kind": "target-resolved",
+          "stepId": "filter",
+          "detail": "open-equipment"
+        },
+        {
+          "seq": 55,
+          "time": 483.6816,
+          "kind": "target-resolved",
+          "stepId": "filter",
+          "detail": "tab-inventory"
+        },
+        {
+          "seq": 56,
+          "time": 483.6816,
+          "kind": "target-resolved",
+          "stepId": "filter",
+          "detail": "equipment-inventory"
+        },
+        {
+          "seq": 57,
+          "time": 483.6816,
+          "kind": "target-resolved",
+          "stepId": "filter",
+          "detail": "install-filter"
+        },
+        {
+          "seq": 58,
+          "time": 483.6816,
+          "kind": "action-performed",
+          "stepId": "filter",
+          "detail": "installOwnedEquipment"
+        },
+        {
+          "seq": 59,
+          "time": 483.6816,
+          "kind": "validation-passed",
+          "stepId": "filter",
+          "detail": "Authoritative filter requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 60,
+          "time": 483.6816,
+          "kind": "step-completed",
+          "stepId": "filter",
+          "detail": "gameplay:installOwnedEquipment"
+        },
+        {
+          "seq": 61,
+          "time": 483.6816,
+          "kind": "step-started",
+          "stepId": "controller",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 62,
+          "time": 484.78776,
+          "kind": "saved",
+          "stepId": "controller",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 63,
+          "time": 484.78776,
+          "kind": "target-resolved",
+          "stepId": "controller",
+          "detail": "switch-store"
+        },
+        {
+          "seq": 64,
+          "time": 484.78776,
+          "kind": "target-resolved",
+          "stepId": "controller",
+          "detail": "store-equipment"
+        },
+        {
+          "seq": 65,
+          "time": 484.78776,
+          "kind": "target-resolved",
+          "stepId": "controller",
+          "detail": "confirm-equipment:heater:marine-heater-1"
+        },
+        {
+          "seq": 66,
+          "time": 484.78776,
+          "kind": "action-performed",
+          "stepId": "controller",
+          "detail": "buyEquipment"
+        },
+        {
+          "seq": 67,
+          "time": 485.63172,
+          "kind": "saved",
+          "stepId": "controller",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 68,
+          "time": 485.63172,
+          "kind": "target-resolved",
+          "stepId": "controller",
+          "detail": "close-store"
+        },
+        {
+          "seq": 69,
+          "time": 485.63172,
+          "kind": "target-resolved",
+          "stepId": "controller",
+          "detail": "open-equipment"
+        },
+        {
+          "seq": 70,
+          "time": 485.63172,
+          "kind": "target-resolved",
+          "stepId": "controller",
+          "detail": "equipment-inventory"
+        },
+        {
+          "seq": 71,
+          "time": 485.63172,
+          "kind": "target-resolved",
+          "stepId": "controller",
+          "detail": "install-heater"
+        },
+        {
+          "seq": 72,
+          "time": 485.63172,
+          "kind": "action-performed",
+          "stepId": "controller",
+          "detail": "installOwnedEquipment"
+        },
+        {
+          "seq": 73,
+          "time": 485.63172,
+          "kind": "validation-passed",
+          "stepId": "controller",
+          "detail": "Authoritative controller requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 74,
+          "time": 485.63172,
+          "kind": "step-completed",
+          "stepId": "controller",
+          "detail": "gameplay:installOwnedEquipment"
+        },
+        {
+          "seq": 75,
+          "time": 485.63172,
+          "kind": "step-started",
+          "stepId": "flow",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 76,
+          "time": 486.41927999999996,
+          "kind": "saved",
+          "stepId": "flow",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 77,
+          "time": 486.41927999999996,
+          "kind": "target-resolved",
+          "stepId": "flow",
+          "detail": "switch-store"
+        },
+        {
+          "seq": 78,
+          "time": 486.41927999999996,
+          "kind": "target-resolved",
+          "stepId": "flow",
+          "detail": "store-equipment"
+        },
+        {
+          "seq": 79,
+          "time": 486.41927999999996,
+          "kind": "target-resolved",
+          "stepId": "flow",
+          "detail": "confirm-equipment:flow"
+        },
+        {
+          "seq": 80,
+          "time": 486.41927999999996,
+          "kind": "action-performed",
+          "stepId": "flow",
+          "detail": "buyEquipment"
+        },
+        {
+          "seq": 81,
+          "time": 487.30379999999997,
+          "kind": "saved",
+          "stepId": "flow",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 82,
+          "time": 487.30379999999997,
+          "kind": "target-resolved",
+          "stepId": "flow",
+          "detail": "close-store"
+        },
+        {
+          "seq": 83,
+          "time": 487.30379999999997,
+          "kind": "target-resolved",
+          "stepId": "flow",
+          "detail": "open-equipment"
+        },
+        {
+          "seq": 84,
+          "time": 487.30379999999997,
+          "kind": "target-resolved",
+          "stepId": "flow",
+          "detail": "equipment-inventory"
+        },
+        {
+          "seq": 85,
+          "time": 487.30379999999997,
+          "kind": "target-resolved",
+          "stepId": "flow",
+          "detail": "install-flow"
+        },
+        {
+          "seq": 86,
+          "time": 487.30379999999997,
+          "kind": "action-performed",
+          "stepId": "flow",
+          "detail": "installOwnedEquipment"
+        },
+        {
+          "seq": 87,
+          "time": 487.30379999999997,
+          "kind": "validation-passed",
+          "stepId": "flow",
+          "detail": "Authoritative flow requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 88,
+          "time": 487.30379999999997,
+          "kind": "step-completed",
+          "stepId": "flow",
+          "detail": "gameplay:installOwnedEquipment"
+        },
+        {
+          "seq": 89,
+          "time": 487.30379999999997,
+          "kind": "step-started",
+          "stepId": "hardscape",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 90,
+          "time": 488.2068,
+          "kind": "saved",
+          "stepId": "hardscape",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 91,
+          "time": 488.2068,
+          "kind": "target-resolved",
+          "stepId": "hardscape",
+          "detail": "switch-store"
+        },
+        {
+          "seq": 92,
+          "time": 488.2068,
+          "kind": "target-resolved",
+          "stepId": "hardscape",
+          "detail": "store-rocks"
+        },
+        {
+          "seq": 93,
+          "time": 488.2068,
+          "kind": "target-resolved",
+          "stepId": "hardscape",
+          "detail": "confirm-rock"
+        },
+        {
+          "seq": 94,
+          "time": 488.2068,
+          "kind": "target-resolved",
+          "stepId": "hardscape",
+          "detail": "scene-null"
+        },
+        {
+          "seq": 95,
+          "time": 488.2068,
+          "kind": "action-performed",
+          "stepId": "hardscape",
+          "detail": "buyRock"
+        },
+        {
+          "seq": 96,
+          "time": 488.2068,
+          "kind": "validation-passed",
+          "stepId": "hardscape",
+          "detail": "Authoritative hardscape requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 97,
+          "time": 488.2068,
+          "kind": "step-completed",
+          "stepId": "hardscape",
+          "detail": "gameplay:buyRock"
+        },
+        {
+          "seq": 98,
+          "time": 488.2068,
+          "kind": "step-started",
+          "stepId": "cycle",
+          "detail": "Authoritative biological cycling"
+        },
+        {
+          "seq": 99,
+          "time": 488.93568,
+          "kind": "saved",
+          "stepId": "cycle",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 100,
+          "time": 488.93568,
+          "kind": "target-resolved",
+          "stepId": "cycle",
+          "detail": "open-aquariums"
+        },
+        {
+          "seq": 101,
+          "time": 488.93568,
+          "kind": "target-resolved",
+          "stepId": "cycle",
+          "detail": "aquariums-setup"
+        },
+        {
+          "seq": 102,
+          "time": 488.93568,
+          "kind": "action-performed",
+          "stepId": "cycle",
+          "detail": "cycle"
+        },
+        {
+          "seq": 103,
+          "time": 489.29555999999997,
+          "kind": "saved",
+          "stepId": "cycle",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 104,
+          "time": 489.29555999999997,
+          "kind": "target-resolved",
+          "stepId": "cycle",
+          "detail": "close-primary"
+        },
+        {
+          "seq": 105,
+          "time": 489.29555999999997,
+          "kind": "target-resolved",
+          "stepId": "cycle",
+          "detail": "scene-null"
+        },
+        {
+          "seq": 106,
+          "time": 489.9516,
+          "kind": "saved",
+          "stepId": "cycle",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 107,
+          "time": 817.3883999999999,
+          "kind": "saved",
+          "stepId": "cycle",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 108,
+          "time": 1297.3187999999998,
+          "kind": "saved",
+          "stepId": "cycle",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 109,
+          "time": 1777.7387999999999,
+          "kind": "saved",
+          "stepId": "cycle",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 110,
+          "time": 2257.6908000000003,
+          "kind": "saved",
+          "stepId": "cycle",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 111,
+          "time": 2652.6908000000003,
+          "kind": "validation-passed",
+          "stepId": "cycle",
+          "detail": "Authoritative cycle requirement is satisfied in A pocket of ocean."
+        },
+        {
+          "seq": 112,
+          "time": 2652.6908000000003,
+          "kind": "step-completed",
+          "stepId": "cycle",
+          "detail": "simulation"
+        },
+        {
+          "seq": 113,
+          "time": 2652.6908000000003,
+          "kind": "step-started",
+          "stepId": "quality",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 114,
+          "time": 2652.8632800000005,
+          "kind": "saved",
+          "stepId": "quality",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 115,
+          "time": 2652.8632800000005,
+          "kind": "target-resolved",
+          "stepId": "quality",
+          "detail": "scene-null"
+        },
+        {
+          "seq": 116,
+          "time": 2652.8632800000005,
+          "kind": "action-performed",
+          "stepId": "quality",
+          "detail": "Interface interaction: readings"
+        },
+        {
+          "seq": 117,
+          "time": 2652.8632800000005,
+          "kind": "validation-passed",
+          "stepId": "quality",
+          "detail": "Actual species-aware receiving checks and nitrate reading pass. Player reviewed readings after cycling."
+        },
+        {
+          "seq": 118,
+          "time": 2652.8632800000005,
+          "kind": "step-completed",
+          "stepId": "quality",
+          "detail": "interaction"
+        },
+        {
+          "seq": 119,
+          "time": 2652.8632800000005,
+          "kind": "step-started",
+          "stepId": "shop",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 120,
+          "time": 2653.0695600000004,
+          "kind": "saved",
+          "stepId": "shop",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 121,
+          "time": 2653.0695600000004,
+          "kind": "target-resolved",
+          "stepId": "shop",
+          "detail": "open-store"
+        },
+        {
+          "seq": 122,
+          "time": 2653.0695600000004,
+          "kind": "target-resolved",
+          "stepId": "shop",
+          "detail": "store-fish"
+        },
+        {
+          "seq": 123,
+          "time": 2653.0695600000004,
+          "kind": "action-performed",
+          "stepId": "shop",
+          "detail": "Interface interaction: shop"
+        },
+        {
+          "seq": 124,
+          "time": 2653.0695600000004,
+          "kind": "validation-passed",
+          "stepId": "shop",
+          "detail": "Player opened the real Saltwater Fish shop."
+        },
+        {
+          "seq": 125,
+          "time": 2653.0695600000004,
+          "kind": "step-completed",
+          "stepId": "shop",
+          "detail": "interaction"
+        },
+        {
+          "seq": 126,
+          "time": 2653.0695600000004,
+          "kind": "step-started",
+          "stepId": "details",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 127,
+          "time": 2653.4832000000006,
+          "kind": "saved",
+          "stepId": "details",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 128,
+          "time": 2653.4832000000006,
+          "kind": "target-resolved",
+          "stepId": "details",
+          "detail": "store-fish"
+        },
+        {
+          "seq": 129,
+          "time": 2653.4832000000006,
+          "kind": "target-resolved",
+          "stepId": "details",
+          "detail": "other-listing"
+        },
+        {
+          "seq": 130,
+          "time": 2653.4832000000006,
+          "kind": "action-performed",
+          "stepId": "details",
+          "detail": "Interface interaction: details"
+        },
+        {
+          "seq": 131,
+          "time": 2653.4832000000006,
+          "kind": "validation-passed",
+          "stepId": "details",
+          "detail": "Player opened True Percula clownfish requirements and price."
+        },
+        {
+          "seq": 132,
+          "time": 2653.4832000000006,
+          "kind": "step-completed",
+          "stepId": "details",
+          "detail": "interaction"
+        },
+        {
+          "seq": 133,
+          "time": 2653.4832000000006,
+          "kind": "step-started",
+          "stepId": "destination",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 134,
+          "time": 2653.6605600000007,
+          "kind": "saved",
+          "stepId": "destination",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 135,
+          "time": 2653.6605600000007,
+          "kind": "target-resolved",
+          "stepId": "destination",
+          "detail": "fish-destination"
+        },
+        {
+          "seq": 136,
+          "time": 2653.6605600000007,
+          "kind": "action-performed",
+          "stepId": "destination",
+          "detail": "Interface interaction: destination"
+        },
+        {
+          "seq": 137,
+          "time": 2653.8355200000005,
+          "kind": "saved",
+          "stepId": "destination",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 138,
+          "time": 2653.8355200000005,
+          "kind": "target-resolved",
+          "stepId": "destination",
+          "detail": "fish-compatibility"
+        },
+        {
+          "seq": 139,
+          "time": 2653.8355200000005,
+          "kind": "action-performed",
+          "stepId": "destination",
+          "detail": "Interface interaction: compatibility"
+        },
+        {
+          "seq": 140,
+          "time": 2653.8355200000005,
+          "kind": "validation-passed",
+          "stepId": "destination",
+          "detail": "Pinned destination and actual compatibility report reviewed."
+        },
+        {
+          "seq": 141,
+          "time": 2653.8355200000005,
+          "kind": "step-completed",
+          "stepId": "destination",
+          "detail": "interaction"
+        },
+        {
+          "seq": 142,
+          "time": 2653.8355200000005,
+          "kind": "step-started",
+          "stepId": "stocking",
+          "detail": "Permanent owned fish identity"
+        },
+        {
+          "seq": 143,
+          "time": 2654.0768400000006,
+          "kind": "saved",
+          "stepId": "stocking",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 144,
+          "time": 2654.0768400000006,
+          "kind": "target-resolved",
+          "stepId": "stocking",
+          "detail": "stock-fish"
+        },
+        {
+          "seq": 145,
+          "time": 2654.0768400000006,
+          "kind": "target-resolved",
+          "stepId": "stocking",
+          "detail": "open-store"
+        },
+        {
+          "seq": 146,
+          "time": 2654.0768400000006,
+          "kind": "target-resolved",
+          "stepId": "stocking",
+          "detail": "stock-fish"
+        },
+        {
+          "seq": 147,
+          "time": 2654.0768400000006,
+          "kind": "action-performed",
+          "stepId": "stocking",
+          "detail": "buyFish transferred fish61"
+        },
+        {
+          "seq": 148,
+          "time": 2654.0768400000006,
+          "kind": "validation-passed",
+          "stepId": "stocking",
+          "detail": "A living owned True Percula clownfish already belongs to this aquarium."
+        },
+        {
+          "seq": 149,
+          "time": 2654.0768400000006,
+          "kind": "step-completed",
+          "stepId": "stocking",
+          "detail": "existing-ownership"
+        },
+        {
+          "seq": 150,
+          "time": 2654.0768400000006,
+          "kind": "step-started",
+          "stepId": "observe",
+          "detail": "Verified state or actual interface interaction"
+        },
+        {
+          "seq": 151,
+          "time": 2654.569200000001,
+          "kind": "saved",
+          "stepId": "observe",
+          "detail": "Main save successfully written to browser localStorage."
+        },
+        {
+          "seq": 152,
+          "time": 2654.569200000001,
+          "kind": "target-resolved",
+          "stepId": "observe",
+          "detail": "close-store"
+        }
+      ],
+      "nextAudit": 153,
+      "completionSeen": false,
+      "legacy": {
+        "step": 0,
+        "status": "active"
+      }
+    },
+    "target": "<button id=\"store-close\" aria-label=\"Close aquarium store\" class=\"tutorial-target\">\u00d7</button>",
+    "tooltip": "SALTWATER GUIDE \u00b7 PHASE 10 / 12Observe your new residentClose Aquarium Store to return to the aquarium.PauseFocus targetSkip\u2026"
+  }
+}

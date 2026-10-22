@@ -1,0 +1,60 @@
+{
+  "source": "equipment-v1.png",
+  "runtime": "equipment-atlas-v1.png",
+  "columns": 4,
+  "rows": 2,
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "sourceBounds": [
+    [
+      31,
+      171,
+      448,
+      340
+    ],
+    [
+      495,
+      87,
+      965,
+      389
+    ],
+    [
+      1054,
+      57,
+      1214,
+      428
+    ],
+    [
+      1362,
+      79,
+      1743,
+      405
+    ],
+    [
+      106,
+      519,
+      362,
+      801
+    ],
+    [
+      497,
+      550,
+      835,
+      751
+    ],
+    [
+      906,
+      511,
+      1312,
+      797
+    ],
+    [
+      1449,
+      463,
+      1684,
+      841
+    ]
+  ],
+  "approved": false,
+  "operation": "Technical alpha-gutter cropping and nearest-neighbor packing only; no repainting"
+}

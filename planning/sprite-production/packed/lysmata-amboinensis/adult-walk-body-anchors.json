@@ -1,0 +1,97 @@
+{
+  "method": "Inspected first fixed body/skeleton landmark, original-pixel template tracking",
+  "agentInspected": true,
+  "inspectionScope": "First source landmark manually identified; remaining matches require complete native contact review before production registration",
+  "firstSourceCenter": [
+    143,
+    193
+  ],
+  "nativePoint": [
+    96,
+    82
+  ],
+  "points": [
+    [
+      129,
+      140
+    ],
+    [
+      129,
+      145
+    ],
+    [
+      129,
+      147
+    ],
+    [
+      128,
+      146
+    ],
+    [
+      129,
+      151
+    ],
+    [
+      129,
+      155
+    ],
+    [
+      129,
+      155
+    ],
+    [
+      129,
+      154
+    ],
+    [
+      129,
+      150
+    ],
+    [
+      128,
+      150
+    ],
+    [
+      129,
+      149
+    ],
+    [
+      129,
+      146
+    ],
+    [
+      129,
+      154
+    ],
+    [
+      129,
+      155
+    ],
+    [
+      129,
+      155
+    ],
+    [
+      129,
+      154
+    ]
+  ],
+  "matchingScores": [
+    0.0,
+    10817.0,
+    9814.0,
+    14532.0,
+    14743.0,
+    16198.0,
+    15564.0,
+    14912.0,
+    15985.0,
+    14617.0,
+    15694.0,
+    15938.0,
+    14673.0,
+    14796.0,
+    15041.0,
+    14663.0
+  ]
+}

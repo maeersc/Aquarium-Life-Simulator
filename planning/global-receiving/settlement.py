@@ -1,0 +1,27 @@
+from pathlib import Path
+r=Path(__file__).resolve().parents[2]
+def edit(n,a,b):
+ p=r/n;s=p.read_text(encoding='utf8');assert a in s,(n,a[:80]);p.write_text(s.replace(a,b,1),encoding='utf8')
+edit('js/diving.js','a.inventory.push({...o,destination:', 'a.inventory.push({...o,collected:true,destination:')
+edit('js/diving.js',"if(item.mystery){report.objects.push(AL.DiveMystery.returned(s,a,item));continue;}","if(item.mystery||a.mysteryVersion&&item.kind==='livestock'){report.objects.push(AL.DiveMystery.returned(s,a,item));continue;}")
+p=r/'js/diving-mystery.js';s=p.read_text(encoding='utf8')
+s=s.replace("o=>o.mystery&&o.recovery?.status==='pending'", "o=>o.recovery?.status==='pending'")
+s=s.replace("const d=D.species[item.species];return", "const d=V.definition(item.species);return",1)
+s=s.replace('rarity:d.rarity,mystery:true,revealed:true','rarity:d.rarity,mystery:!!item.mystery,revealed:true',1)
+s=s.replace("!o?.mystery||!o.revealed", "!o?.recovery||!V.definition(o.species)||!o.revealed",1)
+s=s.replace("V.receiving(s,o.species,args.destination,null)","V.receiving(s,o.species,args.destination,args.position??null)",1)
+s=s.replace("destination:args.destination,position:null,assessment:","destination:args.destination,position:args.position??null,assessment:",1)
+s=s.replace("scientificName:D.species[o.species].scientificName,mystery:true", "scientificName:V.definition(o.species).scientificName,mystery:!!o.mystery",1)
+s=s.replace("o=>o.mystery&&o.recovery&&", "o=>o.recovery&&",1)
+s=s.replace("for(const o of h.objects)if(o.mystery){", "for(const o of h.objects)if(o.mystery||o.recovery){",1)
+s=s.replace("!D.species[o.species]", "!V.definition(o.species)")
+s=s.replace("D.species[o.species].name", "V.definition(o.species).name")
+s=s.replace("D.species[o.species].scientificName", "V.definition(o.species).scientificName")
+s=s.replace("!i.mystery||!i.collected", "(!!i.mystery!==!!o.mystery)||!i.collected")
+p.write_text(s,encoding='utf8')
+edit('js/mortality-journal.js',"e.category==='fish'&&['live','offline']", "['fish','coral','invertebrate'].includes(e.category)&&['live','offline']")
+edit('js/mortality-journal.js',"d=D.species[o.species],ctx=", "d=AL.Diving.definition(o.species),ctx=")
+edit('js/mortality-journal.js',"category:'fish',rarity:d.rarity,stage:'Wild specimen; age unknown'", "category:AL.Diving.category(o.species),rarity:d.rarity,stage:'Wild specimen; age unknown'")
+# Existing fixtures now finish the same explicit receiving action for every host.
+edit('tests/diving_checks.js',"if(V.category(id)==='fish'){const h=s.diving.history[0],o=h.objects.find(o=>o.species===id);s=K.act(s,'diveRecover',{tripId:h.id,id:o.objectId,destination:s.tanks[0].id});}","{const h=s.diving.history[0],o=h.objects.find(o=>o.species===id);if(o.recovery?.status==='pending')s=K.act(s,'diveRecover',{tripId:h.id,id:o.objectId,destination:s.tanks[0].id,position:p??null});}")
+edit('tests/diving_resale_checks.js',"if(V.category(id)==='fish'){const h=s.diving.history[0],o=h.objects.find(o=>o.species===id);s=K.act(s,'diveRecover',{tripId:h.id,id:o.objectId,destination:s.tanks[0].id});}","{const h=s.diving.history[0],o=h.objects.find(o=>o.species===id);if(o.recovery?.status==='pending')s=K.act(s,'diveRecover',{tripId:h.id,id:o.objectId,destination:s.tanks[0].id,position:position??null});}")

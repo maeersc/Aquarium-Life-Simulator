@@ -1,0 +1,129 @@
+{
+  "verifiedAt": "2026-10-20T16:13:15.333490+00:00",
+  "builtAt": "2026-10-20T16:01:37.154506+00:00",
+  "buildManifestSha256": "16f8c09b77c5d2fb160b3c68e8421c7aff38c5ae821752358e090d581fd6903b",
+  "files": 1999,
+  "checks": [
+    {
+      "name": "Source acceptance",
+      "pass": true
+    },
+    {
+      "name": "Rebuilt DIST acceptance",
+      "pass": true
+    },
+    {
+      "name": "Rebuilt DIST reliability",
+      "pass": true
+    },
+    {
+      "name": "Rebuilt DIST Pages/local saves",
+      "pass": true
+    },
+    {
+      "name": "Store/casino safeguards",
+      "pass": true
+    },
+    {
+      "name": "Inventory safeguards",
+      "pass": true
+    },
+    {
+      "name": "Preparation/receiving",
+      "pass": true
+    },
+    {
+      "name": "Autonomous breeding",
+      "pass": true
+    },
+    {
+      "name": "Heater/mortality",
+      "pass": true
+    },
+    {
+      "name": "All1999 source/DIST files match tested build",
+      "pass": true
+    },
+    {
+      "name": "Protected2369 original assets and biological data unchanged",
+      "pass": true
+    },
+    {
+      "name": "Complete31-section master exactly embedded once in continuity",
+      "pass": true
+    }
+  ],
+  "suites": [
+    {
+      "name": "Source acceptance",
+      "evidence": "tests/economy-update-evidence/source-edge-results.json",
+      "passed": 85,
+      "failed": 0,
+      "entry": "index.html"
+    },
+    {
+      "name": "Rebuilt DIST acceptance",
+      "evidence": "tests/economy-update-evidence/chrome-results.json",
+      "passed": 85,
+      "failed": 0,
+      "entry": "DIST/index.html"
+    },
+    {
+      "name": "Rebuilt DIST reliability",
+      "evidence": "tests/equipment-reliability-evidence/chrome-results.json",
+      "passed": 787,
+      "failed": 0,
+      "entry": "DIST/index.html"
+    },
+    {
+      "name": "Rebuilt DIST Pages/local saves",
+      "evidence": "tests/pages-evidence/edge-results.json",
+      "passed": 5162,
+      "failed": 0,
+      "entry": null
+    },
+    {
+      "name": "Store/casino safeguards",
+      "evidence": "tests/store-casino-evidence/chrome-results.json",
+      "passed": 139,
+      "failed": 0,
+      "entry": null
+    },
+    {
+      "name": "Inventory safeguards",
+      "evidence": "tests/inventory-evidence/edge-results.json",
+      "passed": 70,
+      "failed": 0,
+      "entry": null
+    },
+    {
+      "name": "Preparation/receiving",
+      "evidence": "tests/preparation-evidence/chrome-results.json",
+      "passed": 207,
+      "failed": 0,
+      "entry": null
+    },
+    {
+      "name": "Autonomous breeding",
+      "evidence": "tests/breeding-evidence/edge-results.json",
+      "passed": 86,
+      "failed": 0,
+      "entry": null
+    },
+    {
+      "name": "Heater/mortality",
+      "evidence": "tests/heater-evidence/edge-results.json",
+      "passed": 108,
+      "failed": 0,
+      "entry": null
+    }
+  ],
+  "passed": 12,
+  "failed": 0,
+  "scope": "October20 coordinated economy/progression/equipment/casino changes; no claim of unrelated full livestock art completion",
+  "hashEvidence": [
+    "tests/economy-update-evidence/tested-build-hashes.json",
+    "tests/economy-update-evidence/protected-hashes.json"
+  ],
+  "finalArchiveVerificationCommand": "python tests/verify_sprite_production_release.py --source-archive --check-only"
+}

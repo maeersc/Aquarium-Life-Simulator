@@ -1,0 +1,94 @@
+{
+  "elapsedMs": 6001.700000000186,
+  "draws": 361,
+  "fps": 60.14962427312075,
+  "frameGapP50": 16.799999999813735,
+  "frameGapP95": 17.800000000745058,
+  "frameGapP99": 18,
+  "drawMsP50": 0.6000000005587935,
+  "drawMsP95": 1,
+  "drawMsMax": 1.6000000005587935,
+  "calls": {
+    "draw": {
+      "count": 361,
+      "ms": 241.5999999921769,
+      "max": 1.6000000005587935
+    },
+    "vitals": {
+      "count": 6,
+      "ms": 2.299999998882413,
+      "max": 0.40000000037252903
+    },
+    "simulation": {
+      "count": 1,
+      "ms": 1.099999999627471,
+      "max": 1.099999999627471
+    }
+  },
+  "longTasks": [],
+  "scheduler": {
+    "raf": 1,
+    "timer": 0,
+    "mode": "tank",
+    "returning": false,
+    "pendingMinutes": 2.837840000000223
+  },
+  "caches": {
+    "sheets": {
+      "loaded": 15,
+      "maxDecodedSheets": 128,
+      "frameCache": 225,
+      "maxFrames": 512,
+      "frameHits": 92509,
+      "frameMisses": 225,
+      "frameEvictions": 0,
+      "frameBytes": 28852224,
+      "maxFrameBytes": 33554432,
+      "decodedBytes": 31064064,
+      "maxDecodedBytes": 268435456
+    },
+    "animation": {
+      "rigBuilds": 24,
+      "poseHits": 674,
+      "poseCache": 68,
+      "maxPoses": 768
+    },
+    "rasters": {
+      "entries": 585,
+      "bytes": 6336236,
+      "maxBytes": 33554432,
+      "maxEntries": 8192,
+      "hits": 79895,
+      "misses": 585,
+      "evictions": 0
+    },
+    "sources": {
+      "active": 0,
+      "queued": 0,
+      "pending": 0
+    },
+    "layers": {
+      "entries": 6,
+      "bytes": 2764800,
+      "builds": 163
+    }
+  },
+  "state": {
+    "fish": 8,
+    "tanks": 1,
+    "gameTime": 2676.590679999999,
+    "hidden": false
+  },
+  "label": "H-60",
+  "wallSeconds": 6.0,
+  "metrics": {
+    "TaskDuration": 0.454612,
+    "ScriptDuration": 0.2874270000000001,
+    "LayoutDuration": 0.002914,
+    "RecalcStyleDuration": 0.0006970000000000032
+  },
+  "heapBytes": 9713336,
+  "nodes": 4455,
+  "listeners": 504,
+  "mainThreadCorePercent": 7.5768666666666675
+}

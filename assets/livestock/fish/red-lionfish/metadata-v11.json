@@ -1,0 +1,71 @@
+{
+  "id": "red-lionfish",
+  "name": "Red lionfish",
+  "family": "fish",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "frames": 4,
+  "frameDurationMs": 166.66666666666666,
+  "atlas": "assets/livestock/fish/red-lionfish/atlas-v11.png",
+  "bounds": [
+    [
+      36,
+      8,
+      163,
+      100
+    ],
+    [
+      36,
+      8,
+      163,
+      97
+    ],
+    [
+      36,
+      8,
+      163,
+      100
+    ],
+    [
+      37,
+      11,
+      166,
+      99
+    ]
+  ],
+  "anchor": [
+    96,
+    64
+  ],
+  "scientificName": "Pterois volitans",
+  "runtimeSpeciesId": null,
+  "usage": "ART ONLY; no gameplay species added",
+  "eye": {
+    "x": 150,
+    "y": 56,
+    "w": 9,
+    "h": 10
+  },
+  "facingBehavior": "mirror-side-profile",
+  "animations": {
+    "swim": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "idle": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "death": [
+      0
+    ]
+  },
+  "turning": "stable mirrored side views; no intermediate perspective frames",
+  "layer": "livestock"
+}

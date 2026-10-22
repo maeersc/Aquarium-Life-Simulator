@@ -1,0 +1,81 @@
+{
+  "baby": {
+    "meta": {
+      "speciesId": "clown",
+      "variety": null,
+      "stage": "baby",
+      "state": "alive",
+      "frame": 1,
+      "frameCount": 4,
+      "frameDurationMs": 166.66666666666666,
+      "eye": {
+        "x": 162,
+        "y": 66,
+        "w": 14,
+        "h": 14
+      },
+      "nativeFacing": 1,
+      "anchor": [
+        96,
+        80
+      ],
+      "facingBehavior": "mirrored side profile; asymmetric individual markings provisional",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "juvenile": {
+    "meta": {
+      "speciesId": "clown",
+      "variety": null,
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 4,
+      "frameDurationMs": 166.66666666666666,
+      "eye": {
+        "x": 161,
+        "y": 78,
+        "w": 13,
+        "h": 13
+      },
+      "nativeFacing": 1,
+      "anchor": [
+        96,
+        80
+      ],
+      "facingBehavior": "mirrored side profile; asymmetric individual markings provisional",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "clown",
+      "frame": 0,
+      "frameWidth": 128,
+      "frameHeight": 80,
+      "frameCount": 4,
+      "frameDurationMs": 166.66666666666666,
+      "eye": {
+        "x": 97,
+        "y": 37,
+        "w": 10,
+        "h": 10
+      },
+      "nativeFacing": 1,
+      "anchor": [
+        64,
+        40
+      ],
+      "facingBehavior": "mirror-side-profile",
+      "layer": "livestock"
+    },
+    "width": 128,
+    "height": 80
+  }
+}

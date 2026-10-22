@@ -1,0 +1,7 @@
+{
+  "id": "amphiprion-sebae",
+  "stage": "adult",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\amphiprion-sebae\\adult.png",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-ca1c198d-19c3-45c7-825d-f45816285d74.png",
+  "prompt": "Aquarium Life actual production sprite sheet for amphiprion-sebae, adult. Provided PNG is the EXACT original adult identity and detailed approved pixel-art style reference. ONE SQUARE transparent PNG, FOUR columns FOUR rows,16 DISTINCT incremental calm hover-swim fin poses. ALL16 FACE RIGHT, in every row, no left-facing or deceased poses. Preserve exact body/fin proportions, distinctive saddle or side bars, fin and caudal colors, original markings and single near-side iris. Do not substitute generic Ocellaris stripes. Keep full animal within75% of cell longest dimension, clear transparent gutters. Fixed head/eye/body scale, no bob, displacement or whole-body squashing. Tiny attached pectoral adjustments and restrained caudal sweep/recovery1–8, opposite sweep/recovery9–16; small fin tip changes only, original fin roots and lengths fixed. Smooth loop intended8fps; no extreme fan spread or rapid flapping.16 actually drawn different poses, not repeated static frames. Crisp16-bit detailed pixel clusters and source shading/colors, no blur, glow, antialias fringe, checkerboard/background, shadow, text/labels or grid lines. Actual transparent alpha."
+}

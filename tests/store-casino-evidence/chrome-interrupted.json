@@ -1,0 +1,409 @@
+{
+  "checks": [
+    {
+      "name": "Gold Fish exact enumeration: gold 1, other triples 99, pairs 600, losses 300 / 1000; RTP 152.2%",
+      "pass": true
+    },
+    {
+      "name": "Weighted symbols have exact 4:3:2:1 frequencies",
+      "pass": true
+    },
+    {
+      "name": "Predator card deck contains six real marine catalog IDs with scientific identities",
+      "pass": true
+    },
+    {
+      "name": "Every ordered Predator matchup reverses win/loss, equal cards draw, exact 100% return",
+      "pass": true
+    },
+    {
+      "name": "Shelter, forage and surge bonuses follow the explicit fictional comparison rule",
+      "pass": true
+    },
+    {
+      "name": "Card matchups are independent of livestock collection rarity",
+      "pass": true
+    },
+    {
+      "name": "gold jackpot: exact wallet settlement and ledger once, including reload and replay",
+      "pass": true
+    },
+    {
+      "name": "ordinary triple: exact wallet settlement and ledger once, including reload and replay",
+      "pass": true
+    },
+    {
+      "name": "pair double return: exact wallet settlement and ledger once, including reload and replay",
+      "pass": true
+    },
+    {
+      "name": "Gold loss: exact wallet settlement and ledger once, including reload and replay",
+      "pass": true
+    },
+    {
+      "name": "card win: exact wallet settlement and ledger once, including reload and replay",
+      "pass": true
+    },
+    {
+      "name": "card loss: exact wallet settlement and ledger once, including reload and replay",
+      "pass": true
+    },
+    {
+      "name": "card draw: exact wallet settlement and ledger once, including reload and replay",
+      "pass": true
+    },
+    {
+      "name": "Invalid, fractional, negative, over-limit and over-wallet bets reject without mutation",
+      "pass": true
+    },
+    {
+      "name": "Wager requires confirmation and a known game, and maximum payout must fit wallet cap",
+      "pass": true
+    },
+    {
+      "name": "Only actual wallet can be wagered, irrespective of tank asset value",
+      "pass": true
+    },
+    {
+      "name": "Wallet-cap interruption preserves pending outcome and can settle after room is made",
+      "pass": true
+    },
+    {
+      "name": "Double wager replay cannot deduct again while round is pending",
+      "pass": true
+    },
+    {
+      "name": "A second distinct round cannot start before settlement",
+      "pass": true
+    },
+    {
+      "name": "Older pending snapshots cannot replay a saved losing settlement even without payout receipt",
+      "pass": true
+    },
+    {
+      "name": "Older snapshots cannot replay a completed saved winning round",
+      "pass": true
+    },
+    {
+      "name": "Shared backup-import gate rejects casino replay before account replacement",
+      "pass": true
+    },
+    {
+      "name": "A stale pending save cannot overwrite a committed casino settlement",
+      "pass": true
+    },
+    {
+      "name": "Trimmed round history cannot allow old wager or payout replay",
+      "pass": true
+    },
+    {
+      "name": "Optional daily budget is shared by both games and persists",
+      "pass": true
+    },
+    {
+      "name": "Different accounts cannot settle or import one another casino histories",
+      "pass": true
+    },
+    {
+      "name": "Tampered game outcome, payout, draws, receipt or round ID fails save validation",
+      "pass": true
+    },
+    {
+      "name": "Existing saves migrate to an empty account journal without wallet/tank changes",
+      "pass": true
+    },
+    {
+      "name": "Casino cannot mutate aquarium stock, livestock, selected tank or simulation RNG",
+      "pass": true
+    },
+    {
+      "name": "Casino account action works with retained freshwater selection without unlocking biology",
+      "pass": true
+    },
+    {
+      "name": "Crypto draws stay within documented sample bounds",
+      "pass": true
+    },
+    {
+      "name": "Research requires actual owned living marine species; failure is atomic",
+      "pass": true
+    },
+    {
+      "name": "Dead fish, mismatched specimen ID and insufficient AC cannot unlock research",
+      "pass": true
+    },
+    {
+      "name": "Designer morphs share one permanent species research unlock and one receipt",
+      "pass": false
+    },
+    {
+      "name": "Research remains unlocked after fish is removed and cannot charge again",
+      "pass": false
+    },
+    {
+      "name": "Different player research and casino histories stay isolated",
+      "pass": true
+    },
+    {
+      "name": "Research rejects freshwater and fictional biological identities",
+      "pass": true
+    },
+    {
+      "name": "Every equipment and frag product has a stable central category",
+      "pass": true
+    },
+    {
+      "name": "Filter metadata preserves all original heater prices, capacities and 15,000 gallon support",
+      "pass": true
+    },
+    {
+      "name": "No nonexistent testing/monitoring category is offered",
+      "pass": true
+    },
+    {
+      "name": "Cutters, kit, saw, plugs and mounting artwork are distinct with transparent edges",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: button right aligns with unchanged Water panel edge",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: paired controls fit the information column",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: no horizontal/page overflow",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: aquarium proportions and pointer coordinate space preserved",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: seven sidebar controls remain visible",
+      "pass": false
+    },
+    {
+      "name": "1600x900: button right aligns with unchanged Water panel edge",
+      "pass": true
+    },
+    {
+      "name": "1600x900: paired controls fit the information column",
+      "pass": true
+    },
+    {
+      "name": "1600x900: no horizontal/page overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: aquarium proportions and pointer coordinate space preserved",
+      "pass": true
+    },
+    {
+      "name": "1600x900: seven sidebar controls remain visible",
+      "pass": false
+    },
+    {
+      "name": "1366x768: button right aligns with unchanged Water panel edge",
+      "pass": true
+    },
+    {
+      "name": "1366x768: paired controls fit the information column",
+      "pass": true
+    },
+    {
+      "name": "1366x768: no horizontal/page overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: aquarium proportions and pointer coordinate space preserved",
+      "pass": true
+    },
+    {
+      "name": "1366x768: seven sidebar controls remain visible",
+      "pass": false
+    },
+    {
+      "name": "1024x650: no horizontal/page overflow",
+      "pass": true
+    },
+    {
+      "name": "1024x650: aquarium proportions and pointer coordinate space preserved",
+      "pass": true
+    },
+    {
+      "name": "1024x650: seven sidebar controls remain visible",
+      "pass": false
+    },
+    {
+      "name": "764x900: no horizontal/page overflow",
+      "pass": true
+    },
+    {
+      "name": "764x900: aquarium proportions and pointer coordinate space preserved",
+      "pass": true
+    },
+    {
+      "name": "764x900: seven sidebar controls remain visible",
+      "pass": false
+    },
+    {
+      "name": "390x844: no horizontal/page overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: aquarium proportions and pointer coordinate space preserved",
+      "pass": true
+    },
+    {
+      "name": "390x844: seven sidebar controls remain visible",
+      "pass": false
+    },
+    {
+      "name": "Dock Casino directly above VIP without removing navigation",
+      "pass": false
+    },
+    {
+      "name": "Original nautical pixel icon renders",
+      "pass": true
+    },
+    {
+      "name": "Header New aquarium still opens existing creation flow",
+      "pass": true
+    },
+    {
+      "name": "Freshwater creation remains disabled",
+      "pass": true
+    }
+  ],
+  "diagnostic": {
+    "casino": {
+      "version": 1,
+      "accountId": "world-86ddc24f-1fdf-4887-b69f-38ce33484f92",
+      "next": 1,
+      "pending": null,
+      "history": [],
+      "lifetimeWagered": 0,
+      "lifetimePaid": 0,
+      "dailyLimit": 0,
+      "day": 0,
+      "dayWagered": 0,
+      "visits": [],
+      "visitNext": 1
+    },
+    "credits": 100000,
+    "saveError": "This backup predates newer saved casino rounds for this local account. Use the latest save; the older file is preserved.",
+    "body": ""
+  },
+  "alignments": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "buttonRight": 1899,
+      "panelRight": 1899,
+      "delta": 0,
+      "buttonHeight": 38,
+      "selectorHeight": 38,
+      "selectorWidth": 118.015625,
+      "selectorRight": 1780.015625,
+      "buttonLeft": 1790.015625,
+      "selectorTop": 75,
+      "buttonTop": 75,
+      "controlsRight": 1899,
+      "columnLeft": 1662
+    },
+    {
+      "viewport": [
+        1600,
+        900
+      ],
+      "buttonRight": 1564,
+      "panelRight": 1564,
+      "delta": 0,
+      "buttonHeight": 38,
+      "selectorHeight": 38,
+      "selectorWidth": 103.015625,
+      "selectorRight": 1445.015625,
+      "buttonLeft": 1455.015625,
+      "selectorTop": 75,
+      "buttonTop": 75,
+      "controlsRight": 1564,
+      "columnLeft": 1342
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "buttonRight": 1330,
+      "panelRight": 1330,
+      "delta": 0,
+      "buttonHeight": 38,
+      "selectorHeight": 38,
+      "selectorWidth": 103.015625,
+      "selectorRight": 1211.015625,
+      "buttonLeft": 1221.015625,
+      "selectorTop": 75,
+      "buttonTop": 75,
+      "controlsRight": 1330,
+      "columnLeft": 1108
+    },
+    {
+      "viewport": [
+        1024,
+        650
+      ],
+      "buttonRight": 988,
+      "panelRight": 988,
+      "delta": 0,
+      "buttonHeight": 38,
+      "selectorHeight": 38,
+      "selectorWidth": 103.015625,
+      "selectorRight": 869.015625,
+      "buttonLeft": 879.015625,
+      "selectorTop": 68,
+      "buttonTop": 68,
+      "controlsRight": 988,
+      "columnLeft": 766
+    },
+    {
+      "viewport": [
+        764,
+        900
+      ],
+      "buttonRight": 732,
+      "panelRight": 732,
+      "delta": 0,
+      "buttonHeight": 36,
+      "selectorHeight": 38,
+      "selectorWidth": 202,
+      "selectorRight": 732,
+      "buttonLeft": 530,
+      "selectorTop": 70,
+      "buttonTop": 114,
+      "controlsRight": 732,
+      "columnLeft": 530
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "buttonRight": 382,
+      "panelRight": 320,
+      "delta": 62,
+      "buttonHeight": 34,
+      "selectorHeight": 32,
+      "selectorWidth": 211.84375,
+      "selectorRight": 281.84375,
+      "buttonLeft": 287.84375,
+      "selectorTop": 105,
+      "buttonTop": 105,
+      "controlsRight": 382,
+      "columnLeft": 70
+    }
+  ]
+}

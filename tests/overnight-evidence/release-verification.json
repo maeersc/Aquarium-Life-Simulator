@@ -1,0 +1,44 @@
+{
+  "browsers": [
+    {
+      "browser": "chrome",
+      "passed": 1332,
+      "failed": 0,
+      "suites": {
+        "overnight": 97,
+        "rewardFinance": 98,
+        "gameplay": 412,
+        "healthEconomyFreshwater": 362,
+        "diving": 108,
+        "builtPagesLocalSave": 255
+      }
+    },
+    {
+      "browser": "edge",
+      "passed": 1332,
+      "failed": 0,
+      "suites": {
+        "overnight": 97,
+        "rewardFinance": 98,
+        "gameplay": 412,
+        "healthEconomyFreshwater": 362,
+        "diving": 108,
+        "builtPagesLocalSave": 255
+      }
+    }
+  ],
+  "repairChecks": 2664,
+  "originalBaselineComparisons": 60,
+  "build": {
+    "builtAt": "2026-10-15T12:25:32.557229+00:00",
+    "gameContent": "v3.5",
+    "sourceFiles": 1514,
+    "sourceBytes": 455965949
+  },
+  "pagesZipBytes": 425590768,
+  "pagesZipCrcAndAllSourceHashes": true,
+  "unchangedAssetFiles": 1419,
+  "unchangedBaseCatalog": true,
+  "full31SectionMasterEmbeddedInContinuity": true,
+  "bothPermanentRosterLedgersRetained": true
+}

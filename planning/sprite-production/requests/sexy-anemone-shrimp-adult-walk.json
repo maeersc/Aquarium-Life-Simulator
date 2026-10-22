@@ -1,0 +1,8 @@
+{
+  "id": "sexy-anemone-shrimp",
+  "stage": "adult",
+  "state": "walk",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\sexy-anemone-shrimp\\adult.png",
+  "prompt": "Aquarium Life sexy-anemone-shrimp ADULT WALK actual16-frame livestock animation sheet. Attached PNG is exact approved life-stage anatomy, scale proportions and detailed classic16-bit pixel-art identity. Orange-red Thor shrimp with original white round spots and raised abdomen, paired stalk eyes fixed. Legs and thin antenna tips make restrained motions; hold the characteristic raised abdomen contour still.  LOCOMOTION sequence: calm alternating attached leg/foot motions appropriate to this species and stage; drawn in place, no whole-body translation, displacement is handled by the game. ONE square transparent PNG FOUR equal columns FOUR equal rows, sixteen actually authored distinct small successive poses forming a slow seamless16-to1 loop. All16 face RIGHT consistently like reference. Fixed main body center, head/eye points, scale and shell/carapace. No anatomy drift, lost/duplicated legs, disconnected antennae, additional eyes or random pattern changes. Keep long antennae/foot tips fully inside central75%eachcell, broad truly clear transparent gutters. Crisp source pixel clusters, no smoothing/blur/antialias/glow/background/checkerboard/text/grid. Never wobble the rigid shell or carapace.",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-71ba55ed-6e09-4e59-8046-305c6770217c.png"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "amphiprion-bicinctus",
+  "stage": "baby",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\amphiprion-bicinctus\\baby.png",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-43bad1fc-e231-4977-9a1b-1670919f2670.png",
+  "prompt": "Aquarium Life actual production sprite sheet for amphiprion-bicinctus, BABY early stage. Provided PNG is the EXACT original transparent/yolk early form, not an adult. ONE SQUARE transparent PNG, FOUR columns FOUR rows,16 DISTINCT incrementally drawn calm motion poses. ALL16 FACE RIGHT in every row, no left-facing/dead poses. Preserve exact larval head/body proportions, yolk size/position, pigmentation and only the original fin-fold/developing-fin anatomy. No adult bars or mature fins. Keep full animal within75% of each cell longest dimension, wide clear transparent gutters. Fixed head and one true near-side iris; no head/body bob, no trunk bending. Vary ONLY the tiny caudal fin/fold tip and existing attached developing fins, extremely small sweep/recovery1–8 then opposite sweep/recovery9–16; body and yolk remain stable. Avoid pronounced larval body undulation, fin flapping or whole-body waving. Quiet loop intended8fps.16 different authored drawings, not repeated stills or a resized adult. Crisp detailed16-bit pixel clusters, same stage palette/shading and hard pixel edges as reference, no blur, glow, antialias fringe, checkerboard/background, shadows, text/labels or grid lines. Actual transparent alpha."
+}

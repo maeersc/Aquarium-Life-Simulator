@@ -1,0 +1,335 @@
+{
+  "source": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\raw\\gramma\\baby-source-v1.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\gramma\\baby.png",
+  "referenceBounds": [
+    8,
+    49,
+    184,
+    110
+  ],
+  "sourceBoxes": [
+    [
+      31,
+      149,
+      312,
+      245
+    ],
+    [
+      348,
+      147,
+      617,
+      244
+    ],
+    [
+      662,
+      152,
+      924,
+      241
+    ],
+    [
+      967,
+      147,
+      1233,
+      241
+    ],
+    [
+      36,
+      440,
+      312,
+      536
+    ],
+    [
+      348,
+      447,
+      617,
+      537
+    ],
+    [
+      658,
+      441,
+      924,
+      542
+    ],
+    [
+      967,
+      445,
+      1233,
+      536
+    ],
+    [
+      36,
+      740,
+      312,
+      833
+    ],
+    [
+      351,
+      733,
+      617,
+      838
+    ],
+    [
+      656,
+      741,
+      924,
+      839
+    ],
+    [
+      967,
+      734,
+      1233,
+      836
+    ],
+    [
+      39,
+      1013,
+      312,
+      1103
+    ],
+    [
+      348,
+      1013,
+      617,
+      1106
+    ],
+    [
+      656,
+      1009,
+      924,
+      1104
+    ],
+    [
+      966,
+      1015,
+      1233,
+      1105
+    ]
+  ],
+  "sourceEyeAnchors": [
+    [
+      249.0,
+      50.5,
+      22
+    ],
+    [
+      237.5,
+      53.5,
+      22
+    ],
+    [
+      230.5,
+      47.5,
+      22
+    ],
+    [
+      234.5,
+      52.5,
+      22
+    ],
+    [
+      244.0,
+      56.5,
+      22
+    ],
+    [
+      237.5,
+      49.5,
+      22
+    ],
+    [
+      234.5,
+      55.5,
+      22
+    ],
+    [
+      234.5,
+      51.5,
+      22
+    ],
+    [
+      244.5,
+      51.5,
+      22
+    ],
+    [
+      234.5,
+      58.5,
+      22
+    ],
+    [
+      236.5,
+      50.5,
+      22
+    ],
+    [
+      234.5,
+      57.5,
+      22
+    ],
+    [
+      241.0,
+      49.5,
+      23
+    ],
+    [
+      237.0,
+      50.0,
+      23
+    ],
+    [
+      236.5,
+      53.5,
+      22
+    ],
+    [
+      235.5,
+      48.0,
+      22
+    ]
+  ],
+  "scale": 0.580952380952381,
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "columns": 4,
+  "frameCount": 16,
+  "anchor": [
+    96.0,
+    80.0
+  ],
+  "eye": {
+    "x": 165,
+    "y": 84,
+    "w": 12,
+    "h": 12
+  },
+  "frameHashes": [
+    "62d0771d84d094a4edfa306364ed829feaab5f8963d9d8babe9e523868820a3c",
+    "ef326c32266c8c72dbb0654db50663641dc273ecbcdec20b5cfb1f7bb542de38",
+    "9d5dff79d211b77e09b16b3902761fc9f9924823b86fe5db1fd85194dd5fdb7b",
+    "e935e43856399221ac1bbb0ca4bab4513de2d46d9179920a28087768f2b901f6",
+    "cebfcb81da32f460dda0525d6bce42b76ef5fca3a9871ce36784512e52238bcf",
+    "49aaa81371750cd39ca7c40d0aa7b12aa41cf0ff95f0c51a8cbf0764abeffbf5",
+    "cda4ffe84d93b3f9b0d709f46cdf0cd71cbb324725c9bc667283c56b3d89bc6a",
+    "865f919f1c1af5392e43b1db4ceb7dc86e9bfd3054ff7f11fdd0d5d67d043e01",
+    "abe3fdcce583da4768fb33006b7c27431ad8bb4f04f67f36e84363d14139684c",
+    "a9d14113bfb631e66ca4088b4e09d76da35fe6d94f36b31478f5cc8fd96a172c",
+    "1a253049c13e8dfa6f34df41c99d75d7dac2145b3efbbc5e72f2615cd1fc7bd0",
+    "0325bb92846b339f85c43f0733d9252652cdabffb5278ebcd53a72ffa2a4789c",
+    "65962e8b5693ded25823aced6a60f819a947dc70b8dd3cadedc5513520e6b74f",
+    "d1315a1bad46a67a398e7061a91a9f78a133b629d4ff20d76b56063939e88c4e",
+    "1ae30089cfe87454b114fe79b14b9a11f152389f5e099ed7c8a3d903d6172fc0",
+    "69fd5c6bad7febc092cd6ce092926f3f6f660b5b017fe69343b0ff9ee1465577"
+  ],
+  "bounds": [
+    [
+      20,
+      55,
+      183,
+      111
+    ],
+    [
+      27,
+      53,
+      183,
+      109
+    ],
+    [
+      31,
+      56,
+      183,
+      108
+    ],
+    [
+      29,
+      54,
+      184,
+      109
+    ],
+    [
+      23,
+      51,
+      183,
+      107
+    ],
+    [
+      27,
+      55,
+      183,
+      107
+    ],
+    [
+      29,
+      52,
+      184,
+      111
+    ],
+    [
+      29,
+      54,
+      184,
+      107
+    ],
+    [
+      23,
+      54,
+      183,
+      108
+    ],
+    [
+      29,
+      50,
+      184,
+      111
+    ],
+    [
+      28,
+      55,
+      184,
+      112
+    ],
+    [
+      29,
+      51,
+      184,
+      110
+    ],
+    [
+      25,
+      55,
+      184,
+      107
+    ],
+    [
+      27,
+      55,
+      183,
+      109
+    ],
+    [
+      28,
+      53,
+      184,
+      108
+    ],
+    [
+      28,
+      56,
+      183,
+      108
+    ]
+  ],
+  "sha256": "a4737d8691831f5887675baa8a806290adc5e770373350d93c9411180db55d45",
+  "technicalChecks": {
+    "allCells": true,
+    "binaryAlpha": true,
+    "unique": true,
+    "transparentMargins": true,
+    "registeredEyes": true
+  },
+  "visualReview": {
+    "passed": true,
+    "notes": "Inspected all16 native early-stage cells against the separate source: pale larval body, original yolk/developmental proportions and existing fin-fold anatomy retained, no adult pigment or invented external eggs/mature fins; gentle incremental caudal/fin poses, one fixed visible eye and transparent margins. Dedicated early drawings are used rather than scaled adults. Player appearance approval remains pending.",
+    "playerApproved": false
+  },
+  "playerApproved": false
+}

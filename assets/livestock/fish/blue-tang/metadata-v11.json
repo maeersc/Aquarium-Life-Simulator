@@ -1,0 +1,71 @@
+{
+  "id": "blue-tang",
+  "name": "Blue tang",
+  "family": "fish",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "frames": 4,
+  "frameDurationMs": 166.66666666666666,
+  "atlas": "assets/livestock/fish/blue-tang/atlas-v11.png",
+  "bounds": [
+    [
+      8,
+      12,
+      169,
+      106
+    ],
+    [
+      13,
+      12,
+      171,
+      106
+    ],
+    [
+      11,
+      15,
+      174,
+      111
+    ],
+    [
+      8,
+      11,
+      168,
+      105
+    ]
+  ],
+  "anchor": [
+    96,
+    64
+  ],
+  "scientificName": "Paracanthurus hepatus",
+  "runtimeSpeciesId": null,
+  "usage": "ART ONLY; no gameplay species added",
+  "eye": {
+    "x": 150,
+    "y": 56,
+    "w": 18,
+    "h": 18
+  },
+  "facingBehavior": "mirror-side-profile",
+  "animations": {
+    "swim": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "idle": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "death": [
+      0
+    ]
+  },
+  "turning": "stable mirrored side views; no intermediate perspective frames",
+  "layer": "livestock"
+}

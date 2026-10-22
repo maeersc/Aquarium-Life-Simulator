@@ -1,0 +1,38 @@
+[
+  {
+    "id": "lysmata-debelius",
+    "stage": "baby",
+    "state": "idle",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-fda27036-7107-4792-be47-cbf5152a6f4e.png",
+    "raw": "planning\\sprite-production\\raw\\lysmata-debelius\\baby-idle-source-v1.png",
+    "accepted": false,
+    "reason": "All16 original source cells visually inspected: red/yellow alpha bleed/noise and broad gray webbed appendages replace the approved fine antennae and separate legs. Not biologically/style compatible. Redraw revision2 required; never registered."
+  },
+  {
+    "id": "lysmata-debelius",
+    "stage": "baby",
+    "state": "walk",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-9f1ae47c-2c7b-45d9-8ef1-00856ccec3b8.png",
+    "raw": "planning\\sprite-production\\raw\\lysmata-debelius\\baby-walk-source-v1.png",
+    "accepted": false,
+    "reason": "All16 original source cells visually inspected: red/yellow alpha bleed/noise and broad gray webbed appendages replace the approved fine antennae and separate legs. Not biologically/style compatible. Redraw revision2 required; never registered."
+  },
+  {
+    "id": "lysmata-debelius",
+    "stage": "juvenile",
+    "state": "idle",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-23b67ec1-46d9-4288-a1ef-785162ab1456.png",
+    "raw": "planning\\sprite-production\\raw\\lysmata-debelius\\juvenile-idle-source-v1.png",
+    "accepted": false,
+    "reason": "All16 original source cells visually inspected: red/yellow alpha bleed/noise and broad gray webbed appendages replace the approved fine antennae and separate legs. Not biologically/style compatible. Redraw revision2 required; never registered."
+  },
+  {
+    "id": "lysmata-debelius",
+    "stage": "juvenile",
+    "state": "walk",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-f6f803b4-8ec3-4491-b1f3-d1f0f6f88193.png",
+    "raw": "planning\\sprite-production\\raw\\lysmata-debelius\\juvenile-walk-source-v1.png",
+    "accepted": false,
+    "reason": "All16 original source cells visually inspected: red/yellow alpha bleed/noise and broad gray webbed appendages replace the approved fine antennae and separate legs. Not biologically/style compatible. Redraw revision2 required; never registered."
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "baby": {
+    "meta": {
+      "speciesId": "blenny",
+      "stage": "baby",
+      "state": "alive",
+      "frame": 1,
+      "frameCount": 1,
+      "eye": {
+        "x": 168,
+        "y": 79,
+        "w": 14,
+        "h": 14
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "juvenile": {
+    "meta": {
+      "speciesId": "blenny",
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 1,
+      "eye": {
+        "x": 166,
+        "y": 73,
+        "w": 14,
+        "h": 14
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "blenny",
+      "stage": "adult",
+      "state": "alive",
+      "frame": 3,
+      "frameCount": 1,
+      "eye": {
+        "x": 166,
+        "y": 74,
+        "w": 11,
+        "h": 11
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  }
+}

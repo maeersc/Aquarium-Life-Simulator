@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mushroom",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\mushroom\\frag.png",
+    "prompt": "Aquarium Life mushroom frag actual16-frame coral motion sheet. Attached PNG is EXACT approved anatomy, palette and detailed classic16-bit pixelart. Four purple-blue corallimorph discs on a fixed rocky base. Tiny ripples only in living disc margins and small tentacle texture, fixed mouth positions and disc arrangement. No detached discs or stretching. ONE square truly transparent PNG with FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living tissue poses forming a calm seamless16-to1 loop. Fixed camera, overall scale, placement and rock contour in everycell. Whole silhouette central75%eachcell with broad transparent gutters. No text/grid/checkerboard/background/blur/glow/antialias, no whole-colony translation/bob. Every pose uses same approved source anatomy and crisp pixel clusters.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-41cbf2d7-f02e-454b-95a0-c5fc2d6e0569.png"
+  },
+  {
+    "id": "mushroom",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\mushroom\\colony.png",
+    "prompt": "Aquarium Life mushroom colony actual16-frame coral motion sheet. Attached PNG is EXACT approved anatomy, palette and detailed classic16-bit pixelart. Four purple-blue corallimorph discs on a fixed rocky base. Tiny ripples only in living disc margins and small tentacle texture, fixed mouth positions and disc arrangement. No detached discs or stretching. ONE square truly transparent PNG with FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living tissue poses forming a calm seamless16-to1 loop. Fixed camera, overall scale, placement and rock contour in everycell. Whole silhouette central75%eachcell with broad transparent gutters. No text/grid/checkerboard/background/blur/glow/antialias, no whole-colony translation/bob. Every pose uses same approved source anatomy and crisp pixel clusters.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-4dd86907-4fc3-4713-b443-9e86a8e61b2d.png"
+  },
+  {
+    "id": "sps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\sps\\frag.png",
+    "prompt": "Aquarium Life sps frag actual16-frame coral motion sheet. Attached PNG is EXACT approved anatomy, palette and detailed classic16-bit pixelart. Pink/orange branching stony SPS with cyan tips. The entire hard branching skeleton and pedestal remain perfectly RIGID and pixel-registered. Animate only minute cyan polyp tuft extension/retraction on the existing branches by a few sourcepixels. Never bend or change branch geometry. ONE square truly transparent PNG with FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living tissue poses forming a calm seamless16-to1 loop. Fixed camera, overall scale, placement and rock contour in everycell. Whole silhouette central75%eachcell with broad transparent gutters. No text/grid/checkerboard/background/blur/glow/antialias, no whole-colony translation/bob. Every pose uses same approved source anatomy and crisp pixel clusters.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-ddca70b8-077a-40ab-bf3c-5cb5ad03aeb6.png"
+  },
+  {
+    "id": "sps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\sps\\colony.png",
+    "prompt": "Aquarium Life sps colony actual16-frame coral motion sheet. Attached PNG is EXACT approved anatomy, palette and detailed classic16-bit pixelart. Pink/orange branching stony SPS with cyan tips. The entire hard branching skeleton and pedestal remain perfectly RIGID and pixel-registered. Animate only minute cyan polyp tuft extension/retraction on the existing branches by a few sourcepixels. Never bend or change branch geometry. ONE square truly transparent PNG with FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living tissue poses forming a calm seamless16-to1 loop. Fixed camera, overall scale, placement and rock contour in everycell. Whole silhouette central75%eachcell with broad transparent gutters. No text/grid/checkerboard/background/blur/glow/antialias, no whole-colony translation/bob. Every pose uses same approved source anatomy and crisp pixel clusters.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-7cffd5fb-318f-41c3-80d6-64b33155dac3.png"
+  },
+  {
+    "id": "lps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\lps\\frag.png",
+    "prompt": "Aquarium Life lps frag actual16-frame coral motion sheet. Attached PNG is EXACT approved anatomy, palette and detailed classic16-bit pixelart. Green hammer-tipped purple/orange LPS on branched beige skeleton. Lock all hard beige branching skeleton and pedestal. Animate only small soft green hammer-tip/tentacle movements at existing positions; no broad swinging or branch movement. ONE square truly transparent PNG with FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living tissue poses forming a calm seamless16-to1 loop. Fixed camera, overall scale, placement and rock contour in everycell. Whole silhouette central75%eachcell with broad transparent gutters. No text/grid/checkerboard/background/blur/glow/antialias, no whole-colony translation/bob. Every pose uses same approved source anatomy and crisp pixel clusters.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-ee252e84-f96f-431b-98d7-eac7f019f2d7.png"
+  },
+  {
+    "id": "lps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\lps\\colony.png",
+    "prompt": "Aquarium Life lps colony actual16-frame coral motion sheet. Attached PNG is EXACT approved anatomy, palette and detailed classic16-bit pixelart. Green hammer-tipped purple/orange LPS on branched beige skeleton. Lock all hard beige branching skeleton and pedestal. Animate only small soft green hammer-tip/tentacle movements at existing positions; no broad swinging or branch movement. ONE square truly transparent PNG with FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living tissue poses forming a calm seamless16-to1 loop. Fixed camera, overall scale, placement and rock contour in everycell. Whole silhouette central75%eachcell with broad transparent gutters. No text/grid/checkerboard/background/blur/glow/antialias, no whole-colony translation/bob. Every pose uses same approved source anatomy and crisp pixel clusters.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-4f80cc7f-2216-4d7d-ade9-7764d8124f94.png"
+  },
+  {
+    "id": "soft",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\soft\\frag.png",
+    "prompt": "Aquarium Life soft frag actual16-frame coral motion sheet. Attached PNG is EXACT approved anatomy, palette and detailed classic16-bit pixelart. Orange/pink soft leather toadstool with pale green polyps and a fixed mushroom-like stalk/base. Only tiny top polyp extensions and soft cap edge responses; stalk and attachment remain fixed. Preserve the same cap shape and polyp distribution. ONE square truly transparent PNG with FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living tissue poses forming a calm seamless16-to1 loop. Fixed camera, overall scale, placement and rock contour in everycell. Whole silhouette central75%eachcell with broad transparent gutters. No text/grid/checkerboard/background/blur/glow/antialias, no whole-colony translation/bob. Every pose uses same approved source anatomy and crisp pixel clusters.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-1df61170-3aad-4e9d-8c4c-b08620933bb6.png"
+  },
+  {
+    "id": "soft",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\soft\\colony.png",
+    "prompt": "Aquarium Life soft colony actual16-frame coral motion sheet. Attached PNG is EXACT approved anatomy, palette and detailed classic16-bit pixelart. Orange/pink soft leather toadstool with pale green polyps and a fixed mushroom-like stalk/base. Only tiny top polyp extensions and soft cap edge responses; stalk and attachment remain fixed. Preserve the same cap shape and polyp distribution. ONE square truly transparent PNG with FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living tissue poses forming a calm seamless16-to1 loop. Fixed camera, overall scale, placement and rock contour in everycell. Whole silhouette central75%eachcell with broad transparent gutters. No text/grid/checkerboard/background/blur/glow/antialias, no whole-colony translation/bob. Every pose uses same approved source anatomy and crisp pixel clusters.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-dedda0a8-8a32-4ac3-873c-ec1591dabe21.png"
+  },
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\blastomussa-wellsi\\frag.png",
+    "prompt": "Aquarium Life blastomussa-wellsi frag actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Red fleshy lobed corallites with green mouths, three heads on frag and original larger colony head count. Gentle edge tissue/short feeding tentacle relaxation only; fixed mouths, hard cups and rock. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-a10ee567-2777-497a-a00e-747666aed711.png"
+  },
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\blastomussa-wellsi\\colony.png",
+    "prompt": "Aquarium Life blastomussa-wellsi colony actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Red fleshy lobed corallites with green mouths, three heads on frag and original larger colony head count. Gentle edge tissue/short feeding tentacle relaxation only; fixed mouths, hard cups and rock. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-8823f187-bd60-40a5-9c0d-5001519b84e5.png"
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\micromussa-lordhowensis\\frag.png",
+    "prompt": "Aquarium Life micromussa-lordhowensis frag actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Orange ridged fleshy lobes around cyan/teal mouths, two corallites on frag and original larger colony. Subtle short feeding fringe extension only; fixed oral centers, rigid cups and base. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-8693538e-350a-457f-92bc-e56871e7877f.png"
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\micromussa-lordhowensis\\colony.png",
+    "prompt": "Aquarium Life micromussa-lordhowensis colony actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Orange ridged fleshy lobes around cyan/teal mouths, two corallites on frag and original larger colony. Subtle short feeding fringe extension only; fixed oral centers, rigid cups and base. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-91a59891-b8fa-440b-96dc-05718ef04c1a.png"
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\cyphastrea-serailia\\frag.png",
+    "prompt": "Aquarium Life cyphastrea-serailia frag actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Blue encrusting stony mound bearing orange star-like polyps. Rigid encrusting skeleton/mound and rock never bend. Minute extension/relaxation of existing orange polyp tentacles only; fixed polyp locations. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-71d44893-a7bc-4006-93e0-0976f86458ba.png"
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\cyphastrea-serailia\\colony.png",
+    "prompt": "Aquarium Life cyphastrea-serailia colony actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Blue encrusting stony mound bearing orange star-like polyps. Rigid encrusting skeleton/mound and rock never bend. Minute extension/relaxation of existing orange polyp tentacles only; fixed polyp locations. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-03d3d08c-6005-4432-88fd-835c9b8e24c1.png"
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\leptastrea-purpurea\\frag.png",
+    "prompt": "Aquarium Life leptastrea-purpurea frag actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Purple encrusting hard corallites with green/gold centers. Rigid cups/mound/base remain fixed, tiny existing feeding tentacle tips extend/relax only. Preserve stage-specific head number and positions. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-0fd7ae7f-857e-4b80-9f9f-dfaaefa4ba23.png"
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\leptastrea-purpurea\\colony.png",
+    "prompt": "Aquarium Life leptastrea-purpurea colony actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Purple encrusting hard corallites with green/gold centers. Rigid cups/mound/base remain fixed, tiny existing feeding tentacle tips extend/relax only. Preserve stage-specific head number and positions. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-6b886724-59ee-4b69-8f91-558343363cbf.png"
+  },
+  {
+    "id": "pavona-cactus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\pavona-cactus\\frag.png",
+    "prompt": "Aquarium Life pavona-cactus frag actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Green upright folded leaf-like hard stony plates with yellow edges. Entire plates, folds, ridges and rock are completely rigid and fixed, never waving. Animate minute pale/green polyp-tuft extension only on original fixed plate surfaces, no shifting colors to fake motion. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-b33b3d4e-4dd0-43ab-a965-bbebe6aed792.png"
+  },
+  {
+    "id": "pavona-cactus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\pavona-cactus\\colony.png",
+    "prompt": "Aquarium Life pavona-cactus colony actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Green upright folded leaf-like hard stony plates with yellow edges. Entire plates, folds, ridges and rock are completely rigid and fixed, never waving. Animate minute pale/green polyp-tuft extension only on original fixed plate surfaces, no shifting colors to fake motion. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-0a177b73-35d1-4cd4-9d40-63caff40205e.png"
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\duncanopsammia-axifuga\\frag.png",
+    "prompt": "Aquarium Life duncanopsammia-axifuga frag actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Duncan green oral discs with long tan/brown soft tentacles on rigid pale skeleton, one frag polyp or original colony count. Tiny restrained tentacle tip sway/relaxation only, fixed mouths, skeleton and rock. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-616e9253-598b-4694-9e11-12d0d45d7f95.png"
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\duncanopsammia-axifuga\\colony.png",
+    "prompt": "Aquarium Life duncanopsammia-axifuga colony actual16-frame coral motion sheet. Attached PNG is EXACT approved stage anatomy, head count, palette and detailed classic16-bit pixelart reference. Duncan green oral discs with long tan/brown soft tentacles on rigid pale skeleton, one frag polyp or original colony count. Tiny restrained tentacle tip sway/relaxation only, fixed mouths, skeleton and rock. ONE square genuinely transparent PNG FOUR equal columns FOUR equal rows: sixteen actually authored distinct successive very subtle living polyp/tissue poses making a calm seamless16-to1 loop. Match exact original head count and spacing in all16cells. Lock scale, registered fixed base, attachment, oral-center positions and camera. Whole silhouette central75%eachcell with broad transparent gutters. Crisp detailed source pixel clusters, no blur/antialias/glow/grid/text/checkerboard/background, no whole-colony translation or wobble. All variation must be actual small biological tissue motion, never dramatic bending or rigid skeleton movement.",
+    "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-6161a921-3513-491b-af04-289a39a0cb8d.png"
+  }
+]

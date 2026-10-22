@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bumblebee-snail",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      34,
+      156,
+      299,
+      302
+    ],
+    "previewOrigin": [
+      12,
+      96
+    ],
+    "previewScale": 0.8754716981132076,
+    "previewSize": [
+      232,
+      128
+    ]
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      42,
+      90,
+      303,
+      267
+    ],
+    "previewOrigin": [
+      268,
+      81
+    ],
+    "previewScale": 0.8888888888888888,
+    "previewSize": [
+      232,
+      157
+    ]
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "baby",
+    "state": "idle",
+    "sourceBox": [
+      44,
+      110,
+      307,
+      261
+    ],
+    "previewOrigin": [
+      524,
+      93
+    ],
+    "previewScale": 0.8821292775665399,
+    "previewSize": [
+      232,
+      133
+    ]
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      38,
+      76,
+      325,
+      228
+    ],
+    "previewOrigin": [
+      780,
+      98
+    ],
+    "previewScale": 0.8083623693379791,
+    "previewSize": [
+      232,
+      123
+    ]
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "juvenile",
+    "state": "idle",
+    "sourceBox": [
+      30,
+      111,
+      312,
+      268
+    ],
+    "previewOrigin": [
+      12,
+      375
+    ],
+    "previewScale": 0.8226950354609929,
+    "previewSize": [
+      232,
+      129
+    ]
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "juvenile",
+    "state": "walk",
+    "sourceBox": [
+      44,
+      124,
+      316,
+      265
+    ],
+    "previewOrigin": [
+      268,
+      380
+    ],
+    "previewScale": 0.8529411764705882,
+    "previewSize": [
+      232,
+      120
+    ]
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "adult",
+    "state": "idle",
+    "sourceBox": [
+      31,
+      79,
+      340,
+      255
+    ],
+    "previewOrigin": [
+      524,
+      374
+    ],
+    "previewScale": 0.7508090614886731,
+    "previewSize": [
+      232,
+      132
+    ]
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      17,
+      105,
+      293,
+      269
+    ],
+    "previewOrigin": [
+      780,
+      371
+    ],
+    "previewScale": 0.8405797101449275,
+    "previewSize": [
+      232,
+      138
+    ]
+  }
+]

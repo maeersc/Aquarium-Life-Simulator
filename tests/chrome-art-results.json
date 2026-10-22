@@ -1,0 +1,221 @@
+{
+  "passed": 53,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Four local PNG atlases load while offline",
+      "pass": true
+    },
+    {
+      "name": "Gallery catalog contains exactly the 22 runtime species",
+      "pass": true
+    },
+    {
+      "name": "User-assigned artwork is recorded for the Ocellaris species only",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: guppy",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: neon",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: cardinal",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: betta",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: cory",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: danio",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: harlequin",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: platy",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: angel",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: pleco",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: clown",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: gramma",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: firefish",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: watchman",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: banggai",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: chromis",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: yellowtang",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: sixline",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: blenny",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: marinebetta",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: voidfin",
+      "pass": true
+    },
+    {
+      "name": "Current sprite and details render: glassfang",
+      "pass": true
+    },
+    {
+      "name": "96-pixel native comparison works",
+      "pass": true
+    },
+    {
+      "name": "96-pixel atlas has four frames and crisp transparent alpha",
+      "pass": true
+    },
+    {
+      "name": "128-pixel native comparison works",
+      "pass": true
+    },
+    {
+      "name": "128-pixel atlas has four frames and crisp transparent alpha",
+      "pass": true
+    },
+    {
+      "name": "192-pixel native comparison works",
+      "pass": true
+    },
+    {
+      "name": "192-pixel atlas has four frames and crisp transparent alpha",
+      "pass": true
+    },
+    {
+      "name": "256-pixel native comparison works",
+      "pass": true
+    },
+    {
+      "name": "256-pixel atlas has four frames and crisp transparent alpha",
+      "pass": true
+    },
+    {
+      "name": "Swim animation advances",
+      "pass": true
+    },
+    {
+      "name": "Pause freezes animation",
+      "pass": true
+    },
+    {
+      "name": "Frame stepping advances one pose",
+      "pass": true
+    },
+    {
+      "name": "idle concept explicitly describes its completeness",
+      "pass": true
+    },
+    {
+      "name": "turn concept explicitly describes its completeness",
+      "pass": true
+    },
+    {
+      "name": "death concept explicitly describes its completeness",
+      "pass": true
+    },
+    {
+      "name": "Death pose freezes frame zero",
+      "pass": true
+    },
+    {
+      "name": "bright background comparison works",
+      "pass": true
+    },
+    {
+      "name": "checker background comparison works",
+      "pass": true
+    },
+    {
+      "name": "dark background comparison works",
+      "pass": true
+    },
+    {
+      "name": "Camera changes preserve equal comparison scale",
+      "pass": true
+    },
+    {
+      "name": "Comparison controls preserve unsaved review feedback",
+      "pass": true
+    },
+    {
+      "name": "User-entered review status and notes survive reload",
+      "pass": true
+    },
+    {
+      "name": "Gallery leaves gameplay save bytes untouched",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 1440px viewport",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 1024px viewport",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 760px viewport",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 390px viewport",
+      "pass": true
+    },
+    {
+      "name": "No gallery JavaScript exceptions",
+      "pass": true
+    },
+    {
+      "name": "No gallery HTTP(S) requests",
+      "pass": true
+    }
+  ],
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+  "errors": [],
+  "networkRequests": []
+}

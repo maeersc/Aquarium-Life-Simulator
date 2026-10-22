@@ -1,0 +1,662 @@
+[
+  {
+    "id": "bumblebee-snail",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      34,
+      156,
+      299,
+      302
+    ],
+    "previewOrigin": [
+      12,
+      96
+    ],
+    "previewScale": 0.8754716981132076,
+    "previewSize": [
+      232,
+      128
+    ],
+    "inspectedPreviewPoint": [
+      98,
+      147
+    ],
+    "firstSourceCenter": [
+      132,
+      214
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      42,
+      90,
+      303,
+      267
+    ],
+    "previewOrigin": [
+      268,
+      81
+    ],
+    "previewScale": 0.8888888888888888,
+    "previewSize": [
+      232,
+      157
+    ],
+    "inspectedPreviewPoint": [
+      355,
+      146
+    ],
+    "firstSourceCenter": [
+      140,
+      163
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "baby",
+    "state": "idle",
+    "sourceBox": [
+      44,
+      110,
+      307,
+      261
+    ],
+    "previewOrigin": [
+      524,
+      93
+    ],
+    "previewScale": 0.8821292775665399,
+    "previewSize": [
+      232,
+      133
+    ],
+    "inspectedPreviewPoint": [
+      613,
+      148
+    ],
+    "firstSourceCenter": [
+      145,
+      172
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      38,
+      76,
+      325,
+      228
+    ],
+    "previewOrigin": [
+      780,
+      98
+    ],
+    "previewScale": 0.8083623693379791,
+    "previewSize": [
+      232,
+      123
+    ],
+    "inspectedPreviewPoint": [
+      868,
+      149
+    ],
+    "firstSourceCenter": [
+      147,
+      139
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "juvenile",
+    "state": "idle",
+    "sourceBox": [
+      30,
+      111,
+      312,
+      268
+    ],
+    "previewOrigin": [
+      12,
+      375
+    ],
+    "previewScale": 0.8226950354609929,
+    "previewSize": [
+      232,
+      129
+    ],
+    "inspectedPreviewPoint": [
+      103,
+      429
+    ],
+    "firstSourceCenter": [
+      141,
+      177
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "juvenile",
+    "state": "walk",
+    "sourceBox": [
+      44,
+      124,
+      316,
+      265
+    ],
+    "previewOrigin": [
+      268,
+      380
+    ],
+    "previewScale": 0.8529411764705882,
+    "previewSize": [
+      232,
+      120
+    ],
+    "inspectedPreviewPoint": [
+      356,
+      431
+    ],
+    "firstSourceCenter": [
+      147,
+      184
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "adult",
+    "state": "idle",
+    "sourceBox": [
+      31,
+      79,
+      340,
+      255
+    ],
+    "previewOrigin": [
+      524,
+      374
+    ],
+    "previewScale": 0.7508090614886731,
+    "previewSize": [
+      232,
+      132
+    ],
+    "inspectedPreviewPoint": [
+      617,
+      423
+    ],
+    "firstSourceCenter": [
+      155,
+      144
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      17,
+      105,
+      293,
+      269
+    ],
+    "previewOrigin": [
+      780,
+      371
+    ],
+    "previewScale": 0.8405797101449275,
+    "previewSize": [
+      232,
+      138
+    ],
+    "inspectedPreviewPoint": [
+      867,
+      423
+    ],
+    "firstSourceCenter": [
+      120,
+      167
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "baby",
+    "state": "idle",
+    "sourceBox": [
+      31,
+      117,
+      325,
+      243
+    ],
+    "previewOrigin": [
+      12,
+      110
+    ],
+    "previewScale": 0.7891156462585034,
+    "previewSize": [
+      232,
+      99
+    ],
+    "inspectedPreviewPoint": [
+      87,
+      145
+    ],
+    "firstSourceCenter": [
+      126,
+      161
+    ],
+    "nativePoint": [
+      84,
+      80
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      36,
+      103,
+      324,
+      222
+    ],
+    "previewOrigin": [
+      268,
+      112
+    ],
+    "previewScale": 0.8055555555555556,
+    "previewSize": [
+      232,
+      96
+    ],
+    "inspectedPreviewPoint": [
+      344,
+      143
+    ],
+    "firstSourceCenter": [
+      130,
+      141
+    ],
+    "nativePoint": [
+      84,
+      80
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "juvenile",
+    "state": "idle",
+    "sourceBox": [
+      30,
+      116,
+      351,
+      255
+    ],
+    "previewOrigin": [
+      524,
+      110
+    ],
+    "previewScale": 0.7227414330218068,
+    "previewSize": [
+      232,
+      100
+    ],
+    "inspectedPreviewPoint": [
+      596,
+      144
+    ],
+    "firstSourceCenter": [
+      130,
+      163
+    ],
+    "nativePoint": [
+      84,
+      80
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "juvenile",
+    "state": "walk",
+    "sourceBox": [
+      29,
+      151,
+      301,
+      268
+    ],
+    "previewOrigin": [
+      780,
+      110
+    ],
+    "previewScale": 0.8529411764705882,
+    "previewSize": [
+      232,
+      100
+    ],
+    "inspectedPreviewPoint": [
+      854,
+      147
+    ],
+    "firstSourceCenter": [
+      116,
+      194
+    ],
+    "nativePoint": [
+      84,
+      80
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "adult",
+    "state": "idle",
+    "sourceBox": [
+      16,
+      95,
+      334,
+      247
+    ],
+    "previewOrigin": [
+      12,
+      384
+    ],
+    "previewScale": 0.7295597484276729,
+    "previewSize": [
+      232,
+      111
+    ],
+    "inspectedPreviewPoint": [
+      102,
+      426
+    ],
+    "firstSourceCenter": [
+      139,
+      153
+    ],
+    "nativePoint": [
+      84,
+      80
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      12,
+      90,
+      303,
+      239
+    ],
+    "previewOrigin": [
+      268,
+      380
+    ],
+    "previewScale": 0.7972508591065293,
+    "previewSize": [
+      232,
+      119
+    ],
+    "inspectedPreviewPoint": [
+      356,
+      426
+    ],
+    "firstSourceCenter": [
+      122,
+      148
+    ],
+    "nativePoint": [
+      84,
+      80
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "baby",
+    "state": "idle",
+    "sourceBox": [
+      25,
+      52,
+      305,
+      285
+    ],
+    "previewOrigin": [
+      524,
+      343
+    ],
+    "previewScale": 0.8285714285714286,
+    "previewSize": [
+      232,
+      193
+    ],
+    "inspectedPreviewPoint": [
+      623,
+      438
+    ],
+    "firstSourceCenter": [
+      144,
+      167
+    ],
+    "nativePoint": [
+      96,
+      80
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      18,
+      60,
+      288,
+      288
+    ],
+    "previewOrigin": [
+      780,
+      342
+    ],
+    "previewScale": 0.8592592592592593,
+    "previewSize": [
+      232,
+      196
+    ],
+    "inspectedPreviewPoint": [
+      880,
+      438
+    ],
+    "firstSourceCenter": [
+      134,
+      172
+    ],
+    "nativePoint": [
+      96,
+      80
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "juvenile",
+    "state": "idle",
+    "sourceBox": [
+      27,
+      26,
+      340,
+      285
+    ],
+    "previewOrigin": [
+      12,
+      64
+    ],
+    "previewScale": 0.7412140575079872,
+    "previewSize": [
+      232,
+      192
+    ],
+    "inspectedPreviewPoint": [
+      114,
+      179
+    ],
+    "firstSourceCenter": [
+      165,
+      181
+    ],
+    "nativePoint": [
+      96,
+      82
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "juvenile",
+    "state": "walk",
+    "sourceBox": [
+      16,
+      35,
+      308,
+      293
+    ],
+    "previewOrigin": [
+      268,
+      57
+    ],
+    "previewScale": 0.7945205479452054,
+    "previewSize": [
+      232,
+      205
+    ],
+    "inspectedPreviewPoint": [
+      368,
+      179
+    ],
+    "firstSourceCenter": [
+      142,
+      189
+    ],
+    "nativePoint": [
+      96,
+      82
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "adult",
+    "state": "idle",
+    "sourceBox": [
+      25,
+      52,
+      340,
+      271
+    ],
+    "previewOrigin": [
+      524,
+      79
+    ],
+    "previewScale": 0.7365079365079366,
+    "previewSize": [
+      232,
+      161
+    ],
+    "inspectedPreviewPoint": [
+      629,
+      181
+    ],
+    "firstSourceCenter": [
+      168,
+      190
+    ],
+    "nativePoint": [
+      96,
+      82
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      14,
+      53,
+      305,
+      280
+    ],
+    "previewOrigin": [
+      780,
+      69
+    ],
+    "previewScale": 0.7972508591065293,
+    "previewSize": [
+      232,
+      181
+    ],
+    "inspectedPreviewPoint": [
+      883,
+      181
+    ],
+    "firstSourceCenter": [
+      143,
+      193
+    ],
+    "nativePoint": [
+      96,
+      82
+    ],
+    "note": "Manually inspected fixed shell-band, brown shell marking or central shrimp trunk landmark, not moving foot/leg/tentacle tissue. Final all16-cell inspection remains pending."
+  }
+]

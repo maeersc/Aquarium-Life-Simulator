@@ -1,0 +1,62 @@
+{
+  "agentInspected": true,
+  "inspectionScope": "First native tissue geometry inspected; final all16-cell review still required before registration.",
+  "description": "Inspected soft leather coral living cap and tiny green polyp tips above the fixed stalk. The orange attachment, central lower stalk and rocky base remain protected canonical pixels; only original subtle upper tissue poses are assembled.",
+  "polygons": [
+    [
+      [
+        28,
+        100
+      ],
+      [
+        45,
+        83
+      ],
+      [
+        60,
+        70
+      ],
+      [
+        96,
+        60
+      ],
+      [
+        133,
+        69
+      ],
+      [
+        154,
+        92
+      ],
+      [
+        168,
+        121
+      ],
+      [
+        147,
+        143
+      ],
+      [
+        124,
+        129
+      ],
+      [
+        113,
+        113
+      ],
+      [
+        75,
+        103
+      ],
+      [
+        46,
+        128
+      ],
+      [
+        28,
+        121
+      ]
+    ]
+  ],
+  "protectedPolygons": []
+}

@@ -1,0 +1,105 @@
+{
+  "ready": "complete",
+  "title": "",
+  "game": true,
+  "tanks": 0,
+  "saveError": "",
+  "pending": true,
+  "rawTanks": 0,
+  "errors": [
+    {
+      "method": "Runtime.exceptionThrown",
+      "params": {
+        "timestamp": 1792511191080.545,
+        "exceptionDetails": {
+          "exceptionId": 1,
+          "text": "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'water')",
+          "lineNumber": 31,
+          "columnNumber": 39,
+          "scriptId": "99",
+          "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/update29-ui.js",
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "lockUI",
+                "scriptId": "99",
+                "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/update29-ui.js",
+                "lineNumber": 31,
+                "columnNumber": 39
+              },
+              {
+                "functionName": "update",
+                "scriptId": "99",
+                "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/update29-ui.js",
+                "lineNumber": 36,
+                "columnNumber": 71
+              },
+              {
+                "functionName": "bind",
+                "scriptId": "99",
+                "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/update29-ui.js",
+                "lineNumber": 43,
+                "columnNumber": 312
+              },
+              {
+                "functionName": "",
+                "scriptId": "115",
+                "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/main.js",
+                "lineNumber": 4,
+                "columnNumber": 58
+              }
+            ]
+          },
+          "executionContextId": 2
+        }
+      }
+    },
+    {
+      "method": "Runtime.exceptionThrown",
+      "params": {
+        "timestamp": 1792511199328.97,
+        "exceptionDetails": {
+          "exceptionId": 2,
+          "text": "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'water')",
+          "lineNumber": 31,
+          "columnNumber": 39,
+          "scriptId": "99",
+          "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/update29-ui.js",
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "lockUI",
+                "scriptId": "99",
+                "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/update29-ui.js",
+                "lineNumber": 31,
+                "columnNumber": 39
+              },
+              {
+                "functionName": "update",
+                "scriptId": "99",
+                "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/update29-ui.js",
+                "lineNumber": 36,
+                "columnNumber": 71
+              },
+              {
+                "functionName": "bind",
+                "scriptId": "99",
+                "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/update29-ui.js",
+                "lineNumber": 43,
+                "columnNumber": 312
+              },
+              {
+                "functionName": "",
+                "scriptId": "115",
+                "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/main.js",
+                "lineNumber": 4,
+                "columnNumber": 58
+              }
+            ]
+          },
+          "executionContextId": 3
+        }
+      }
+    }
+  ]
+}

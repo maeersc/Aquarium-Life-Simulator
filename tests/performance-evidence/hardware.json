@@ -1,0 +1,22 @@
+﻿{
+    "gpu":  [
+                {
+                    "Name":  "Meta Virtual Monitor",
+                    "DriverVersion":  "5.3.57.114",
+                    "AdapterRAM":  null
+                },
+                {
+                    "Name":  "NVIDIA GeForce RTX 3090",
+                    "DriverVersion":  "32.0.16.1714",
+                    "AdapterRAM":  4293918720
+                }
+            ],
+    "cpu":  {
+                "Name":  "AMD Ryzen 7 5800X 8-Core Processor             ",
+                "NumberOfCores":  8,
+                "NumberOfLogicalProcessors":  16
+            },
+    "memory":  {
+                   "TotalPhysicalMemory":  34269437952
+               }
+}

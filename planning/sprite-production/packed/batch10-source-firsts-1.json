@@ -1,0 +1,162 @@
+[
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      28,
+      33,
+      326,
+      270
+    ],
+    "previewOrigin": [
+      12,
+      67
+    ],
+    "previewScale": 0.7785234899328859,
+    "previewSize": [
+      232,
+      185
+    ]
+  },
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      29,
+      35,
+      335,
+      279
+    ],
+    "previewOrigin": [
+      268,
+      67
+    ],
+    "previewScale": 0.7581699346405228,
+    "previewSize": [
+      232,
+      185
+    ]
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      40,
+      31,
+      300,
+      290
+    ],
+    "previewOrigin": [
+      527,
+      48
+    ],
+    "previewScale": 0.8648648648648649,
+    "previewSize": [
+      225,
+      224
+    ]
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      23,
+      41,
+      326,
+      266
+    ],
+    "previewOrigin": [
+      780,
+      74
+    ],
+    "previewScale": 0.7656765676567657,
+    "previewSize": [
+      232,
+      172
+    ]
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      12,
+      28,
+      317,
+      287
+    ],
+    "previewOrigin": [
+      12,
+      341
+    ],
+    "previewScale": 0.760655737704918,
+    "previewSize": [
+      232,
+      197
+    ]
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      14,
+      64,
+      298,
+      273
+    ],
+    "previewOrigin": [
+      268,
+      354
+    ],
+    "previewScale": 0.8169014084507042,
+    "previewSize": [
+      232,
+      171
+    ]
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      14,
+      69,
+      299,
+      299
+    ],
+    "previewOrigin": [
+      524,
+      346
+    ],
+    "previewScale": 0.8140350877192982,
+    "previewSize": [
+      232,
+      187
+    ]
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      22,
+      36,
+      360,
+      278
+    ],
+    "previewOrigin": [
+      780,
+      357
+    ],
+    "previewScale": 0.6863905325443787,
+    "previewSize": [
+      232,
+      166
+    ]
+  }
+]

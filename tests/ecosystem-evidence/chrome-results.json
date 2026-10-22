@@ -1,0 +1,916 @@
+{
+  "browser": "chrome",
+  "passed": 227,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Freshwater and marine routes initialize valid state",
+      "pass": true
+    },
+    {
+      "name": "At least 20 non-fictional species with complete data",
+      "pass": true
+    },
+    {
+      "name": "Uncycled aquariums block livestock",
+      "pass": true
+    },
+    {
+      "name": "Cycling takes simulated time and establishes both bacterial colonies",
+      "pass": true
+    },
+    {
+      "name": "Freshwater fish cannot enter marine water",
+      "pass": true
+    },
+    {
+      "name": "Minimum swimming volume enforced independently of bioload",
+      "pass": true
+    },
+    {
+      "name": "Social species require complete starting school",
+      "pass": true
+    },
+    {
+      "name": "Stock, money and identities update atomically",
+      "pass": true
+    },
+    {
+      "name": "Rejected transactions do not spend funds or mutate stock",
+      "pass": true
+    },
+    {
+      "name": "Store stock is finite",
+      "pass": true
+    },
+    {
+      "name": "Feeding reduces hunger and consumes inventory",
+      "pass": true
+    },
+    {
+      "name": "Wrong diet remains uneaten and decomposes into waste",
+      "pass": true
+    },
+    {
+      "name": "Fry require fine food",
+      "pass": true
+    },
+    {
+      "name": "Prepared water change mixes chemistry by replacement fraction",
+      "pass": true
+    },
+    {
+      "name": "Marine replacement preserves salinity and consumes salt",
+      "pass": true
+    },
+    {
+      "name": "Water toxicity damages health gradually",
+      "pass": true
+    },
+    {
+      "name": "Healthy feeding and weekly maintenance sustain fish for 30 days",
+      "pass": true
+    },
+    {
+      "name": "Starvation and low oxygen produce recorded causes",
+      "pass": true
+    },
+    {
+      "name": "Dead residents pollute until removed",
+      "pass": true
+    },
+    {
+      "name": "Aging observes individual maximum lifespan",
+      "pass": true
+    },
+    {
+      "name": "Predator compatibility is high risk and attacks have consequences",
+      "pass": true
+    },
+    {
+      "name": "Territorial aggression respects its cooldown",
+      "pass": true
+    },
+    {
+      "name": "Behavior moves individuals within aquarium bounds",
+      "pass": true
+    },
+    {
+      "name": "Fish rest or hide rather than sharing identical behavior",
+      "pass": true
+    },
+    {
+      "name": "Equipment failures change temperature and can be serviced",
+      "pass": true
+    },
+    {
+      "name": "Automatic feeder consumes actual inventory only once per day",
+      "pass": true
+    },
+    {
+      "name": "Livebearer pair creates gestation and inherited offspring",
+      "pass": true
+    },
+    {
+      "name": "Breeding blocks poor welfare and repeat cooldown",
+      "pass": true
+    },
+    {
+      "name": "Eggs develop only under suitable conditions",
+      "pass": true
+    },
+    {
+      "name": "Mouthbrood strategy retains male carrier dependency",
+      "pass": true
+    },
+    {
+      "name": "Corals require reef habitats and react to poor conditions",
+      "pass": true
+    },
+    {
+      "name": "Plants consume nitrate and need light",
+      "pass": true
+    },
+    {
+      "name": "Market price is bounded below original retail",
+      "pass": true
+    },
+    {
+      "name": "Repeated buy/sell loses funds and stops at daily limit",
+      "pass": true
+    },
+    {
+      "name": "Quest rewards claim exactly once from actual actions",
+      "pass": true
+    },
+    {
+      "name": "Second aquarium purchase includes independent uncycled environment",
+      "pass": true
+    },
+    {
+      "name": "Night market enforces level, schedule and containment",
+      "pass": true
+    },
+    {
+      "name": "VIP entitlements and payments cannot enter a valid save",
+      "pass": true
+    },
+    {
+      "name": "JSON save round trip restores all entities and state",
+      "pass": true
+    },
+    {
+      "name": "Validator rejects corruption, nonfinite numbers and duplicate IDs",
+      "pass": true
+    },
+    {
+      "name": "Validator rejects missing fields and stale identity counter",
+      "pass": true
+    },
+    {
+      "name": "Schema migration supports previous schema without data loss",
+      "pass": true
+    },
+    {
+      "name": "Continuous offline catch-up replaces legacy relaxed and cap preferences",
+      "pass": true
+    },
+    {
+      "name": "Seeded core simulation is deterministic",
+      "pass": true
+    },
+    {
+      "name": "Long simulation remains bounded and serializable",
+      "pass": true
+    },
+    {
+      "name": "Feeding quest requires actual suitable food consumption",
+      "pass": true
+    },
+    {
+      "name": "Reserved brood capacity blocks excess purchases",
+      "pass": true
+    },
+    {
+      "name": "Invalid control values roll back transaction",
+      "pass": true
+    },
+    {
+      "name": "School transfer preserves welfare and identities",
+      "pass": true
+    },
+    {
+      "name": "Season changes preserve acquired decorations",
+      "pass": true
+    },
+    {
+      "name": "Daily buyer budgets reset and demand recovers",
+      "pass": true
+    },
+    {
+      "name": "Reef care sustains five coral categories for 30 days",
+      "pass": true
+    },
+    {
+      "name": "Breeder economy is finite across 60 days",
+      "pass": true
+    },
+    {
+      "name": "Hoarding is blocked at adult capacity without hidden charges",
+      "pass": true
+    },
+    {
+      "name": "Fictional rare collector pays bounded setup and inspection risks",
+      "pass": true
+    },
+    {
+      "name": "Manual lighting works at night and Off overrides daytime schedule",
+      "pass": true
+    },
+    {
+      "name": "Manual lamp output honors intensity, reef strength and hardware failure",
+      "pass": true
+    },
+    {
+      "name": "Lighting controls validate and retain compatibility with older saves",
+      "pass": true
+    },
+    {
+      "name": "Turning lights off stops their wear and light-dependent plant growth",
+      "pass": true
+    },
+    {
+      "name": "Equipment light switches and per-tank manual modes remain consistent",
+      "pass": true
+    },
+    {
+      "name": "Coral purchases persist a supported sandbed attachment atomically",
+      "pass": true
+    },
+    {
+      "name": "Coral repositioning preserves health, identity and funds on a suitable surface",
+      "pass": true
+    },
+    {
+      "name": "Open water, invalid coordinates and out-of-tank placement roll back",
+      "pass": true
+    },
+    {
+      "name": "Older coral coordinates migrate without losing ownership",
+      "pass": true
+    },
+    {
+      "name": "Coral inspection shares light and flow rules with simulation",
+      "pass": true
+    },
+    {
+      "name": "Coral spacing rejects overlapping bases and preserves LPS stinging distance",
+      "pass": true
+    },
+    {
+      "name": "Freshwater plants remain rooted on the tank bed",
+      "pass": true
+    },
+    {
+      "name": "Browser-local persistence is available for file URL",
+      "pass": true
+    },
+    {
+      "name": "All marine disease definitions include hosts, symptoms, route, onset, treatment and research sources",
+      "pass": true
+    },
+    {
+      "name": "Marine retail pricing is fixed across seeds, stock changes and JSON reload",
+      "pass": true
+    },
+    {
+      "name": "Designer retail remains a fixed documented base-linked price",
+      "pass": true
+    },
+    {
+      "name": "Black-market creation persists exact price and hidden condition",
+      "pass": true
+    },
+    {
+      "name": "Reload and reopening listings do not advance random seed or reroll hidden quality",
+      "pass": true
+    },
+    {
+      "name": "Dealer inventory rotates only at an in-game dawn and changes listing identity",
+      "pass": true
+    },
+    {
+      "name": "Stale dealer listing cannot charge or purchase",
+      "pass": true
+    },
+    {
+      "name": "Black-market marine fish charge the saved listing price exactly once",
+      "pass": true
+    },
+    {
+      "name": "Dealer condition classes map to persisted nutrition, stress, illness or carriage",
+      "pass": true
+    },
+    {
+      "name": "Hidden marine infection does not expose its diagnosis before examination",
+      "pass": true
+    },
+    {
+      "name": "Diagnostic supplies reveal a confidence-qualified finding and consume one unit",
+      "pass": true
+    },
+    {
+      "name": "Asymptomatic carrier exam remains suspected rather than automatic certainty",
+      "pass": true
+    },
+    {
+      "name": "Ordinary marine medicines have fixed retail and no hidden dealer quality",
+      "pass": true
+    },
+    {
+      "name": "Restricted medicines preserve hidden quality from listing to owned batch and save",
+      "pass": true
+    },
+    {
+      "name": "Restricted treatment access respects level, discovery and night hours",
+      "pass": true
+    },
+    {
+      "name": "Batch assay consumes diagnostics and reveals quality without reroll",
+      "pass": true
+    },
+    {
+      "name": "Every implemented fish and bottom dweller has bounded current value",
+      "pass": true
+    },
+    {
+      "name": "Growth and maturity increase value before old-age reduction",
+      "pass": true
+    },
+    {
+      "name": "Nutrition, stress, disease and designer traits affect asset value",
+      "pass": true
+    },
+    {
+      "name": "Dead marine fish and coral lose all living value",
+      "pass": true
+    },
+    {
+      "name": "Coral size, bleaching, tissue and polyp condition affect value",
+      "pass": true
+    },
+    {
+      "name": "Copper treatment is rejected in a reef without consuming a batch",
+      "pass": true
+    },
+    {
+      "name": "Copper is rejected for coral, juveniles, eggs and decorated quarantine",
+      "pass": true
+    },
+    {
+      "name": "A correct diagnosed course consumes one unit and cannot instantly cure",
+      "pass": true
+    },
+    {
+      "name": "Correct copper course reduces diagnosed ich over time and restores value",
+      "pass": true
+    },
+    {
+      "name": "Wrong treatment does not cure a different parasite",
+      "pass": true
+    },
+    {
+      "name": "Contaminated fictional course can cause harm and leave illness unresolved",
+      "pass": true
+    },
+    {
+      "name": "Antibacterial treatment requires appropriate diagnosis confidence",
+      "pass": true
+    },
+    {
+      "name": "Unsafe treatment water is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "Active quarantine-only treatment cannot be moved into a reef",
+      "pass": true
+    },
+    {
+      "name": "Stopping a course does not refund or duplicate treatment units",
+      "pass": true
+    },
+    {
+      "name": "Illness progresses, symptoms appear and severe illness uses existing mortality engine",
+      "pass": true
+    },
+    {
+      "name": "Host eligibility prevents fish parasites from infecting corals or future invertebrates",
+      "pass": true
+    },
+    {
+      "name": "Noncontagious bleaching is distinct from death and uses existing bleached art",
+      "pass": true
+    },
+    {
+      "name": "Tank breakdown counts every physical category once without attached-coral duplication",
+      "pass": true
+    },
+    {
+      "name": "Fish transfer preserves illness history/identity and transfers exact living value",
+      "pass": true
+    },
+    {
+      "name": "Unsafe fish/coral transfers and mixed clownfish territories reject",
+      "pass": true
+    },
+    {
+      "name": "Complete illness, treatment, inventory and value state round-trips exactly",
+      "pass": true
+    },
+    {
+      "name": "Legacy schema-2 migration retains existing identities, wallet and health",
+      "pass": true
+    },
+    {
+      "name": "Malformed current hidden-quality and course records reject rather than reroll",
+      "pass": true
+    },
+    {
+      "name": "Freshwater individuals receive no marine health data or disease treatment",
+      "pass": true
+    },
+    {
+      "name": "Neither value calculation nor inspector rendering mutates authoritative save state",
+      "pass": true
+    },
+    {
+      "name": "Retail, asset value and dealer offer are distinct and resale never guarantees profit",
+      "pass": true
+    },
+    {
+      "name": "30-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "90-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "365-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "Bacterial diagnosis needs a delayed follow-up before a targeted course",
+      "pass": true
+    },
+    {
+      "name": "Coral quarantine preserves mounting, identity, health history and current value",
+      "pass": true
+    },
+    {
+      "name": "Coral pest dip is host-specific and improves the eligible condition over time",
+      "pass": true
+    },
+    {
+      "name": "Bleached living coral can recover after environmental correction and supportive care",
+      "pass": true
+    },
+    {
+      "name": "Nutrition and polyp state respond to coral conditions without changing freshwater plants",
+      "pass": true
+    },
+    {
+      "name": "Normal unexamined coral introduction risk is assigned once and survives reload without price change",
+      "pass": true
+    },
+    {
+      "name": "The exact hatching tick refreshes cached tank totals after replacing its brood with fry",
+      "pass": true
+    },
+    {
+      "name": "Exactly six stable rarity definitions",
+      "pass": true
+    },
+    {
+      "name": "Tier 1 original colored Goldfish",
+      "pass": true
+    },
+    {
+      "name": "Tier 2 original colored Clownfish",
+      "pass": true
+    },
+    {
+      "name": "Tier 3 original colored Lionfish",
+      "pass": true
+    },
+    {
+      "name": "Tier 4 original colored Arowana",
+      "pass": true
+    },
+    {
+      "name": "Tier 5 original colored Great White Shark",
+      "pass": true
+    },
+    {
+      "name": "Tier 6 original colored Niger Triggerfish",
+      "pass": true
+    },
+    {
+      "name": "All fish and flora catalog entries resolve rarity",
+      "pass": true
+    },
+    {
+      "name": "Approved clownfish rarity tables unchanged",
+      "pass": true
+    },
+    {
+      "name": "Invalid rarity is a visible data error",
+      "pass": true
+    },
+    {
+      "name": "All owned fish carry persistent rarity and pattern",
+      "pass": true
+    },
+    {
+      "name": "Disease changes value without rewriting rarity",
+      "pass": true
+    },
+    {
+      "name": "Daily store exact 3 Common, 3 Uncommon, 1 Rare, 1 Mystery",
+      "pass": true
+    },
+    {
+      "name": "Daily selection avoids duplicate species with adequate pools",
+      "pass": true
+    },
+    {
+      "name": "Opening/read calls do not reroll stock",
+      "pass": true
+    },
+    {
+      "name": "Daily listing survives validated save roundtrip",
+      "pass": true
+    },
+    {
+      "name": "Normal retail price remains fixed",
+      "pass": true
+    },
+    {
+      "name": "Day boundary refreshes once",
+      "pass": true
+    },
+    {
+      "name": "Sold out listings remain present without stock refill",
+      "pass": true
+    },
+    {
+      "name": "Stale daily transaction is rejected",
+      "pass": true
+    },
+    {
+      "name": "Exact Mystery Egg odds sum to 100",
+      "pass": true
+    },
+    {
+      "name": "Empty upper tiers are explicitly reported without substitution",
+      "pass": true
+    },
+    {
+      "name": "Blocked Mystery purchase is atomic and never rolls RNG",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent Mystery rolls: Common",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent Mystery rolls: Uncommon",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent Mystery rolls: Rare",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent Mystery rolls: Very Rare",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent Mystery rolls: Ultra Rare",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent Mystery rolls: Legendary",
+      "pass": true
+    },
+    {
+      "name": "Mystery RNG reproducible after save and independent from biology",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent natural pattern rolls: Standard three-bar",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent natural pattern rolls: Minor natural variation",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent natural pattern rolls: Misbar / unusual bands",
+      "pass": true
+    },
+    {
+      "name": "200,000 independent natural pattern rolls: Exceptional natural variation",
+      "pass": true
+    },
+    {
+      "name": "Fertilization assigns independent persistent embryo identities",
+      "pass": true
+    },
+    {
+      "name": "Embryos preserve identity and rarity through save",
+      "pass": true
+    },
+    {
+      "name": "Unknown designer genotypes never receive invented segregation",
+      "pass": true
+    },
+    {
+      "name": "Cross-species hybrid breeding is blocked",
+      "pass": true
+    },
+    {
+      "name": "Hatching uses assigned profiles and produces larvae not adults",
+      "pass": true
+    },
+    {
+      "name": "Hatching never repeats same clutch",
+      "pass": true
+    },
+    {
+      "name": "Exceptional natural patterns never promote rarity/designer",
+      "pass": true
+    },
+    {
+      "name": "Legacy migration preserves current adult artwork",
+      "pass": true
+    },
+    {
+      "name": "Natural bar alteration stable, distinct and eye pixels unchanged",
+      "pass": true
+    },
+    {
+      "name": "Larvae do not display adult natural bar modifications",
+      "pass": true
+    },
+    {
+      "name": "Genetic identity persists through aging",
+      "pass": true
+    },
+    {
+      "name": "Death archive retains rarity and lineage",
+      "pass": true
+    },
+    {
+      "name": "20 minutes away advances exactly 1 days",
+      "pass": true
+    },
+    {
+      "name": "60 minutes away advances exactly 3 days",
+      "pass": true
+    },
+    {
+      "name": "Offline rewards apply same actual health conditions",
+      "pass": true
+    },
+    {
+      "name": "Identical checkpoint cannot grant offline time or rewards twice",
+      "pass": true
+    },
+    {
+      "name": "Negative device clock cannot reverse simulation",
+      "pass": true
+    },
+    {
+      "name": "Invalid return timestamps rejected",
+      "pass": true
+    },
+    {
+      "name": "Unsafe water produces actual illness/loss and no care payout",
+      "pass": true
+    },
+    {
+      "name": "Offline feeder uses actual supplies and equipment wears",
+      "pass": true
+    },
+    {
+      "name": "Offline incubation uses existing biological hatching",
+      "pass": true
+    },
+    {
+      "name": "Offline rotations reach current day with no extra deliveries",
+      "pass": true
+    },
+    {
+      "name": "Asynchronous catch-up matches deterministic synchronous simulation",
+      "pass": true
+    },
+    {
+      "name": "Long absence is retained beyond previous 8-hour cap",
+      "pass": true
+    },
+    {
+      "name": "Old timeline imports are rejected before duplicate rewards",
+      "pass": true
+    },
+    {
+      "name": "New extension validates all existing save fields",
+      "pass": true
+    },
+    {
+      "name": "Bad saved pattern rejected",
+      "pass": true
+    },
+    {
+      "name": "Bad daily slot rejected",
+      "pass": true
+    },
+    {
+      "name": "New standard and Snowflake stock gets explicitly labeled reference models",
+      "pass": true
+    },
+    {
+      "name": "Reference Normal \u00d7 Snowflake offspring segregate independently at about 50%",
+      "pass": true
+    },
+    {
+      "name": "Reference Snowflake \u00d7 Snowflake models 1:2:1 alleles with explicitly inferred early loss",
+      "pass": true
+    },
+    {
+      "name": "Compatible Snowflake retail grades share model, not invented premium-grade heredity",
+      "pass": true
+    },
+    {
+      "name": "Unresearched Picasso/Longfin/Black lines remain explicit unknowns",
+      "pass": true
+    },
+    {
+      "name": "Nonviable reference embryos do not hatch or duplicate livestock",
+      "pass": true
+    },
+    {
+      "name": "Daily designer offerings use approved rarity and fixed variety price",
+      "pass": true
+    },
+    {
+      "name": "Actual daily transaction decrements its listing once and preserves destination",
+      "pass": true
+    },
+    {
+      "name": "Species assignments propagate into new ordinary non-clown fish",
+      "pass": true
+    },
+    {
+      "name": "Repeated unchanged legacy import cannot replay its processed timeline",
+      "pass": true
+    },
+    {
+      "name": "Versioned save cannot regenerate a missing daily selection",
+      "pass": true
+    },
+    {
+      "name": "Implausible legacy timestamps fail without discarding elapsed history",
+      "pass": true
+    },
+    {
+      "name": "Removed coral retains its historical rarity",
+      "pass": true
+    },
+    {
+      "name": "Supported reference model survives embryo save validation",
+      "pass": true
+    },
+    {
+      "name": "Four natural-pattern swim frames protect approved eye pixels",
+      "pass": true
+    },
+    {
+      "name": "Conditional Mystery purchase/save/hatch works with synthetic six-tier test data only",
+      "pass": true
+    },
+    {
+      "name": "Interrupted asynchronous catch-up resumes its saved step without double replay",
+      "pass": true
+    },
+    {
+      "name": "Ten-day freshwater biology matches protected earlier simulation exactly",
+      "pass": true
+    },
+    {
+      "name": "Real Saltwater Fish store shows exactly eight slots",
+      "pass": true
+    },
+    {
+      "name": "First seven visible cards share rarity registry",
+      "pass": true
+    },
+    {
+      "name": "Store header retains selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "Countdown visible with exact requested label",
+      "pass": true
+    },
+    {
+      "name": "Mystery slot transparently shows shortfall",
+      "pass": true
+    },
+    {
+      "name": "Mystery detail has all six icons and exact independence statement",
+      "pass": true
+    },
+    {
+      "name": "Unavailable Mystery Egg cannot be purchased",
+      "pass": true
+    },
+    {
+      "name": "Local rarity icons decode",
+      "pass": true
+    },
+    {
+      "name": "Fish inspector displays rarity, care, scientific name and pattern",
+      "pass": true
+    },
+    {
+      "name": "Living coral inspector shows actual icon, development and mount",
+      "pass": true
+    },
+    {
+      "name": "Bottom-dweller inspector shares rarity and life-stage details",
+      "pass": true
+    },
+    {
+      "name": "Known egg inspector displays actual rarity and incubation care",
+      "pass": true
+    },
+    {
+      "name": "Encyclopedia uses shared colored icons",
+      "pass": true
+    },
+    {
+      "name": "Welcome Back report contains actual result fields",
+      "pass": true
+    },
+    {
+      "name": "Store fits viewport 390",
+      "pass": true
+    },
+    {
+      "name": "Store fits viewport 768",
+      "pass": true
+    },
+    {
+      "name": "Store fits viewport 1920",
+      "pass": true
+    },
+    {
+      "name": "No external gameplay HTTP requests",
+      "pass": true
+    },
+    {
+      "name": "Reload protects checkpoint until Continue",
+      "pass": true
+    },
+    {
+      "name": "Continue processes real saved elapsed time then shows report",
+      "pass": true
+    },
+    {
+      "name": "Catch-up completion persists its checkpoint and reward",
+      "pass": true
+    },
+    {
+      "name": "Actual import button refuses replay of an older saved timeline",
+      "pass": true
+    },
+    {
+      "name": "Browsing an open store advances its countdown and refreshes on midnight",
+      "pass": true
+    },
+    {
+      "name": "Visibility return automatically catches up a full hidden-tab day",
+      "pass": true
+    },
+    {
+      "name": "No browser JavaScript exceptions",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "145 protected freshwater definition/art/source hashes unchanged",
+      "pass": true
+    }
+  ]
+}

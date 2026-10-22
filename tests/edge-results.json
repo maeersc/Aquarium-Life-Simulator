@@ -1,0 +1,320 @@
+{
+  "passed": 68,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Freshwater and marine routes initialize valid state",
+      "pass": true
+    },
+    {
+      "name": "At least 20 non-fictional species with complete data",
+      "pass": true
+    },
+    {
+      "name": "Uncycled aquariums block livestock",
+      "pass": true
+    },
+    {
+      "name": "Cycling takes simulated time and establishes both bacterial colonies",
+      "pass": true
+    },
+    {
+      "name": "Freshwater fish cannot enter marine water",
+      "pass": true
+    },
+    {
+      "name": "Minimum swimming volume enforced independently of bioload",
+      "pass": true
+    },
+    {
+      "name": "Social species require complete starting school",
+      "pass": true
+    },
+    {
+      "name": "Stock, money and identities update atomically",
+      "pass": true
+    },
+    {
+      "name": "Rejected transactions do not spend funds or mutate stock",
+      "pass": true
+    },
+    {
+      "name": "Store stock is finite",
+      "pass": true
+    },
+    {
+      "name": "Feeding reduces hunger and consumes inventory",
+      "pass": true
+    },
+    {
+      "name": "Wrong diet remains uneaten and decomposes into waste",
+      "pass": true
+    },
+    {
+      "name": "Fry require fine food",
+      "pass": true
+    },
+    {
+      "name": "Prepared water change mixes chemistry by replacement fraction",
+      "pass": true
+    },
+    {
+      "name": "Marine replacement preserves salinity and consumes salt",
+      "pass": true
+    },
+    {
+      "name": "Water toxicity damages health gradually",
+      "pass": true
+    },
+    {
+      "name": "Healthy feeding and weekly maintenance sustain fish for 30 days",
+      "pass": true
+    },
+    {
+      "name": "Starvation and low oxygen produce recorded causes",
+      "pass": true
+    },
+    {
+      "name": "Dead residents pollute until removed",
+      "pass": true
+    },
+    {
+      "name": "Aging observes individual maximum lifespan",
+      "pass": true
+    },
+    {
+      "name": "Predator compatibility is high risk and attacks have consequences",
+      "pass": true
+    },
+    {
+      "name": "Territorial aggression respects its cooldown",
+      "pass": true
+    },
+    {
+      "name": "Behavior moves individuals within aquarium bounds",
+      "pass": true
+    },
+    {
+      "name": "Fish rest or hide rather than sharing identical behavior",
+      "pass": true
+    },
+    {
+      "name": "Equipment failures change temperature and can be serviced",
+      "pass": true
+    },
+    {
+      "name": "Automatic feeder consumes actual inventory only once per day",
+      "pass": true
+    },
+    {
+      "name": "Livebearer pair creates gestation and inherited offspring",
+      "pass": true
+    },
+    {
+      "name": "Breeding blocks poor welfare and repeat cooldown",
+      "pass": true
+    },
+    {
+      "name": "Eggs develop only under suitable conditions",
+      "pass": true
+    },
+    {
+      "name": "Mouthbrood strategy retains male carrier dependency",
+      "pass": true
+    },
+    {
+      "name": "Corals require reef habitats and react to poor conditions",
+      "pass": true
+    },
+    {
+      "name": "Plants consume nitrate and need light",
+      "pass": true
+    },
+    {
+      "name": "Market price is bounded below original retail",
+      "pass": true
+    },
+    {
+      "name": "Repeated buy/sell loses funds and stops at daily limit",
+      "pass": true
+    },
+    {
+      "name": "Quest rewards claim exactly once from actual actions",
+      "pass": true
+    },
+    {
+      "name": "Second aquarium purchase includes independent uncycled environment",
+      "pass": true
+    },
+    {
+      "name": "Night market enforces level, schedule and containment",
+      "pass": true
+    },
+    {
+      "name": "VIP entitlements and payments cannot enter a valid save",
+      "pass": true
+    },
+    {
+      "name": "JSON save round trip restores all entities and state",
+      "pass": true
+    },
+    {
+      "name": "Validator rejects corruption, nonfinite numbers and duplicate IDs",
+      "pass": true
+    },
+    {
+      "name": "Validator rejects missing fields and stale identity counter",
+      "pass": true
+    },
+    {
+      "name": "Schema migration supports previous schema without data loss",
+      "pass": true
+    },
+    {
+      "name": "Relaxed absence is safe; survival catch-up obeys cap",
+      "pass": true
+    },
+    {
+      "name": "Seeded core simulation is deterministic",
+      "pass": true
+    },
+    {
+      "name": "Long simulation remains bounded and serializable",
+      "pass": true
+    },
+    {
+      "name": "Feeding quest requires actual suitable food consumption",
+      "pass": true
+    },
+    {
+      "name": "Reserved brood capacity blocks excess purchases",
+      "pass": true
+    },
+    {
+      "name": "Invalid control values roll back transaction",
+      "pass": true
+    },
+    {
+      "name": "School transfer preserves welfare and identities",
+      "pass": true
+    },
+    {
+      "name": "Season changes preserve acquired decorations",
+      "pass": true
+    },
+    {
+      "name": "Daily buyer budgets reset and demand recovers",
+      "pass": true
+    },
+    {
+      "name": "Reef care sustains five coral categories for 30 days",
+      "pass": true
+    },
+    {
+      "name": "Breeder economy is finite across 60 days",
+      "pass": true
+    },
+    {
+      "name": "Hoarding is blocked at adult capacity without hidden charges",
+      "pass": true
+    },
+    {
+      "name": "Fictional rare collector pays bounded setup and inspection risks",
+      "pass": true
+    },
+    {
+      "name": "Manual lighting works at night and Off overrides daytime schedule",
+      "pass": true
+    },
+    {
+      "name": "Manual lamp output honors intensity, reef strength and hardware failure",
+      "pass": true
+    },
+    {
+      "name": "Lighting controls validate and retain compatibility with older saves",
+      "pass": true
+    },
+    {
+      "name": "Turning lights off stops their wear and light-dependent plant growth",
+      "pass": true
+    },
+    {
+      "name": "Equipment light switches and per-tank manual modes remain consistent",
+      "pass": true
+    },
+    {
+      "name": "Coral purchases persist a supported sandbed attachment atomically",
+      "pass": true
+    },
+    {
+      "name": "Coral repositioning preserves health, identity and funds on a suitable surface",
+      "pass": true
+    },
+    {
+      "name": "Open water, invalid coordinates and out-of-tank placement roll back",
+      "pass": true
+    },
+    {
+      "name": "Older coral coordinates migrate without losing ownership",
+      "pass": true
+    },
+    {
+      "name": "Coral inspection shares light and flow rules with simulation",
+      "pass": true
+    },
+    {
+      "name": "Coral spacing rejects overlapping bases and preserves LPS stinging distance",
+      "pass": true
+    },
+    {
+      "name": "Freshwater plants remain rooted on the tank bed",
+      "pass": true
+    },
+    {
+      "name": "Browser-local persistence is available for file URL",
+      "pass": true
+    }
+  ],
+  "balances": [
+    {
+      "scenario": "30-day guppy care",
+      "credits": 4177,
+      "alive": 2,
+      "ammonia": 0,
+      "nitrate": 7.290600284636887
+    },
+    {
+      "scenario": "8 buy/sell cycles",
+      "startingCredits": 2997,
+      "endingCredits": 2554,
+      "sales": 8
+    },
+    {
+      "scenario": "60-day breeder",
+      "startingCredits": 2822,
+      "endingCredits": 5615,
+      "offspring": 16,
+      "juvenileSales": 10,
+      "losses": 0
+    },
+    {
+      "scenario": "75 L livestock hoarder",
+      "purchases": 10,
+      "startingCredits": 2997,
+      "endingCredits": 2347,
+      "adultLoad": 50,
+      "limit": 52.5
+    },
+    {
+      "scenario": "28-day fictional rare collector",
+      "startingCredits": 100000,
+      "endingCredits": 95105,
+      "totalCost": 4895,
+      "remaining": 0,
+      "confiscations": 1,
+      "losses": 0
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+  "protocol": "file:"
+}

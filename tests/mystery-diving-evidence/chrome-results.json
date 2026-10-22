@@ -1,0 +1,255 @@
+{
+  "checks": [
+    {
+      "name": "fiji reef: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "fiji deep: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "caribbean reef: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "caribbean deep: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "japan reef: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "japan deep: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "Observation-only Hawaii reef blocks before cost, random draw or trip creation",
+      "pass": true
+    },
+    {
+      "name": "Observation-only Hawaii deep blocks before cost, random draw or trip creation",
+      "pass": true
+    },
+    {
+      "name": "Empty collectible fish pool blocks otherwise available region explicitly",
+      "pass": true
+    },
+    {
+      "name": "Fiji pool contains only approved implemented Fiji fish at survey depth",
+      "pass": true
+    },
+    {
+      "name": "Guaranteed Fiji selection is uniform among two fish rather than the egg rarity percentages",
+      "pass": true
+    },
+    {
+      "name": "A mystery is not captured from beyond one Manhattan cell",
+      "pass": true
+    },
+    {
+      "name": "Full eight-slot inventory rejects the guaranteed mystery fish without discarding existing finds",
+      "pass": true
+    },
+    {
+      "name": "Incompatible survey depth removes a fish from both eligibility and guaranteed selection",
+      "pass": true
+    },
+    {
+      "name": "Capture consumes one temporary slot, zero oxygen and no permanent ownership; duplicate rejected",
+      "pass": true
+    },
+    {
+      "name": "Active save retains exact mystery identity, position, oxygen, capture and RNG",
+      "pass": true
+    },
+    {
+      "name": "Invalid guarantee location and non-mystery fish are rejected on import",
+      "pass": true
+    },
+    {
+      "name": "Boat return reveals identity once but grants no automatic animal",
+      "pass": true
+    },
+    {
+      "name": "Pending reveal and precommitted survival assessment survive repeated reloads without RNG changes",
+      "pass": true
+    },
+    {
+      "name": "Another launch cannot discard pending recovery",
+      "pass": true
+    },
+    {
+      "name": "An unsafe receiver is rejected atomically after reveal rather than auto killing or inserting fish",
+      "pass": true
+    },
+    {
+      "name": "Missing receiver is rejected; switching the selected aquarium never chooses a receiver automatically",
+      "pass": true
+    },
+    {
+      "name": "Player can choose another safe receiver while the selected aquarium remains unchanged",
+      "pass": true
+    },
+    {
+      "name": "Alive, healthy: explicit compatible recovery creates one real animal with source and destination",
+      "pass": true
+    },
+    {
+      "name": "Alive, stressed: explicit compatible recovery creates one real animal with source and destination",
+      "pass": true
+    },
+    {
+      "name": "Alive, injured: explicit compatible recovery creates one real animal with source and destination",
+      "pass": true
+    },
+    {
+      "name": "Alive, suspected illness: explicit compatible recovery creates one real animal with source and destination",
+      "pass": true
+    },
+    {
+      "name": "Failed survival assessment records permanent evidence without invented water or an owned animal",
+      "pass": true
+    },
+    {
+      "name": "Pending transport expires during shared offline progression and logs exact deadline only once",
+      "pass": true
+    },
+    {
+      "name": "Actual offline catch-up matches continuous recovery expiry and reports it once across repeated logins",
+      "pass": true
+    },
+    {
+      "name": "Transport mortality journal is isolated by account",
+      "pass": true
+    },
+    {
+      "name": "Expired specimen on return still reveals only at boat, then records transport expiry at its actual deadline",
+      "pass": true
+    },
+    {
+      "name": "Release requires confirmation and never invents a death or ownership",
+      "pass": true
+    },
+    {
+      "name": "Repeated explicit recovery cannot duplicate ownership",
+      "pass": true
+    },
+    {
+      "name": "Local recovery receipt prevents replaying an earlier pending save",
+      "pass": true
+    },
+    {
+      "name": "Abandonment conceals name, rarity and value even after capture",
+      "pass": true
+    },
+    {
+      "name": "Oxygen exhaustion forfeits captured mystery fish without revealing or granting them",
+      "pass": true
+    },
+    {
+      "name": "Legacy active trip loads unchanged without assigning or rerolling a new fish",
+      "pass": true
+    },
+    {
+      "name": "Generic silhouette is deterministic without consuming simulation RNG",
+      "pass": true
+    },
+    {
+      "name": "Freshwater remains locked and 20-minute day is unchanged",
+      "pass": true
+    },
+    {
+      "name": "Planner does not expose any mystery fish names, scientific names or assigned rarity",
+      "pass": true
+    },
+    {
+      "name": "UI blocks observation-only destination clearly",
+      "pass": true
+    },
+    {
+      "name": "Far click selects generic question-mark fish without exposing species or permitting capture",
+      "pass": true
+    },
+    {
+      "name": "Right click cannot capture a fish",
+      "pass": true
+    },
+    {
+      "name": "Actual nearby left click immediately captures once, with zero oxygen cost and concealed inventory",
+      "pass": true
+    },
+    {
+      "name": "Repeated pointer click cannot capture the same fish twice",
+      "pass": true
+    },
+    {
+      "name": "Actual local save reload retains captured mystery, oxygen and single charge",
+      "pass": true
+    },
+    {
+      "name": "Reloaded temporary inventory remains concealed",
+      "pass": true
+    },
+    {
+      "name": "Boat return reveals actual name, science, rarity, original art, origin, value and explicit receiver",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: reveal fits viewport without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: reveal fits viewport without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: reveal fits viewport without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: reveal fits viewport without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Receive button requires an explicit destination",
+      "pass": true
+    },
+    {
+      "name": "Actual receive control grants exactly one fish and displays its real destination and condition",
+      "pass": true
+    },
+    {
+      "name": "Results keep the aquarium, hunger and equipment on the shared 1x clock",
+      "pass": true
+    },
+    {
+      "name": "A second actual login preserves one received animal and one recovery receipt",
+      "pass": true
+    },
+    {
+      "name": "Transport death report explicitly preserves unknown physiology and chemistry",
+      "pass": true
+    },
+    {
+      "name": "Real local JSON download retains transport evidence and explicit unknown chemistry",
+      "pass": true
+    },
+    {
+      "name": "No uncaught browser JavaScript exceptions",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "No HTTP/HTTPS gameplay requests; saves and art stay local",
+      "pass": true
+    }
+  ],
+  "passed": 61,
+  "failed": 0,
+  "distribution": {
+    "exquisite-fairy-wrasse": 392,
+    "forcipiger-flavissimus": 408
+  }
+}

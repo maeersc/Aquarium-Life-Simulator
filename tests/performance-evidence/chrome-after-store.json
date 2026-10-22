@@ -1,0 +1,89 @@
+{
+  "elapsedMs": 4002.4000000003725,
+  "draws": 0,
+  "fps": 0,
+  "frameGapP50": null,
+  "frameGapP95": null,
+  "frameGapP99": null,
+  "drawMsP50": null,
+  "drawMsP95": null,
+  "drawMsMax": 0,
+  "calls": {
+    "vitals": {
+      "count": 4,
+      "ms": 2,
+      "max": 0.6000000005587935
+    },
+    "simulation": {
+      "count": 1,
+      "ms": 2,
+      "max": 2
+    }
+  },
+  "longTasks": [],
+  "scheduler": {
+    "raf": 0,
+    "timer": 1,
+    "mode": "covered",
+    "returning": false,
+    "pendingMinutes": 2.2907599999997807
+  },
+  "caches": {
+    "sheets": {
+      "loaded": 15,
+      "maxDecodedSheets": 128,
+      "frameCache": 225,
+      "maxFrames": 512,
+      "frameHits": 75097,
+      "frameMisses": 225,
+      "frameEvictions": 0,
+      "frameBytes": 28852224,
+      "maxFrameBytes": 33554432,
+      "decodedBytes": 31064064,
+      "maxDecodedBytes": 268435456
+    },
+    "animation": {
+      "rigBuilds": 24,
+      "poseHits": 674,
+      "poseCache": 68,
+      "maxPoses": 768
+    },
+    "rasters": {
+      "entries": 585,
+      "bytes": 6336236,
+      "maxBytes": 33554432,
+      "maxEntries": 8192,
+      "hits": 67211,
+      "misses": 585,
+      "evictions": 0
+    },
+    "sources": {
+      "active": 0,
+      "queued": 0,
+      "pending": 0
+    },
+    "layers": {
+      "entries": 6,
+      "bytes": 2764800,
+      "builds": 106
+    }
+  },
+  "state": {
+    "fish": 32,
+    "tanks": 4,
+    "gameTime": 2675.030319999999,
+    "hidden": false
+  },
+  "label": "store",
+  "wallSeconds": 4.0,
+  "metrics": {
+    "TaskDuration": 0.027505000000000557,
+    "ScriptDuration": 0.007792999999999939,
+    "LayoutDuration": 0.002259999999999998,
+    "RecalcStyleDuration": 0.0009580000000000005
+  },
+  "heapBytes": 10316480,
+  "nodes": 2697,
+  "listeners": 503,
+  "mainThreadCorePercent": 0.6876250000000139
+}

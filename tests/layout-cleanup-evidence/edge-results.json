@@ -1,0 +1,277 @@
+{
+  "passed": 48,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "1366x768: proportional canvas visible without page overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: selector and new aquarium fit without overlap",
+      "pass": true
+    },
+    {
+      "name": "1366x768: status, quest and activity panels accessible",
+      "pass": true
+    },
+    {
+      "name": "1366x768: visible aquarium area increased",
+      "pass": true
+    },
+    {
+      "name": "1440x900: proportional canvas visible without page overflow",
+      "pass": true
+    },
+    {
+      "name": "1440x900: selector and new aquarium fit without overlap",
+      "pass": true
+    },
+    {
+      "name": "1440x900: status, quest and activity panels accessible",
+      "pass": true
+    },
+    {
+      "name": "1440x900: visible aquarium area increased",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: proportional canvas visible without page overflow",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: selector and new aquarium fit without overlap",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: status, quest and activity panels accessible",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: visible aquarium area increased",
+      "pass": true
+    },
+    {
+      "name": "1024x650: proportional canvas visible without page overflow",
+      "pass": true
+    },
+    {
+      "name": "1024x650: selector and new aquarium fit without overlap",
+      "pass": true
+    },
+    {
+      "name": "1024x650: status, quest and activity panels accessible",
+      "pass": true
+    },
+    {
+      "name": "764x900: proportional canvas visible without page overflow",
+      "pass": true
+    },
+    {
+      "name": "764x900: selector and new aquarium fit without overlap",
+      "pass": true
+    },
+    {
+      "name": "764x900: status, quest and activity panels accessible",
+      "pass": true
+    },
+    {
+      "name": "390x844: proportional canvas visible without page overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: selector and new aquarium fit without overlap",
+      "pass": true
+    },
+    {
+      "name": "390x844: status, quest and activity panels accessible",
+      "pass": true
+    },
+    {
+      "name": "Level numeral centered horizontally and optically in badge",
+      "pass": true
+    },
+    {
+      "name": "Level, Diving and Keeper share the header centerline",
+      "pass": true
+    },
+    {
+      "name": "Three bottom care cards are removed from DOM",
+      "pass": true
+    },
+    {
+      "name": "Decorative slogan removed and heading retained",
+      "pass": true
+    },
+    {
+      "name": "Compact named selector beside New aquarium replaces tab row",
+      "pass": true
+    },
+    {
+      "name": "Feeding remains available through Equipment / Tank Care",
+      "pass": true
+    },
+    {
+      "name": "Water change remains available in its menu",
+      "pass": true
+    },
+    {
+      "name": "New aquarium button opens purchase catalog",
+      "pass": true
+    },
+    {
+      "name": "Freshwater stays disabled in tank creation",
+      "pass": true
+    },
+    {
+      "name": "Actual aquarium purchase populates compact selector",
+      "pass": true
+    },
+    {
+      "name": "Selector switches to original aquarium and synchronizes header",
+      "pass": true
+    },
+    {
+      "name": "Switch to second tank survives local save and schema roundtrip",
+      "pass": true
+    },
+    {
+      "name": "Adding residents still available with preserved destination",
+      "pass": true
+    },
+    {
+      "name": "Freshwater store remains locked",
+      "pass": true
+    },
+    {
+      "name": "Actual pointer selects fish at its rendered position",
+      "pass": true
+    },
+    {
+      "name": "Livestock selection retains its three-second deadline",
+      "pass": true
+    },
+    {
+      "name": "Livestock selection highlight expires after three seconds",
+      "pass": true
+    },
+    {
+      "name": "Total Aquarium Value opens correct breakdown",
+      "pass": true
+    },
+    {
+      "name": "Zoom and time controls remain functional",
+      "pass": true
+    },
+    {
+      "name": "Settings and saves remain accessible",
+      "pass": true
+    },
+    {
+      "name": "Ocean Diving opens its interface",
+      "pass": true
+    },
+    {
+      "name": "Coral pointer target opens its living-resident inspector",
+      "pass": true
+    },
+    {
+      "name": "Placement banner fits with the resized tank",
+      "pass": true
+    },
+    {
+      "name": "Final fixture saves successfully before actual reload",
+      "pass": true
+    },
+    {
+      "name": "Actual browser reload retains account, tanks and selection",
+      "pass": true
+    },
+    {
+      "name": "No uncaught JavaScript errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "Fully offline: no remote HTTP requests",
+      "pass": true,
+      "requests": []
+    }
+  ],
+  "sizes": {
+    "1366x768": {
+      "before": {
+        "width": 578,
+        "height": 289,
+        "top": 297,
+        "bottom": 586,
+        "right": 933
+      },
+      "after": {
+        "width": 898,
+        "height": 449,
+        "top": 223.5,
+        "bottom": 672.5,
+        "right": 1093
+      }
+    },
+    "1440x900": {
+      "before": {
+        "width": 912,
+        "height": 456,
+        "top": 279.5,
+        "bottom": 735.5,
+        "right": 1137
+      },
+      "after": {
+        "width": 972,
+        "height": 486,
+        "top": 271,
+        "bottom": 757,
+        "right": 1167
+      }
+    },
+    "1920x1080": {
+      "before": {
+        "width": 1316,
+        "height": 658,
+        "top": 268.5,
+        "bottom": 926.5,
+        "right": 1579
+      },
+      "after": {
+        "width": 1452,
+        "height": 726,
+        "top": 241,
+        "bottom": 967,
+        "right": 1647
+      }
+    },
+    "1024x650": {
+      "after": {
+        "width": 556,
+        "height": 278,
+        "top": 274,
+        "bottom": 552,
+        "right": 751
+      }
+    },
+    "764x900": {
+      "after": {
+        "width": 440,
+        "height": 220,
+        "top": 427,
+        "bottom": 647,
+        "right": 517
+      }
+    },
+    "390x844": {
+      "after": {
+        "width": 310,
+        "height": 155,
+        "top": 340.296875,
+        "bottom": 495.296875,
+        "right": 381
+      }
+    }
+  }
+}

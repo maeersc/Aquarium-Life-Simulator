@@ -1,0 +1,156 @@
+[
+  {
+    "id": "forcipiger-flavissimus",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby review: Long developing snout and yolk retained; actual black iris located at source221,177, template registered across16 cells; fine developing caudal/fin-tip changes remain unclipped."
+  },
+  {
+    "id": "hemitaurichthys-polylepis",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby review: Rounded yellow/white pyramid flank and brown face retained for developed stages; early stage remains translucent with yolk and small developing fins. All16 eyes visible; adult mask false-pupil detections corrected using inspected genuine iris. Calm attached fin poses remain distinct."
+  },
+  {
+    "id": "hemitaurichthys-polylepis",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile review: Rounded yellow/white pyramid flank and brown face retained for developed stages; early stage remains translucent with yolk and small developing fins. All16 eyes visible; adult mask false-pupil detections corrected using inspected genuine iris. Calm attached fin poses remain distinct."
+  },
+  {
+    "id": "hemitaurichthys-polylepis",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult review: Rounded yellow/white pyramid flank and brown face retained for developed stages; early stage remains translucent with yolk and small developing fins. All16 eyes visible; adult mask false-pupil detections corrected using inspected genuine iris. Calm attached fin poses remain distinct."
+  },
+  {
+    "id": "ctenochaetus-strigosus",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby review: Yellow iris ring, brown longitudinal flank lines and fine gold-edged dorsal/anal rays remain readable. Juvenile pupil registration corrected to remove false extra-eye patches; translucent developing baby is preserved. All16 native cells inspected with broad margins."
+  },
+  {
+    "id": "ctenochaetus-strigosus",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile review: Yellow iris ring, brown longitudinal flank lines and fine gold-edged dorsal/anal rays remain readable. Juvenile pupil registration corrected to remove false extra-eye patches; translucent developing baby is preserved. All16 native cells inspected with broad margins."
+  },
+  {
+    "id": "ctenochaetus-strigosus",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult review: Yellow iris ring, brown longitudinal flank lines and fine gold-edged dorsal/anal rays remain readable. Juvenile pupil registration corrected to remove false extra-eye patches; translucent developing baby is preserved. All16 native cells inspected with broad margins."
+  },
+  {
+    "id": "ctenochaetus-tominiensis",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby review: Pale caudal and gold/orange dorsal/anal edges distinguish developed stages; first genuine iris template fixes head jumps/extra eye patches in both developed sheets. Early translucent pigmentation/yolk preserved; restrained attached caudal and pectoral poses."
+  },
+  {
+    "id": "ctenochaetus-tominiensis",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile review: Pale caudal and gold/orange dorsal/anal edges distinguish developed stages; first genuine iris template fixes head jumps/extra eye patches in both developed sheets. Early translucent pigmentation/yolk preserved; restrained attached caudal and pectoral poses."
+  },
+  {
+    "id": "ctenochaetus-tominiensis",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult review: Pale caudal and gold/orange dorsal/anal edges distinguish developed stages; first genuine iris template fixes head jumps/extra eye patches in both developed sheets. Early translucent pigmentation/yolk preserved; restrained attached caudal and pectoral poses."
+  },
+  {
+    "id": "zebrasoma-xanthurum",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile review: Violet flank stripes, blue fin edges and yellow rear caudal remain consistent; adult genuine iris template removes floating duplicate patches. Baby retains silver/lavender early anatomy and yolk. All16 unclipped cells checked."
+  },
+  {
+    "id": "zebrasoma-xanthurum",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult review: Violet flank stripes, blue fin edges and yellow rear caudal remain consistent; adult genuine iris template removes floating duplicate patches. Baby retains silver/lavender early anatomy and yolk. All16 unclipped cells checked."
+  },
+  {
+    "id": "zebrasoma-xanthurum",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby review: Violet flank stripes, blue fin edges and yellow rear caudal remain consistent; adult genuine iris template removes floating duplicate patches. Baby retains silver/lavender early anatomy and yolk. All16 unclipped cells checked."
+  },
+  {
+    "id": "zebrasoma-gemmatum",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby review: White flank spotting and yellow caudal remain on developed black trunk, one forward head iris in all16 cells. Baby remains its approved translucent spotted early stage. Modest attached caudal and pectoral adjustments, clear transparent margins."
+  },
+  {
+    "id": "zebrasoma-gemmatum",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile review: White flank spotting and yellow caudal remain on developed black trunk, one forward head iris in all16 cells. Baby remains its approved translucent spotted early stage. Modest attached caudal and pectoral adjustments, clear transparent margins."
+  },
+  {
+    "id": "zebrasoma-gemmatum",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult review: White flank spotting and yellow caudal remain on developed black trunk, one forward head iris in all16 cells. Baby remains its approved translucent spotted early stage. Modest attached caudal and pectoral adjustments, clear transparent margins."
+  },
+  {
+    "id": "acanthurus-achilles",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby review: Orange caudal-peduncle teardrop and orange/white fin edges retained; both developed sheets iris-registered to remove duplicated eye patches. Baby preserves developing silver body/yolk and small fins. All16 cells checked for intact silhouettes and margins."
+  },
+  {
+    "id": "acanthurus-achilles",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile review: Orange caudal-peduncle teardrop and orange/white fin edges retained; both developed sheets iris-registered to remove duplicated eye patches. Baby preserves developing silver body/yolk and small fins. All16 cells checked for intact silhouettes and margins."
+  },
+  {
+    "id": "acanthurus-achilles",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult review: Orange caudal-peduncle teardrop and orange/white fin edges retained; both developed sheets iris-registered to remove duplicated eye patches. Baby preserves developing silver body/yolk and small fins. All16 cells checked for intact silhouettes and margins."
+  },
+  {
+    "id": "siganus-vulpinus",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby review: Yellow trunk, black/white face, long snout and attached spiny dorsal retained; adult source rows3-4 were complete left-facing animals, technically normalized before genuine-iris registration. Juvenile and developing baby retain their own anatomy. All16 final poses face right, one stable iris, intact fins."
+  },
+  {
+    "id": "siganus-vulpinus",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile review: Yellow trunk, black/white face, long snout and attached spiny dorsal retained; adult source rows3-4 were complete left-facing animals, technically normalized before genuine-iris registration. Juvenile and developing baby retain their own anatomy. All16 final poses face right, one stable iris, intact fins."
+  },
+  {
+    "id": "siganus-vulpinus",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult review: Yellow trunk, black/white face, long snout and attached spiny dorsal retained; adult source rows3-4 were complete left-facing animals, technically normalized before genuine-iris registration. Juvenile and developing baby retain their own anatomy. All16 final poses face right, one stable iris, intact fins."
+  }
+]

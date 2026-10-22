@@ -1,0 +1,22 @@
+{
+  "facings": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "agentInspected": true,
+  "notes": "Source rows 1-2 face right; rows 3-4 face left with intact anatomy. Normalize complete original cells before iris alignment."
+}

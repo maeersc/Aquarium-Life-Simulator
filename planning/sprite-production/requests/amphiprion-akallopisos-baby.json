@@ -1,0 +1,9 @@
+{
+  "id": "amphiprion-akallopisos",
+  "stage": "baby",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\amphiprion-akallopisos\\baby.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\amphiprion-akallopisos\\baby.png",
+  "mode": "built-in image_gen",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-b920e6a8-2c0d-4bbf-9805-fb29b135c619.png",
+  "prompt": "Aquarium Life actual production sprite sheet for amphiprion-akallopisos BABY / early stage. Provided PNG is the exact existing early-stage identity reference, not an adult. ONE SQUARE transparent PNG, FOUR columns FOUR rows,16 separately drawn incremental calm motion poses of this SAME young animal. ALL16 FACE RIGHT in every row; no left-facing or death frames. Preserve the source translucent body, exact stage anatomy, pigmentation, yolk area where present and original developing fin folds. Do not invent mature adult fins, adult bars/patches or adult body proportions.  Keep entire animal within75% of each cell longest dimension with wide transparent gutters, full original aspect ratio. Fixed head/single near-side iris, consistent scale and body, one tiny caudal or fin-fold sweep/recovery through1–8 and opposite sweep/recovery9–16 with small attached fin variations only where actually present in reference. Quiet natural hovering, intended8fps, no whole-body bob or exaggerated flapping.16 DISTINCT authored keyframes, not repeated stills. Crisp detailed16-bit pixel clusters and colors as reference, clear hard edges and no smoothing, blur, glow, painted checkerboard, shadows, text, labels or grid lines. Actual transparent alpha. Keep this a dedicated young-stage asset, not a scaled-down adult."
+}

@@ -1,0 +1,335 @@
+{
+  "source": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\raw\\yellowtang\\juvenile-source-v1.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\yellowtang\\juvenile.png",
+  "referenceBounds": [
+    14,
+    8,
+    178,
+    152
+  ],
+  "sourceBoxes": [
+    [
+      42,
+      56,
+      292,
+      273
+    ],
+    [
+      344,
+      56,
+      600,
+      273
+    ],
+    [
+      655,
+      56,
+      911,
+      273
+    ],
+    [
+      971,
+      55,
+      1222,
+      274
+    ],
+    [
+      38,
+      353,
+      299,
+      570
+    ],
+    [
+      342,
+      351,
+      611,
+      571
+    ],
+    [
+      658,
+      352,
+      920,
+      570
+    ],
+    [
+      965,
+      351,
+      1227,
+      570
+    ],
+    [
+      41,
+      669,
+      294,
+      885
+    ],
+    [
+      347,
+      667,
+      603,
+      886
+    ],
+    [
+      656,
+      667,
+      915,
+      886
+    ],
+    [
+      966,
+      669,
+      1223,
+      886
+    ],
+    [
+      45,
+      970,
+      301,
+      1186
+    ],
+    [
+      353,
+      969,
+      611,
+      1185
+    ],
+    [
+      657,
+      970,
+      919,
+      1187
+    ],
+    [
+      966,
+      969,
+      1230,
+      1186
+    ]
+  ],
+  "sourceEyeAnchors": [
+    [
+      211.5,
+      112.5,
+      22
+    ],
+    [
+      215.5,
+      111.0,
+      22
+    ],
+    [
+      214.5,
+      110.5,
+      20
+    ],
+    [
+      209.5,
+      113.5,
+      18
+    ],
+    [
+      221.0,
+      109.0,
+      23
+    ],
+    [
+      226.5,
+      110.0,
+      21
+    ],
+    [
+      218.0,
+      111.5,
+      19
+    ],
+    [
+      221.0,
+      108.5,
+      24
+    ],
+    [
+      212.0,
+      110.0,
+      23
+    ],
+    [
+      214.0,
+      112.5,
+      23
+    ],
+    [
+      217.5,
+      114.0,
+      24
+    ],
+    [
+      216.5,
+      113.0,
+      22
+    ],
+    [
+      214.5,
+      107.0,
+      22
+    ],
+    [
+      216.0,
+      110.5,
+      19
+    ],
+    [
+      219.5,
+      108.0,
+      19
+    ],
+    [
+      224.5,
+      108.5,
+      22
+    ]
+  ],
+  "scale": 0.6096654275092936,
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "columns": 4,
+  "frameCount": 16,
+  "anchor": [
+    96.0,
+    80.0
+  ],
+  "eye": {
+    "x": 151,
+    "y": 81,
+    "w": 12,
+    "h": 12
+  },
+  "frameHashes": [
+    "cff5eaf9d896485e986f4f99d54b65b3e1e05dbbe91d3c0f37b2d15a6e5cf0a2",
+    "3c846c3b5f9bb7dfbb3aa2c0fc05ab4bcba8a684fb0a84ff12998edf0ff42428",
+    "3e2803f6b8098ad3f353d6835a1c3e7fcdfd70463d96e0e4b44c7bc1ca082771",
+    "6c6b6993fcd1fe08a30292e7e8a5419189ba0df4215ad8e856cca76585a06286",
+    "7ee80e4f9a800f3f20b056757c3ec654214a1a5c62d24ffed8ed6cfdc954332e",
+    "dfc78b6fd3f70c9fe26ca5fcd7986ec9ce79c855a59d396b59179affd043f68f",
+    "d56d8e022037dc71597f7fc266296b6450aa1a74c1d22f6dd6b7b7c66db1c509",
+    "178c3f476c0536db307300b27178e52cfeb62b11d7d98f2be0a6e930987c1c19",
+    "b649af9fda87ef3b289a4468f8b1d9ef110df70d9f975cbbe5c4bd7b2b91f1ac",
+    "4a47872e61cc60cfbc4b3ec787c58bc6e6eb3633a45c292837c9997c45a8384f",
+    "a7afd6f3ff401498286b38fc3cd2c0f394628163f168ec47c4213d0aba8b75fe",
+    "fda4f520a5926bf9baae3633632625d497955d1b87d5ab03208a079ae6a3dea8",
+    "d2a3a390d9d25335c752ae6c2c18147385e87242d3f72fc649c931bef1552330",
+    "fe710afc26d9da7a4ba50624e6b80569f5367d43494dd0970aaa08dd0a3303f7",
+    "c508afe485b9cb999b505cf4185927c84a69c319887caa73da0cea95f26053c9",
+    "da787eceae763d61b0df258a30fa9eecd17b7daba3cef0373f967356139f796f"
+  ],
+  "bounds": [
+    [
+      22,
+      12,
+      174,
+      144
+    ],
+    [
+      20,
+      13,
+      176,
+      145
+    ],
+    [
+      20,
+      14,
+      176,
+      146
+    ],
+    [
+      23,
+      12,
+      176,
+      146
+    ],
+    [
+      16,
+      15,
+      175,
+      147
+    ],
+    [
+      13,
+      14,
+      177,
+      148
+    ],
+    [
+      18,
+      13,
+      177,
+      146
+    ],
+    [
+      16,
+      15,
+      176,
+      149
+    ],
+    [
+      22,
+      14,
+      176,
+      146
+    ],
+    [
+      21,
+      12,
+      177,
+      146
+    ],
+    [
+      18,
+      11,
+      176,
+      145
+    ],
+    [
+      19,
+      12,
+      176,
+      144
+    ],
+    [
+      20,
+      16,
+      176,
+      148
+    ],
+    [
+      19,
+      14,
+      176,
+      146
+    ],
+    [
+      17,
+      15,
+      177,
+      147
+    ],
+    [
+      14,
+      15,
+      175,
+      147
+    ]
+  ],
+  "sha256": "087a56a00199e723742fb766b85964d791310bfce83e7ae8991fc77bef389a3d",
+  "technicalChecks": {
+    "allCells": true,
+    "binaryAlpha": true,
+    "unique": true,
+    "transparentMargins": true,
+    "registeredEyes": true
+  },
+  "visualReview": {
+    "passed": true,
+    "notes": "All16 native cells inspected: transparent early stage and tall yellow juvenile retain separate source proportions, complete continuous dorsal and anal fin silhouettes, stable snout/iris, subtle caudal changes; full margins preserved.",
+    "playerApproved": false
+  },
+  "playerApproved": false
+}

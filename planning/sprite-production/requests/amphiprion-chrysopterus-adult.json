@@ -1,0 +1,8 @@
+{
+  "id": "amphiprion-chrysopterus",
+  "stage": "adult",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-2868af45-6ac5-49f1-9891-aadfcee08dd2.png",
+  "revision": 2,
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\amphiprion-chrysopterus\\adult.png",
+  "prompt": "Aquarium Life production replacement adult Orange-fin clownfish (Amphiprion chrysopterus)16-frame swim sheet. Use attached exact approved adult as identity reference. Create ONE transparent square PNG, 4 equal columns by4 rows, sixteen genuinely authored DIFFERENT small sequential fin poses. Fish faces RIGHT IN EVERY CELL. Exactly one caudal fin at LEFT rear, exactly one eye at RIGHT front. No tail next to mouth, no doubled tail or double head. Keep head/body locked in size and pose; only small pectoral and caudal TIP movement for calm hovering. Original deep brown body, orange face and fins, two white bands, ivory caudal as reference. Match reference crisp detailed16bit pixels, no blur or glow, no palette shifts. Large transparent gutters with full fish inside central75%cell. All16 must remain anatomically valid, full silhouettes, fins attached, stationary body bars and iris, subtle8fps loop, frame16 gently returns to1. Transparent alpha, no background/text/checkerboard."
+}

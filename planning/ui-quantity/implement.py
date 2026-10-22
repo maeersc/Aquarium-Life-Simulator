@@ -1,0 +1,66 @@
+from pathlib import Path
+import hashlib,json
+R=Path(__file__).resolve().parents[2]
+paths=['js/core.js','js/store.js','js/store-rules.js','js/equipment-inventory.js','js/livestock-market.js','js/equipment-parts.js','js/finance.js','css/ui-cleanup.css','css/theme.css','index.html','js/ui.js']
+b=R/'planning/ui-quantity/baseline';b.mkdir(parents=True,exist_ok=True)
+for f in paths:
+ p=b/f;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes((R/f).read_bytes())
+(b/'hashes.json').write_text(json.dumps({f:hashlib.sha256((R/f).read_bytes()).hexdigest() for f in paths},indent=2))
+def edit(f,old,new):
+ p=R/f;s=p.read_text(encoding='utf8');assert old in s,(f,old[:100]);p.write_text(s.replace(old,new,1),encoding='utf8')
+edit('js/store-rules.js','  function report(s,t,action,a={}){','''  // One quantity policy and quote, used by preview and the existing Core.act guard.
+  function policy(action,a={}){
+    if(['buyEquipment','buyFood','buyEquipmentPart','buyRock'].includes(action))return {bulk:true,reason:action==='buyRock'?'Multiple rocks go to Inventory; place each separately.':'Delivered to the existing inventory.'};
+    if(action==='buySupply'&&!/^frag-(kit|cutters|saw)$/.test(a.type||''))return {bulk:true,reason:'Packs add their existing number of doses to shared inventory.'};
+    if(action==='buyMedicine'&&AL.Health.products[a.product]&&!AL.Health.products[a.product].restricted)return {bulk:true,reason:'Packs add course or examination units to medical inventory.'};
+    return {bulk:false,reason:action==='buyFish'?'Use the resident count below; each fish still requires a safe destination.':action==='buySupply'?'Reusable tools are purchased individually.':action==='buySand'?'One substrate installation at the chosen depth.':action==='buyMedicine'?'Each restricted dealer batch has individual saved quality and stock.':['buyRock','decorate','buyRack'].includes(action)?'Place or mount one object at a time.':'One living specimen, brood, mystery item or pair offer per assessment; existing safety and rarity rules apply.'};
+  }
+  function quantity(action,a={}){const n=a.quantity===undefined?1:a.quantity,p=policy(action,a);if(!Number.isSafeInteger(n)||n<1||n>99)throw Error('Quantity must be a whole number from 1 to 99.');if(!p.bulk&&n!==1)throw Error(p.reason);return n;}
+  function quote(s,t,action,a={}){
+    const reasons=[];let n;try{n=quantity(action,a);}catch(e){return {ok:false,reasons:[e.message],quantity:a.quantity,unitPrice:null,total:null,max:1};}
+    let unitPrice=null,available=Infinity,room=Infinity;const D=AL.Data;
+    if(action==='buyEquipment'){const d=D.equipment[a.type],m=a.heaterModel!==undefined?AL.Heaters.get(a.heaterModel):null;unitPrice=d&&t?(m?.price??Math.ceil(d.price*Math.max(1,t.volume/d.capacity))):null;available=s.stock[a.type]??0;room=50-(s.ownedEquipment||[]).length;}
+    if(action==='buyFood'||action==='buySupply'){const d=(action==='buyFood'?D.foods:D.supplies)[a.type];unitPrice=d?.price??null;available=s.stock[a.type]??0;room=d?Math.floor((1e7-(s.inventory[a.type]||0))/(action==='buyFood'?20:d.amount)):0;}
+    if(action==='buyMedicine'){const p=AL.Health.products[a.product];unitPrice=p?.restricted?AL.LivestockMarket.listing(s,'medicine:'+a.product)?.price:p?.price;available=s.medicineStock[a.product]??0;if(p&&!p.restricted){const merge=s.medicalInventory.filter(b=>b.product===a.product).reduce((v,b)=>v+1000-b.quantity,0);room=Math.floor((merge+(80-s.medicalInventory.length)*1000)/p.doses);}}
+    if(action==='buyEquipmentPart'){try{const p=AL.EquipmentParts.product(a.sku,a.rating);unitPrice=p.price;available=s.equipmentParts.stock[a.sku]??0;room=10000-(s.equipmentParts.inventory[p.id]||0);}catch(e){reasons.push(e.message);}}
+    if(action==='buyRock'){const p=AL.Habitat.rockProducts[a.group];unitPrice=p&&Number.isInteger(a.variant)&&a.variant>=0&&a.variant<=3?p.price+a.variant*25:null;available=s.stock['rock:'+a.group+':'+a.variant]??0;room=n>1?100-(s.ownedObjects||[]).length:20-(t?.hardscape||[]).length;}
+    if(n>available)reasons.push('Requested '+n+'; only '+available+' in stock.');if(n>room)reasons.push('Requested '+n+'; inventory or placement capacity is '+Math.max(0,room)+'.');
+    const total=Number.isSafeInteger(unitPrice)?unitPrice*n:null;if(policy(action,a).bulk&&(!Number.isSafeInteger(total)||total<0))reasons.push('Reopen details for a valid current price.');if(total!==null&&s.credits<total)reasons.push('Total '+total+' AC; wallet '+s.credits+' AC.');
+    return {ok:!reasons.length,reasons,quantity:n,unitPrice,total,max:Math.max(0,Math.min(policy(action,a).bulk?99:1,available,room))};
+  }
+  function report(s,t,action,a={}){const r=baseReport(s,t,action,a);if(!purchases.has(action))return r;const q=quote(s,t,action,a);return {...r,ok:r.ok&&q.ok,reasons:[...new Set([...r.reasons,...q.reasons])]};}
+  function baseReport(s,t,action,a={}){''')
+edit('js/store-rules.js','return {report,enforce,purchases};','return {report,enforce,purchases,policy,quantity,quote};')
+edit('js/core.js',"stock(s,a.type);pay(s,d.price);s.stock[a.type]--;s.inventory[a.type]+=20;", "const n=AL.StoreRules.quantity('buyFood',a);stock(s,a.type,n);pay(s,d.price*n);s.stock[a.type]-=n;s.inventory[a.type]+=20*n;log(s,n+' pack(s) of '+d.name+' purchased into shared inventory.');")
+edit('js/core.js',"stock(s,a.type);pay(s,d.price);s.stock[a.type]--;s.inventory[a.type]+=d.amount;", "const n=AL.StoreRules.quantity('buySupply',a);stock(s,a.type,n);pay(s,d.price*n);s.stock[a.type]-=n;s.inventory[a.type]+=d.amount*n;log(s,n+' pack(s) of '+d.name+' purchased into shared inventory.');")
+# The shared guard checks full stock; keep single-unit stock helper untouched.
+edit('js/core.js',"if(t.hardscape.length>=20)throw Error('Maximum of 20 hardscape pieces.');const width=", "const n=AL.StoreRules.quantity('buyRock',a);if(n===1&&t.hardscape.length>=20)throw Error('Maximum of 20 hardscape pieces.');if(n>1&&s.ownedObjects.length+n>100)throw Error('Object inventory is full (100 items).');const width=")
+edit('js/core.js',"stock(s,stockKey);pay(s,d.price+a.variant*25);s.stock[stockKey]--;const x=", "stock(s,stockKey);pay(s,(d.price+a.variant*25)*n);s.stock[stockKey]-=n;if(n>1){for(let i=0;i<n;i++)s.ownedObjects.push({id:id(s,'rock'),kind:'rock',group:a.group,variant:a.variant,width,baseOffset:.0125});log(s,n+' '+d.name+' rocks purchased into Inventory; place separately.');return;}const x=")
+edit('js/core.js',"if(token&&s.transactions.includes(token))return s;", "if(token&&(s.transactions.includes(token)||s.finance?.keys.includes(token)))return s;")
+edit('js/equipment-inventory.js',"if(s.ownedEquipment.length>=50)","const n=AL.StoreRules.quantity('buyEquipment',a);if(s.ownedEquipment.length+n>50)")
+edit('js/equipment-inventory.js',"if(!(s.stock[a.type]>0))", "if(!(s.stock[a.type]>=n))")
+edit('js/equipment-inventory.js',"K.pay(s,price);s.stock[a.type]--;", "K.pay(s,price*n);s.stock[a.type]-=n;for(let i=0;i<n;i++){")
+edit('js/equipment-inventory.js',"s.stats.equipmentBought++;K.log(s,d.name+' purchased into Equipment", "s.stats.equipmentBought++;}K.log(s,n+' '+d.name+' purchased into Equipment")
+edit('js/equipment-parts.js',"if(s.equipmentParts.stock[p.sku]<1)throw Error('This part is sold out.');AL.Finance.change(s,-p.price,", "const n=AL.StoreRules.quantity('buyEquipmentPart',a);if(s.equipmentParts.stock[p.sku]<n)throw Error('Not enough replacement parts in stock.');AL.Finance.change(s,-p.price*n,")
+edit('js/equipment-parts.js',"s.stats.expenses+=p.price;s.equipmentParts.stock[p.sku]--;s.equipmentParts.inventory[p.id]=(s.equipmentParts.inventory[p.id]||0)+1;", "s.stats.expenses+=p.price*n;s.equipmentParts.stock[p.sku]-=n;s.equipmentParts.inventory[p.id]=(s.equipmentParts.inventory[p.id]||0)+n;K.log(s,n+' '+p.name+' purchased into Inventory.');")
+p=R/'js/livestock-market.js';s=p.read_text(encoding='utf8');start=s.index('  function buyMedicine(');end=s.index('\n',start)
+s=s[:start]+'''  function buyMedicine(s,a){const p=AL.Health.products[a.product];if(!p)throw Error('Unknown treatment product.');const n=AL.StoreRules.quantity('buyMedicine',a);if(!(s.medicineStock[a.product]>=n))throw Error('Treatment supplies are sold out.');let l=null,price=p.price;if(p.restricted){if(s.level<4||!s.stats.nightMarket||!K.nightOpen(s))throw Error('Restricted Treatments require night-market access and opening hours.');l=verify(s,'medicine:'+a.product,a.listingId);price=l.price;}
+    let remaining=p.doses*n;const merge=p.restricted?[]:s.medicalInventory.filter(b=>b.product===a.product&&b.quantity<1000),room=merge.reduce((v,b)=>v+1000-b.quantity,0)+(80-s.medicalInventory.length)*1000;if(p.restricted?s.medicalInventory.length>=80:remaining>room)throw Error('Medical inventory batch limit reached.');
+    AL.Finance.change(s,-price*n);s.stats.expenses+=price*n;s.medicineStock[a.product]-=n;if(l)l.remaining--;for(const b of merge){const add=Math.min(1000-b.quantity,remaining);b.quantity+=add;remaining-=add;}while(remaining>0){const count=Math.min(1000,remaining);s.medicalInventory.push({id:K.id(s,'batch'),product:a.product,quantity:count,quality:l?{...l.quality}:null,examined:!p.restricted,acquired:s.time});remaining-=count;}K.log(s,n+' pack(s) of '+p.name+' added to medical inventory.');}
+''' +s[end:];p.write_text(s,encoding='utf8')
+edit('js/finance.js',"function begin(s,action,a,t,token){initialize(s);const context=describe(s,action,a,t);", "function begin(s,action,a,t,token){initialize(s);const context=describe(s,action,a,t);if(AL.StoreRules?.purchases.has(action)){const q=AL.StoreRules.quote(s,t,action,a);context.quantity=a.quantity??(action==='buyFish'?a.count:1)??1;if(q.unitPrice!==null){context.unitPrice=q.unitPrice;context.totalCost=q.total;context.note=(context.note?context.note+'; ':'')+context.quantity+' unit(s) at '+q.unitPrice+' AC';}}")
+edit('js/store.js',"token:session+'-'+(++serial),submitted:false", "token:session+'-'+(++serial),submitted:false")
+edit('js/store.js',"${p.kind==='fish'?`<label class=\"field\">Number of residents", "${quantityControls(p)}${p.kind==='fish'?`<label class=\"field\">Number of residents")
+edit('js/store.js',"    $('purchase-destination').onchange", "    if($('purchase-quantity')){$('purchase-quantity').oninput=refreshPurchase;document.querySelectorAll('[data-quantity-step]').forEach(b=>b.onclick=()=>{const field=$('purchase-quantity'),n=Number(field.value);field.value=String(Math.max(1,Math.min(Number(field.max),Number.isInteger(n)?n+Number(b.dataset.quantityStep):1)));refreshPurchase();});}\n    $('purchase-destination').onchange")
+edit('js/store.js',"args={...p.args,destinationTankId:pending.destination};", "args={...p.args,destinationTankId:pending.destination};if($('purchase-quantity'))args.quantity=Number($('purchase-quantity').value);")
+edit('js/store.js',"  function currentArgs(){", '''  function quantityControls(p){const policy=AL.StoreRules.policy(p.action,p.args);return (policy.bulk?`<label class="field" for="purchase-quantity">Quantity</label><div class="quantity-stepper"><button type="button" data-quantity-step="-1" aria-label="Decrease quantity">−</button><input id="purchase-quantity" name="quantity" type="number" inputmode="numeric" min="1" max="99" step="1" value="1" required aria-describedby="quantity-help"><button type="button" data-quantity-step="1" aria-label="Increase quantity">+</button></div>`:'')+`<p id="quantity-help" class="purchase-help">${esc(policy.reason)}</p><dl class="purchase-totals"><div><dt>Unit Price</dt><dd id="purchase-unit-price"></dd></div><div><dt>Quantity</dt><dd id="purchase-quantity-summary"></dd></div><div><dt>Total Cost</dt><dd id="purchase-total"></dd></div></dl>`;}
+  function currentArgs(){''')
+edit('js/store.js',"const enough=Number.isFinite(price)&&s.credits>=price&&availability>=(p.kind==='fish'?args.count:1);", "const quote=AL.StoreRules.quote(s,destination,action,args),n=args.quantity??1,total=p.kind==='fish'?price:price*n;const valid=Number.isSafeInteger(n)&&n>=1&&n<=99&&(p.kind!=='fish'||Number.isSafeInteger(args.count)&&args.count>0);const enough=quote.ok&&valid&&Number.isFinite(total)&&s.credits>=total&&availability>=(p.kind==='fish'?args.count:n);if($('purchase-quantity'))$('purchase-quantity').max=String(Math.max(1,quote.max));$('purchase-unit-price').textContent=unitPrice+' AC';$('purchase-quantity-summary').textContent=String(p.kind==='fish'?args.count:n);$('purchase-total').textContent=Number.isFinite(total)&&valid?total.toLocaleString('en-US')+' AC':'Invalid quantity';")
+edit('js/store.js',"· ${price} AC</strong>", "· ${Number.isFinite(total)&&valid?total+' AC':'Invalid quantity'}</strong>")
+edit('js/store.js',"if(['rock','decor'].includes(p.kind)){", "if(['rock','decor'].includes(p.kind)&&(args.quantity??1)===1){")
+edit('js/store.js',"const kind=p.kind,args={...p.args};", "const kind=p.kind,placementArgs={...args};")
+edit('js/store.js',"AL.UI.beginObject(kind,args);", "AL.UI.beginObject(kind,placementArgs);")
+edit('js/store.js',"p.kind==='equipment'?'purchased into Equipment", "p.kind==='rock'&&args.quantity>1?'purchased into Inventory':p.kind==='equipment'?'purchased into Equipment")
+edit('js/store.js',"${p.name} ${p.kind===", "${args.quantity??1} × ${p.name} ${p.kind===")
+edit('js/ui.js','v4.3.0','v4.3.1')
+edit('index.html','OFFLINE EDITION · v4.2.1','OFFLINE EDITION · v4.3.1')

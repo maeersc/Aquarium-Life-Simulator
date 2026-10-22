@@ -1,0 +1,12 @@
+{
+  "manifestSha256": "41a143a9944001049668df5102c68728c290136a9ddad78e3e83a9dc8c8f3bf5",
+  "zipSha256": "87c6c8f6853a2403f680b17683f49d627b0ffccc3e3fd345a00ef000b0639457",
+  "buildId": "7bd9f68bd6bd060f7c28de238fa7fd5dc146150f62d8a69ca1355ab0feeb1658",
+  "passed": true,
+  "before": {
+    "manifestSha256": "41a143a9944001049668df5102c68728c290136a9ddad78e3e83a9dc8c8f3bf5",
+    "zipSha256": "87c6c8f6853a2403f680b17683f49d627b0ffccc3e3fd345a00ef000b0639457",
+    "buildId": "7bd9f68bd6bd060f7c28de238fa7fd5dc146150f62d8a69ca1355ab0feeb1658"
+  },
+  "method": "Second build process, same pinned tools/sources; exact manifest and complete compressed ZIP hashes."
+}

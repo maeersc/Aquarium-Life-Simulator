@@ -1,0 +1,16 @@
+{
+  "provider": "Built-in image_gen",
+  "status": "usage_limit_reached",
+  "httpStatus": 429,
+  "resetAtUnix": 1792503451,
+  "resetAtUTC": "2026-10-20T13:37:31Z",
+  "resetAtPlayerTime": "2026-10-20 09:37:31 America/New_York",
+  "affectedIds": ["lysmata-debelius", "alpheus-randalli", "hymenocera-picta"],
+  "missingPhysicalSheets": 18,
+  "notGenerated": 14,
+  "generatedButRejected": 4,
+  "reason": "The built-in image generation tool returned HTTP429 usage_limit_reached on all three active generation sequences. Four Fire Shrimp baby/juvenile idle/walk candidates were visually rejected for red/yellow alpha noise and broad webbed appendages that do not match the approved thin-appendage source. No rejected image enters gameplay. All18 remaining physical sheets require new original drawing generation.",
+  "apiFallbackCredentialConfigured": false,
+  "apiFallbackAuthorized": false,
+  "continuation": "Resume original image generation after the quota resets, or use the imagegen skill's API fallback only after explicit user authorization and local credential configuration. Preserve rejected original files, generate revision2 for Fire Shrimp, then perform the complete native review/registration/browser/release workflow. Do not substitute stills or mark all-livestock completion."
+}

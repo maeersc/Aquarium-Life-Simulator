@@ -1,0 +1,94 @@
+{
+  "elapsedMs": 6001.5999999996275,
+  "draws": 360,
+  "fps": 59.98400426553292,
+  "frameGapP50": 16.799999999813735,
+  "frameGapP95": 17.799999999813735,
+  "frameGapP99": 18.299999999813735,
+  "drawMsP50": 0.599999999627471,
+  "drawMsP95": 0.7999999998137355,
+  "drawMsMax": 1.300000000745058,
+  "calls": {
+    "draw": {
+      "count": 360,
+      "ms": 205.69999999273568,
+      "max": 1.300000000745058
+    },
+    "vitals": {
+      "count": 6,
+      "ms": 2.5000000009313226,
+      "max": 0.5
+    },
+    "simulation": {
+      "count": 2,
+      "ms": 2.2000000001862645,
+      "max": 1.2000000001862645
+    }
+  },
+  "longTasks": [],
+  "scheduler": {
+    "raf": 1,
+    "timer": 0,
+    "mode": "tank",
+    "returning": false,
+    "pendingMinutes": 0.25792000000066634
+  },
+  "caches": {
+    "sheets": {
+      "loaded": 15,
+      "maxDecodedSheets": 128,
+      "frameCache": 225,
+      "maxFrames": 512,
+      "frameHits": 133847,
+      "frameMisses": 225,
+      "frameEvictions": 0,
+      "frameBytes": 28852224,
+      "maxFrameBytes": 33554432,
+      "decodedBytes": 31064064,
+      "maxDecodedBytes": 268435456
+    },
+    "animation": {
+      "rigBuilds": 24,
+      "poseHits": 674,
+      "poseCache": 68,
+      "maxPoses": 768
+    },
+    "rasters": {
+      "entries": 585,
+      "bytes": 6336236,
+      "maxBytes": 33554432,
+      "maxEntries": 8192,
+      "hits": 109959,
+      "misses": 585,
+      "evictions": 0
+    },
+    "sources": {
+      "active": 0,
+      "queued": 0,
+      "pending": 0
+    },
+    "layers": {
+      "entries": 6,
+      "bytes": 2764800,
+      "builds": 283
+    }
+  },
+  "state": {
+    "fish": 8,
+    "tanks": 1,
+    "gameTime": 2758.588639999999,
+    "hidden": false
+  },
+  "label": "E-sustained-end",
+  "wallSeconds": 6.015999999999622,
+  "metrics": {
+    "TaskDuration": 0.39398900000000125,
+    "ScriptDuration": 0.23772799999999972,
+    "LayoutDuration": 0.0025969999999999605,
+    "RecalcStyleDuration": 0.0008170000000000122
+  },
+  "heapBytes": 8513784,
+  "nodes": 4440,
+  "listeners": 500,
+  "mainThreadCorePercent": 6.549019281915326
+}

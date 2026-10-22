@@ -1,0 +1,5 @@
+# Soft-tissue state correction
+
+Built-in imagegen edit. Original source-v1.png preserved; source-v2.png corrects the tissue-loss/dead art.
+
+Correct only the tissue-loss and dead states in columns FOUR and FIVE of both rows of this 5 by 2 pixel-art atlas. This is mushroom corals (soft fleshy discs), NOT a stony coral. They do not produce white cup-shaped calcium skeletons. In column FOUR replace those white skeleton cups with patches of missing soft tissue, dark bare substrate and a few remaining living polyps/discs. In column FIVE show collapsed, shriveled dark-brown soft tissue remnants on the bare original colony base, with no white skeleton cups, no open living polyps and no intact bright discs. Preserve columns 1, 2 and 3 exactly, same canvas grid, same colony bases, same pixel-art style, same lighting, and the two animation rows. Preserve genuine transparency in all empty areas and holes. No text or background. Keep these two corrected states biologically visually distinct from intact pale-but-living bleaching in column 3.

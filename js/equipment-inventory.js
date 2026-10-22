@@ -23,11 +23,11 @@ AL.Inventory=(()=>{
  function buy(s,t,a){const d=D.equipment[a.type],m=a.heaterModel!==undefined?AL.Heaters.get(a.heaterModel):null;
   if(!d||a.heaterModel!==undefined&&(!m||a.type!=='heater'))throw Error('Unknown equipment model.');
   if(t.water!=='marine'||d.water&&d.water!==t.water)throw Error('Choose a compatible saltwater sizing aquarium.');
-  if(s.ownedEquipment.length>=50)throw Error('Equipment storage is full (50 items).');if(!(s.stock[a.type]>0))throw Error('Sold out.');
-  const capacity=m?.capacity||Math.max(d.capacity,t.volume),price=m?.price||Math.ceil(d.price*Math.max(1,t.volume/d.capacity));K.pay(s,price);s.stock[a.type]--;
+  const n=AL.StoreRules.quantity('buyEquipment',a);if(s.ownedEquipment.length+n>50)throw Error('Equipment storage is full (50 items).');if(!(s.stock[a.type]>=n))throw Error('Sold out.');
+  const capacity=m?.capacity||Math.max(d.capacity,t.volume),price=m?.price||Math.ceil(d.price*Math.max(1,t.volume/d.capacity));K.pay(s,price*n);s.stock[a.type]-=n;for(let i=0;i<n;i++){
   const e={id:K.id(s,'equipment'),type:a.type,capacity,durability:100,enabled:true,...(m?{heaterModel:m.id}: {})};
   if(['heater','chiller'].includes(a.type))e.temperatureTarget=t.temperatureTarget;
-  AL.EquipmentReliability?.initialize(s,e,true);s.ownedEquipment.push(e);s.stats.equipmentBought++;K.log(s,d.name+' purchased into Equipment → Inventory.');
+  AL.EquipmentReliability?.initialize(s,e,true);s.ownedEquipment.push(e);s.stats.equipmentBought++;}K.log(s,n+' '+d.name+' purchased into Equipment → Inventory.');
  }
  function install(s,t,a){const e=s.ownedEquipment.find(e=>e.id===a.id),r=equipmentReport(s,e,t);if(!r.ok)throw Error(r.reasons.join(' '));t.equipment.push(e);s.ownedEquipment=s.ownedEquipment.filter(n=>n!==e);K.log(s,D.equipment[e.type].name+' installed in '+t.name+'.');}
  function installed(t,a){return t.equipment.find(e=>a.id?e.id===a.id:e.type===a.type);}

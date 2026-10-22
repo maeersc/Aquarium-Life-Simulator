@@ -1,0 +1,8 @@
+{
+  "id": "zoa",
+  "stage": "frag",
+  "state": "polyp_motion",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\zoa\\frag.png",
+  "prompt": "Aquarium Life Garden zoanthids frag actual 16-frame living coral sprite sheet. Attached PNG is exact existing approved identity, rock attachment and detailed classic16-bit pixel style. Retain same fixed polyp count, arrangement, blue green oral discs and orange yellow tentacle fringe. ONE transparent square PNG FOUR equal columns FOUR equal rows, sixteen distinct successive tiny tentacle/fringe poses, a very slow calm living polyp motion cycle. Do not sway the rigid rock/base, do not move whole polyps, do not change the oral disc positions or rock contour. Draw all16 original poses, gentle progressive opening and relaxing of outer polyp fringes by a few sourcepixels; seamless16-to1 return. Fixed scale, fixed bottom/center registered rock, original colors and central mouths remain fixed. Full silhouette central75% of every cell, wide truly transparent gutters, no text/grid/background/shadow/blur/glow/antialias/checkerboard. Match approved source pixelart exactly. No dramatic bending or whole-colony wobble.",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-33a9396a-0574-4971-ba61-5354dec31e90.png"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "sps",
+  "name": "Branching SPS",
+  "family": "corals",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "frames": 10,
+  "frameDurationMs": 1250,
+  "atlas": "assets/livestock/corals/sps/atlas-v11.png",
+  "bounds": [
+    [
+      12,
+      12,
+      180,
+      184
+    ],
+    [
+      12,
+      11,
+      180,
+      184
+    ],
+    [
+      12,
+      11,
+      180,
+      184
+    ],
+    [
+      12,
+      11,
+      179,
+      184
+    ],
+    [
+      13,
+      10,
+      178,
+      184
+    ],
+    [
+      12,
+      11,
+      180,
+      184
+    ],
+    [
+      12,
+      12,
+      179,
+      184
+    ],
+    [
+      12,
+      11,
+      179,
+      184
+    ],
+    [
+      12,
+      12,
+      179,
+      184
+    ],
+    [
+      13,
+      10,
+      178,
+      184
+    ]
+  ],
+  "anchor": [
+    96,
+    184
+  ],
+  "runtimeFloraId": "sps",
+  "states": [
+    "healthy",
+    "stressed",
+    "bleached",
+    "tissue-loss",
+    "dead"
+  ],
+  "stateFrames": {
+    "healthy": [
+      0,
+      5
+    ],
+    "stressed": [
+      1,
+      6
+    ],
+    "bleached": [
+      2,
+      7
+    ],
+    "tissue-loss": [
+      3,
+      8
+    ],
+    "dead": [
+      4,
+      9
+    ]
+  },
+  "facingBehavior": "stationary",
+  "layer": "flora",
+  "source": "source-v1.png",
+  "rigid": true
+}

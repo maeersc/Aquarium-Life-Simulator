@@ -1,0 +1,86 @@
+{
+  "verifiedAt": "2026-10-21T20:54:16.248679+00:00",
+  "gameContent": "v4.2.1",
+  "builtAt": "2026-10-21T20:33:53.491347+00:00",
+  "manifestSha256": "ae8f6d902edf3198f943dae72875baf7ab3a87b0cfec6adf729ac677ac5db838",
+  "distBrowserChecksPassed": 6248,
+  "failed": 0,
+  "suites": {
+    "fullInteractiveAuditChrome": {
+      "passed": 72,
+      "failed": 0,
+      "entry": "DIST/index.html",
+      "evidence": "tests/tutorial-audit-evidence/chrome-results.json",
+      "sha256": "c4c57b403e1df4adafc2418afdcc829f450cbbae13a54cb14648da058234acce"
+    },
+    "existingTutorialEdge": {
+      "passed": 142,
+      "failed": 0,
+      "entry": "DIST/index.html",
+      "evidence": "tests/tutorial-audit-evidence/dist-existingTutorialEdge.json",
+      "sha256": "7b4eaab0433b5ae9474db9bb15aeaaa11248e3978c80f857ed741b823d3b45a4"
+    },
+    "offlineReliabilityChrome": {
+      "passed": 787,
+      "failed": 0,
+      "entry": "DIST/index.html",
+      "evidence": "tests/tutorial-audit-evidence/dist-offlineReliabilityChrome.json",
+      "sha256": "9eaeede744fe8473e5f06202b85338bf15d00f73e46b7faf29b4f96b8a487124"
+    },
+    "economyEdge": {
+      "passed": 85,
+      "failed": 0,
+      "entry": "DIST/index.html",
+      "evidence": "tests/tutorial-audit-evidence/dist-economyEdge.json",
+      "sha256": "eb1116ad5823f6c5f3f1b0572aae04f636f4a49b2b330c2b433fd6c27582feeb"
+    },
+    "pagesReceivingAndLocalSaveEdge": {
+      "passed": 5162,
+      "failed": 0,
+      "entry": "DIST served at repository subpath",
+      "evidence": "tests/tutorial-audit-evidence/dist-pagesReceivingAndLocalSaveEdge.json",
+      "sha256": "a33b0b1dc71bf084684dbb26cda92bd70b828c30d735131f7d2dfe74abfba71b"
+    }
+  },
+  "cleanPlayerWalkthroughCompleted": true,
+  "existingPlayerWalkthroughCompleted": true,
+  "actualReloadCheckpoints": [
+    "preparation",
+    "installation",
+    "cycling",
+    "purchasing",
+    "receiving"
+  ],
+  "realCycleTiming": {
+    "cycleStartGame": 486.67968,
+    "cycleWallSeconds": 90.125,
+    "cycleEndGame": 2648.68844
+  },
+  "stateGraphNodes": 22,
+  "mainSaveVersion": 2,
+  "tutorialSaveVersion": 2,
+  "sourceDistPagesZipFilesAllHashesMatch": 2008,
+  "sourceBytes": 844273006,
+  "protectedRuntimeDataArtAndCssFiles": 2507,
+  "masterSections": 31,
+  "continuityExactCopies": 1,
+  "permanentTraversabilityRuleCopiesInMaster": 1,
+  "savePolicy": "Device-local browser localStorage; user-controlled JSON download/import; no server saves",
+  "pagesArchive": {
+    "path": "AquariumLife-GitHub-Pages.zip",
+    "bytes": 753273803,
+    "sha256": "517ecc1648a5a6c19770fd02c3c9315273c935cf4db3f2eb6fb8d6cd1ed685c7",
+    "crcVerified": true
+  },
+  "portableSourceFinalVerificationCommand": "python tests/verify_sprite_production_release.py --source-archive --check-only",
+  "untested": [
+    "Safari",
+    "Firefox",
+    "screen-reader software"
+  ],
+  "remainingRestrictions": [
+    "Actual funds, stock, species requirements, water quality, equipment and medical restrictions remain enforced.",
+    "Starter recommendations use supported group-one beginner profiles."
+  ],
+  "report": "TUTORIAL_FULL_AUDIT_AND_REPAIR_REPORT.md"
+}

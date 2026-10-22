@@ -1,5 +1,13 @@
 # Aquarium Life — GitHub Pages deployment
 
+## Protected production distribution - 2026-10-22
+
+Current master v4.17; gameplay remains v4.3.1 with a new protected distribution pipeline. Production now minifies JS/CSS, shortens internal identifiers, uses content-derived code filenames and excludes review pages, source maps, project documentation and tooling. Human-readable game code and original assets remain untouched. Assets retain their original pixels and offline file transports; no encryption, passwords, licensing dependency, profile rewrite or save-key change is introduced. Runtime safety and the mandatory performance pass take priority over obfuscation. DISTRIBUTION_PROTECTION_REPORT.md records exact mechanisms, commands, executed tests, benchmarks and limits. Earlier build descriptions are historical where superseded.
+
+## Current delivery — playable v4.3.1, 2026-10-22
+
+The current UI polish and store quantity release is rebuilt with `python build.py`. Deploy all contents of DIST, including `.nojekyll`, or extract AquariumLife-GitHub-Pages.zip at the Pages site root. Original local art and on-demand native source transports remain included. All player saves, inventories, receipts and profiles remain device-local; JSON export/import moves a collection between browser/site origins. See UI_POLISH_QUANTITY_REPORT.md and STORE_QUANTITY_RULES.md. Earlier release sections are historical where superseded.
+
 ## Current v3.8 delivery — 2026-10-15
 
 DIST is rebuilt from current local source with python build.py; deploy its contents (including .nojekyll) at the Pages site root. The Pages ZIP contains those same contents. Breeding, all account saves and JSON backups remain local to the player's browser/PC. Export/import JSON when changing file/site/browser origin. See BREEDING_UPDATE_REPORT.md for actual release verification.
@@ -30,13 +38,9 @@ Build the latest game from the development folder:
 python build.py
 ```
 
-The build refreshes `DIST/index.html`, scripts, styles, referenced local art and
-review pages. It removes stale generated files, checks exact filename case and
-source/output hashes, writes `DIST/build-manifest.json`, adds `.nojekyll`, and
-rebuilds `AquariumLife-GitHub-Pages.zip`. Python's standard library is enough;
-no Node install, package downloads or server is required to build or play locally.
-This classic-script game has no transpilation stage. Current source scripts and
-prebuilt art banks are copied exactly; rebuilding does not regenerate artwork.
+First prepare the private build tools once with `python tools/production/bootstrap.py`. They use pinned package-lock versions and an isolated portable Node runtime; they are never player dependencies. Subsequent `python build.py` runs use the local installed toolchain without downloading packages.
+
+The protected build transforms into DIST only, preserves original development files, emits hashed/minified scripts and styles, retains required original images/file transports, removes stale development files, writes output checksums and produces a deterministic root-level Pages ZIP. No source maps, development review pages, source mapping records, tests, tools or player saves ship. The game remains classic-script and opens directly at DIST/index.html with no server. No assets or profiles are encrypted. Keep AquariumLife-v0.1.zip private: it is the separate human-readable development archive, not a deployment artifact. See DISTRIBUTION_PROTECTION_REPORT.md for exact protections and limitations.
 
 ## Upload the finished contents
 

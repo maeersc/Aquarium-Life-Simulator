@@ -1,0 +1,84 @@
+{
+  "elapsedMs": 4002,
+  "draws": 0,
+  "fps": 0,
+  "frameGapP50": null,
+  "frameGapP95": null,
+  "frameGapP99": null,
+  "drawMsP50": null,
+  "drawMsP95": null,
+  "drawMsMax": 0,
+  "calls": {
+    "vitals": {
+      "count": 4,
+      "ms": 1.8999999994412065,
+      "max": 0.599999999627471
+    }
+  },
+  "longTasks": [],
+  "scheduler": {
+    "raf": 0,
+    "timer": 1,
+    "mode": "covered",
+    "returning": false,
+    "pendingMinutes": 4.328999999999999
+  },
+  "caches": {
+    "sheets": {
+      "loaded": 15,
+      "maxDecodedSheets": 128,
+      "frameCache": 225,
+      "maxFrames": 512,
+      "frameHits": 75203,
+      "frameMisses": 225,
+      "frameEvictions": 0,
+      "frameBytes": 28852224,
+      "maxFrameBytes": 33554432,
+      "decodedBytes": 31064064,
+      "maxDecodedBytes": 268435456
+    },
+    "animation": {
+      "rigBuilds": 24,
+      "poseHits": 674,
+      "poseCache": 68,
+      "maxPoses": 768
+    },
+    "rasters": {
+      "entries": 585,
+      "bytes": 6336236,
+      "maxBytes": 33554432,
+      "maxEntries": 8192,
+      "hits": 67308,
+      "misses": 585,
+      "evictions": 0
+    },
+    "sources": {
+      "active": 0,
+      "queued": 0,
+      "pending": 0
+    },
+    "layers": {
+      "entries": 6,
+      "bytes": 2764800,
+      "builds": 106
+    }
+  },
+  "state": {
+    "fish": 1,
+    "tanks": 1,
+    "gameTime": 2665.030319999999,
+    "hidden": false
+  },
+  "label": "casino",
+  "wallSeconds": 4.0,
+  "metrics": {
+    "TaskDuration": 0.050829000000000235,
+    "ScriptDuration": 0.00541199999999975,
+    "LayoutDuration": 0.012852999999999976,
+    "RecalcStyleDuration": 0.0019889999999999977
+  },
+  "heapBytes": 10741072,
+  "nodes": 5138,
+  "listeners": 508,
+  "mainThreadCorePercent": 1.2707250000000059
+}

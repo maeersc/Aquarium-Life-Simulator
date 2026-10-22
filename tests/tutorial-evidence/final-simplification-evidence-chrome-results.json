@@ -1,0 +1,432 @@
+{
+  "entry": "index.html",
+  "passed": 106,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "New profile starter size receives its exact one-time reward",
+      "pass": true
+    },
+    {
+      "name": "15,000-gallon price is25000 and all prior other prices are retained",
+      "pass": true
+    },
+    {
+      "name": "15,000-gallon purchase debits25000, creates size award once and values shell25000",
+      "pass": true
+    },
+    {
+      "name": "Existing large aquarium migration never retrocharges its owner",
+      "pass": true
+    },
+    {
+      "name": "One fish species grants50XP50AC once, even when purchased twice",
+      "pass": true
+    },
+    {
+      "name": "Designer morphs, stages and sex share their biological species key",
+      "pass": true
+    },
+    {
+      "name": "Unknown legacy coral groups never invent biological species rewards",
+      "pass": true
+    },
+    {
+      "name": "Received coral and bottom dwellers gain independent biological rewards",
+      "pass": true
+    },
+    {
+      "name": "Actual supported coral purchase awards its biological species once",
+      "pass": true
+    },
+    {
+      "name": "A wallet-cap reward is queued without breaking simulation and later paid once",
+      "pass": true
+    },
+    {
+      "name": "Unhatched eggs and temporary expedition specimens receive no ownership award",
+      "pass": true
+    },
+    {
+      "name": "Unique successful destinations pay50XP50AC; repeats and failures do not",
+      "pass": true
+    },
+    {
+      "name": "Another catalog size awards once; a second aquarium of that size does not",
+      "pass": true
+    },
+    {
+      "name": "Legacy discoveries backfill without invented AC,XP or transactions",
+      "pass": true
+    },
+    {
+      "name": "Additional objective registry covers13 meaningful goals without new cash rewards",
+      "pass": true
+    },
+    {
+      "name": "Maintenance preserves chassis and all component conditions",
+      "pass": true
+    },
+    {
+      "name": "Replacing a supported impeller costs its exact rated catalog price and preserves other wear/age/identity",
+      "pass": true
+    },
+    {
+      "name": "An owned matching rated part is consumed once without another charge",
+      "pass": true
+    },
+    {
+      "name": "Sealed heater components cannot be purchased as imaginary service parts",
+      "pass": true
+    },
+    {
+      "name": "Whole-aquarium quote itemizes physical assets and excludes storage",
+      "pass": true
+    },
+    {
+      "name": "Placed recovered rocks retain their original quantity and condition in the shared resale quote",
+      "pass": true
+    },
+    {
+      "name": "Confirmed atomic sale preserves other aquarium and storage; selected tank falls back safely",
+      "pass": true
+    },
+    {
+      "name": "Selling the last aquarium persists an actual empty profile and permits buying again",
+      "pass": true
+    },
+    {
+      "name": "Missing confirmation and stale quotes never partially delete or pay",
+      "pass": true
+    },
+    {
+      "name": "Restricted livestock and eggs block the whole sale before confirmation",
+      "pass": true
+    },
+    {
+      "name": "Whole-sale livestock offers equal60% of the same Deep reference",
+      "pass": true
+    },
+    {
+      "name": "Gold Fish pair wager50 returns exactly100 gross",
+      "pass": true
+    },
+    {
+      "name": "Gold Fish pair wager100 returns exactly200 gross",
+      "pass": true
+    },
+    {
+      "name": "Gold Fish pair wager250 returns exactly500 gross",
+      "pass": true
+    },
+    {
+      "name": "Gold Fish pair wager1000 returns exactly2000 gross",
+      "pass": true
+    },
+    {
+      "name": "All1000 Gold Fish outcomes preserve non-pair multipliers",
+      "pass": true
+    },
+    {
+      "name": "Casino deduction, settlement, ledger and duplicate settlement reconcile",
+      "pass": true
+    },
+    {
+      "name": "Saved legacy settled pair keeps its original historical payout without retroactive credit",
+      "pass": true
+    },
+    {
+      "name": "Saved unresolved legacy pair upgrades payout rules once, without another wager debit",
+      "pass": true
+    },
+    {
+      "name": "Saved casino limits, rounds and new visits remain profile-specific",
+      "pass": true
+    },
+    {
+      "name": "Pair chance is exactly5% configured; fixed-seed distribution is within statistical tolerance",
+      "pass": true
+    },
+    {
+      "name": "Opening the same listing repeatedly never rerolls identities or availability",
+      "pass": true
+    },
+    {
+      "name": "Every modeled reproductive strategy gets appropriate mature distinct individuals",
+      "pass": true
+    },
+    {
+      "name": "Unmodeled and schooling reproductive systems do not receive fabricated pairs",
+      "pass": true
+    },
+    {
+      "name": "A pair purchase transfers two existing identities, charges once and persists its receipt",
+      "pass": true
+    },
+    {
+      "name": "The combined adult stocking load and quarantine rules reject unsafe pair receiving",
+      "pass": true
+    },
+    {
+      "name": "Offer JSON round trip retains5%roll, price, both identities and private genetics",
+      "pass": true
+    },
+    {
+      "name": "Every eligible implemented fish automatically generates and saves two valid individuals",
+      "pass": true
+    },
+    {
+      "name": "Legacy Fiji and Caribbean region IDs validate successful destination rewards",
+      "pass": true
+    },
+    {
+      "name": "Actual expedition completion pays a first destination once through Core",
+      "pass": true
+    },
+    {
+      "name": "Selling and repurchasing a species after reload cannot award discovery again",
+      "pass": true
+    },
+    {
+      "name": "One incoming adult can fit while combined pair load correctly blocks both",
+      "pass": true
+    },
+    {
+      "name": "Account Casino Profile visits remain usable with a retained locked freshwater selection",
+      "pass": true
+    },
+    {
+      "name": "Legacy freshwater size history backfills without changing biology or rewarding a duplicate marine size",
+      "pass": true
+    },
+    {
+      "name": "Freshwater stays noninteractive and the day remains20 real minutes",
+      "pass": true
+    },
+    {
+      "name": "Master transaction failure preserves original owned aquarium and livestock arrays",
+      "pass": true
+    },
+    {
+      "name": "Six useful main navigation entries; no unfinished previews",
+      "pass": true
+    },
+    {
+      "name": "Premium placeholder and development links removed from main aquarium",
+      "pass": true
+    },
+    {
+      "name": "Tank Care is the main equipment destination",
+      "pass": true
+    },
+    {
+      "name": "Care tabs expose all existing routine operations",
+      "pass": true
+    },
+    {
+      "name": "Window chooser contains exactly the same six destinations",
+      "pass": true
+    },
+    {
+      "name": "Actual Feeding form consumes compatible inventory",
+      "pass": true
+    },
+    {
+      "name": "Feeding forecast retains game days and adds real hours",
+      "pass": true
+    },
+    {
+      "name": "Lighting form preserves working On/Off and schedule controls",
+      "pass": true
+    },
+    {
+      "name": "Actual Water Changes action uses existing exact quote",
+      "pass": true
+    },
+    {
+      "name": "Water laboratory retains readings and routes changes through one care workflow",
+      "pass": true
+    },
+    {
+      "name": "Laboratory water-change link opens the existing preview and confirmation",
+      "pass": true
+    },
+    {
+      "name": "Installed equipment dropdown narrows the category without hiding storage",
+      "pass": true
+    },
+    {
+      "name": "Equipment list keeps routine service and inspection with fewer actions",
+      "pass": true
+    },
+    {
+      "name": "Inspector retains transfers/removal and separate Maintenance/Replace Part",
+      "pass": true
+    },
+    {
+      "name": "Age and wear details are collapsed; service controls remain visible",
+      "pass": true
+    },
+    {
+      "name": "Actual Maintenance preserves equipment identity and age",
+      "pass": true
+    },
+    {
+      "name": "Inspector on/off action updates the actual device and its label",
+      "pass": true
+    },
+    {
+      "name": "Inspector can turn the same device back on",
+      "pass": true
+    },
+    {
+      "name": "Transfer destination workflow remains accessible from inspector",
+      "pass": true
+    },
+    {
+      "name": "Equipment removal still requires explicit confirmation",
+      "pass": true
+    },
+    {
+      "name": "Existing achievement links route into grouped Progress",
+      "pass": true
+    },
+    {
+      "name": "Progress objectives retain optional saved care objectives",
+      "pass": true
+    },
+    {
+      "name": "Header Keeper Level shortcut reaches grouped Progress",
+      "pass": true
+    },
+    {
+      "name": "Local asset comparison is available inside My Aquariums",
+      "pass": true
+    },
+    {
+      "name": "Development review pages remain available in collapsed developer tools",
+      "pass": true
+    },
+    {
+      "name": "Warning summary lists three notes and retains every additional unique note",
+      "pass": true
+    },
+    {
+      "name": "Expanded warning details survive recurring updates",
+      "pass": true
+    },
+    {
+      "name": "Warnings recover after an empty-tank view clears its contents",
+      "pass": true
+    },
+    {
+      "name": "Simplification requires no new save schema or ownership migration",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: care fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: feeding fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: change fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: lighting fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: inventory fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: care fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: feeding fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: change fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: lighting fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: inventory fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: care fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: feeding fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: change fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: lighting fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: inventory fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: care fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: feeding fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: change fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: lighting fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: inventory fits without horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Zero-tank profile: equipment/inventory retains a usable view",
+      "pass": true
+    },
+    {
+      "name": "Zero-tank profile: equipment/feeding retains a usable view",
+      "pass": true
+    },
+    {
+      "name": "Zero-tank profile: journal/keeper retains a usable view",
+      "pass": true
+    },
+    {
+      "name": "Zero-tank profile: aquariums/owned retains a usable view",
+      "pass": true
+    },
+    {
+      "name": "Zero-tank profile: settings/preferences retains a usable view",
+      "pass": true
+    },
+    {
+      "name": "No uncaught JavaScript exceptions",
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,1016 @@
+{
+  "browser": "edge",
+  "startup": {
+    "protocol": "file:",
+    "stylesheets": 3,
+    "errors": []
+  },
+  "probes": [
+    {
+      "id": "R01",
+      "name": "All current data, catalogs and local render banks load",
+      "pass": true,
+      "actual": {
+        "fish": 52,
+        "marine": 41,
+        "fresh": 11,
+        "corals": 5,
+        "clownfish": 31,
+        "varieties": 25,
+        "holds": [
+          "amphiprion-leucokranos",
+          "amphiprion-mccullochi",
+          "amphiprion-latezonatus",
+          "amphiprion-thiellei",
+          "amphiprion-maohiensis"
+        ],
+        "sizes": [
+          20,
+          40,
+          75,
+          150,
+          300,
+          500,
+          1000,
+          2500,
+          5000
+        ]
+      }
+    },
+    {
+      "id": "R02",
+      "name": "Every implemented fish and designer has all required stage/death frames",
+      "pass": true,
+      "actual": {
+        "checked": 616,
+        "missing": []
+      }
+    },
+    {
+      "id": "R03",
+      "name": "Every current fish stage/death pose reaches the actual renderer",
+      "pass": true,
+      "actual": {
+        "seen": 311,
+        "deaths": 156,
+        "badFlip": 0,
+        "immutable": true
+      }
+    },
+    {
+      "id": "R04",
+      "name": "Old 27-sheet life-stage pixel suite still validates its actual files",
+      "pass": true,
+      "actual": "Executed independently by the Python runner; current renderer coverage is R03."
+    },
+    {
+      "id": "R05",
+      "name": "Shallow sandbase preview and transaction agree",
+      "pass": false,
+      "actual": {
+        "preview": "Suitable",
+        "y": 0.9364583333333333,
+        "committed": false,
+        "error": "Invalid plant/coral vertical position."
+      }
+    },
+    {
+      "id": "R06",
+      "name": "Upper rack preview and save-coordinate limits agree",
+      "pass": false,
+      "actual": {
+        "preview": "Suitable",
+        "blocked": true,
+        "unchanged": true,
+        "error": "Invalid plant/coral vertical position."
+      }
+    },
+    {
+      "id": "R07",
+      "name": "Adding a rock cannot bury an existing sand-mounted coral",
+      "pass": true,
+      "actual": {
+        "blocked": true,
+        "unchanged": true,
+        "error": "Coral attachment is missing or unsupported."
+      }
+    },
+    {
+      "id": "R08",
+      "name": "Moving rock cannot bury a coral attached to another support",
+      "pass": true,
+      "actual": {
+        "blocked": true,
+        "unchanged": true,
+        "error": "Coral attachment is missing or unsupported."
+      }
+    },
+    {
+      "id": "R09",
+      "name": "Sand-depth edit checks grown coral boundaries",
+      "pass": false,
+      "actual": {
+        "grownPlacement": "Invalid",
+        "blocked": false,
+        "unchanged": true
+      }
+    },
+    {
+      "id": "R10",
+      "name": "Side-glass rack remains attached to side glass after a move",
+      "pass": false,
+      "actual": {
+        "glass": "left",
+        "x": 0.5,
+        "scope": "Core API/review scene; current store sells back-glass racks"
+      }
+    },
+    {
+      "id": "R11",
+      "name": "SPS transfer offers a valid destination mounting position",
+      "pass": false,
+      "actual": {
+        "defaultGUIArguments": {
+          "blocked": true,
+          "unchanged": true,
+          "error": "Unsupported open water. Use a suitable rock surface, stable sandbed base or mounted frag rack."
+        },
+        "withExplicitCoordinates": 1
+      }
+    },
+    {
+      "id": "R12",
+      "name": "New aquarium is completely dry and empty per master setup rule",
+      "pass": false,
+      "actual": {
+        "fish": 0,
+        "corals": 0,
+        "rocks": 5,
+        "sandDepth": 2.4,
+        "equipment": 4,
+        "waterParameters": true,
+        "prepared": false
+      }
+    },
+    {
+      "id": "R13",
+      "name": "Fish motion rejects paths through solid rock",
+      "pass": false,
+      "actual": {
+        "initial": {
+          "x": 0.1,
+          "y": 0.8400000000000003
+        },
+        "after": {
+          "x": 0.1010342,
+          "y": 0.8400000000000003
+        },
+        "insideSolid": true
+      }
+    },
+    {
+      "id": "R14",
+      "name": "Complete fish silhouettes stay within view boundaries",
+      "pass": false,
+      "actual": {
+        "bounds": {
+          "id": "fish7",
+          "x": 0.03958333333333333,
+          "y": 0.1,
+          "w": 0.18125,
+          "h": 0.30416666666666664
+        },
+        "left": -0.051041666666666666,
+        "top": -0.052083333333333315
+      }
+    },
+    {
+      "id": "R15",
+      "name": "Non-clown living adult fins animate in gameplay",
+      "pass": false,
+      "actual": {
+        "species": "gramma",
+        "frameCount": 1,
+        "source": "LifeStages.forFish; renderer chooses this static stage pose"
+      }
+    },
+    {
+      "id": "R16",
+      "name": "Living coral bleaching is reachable as a distinct runtime health state",
+      "pass": false,
+      "actual": {
+        "reachable": [
+          "dead",
+          "tissue-loss",
+          "stressed",
+          "healthy"
+        ],
+        "bleachedArtExists": true
+      }
+    },
+    {
+      "id": "R17",
+      "name": "Dead coral tissue adds organic waste",
+      "pass": false,
+      "actual": {
+        "dead": 0,
+        "control": 0
+      }
+    },
+    {
+      "id": "R18",
+      "name": "Corpses can sink, settle and visually decompose",
+      "pass": false,
+      "actual": {
+        "before": 0.7,
+        "after": 0.45999999999999996,
+        "ageChangesArt": false
+      }
+    },
+    {
+      "id": "R19",
+      "name": "Designer breeding preserves an explicit phenotype model",
+      "pass": false,
+      "actual": {
+        "offspring": [
+          {
+            "species": "clown",
+            "variety": null,
+            "parents": [
+              "fish7",
+              "fish8"
+            ],
+            "genes": {
+              "color": 1.0567436284641736,
+              "size": 1.015130478828214,
+              "longevity": 0.9863705654861407,
+              "immunity": 1.0609272002917713,
+              "fertility": 1.04777149053989
+            }
+          },
+          {
+            "species": "clown",
+            "variety": null,
+            "parents": [
+              "fish7",
+              "fish8"
+            ],
+            "genes": {
+              "color": 1.0567436284641736,
+              "size": 1.015130478828214,
+              "longevity": 0.9863705654861407,
+              "immunity": 1.0609272002917713,
+              "fertility": 1.04777149053989
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "R20",
+      "name": "Protected established female sex never reverts after partner replacement",
+      "pass": true,
+      "actual": {
+        "sex": "F"
+      }
+    },
+    {
+      "id": "R21",
+      "name": "All living entities retain known species and valid saved identities",
+      "pass": true,
+      "actual": {
+        "fish": [
+          {
+            "id": "fish7",
+            "species": "clown",
+            "variety": "snowflake-ocellaris"
+          },
+          {
+            "id": "fish8",
+            "species": "clown",
+            "variety": "snowflake-ocellaris"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R22",
+      "name": "Old unsupported corals remain owned and flagged for relocation",
+      "pass": true,
+      "actual": {
+        "count": 1,
+        "relocation": true
+      }
+    },
+    {
+      "id": "R23",
+      "name": "Relocation-required coral does not contribute active reef growth/rewards",
+      "pass": false,
+      "actual": {
+        "ages": [
+          1.0416666666666679,
+          1.0416666666666679,
+          1.0416666666666679
+        ],
+        "mineralConsumption": 0.27022274999995943,
+        "reefQuestProgress": 3
+      }
+    },
+    {
+      "id": "R24",
+      "name": "Tank selection persists through an explicit destination purchase",
+      "pass": true,
+      "actual": {
+        "selected": "tank1",
+        "after": "tank1"
+      }
+    },
+    {
+      "id": "R25",
+      "name": "Unknown destination and unsafe water purchases reject without charges",
+      "pass": true,
+      "actual": {
+        "oxygen": {
+          "blocked": true,
+          "unchanged": true,
+          "error": "Increase dissolved oxygen to at least 5.5 mg/L."
+        },
+        "destination": {
+          "blocked": true,
+          "unchanged": true,
+          "error": "The destination aquarium no longer exists. Choose another aquarium."
+        }
+      }
+    },
+    {
+      "id": "R26",
+      "name": "Schema migration, corruption protection and future-version rejection",
+      "pass": true,
+      "actual": {
+        "migrated": 2,
+        "futureRejected": true,
+        "corruptRejected": true
+      }
+    },
+    {
+      "id": "R27",
+      "name": "Bounded offline return validates after maximum eight-hour catch-up",
+      "pass": true,
+      "actual": {
+        "hours": 8,
+        "message": "Simulated 8.0 hours away (capped): 0 losses, 0 AC net.",
+        "deaths": 0,
+        "valid": true
+      }
+    },
+    {
+      "id": "R28",
+      "name": "Algae and substrate maturation state exists",
+      "pass": false,
+      "actual": {
+        "before": {
+          "type": "fiji",
+          "depth": 2.4
+        },
+        "after": {
+          "type": "fiji",
+          "depth": 2.4
+        }
+      }
+    },
+    {
+      "id": "R29",
+      "name": "Sand installation calculates mass and displaced water volume",
+      "pass": false,
+      "actual": {
+        "substrate": {
+          "type": "fiji",
+          "depth": 5
+        },
+        "nominalVolume": 300,
+        "effectiveVolume": null
+      }
+    },
+    {
+      "id": "R30",
+      "name": "Sand-depth edits prevent unsupported living coral",
+      "pass": true,
+      "actual": {
+        "blocked": true,
+        "unchanged": true,
+        "error": "Relocate sandbed corals before removing their substrate."
+      }
+    },
+    {
+      "id": "R31",
+      "name": "Species metadata includes scientific identity and verified care",
+      "pass": false,
+      "actual": {
+        "missingScientificNames": [
+          "guppy",
+          "neon",
+          "cardinal",
+          "betta",
+          "cory",
+          "danio",
+          "harlequin",
+          "platy",
+          "angel",
+          "pleco",
+          "gramma",
+          "firefish",
+          "watchman",
+          "banggai",
+          "chromis",
+          "yellowtang",
+          "sixline",
+          "blenny",
+          "marinebetta"
+        ],
+        "held": [
+          "amphiprion-leucokranos",
+          "amphiprion-mccullochi",
+          "amphiprion-latezonatus",
+          "amphiprion-thiellei",
+          "amphiprion-maohiensis"
+        ],
+        "realLifespansVerified": 0
+      }
+    },
+    {
+      "id": "R36",
+      "name": "Fish transfer rejects oxygen-unsafe destinations",
+      "pass": false,
+      "actual": {
+        "blocked": false,
+        "unchanged": true,
+        "oxygen": 1
+      }
+    },
+    {
+      "id": "R37",
+      "name": "Fish transfer preserves separate clownfish species territories",
+      "pass": false,
+      "actual": {
+        "blocked": false,
+        "unchanged": true
+      }
+    },
+    {
+      "id": "R38",
+      "name": "Coral transfer rejects critically unsafe reef water",
+      "pass": false,
+      "actual": {
+        "blocked": false,
+        "unchanged": true,
+        "oxygen": 1,
+        "ammonia": 10
+      }
+    },
+    {
+      "id": "R32",
+      "name": "Store quantity input does not throw a JavaScript exception",
+      "pass": false,
+      "actual": {
+        "errors": [
+          {
+            "timestamp": 1791859096717.443,
+            "exceptionDetails": {
+              "exceptionId": 1,
+              "text": "Uncaught TypeError: Cannot read properties of undefined (reading 'level')",
+              "lineNumber": 64,
+              "columnNumber": 136,
+              "scriptId": "22",
+              "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/ui.js",
+              "stackTrace": {
+                "callFrames": [
+                  {
+                    "functionName": "updateCompatibility",
+                    "scriptId": "22",
+                    "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/ui.js",
+                    "lineNumber": 64,
+                    "columnNumber": 136
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "22",
+                    "url": "file:///C:/Users/camae/Desktop/Aquarium%20Game/js/ui.js",
+                    "lineNumber": 136,
+                    "columnNumber": 76
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "35",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 92
+                  }
+                ]
+              },
+              "executionContextId": 2
+            }
+          }
+        ],
+        "confirmDisabled": false,
+        "report": "Eligible destination \u00b7 360 ACThe chosen aquarium meets this purchase\u2019s requirements."
+      }
+    },
+    {
+      "id": "R33",
+      "name": "All actual collection thumbnails load",
+      "pass": true,
+      "actual": {
+        "images": 52
+      }
+    },
+    {
+      "id": "R34",
+      "name": "Native store modal retains keyboard focus",
+      "pass": true,
+      "actual": "<select id=\"store-destination\" aria-label=\"Store destination aquarium\"><option value=\"tank1\">A pocket of ocean \u00b7 Saltwater \u00b7 300 L</option></select>"
+    },
+    {
+      "id": "R35",
+      "name": "Backdrop click does not change the aquarium or dismiss store",
+      "pass": true
+    }
+  ],
+  "lifeAssetChecks": {
+    "results": [
+      {
+        "pass": true,
+        "name": "All 27 stage sheets load offline"
+      },
+      {
+        "pass": true,
+        "name": "Audited categories total 27 without double counting"
+      },
+      {
+        "pass": true,
+        "name": "No artwork auto-approved"
+      },
+      {
+        "pass": true,
+        "name": "Existing growth thresholds select the correct art"
+      },
+      {
+        "pass": true,
+        "name": "Missing art keys return a safe fallback"
+      },
+      {
+        "pass": true,
+        "name": "guppy: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "guppy: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "guppy: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "guppy: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "neon: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "neon: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "neon: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "neon: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "cardinal: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "cardinal: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "cardinal: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "cardinal: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "betta: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "betta: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "betta: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "betta: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "cory: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "cory: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "cory: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "cory: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "danio: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "danio: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "danio: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "danio: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "harlequin: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "harlequin: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "harlequin: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "harlequin: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "platy: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "platy: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "platy: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "platy: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "angel: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "angel: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "angel: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "angel: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "pleco: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "pleco: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "pleco: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "pleco: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "clown: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "clown: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "clown: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "clown: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "gramma: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "gramma: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "gramma: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "gramma: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "firefish: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "firefish: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "firefish: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "firefish: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "watchman: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "watchman: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "watchman: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "watchman: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "banggai: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "banggai: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "banggai: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "banggai: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "chromis: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "chromis: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "chromis: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "chromis: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "yellowtang: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "yellowtang: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "yellowtang: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "yellowtang: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "sixline: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "sixline: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "sixline: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "sixline: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "blenny: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "blenny: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "blenny: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "blenny: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "marinebetta: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "marinebetta: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "marinebetta: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "marinebetta: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "voidfin: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "voidfin: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "voidfin: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "voidfin: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "glassfang: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "glassfang: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "glassfang: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "glassfang: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "zoa: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "zoa: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "zoa: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "zoa: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "mushroom: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "mushroom: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "mushroom: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "mushroom: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "sps: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "sps: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "sps: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "sps: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "lps: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "lps: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "lps: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "lps: exact directional mirrors and restored canvas state"
+      },
+      {
+        "pass": true,
+        "name": "soft: eight distinct authored images"
+      },
+      {
+        "pass": true,
+        "name": "soft: transparent assets, nonempty and uncropped"
+      },
+      {
+        "pass": true,
+        "name": "soft: visible head-local eye detail at five raster sizes"
+      },
+      {
+        "pass": true,
+        "name": "soft: exact directional mirrors and restored canvas state"
+      }
+    ],
+    "renderCases": 2160
+  },
+  "performance": {
+    "fixture": "Synthetic workload; not a valid mixed-species husbandry recommendation",
+    "fishRendered": 250,
+    "frames": 120,
+    "meanFrameMs": 4.323333333432674,
+    "p95FrameMs": 4.399999991059303,
+    "maxFrameMs": 35.5,
+    "simulatedFish": 3000,
+    "twentyStepsMs": 116.8999999910593,
+    "constructionMs": 7.200000002980232
+  },
+  "performanceMetrics": {
+    "Documents": 1,
+    "Nodes": 7844,
+    "TaskDuration": 3.273773,
+    "JSHeapUsedSize": 6403108,
+    "JSHeapTotalSize": 16396288
+  },
+  "vipText": "A little extra wonderVIP Preview \u2014 Not Available for Purchase.Cosmetic concepts only. Preview currency: 0 (disabled). There are no paid entitlements, subscriptions or payment functions. Preview lighting is free to try.NaturalMoonlit lagoonGolden hourPrism waterVIP BronzeCollectorCosmetic fish palettes and collector badges.Future concept \u00b7 not an implemented entitlement.VIP SilverSpecialistSeasonal scenery and decorative equipment skins.Future concept \u00b7 not an implemented entitlement.VIP GoldAquarium EliteDisplay stands and coral color variants.Future concept \u00b7 not an implemented entitlement.VIP PlatinumOcean MasterAmbient lighting themes and tank backgrounds.Future concept \u00b7 not an implemented entitlement.VIP DiamondLegendary CuratorAnimated display effects and prestige badges.Future concept \u00b7 not an implemented entitlement.",
+  "networkRequests": [],
+  "scope": "Read-only audit of game code; runtime changes stay inside an isolated test browser profile."
+}

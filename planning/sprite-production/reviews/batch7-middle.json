@@ -1,0 +1,107 @@
+[
+  {
+    "id": "orange-spotted-filefish",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the original baby source: translucent developing body, yolk, single true iris and short developing snout retained, with tiny existing fin-tip changes. Full silhouette and clear margins; no adult spotted body substituted.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "spotted-boxfish",
+    "stage": "adult",
+    "notes": "All sixteen native cells inspected: dotted dark armored trunk remains steady, single gold-rimmed iris fixed, small attached pectoral/dorsal/anal fin changes and slight tail-rudder motion. No trunk flex or inflation; complete silhouettes retain clear margins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "spotted-boxfish",
+    "stage": "baby",
+    "notes": "All sixteen early-stage native cells inspected: original small pale developing body, yolk, single large iris and existing developing fins remain stage appropriate. Tiny caudal/fin-tip changes, no adult armor pattern or adult scaled-down source.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-loriculus",
+    "stage": "adult",
+    "notes": "Orange-red disc body with distinct dark side bars and blue-edged dorsal/anal fins retain the exact stage source. All sixteen cells inspected for single front iris, stable markings and fin roots, with small pectoral and controlled tail-tip adjustments.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-loriculus",
+    "stage": "juvenile",
+    "notes": "Orange-red disc body with distinct dark side bars and blue-edged dorsal/anal fins retain the exact stage source. All sixteen cells inspected for single front iris, stable markings and fin roots, with small pectoral and controlled tail-tip adjustments.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-loriculus",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against this species existing developing source. Original translucent body, pigmentation/yolk, large single iris and existing developing fin lengths retained. Tiny original fin-tip and caudal adjustments, complete unclipped silhouettes; no reduced adult art or newly asserted biological stage.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-bispinosa",
+    "stage": "adult",
+    "notes": "Orange center, deep blue face/edges and irregular blue vertical lines retain source identity. All sixteen native cells have one visible front iris, complete attached fins and restrained caudal/pectoral changes without pattern or palette shifts.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-bispinosa",
+    "stage": "juvenile",
+    "notes": "Orange center, deep blue face/edges and irregular blue vertical lines retain source identity. All sixteen native cells have one visible front iris, complete attached fins and restrained caudal/pectoral changes without pattern or palette shifts.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-bispinosa",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against this species existing developing source. Original translucent body, pigmentation/yolk, large single iris and existing developing fin lengths retained. Tiny original fin-tip and caudal adjustments, complete unclipped silhouettes; no reduced adult art or newly asserted biological stage.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-argi",
+    "stage": "adult",
+    "notes": "Golden-yellow face and front, blue disc body and original yellow fin edges retain the stage reference. All sixteen cells inspected for a fixed true iris, steady trunk and small pectoral/tail corrections with complete dorsal/anal outlines.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-argi",
+    "stage": "juvenile",
+    "notes": "Golden-yellow face and front, blue disc body and original yellow fin edges retain the stage reference. All sixteen cells inspected for a fixed true iris, steady trunk and small pectoral/tail corrections with complete dorsal/anal outlines.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-argi",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against this species existing developing source. Original translucent body, pigmentation/yolk, large single iris and existing developing fin lengths retained. Tiny original fin-tip and caudal adjustments, complete unclipped silhouettes; no reduced adult art or newly asserted biological stage.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-acanthops",
+    "stage": "adult",
+    "notes": "Bright orange back, yellow caudal and dark blue lower disc body retain the stage source. All sixteen cells inspected: single front iris, complete fin attachments and restrained small pectoral/caudal corrections with stable overall color areas.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-acanthops",
+    "stage": "juvenile",
+    "notes": "Bright orange back, yellow caudal and dark blue lower disc body retain the stage source. All sixteen cells inspected: single front iris, complete fin attachments and restrained small pectoral/caudal corrections with stable overall color areas.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-potteri",
+    "stage": "juvenile",
+    "notes": "Orange body with distinctive blue irregular bands and pale caudal retain the juvenile reference identity. All sixteen cells inspected for a single fixed true iris, intact dorsal/anal roots and small pectoral/tail-tip changes.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  }
+]

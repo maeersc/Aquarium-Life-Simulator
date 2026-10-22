@@ -1,0 +1,79 @@
+{
+  "agentInspected": true,
+  "inspectionScope": "First native tissue geometry inspected; final all16-cell review still required before registration.",
+  "description": "Inspected baby conch orange muscular foot tissue only. Brown-patterned rigid shell, paired eye stalks, head and original proboscis are canonical protected pixels; original small walk foot-edge poses are sampled without shell bounce.",
+  "polygons": [
+    [
+      [
+        60,
+        99
+      ],
+      [
+        111,
+        95
+      ],
+      [
+        132,
+        101
+      ],
+      [
+        129,
+        119
+      ],
+      [
+        58,
+        119
+      ]
+    ]
+  ],
+  "protectedPolygons": [
+    [
+      [
+        48,
+        59
+      ],
+      [
+        86,
+        49
+      ],
+      [
+        114,
+        61
+      ],
+      [
+        122,
+        85
+      ],
+      [
+        114,
+        99
+      ],
+      [
+        77,
+        103
+      ],
+      [
+        52,
+        86
+      ]
+    ],
+    [
+      [
+        110,
+        48
+      ],
+      [
+        152,
+        48
+      ],
+      [
+        152,
+        101
+      ],
+      [
+        110,
+        101
+      ]
+    ]
+  ]
+}

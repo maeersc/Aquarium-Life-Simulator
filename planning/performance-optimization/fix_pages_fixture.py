@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path(__file__).resolve().parents[2]/'tests/pages_qa.py';s=p.read_text(encoding='utf8');old="delete AL.game.progression;AL.Progression.migrate(AL.game);AL.UI.render();document.getElementById('save-button').click()";new="delete AL.game.progression;AL.Progression.migrate(AL.game);AL.Save.migrate(AL.game);AL.UI.render();document.getElementById('save-button').click()";assert s.count(old)==1;s=s.replace(old,new);p.write_text(s,encoding='utf8')

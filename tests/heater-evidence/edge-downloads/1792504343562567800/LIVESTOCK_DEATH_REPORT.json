@@ -1,0 +1,1816 @@
+{
+  "schema": "AquariumLifeMortalityLog",
+  "version": 2,
+  "accountId": "world-e6db07bb-3fe3-4534-ae82-61f64fe85071",
+  "record": {
+    "id": "world-e6db07bb-3fe3-4534-ae82-61f64fe85071:death:fish45",
+    "specimenId": "fish45",
+    "speciesId": "clown",
+    "name": "Ocellaris clownfish",
+    "tankId": "tank1",
+    "tankName": "A pocket of ocean",
+    "time": 5020,
+    "intervalStart": 5015,
+    "cause": "Marine velvet",
+    "hunger": 14.466666666666956,
+    "nutrition": 100,
+    "age": 129.26153906212926,
+    "growth": 1,
+    "conditions": [
+      {
+        "type": "velvet",
+        "severity": 0.8296536557720512,
+        "age": 83.66666666666627,
+        "diagnosed": false,
+        "confidence": 0,
+        "carrier": false
+      }
+    ],
+    "water": {
+      "temperature": 25,
+      "ph": 8.199984429206788,
+      "salinity": 35,
+      "ammonia": 0,
+      "nitrite": 0,
+      "nitrate": 3.0600918045349528,
+      "oxygen": 7.3725772462126,
+      "gh": 12,
+      "kh": 8,
+      "alkalinity": 8,
+      "calcium": 420,
+      "magnesium": 1300,
+      "phosphate": 0.0318824999999984,
+      "organic": 0.006156718742968395,
+      "clarity": 99.30178757669145
+    },
+    "bacteria": 1,
+    "bacteria2": 1,
+    "damage": {
+      "Marine velvet": 0.12927965720404172
+    },
+    "equipment": [
+      {
+        "id": "equipment34",
+        "type": "filter",
+        "reliabilityState": "working",
+        "maintenance": 99.31159792619735,
+        "heaterModel": null,
+        "enabled": true,
+        "durability": 99.97158579128423,
+        "capacity": 2000,
+        "operational": true
+      },
+      {
+        "id": "equipment35",
+        "type": "heater",
+        "reliabilityState": "working",
+        "maintenance": 99.65991972843324,
+        "heaterModel": null,
+        "enabled": true,
+        "durability": 99.95738171470173,
+        "capacity": 2000,
+        "operational": true
+      },
+      {
+        "id": "equipment36",
+        "type": "reefLight",
+        "reliabilityState": "working",
+        "maintenance": 99.66181337940682,
+        "heaterModel": null,
+        "enabled": true,
+        "durability": 99.97174420697809,
+        "capacity": 2000,
+        "operational": true
+      },
+      {
+        "id": "equipment37",
+        "type": "flow",
+        "reliabilityState": "working",
+        "maintenance": 99.31159792619735,
+        "heaterModel": null,
+        "enabled": true,
+        "durability": 99.9644835007117,
+        "capacity": 2000,
+        "operational": true
+      },
+      {
+        "id": "equipment38",
+        "type": "air",
+        "reliabilityState": "working",
+        "maintenance": 99.31159792619735,
+        "heaterModel": null,
+        "enabled": true,
+        "durability": 99.95264747099114,
+        "capacity": 2000,
+        "operational": true
+      },
+      {
+        "id": "equipment39",
+        "type": "skimmer",
+        "reliabilityState": "working",
+        "maintenance": 98.62793482654685,
+        "heaterModel": null,
+        "enabled": true,
+        "durability": 99.97158579128423,
+        "capacity": 2000,
+        "operational": true
+      },
+      {
+        "id": "equipment40",
+        "type": "feeder",
+        "reliabilityState": "working",
+        "maintenance": 98.96917604883461,
+        "heaterModel": null,
+        "enabled": true,
+        "durability": 99.95264747099114,
+        "capacity": 2000,
+        "operational": true
+      },
+      {
+        "id": "equipment41",
+        "type": "dosing",
+        "reliabilityState": "working",
+        "maintenance": 99.31159792619735,
+        "heaterModel": null,
+        "enabled": true,
+        "durability": 99.9644835007117,
+        "capacity": 2000,
+        "operational": true
+      }
+    ],
+    "foodStock": {
+      "flakes": 1000,
+      "pellets": 998,
+      "frozen": 1000
+    },
+    "foodExhausted": false,
+    "warnings": [],
+    "sequence": 1,
+    "schemaVersion": 2,
+    "accountId": "world-e6db07bb-3fe3-4534-ae82-61f64fe85071",
+    "commonName": "Ocellaris clownfish",
+    "scientificName": "Amphiprion ocellaris",
+    "ageUnits": "game days",
+    "category": "fish",
+    "rarity": "Common",
+    "stage": "Adult",
+    "gameDay": 4,
+    "gameTime": "11:40",
+    "realTimestamp": 1792508526177.3333,
+    "recordedAt": 1792504342961,
+    "simulation": "offline",
+    "runId": "world-e6db07bb-3fe3-4534-ae82-61f64fe85071:offline:4ff3dbdf-b065-4687-ba4a-d66d7428a289",
+    "stepId": 1004,
+    "lastHealthy": null,
+    "lastFed": 4380,
+    "minutesSinceFeeding": 640,
+    "causeCategory": "Disease",
+    "confidence": "Modeled contribution",
+    "contributingCauses": [],
+    "hpBefore": 0.12927965720404172,
+    "hpAfter": 0,
+    "maximumHealth": 100,
+    "fatalDamage": 0.12927965720404172,
+    "stress": 9.893665980864176,
+    "medication": null,
+    "behavior": "Explore",
+    "heaterTarget": 25,
+    "volume": 1000,
+    "bioload": 12,
+    "bioloadAfter": 0,
+    "bioloadLimit": 700,
+    "bioloadPercentBefore": 1.7142857142857142,
+    "heaterLabel": "Legacy heater · 529 gal rating",
+    "thermal": {
+      "ambient": 22.47993218130573,
+      "room": 22,
+      "volume": 1000,
+      "setpoint": 25,
+      "temperature": 25,
+      "heatLossCoefficient": 0.024647515087732472,
+      "heater": {
+        "target": 25,
+        "installed": true,
+        "enabled": true,
+        "operational": true,
+        "ratedCapacity": 2000,
+        "effectiveCapacity": 2000,
+        "availableWatts": 666.6666666666666,
+        "duty": 0.15750423866843322,
+        "outputCPerGameHour": 0.062113409583392384,
+        "maximumCPerGameHour": 0.39436024140371956,
+        "deliveredWatts": 105.00282577895547
+      },
+      "chiller": {
+        "target": 25,
+        "installed": false,
+        "enabled": false,
+        "operational": false,
+        "ratedCapacity": 0,
+        "effectiveCapacity": 0,
+        "availableWatts": 0,
+        "duty": 0,
+        "outputCPerGameHour": 0,
+        "maximumCPerGameHour": 0,
+        "deliveredWatts": 0
+      },
+      "passive": 24.994829194665183,
+      "next": 25,
+      "heaterEquilibrium": 38.47993218130573,
+      "canMaintain": true
+    },
+    "lighting": {
+      "mode": "auto",
+      "output": 1.1998304532643287
+    },
+    "powerSupply": "Not separately modeled; enabled state, physical condition, maintenance and component state govern output",
+    "coral": null,
+    "bottom": null,
+    "recentHistory": [
+      {
+        "time": 2100,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199993792548023,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.023956196984713,
+          "oxygen": 7.372577247342112,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03078749999999933,
+          "organic": 0.006156697982419511,
+          "clarity": 99.30901498884919
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.001
+        },
+        "resident": [
+          72.383,
+          5.4,
+          100,
+          0.696
+        ]
+      },
+      {
+        "time": 2160,
+        "water": {
+          "temperature": 25,
+          "ph": 8.1999936001511,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.024698707538149,
+          "oxygen": 7.372577247000632,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03080999999999931,
+          "organic": 0.006156704258825077,
+          "clarity": 99.30886639886882
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.001
+        },
+        "resident": [
+          71.09,
+          6.4,
+          100,
+          0.699
+        ]
+      },
+      {
+        "time": 2220,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199993407754015,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.025441218717772,
+          "oxygen": 7.37257724676239,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03083249999999929,
+          "organic": 0.006156708637724653,
+          "clarity": 99.30871783532831
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.001
+        },
+        "resident": [
+          69.789,
+          7.4,
+          100,
+          0.702
+        ]
+      },
+      {
+        "time": 2280,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199993215356816,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.026183730334272,
+          "oxygen": 7.372577246596174,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.030854999999999272,
+          "organic": 0.006156711692779222,
+          "clarity": 99.30856929023425
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.001
+        },
+        "resident": [
+          68.48,
+          8.4,
+          100,
+          0.704
+        ]
+      },
+      {
+        "time": 2340,
+        "water": {
+          "temperature": 25,
+          "ph": 8.19999302295954,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0269262422555703,
+          "oxygen": 7.37257724648021,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.030877499999999253,
+          "organic": 0.00615671382421847,
+          "clarity": 99.30842075800983
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.001
+        },
+        "resident": [
+          67.163,
+          9.4,
+          100,
+          0.707
+        ]
+      },
+      {
+        "time": 2400,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199992830562206,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0276687543895187,
+          "oxygen": 7.372577246399303,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.030899999999999234,
+          "organic": 0.006156715311273172,
+          "clarity": 99.30827223476426
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          65.837,
+          10.4,
+          100,
+          0.71
+        ]
+      },
+      {
+        "time": 2460,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199992638164833,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.028411266671828,
+          "oxygen": 7.372577246342857,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.030922499999999215,
+          "organic": 0.006156716348756034,
+          "clarity": 99.30812371778305
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          64.504,
+          11.4,
+          100,
+          0.713
+        ]
+      },
+      {
+        "time": 2520,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199992445767434,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0291537790576464,
+          "oxygen": 7.372577246303476,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.030944999999999195,
+          "organic": 0.0061567170725832674,
+          "clarity": 99.30797520517231
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          63.161,
+          12.4,
+          100,
+          0.715
+        ]
+      },
+      {
+        "time": 2580,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199992253370018,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0298962915156795,
+          "oxygen": 7.372577246276001,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.030967499999999176,
+          "organic": 0.006156717577580391,
+          "clarity": 99.30782669561074
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          61.811,
+          13.4,
+          100,
+          0.718
+        ]
+      },
+      {
+        "time": 2640,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199992060972583,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.030638804024094,
+          "oxygen": 7.3725772462568315,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.030989999999999157,
+          "organic": 0.006156717929904928,
+          "clarity": 99.30767818817651
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          60.453,
+          14.4,
+          100,
+          0.721
+        ]
+      },
+      {
+        "time": 2700,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199991868575147,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.03138131656766,
+          "oxygen": 7.372577246243458,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031012499999999138,
+          "organic": 0.006156718175713417,
+          "clarity": 99.30752968222647
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          59.086,
+          15.4,
+          100,
+          0.724
+        ]
+      },
+      {
+        "time": 2760,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199991676177705,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0321238291357506,
+          "oxygen": 7.372577246234127,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03103499999999912,
+          "organic": 0.006156718347208181,
+          "clarity": 99.30738117731192
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          57.711,
+          16.4,
+          100,
+          0.726
+        ]
+      },
+      {
+        "time": 2820,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199991483780247,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.032866341720952,
+          "oxygen": 7.372577246227618,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.0310574999999991,
+          "organic": 0.006156718466856016,
+          "clarity": 99.30723267311983
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          56.328,
+          17.4,
+          100,
+          0.729
+        ]
+      },
+      {
+        "time": 2880,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199991291382789,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0336088543180897,
+          "oxygen": 7.372577246223076,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03107999999999908,
+          "organic": 0.006156718550331479,
+          "clarity": 99.30708416943175
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          54.936,
+          18.4,
+          100,
+          0.732
+        ]
+      },
+      {
+        "time": 2940,
+        "water": {
+          "temperature": 25,
+          "ph": 8.19999109898533,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0343513669235547,
+          "oxygen": 7.372577246219909,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03110249999999906,
+          "organic": 0.006156718608570334,
+          "clarity": 99.3069356660953
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          53.536,
+          19.4,
+          100,
+          0.734
+        ]
+      },
+      {
+        "time": 3000,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199990906587873,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0350938795348306,
+          "oxygen": 7.3725772462176975,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031124999999999042,
+          "organic": 0.006156718649202204,
+          "clarity": 99.3067871630042
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          52.128,
+          20.4,
+          100,
+          0.737
+        ]
+      },
+      {
+        "time": 3060,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199990714190415,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.03583639215016,
+          "oxygen": 7.372577246216154,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031147499999999023,
+          "organic": 0.0061567186775501005,
+          "clarity": 99.30663866008427
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          50.712,
+          21.4,
+          100,
+          0.74
+        ]
+      },
+      {
+        "time": 3120,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199990521792957,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0365789047683185,
+          "oxygen": 7.372577246215079,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031169999999999004,
+          "organic": 0.006156718697327755,
+          "clarity": 99.30649015728375
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          49.288,
+          22.4,
+          100,
+          0.743
+        ]
+      },
+      {
+        "time": 3180,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199990329395499,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0373214173884495,
+          "oxygen": 7.372577246214329,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031192499999998985,
+          "organic": 0.006156718711126156,
+          "clarity": 99.30634165456654
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          47.855,
+          23.4,
+          100,
+          0.745
+        ]
+      },
+      {
+        "time": 3240,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199990136998041,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.038063930009958,
+          "oxygen": 7.372577246213805,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031214999999998966,
+          "organic": 0.006156718720752973,
+          "clarity": 99.30619315190746
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          46.414,
+          24.4,
+          100,
+          0.748
+        ]
+      },
+      {
+        "time": 3300,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199989944600583,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0388064426324264,
+          "oxygen": 7.372577246213437,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031237499999998947,
+          "organic": 0.006156718727469375,
+          "clarity": 99.30604464928894
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          44.965,
+          25.4,
+          100,
+          0.751
+        ]
+      },
+      {
+        "time": 3360,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199989752203125,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0395489552555652,
+          "oxygen": 7.372577246213183,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03125999999999893,
+          "organic": 0.006156718732155251,
+          "clarity": 99.30589614669871
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          43.508,
+          26.4,
+          100,
+          0.754
+        ]
+      },
+      {
+        "time": 3420,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199989559805667,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.040291467879171,
+          "oxygen": 7.372577246213006,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03128249999999891,
+          "organic": 0.006156718735424476,
+          "clarity": 99.30574764412822
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          42.042,
+          27.4,
+          100,
+          0.756
+        ]
+      },
+      {
+        "time": 3480,
+        "water": {
+          "temperature": 25,
+          "ph": 8.19998936740821,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.041033980503103,
+          "oxygen": 7.372577246212883,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03130499999999889,
+          "organic": 0.0061567187377053354,
+          "clarity": 99.3055991415715
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          40.568,
+          28.4,
+          100,
+          0.759
+        ]
+      },
+      {
+        "time": 3540,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199989175010751,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.041776493127262,
+          "oxygen": 7.372577246212796,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03132749999999887,
+          "organic": 0.0061567187392966355,
+          "clarity": 99.30545063902439
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          39.086,
+          29.4,
+          100,
+          0.762
+        ]
+      },
+      {
+        "time": 3600,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199988982613293,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.04251900575158,
+          "oxygen": 7.372577246212735,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03134999999999885,
+          "organic": 0.00615671874040685,
+          "clarity": 99.30530213648399
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          37.596,
+          30.4,
+          100,
+          0.765
+        ]
+      },
+      {
+        "time": 3660,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199988790215835,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.043261518376009,
+          "oxygen": 7.372577246212693,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03137249999999883,
+          "organic": 0.0061567187411814195,
+          "clarity": 99.30515363394827
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          36.097,
+          31.4,
+          100,
+          0.767
+        ]
+      },
+      {
+        "time": 3720,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199988597818377,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.044004031000516,
+          "oxygen": 7.372577246212664,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03139499999999881,
+          "organic": 0.00615671874172182,
+          "clarity": 99.30500513141578
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          34.591,
+          32.4,
+          100,
+          0.77
+        ]
+      },
+      {
+        "time": 3780,
+        "water": {
+          "temperature": 25,
+          "ph": 8.19998840542092,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.044746543625076,
+          "oxygen": 7.372577246212643,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031417499999998794,
+          "organic": 0.006156718742098844,
+          "clarity": 99.3048566288856
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          33.076,
+          33.4,
+          100,
+          0.773
+        ]
+      },
+      {
+        "time": 3840,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199988213023461,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0454890562496746,
+          "oxygen": 7.37257724621263,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031439999999998774,
+          "organic": 0.006156718742361882,
+          "clarity": 99.304708126357
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.002
+        },
+        "resident": [
+          31.552,
+          34.4,
+          100,
+          0.776
+        ]
+      },
+      {
+        "time": 3900,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199988020626003,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.046231568874299,
+          "oxygen": 7.37257724621262,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031462499999998755,
+          "organic": 0.0061567187425454,
+          "clarity": 99.3045596238295
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          30.021,
+          35.4,
+          100,
+          0.778
+        ]
+      },
+      {
+        "time": 3960,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199987828228545,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0469740814989414,
+          "oxygen": 7.372577246212611,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031484999999998736,
+          "organic": 0.006156718742673437,
+          "clarity": 99.30441112130279
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          28.481,
+          36.4,
+          100,
+          0.781
+        ]
+      },
+      {
+        "time": 4020,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199987635831087,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.047716594123597,
+          "oxygen": 7.372577246212607,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03150749999999872,
+          "organic": 0.006156718742762766,
+          "clarity": 99.3042626187766
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          26.933,
+          37.4,
+          100,
+          0.784
+        ]
+      },
+      {
+        "time": 4080,
+        "water": {
+          "temperature": 25,
+          "ph": 8.19998744343363,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0484591067482607,
+          "oxygen": 7.372577246212606,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.0315299999999987,
+          "organic": 0.006156718742825086,
+          "clarity": 99.30411411625079
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          25.377,
+          38.4,
+          100,
+          0.787
+        ]
+      },
+      {
+        "time": 4140,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199987251036172,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.049201619372931,
+          "oxygen": 7.372577246212604,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03155249999999868,
+          "organic": 0.006156718742868567,
+          "clarity": 99.30396561372525
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          23.813,
+          39.4,
+          100,
+          0.789
+        ]
+      },
+      {
+        "time": 4200,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199987058638714,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0499441319976066,
+          "oxygen": 7.372577246212603,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03157499999999866,
+          "organic": 0.006156718742898901,
+          "clarity": 99.3038171111999
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          22.24,
+          40.4,
+          100,
+          0.792
+        ]
+      },
+      {
+        "time": 4260,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199986866241256,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.050686644622284,
+          "oxygen": 7.372577246212602,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03159749999999864,
+          "organic": 0.006156718742920064,
+          "clarity": 99.30366860867467
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          20.659,
+          41.4,
+          100,
+          0.795
+        ]
+      },
+      {
+        "time": 4320,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199986673843798,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.051429157246965,
+          "oxygen": 7.372577246212601,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03161999999999862,
+          "organic": 0.006156718742934831,
+          "clarity": 99.30352010614952
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          19.07,
+          42.4,
+          100,
+          0.798
+        ]
+      },
+      {
+        "time": 4380,
+        "water": {
+          "temperature": 25,
+          "ph": 8.19998648144634,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.052171669871646,
+          "oxygen": 7.372577246212601,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.0316424999999986,
+          "organic": 0.00615671874294513,
+          "clarity": 99.30337160362444
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          17.473,
+          3.8,
+          100,
+          0.8
+        ]
+      },
+      {
+        "time": 4440,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199986289048882,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0529141824963273,
+          "oxygen": 7.372577246212601,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03166499999999858,
+          "organic": 0.006156718742952321,
+          "clarity": 99.3032231010994
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          15.867,
+          4.8,
+          100,
+          0.803
+        ]
+      },
+      {
+        "time": 4500,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199986096651424,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0536566951210085,
+          "oxygen": 7.3725772462126,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031687499999998564,
+          "organic": 0.006156718742957336,
+          "clarity": 99.3030745985744
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          14.253,
+          5.8,
+          100,
+          0.806
+        ]
+      },
+      {
+        "time": 4560,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199985904253966,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0543992077456896,
+          "oxygen": 7.3725772462126,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031709999999998545,
+          "organic": 0.006156718742960835,
+          "clarity": 99.30292609604942
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          12.631,
+          6.8,
+          100,
+          0.809
+        ]
+      },
+      {
+        "time": 4620,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199985711856508,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.055141720370376,
+          "oxygen": 7.3725772462126,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.031732499999998526,
+          "organic": 0.0061567187429632745,
+          "clarity": 99.30277759352444
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          11.001,
+          7.8,
+          100,
+          0.811
+        ]
+      },
+      {
+        "time": 4680,
+        "water": {
+          "temperature": 25,
+          "ph": 8.19998551945905,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0558842329950626,
+          "oxygen": 7.3725772462126,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03175499999999851,
+          "organic": 0.006156718742964978,
+          "clarity": 99.30262909099949
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          9.362,
+          8.8,
+          100,
+          0.814
+        ]
+      },
+      {
+        "time": 4740,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199985327061592,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.056626745619749,
+          "oxygen": 7.3725772462126,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03177749999999849,
+          "organic": 0.0061567187429661645,
+          "clarity": 99.30248058847452
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 125
+        },
+        "resident": [
+          7.716,
+          9.8,
+          100,
+          0.817
+        ]
+      },
+      {
+        "time": 4800,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199985134664134,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0573692582444356,
+          "oxygen": 7.3725772462126,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03179999999999847,
+          "organic": 0.006156718742966994,
+          "clarity": 99.30233208594959
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.003
+        },
+        "resident": [
+          6.061,
+          10.8,
+          100,
+          0.82
+        ]
+      },
+      {
+        "time": 4860,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199984942266676,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.058111770869122,
+          "oxygen": 7.3725772462126,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03182249999999845,
+          "organic": 0.006156718742967571,
+          "clarity": 99.30218358342464
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.003
+        },
+        "resident": [
+          4.397,
+          11.8,
+          100,
+          0.822
+        ]
+      },
+      {
+        "time": 4920,
+        "water": {
+          "temperature": 25,
+          "ph": 8.199984749869218,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.0588542834938086,
+          "oxygen": 7.3725772462126,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03184499999999843,
+          "organic": 0.006156718742967975,
+          "clarity": 99.30203508089969
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.003
+        },
+        "resident": [
+          2.726,
+          12.8,
+          100,
+          0.825
+        ]
+      },
+      {
+        "time": 4980,
+        "water": {
+          "temperature": 25,
+          "ph": 8.19998455747176,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0,
+          "nitrate": 3.059596796118495,
+          "oxygen": 7.3725772462126,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03186749999999841,
+          "organic": 0.0061567187429682575,
+          "clarity": 99.30188657837473
+        },
+        "heater": {
+          "operational": true,
+          "effectiveCapacity": 2000,
+          "target": 25,
+          "deliveredWatts": 105.003
+        },
+        "resident": [
+          1.046,
+          13.8,
+          100,
+          0.828
+        ]
+      }
+    ],
+    "recentEvents": [
+      {
+        "time": 4380,
+        "type": "feeding",
+        "specimenId": "fish45",
+        "food": "pellets",
+        "amount": 19.8
+      },
+      {
+        "time": 4380,
+        "type": "feeding",
+        "specimenId": "fish45",
+        "food": "pellets",
+        "amount": 19.8
+      }
+    ]
+  }
+}

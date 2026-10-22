@@ -1,0 +1,623 @@
+{
+  "entry": "index.html",
+  "browser": "edge",
+  "trace": [
+    {
+      "step": "welcome",
+      "instruction": "Open Aquariums.",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "text": "\u25a4Aquariums",
+        "html": "<button data-page=\"aquariums\" title=\"Aquariums\" aria-label=\"Aquariums\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u25a4</span><span class=\"nav-text\">Aquariums</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 0
+    },
+    {
+      "step": "welcome",
+      "instruction": "Select My Aquariums to review your owned saltwater aquarium.",
+      "target": {
+        "id": "primary-tab-owned",
+        "tag": "BUTTON",
+        "text": "My Aquariums",
+        "html": "<button role=\"tab\" id=\"primary-tab-owned\" aria-controls=\"primary-content\" aria-selected=\"true\" tabindex=\"0\" data-primary-tab=\"owned\" class=\"active tutorial-target\">My Aquariums</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium"
+      ],
+      "shell": "aquariums",
+      "tab": "owned",
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 1
+    },
+    {
+      "step": "view",
+      "instruction": "Close this window to view the aquarium and its current readings.",
+      "target": {
+        "id": "primary-close",
+        "tag": "BUTTON",
+        "text": "\u00d7",
+        "html": "<button id=\"primary-close\" aria-label=\"Close window\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": "aquariums",
+      "tab": "owned",
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 2
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 3
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 4
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 5
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 6
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 7
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 8
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 9
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 10
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 11
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 12
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 13
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 14
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 15
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 16
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 17
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 18
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 19
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 20
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 21
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 22
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 23
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 24
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 25
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 26
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 27
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 28
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 29
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 30
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 31
+    }
+  ],
+  "checks": [
+    {
+      "name": "Probe completed",
+      "pass": true
+    }
+  ]
+}

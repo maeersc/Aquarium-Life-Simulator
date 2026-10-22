@@ -1,0 +1,58 @@
+[
+  {
+    "id": "candy-basslet",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Orange body with long purple stripes and blue fin edges retains the source identity. All sixteen native cells inspected: stable true front iris, restrained tail/pectoral hover adjustments, full attached fins and clear margins."
+  },
+  {
+    "id": "candy-basslet",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Orange body with long purple stripes and blue fin edges retains the source identity. All sixteen native cells inspected: stable true front iris, restrained tail/pectoral hover adjustments, full attached fins and clear margins."
+  },
+  {
+    "id": "pink-streaked-wrasse",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Pink-orange longitudinal lines, violet lower coloration and small original fins retain the stage source. All sixteen cells inspected for stable single head iris, complete silhouettes and quiet wrasse fin corrections."
+  },
+  {
+    "id": "pink-streaked-wrasse",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Pink-orange longitudinal lines, violet lower coloration and small original fins retain the stage source. All sixteen cells inspected for stable single head iris, complete silhouettes and quiet wrasse fin corrections."
+  },
+  {
+    "id": "white-banded-possum-wrasse",
+    "stage": "adult",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Two pale body bands and original caudal false-eye spot remain separate from the one true front iris. All sixteen native cells inspected for stable markings, attached fin roots and small pectoral/tail motion."
+  },
+  {
+    "id": "white-banded-possum-wrasse",
+    "stage": "juvenile",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "Two pale body bands and original caudal false-eye spot remain separate from the one true front iris. All sixteen native cells inspected for stable markings, attached fin roots and small pectoral/tail motion."
+  },
+  {
+    "id": "candy-basslet",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "All sixteen early-stage native cells inspected against the actual baby source. Developing translucent body, original yolk and single large front iris retained. Small developing tail/outer-fin adjustments preserve complete silhouettes; no scaled adult body or invented adult fins."
+  },
+  {
+    "id": "pink-streaked-wrasse",
+    "stage": "baby",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "All sixteen early-stage native cells inspected against the actual baby source. Developing translucent body, original yolk and single large front iris retained. Small developing tail/outer-fin adjustments preserve complete silhouettes; no scaled adult body or invented adult fins."
+  }
+]

@@ -1,0 +1,343 @@
+{
+  "date": "2026-10-14",
+  "records": [
+    {
+      "id": "centropyge-loriculus",
+      "originalGeneratedFilename": "exec-344faa9e-7266-4e70-9a3e-4372e520b7d5.png",
+      "source": "assets/expansion-v29/centropyge-loriculus/source-v1.png",
+      "prompt": "assets/expansion-v29/centropyge-loriculus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "centropyge-acanthops",
+      "originalGeneratedFilename": "exec-d530b370-c1f5-45e8-a7a4-7dd77c32bc95.png",
+      "source": "assets/expansion-v29/centropyge-acanthops/source-v1.png",
+      "prompt": "assets/expansion-v29/centropyge-acanthops/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "centropyge-bispinosa",
+      "originalGeneratedFilename": "exec-ff53e27b-6cee-402b-8ac8-a7cb280f5020.png",
+      "source": "assets/expansion-v29/centropyge-bispinosa/source-v1.png",
+      "prompt": "assets/expansion-v29/centropyge-bispinosa/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "centropyge-joculator",
+      "originalGeneratedFilename": "exec-2f9244af-a65a-417a-9d4e-b6ce472f871e.png",
+      "source": "assets/expansion-v29/centropyge-joculator/source-v1.png",
+      "prompt": "assets/expansion-v29/centropyge-joculator/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "centropyge-potteri",
+      "originalGeneratedFilename": "exec-9013a8ab-1e74-4ed0-ac1b-4636e1400147.png",
+      "source": "assets/expansion-v29/centropyge-potteri/source-v1.png",
+      "prompt": "assets/expansion-v29/centropyge-potteri/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "centropyge-argi",
+      "originalGeneratedFilename": "exec-9bee30ae-0b5e-4261-89ae-f02e4c64e286.png",
+      "source": "assets/expansion-v29/centropyge-argi/source-v1.png",
+      "prompt": "assets/expansion-v29/centropyge-argi/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "pygoplites-diacanthus",
+      "originalGeneratedFilename": "exec-145fb03c-b1c2-4039-b687-70af2b783c7a.png",
+      "source": "assets/expansion-v29/pygoplites-diacanthus/source-v1.png",
+      "prompt": "assets/expansion-v29/pygoplites-diacanthus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "pseudochromis-fridmani",
+      "originalGeneratedFilename": "exec-b4249084-df4d-4479-850b-75e91c047483.png",
+      "source": "assets/expansion-v29/pseudochromis-fridmani/source-v1.png",
+      "prompt": "assets/expansion-v29/pseudochromis-fridmani/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "forcipiger-flavissimus",
+      "originalGeneratedFilename": "exec-5fbb243e-ad23-46f6-b70e-b74d17b16a82.png",
+      "source": "assets/expansion-v29/forcipiger-flavissimus/source-v1.png",
+      "prompt": "assets/expansion-v29/forcipiger-flavissimus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "ctenochaetus-tominiensis",
+      "originalGeneratedFilename": "exec-f6d9f56c-28ee-4cf9-ae3d-a015592fbde2.png",
+      "source": "assets/expansion-v29/ctenochaetus-tominiensis/source-v1.png",
+      "prompt": "assets/expansion-v29/ctenochaetus-tominiensis/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "hemitaurichthys-polylepis",
+      "originalGeneratedFilename": "exec-3e36c1a2-c58d-4011-a705-31f2d2f4b03b.png",
+      "source": "assets/expansion-v29/hemitaurichthys-polylepis/source-v1.png",
+      "prompt": "assets/expansion-v29/hemitaurichthys-polylepis/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "zebrasoma-xanthurum",
+      "originalGeneratedFilename": "exec-d24a39dc-a60c-4ee8-aea5-a7146cf7145b.png",
+      "source": "assets/expansion-v29/zebrasoma-xanthurum/source-v1.png",
+      "prompt": "assets/expansion-v29/zebrasoma-xanthurum/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "ctenochaetus-strigosus",
+      "originalGeneratedFilename": "exec-22247666-819b-432f-ab94-d0f6b52ad886.png",
+      "source": "assets/expansion-v29/ctenochaetus-strigosus/source-v1.png",
+      "prompt": "assets/expansion-v29/ctenochaetus-strigosus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "zebrasoma-gemmatum",
+      "originalGeneratedFilename": "exec-93e53fb2-bf3e-4893-8490-7e1b97716bf9.png",
+      "source": "assets/expansion-v29/zebrasoma-gemmatum/source-v1.png",
+      "prompt": "assets/expansion-v29/zebrasoma-gemmatum/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "acanthurus-achilles",
+      "originalGeneratedFilename": "exec-34486d65-0ab3-422f-ba9f-effa0974d11f.png",
+      "source": "assets/expansion-v29/acanthurus-achilles/source-v1.png",
+      "prompt": "assets/expansion-v29/acanthurus-achilles/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "siganus-vulpinus",
+      "originalGeneratedFilename": "exec-c70bd69d-0bbe-48b5-b665-a77795aed6a7.png",
+      "source": "assets/expansion-v29/siganus-vulpinus/source-v1.png",
+      "prompt": "assets/expansion-v29/siganus-vulpinus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "ecsenius-midas",
+      "originalGeneratedFilename": "exec-1ace0473-e570-4022-8828-3b2c51169ed5.png",
+      "source": "assets/expansion-v29/ecsenius-midas/source-v1.png",
+      "prompt": "assets/expansion-v29/ecsenius-midas/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "salarias-fasciatus",
+      "originalGeneratedFilename": "exec-a7e00d51-229e-4e14-a0a4-4c0c664c47da.png",
+      "source": "assets/expansion-v29/salarias-fasciatus/source-v1.png",
+      "prompt": "assets/expansion-v29/salarias-fasciatus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "siganus-unimaculatus",
+      "originalGeneratedFilename": "exec-40181f2b-bb39-44eb-b320-bf2a1435297f.png",
+      "source": "assets/expansion-v29/siganus-unimaculatus/source-v1.png",
+      "prompt": "assets/expansion-v29/siganus-unimaculatus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "ecsenius-bicolor",
+      "originalGeneratedFilename": "exec-dfb7c33f-d383-477c-80f0-840d3cf3b4d5.png",
+      "source": "assets/expansion-v29/ecsenius-bicolor/source-v1.png",
+      "prompt": "assets/expansion-v29/ecsenius-bicolor/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "paracheilinus-angulatus",
+      "originalGeneratedFilename": "exec-39c542b7-a682-47c9-83ec-c04b7f7f9cdf.png",
+      "source": "assets/expansion-v29/paracheilinus-angulatus/source-v1.png",
+      "prompt": "assets/expansion-v29/paracheilinus-angulatus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "macropharyngodon-meleagris",
+      "originalGeneratedFilename": "exec-cb8255ae-2da7-4f3d-a563-b03e2b2f4364.png",
+      "source": "assets/expansion-v29/macropharyngodon-meleagris/source-v1.png",
+      "prompt": "assets/expansion-v29/macropharyngodon-meleagris/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "halichoeres-melanurus",
+      "originalGeneratedFilename": "exec-b2186e0e-7383-45ad-9e67-eac3bf6d931d.png",
+      "source": "assets/expansion-v29/halichoeres-melanurus/source-v1.png",
+      "prompt": "assets/expansion-v29/halichoeres-melanurus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "nemanthias-bartlettorum",
+      "originalGeneratedFilename": "exec-24ccde21-4995-47f5-a275-cc39216ef0c0.png",
+      "source": "assets/expansion-v29/nemanthias-bartlettorum/source-v1.png",
+      "prompt": "assets/expansion-v29/nemanthias-bartlettorum/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "duncanopsammia-axifuga",
+      "originalGeneratedFilename": "exec-32d5eda5-8934-4f82-b0b5-e3cd09a7ae7f.png",
+      "source": "assets/expansion-v29/duncanopsammia-axifuga/source-v1.png",
+      "prompt": "assets/expansion-v29/duncanopsammia-axifuga/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "halichoeres-chrysus",
+      "originalGeneratedFilename": "exec-a83a699c-fe5b-4b9f-9fba-ccb5cf98902b.png",
+      "source": "assets/expansion-v29/halichoeres-chrysus/source-v1.png",
+      "prompt": "assets/expansion-v29/halichoeres-chrysus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "turbinaria-reniformis",
+      "originalGeneratedFilename": "exec-ea1cad85-2c13-48f5-b6c4-f0fb7ad257dd.png",
+      "source": "assets/expansion-v29/turbinaria-reniformis/source-v1.png",
+      "prompt": "assets/expansion-v29/turbinaria-reniformis/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "caulastraea-furcata",
+      "originalGeneratedFilename": "exec-2b7e4dc8-1afc-441e-a20f-5a7b1d13b1b0.png",
+      "source": "assets/expansion-v29/caulastraea-furcata/source-v1.png",
+      "prompt": "assets/expansion-v29/caulastraea-furcata/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "tubastraea-micranthus",
+      "originalGeneratedFilename": "exec-f7cae790-4ae2-41b1-b7b4-5d31abe41530.png",
+      "source": "assets/expansion-v29/tubastraea-micranthus/source-v1.png",
+      "prompt": "assets/expansion-v29/tubastraea-micranthus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "rhizotrochus-typus",
+      "originalGeneratedFilename": "exec-4e31db89-c75b-42d8-884a-9dd1d70a538d.png",
+      "source": "assets/expansion-v29/rhizotrochus-typus/source-v1.png",
+      "prompt": "assets/expansion-v29/rhizotrochus-typus/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "lysmata-debelius",
+      "originalGeneratedFilename": "exec-08ef7c6a-99be-43fe-a9aa-5fc164e4aef5.png",
+      "source": "assets/expansion-v29/lysmata-debelius/source-v1.png",
+      "prompt": "assets/expansion-v29/lysmata-debelius/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "lysmata-amboinensis",
+      "originalGeneratedFilename": "exec-e251e819-bbfa-4b70-8d02-25c8b957ec69.png",
+      "source": "assets/expansion-v29/lysmata-amboinensis/source-v1.png",
+      "prompt": "assets/expansion-v29/lysmata-amboinensis/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "alpheus-randalli",
+      "originalGeneratedFilename": "exec-94a329c8-c5c7-4bed-b8a4-bd806e0b4d6a.png",
+      "source": "assets/expansion-v29/alpheus-randalli/source-v1.png",
+      "prompt": "assets/expansion-v29/alpheus-randalli/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "hymenocera-picta",
+      "originalGeneratedFilename": "exec-e86cfda6-8ec2-430d-94cd-c1cd60078b2a.png",
+      "source": "assets/expansion-v29/hymenocera-picta/source-v1.png",
+      "prompt": "assets/expansion-v29/hymenocera-picta/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    },
+    {
+      "id": "periclimenes-colemani",
+      "originalGeneratedFilename": "exec-9d71b252-206f-490a-a82c-994cf27993e5.png",
+      "source": "assets/expansion-v29/periclimenes-colemani/source-v1.png",
+      "prompt": "assets/expansion-v29/periclimenes-colemani/prompt-v1.txt",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false
+    }
+  ],
+  "refinements": [
+    {
+      "id": "duncanopsammia-axifuga",
+      "source": "assets/expansion-v29/duncanopsammia-axifuga/source-v2.png",
+      "originalGeneratedFilename": "exec-5e5dde76-e185-4da8-813f-1a4709918baa.png",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false,
+      "prompt": "Preserve eight species-specific living/deceased stages; remove background/glows and provide clean alpha plus generous gutters; restore complete antenna where necessary."
+    },
+    {
+      "id": "rhizotrochus-typus",
+      "source": "assets/expansion-v29/rhizotrochus-typus/source-v2.png",
+      "originalGeneratedFilename": "exec-873893ea-f63f-4cd8-81d2-ceb5bf398f98.png",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false,
+      "prompt": "Preserve eight species-specific living/deceased stages; remove background/glows and provide clean alpha plus generous gutters; restore complete antenna where necessary."
+    },
+    {
+      "id": "alpheus-randalli",
+      "source": "assets/expansion-v29/alpheus-randalli/source-v2.png",
+      "originalGeneratedFilename": "exec-1a3f3c23-4fa2-4e1c-b480-e496853994e7.png",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false,
+      "prompt": "Preserve eight species-specific living/deceased stages; remove background/glows and provide clean alpha plus generous gutters; restore complete antenna where necessary."
+    },
+    {
+      "id": "duncanopsammia-axifuga",
+      "source": "assets/expansion-v29/duncanopsammia-axifuga/source-v3.png",
+      "tool": "built-in image_gen.imagegen",
+      "originalGeneratedFilename": "exec-a641a06f-9718-42f3-9039-48244f1728fa.png",
+      "approved": false,
+      "prompt": "Original species prompt plus clean production alpha/gutter requirements, recorded in prompt-v3.txt."
+    },
+    {
+      "id": "rhizotrochus-typus",
+      "source": "assets/expansion-v29/rhizotrochus-typus/source-v3.png",
+      "tool": "built-in image_gen.imagegen",
+      "originalGeneratedFilename": "exec-d8e0cdaf-2b41-4b9d-8b0f-413ddc3c5557.png",
+      "approved": false,
+      "prompt": "Original species prompt plus clean production alpha/gutter requirements, recorded in prompt-v3.txt."
+    },
+    {
+      "id": "alpheus-randalli",
+      "source": "assets/expansion-v29/alpheus-randalli/source-v3.png",
+      "originalGeneratedFilename": "exec-9d60e80e-e333-44d6-bbe5-37d6f3e8b379.png",
+      "tool": "built-in image_gen.imagegen",
+      "approved": false,
+      "prompt": "assets/expansion-v29/alpheus-randalli/prompt-v3.txt"
+    }
+  ],
+  "refinementPromptFiles": [
+    "assets/expansion-v29/alpheus-randalli/prompt-v2.txt",
+    "assets/expansion-v29/alpheus-randalli/prompt-v3.txt",
+    "assets/expansion-v29/duncanopsammia-axifuga/prompt-v2.txt",
+    "assets/expansion-v29/duncanopsammia-axifuga/prompt-v3.txt",
+    "assets/expansion-v29/rhizotrochus-typus/prompt-v2.txt",
+    "assets/expansion-v29/rhizotrochus-typus/prompt-v3.txt"
+  ]
+}

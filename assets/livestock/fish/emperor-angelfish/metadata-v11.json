@@ -1,0 +1,71 @@
+{
+  "id": "emperor-angelfish",
+  "name": "Emperor angelfish",
+  "family": "fish",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "frames": 4,
+  "frameDurationMs": 166.66666666666666,
+  "atlas": "assets/livestock/fish/emperor-angelfish/atlas-v11.png",
+  "bounds": [
+    [
+      21,
+      10,
+      166,
+      109
+    ],
+    [
+      21,
+      9,
+      169,
+      107
+    ],
+    [
+      21,
+      8,
+      168,
+      108
+    ],
+    [
+      19,
+      9,
+      166,
+      109
+    ]
+  ],
+  "anchor": [
+    96,
+    64
+  ],
+  "scientificName": "Pomacanthus imperator",
+  "runtimeSpeciesId": null,
+  "usage": "ART ONLY; no gameplay species added",
+  "eye": {
+    "x": 150,
+    "y": 56,
+    "w": 16,
+    "h": 16
+  },
+  "facingBehavior": "mirror-side-profile",
+  "animations": {
+    "swim": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "idle": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "death": [
+      0
+    ]
+  },
+  "turning": "stable mirrored side views; no intermediate perspective frames",
+  "layer": "livestock"
+}

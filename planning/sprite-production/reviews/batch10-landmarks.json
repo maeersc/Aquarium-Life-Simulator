@@ -1,0 +1,662 @@
+[
+  {
+    "id": "mushroom",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      22,
+      25,
+      288,
+      280
+    ],
+    "previewOrigin": [
+      12,
+      49
+    ],
+    "previewScale": 0.8721804511278195,
+    "previewSize": [
+      232,
+      222
+    ],
+    "inspectedPreviewPoint": [
+      134,
+      234
+    ],
+    "firstSourceCenter": [
+      162,
+      237
+    ],
+    "nativePoint": [
+      96,
+      164
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "mushroom",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      39,
+      33,
+      310,
+      294
+    ],
+    "previewOrigin": [
+      268,
+      48
+    ],
+    "previewScale": 0.8560885608856088,
+    "previewSize": [
+      232,
+      223
+    ],
+    "inspectedPreviewPoint": [
+      395,
+      234
+    ],
+    "firstSourceCenter": [
+      187,
+      250
+    ],
+    "nativePoint": [
+      96,
+      164
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "sps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      32,
+      44,
+      289,
+      299
+    ],
+    "previewOrigin": [
+      527,
+      48
+    ],
+    "previewScale": 0.8784313725490196,
+    "previewSize": [
+      226,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      635,
+      253
+    ],
+    "firstSourceCenter": [
+      155,
+      277
+    ],
+    "nativePoint": [
+      96,
+      174
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "sps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      32,
+      27,
+      297,
+      294
+    ],
+    "previewOrigin": [
+      785,
+      48
+    ],
+    "previewScale": 0.8389513108614233,
+    "previewSize": [
+      222,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      884,
+      252
+    ],
+    "firstSourceCenter": [
+      150,
+      270
+    ],
+    "nativePoint": [
+      96,
+      174
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "lps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      23,
+      31,
+      301,
+      302
+    ],
+    "previewOrigin": [
+      13,
+      328
+    ],
+    "previewScale": 0.8265682656826568,
+    "previewSize": [
+      230,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      131,
+      516
+    ],
+    "firstSourceCenter": [
+      166,
+      258
+    ],
+    "nativePoint": [
+      96,
+      162
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "lps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      23,
+      39,
+      293,
+      301
+    ],
+    "previewOrigin": [
+      268,
+      328
+    ],
+    "previewScale": 0.8549618320610687,
+    "previewSize": [
+      231,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      385,
+      516
+    ],
+    "firstSourceCenter": [
+      160,
+      259
+    ],
+    "nativePoint": [
+      96,
+      162
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "soft",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      18,
+      37,
+      302,
+      293
+    ],
+    "previewOrigin": [
+      524,
+      335
+    ],
+    "previewScale": 0.8169014084507042,
+    "previewSize": [
+      232,
+      209
+    ],
+    "inspectedPreviewPoint": [
+      642,
+      480
+    ],
+    "firstSourceCenter": [
+      162,
+      214
+    ],
+    "nativePoint": [
+      96,
+      147
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "soft",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      18,
+      33,
+      314,
+      305
+    ],
+    "previewOrigin": [
+      780,
+      333
+    ],
+    "previewScale": 0.7837837837837838,
+    "previewSize": [
+      232,
+      213
+    ],
+    "inspectedPreviewPoint": [
+      896,
+      484
+    ],
+    "firstSourceCenter": [
+      166,
+      226
+    ],
+    "nativePoint": [
+      96,
+      147
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      28,
+      33,
+      326,
+      270
+    ],
+    "previewOrigin": [
+      12,
+      67
+    ],
+    "previewScale": 0.7785234899328859,
+    "previewSize": [
+      232,
+      185
+    ],
+    "inspectedPreviewPoint": [
+      126,
+      220
+    ],
+    "firstSourceCenter": [
+      174,
+      230
+    ],
+    "nativePoint": [
+      96,
+      136
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      29,
+      35,
+      335,
+      279
+    ],
+    "previewOrigin": [
+      268,
+      67
+    ],
+    "previewScale": 0.7581699346405228,
+    "previewSize": [
+      232,
+      185
+    ],
+    "inspectedPreviewPoint": [
+      385,
+      227
+    ],
+    "firstSourceCenter": [
+      183,
+      246
+    ],
+    "nativePoint": [
+      96,
+      136
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      40,
+      31,
+      300,
+      290
+    ],
+    "previewOrigin": [
+      527,
+      48
+    ],
+    "previewScale": 0.8648648648648649,
+    "previewSize": [
+      225,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      634,
+      228
+    ],
+    "firstSourceCenter": [
+      164,
+      239
+    ],
+    "nativePoint": [
+      96,
+      138
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      23,
+      41,
+      326,
+      266
+    ],
+    "previewOrigin": [
+      780,
+      74
+    ],
+    "previewScale": 0.7656765676567657,
+    "previewSize": [
+      232,
+      172
+    ],
+    "inspectedPreviewPoint": [
+      891,
+      228
+    ],
+    "firstSourceCenter": [
+      168,
+      242
+    ],
+    "nativePoint": [
+      96,
+      138
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      12,
+      28,
+      317,
+      287
+    ],
+    "previewOrigin": [
+      12,
+      341
+    ],
+    "previewScale": 0.760655737704918,
+    "previewSize": [
+      232,
+      197
+    ],
+    "inspectedPreviewPoint": [
+      129,
+      496
+    ],
+    "firstSourceCenter": [
+      166,
+      232
+    ],
+    "nativePoint": [
+      96,
+      139
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      14,
+      64,
+      298,
+      273
+    ],
+    "previewOrigin": [
+      268,
+      354
+    ],
+    "previewScale": 0.8169014084507042,
+    "previewSize": [
+      232,
+      171
+    ],
+    "inspectedPreviewPoint": [
+      386,
+      504
+    ],
+    "firstSourceCenter": [
+      158,
+      248
+    ],
+    "nativePoint": [
+      96,
+      139
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      14,
+      69,
+      299,
+      299
+    ],
+    "previewOrigin": [
+      524,
+      346
+    ],
+    "previewScale": 0.8140350877192982,
+    "previewSize": [
+      232,
+      187
+    ],
+    "inspectedPreviewPoint": [
+      641,
+      493
+    ],
+    "firstSourceCenter": [
+      158,
+      250
+    ],
+    "nativePoint": [
+      96,
+      138
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      22,
+      36,
+      360,
+      278
+    ],
+    "previewOrigin": [
+      780,
+      357
+    ],
+    "previewScale": 0.6863905325443787,
+    "previewSize": [
+      232,
+      166
+    ],
+    "inspectedPreviewPoint": [
+      890,
+      499
+    ],
+    "firstSourceCenter": [
+      182,
+      243
+    ],
+    "nativePoint": [
+      96,
+      138
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "pavona-cactus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      50,
+      20,
+      265,
+      289
+    ],
+    "previewOrigin": [
+      38,
+      48
+    ],
+    "previewScale": 0.8327137546468402,
+    "previewSize": [
+      179,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      127,
+      242
+    ],
+    "firstSourceCenter": [
+      157,
+      253
+    ],
+    "nativePoint": [
+      96,
+      143
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "pavona-cactus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      26,
+      75,
+      304,
+      320
+    ],
+    "previewOrigin": [
+      268,
+      58
+    ],
+    "previewScale": 0.8345323741007195,
+    "previewSize": [
+      232,
+      204
+    ],
+    "inspectedPreviewPoint": [
+      382,
+      245
+    ],
+    "firstSourceCenter": [
+      163,
+      299
+    ],
+    "nativePoint": [
+      96,
+      143
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      74,
+      9,
+      294,
+      281
+    ],
+    "previewOrigin": [
+      549,
+      48
+    ],
+    "previewScale": 0.8235294117647058,
+    "previewSize": [
+      181,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      639,
+      205
+    ],
+    "firstSourceCenter": [
+      183,
+      200
+    ],
+    "nativePoint": [
+      96,
+      125
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      11,
+      31,
+      320,
+      281
+    ],
+    "previewOrigin": [
+      780,
+      66
+    ],
+    "previewScale": 0.7508090614886731,
+    "previewSize": [
+      232,
+      188
+    ],
+    "inspectedPreviewPoint": [
+      894,
+      222
+    ],
+    "firstSourceCenter": [
+      163,
+      239
+    ],
+    "nativePoint": [
+      96,
+      125
+    ],
+    "note": "Manually inspected visible fixed rock/skeleton/stalk landmark, not coral moving tissue; all16 final native cells still require review."
+  }
+]

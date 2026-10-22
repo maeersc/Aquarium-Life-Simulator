@@ -1,0 +1,62 @@
+{
+  "canvas": {
+    "x": 195,
+    "y": 289.5,
+    "width": 898,
+    "height": 449,
+    "top": 289.5,
+    "right": 1093,
+    "bottom": 738.5,
+    "left": 195
+  },
+  "placing": null,
+  "flora": [
+    {
+      "id": "flora34",
+      "type": "turbinaria-reniformis",
+      "name": "Yellow scroll coral",
+      "x": 0.15256124721603564,
+      "y": 0.707421875,
+      "z": 0.5,
+      "attachment": {
+        "surface": "rock",
+        "supportId": "rock30",
+        "localX": -0.25300668151447664,
+        "localY": -0.546875,
+        "orientation": "upright",
+        "mounted": true,
+        "footprint": 16
+      },
+      "hp": 100,
+      "size": 1,
+      "age": 0.0015692777777777786,
+      "color": 1,
+      "rarity": "Very Rare",
+      "mystery": {
+        "product": "coral",
+        "rarity": "Very Rare",
+        "revealed": true,
+        "roll": 9680
+      },
+      "provenance": {
+        "source": "mystery-coral",
+        "acquired": 0
+      },
+      "healthState": {
+        "nutrition": 90.0056494,
+        "tissue": 1,
+        "bleaching": 0,
+        "polyps": 1,
+        "conditions": [],
+        "treatment": null,
+        "history": [],
+        "lastExam": -1
+      },
+      "careObservation": {
+        "lastHealthy": 0,
+        "lastFed": null
+      }
+    }
+  ],
+  "toast": "Yellow scroll coral placed. Select the colony to inspect it."
+}

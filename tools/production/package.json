@@ -1,0 +1,10 @@
+{
+  "name": "aquarium-life-production-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Build-only minifiers; never shipped with the game",
+  "dependencies": {
+    "clean-css": "5.3.3",
+    "terser": "5.44.0"
+  }
+}

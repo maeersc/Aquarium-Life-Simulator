@@ -1,0 +1,412 @@
+{
+  "passed": 98,
+  "failed": 0,
+  "baseline": {
+    "passed": 48,
+    "failed": 0,
+    "checks": [
+      {
+        "name": "New local profile starts with exactly 5,000 AC and reconciled opening balance",
+        "pass": true
+      },
+      {
+        "name": "Every marine fish remains indexed without a duplicated species database",
+        "pass": true
+      },
+      {
+        "name": "Legacy wallet migrates without invented income or bonus",
+        "pass": true
+      },
+      {
+        "name": "Normal food spending records the real charge and reconciles",
+        "pass": true
+      },
+      {
+        "name": "Unaffordable purchase is atomic and records no receipt or item",
+        "pass": true
+      },
+      {
+        "name": "Research costs exactly 5 AC once, uses ledger and survives validation/reload",
+        "pass": true
+      },
+      {
+        "name": "Designer morph research shares one parent species unlock",
+        "pass": true
+      },
+      {
+        "name": "Research cannot charge for freshwater or fictional nonbiological entries",
+        "pass": true
+      },
+      {
+        "name": "Independent profiles cannot mix research or financial records",
+        "pass": true
+      },
+      {
+        "name": "Unsafe or immature parent has explicit fragging refusal reasons",
+        "pass": true
+      },
+      {
+        "name": "Correct tools and consumables are required and purchased at fixed prices",
+        "pass": true
+      },
+      {
+        "name": "Confirmed frag conserves species/clone, reduces parent, consumes mounting only and has valid separate identity",
+        "pass": true
+      },
+      {
+        "name": "Frag reload preserves IDs and lineage; duplicate token never creates a second clone",
+        "pass": true
+      },
+      {
+        "name": "Recovering parent cannot be repeatedly cut; fresh frag cannot sell",
+        "pass": true
+      },
+      {
+        "name": "Wall/branch-unverified hammer does not assume a supported cutting method",
+        "pass": true
+      },
+      {
+        "name": "Deep Market exposes exactly four persisted stock slots and a separate wanted board",
+        "pass": true
+      },
+      {
+        "name": "Water change consumes actual doses and records charged liters and tank",
+        "pass": true
+      },
+      {
+        "name": "Asset valuation changes never manufacture wallet transactions",
+        "pass": true
+      },
+      {
+        "name": "Tampered receipt balance is rejected",
+        "pass": true
+      },
+      {
+        "name": "Real fixed-step daily rewards enter separate +50 and +100 receipts",
+        "pass": true
+      },
+      {
+        "name": "Confirmed loss preserves recovery restrictions in the new reward ledger",
+        "pass": true
+      },
+      {
+        "name": "Offline catch-up records qualifying rewards once and reconciles after reload",
+        "pass": true
+      },
+      {
+        "name": "Dive rental is one exact approved fee and duplicate action token is free",
+        "pass": true
+      },
+      {
+        "name": "Mystery coral purchase records exact fee and the resolved owned individual",
+        "pass": true
+      },
+      {
+        "name": "Regular diving resale computes exactly floor(reference x 0.60), even if not wanted",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 100 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 500 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 1000 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 5000 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 10000 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Diving dealer reference 101 uses one exact 60% rounded quote",
+        "pass": true
+      },
+      {
+        "name": "Regular diving sale removes only that individual and earns once",
+        "pass": true
+      },
+      {
+        "name": "Deep sale enforces reputation and biological-ID matching, then consumes one request",
+        "pass": true
+      },
+      {
+        "name": "Changing a specimen name cannot satisfy a different wanted species",
+        "pass": true
+      },
+      {
+        "name": "Wanted requests and four-stock rotation persist and advance at real midnight",
+        "pass": true
+      },
+      {
+        "name": "Wrong fragging tool and unsupported mount fail atomically",
+        "pass": true
+      },
+      {
+        "name": "Reusable tool duplication is blocked through both equipment and supply routes",
+        "pass": true
+      },
+      {
+        "name": "Established frag sale removes child only, with parent value retained",
+        "pass": true
+      },
+      {
+        "name": "Financial timeframes reconcile opening/income/expenses/closing without wallet confusion",
+        "pass": true
+      },
+      {
+        "name": "Large histories archive actual sums, preserve account identity and validate",
+        "pass": true
+      },
+      {
+        "name": "Financial service rejects repeated receipt key and preserves balance",
+        "pass": true
+      },
+      {
+        "name": "Older imported financial checkpoints cannot replay a completed research purchase",
+        "pass": true
+      },
+      {
+        "name": "Research works as an account action while a retained freshwater tank is selected",
+        "pass": true
+      },
+      {
+        "name": "A genuine ready quest pays its exact reward once with a named ledger receipt",
+        "pass": true
+      },
+      {
+        "name": "Archived transaction keys remain idempotent after recent action history expires",
+        "pass": true
+      },
+      {
+        "name": "Invalid persisted lineage is rejected rather than becoming a second parent",
+        "pass": true
+      },
+      {
+        "name": "A fragment has independent health and death while preserving its living parent",
+        "pass": true
+      },
+      {
+        "name": "No direct ordinary Tier 4-6 listing or freshwater creation bypass is introduced",
+        "pass": true
+      }
+    ]
+  },
+  "reward": {
+    "passed": 34,
+    "failed": 0,
+    "checks": [
+      {
+        "name": "One full qualifying day pays exactly 100 once through the central ledger",
+        "pass": true
+      },
+      {
+        "name": "A partial day pays nothing; the final minute completes qualification",
+        "pass": true
+      },
+      {
+        "name": "Empty accounts earn no survival reward",
+        "pass": true
+      },
+      {
+        "name": "Acquiring livestock halfway through the day cannot earn a full-day payment",
+        "pass": true
+      },
+      {
+        "name": "Only retained freshwater livestock does not qualify the marine reward",
+        "pass": true
+      },
+      {
+        "name": "Multiple active marine aquariums still pay once per local account",
+        "pass": true
+      },
+      {
+        "name": "A living coral-only aquarium qualifies",
+        "pass": true
+      },
+      {
+        "name": "A living bottom-invertebrate-only aquarium qualifies",
+        "pass": true
+      },
+      {
+        "name": "Confirmed fish death cancels the day at its authoritative simulation time",
+        "pass": true
+      },
+      {
+        "name": "Confirmed coral death cancels global qualification",
+        "pass": true
+      },
+      {
+        "name": "Confirmed bottom-invertebrate death cancels global qualification",
+        "pass": true
+      },
+      {
+        "name": "Living sick fish and living bleached corals are not death events",
+        "pass": true
+      },
+      {
+        "name": "Recovery lasts exactly 1,440 minutes and its partial overlap never qualifies",
+        "pass": true
+      },
+      {
+        "name": "A later fully qualifying day resumes 100-AC payments after recovery",
+        "pass": true
+      },
+      {
+        "name": "Another death during recovery restarts the full interval",
+        "pass": true
+      },
+      {
+        "name": "Repeated processing of the same corpse cannot restart recovery",
+        "pass": true
+      },
+      {
+        "name": "Aquarium selection and validated reload do not bypass recovery",
+        "pass": true
+      },
+      {
+        "name": "Moving a living fish preserves the account recovery penalty",
+        "pass": true
+      },
+      {
+        "name": "Healthy +50 and survival +100 are separate receipts totaling 150",
+        "pass": true
+      },
+      {
+        "name": "Survival can pay 100 when a prior health disqualifier blocks the separate 50",
+        "pass": true
+      },
+      {
+        "name": "Healthy care can pay 50 while the survival recovery interval blocks 100",
+        "pass": true
+      },
+      {
+        "name": "Three legitimate offline days award 300 survival AC with one consolidated summary",
+        "pass": true
+      },
+      {
+        "name": "Offline death recovery reports missed days without an extra payment",
+        "pass": true
+      },
+      {
+        "name": "Save/load and repeated boundary processing cannot duplicate a paid day",
+        "pass": true
+      },
+      {
+        "name": "Offline catch-up at an already processed timestamp awards nothing again",
+        "pass": true
+      },
+      {
+        "name": "Backward clock plus saving cannot rewind the local offline checkpoint",
+        "pass": true
+      },
+      {
+        "name": "A forward timestamp is simulated once; back-and-forward replay earns nothing extra",
+        "pass": true
+      },
+      {
+        "name": "A saved newer financial checkpoint rejects an older reward import",
+        "pass": true
+      },
+      {
+        "name": "Ledger records qualification, completed day, timestamps, account and unique identity",
+        "pass": true
+      },
+      {
+        "name": "Legacy 200-AC historical receipts and balances stay intact; future payments use 100",
+        "pass": true
+      },
+      {
+        "name": "Old recovery-inclusive partial checkpoints migrate without retroactive credit",
+        "pass": true
+      },
+      {
+        "name": "An unrecognized survival checkpoint policy is rejected",
+        "pass": true
+      },
+      {
+        "name": "No newly generated survival transaction has the replaced 200-AC amount",
+        "pass": true
+      },
+      {
+        "name": "Time conversion and freshwater purchase lock remain unchanged",
+        "pass": true
+      }
+    ]
+  },
+  "ui": [
+    {
+      "name": "The live reward notification says exactly +100 AC",
+      "pass": true
+    },
+    {
+      "name": "AC dashboard shows the actual +100 payment and the separate +50 reward",
+      "pass": true
+    },
+    {
+      "name": "Payment details include qualification status and the completed qualifying day",
+      "pass": true
+    },
+    {
+      "name": "Confirmed loss shows the required recovery notification",
+      "pass": true
+    },
+    {
+      "name": "Tank History shows +100, the separate +50, 150 combined and recovery countdown",
+      "pass": true
+    },
+    {
+      "name": "Field Journal keeps time and recovery countdown moving despite the underlying pause",
+      "pass": true
+    },
+    {
+      "name": "Equipment keeps the authoritative simulation and qualification timer running",
+      "pass": true
+    },
+    {
+      "name": "Aquarium Store keeps the authoritative simulation and qualification timer running",
+      "pass": true
+    },
+    {
+      "name": "Deep Market keeps the authoritative simulation and qualification timer running",
+      "pass": true
+    },
+    {
+      "name": "Ocean Diving keeps the authoritative simulation and qualification timer running",
+      "pass": true
+    },
+    {
+      "name": "Financial Overview keeps the authoritative simulation and qualification timer running",
+      "pass": true
+    },
+    {
+      "name": "Other game dialog keeps the authoritative simulation and qualification timer running",
+      "pass": true
+    },
+    {
+      "name": "Long offline catch-up uses a consolidated 300-AC survival summary without individual toast spam",
+      "pass": true
+    },
+    {
+      "name": "Actual local reload preserves account identity, death timestamp and recovery",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript exceptions in the reward flows",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "Reward processing and UI need no internet service",
+      "pass": true,
+      "requests": []
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "source": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\raw\\snow-storm\\juvenile-source-v1.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\variety-references\\snow-storm\\juvenile.png",
+  "referenceBounds": [
+    8,
+    17,
+    184,
+    143
+  ],
+  "sourceBoxes": [
+    [
+      18,
+      89,
+      309,
+      285
+    ],
+    [
+      345,
+      89,
+      621,
+      282
+    ],
+    [
+      658,
+      89,
+      934,
+      283
+    ],
+    [
+      969,
+      89,
+      1245,
+      282
+    ],
+    [
+      18,
+      379,
+      311,
+      575
+    ],
+    [
+      341,
+      379,
+      624,
+      575
+    ],
+    [
+      656,
+      379,
+      934,
+      575
+    ],
+    [
+      962,
+      379,
+      1245,
+      573
+    ],
+    [
+      23,
+      688,
+      308,
+      880
+    ],
+    [
+      341,
+      687,
+      621,
+      880
+    ],
+    [
+      656,
+      688,
+      934,
+      878
+    ],
+    [
+      962,
+      688,
+      1248,
+      881
+    ],
+    [
+      22,
+      976,
+      308,
+      1172
+    ],
+    [
+      341,
+      974,
+      621,
+      1172
+    ],
+    [
+      653,
+      976,
+      934,
+      1172
+    ],
+    [
+      962,
+      976,
+      1248,
+      1169
+    ]
+  ],
+  "sourceEyeAnchors": [
+    [
+      252.0,
+      86.0,
+      23
+    ],
+    [
+      238.0,
+      86.5,
+      21
+    ],
+    [
+      238.0,
+      86.0,
+      23
+    ],
+    [
+      238.0,
+      86.5,
+      21
+    ],
+    [
+      254.0,
+      86.0,
+      23
+    ],
+    [
+      245.0,
+      84.0,
+      23
+    ],
+    [
+      240.5,
+      84.0,
+      22
+    ],
+    [
+      246.5,
+      84.0,
+      22
+    ],
+    [
+      247.0,
+      86.0,
+      23
+    ],
+    [
+      242.5,
+      87.0,
+      22
+    ],
+    [
+      240.0,
+      86.0,
+      23
+    ],
+    [
+      246.5,
+      86.0,
+      24
+    ],
+    [
+      248.0,
+      87.0,
+      23
+    ],
+    [
+      241.5,
+      89.5,
+      22
+    ],
+    [
+      242.5,
+      87.5,
+      22
+    ],
+    [
+      247.5,
+      87.0,
+      22
+    ]
+  ],
+  "scale": 0.6006825938566553,
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "columns": 4,
+  "frameCount": 16,
+  "anchor": [
+    96.0,
+    80.0
+  ],
+  "eye": {
+    "x": 159,
+    "y": 70,
+    "w": 12,
+    "h": 12
+  },
+  "frameHashes": [
+    "f39c1e3f15c25e45412d88e9627d09cb53bff56bc908bf9118f351600ad4af58",
+    "0a9ef8486cbe58558909386cc5ecdf703bf837b13a26d9d8d3e39dd219f2b4d3",
+    "f2ba033a1e9d4a897468447d2ac45f52c69e2abe8d175b240c9e17ab75c15390",
+    "f0447776439ee091ecc1e4f5a6d3c54e29b4ee2cbf6cca781952e0ea08fda077",
+    "c59f2e74cfecf36928643ea716b14896832032f69e17722f74e83502f76a6147",
+    "c0a7774a5f8938ebd9d890224408f446e78f64c5a8bf87e5d630d903762b9cf6",
+    "b004dfb213b1c5f3a3c7a6457791fa02740d7476197dcea6e947982c1be4ecdc",
+    "574c27773dbd3565efb0e6b483ecdbcdc9ad906db78d2861b28951a132820ee9",
+    "2791e8c476830f741edaa58afad6699f8dba1fe13c20ad9d0a5190cb59109ce3",
+    "ce55d212c774e7247eaffa080df7385b654103c0a663915a29ac2ed6ff29e9a4",
+    "c1e737c34c12d37224aba0ca1bbae95a95ef3b6cba681a1694e6312bf328f2b9",
+    "bf04ec44a54b8b1ac3b780ed15cc8dc00080ffda844ad139598bd1003f6164e3",
+    "e235c0bace35d7c43546bcaa012450790951db5643569a3bc2bd808be60807a8",
+    "4ad62e781067e54e0d5cfdfb32c9b6544e6f2035fc066cdd3a832a0c6b524e1f",
+    "46e601dd9278c6f9c1a66d1ac26d0f5d7d0a9b9f8fb7ac84a42333b2f8702e49",
+    "4e8e86f6244e2956653315a2f3f2ebcad52fb19e23132714c69dbd97808cb7b1"
+  ],
+  "bounds": [
+    [
+      8,
+      18,
+      183,
+      136
+    ],
+    [
+      16,
+      18,
+      182,
+      134
+    ],
+    [
+      16,
+      18,
+      182,
+      135
+    ],
+    [
+      16,
+      18,
+      182,
+      134
+    ],
+    [
+      6,
+      18,
+      182,
+      136
+    ],
+    [
+      12,
+      20,
+      182,
+      138
+    ],
+    [
+      15,
+      20,
+      182,
+      138
+    ],
+    [
+      11,
+      20,
+      181,
+      137
+    ],
+    [
+      11,
+      18,
+      182,
+      133
+    ],
+    [
+      13,
+      18,
+      181,
+      134
+    ],
+    [
+      15,
+      18,
+      182,
+      132
+    ],
+    [
+      11,
+      18,
+      183,
+      134
+    ],
+    [
+      10,
+      18,
+      182,
+      136
+    ],
+    [
+      14,
+      16,
+      182,
+      135
+    ],
+    [
+      13,
+      17,
+      182,
+      135
+    ],
+    [
+      10,
+      18,
+      182,
+      134
+    ]
+  ],
+  "sha256": "cff708b0625e2097a39a91e9716c5da121a7054b6095318b966c032dcafdbe78",
+  "technicalChecks": {
+    "allCells": true,
+    "binaryAlpha": true,
+    "unique": true,
+    "transparentMargins": true,
+    "registeredEyes": true
+  },
+  "visualReview": {
+    "passed": true,
+    "notes": "All16 native cells inspected: white trunk, black fins with turquoise edges and dark snout retained, stable true iris. Adult lower eight source drawings normalized from left-facing to right-facing; distinct full fin poses preserved with clear margins.",
+    "playerApproved": false
+  },
+  "playerApproved": false
+}

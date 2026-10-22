@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="32" viewBox="0 0 64 32">
+  <!-- Staggered hanging scallops: the centre of each scale bows DOWN. -->
+  <g fill="none" stroke="#16191d" stroke-opacity=".45" stroke-width="1">
+    <path d="M-16 0Q0 32 16 0Q32 32 48 0Q64 32 80 0"/>
+    <path d="M-32 16Q-16 48 0 16Q16 48 32 16Q48 48 64 16Q80 48 96 16"/>
+    <path d="M-32-16Q-16 16 0-16Q16 16 32-16Q48 16 64-16Q80 16 96-16"/>
+  </g>
+</svg>

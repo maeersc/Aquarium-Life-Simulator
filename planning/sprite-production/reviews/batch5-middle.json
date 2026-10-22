@@ -1,0 +1,44 @@
+[
+  {
+    "id": "white-banded-possum-wrasse",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the supplied baby source. Developing translucent body, original yolk and single front iris remain consistent, with tiny existing developing-fin adjustments and complete unclipped silhouettes. Adult false-eye markings were not imposed on the baby.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "tanakas-pygmy-wrasse",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the supplied baby source. Developing translucent body, original yolk and single front iris remain consistent, with tiny existing developing-fin adjustments and complete unclipped silhouettes. Adult false-eye markings were not imposed on the baby.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "tanakas-pygmy-wrasse",
+    "stage": "adult",
+    "notes": "All sixteen native cells inspected: the two original yellow-rimmed false-eye spots stay on the dorsal and rear region, separate from the genuine front iris. Pale body bars, red body, fin roots and stage proportions retain the reference identity; quiet restrained fin changes.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "tanakas-pygmy-wrasse",
+    "stage": "juvenile",
+    "notes": "All sixteen native cells inspected: the two original yellow-rimmed false-eye spots stay on the dorsal and rear region, separate from the genuine front iris. Pale body bars, red body, fin roots and stage proportions retain the reference identity; quiet restrained fin changes.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "carpenters-flasher-wrasse",
+    "stage": "adult",
+    "notes": "All sixteen cells inspected against the correct stage. Adult long red dorsal filaments and lower fin extensions retain attached roots and complete transparent margins; juvenile retains its short developing fins. Orange body and blue horizontal lines remain stable around a single front iris; modest caudal and pectoral motion.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "carpenters-flasher-wrasse",
+    "stage": "juvenile",
+    "notes": "All sixteen cells inspected against the correct stage. Adult long red dorsal filaments and lower fin extensions retain attached roots and complete transparent margins; juvenile retains its short developing fins. Orange body and blue horizontal lines remain stable around a single front iris; modest caudal and pectoral motion.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  }
+]

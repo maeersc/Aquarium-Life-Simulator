@@ -1,0 +1,2476 @@
+{
+  "prepared": true,
+  "emptyDry": true,
+  "cycle": 36.083333333333265,
+  "bacteria": 1,
+  "bacteria2": 1,
+  "preparation": {
+    "id": "prepared",
+    "label": "Water prepared",
+    "ok": false,
+    "actual": "Unprepared / dry",
+    "required": "Prepared saltwater",
+    "help": "Use aquarium setup to prepare the water."
+  },
+  "volume": {
+    "id": "volume",
+    "label": "Water volume",
+    "ok": true,
+    "actual": "79.252 US gal",
+    "required": ">= 30.000 US gal",
+    "help": "Choose a larger aquarium; nominal gallon labels do not change physical water volume."
+  },
+  "state": {
+    "version": 2,
+    "seed": 405,
+    "nextId": 54,
+    "time": 2645,
+    "credits": 99195,
+    "xp": 2400,
+    "level": 13,
+    "selectedTank": "tank1",
+    "tanks": [
+      {
+        "id": "tank1",
+        "name": "A pocket of ocean",
+        "water": "marine",
+        "volume": 300,
+        "kind": "reef",
+        "prepared": true,
+        "cycle": 36.083333333333265,
+        "bacteria": 1,
+        "bacteria2": 1,
+        "cycleActive": false,
+        "temperatureTarget": 25,
+        "lightHours": 10,
+        "lightIntensity": 0.7,
+        "lightMode": "auto",
+        "foodType": "pellets",
+        "background": "lagoon",
+        "decorations": [],
+        "safeHours": 0,
+        "peaceHours": 0,
+        "waterParams": {
+          "temperature": 25,
+          "ph": 8.2,
+          "salinity": 35,
+          "ammonia": 0,
+          "nitrite": 0.02864383333333214,
+          "nitrate": 8.541356166666665,
+          "oxygen": 7.3677951365963095,
+          "gh": 12,
+          "kh": 8,
+          "alkalinity": 8,
+          "calcium": 420,
+          "magnesium": 1300,
+          "phosphate": 0.03,
+          "organic": 0,
+          "clarity": 98.29172876666667
+        },
+        "equipment": [
+          {
+            "type": "filter",
+            "capacity": 300,
+            "durability": 99.2530750000029,
+            "enabled": true
+          },
+          {
+            "type": "heater",
+            "capacity": 300,
+            "durability": 99.2530750000029,
+            "enabled": true
+          },
+          {
+            "type": "flow",
+            "capacity": 300,
+            "durability": 99.2530750000029,
+            "enabled": true
+          }
+        ],
+        "fish": [],
+        "flora": [],
+        "eggs": [],
+        "food": [],
+        "lastAutoFeed": -1,
+        "forage": {
+          "algae": 0
+        },
+        "autoFeedSlot": -1,
+        "environmentHistory": [
+          {
+            "time": 480,
+            "water": {
+              "temperature": 25,
+              "ph": 8.2,
+              "salinity": 35,
+              "ammonia": 1.5,
+              "nitrite": 0,
+              "nitrate": 3,
+              "oxygen": 7.5,
+              "gh": 12,
+              "kh": 8,
+              "alkalinity": 8,
+              "calcium": 420,
+              "magnesium": 1300,
+              "phosphate": 0.03,
+              "organic": 0,
+              "clarity": 100
+            },
+            "bacteria": 0.01,
+            "bacteria2": 0.005
+          },
+          {
+            "time": 720,
+            "water": {
+              "temperature": 25,
+              "ph": 8.2,
+              "salinity": 35,
+              "ammonia": 1.35330783711574,
+              "nitrite": 0.023331597421296337,
+              "nitrate": 3.123360565462962,
+              "oxygen": 7.373080223767941,
+              "gh": 12,
+              "kh": 8,
+              "alkalinity": 8,
+              "calcium": 420,
+              "magnesium": 1300,
+              "phosphate": 0.03,
+              "organic": 0,
+              "clarity": 99.37532788690741
+            },
+            "bacteria": 0.12111111111111098,
+            "bacteria2": 0.11611111111111098
+          },
+          {
+            "time": 1440,
+            "water": {
+              "temperature": 25,
+              "ph": 8.2,
+              "salinity": 35,
+              "ammonia": 0,
+              "nitrite": 0,
+              "nitrate": 4.4999999999999964,
+              "oxygen": 7.3390379615234735,
+              "gh": 12,
+              "kh": 8,
+              "alkalinity": 8,
+              "calcium": 420,
+              "magnesium": 1300,
+              "phosphate": 0.03,
+              "organic": 0,
+              "clarity": 99.1
+            },
+            "bacteria": 0.45444444444444576,
+            "bacteria2": 0.44944444444444576
+          },
+          {
+            "time": 2160,
+            "water": {
+              "temperature": 25,
+              "ph": 8.2,
+              "salinity": 35,
+              "ammonia": 0,
+              "nitrite": 0,
+              "nitrate": 4.4999999999999964,
+              "oxygen": 7.379910716513456,
+              "gh": 12,
+              "kh": 8,
+              "alkalinity": 8,
+              "calcium": 420,
+              "magnesium": 1300,
+              "phosphate": 0.03,
+              "organic": 0,
+              "clarity": 99.1
+            },
+            "bacteria": 0.7877777777777737,
+            "bacteria2": 0.7827777777777738
+          }
+        ],
+        "invertebrates": [],
+        "nurseries": [],
+        "ecosystemAge": 36.083333333333265,
+        "substrate": {
+          "type": "fiji",
+          "depth": 0
+        },
+        "hardscape": [
+          {
+            "id": "rock30",
+            "group": "fiji",
+            "variant": 0,
+            "x": 0.5,
+            "y": 0.9541666666666666,
+            "z": 0.5,
+            "width": 38,
+            "baseOffset": 0.0125
+          }
+        ],
+        "mounts": [],
+        "pathogens": {},
+        "medicalSeed": 404,
+        "emptyDry": true,
+        "mortalityHistory": {
+          "samples": [
+            {
+              "time": 480,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 1.5,
+                "nitrite": 0,
+                "nitrate": 3,
+                "oxygen": 7.5,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 100
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 300,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 540,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 1.4862261056956017,
+                "nitrite": 0.0037519350219907413,
+                "nitrate": 3.0100219592824073,
+                "oxygen": 7.4490056913294325,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.39799560814352
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.938,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 600,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 1.4571818971134256,
+                "nitrite": 0.008891562932870377,
+                "nitrate": 3.0339265399537036,
+                "oxygen": 7.414908019904868,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.39321469200925
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.876,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 660,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 1.4128736992534718,
+                "nitrite": 0.015418308732638905,
+                "nitrate": 3.0717079920138883,
+                "oxygen": 7.3909508973699385,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.38565840159723
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.814,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 720,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 1.35330783711574,
+                "nitrite": 0.023331597421296337,
+                "nitrate": 3.123360565462962,
+                "oxygen": 7.373080223767941,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.37532788690741
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.752,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 780,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 1.2784906357002304,
+                "nitrite": 0.032630853998842684,
+                "nitrate": 3.1888785103009254,
+                "oxygen": 7.3588632709295565,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.36222429793982
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.69,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 840,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 1.1884284200069428,
+                "nitrite": 0.043315503465277926,
+                "nitrate": 3.268256076527777,
+                "oxygen": 7.346840241018272,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.34634878469444
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.627,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 900,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 1.0831275150358772,
+                "nitrite": 0.055384970820602085,
+                "nitrate": 3.3614875141435188,
+                "oxygen": 7.33613515876058,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.3277024971713
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.565,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 960,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0.9625942457870339,
+                "nitrite": 0.06883868106481517,
+                "nitrate": 3.4685670731481495,
+                "oxygen": 7.326222381043032,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.30628658537037
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.503,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1020,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0.8268349372604124,
+                "nitrite": 0.08367605919791717,
+                "nitrate": 3.589489003541669,
+                "oxygen": 7.316786487224111,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.28210219929167
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.441,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1080,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0.6758559144560127,
+                "nitrite": 0.0998965302199081,
+                "nitrate": 3.7242475553240784,
+                "oxygen": 7.307638204052547,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.25515048893519
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.379,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1140,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0.5096635023738352,
+                "nitrite": 0.11749951913078795,
+                "nitrate": 3.872836978495376,
+                "oxygen": 7.298663955056372,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.22543260430092
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.317,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1200,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0.3282640260138793,
+                "nitrite": 0.13648445093055672,
+                "nitrate": 4.035251523055564,
+                "oxygen": 7.289795586838862,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.19294969538889
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.255,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1260,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0.13166381037614536,
+                "nitrite": 0.15685075061921436,
+                "nitrate": 4.2114854390046395,
+                "oxygen": 7.280992202853352,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.15770291219907
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.193,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1320,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0.0984670236573942,
+                "nitrate": 4.401532976342604,
+                "oxygen": 7.28340879452792,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.11969340473148
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.131,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1380,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.311737462282673,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.069,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1440,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.3390379615234735,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 299.006,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1500,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.355420067107665,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.944,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1560,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.365250414201482,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.882,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1620,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.371149272775449,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.82,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1680,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.374688978153458,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.758,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1740,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.376813035546252,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.696,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1800,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.378087610497015,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.634,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1860,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.3788524397858195,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.572,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1920,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379311387955689,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.51,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 1980,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379586787218909,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.448,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2040,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379752044995628,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.385,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2100,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.37985121059414,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.323,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2160,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379910716513456,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.261,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2220,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379946424001607,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.199,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2280,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379967850856693,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.137,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2340,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379980708387219,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.075,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2400,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379988423756113,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 298.013,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2460,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379993053487851,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 297.951,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2520,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.3799958316331695,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 297.889,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2580,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379997498704148,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 297.827,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            },
+            {
+              "time": 2640,
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 4.4999999999999964,
+                "oxygen": 7.379998499057018,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 99.1
+              },
+              "heater": {
+                "operational": true,
+                "effectiveCapacity": 297.764,
+                "target": 25,
+                "deliveredWatts": 37.5
+              },
+              "residents": []
+            }
+          ],
+          "events": [
+            {
+              "time": 480,
+              "type": "buyEquipment",
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 3,
+                "oxygen": 7.5,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 100
+              },
+              "equipment": [
+                {
+                  "type": "filter",
+                  "capacity": 300,
+                  "durability": 100,
+                  "enabled": true
+                }
+              ],
+              "setpoint": 25
+            },
+            {
+              "time": 480,
+              "type": "buyEquipment",
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 3,
+                "oxygen": 7.5,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 100
+              },
+              "equipment": [
+                {
+                  "type": "filter",
+                  "capacity": 300,
+                  "durability": 100,
+                  "enabled": true
+                },
+                {
+                  "type": "heater",
+                  "capacity": 300,
+                  "durability": 100,
+                  "enabled": true
+                }
+              ],
+              "setpoint": 25
+            },
+            {
+              "time": 480,
+              "type": "buyEquipment",
+              "water": {
+                "temperature": 25,
+                "ph": 8.2,
+                "salinity": 35,
+                "ammonia": 0,
+                "nitrite": 0,
+                "nitrate": 3,
+                "oxygen": 7.5,
+                "gh": 12,
+                "kh": 8,
+                "alkalinity": 8,
+                "calcium": 420,
+                "magnesium": 1300,
+                "phosphate": 0.03,
+                "organic": 0,
+                "clarity": 100
+              },
+              "equipment": [
+                {
+                  "type": "filter",
+                  "capacity": 300,
+                  "durability": 100,
+                  "enabled": true
+                },
+                {
+                  "type": "heater",
+                  "capacity": 300,
+                  "durability": 100,
+                  "enabled": true
+                },
+                {
+                  "type": "flow",
+                  "capacity": 300,
+                  "durability": 100,
+                  "enabled": true
+                }
+              ],
+              "setpoint": 25
+            }
+          ]
+        },
+        "breeding": {
+          "nextCheck": 2700,
+          "pairs": [],
+          "reservedLoad": 0,
+          "reservedCount": 0
+        },
+        "valueHistory": [
+          {
+            "time": 480,
+            "value": 2493
+          },
+          {
+            "time": 480,
+            "value": 2603
+          },
+          {
+            "time": 480,
+            "value": 2668
+          }
+        ],
+        "boxToxin": 0
+      }
+    ],
+    "inventory": {
+      "flakes": 30,
+      "pellets": 30,
+      "sinking": 10,
+      "algae": 10,
+      "frozen": 10,
+      "fry": 15,
+      "predator": 0,
+      "conditioner": 20,
+      "salt": 20,
+      "medicine": 0,
+      "buffer": 10,
+      "live-plankton": 0,
+      "phyto": 0,
+      "coral-polyp": 0,
+      "angel-ration": 0,
+      "reef-meat": 0,
+      "starfish-tissue": 0,
+      "frag-kit": 0,
+      "frag-cutters": 0,
+      "frag-saw": 0,
+      "frag-plugs": 0,
+      "frag-mounting": 0,
+      "plankton": 0
+    },
+    "stats": {
+      "prepared": 1,
+      "cycled": 1,
+      "bought": 0,
+      "fed": 0,
+      "waterChanges": 0,
+      "floraBought": 0,
+      "equipmentBought": 3,
+      "broods": 0,
+      "hatched": 0,
+      "raised": 0,
+      "sold": 0,
+      "nightMarket": 0,
+      "seasonDecor": 0,
+      "earnings": 0,
+      "expenses": 805,
+      "deaths": 0
+    },
+    "quests": {},
+    "discovered": [],
+    "achievements": [],
+    "stock": {
+      "guppy": 24,
+      "neon": 24,
+      "cardinal": 24,
+      "betta": 24,
+      "cory": 24,
+      "danio": 24,
+      "harlequin": 24,
+      "platy": 24,
+      "angel": 24,
+      "pleco": 24,
+      "clown": 24,
+      "gramma": 24,
+      "firefish": 24,
+      "watchman": 24,
+      "banggai": 24,
+      "chromis": 24,
+      "yellowtang": 24,
+      "sixline": 24,
+      "blenny": 24,
+      "marinebetta": 24,
+      "voidfin": 2,
+      "glassfang": 2,
+      "amphiprion-percula": 24,
+      "amphiprion-biaculeatus": 24,
+      "amphiprion-clarkii": 24,
+      "amphiprion-frenatus": 24,
+      "amphiprion-melanopus": 24,
+      "amphiprion-ephippium": 24,
+      "amphiprion-perideraion": 24,
+      "amphiprion-sandaracinos": 24,
+      "amphiprion-akallopisos": 24,
+      "amphiprion-polymnus": 24,
+      "amphiprion-sebae": 24,
+      "amphiprion-akindynos": 24,
+      "amphiprion-allardi": 24,
+      "amphiprion-bicinctus": 24,
+      "amphiprion-chrysopterus": 24,
+      "amphiprion-nigripes": 24,
+      "amphiprion-omanensis": 24,
+      "amphiprion-chagosensis": 24,
+      "amphiprion-chrysogaster": 24,
+      "amphiprion-fuscocaudatus": 24,
+      "amphiprion-latifasciatus": 24,
+      "amphiprion-leucokranos": 4,
+      "amphiprion-mccullochi": 4,
+      "amphiprion-latezonatus": 4,
+      "amphiprion-rubrocinctus": 24,
+      "amphiprion-tricinctus": 24,
+      "amphiprion-barberi": 24,
+      "amphiprion-pacificus": 24,
+      "amphiprion-thiellei": 4,
+      "amphiprion-maohiensis": 4,
+      "chalk-bass": 24,
+      "lantern-bass": 24,
+      "yellow-assessor": 24,
+      "blue-assessor": 24,
+      "candy-basslet": 24,
+      "pink-streaked-wrasse": 24,
+      "white-banded-possum-wrasse": 24,
+      "tanakas-pygmy-wrasse": 24,
+      "carpenters-flasher-wrasse": 24,
+      "mccoskers-flasher-wrasse": 24,
+      "exquisite-fairy-wrasse": 24,
+      "lubbocks-fairy-wrasse": 24,
+      "ruby-longfin-fairy-wrasse": 24,
+      "greenbanded-goby": 24,
+      "sharknose-goby": 24,
+      "orange-spotted-prawn-goby": 24,
+      "randalls-prawn-goby": 24,
+      "hi-fin-red-banded-goby": 24,
+      "blue-striped-trimma-goby": 24,
+      "redspotted-blenny": 24,
+      "starry-blenny": 24,
+      "two-spot-blenny": 24,
+      "yellow-candy-hogfish": 24,
+      "blotched-anthias": 24,
+      "purple-queen-anthias": 24,
+      "copperband-butterflyfish": 24,
+      "orange-spotted-filefish": 24,
+      "spotted-boxfish": 24,
+      "centropyge-loriculus": 24,
+      "centropyge-bispinosa": 24,
+      "centropyge-argi": 24,
+      "centropyge-acanthops": 24,
+      "centropyge-potteri": 24,
+      "centropyge-joculator": 24,
+      "pygoplites-diacanthus": 24,
+      "pseudochromis-fridmani": 24,
+      "forcipiger-flavissimus": 24,
+      "hemitaurichthys-polylepis": 24,
+      "ctenochaetus-strigosus": 24,
+      "ctenochaetus-tominiensis": 24,
+      "zebrasoma-xanthurum": 24,
+      "zebrasoma-gemmatum": 24,
+      "acanthurus-achilles": 24,
+      "siganus-vulpinus": 24,
+      "siganus-unimaculatus": 24,
+      "ecsenius-midas": 24,
+      "salarias-fasciatus": 24,
+      "ecsenius-bicolor": 24,
+      "paracheilinus-angulatus": 24,
+      "halichoeres-melanurus": 24,
+      "halichoeres-chrysus": 24,
+      "macropharyngodon-meleagris": 24,
+      "nemanthias-bartlettorum": 24,
+      "fern": 12,
+      "anubias": 12,
+      "sword": 12,
+      "moss": 12,
+      "vallis": 12,
+      "crypt": 12,
+      "zoa": 12,
+      "mushroom": 12,
+      "sps": 12,
+      "lps": 12,
+      "soft": 12,
+      "blastomussa-wellsi": 12,
+      "micromussa-lordhowensis": 12,
+      "cyphastrea-serailia": 12,
+      "leptastrea-purpurea": 12,
+      "pavona-cactus": 12,
+      "duncanopsammia-axifuga": 12,
+      "caulastraea-furcata": 12,
+      "turbinaria-reniformis": 12,
+      "tubastraea-micranthus": 12,
+      "rhizotrochus-typus": 12,
+      "filter": 8,
+      "heater": 8,
+      "light": 8,
+      "air": 8,
+      "skimmer": 8,
+      "reefLight": 8,
+      "flow": 8,
+      "feeder": 8,
+      "chiller": 8,
+      "dosing": 8,
+      "containment": 8,
+      "flakes": 30,
+      "pellets": 30,
+      "sinking": 30,
+      "algae": 30,
+      "frozen": 30,
+      "fry": 30,
+      "predator": 30,
+      "live-plankton": 30,
+      "phyto": 30,
+      "coral-polyp": 30,
+      "angel-ration": 30,
+      "reef-meat": 30,
+      "starfish-tissue": 30,
+      "plankton": 30,
+      "conditioner": 30,
+      "salt": 30,
+      "medicine": 30,
+      "buffer": 30,
+      "frag-kit": 30,
+      "frag-cutters": 30,
+      "frag-saw": 30,
+      "frag-plugs": 30,
+      "frag-mounting": 30,
+      "rack:frag": 12,
+      "sand:fiji": 30,
+      "sand:caribbean": 30,
+      "sand:hawaiian": 30,
+      "rock:fiji:0": 9,
+      "rock:fiji:1": 10,
+      "rock:fiji:2": 10,
+      "rock:fiji:3": 10,
+      "rock:caribbean:0": 10,
+      "rock:caribbean:1": 10,
+      "rock:caribbean:2": 10,
+      "rock:caribbean:3": 10,
+      "rock:hawaiian:0": 10,
+      "rock:hawaiian:1": 10,
+      "rock:hawaiian:2": 10,
+      "rock:hawaiian:3": 10,
+      "variety:black-ocellaris": 12,
+      "variety:snowflake-ocellaris": 12,
+      "variety:premium-snowflake": 8,
+      "variety:black-snowflake": 12,
+      "variety:black-ice-snowflake": 12,
+      "variety:wyoming-white": 8,
+      "variety:snow-storm": 8,
+      "variety:black-storm": 8,
+      "variety:mocha-storm": 8,
+      "variety:mocha-ocellaris": 12,
+      "variety:gladiator": 12,
+      "variety:mocha-gladiator": 12,
+      "variety:davinci": 12,
+      "variety:frostbite": 12,
+      "variety:black-frostbite": 8,
+      "variety:midnight": 12,
+      "variety:domino": 12,
+      "variety:naked-ocellaris": 12,
+      "variety:misbar-ocellaris": 12,
+      "variety:longfin-ocellaris": 12,
+      "variety:picasso-percula": 12,
+      "variety:premium-picasso-percula": 8,
+      "variety:platinum-percula": 8,
+      "variety:onyx-percula": 12,
+      "variety:lightning-maroon": 8,
+      "sexy-anemone-shrimp": 28,
+      "porcelain-anemone-crab": 28,
+      "bumblebee-snail": 28,
+      "tiger-sand-conch": 28,
+      "halloween-hermit-crab": 28,
+      "lysmata-amboinensis": 28,
+      "lysmata-debelius": 28,
+      "alpheus-randalli": 28,
+      "hymenocera-picta": 28,
+      "periclimenes-colemani": 4
+    },
+    "market": {
+      "day": 1,
+      "budget": 1200,
+      "sales": 0,
+      "demand": {}
+    },
+    "settings": {
+      "speed": 1,
+      "offline": "relaxed",
+      "offlineCap": 4,
+      "reducedViolence": true,
+      "particles": true,
+      "sound": false,
+      "clockFormat": "24",
+      "displayMode": "windowed"
+    },
+    "vip": {
+      "tier": null,
+      "currency": 0,
+      "preview": "none",
+      "paymentsEnabled": false
+    },
+    "season": "Spring Festival",
+    "log": [
+      {
+        "time": 2645,
+        "message": "A pocket of ocean: biological cycling is complete. Check stocking compatibility before adding residents.",
+        "type": "info"
+      },
+      {
+        "time": 1440,
+        "message": "Day 2: energy cost 5 AC. Local buyers and shop stock refreshed.",
+        "type": "info"
+      },
+      {
+        "time": 1440,
+        "message": "Daily care: no reward \u2014 a full observed day is required.",
+        "type": "info"
+      },
+      {
+        "time": 480,
+        "message": "A pocket of ocean: a measured ammonia source is feeding the new filter bacteria. Allow 36 simulated hours.",
+        "type": "info"
+      },
+      {
+        "time": 480,
+        "message": "A pocket of ocean: water conditioned and temperature set. Start fishless cycling next.",
+        "type": "info"
+      },
+      {
+        "time": 480,
+        "message": "Fiji reef rock added to A pocket of ocean.",
+        "type": "info"
+      },
+      {
+        "time": 480,
+        "message": "Circulation pump installed.",
+        "type": "info"
+      },
+      {
+        "time": 480,
+        "message": "Thermostatic heater installed.",
+        "type": "info"
+      },
+      {
+        "time": 480,
+        "message": "Biological filter installed.",
+        "type": "info"
+      },
+      {
+        "time": 480,
+        "message": "Your first aquarium is ready to prepare. Welcome home.",
+        "type": "info"
+      }
+    ],
+    "savedAt": 1792165271249,
+    "started": true,
+    "transactions": [],
+    "expansionVersion": 1,
+    "update29": {
+      "version": 1,
+      "tutorial": {
+        "step": 0,
+        "status": "active"
+      },
+      "survival": {
+        "policyVersion": 2,
+        "day": 1,
+        "tracked": 1205,
+        "stocked": 0,
+        "lost": false,
+        "lastDeath": null,
+        "recoveryUntil": 0,
+        "lastCompleted": 0,
+        "lastPaid": -1,
+        "earned": 0
+      },
+      "mysteryStock": {
+        "day": 1,
+        "coral": 3,
+        "bottom": 3
+      }
+    },
+    "diving": {
+      "version": 1,
+      "reputation": {
+        "xp": 0,
+        "day": 0,
+        "earned": 0
+      },
+      "active": null,
+      "history": [],
+      "rocks": [],
+      "saleReceipts": [],
+      "saturationDay": 0,
+      "saturation": {}
+    },
+    "divingRng": 2905607572,
+    "healthExtensionVersion": 1,
+    "medicalInventory": [],
+    "medicineStock": {
+      "invertSupport": 20,
+      "diagnostic": 20,
+      "copper": 20,
+      "ciliate": 20,
+      "fluke": 20,
+      "antibacterial": 20,
+      "support": 20,
+      "coralDip": 20,
+      "coralSupport": 20,
+      "mystery": 4,
+      "experimental": 4
+    },
+    "livestockMarket": {
+      "version": 1,
+      "listings": {
+        "fish:voidfin": {
+          "id": "listing31",
+          "key": "fish:voidfin",
+          "created": 1440,
+          "day": 1,
+          "price": 1102,
+          "remaining": 2,
+          "state": "carrier",
+          "infection": "velvet",
+          "severity": 0.17299049056135118,
+          "quality": {
+            "efficacy": 0.36587785467272627,
+            "contamination": 0.8214723881683312,
+            "authentic": false,
+            "compatibility": 0.34219463597983124,
+            "target": "flukes"
+          }
+        },
+        "egg:voidfin": {
+          "id": "listing32",
+          "key": "egg:voidfin",
+          "created": 1440,
+          "day": 1,
+          "price": 606,
+          "remaining": 2,
+          "state": "healthy",
+          "infection": "bacterial",
+          "severity": 0.396331749279052,
+          "quality": {
+            "efficacy": 0.461313751921989,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.38060900624841454,
+            "target": "bacterial"
+          }
+        },
+        "fish:candy-basslet": {
+          "id": "listing33",
+          "key": "fish:candy-basslet",
+          "created": 1440,
+          "day": 1,
+          "price": 2356,
+          "remaining": 24,
+          "state": "healthy",
+          "infection": "brook",
+          "severity": 0.41973750073928384,
+          "quality": {
+            "efficacy": 0.7472836127039045,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.5033361563459039,
+            "target": "bacterial"
+          }
+        },
+        "fish:tanakas-pygmy-wrasse": {
+          "id": "listing34",
+          "key": "fish:tanakas-pygmy-wrasse",
+          "created": 1440,
+          "day": 1,
+          "price": 864,
+          "remaining": 24,
+          "state": "infected",
+          "infection": "velvet",
+          "severity": 0.31140953982481734,
+          "quality": {
+            "efficacy": 0.2944594284053892,
+            "contamination": 0.5986511405790225,
+            "authentic": true,
+            "compatibility": 0.9383557260036468,
+            "target": "malnutrition"
+          }
+        },
+        "fish:blotched-anthias": {
+          "id": "listing35",
+          "key": "fish:blotched-anthias",
+          "created": 1440,
+          "day": 1,
+          "price": 987,
+          "remaining": 24,
+          "state": "infected",
+          "infection": "flukes",
+          "severity": 0.36218923406442627,
+          "quality": {
+            "efficacy": 0.24536964839790015,
+            "contamination": 0.27568137808702886,
+            "authentic": true,
+            "compatibility": 0.8339013110846281,
+            "target": "pests"
+          }
+        },
+        "fish:purple-queen-anthias": {
+          "id": "listing36",
+          "key": "fish:purple-queen-anthias",
+          "created": 1440,
+          "day": 1,
+          "price": 1041,
+          "remaining": 24,
+          "state": "malnourished",
+          "infection": "bacterial",
+          "severity": 0.3417437043366954,
+          "quality": {
+            "efficacy": 0.29408884616568687,
+            "contamination": 0,
+            "authentic": false,
+            "compatibility": 0.8083806248381735,
+            "target": "ich"
+          }
+        },
+        "fish:copperband-butterflyfish": {
+          "id": "listing37",
+          "key": "fish:copperband-butterflyfish",
+          "created": 1440,
+          "day": 1,
+          "price": 2077,
+          "remaining": 24,
+          "state": "healthy",
+          "infection": "ich",
+          "severity": 0.24326104576466606,
+          "quality": {
+            "efficacy": 0.15739273249637334,
+            "contamination": 0.6069452534429729,
+            "authentic": true,
+            "compatibility": 0.24677799232304098,
+            "target": "ich"
+          }
+        },
+        "fish:orange-spotted-filefish": {
+          "id": "listing38",
+          "key": "fish:orange-spotted-filefish",
+          "created": 1440,
+          "day": 1,
+          "price": 772,
+          "remaining": 24,
+          "state": "carrier",
+          "infection": "ich",
+          "severity": 0.4146343143749982,
+          "quality": {
+            "efficacy": 0.46445132134249434,
+            "contamination": 0.8932684668689035,
+            "authentic": true,
+            "compatibility": 0.8217025993391871,
+            "target": "malnutrition"
+          }
+        },
+        "fish:spotted-boxfish": {
+          "id": "listing39",
+          "key": "fish:spotted-boxfish",
+          "created": 1440,
+          "day": 1,
+          "price": 1623,
+          "remaining": 24,
+          "state": "malnourished",
+          "infection": "flukes",
+          "severity": 0.2772801952832379,
+          "quality": {
+            "efficacy": 0.7915380470803939,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.6915905222296714,
+            "target": "ich"
+          }
+        },
+        "fish:centropyge-potteri": {
+          "id": "listing40",
+          "key": "fish:centropyge-potteri",
+          "created": 1440,
+          "day": 1,
+          "price": 1409,
+          "remaining": 24,
+          "state": "healthy",
+          "infection": "flukes",
+          "severity": 0.33072186543373394,
+          "quality": {
+            "efficacy": 0.9406372084049508,
+            "contamination": 0.9356959485448897,
+            "authentic": true,
+            "compatibility": 0.5768032390624285,
+            "target": "flukes"
+          }
+        },
+        "fish:centropyge-joculator": {
+          "id": "listing41",
+          "key": "fish:centropyge-joculator",
+          "created": 1440,
+          "day": 1,
+          "price": 1791,
+          "remaining": 24,
+          "state": "healthy",
+          "infection": "bacterial",
+          "severity": 0.20354452180210503,
+          "quality": {
+            "efficacy": 0.9793144744355231,
+            "contamination": 0,
+            "authentic": false,
+            "compatibility": 0.5062926704064012,
+            "target": "pests"
+          }
+        },
+        "fish:pygoplites-diacanthus": {
+          "id": "listing42",
+          "key": "fish:pygoplites-diacanthus",
+          "created": 1440,
+          "day": 1,
+          "price": 1525,
+          "remaining": 24,
+          "state": "stressed",
+          "infection": "brook",
+          "severity": 0.2971073730639182,
+          "quality": {
+            "efficacy": 0.6456139765796252,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.26032175682485104,
+            "target": "ich"
+          }
+        },
+        "fish:zebrasoma-xanthurum": {
+          "id": "listing43",
+          "key": "fish:zebrasoma-xanthurum",
+          "created": 1440,
+          "day": 1,
+          "price": 1166,
+          "remaining": 24,
+          "state": "stressed",
+          "infection": "ich",
+          "severity": 0.31060320515418427,
+          "quality": {
+            "efficacy": 0.7158357194042765,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.5974906042218209,
+            "target": "bacterial"
+          }
+        },
+        "fish:zebrasoma-gemmatum": {
+          "id": "listing44",
+          "key": "fish:zebrasoma-gemmatum",
+          "created": 1440,
+          "day": 1,
+          "price": 1972,
+          "remaining": 24,
+          "state": "infected",
+          "infection": "ich",
+          "severity": 0.16057519050082192,
+          "quality": {
+            "efficacy": 0.9541440578410402,
+            "contamination": 0.7594872096087784,
+            "authentic": false,
+            "compatibility": 0.9013228069990873,
+            "target": "pests"
+          }
+        },
+        "fish:acanthurus-achilles": {
+          "id": "listing45",
+          "key": "fish:acanthurus-achilles",
+          "created": 1440,
+          "day": 1,
+          "price": 1344,
+          "remaining": 24,
+          "state": "infected",
+          "infection": "velvet",
+          "severity": 0.23557399035897106,
+          "quality": {
+            "efficacy": 0.34470898732542987,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.9471676187589766,
+            "target": "flukes"
+          }
+        },
+        "fish:macropharyngodon-meleagris": {
+          "id": "listing46",
+          "key": "fish:macropharyngodon-meleagris",
+          "created": 1440,
+          "day": 1,
+          "price": 618,
+          "remaining": 24,
+          "state": "infected",
+          "infection": "velvet",
+          "severity": 0.15451871684985236,
+          "quality": {
+            "efficacy": 0.3293518420192413,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.34312458112835886,
+            "target": "flukes"
+          }
+        },
+        "flora:turbinaria-reniformis": {
+          "id": "listing47",
+          "key": "flora:turbinaria-reniformis",
+          "created": 1440,
+          "day": 1,
+          "price": 420,
+          "remaining": 12,
+          "state": "malnourished",
+          "infection": "bacterial",
+          "severity": 0.20463584187906236,
+          "quality": {
+            "efficacy": 0.44414586583152416,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.3496475966647268,
+            "target": "bacterial"
+          }
+        },
+        "flora:tubastraea-micranthus": {
+          "id": "listing48",
+          "key": "flora:tubastraea-micranthus",
+          "created": 1440,
+          "day": 1,
+          "price": 1187,
+          "remaining": 12,
+          "state": "malnourished",
+          "infection": "brook",
+          "severity": 0.3624786660145037,
+          "quality": {
+            "efficacy": 0.990656302368734,
+            "contamination": 0,
+            "authentic": false,
+            "compatibility": 0.6182013902813197,
+            "target": "bacterial"
+          }
+        },
+        "flora:rhizotrochus-typus": {
+          "id": "listing49",
+          "key": "flora:rhizotrochus-typus",
+          "created": 1440,
+          "day": 1,
+          "price": 3202,
+          "remaining": 12,
+          "state": "carrier",
+          "infection": "bacterial",
+          "severity": 0.13077761814231054,
+          "quality": {
+            "efficacy": 0.7166853476781399,
+            "contamination": 0.8319799100281671,
+            "authentic": false,
+            "compatibility": 0.27949308604002,
+            "target": "ich"
+          }
+        },
+        "invertebrate:lysmata-debelius": {
+          "id": "listing50",
+          "key": "invertebrate:lysmata-debelius",
+          "created": 1440,
+          "day": 1,
+          "price": 501,
+          "remaining": 28,
+          "state": "infected",
+          "infection": "flukes",
+          "severity": 0.1652307134354487,
+          "quality": {
+            "efficacy": 0.39493203316815195,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.9314606899395586,
+            "target": "bacterial"
+          }
+        },
+        "invertebrate:hymenocera-picta": {
+          "id": "listing51",
+          "key": "invertebrate:hymenocera-picta",
+          "created": 1440,
+          "day": 1,
+          "price": 1827,
+          "remaining": 28,
+          "state": "healthy",
+          "infection": "brook",
+          "severity": 0.13169520745519547,
+          "quality": {
+            "efficacy": 0.3527645938564092,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.7232793206349015,
+            "target": "malnutrition"
+          }
+        },
+        "medicine:mystery": {
+          "id": "listing52",
+          "key": "medicine:mystery",
+          "created": 1440,
+          "day": 1,
+          "price": 92,
+          "remaining": 4,
+          "state": "infected",
+          "infection": "bacterial",
+          "severity": 0.4456099519087002,
+          "quality": {
+            "efficacy": 0.7419566945754923,
+            "contamination": 0.43999838671879843,
+            "authentic": true,
+            "compatibility": 0.3850062968209386,
+            "target": "malnutrition"
+          }
+        },
+        "medicine:experimental": {
+          "id": "listing53",
+          "key": "medicine:experimental",
+          "created": 1440,
+          "day": 1,
+          "price": 125,
+          "remaining": 4,
+          "state": "infected",
+          "infection": "brook",
+          "severity": 0.37530366200488063,
+          "quality": {
+            "efficacy": 0.7608365916647017,
+            "contamination": 0,
+            "authentic": true,
+            "compatibility": 0.8875065239146351,
+            "target": "pests"
+          }
+        }
+      }
+    },
+    "gameplayVersion": 1,
+    "careReward": {
+      "day": 1,
+      "observed": 1205,
+      "unsafe": 1205,
+      "blocked": false,
+      "offline": false,
+      "reasons": [
+        "No living stocked aquarium"
+      ],
+      "lastCompleted": 0,
+      "lastClaimed": -1,
+      "earned": 0
+    },
+    "ecosystemVersion": 1,
+    "simulationCheckpoint": 1792165271249,
+    "worldId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+    "rotationRng": 3879610255,
+    "dailyStore": {
+      "version": 1,
+      "day": 1,
+      "slots": [
+        {
+          "id": "daily:1:0",
+          "species": "amphiprion-bicinctus",
+          "variety": null,
+          "rarity": "Common",
+          "remaining": 4
+        },
+        {
+          "id": "daily:1:1",
+          "species": "amphiprion-akindynos",
+          "variety": null,
+          "rarity": "Common",
+          "remaining": 4
+        },
+        {
+          "id": "daily:1:2",
+          "species": "amphiprion-pacificus",
+          "variety": null,
+          "rarity": "Common",
+          "remaining": 4
+        },
+        {
+          "id": "daily:1:3",
+          "species": "yellow-assessor",
+          "variety": null,
+          "rarity": "Uncommon",
+          "remaining": 4
+        },
+        {
+          "id": "daily:1:4",
+          "species": "greenbanded-goby",
+          "variety": null,
+          "rarity": "Uncommon",
+          "remaining": 4
+        },
+        {
+          "id": "daily:1:5",
+          "species": "clown",
+          "variety": "mocha-gladiator",
+          "rarity": "Uncommon",
+          "remaining": 4
+        },
+        {
+          "id": "daily:1:6",
+          "species": "amphiprion-biaculeatus",
+          "variety": "lightning-maroon",
+          "rarity": "Rare",
+          "remaining": 4
+        },
+        {
+          "id": "daily:1:7",
+          "mystery": true,
+          "remaining": 3
+        }
+      ]
+    },
+    "accountId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+    "casino": {
+      "version": 1,
+      "accountId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+      "next": 1,
+      "pending": null,
+      "history": [],
+      "lifetimeWagered": 0,
+      "lifetimePaid": 0,
+      "dailyLimit": 0,
+      "day": 0,
+      "dayWagered": 0
+    },
+    "update31": {
+      "version": 1,
+      "lineage": [],
+      "market": {
+        "day": 1,
+        "requests": [
+          {
+            "id": "wanted:amphiprion-clarkii:2",
+            "speciesId": "amphiprion-clarkii",
+            "minHealth": 70,
+            "minGrowth": 0.3,
+            "minSize": 0.35,
+            "remaining": 3,
+            "expires": 2880
+          },
+          {
+            "id": "wanted:siganus-unimaculatus:2",
+            "speciesId": "siganus-unimaculatus",
+            "minHealth": 70,
+            "minGrowth": 0.3,
+            "minSize": 0.35,
+            "remaining": 3,
+            "expires": 2880
+          },
+          {
+            "id": "wanted:macropharyngodon-meleagris:2",
+            "speciesId": "macropharyngodon-meleagris",
+            "minHealth": 70,
+            "minGrowth": 0.3,
+            "minSize": 0.35,
+            "remaining": 3,
+            "expires": 2880
+          },
+          {
+            "id": "wanted:micromussa-lordhowensis:2",
+            "speciesId": "micromussa-lordhowensis",
+            "minHealth": 85,
+            "minGrowth": 0.3,
+            "minSize": 0.35,
+            "remaining": 3,
+            "expires": 2880
+          },
+          {
+            "id": "wanted:leptastrea-purpurea:2",
+            "speciesId": "leptastrea-purpurea",
+            "minHealth": 85,
+            "minGrowth": 0.3,
+            "minSize": 0.35,
+            "remaining": 3,
+            "expires": 2880
+          },
+          {
+            "id": "wanted:bumblebee-snail:2",
+            "speciesId": "bumblebee-snail",
+            "minHealth": 70,
+            "minGrowth": 0.3,
+            "minSize": 0.35,
+            "remaining": 3,
+            "expires": 2880
+          }
+        ],
+        "stock": [
+          "fish:pygoplites-diacanthus",
+          "fish:acanthurus-achilles",
+          "fish:macropharyngodon-meleagris",
+          "fish:candy-basslet"
+        ],
+        "generation": 2
+      }
+    },
+    "research": {
+      "version": 1,
+      "accountId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+      "unlocks": {}
+    },
+    "marineCareVersion": 1,
+    "mortality": {
+      "version": 1,
+      "next": 1,
+      "events": [],
+      "journalVersion": 1,
+      "steps": 433,
+      "runs": []
+    },
+    "breeding": {
+      "version": 1,
+      "rng": 2789604418,
+      "records": [],
+      "archive": {
+        "courtships": 0,
+        "spawns": 0,
+        "hatched": 0,
+        "failed": 0
+      }
+    },
+    "finance": {
+      "version": 1,
+      "accountId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+      "opening": 100000,
+      "started": 480,
+      "next": 6,
+      "rows": [
+        {
+          "category": "equipment",
+          "action": "buyEquipment",
+          "actionId": "buyEquipment:1",
+          "tankId": "tank1",
+          "tankName": "A pocket of ocean",
+          "specimenId": null,
+          "speciesId": "filter",
+          "name": "Biological filter",
+          "dealer": null,
+          "note": null,
+          "id": "world-ec791060-862a-4d2e-a502-05966498f6e0:ac:1",
+          "accountId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+          "kind": "expense",
+          "amount": -360,
+          "time": 480,
+          "day": 0,
+          "realTime": 1792165271252,
+          "balance": 99640,
+          "before": 100000,
+          "source": "Wallet",
+          "destination": "Biological filter"
+        },
+        {
+          "category": "equipment",
+          "action": "buyEquipment",
+          "actionId": "buyEquipment:2",
+          "tankId": "tank1",
+          "tankName": "A pocket of ocean",
+          "specimenId": null,
+          "speciesId": "heater",
+          "name": "Thermostatic heater",
+          "dealer": null,
+          "note": null,
+          "id": "world-ec791060-862a-4d2e-a502-05966498f6e0:ac:2",
+          "accountId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+          "kind": "expense",
+          "amount": -220,
+          "time": 480,
+          "day": 0,
+          "realTime": 1792165271254,
+          "balance": 99420,
+          "before": 99640,
+          "source": "Wallet",
+          "destination": "Thermostatic heater"
+        },
+        {
+          "category": "equipment",
+          "action": "buyEquipment",
+          "actionId": "buyEquipment:3",
+          "tankId": "tank1",
+          "tankName": "A pocket of ocean",
+          "specimenId": null,
+          "speciesId": "flow",
+          "name": "Circulation pump",
+          "dealer": null,
+          "note": null,
+          "id": "world-ec791060-862a-4d2e-a502-05966498f6e0:ac:3",
+          "accountId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+          "kind": "expense",
+          "amount": -130,
+          "time": 480,
+          "day": 0,
+          "realTime": 1792165271256,
+          "balance": 99290,
+          "before": 99420,
+          "source": "Wallet",
+          "destination": "Circulation pump"
+        },
+        {
+          "category": "other",
+          "action": "buyRock",
+          "actionId": "buyRock:4",
+          "tankId": "tank1",
+          "tankName": "A pocket of ocean",
+          "specimenId": null,
+          "speciesId": null,
+          "name": "buyRock",
+          "dealer": null,
+          "note": null,
+          "id": "world-ec791060-862a-4d2e-a502-05966498f6e0:ac:4",
+          "accountId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+          "kind": "expense",
+          "amount": -90,
+          "time": 480,
+          "day": 0,
+          "realTime": 1792165271258,
+          "balance": 99200,
+          "before": 99290,
+          "source": "Wallet",
+          "destination": "buyRock"
+        },
+        {
+          "category": "maintenance",
+          "name": "Daily energy",
+          "action": "energy",
+          "actionId": "energy:1",
+          "key": "energy:1",
+          "id": "world-ec791060-862a-4d2e-a502-05966498f6e0:ac:5",
+          "accountId": "world-ec791060-862a-4d2e-a502-05966498f6e0",
+          "kind": "expense",
+          "amount": -5,
+          "time": 1440,
+          "day": 1,
+          "realTime": 1792165271271,
+          "balance": 99195,
+          "before": 99200,
+          "source": "Wallet",
+          "destination": "Daily energy"
+        }
+      ],
+      "archives": [],
+      "keys": [
+        "buyEquipment:1",
+        "buyEquipment:2",
+        "buyEquipment:3",
+        "buyRock:4",
+        "energy:1"
+      ],
+      "income": 0,
+      "expenses": 805,
+      "historyNotice": "Tracking begins at this opening balance. Earlier transaction details are unavailable."
+    }
+  }
+}

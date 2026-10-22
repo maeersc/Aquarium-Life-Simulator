@@ -1,0 +1,42 @@
+{
+  "frag": {
+    "meta": {
+      "speciesId": "caulastraea-furcata",
+      "stage": "frag",
+      "state": "alive",
+      "frame": 0,
+      "frameCount": 1,
+      "nativeFacing": 1,
+      "eye": null,
+      "facingBehavior": "mirror-side-profile",
+      "authoredDeath": false,
+      "layer": "livestock",
+      "anchor": [
+        96,
+        80
+      ]
+    },
+    "width": 192,
+    "height": 160
+  },
+  "colony": {
+    "meta": {
+      "speciesId": "caulastraea-furcata",
+      "stage": "colony",
+      "state": "alive",
+      "frame": 6,
+      "frameCount": 1,
+      "nativeFacing": 1,
+      "eye": null,
+      "facingBehavior": "mirror-side-profile",
+      "authoredDeath": false,
+      "layer": "livestock",
+      "anchor": [
+        96,
+        80
+      ]
+    },
+    "width": 192,
+    "height": 160
+  }
+}

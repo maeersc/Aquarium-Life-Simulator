@@ -1,0 +1,8 @@
+{
+  "id": "halloween-hermit-crab",
+  "stage": "adult",
+  "state": "walk",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\halloween-hermit-crab\\adult.png",
+  "prompt": "Aquarium Life halloween-hermit-crab ADULT WALK actual16-frame pixel livestock sheet. Attached PNG is the exact approved stage anatomy, proportions, markings and detailed classic16-bit pixel-art identity. Orange/red banded hermit in cream/brown spotted rigid spiral shell. Lock shell, eyes, trunk pattern and claw roots. Tiny alternating exposed leg steps, claw-tip/antenna-tip adjustments only. LOCOMOTION: calm alternating attached leg/foot motions appropriate to the species and life stage, drawn in place. Whole-body displacement is handled by the game. ONE square transparent PNG FOUR equal columns FOUR equal rows, sixteen actually authored distinct small successive poses forming a slow seamless16-to1 loop. All16 face RIGHT consistently like reference. Fixed main body center, head/eye points, scale and shell/carapace. No anatomy drift, lost/duplicated legs, disconnected antennae, additional eyes or random pattern changes. Keep long antennae/foot tips fully inside central75%eachcell, broad truly clear transparent gutters. Crisp source pixel clusters, no smoothing/blur/antialias/glow/background/checkerboard/text/grid. Never wobble the rigid shell or carapace.",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-151378bb-8784-48df-8955-f6e6c6a055ca.png"
+}

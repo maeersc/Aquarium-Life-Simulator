@@ -1,0 +1,1533 @@
+{
+  "passed": 221,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Offline gallery initializes all assets",
+      "pass": true
+    },
+    {
+      "name": "Twenty-two gameplay fish and five art-only subjects remain distinct",
+      "pass": true
+    },
+    {
+      "name": "guppy: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "guppy: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "guppy: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "guppy: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "neon: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "neon: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "neon: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "neon: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "cardinal: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "cardinal: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "cardinal: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "cardinal: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "betta: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "betta: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "betta: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "betta: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "cory: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "cory: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "cory: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "cory: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "danio: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "danio: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "danio: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "danio: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "harlequin: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "harlequin: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "harlequin: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "harlequin: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "platy: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "platy: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "platy: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "platy: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "angel: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "angel: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "angel: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "angel: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "pleco: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "pleco: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "pleco: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "pleco: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "clown: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "clown: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "clown: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "clown: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "gramma: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "gramma: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "gramma: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "gramma: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "firefish: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "firefish: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "firefish: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "firefish: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "watchman: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "watchman: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "watchman: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "watchman: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "banggai: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "banggai: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "banggai: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "banggai: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "chromis: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "chromis: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "chromis: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "chromis: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "yellowtang: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "yellowtang: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "yellowtang: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "yellowtang: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "sixline: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "sixline: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "sixline: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "sixline: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "blenny: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "blenny: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "blenny: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "blenny: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "marinebetta: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "marinebetta: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "marinebetta: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "marinebetta: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "voidfin: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "voidfin: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "voidfin: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "voidfin: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "glassfang: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "glassfang: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "glassfang: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "glassfang: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "niger-triggerfish: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "niger-triggerfish: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "niger-triggerfish: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "niger-triggerfish: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "emperor-angelfish: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "emperor-angelfish: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "emperor-angelfish: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "emperor-angelfish: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "red-lionfish: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "red-lionfish: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "red-lionfish: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "red-lionfish: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "dogface-puffer: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "dogface-puffer: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "dogface-puffer: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "dogface-puffer: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "blue-tang: pupil detail retained in every tested frame/size/tone",
+      "pass": true
+    },
+    {
+      "name": "blue-tang: eye component identical across frames",
+      "pass": true
+    },
+    {
+      "name": "blue-tang: exact left/right and death-pose pixel transforms",
+      "pass": true
+    },
+    {
+      "name": "blue-tang: eye bounds and canvas transform isolation",
+      "pass": true
+    },
+    {
+      "name": "Facing threshold prevents jitter and follows meaningful movement",
+      "pass": true
+    },
+    {
+      "name": "Visible interpolation faces each fish movement, independently of prematurely reversed simulation headings",
+      "pass": true
+    },
+    {
+      "name": "Rendering correction does not mutate authoritative saved fish state",
+      "pass": true
+    },
+    {
+      "name": "Slow interpolation uses meaningful target displacement instead of a frame-rate-dependent flip threshold",
+      "pass": true
+    },
+    {
+      "name": "All thirteen new asset families load",
+      "pass": true
+    },
+    {
+      "name": "niger-triggerfish: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "emperor-angelfish: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "red-lionfish: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "dogface-puffer: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "blue-tang: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "zoa: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "mushroom: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "sps: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "lps: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "soft: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "fiji: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "caribbean: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "hawaiian: usable RGBA frames with binary transparent edges",
+      "pass": true
+    },
+    {
+      "name": "zoa: bleached and dead artwork are distinct",
+      "pass": true
+    },
+    {
+      "name": "mushroom: bleached and dead artwork are distinct",
+      "pass": true
+    },
+    {
+      "name": "sps: bleached and dead artwork are distinct",
+      "pass": true
+    },
+    {
+      "name": "lps: bleached and dead artwork are distinct",
+      "pass": true
+    },
+    {
+      "name": "soft: bleached and dead artwork are distinct",
+      "pass": true
+    },
+    {
+      "name": "SPS highlight animation keeps rigid geometry unchanged",
+      "pass": true
+    },
+    {
+      "name": "fiji: inspected arch opening is transparent",
+      "pass": true
+    },
+    {
+      "name": "caribbean: inspected arch opening is transparent",
+      "pass": true
+    },
+    {
+      "name": "hawaiian: inspected arch opening is transparent",
+      "pass": true
+    },
+    {
+      "name": "Optional authored left-side art is used without mirroring its asymmetry",
+      "pass": true
+    },
+    {
+      "name": "guppy: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "neon: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "cardinal: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "betta: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "cory: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "danio: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "harlequin: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "platy: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "angel: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "pleco: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "clown: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "gramma: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "firefish: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "watchman: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "banggai: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "chromis: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "yellowtang: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "sixline: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "blenny: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "marinebetta: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "voidfin: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "glassfang: actual movement supports both directions",
+      "pass": true
+    },
+    {
+      "name": "Priority artwork selectable: clown",
+      "pass": true
+    },
+    {
+      "name": "Priority artwork selectable: niger-triggerfish",
+      "pass": true
+    },
+    {
+      "name": "Priority artwork selectable: emperor-angelfish",
+      "pass": true
+    },
+    {
+      "name": "Priority artwork selectable: red-lionfish",
+      "pass": true
+    },
+    {
+      "name": "Priority artwork selectable: dogface-puffer",
+      "pass": true
+    },
+    {
+      "name": "Priority artwork selectable: blue-tang",
+      "pass": true
+    },
+    {
+      "name": "idle presentation and limitations described",
+      "pass": true
+    },
+    {
+      "name": "swim presentation and limitations described",
+      "pass": true
+    },
+    {
+      "name": "turn presentation and limitations described",
+      "pass": true
+    },
+    {
+      "name": "death presentation and limitations described",
+      "pass": true
+    },
+    {
+      "name": "Animation advances",
+      "pass": true
+    },
+    {
+      "name": "Pause freezes animation",
+      "pass": true
+    },
+    {
+      "name": "checker preview works",
+      "pass": true
+    },
+    {
+      "name": "bright preview works",
+      "pass": true
+    },
+    {
+      "name": "dark preview works",
+      "pass": true
+    },
+    {
+      "name": "zoa healthy state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "zoa stressed state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "zoa bleached state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "zoa tissue-loss state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "zoa dead state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "mushroom healthy state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "mushroom stressed state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "mushroom bleached state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "mushroom tissue-loss state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "mushroom dead state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "sps healthy state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "sps stressed state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "sps bleached state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "sps tissue-loss state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "sps dead state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "lps healthy state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "lps stressed state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "lps bleached state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "lps tissue-loss state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "lps dead state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "soft healthy state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "soft stressed state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "soft bleached state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "soft tissue-loss state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "soft dead state and comparison grid render",
+      "pass": true
+    },
+    {
+      "name": "fiji rock variant 0 renders",
+      "pass": true
+    },
+    {
+      "name": "fiji rock variant 1 renders",
+      "pass": true
+    },
+    {
+      "name": "fiji rock variant 2 renders",
+      "pass": true
+    },
+    {
+      "name": "fiji rock variant 3 renders",
+      "pass": true
+    },
+    {
+      "name": "caribbean rock variant 0 renders",
+      "pass": true
+    },
+    {
+      "name": "caribbean rock variant 1 renders",
+      "pass": true
+    },
+    {
+      "name": "caribbean rock variant 2 renders",
+      "pass": true
+    },
+    {
+      "name": "caribbean rock variant 3 renders",
+      "pass": true
+    },
+    {
+      "name": "hawaiian rock variant 0 renders",
+      "pass": true
+    },
+    {
+      "name": "hawaiian rock variant 1 renders",
+      "pass": true
+    },
+    {
+      "name": "hawaiian rock variant 2 renders",
+      "pass": true
+    },
+    {
+      "name": "hawaiian rock variant 3 renders",
+      "pass": true
+    },
+    {
+      "name": "Rock preview layout persists through reload",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 1440px",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 1024px",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 760px",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 390px",
+      "pass": true
+    },
+    {
+      "name": "Gallery leaves gameplay save bytes intact",
+      "pass": true
+    },
+    {
+      "name": "No browser exceptions",
+      "pass": true
+    },
+    {
+      "name": "No HTTP(S) artwork requests",
+      "pass": true
+    },
+    {
+      "name": "All-species eye contact sheet renders",
+      "pass": true
+    }
+  ],
+  "spriteReport": {
+    "results": [
+      {
+        "name": "guppy: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "guppy: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "guppy: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "guppy: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "neon: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "neon: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "neon: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "neon: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "cardinal: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "cardinal: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "cardinal: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "cardinal: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "betta: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "betta: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "betta: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "betta: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "cory: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "cory: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "cory: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "cory: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "danio: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "danio: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "danio: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "danio: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "harlequin: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "harlequin: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "harlequin: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "harlequin: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "platy: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "platy: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "platy: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "platy: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "angel: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "angel: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "angel: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "angel: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "pleco: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "pleco: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "pleco: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "pleco: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "clown: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "clown: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "clown: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "clown: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "gramma: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "gramma: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "gramma: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "gramma: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "firefish: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "firefish: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "firefish: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "firefish: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "watchman: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "watchman: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "watchman: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "watchman: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "banggai: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "banggai: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "banggai: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "banggai: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "chromis: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "chromis: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "chromis: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "chromis: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "yellowtang: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "yellowtang: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "yellowtang: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "yellowtang: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "sixline: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "sixline: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "sixline: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "sixline: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "blenny: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "blenny: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "blenny: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "blenny: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "marinebetta: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "marinebetta: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "marinebetta: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "marinebetta: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "voidfin: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "voidfin: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "voidfin: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "voidfin: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "glassfang: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "glassfang: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "glassfang: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "glassfang: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "niger-triggerfish: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "niger-triggerfish: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "niger-triggerfish: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "niger-triggerfish: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "emperor-angelfish: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "emperor-angelfish: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "emperor-angelfish: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "emperor-angelfish: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "red-lionfish: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "red-lionfish: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "red-lionfish: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "red-lionfish: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "dogface-puffer: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "dogface-puffer: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "dogface-puffer: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "dogface-puffer: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "blue-tang: pupil detail retained in every tested frame/size/tone",
+        "pass": true
+      },
+      {
+        "name": "blue-tang: eye component identical across frames",
+        "pass": true
+      },
+      {
+        "name": "blue-tang: exact left/right and death-pose pixel transforms",
+        "pass": true
+      },
+      {
+        "name": "blue-tang: eye bounds and canvas transform isolation",
+        "pass": true
+      },
+      {
+        "name": "Facing threshold prevents jitter and follows meaningful movement",
+        "pass": true
+      },
+      {
+        "name": "Visible interpolation faces each fish movement, independently of prematurely reversed simulation headings",
+        "pass": true
+      },
+      {
+        "name": "Rendering correction does not mutate authoritative saved fish state",
+        "pass": true
+      },
+      {
+        "name": "Slow interpolation uses meaningful target displacement instead of a frame-rate-dependent flip threshold",
+        "pass": true
+      },
+      {
+        "name": "All thirteen new asset families load",
+        "pass": true
+      },
+      {
+        "name": "niger-triggerfish: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "emperor-angelfish: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "red-lionfish: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "dogface-puffer: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "blue-tang: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "zoa: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "mushroom: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "sps: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "lps: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "soft: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "fiji: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "caribbean: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "hawaiian: usable RGBA frames with binary transparent edges",
+        "pass": true
+      },
+      {
+        "name": "zoa: bleached and dead artwork are distinct",
+        "pass": true
+      },
+      {
+        "name": "mushroom: bleached and dead artwork are distinct",
+        "pass": true
+      },
+      {
+        "name": "sps: bleached and dead artwork are distinct",
+        "pass": true
+      },
+      {
+        "name": "lps: bleached and dead artwork are distinct",
+        "pass": true
+      },
+      {
+        "name": "soft: bleached and dead artwork are distinct",
+        "pass": true
+      },
+      {
+        "name": "SPS highlight animation keeps rigid geometry unchanged",
+        "pass": true
+      },
+      {
+        "name": "fiji: inspected arch opening is transparent",
+        "pass": true
+      },
+      {
+        "name": "caribbean: inspected arch opening is transparent",
+        "pass": true
+      },
+      {
+        "name": "hawaiian: inspected arch opening is transparent",
+        "pass": true
+      },
+      {
+        "name": "Optional authored left-side art is used without mirroring its asymmetry",
+        "pass": true
+      },
+      {
+        "name": "guppy: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "neon: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "cardinal: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "betta: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "cory: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "danio: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "harlequin: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "platy: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "angel: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "pleco: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "clown: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "gramma: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "firefish: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "watchman: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "banggai: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "chromis: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "yellowtang: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "sixline: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "blenny: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "marinebetta: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "voidfin: actual movement supports both directions",
+        "pass": true
+      },
+      {
+        "name": "glassfang: actual movement supports both directions",
+        "pass": true
+      }
+    ],
+    "issues": [],
+    "subjects": 27,
+    "renderCases": 6480,
+    "manualReview": "Pixel presence and registration checks do not establish perfect anatomical placement; inspect the contact sheets."
+  },
+  "errors": [],
+  "networkRequests": [],
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+}

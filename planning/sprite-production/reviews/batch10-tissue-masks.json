@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "mushroom",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        70,
+        112,
+        46,
+        39,
+        0.73
+      ],
+      [
+        103,
+        79,
+        32,
+        28,
+        0.72
+      ],
+      [
+        136,
+        104,
+        28,
+        23,
+        0.7
+      ],
+      [
+        128,
+        147,
+        26,
+        25,
+        0.72
+      ]
+    ],
+    "description": "Inspected native mushroom disc rim tissue only; all four oral centers/inner discs and the entire rock attachment remain canonical protected pixels. Only original authored small rim ripples are assembled inside the reviewed annuli."
+  },
+  {
+    "id": "sps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "discs": [
+      [
+        93,
+        43,
+        3
+      ],
+      [
+        55,
+        59,
+        3
+      ],
+      [
+        30,
+        86,
+        3
+      ],
+      [
+        79,
+        85,
+        3
+      ],
+      [
+        138,
+        60,
+        3
+      ],
+      [
+        161,
+        85,
+        3
+      ],
+      [
+        166,
+        127,
+        3
+      ],
+      [
+        130,
+        113,
+        3
+      ],
+      [
+        125,
+        146,
+        3
+      ],
+      [
+        77,
+        139,
+        3
+      ],
+      [
+        39,
+        135,
+        3
+      ],
+      [
+        62,
+        157,
+        3
+      ]
+    ],
+    "description": "Inspected tiny living cyan/pale polyp tissue islands at existing branch surface sites; all remaining branching SPS skeleton, branch contours, trunk and pedestal are protected canonical pixels. No flexible branch motion is synthesized."
+  },
+  {
+    "id": "lps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "discs": [
+      [
+        96,
+        41,
+        12,
+        8
+      ],
+      [
+        28,
+        99,
+        14,
+        9
+      ],
+      [
+        47,
+        72,
+        12,
+        8
+      ],
+      [
+        73,
+        52,
+        11,
+        8
+      ],
+      [
+        80,
+        91,
+        15,
+        9
+      ],
+      [
+        115,
+        64,
+        14,
+        8
+      ],
+      [
+        134,
+        58,
+        10,
+        7
+      ],
+      [
+        151,
+        82,
+        13,
+        9
+      ],
+      [
+        121,
+        105,
+        15,
+        9
+      ],
+      [
+        159,
+        120,
+        11,
+        8
+      ],
+      [
+        145,
+        144,
+        10,
+        7
+      ],
+      [
+        44,
+        147,
+        11,
+        8
+      ],
+      [
+        22,
+        132,
+        8,
+        7
+      ]
+    ],
+    "description": "Inspected green hammer-tip living tissue islands only. The beige branching hard skeleton, attachment and purple tentacle roots stay canonical and fixed. Original authored small distal hammer-tip responses are sampled at existing positions."
+  },
+  {
+    "id": "soft",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "polygons": [
+      [
+        [
+          28,
+          100
+        ],
+        [
+          45,
+          83
+        ],
+        [
+          60,
+          70
+        ],
+        [
+          96,
+          60
+        ],
+        [
+          133,
+          69
+        ],
+        [
+          154,
+          92
+        ],
+        [
+          168,
+          121
+        ],
+        [
+          147,
+          143
+        ],
+        [
+          124,
+          129
+        ],
+        [
+          113,
+          113
+        ],
+        [
+          75,
+          103
+        ],
+        [
+          46,
+          128
+        ],
+        [
+          28,
+          121
+        ]
+      ]
+    ],
+    "description": "Inspected soft leather coral living cap and tiny green polyp tips above the fixed stalk. The orange attachment, central lower stalk and rocky base remain protected canonical pixels; only original subtle upper tissue poses are assembled."
+  },
+  {
+    "id": "mushroom",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        70,
+        112,
+        46,
+        39,
+        0.73
+      ],
+      [
+        103,
+        79,
+        32,
+        28,
+        0.72
+      ],
+      [
+        136,
+        104,
+        28,
+        23,
+        0.7
+      ],
+      [
+        128,
+        147,
+        26,
+        25,
+        0.72
+      ]
+    ],
+    "description": "Inspected native mushroom disc rim tissue only; all four oral centers/inner discs and the entire rock attachment remain canonical protected pixels. Only original authored small rim ripples are assembled inside the reviewed annuli."
+  },
+  {
+    "id": "sps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "discs": [
+      [
+        101,
+        49,
+        3
+      ],
+      [
+        64,
+        65,
+        3
+      ],
+      [
+        42,
+        91,
+        3
+      ],
+      [
+        84,
+        89,
+        3
+      ],
+      [
+        140,
+        64,
+        3
+      ],
+      [
+        160,
+        87,
+        3
+      ],
+      [
+        163,
+        128,
+        3
+      ],
+      [
+        128,
+        118,
+        3
+      ],
+      [
+        120,
+        146,
+        3
+      ],
+      [
+        78,
+        140,
+        3
+      ],
+      [
+        47,
+        135,
+        3
+      ],
+      [
+        67,
+        158,
+        3
+      ]
+    ],
+    "description": "Inspected tiny living cyan/pale polyp tissue islands at existing branch surface sites; all remaining branching SPS skeleton, branch contours, trunk and pedestal are protected canonical pixels. No flexible branch motion is synthesized."
+  },
+  {
+    "id": "lps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "discs": [
+      [
+        96,
+        41,
+        12,
+        8
+      ],
+      [
+        28,
+        99,
+        14,
+        9
+      ],
+      [
+        47,
+        72,
+        12,
+        8
+      ],
+      [
+        73,
+        52,
+        11,
+        8
+      ],
+      [
+        80,
+        91,
+        15,
+        9
+      ],
+      [
+        115,
+        64,
+        14,
+        8
+      ],
+      [
+        134,
+        58,
+        10,
+        7
+      ],
+      [
+        151,
+        82,
+        13,
+        9
+      ],
+      [
+        121,
+        105,
+        15,
+        9
+      ],
+      [
+        159,
+        120,
+        11,
+        8
+      ],
+      [
+        145,
+        144,
+        10,
+        7
+      ],
+      [
+        44,
+        147,
+        11,
+        8
+      ],
+      [
+        22,
+        132,
+        8,
+        7
+      ]
+    ],
+    "description": "Inspected green hammer-tip living tissue islands only. The beige branching hard skeleton, attachment and purple tentacle roots stay canonical and fixed. Original authored small distal hammer-tip responses are sampled at existing positions."
+  },
+  {
+    "id": "soft",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "polygons": [
+      [
+        [
+          28,
+          100
+        ],
+        [
+          45,
+          83
+        ],
+        [
+          60,
+          70
+        ],
+        [
+          96,
+          60
+        ],
+        [
+          133,
+          69
+        ],
+        [
+          154,
+          92
+        ],
+        [
+          168,
+          121
+        ],
+        [
+          147,
+          143
+        ],
+        [
+          124,
+          129
+        ],
+        [
+          113,
+          113
+        ],
+        [
+          75,
+          103
+        ],
+        [
+          46,
+          128
+        ],
+        [
+          28,
+          121
+        ]
+      ]
+    ],
+    "description": "Inspected soft leather coral living cap and tiny green polyp tips above the fixed stalk. The orange attachment, central lower stalk and rocky base remain protected canonical pixels; only original subtle upper tissue poses are assembled."
+  },
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        102,
+        61,
+        28,
+        23,
+        0.57
+      ],
+      [
+        81,
+        96,
+        33,
+        28,
+        0.58
+      ],
+      [
+        135,
+        93,
+        24,
+        22,
+        0.58
+      ]
+    ],
+    "description": "Inspected three fleshy red corallite edge annuli, with green oral centers and inner discs protected. Hard cups and whole rock base remain fixed; only authored small feeding/rim tissue responses move."
+  },
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        62,
+        57,
+        29,
+        24,
+        0.58
+      ],
+      [
+        135,
+        58,
+        29,
+        25,
+        0.58
+      ],
+      [
+        95,
+        94,
+        37,
+        30,
+        0.58
+      ],
+      [
+        38,
+        91,
+        24,
+        23,
+        0.58
+      ],
+      [
+        144,
+        110,
+        26,
+        24,
+        0.58
+      ]
+    ],
+    "description": "Inspected five colony-specific red corallite rim annuli. Green mouths/inner discs, rigid cups and rocky base are canonical protected pixels; only original minor rim-tissue poses are assembled."
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        100,
+        84,
+        20,
+        18,
+        0.58
+      ],
+      [
+        80,
+        112,
+        24,
+        22,
+        0.58
+      ]
+    ],
+    "description": "Inspected two frag corallite feeding-rim annuli around teal oral discs. All oral centers, hard corallite cups and rock remain protected; original authored small orange rim/feeding-tissue variations only."
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        52,
+        77,
+        30,
+        25,
+        0.6
+      ],
+      [
+        121,
+        55,
+        31,
+        24,
+        0.6
+      ],
+      [
+        119,
+        104,
+        36,
+        29,
+        0.6
+      ],
+      [
+        165,
+        83,
+        19,
+        22,
+        0.6
+      ],
+      [
+        65,
+        119,
+        22,
+        20,
+        0.6
+      ]
+    ],
+    "description": "Inspected five colony-specific orange corallite feeding/rim tissue annuli with teal mouths and inner discs protected. The base and rigid corallite arrangement remain fixed canonical pixels."
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        73,
+        100,
+        7,
+        7,
+        0.35
+      ],
+      [
+        96,
+        92,
+        8,
+        8,
+        0.35
+      ],
+      [
+        113,
+        101,
+        7,
+        7,
+        0.35
+      ],
+      [
+        92,
+        114,
+        7,
+        7,
+        0.35
+      ]
+    ],
+    "description": "Inspected minute orange star-polyp tentacle fringes at four existing frag surface sites. Tiny centers and the whole blue hard encrusting skeleton/rock stay canonical; no encrusting mound deformation."
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        86,
+        43,
+        6,
+        6,
+        0.35
+      ],
+      [
+        109,
+        45,
+        6,
+        6,
+        0.35
+      ],
+      [
+        64,
+        52,
+        6,
+        6,
+        0.35
+      ],
+      [
+        50,
+        65,
+        6,
+        6,
+        0.35
+      ],
+      [
+        73,
+        73,
+        6,
+        6,
+        0.35
+      ],
+      [
+        95,
+        61,
+        6,
+        6,
+        0.35
+      ],
+      [
+        116,
+        65,
+        6,
+        6,
+        0.35
+      ],
+      [
+        136,
+        81,
+        6,
+        6,
+        0.35
+      ],
+      [
+        27,
+        89,
+        6,
+        6,
+        0.35
+      ],
+      [
+        46,
+        95,
+        6,
+        6,
+        0.35
+      ],
+      [
+        68,
+        95,
+        6,
+        6,
+        0.35
+      ],
+      [
+        95,
+        107,
+        6,
+        6,
+        0.35
+      ],
+      [
+        123,
+        96,
+        6,
+        6,
+        0.35
+      ],
+      [
+        146,
+        108,
+        6,
+        6,
+        0.35
+      ],
+      [
+        69,
+        120,
+        6,
+        6,
+        0.35
+      ],
+      [
+        96,
+        134,
+        6,
+        6,
+        0.35
+      ]
+    ],
+    "description": "Inspected existing colony orange star-polyp fringe sites only, with oral centers protected. All blue encrusting skeleton contours, gaps and rock attachment remain canonical fixed pixels. The inspected original orange polyp center at the body-registration point remains fixed in a four-pixel protected patch.",
+    "protectedDiscs": [
+      [
+        96,
+        139,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        94,
+        89,
+        14,
+        10,
+        0.58
+      ],
+      [
+        109,
+        111,
+        15,
+        12,
+        0.58
+      ],
+      [
+        124,
+        89,
+        9,
+        8,
+        0.58
+      ],
+      [
+        132,
+        109,
+        8,
+        9,
+        0.58
+      ]
+    ],
+    "description": "Inspected four frag corallite soft feeding fringes, retaining fixed green/gold mouths, purple hard cups and rocky attachment. Only original small distal feeding tissue poses are assembled."
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        107,
+        51,
+        13,
+        10,
+        0.58
+      ],
+      [
+        73,
+        63,
+        13,
+        10,
+        0.58
+      ],
+      [
+        127,
+        72,
+        14,
+        11,
+        0.58
+      ],
+      [
+        145,
+        60,
+        11,
+        9,
+        0.58
+      ],
+      [
+        56,
+        85,
+        13,
+        11,
+        0.58
+      ],
+      [
+        93,
+        80,
+        14,
+        11,
+        0.58
+      ],
+      [
+        108,
+        103,
+        15,
+        12,
+        0.58
+      ],
+      [
+        134,
+        102,
+        14,
+        11,
+        0.58
+      ],
+      [
+        157,
+        89,
+        12,
+        10,
+        0.58
+      ],
+      [
+        70,
+        109,
+        14,
+        11,
+        0.58
+      ],
+      [
+        42,
+        99,
+        11,
+        9,
+        0.58
+      ],
+      [
+        55,
+        119,
+        11,
+        9,
+        0.58
+      ],
+      [
+        82,
+        130,
+        12,
+        10,
+        0.58
+      ],
+      [
+        105,
+        130,
+        11,
+        9,
+        0.58
+      ],
+      [
+        126,
+        125,
+        11,
+        9,
+        0.58
+      ],
+      [
+        149,
+        124,
+        12,
+        10,
+        0.58
+      ]
+    ],
+    "description": "Inspected existing colony feeding-rim annuli. Green/gold mouths, inner discs and the purple hard encrusting cups and base remain canonical protected pixels; no mound wobble or new polyps."
+  },
+  {
+    "id": "pavona-cactus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "discs": [
+      [
+        82,
+        99,
+        2
+      ],
+      [
+        80,
+        112,
+        2
+      ],
+      [
+        82,
+        125,
+        2
+      ],
+      [
+        102,
+        80,
+        2
+      ],
+      [
+        108,
+        94,
+        2
+      ],
+      [
+        111,
+        106,
+        2
+      ],
+      [
+        111,
+        120,
+        2
+      ],
+      [
+        103,
+        129,
+        2
+      ],
+      [
+        63,
+        110,
+        2
+      ],
+      [
+        67,
+        124,
+        2
+      ]
+    ],
+    "description": "Inspected minute living polyp surface islands inside the green rigid developing plates. All plate contours/folds, yellow hard edges and rocky pedestal remain fixed; only original micro-polyp poses are sampled."
+  },
+  {
+    "id": "pavona-cactus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "discs": [
+      [
+        47,
+        98,
+        2
+      ],
+      [
+        57,
+        110,
+        2
+      ],
+      [
+        68,
+        124,
+        2
+      ],
+      [
+        75,
+        95,
+        2
+      ],
+      [
+        86,
+        63,
+        2
+      ],
+      [
+        89,
+        80,
+        2
+      ],
+      [
+        95,
+        102,
+        2
+      ],
+      [
+        111,
+        67,
+        2
+      ],
+      [
+        120,
+        86,
+        2
+      ],
+      [
+        125,
+        109,
+        2
+      ],
+      [
+        140,
+        88,
+        2
+      ],
+      [
+        147,
+        68,
+        2
+      ],
+      [
+        150,
+        101,
+        2
+      ],
+      [
+        155,
+        117,
+        2
+      ],
+      [
+        106,
+        125,
+        2
+      ],
+      [
+        103,
+        139,
+        2
+      ]
+    ],
+    "description": "Inspected minute existing polyp islands on interior plate surfaces. All rigid leaf-like plates, yellow edges, fold ridges and rock attachment remain canonical protected pixels, preventing flexible hard-coral motion."
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        98,
+        90,
+        39,
+        29,
+        0.48
+      ]
+    ],
+    "protectedPolygons": [
+      [
+        [
+          85,
+          113
+        ],
+        [
+          110,
+          113
+        ],
+        [
+          109,
+          150
+        ],
+        [
+          85,
+          150
+        ]
+      ]
+    ],
+    "description": "Inspected single frag Duncan soft distal tentacle fringe; green oral disc and mouth remain fixed. Beige skeletal stalk and whole rock pedestal are protected canonical pixels, including the stalk below the oral cup."
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        95,
+        40,
+        35,
+        28,
+        0.48
+      ],
+      [
+        35,
+        86,
+        27,
+        38,
+        0.48
+      ],
+      [
+        144,
+        86,
+        35,
+        32,
+        0.48
+      ],
+      [
+        100,
+        111,
+        32,
+        23,
+        0.48
+      ]
+    ],
+    "protectedDiscs": [
+      [
+        96,
+        125,
+        5
+      ]
+    ],
+    "description": "Inspected four colony Duncan distal tentacle rings. Oral centers/inner discs and a visible central skeletal registration patch plus all unmasked stalk/base remain protected, preventing hard branch movement."
+  }
+]

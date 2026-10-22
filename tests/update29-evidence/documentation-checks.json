@@ -1,0 +1,10 @@
+{
+  "31_master_sections": true,
+  "full_master_in_continuity": true,
+  "35_new_ledger_entries": true,
+  "35_new_ids_in_catalog": true,
+  "35_new_ids_in_continuity": true,
+  "old_38_ids_in_continuity": true,
+  "no_art_autoapproval": true,
+  "old_science_data_intact": true
+}

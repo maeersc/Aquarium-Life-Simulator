@@ -1,0 +1,692 @@
+{
+  "browser": "chrome",
+  "scope": "Non-fish fixture validity only; no authored artwork completion inferred",
+  "passed": 171,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "zoa/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "zoa/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "zoa/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "zoa/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "zoa/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "zoa/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "mushroom/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "mushroom/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "mushroom/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "mushroom/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "mushroom/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "mushroom/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "sps/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "sps/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "sps/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "sps/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "sps/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "sps/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "lps/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "lps/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "lps/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "lps/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "lps/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "lps/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "soft/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "soft/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "soft/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "soft/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "soft/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "soft/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus/frag/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus/frag/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus/frag/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus/colony/polyp_motion: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus/colony/polyp_motion: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus/colony/polyp_motion: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp/baby/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp/baby/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp/baby/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp/juvenile/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp/juvenile/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp/juvenile/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp/adult/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp/adult/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp/adult/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab/baby/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab/baby/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab/baby/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab/juvenile/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab/juvenile/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab/juvenile/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab/adult/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab/adult/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab/adult/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail/baby/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail/baby/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail/baby/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail/juvenile/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail/juvenile/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail/juvenile/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail/adult/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail/adult/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail/adult/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch/baby/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch/baby/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch/baby/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch/juvenile/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch/juvenile/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch/juvenile/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch/adult/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch/adult/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch/adult/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab/baby/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab/baby/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab/baby/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab/juvenile/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab/juvenile/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab/juvenile/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab/adult/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab/adult/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab/adult/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis/baby/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis/baby/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis/baby/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis/juvenile/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis/juvenile/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis/juvenile/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis/adult/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis/adult/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis/adult/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius/baby/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius/baby/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius/baby/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius/juvenile/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius/juvenile/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius/juvenile/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius/adult/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius/adult/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius/adult/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli/baby/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli/baby/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli/baby/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli/juvenile/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli/juvenile/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli/juvenile/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli/adult/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli/adult/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli/adult/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta/baby/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta/baby/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta/baby/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta/juvenile/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta/juvenile/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta/juvenile/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta/adult/idle: actual local save/load retains non-fish identity, condition, stage and value",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta/adult/idle: actual rendering leaves the saved ecosystem untouched",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta/adult/idle: actual canvas click opens the correct non-fish resident inspector",
+      "pass": true
+    }
+  ]
+}

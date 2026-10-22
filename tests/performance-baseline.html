@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head><base href="file:///C:/Users/camae/Desktop/Aquarium%20Game/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080B10">
+  <meta name="description" content="Aquarium Life, a fully offline pixel-art aquarium simulation.">
+  <title>Aquarium Life</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/store.css">
+  <link rel="stylesheet" href="css/app-shell.css"><link rel="stylesheet" href="css/gameplay.css">
+  <script defer src="planning/performance-optimization/baseline/js/data.js"></script><script defer src="planning/performance-optimization/baseline/js/gameplay.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/clownfish-collection-data.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/clownfish-art.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/art-assets-data.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/habitat-geometry.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/habitat.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/expansion-data.js"></script><script defer src="planning/performance-optimization/baseline/js/expansion.js"></script><script defer src="planning/performance-optimization/baseline/js/update29-data.js"></script><script defer src="planning/performance-optimization/baseline/js/update29-catalog.js"></script><script defer src="planning/performance-optimization/baseline/js/rarity.js"></script><script defer src="planning/performance-optimization/baseline/js/patterns.js"></script><script defer src="planning/performance-optimization/baseline/js/daily-store.js"></script><script defer src="planning/performance-optimization/baseline/js/offline.js"></script><script defer src="planning/performance-optimization/baseline/js/finance.js"></script><script defer src="planning/performance-optimization/baseline/js/core.js"></script><script defer src="planning/performance-optimization/baseline/js/aquarium-preparation.js"></script><script defer src="planning/performance-optimization/baseline/js/invertebrates.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/livestock-health.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/livestock-market.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/valuation.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/health-save.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/casino-rules.js"></script><script defer src="planning/performance-optimization/baseline/js/casino.js"></script><script defer src="planning/performance-optimization/baseline/js/heaters.js"></script><script defer src="planning/performance-optimization/baseline/js/thermal.js"></script><script defer src="planning/performance-optimization/baseline/js/marine-care.js"></script><script defer src="planning/performance-optimization/baseline/js/mortality.js"></script><script defer src="planning/performance-optimization/baseline/js/mortality-journal.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/simulation.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/equipment-inventory.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/equipment-reliability.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/save.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/sprite-kit.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/asset-bank.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/life-stage-data.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/life-stages.js"></script><script defer src="planning/performance-optimization/baseline/js/expansion-art-data.js"></script><script defer src="planning/performance-optimization/baseline/js/update29-art-data.js"></script><script defer src="planning/performance-optimization/baseline/js/expansion-art.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/clownfish-art-data.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/clownfish-art-bank.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/habitat-drawing.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/store-rules.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/brood-view.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/placement.js"></script><script defer src="planning/performance-optimization/baseline/js/livestock-animation-data.js"></script><!-- AL_LIVESTOCK_SHEETS_START -->
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-000-a95b1a2a7bcb.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-001-5ecaf052cd51.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-002-6b09593d90f8.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-003-f48eabbe241b.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-004-126bff95f667.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-005-b811e79433db.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-006-7f727add84e1.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-007-1f6be0abfcc5.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-008-04f10dd1ac6e.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-009-e36ec739e2e1.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-010-683961ada98f.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-011-01c622b85f48.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-012-a31ce9aee8e7.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-013-b854802430fd.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-014-be0a3bd3a696.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-015-6d80bc34089a.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-016-1db622bc1c09.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-017-ddf7be30af46.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-018-be3b488aefa1.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-019-5841a6ddfde0.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-020-ee99b089927b.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-021-24f997532d58.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-022-9039a9b3164b.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-023-42ec597d3fd7.js"></script>
+<script defer src="planning/performance-optimization/baseline/js/livestock-animation-sheets-024-e958ff76c0fb.js"></script>
+<!-- AL_LIVESTOCK_SHEETS_END --><script defer src="planning/performance-optimization/baseline/js/fish-animation-data.js"></script><script defer src="planning/performance-optimization/baseline/js/fish-animation.js"></script><script defer src="planning/performance-optimization/baseline/js/render.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/ui.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/health-ui.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/store-art.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/store.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/app-shell.js"></script><script defer src="planning/performance-optimization/baseline/js/expansion-ui.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/gameplay-ui.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/diving-data.js"></script><script defer src="planning/performance-optimization/baseline/js/diving.js"></script><script defer src="planning/performance-optimization/baseline/js/diving-receiving.js"></script><script defer src="planning/performance-optimization/baseline/js/diving-mystery.js"></script><script defer src="planning/performance-optimization/baseline/js/diving-expansion.js"></script><script defer src="planning/performance-optimization/baseline/js/diving-art-data.js"></script><script defer src="planning/performance-optimization/baseline/js/diving-art.js"></script><script defer src="planning/performance-optimization/baseline/js/diving-ui.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/update31.js"></script><script defer src="planning/performance-optimization/baseline/js/research-data.js"></script><script defer src="planning/performance-optimization/baseline/js/research.js"></script><script defer src="planning/performance-optimization/baseline/js/update29.js"></script><script defer src="planning/performance-optimization/baseline/js/update29-ui.js"></script>
+  <script defer src="planning/performance-optimization/baseline/js/update31-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/overnight-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/mortality-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/equipment-catalog.js"></script><script defer src="planning/performance-optimization/baseline/js/casino-art.js"></script><script defer src="planning/performance-optimization/baseline/js/casino-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/breeding.js"></script><script defer src="planning/performance-optimization/baseline/js/breeding-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/inventory-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/equipment-maintenance-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/progression.js"></script><script defer src="planning/performance-optimization/baseline/js/equipment-parts.js"></script><script defer src="planning/performance-optimization/baseline/js/aquarium-sale.js"></script><script defer src="planning/performance-optimization/baseline/js/pair-offers.js"></script><script defer src="planning/performance-optimization/baseline/js/economy-update-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/care-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/tutorial.js"></script><script defer src="planning/performance-optimization/baseline/js/tutorial-ui.js"></script><script defer src="planning/performance-optimization/baseline/js/main.js"></script>
+  <link rel="stylesheet" href="css/diving.css"><link rel="stylesheet" href="css/update29.css"><link rel="stylesheet" href="css/update31.css">
+<link rel="stylesheet" href="css/rarity.css"><link rel="stylesheet" href="css/ui-cleanup.css"><link rel="stylesheet" href="css/store-casino.css"><link rel="stylesheet" href="css/breeding.css"><link rel="stylesheet" href="css/tutorial.css"></head>
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="Aquarium Life home"><span class="brand-icon">≋</span><span>AQUARIUM<span class="brand-life">L I F E</span></span></a>
+      <div class="eyebrow nav-label">YOUR LITTLE OCEAN</div>
+      <nav id="navigation" aria-label="Main navigation"></nav>
+      <div class="sidebar-bottom"><span class="status-dot"></span> OFFLINE & UNHURRIED<small>A world worth caring for.</small><span class="version">OFFLINE EDITION · v4.2.1</span></div>
+    </aside>
+    <main>
+      <header class="topbar"><button class="level-badge" id="level" aria-label="Open Keeper Progress">01</button><button id="ocean-diving" class="ocean-diving-button" aria-haspopup="dialog"><span aria-hidden="true">◉</span> Ocean Diving</button><div class="keeper">Aquarium keeper<small id="rank">A new beginning</small></div><div class="top-spacer"></div><div id="clock" class="clock"></div><button class="currency" id="finance-open" aria-label="Aquarium Credits - Financial Overview"><span class="coin">◈</span><strong id="credits">5,000</strong><small>AC</small></button><button class="icon-button" data-action="notifications" aria-label="Notifications and event history">≡</button><button id="save-button" class="quiet" title="Save now">Save</button><button id="settings-button" class="icon-button" aria-label="Settings">⚙</button></header>
+      <div class="workspace">
+        <div class="page-heading"><h1 id="page-title">Your aquariums<span>.</span></h1><div class="aquarium-control-region"><div class="aquarium-controls"><label class="aquarium-selector"><span class="visually-hidden">Current aquarium</span><select id="aquarium-selector" aria-label="Current aquarium"></select></label><button class="outline" id="new-tank">+ New aquarium</button></div></div></div>
+        <div class="main-grid">
+          <section class="aquarium-column">
+            <div class="tank-card">
+              <div class="tank-toolbar"><div class="tank-identity"><span class="status-dot"></span><strong id="tank-name">The quiet shallows</strong><span class="tag" id="tank-type">SALTWATER · 20 gal</span></div><button id="tank-value" aria-label="Open total aquarium value breakdown"><small>TOTAL AQUARIUM VALUE</small><strong id="tank-value-amount">— AC</strong></button><div class="tank-tools"><label class="light-control"><span id="tank-light-status">Light</span><select id="tank-light-mode" aria-label="Aquarium light mode" title="On keeps the light on; Off turns it off; Auto follows your lighting schedule."><option value="auto">Auto</option><option value="on">On</option><option value="off">Off</option></select></label><button class="icon-button" id="rename-tank" aria-label="Rename aquarium">✎</button></div></div>
+              <div class="canvas-wrap"><canvas id="aquarium" width="960" height="480" tabindex="0" aria-label="Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel."></canvas><div class="scene-label"><span class="status-dot"></span><span id="scene-status">A world taking shape</span></div><div class="camera-controls"><button id="zoom-out" aria-label="Zoom out">−</button><span id="zoom-label">1×</span><button id="zoom-in" aria-label="Zoom in">+</button><button id="pan-left" aria-label="Pan camera left">‹</button><button id="pan-right" aria-label="Pan camera right">›</button></div><div id="empty-tank" class="empty-tank"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class="primary" id="onboard-action">Prepare your aquarium →</button></div></div>
+              <div id="placement-banner" class="placement-banner" hidden><div><strong id="placement-title">Place your coral</strong><small id="placement-instructions">Move the preview and click to place. Arrow keys and Enter also work.</small></div><button id="cancel-placement" class="outline">Cancel</button></div>
+              <div class="tank-footer"><span id="livestock-count">0 residents</span><div class="time-controls" aria-label="Simulation speed"><button data-speed="0" aria-label="Pause">Ⅱ</button><button data-speed="1" class="active">1×</button><button data-speed="5">5×</button><button data-speed="20">20×</button></div></div>
+            </div>
+            <section id="management" class="management" aria-live="polite"></section>
+          </section>
+          <aside class="right-column"><section class="panel water-panel"><div class="section-title"><h2>Water & wellbeing</h2><span id="condition" class="pill">Settling in</span></div><div id="water-stats" tabindex="0" aria-label="Actual aquarium water readings"></div><div class="bioload"><div><span>Bioload <small title="A normalized game indicator, not a universal biological measurement">ⓘ</small></span><strong id="bioload-label">0 / 100</strong></div><div class="meter"><i id="bioload-bar"></i></div></div><div id="water-warning" class="water-warning"></div><button class="text-button" id="advanced-water">View water laboratory →</button></section><section class="panel next-panel"><div class="eyebrow">ONE SMALL STEP</div><h2 id="next-title">Make yourself at home</h2><p id="next-description">Prepare a safe home for your first residents.</p><div id="quest-progress"></div><button class="text-button" id="quest-link">Open field journal →</button></section><section class="panel log-panel"><div class="section-title"><h2>Life lately</h2><span class="live-label">LIVE</span></div><div id="event-log"></div></section></aside>
+        </div>
+        <footer class="bottom-bar"><span id="save-status">Local save ready</span><span id="season-label">SPRING · DAY 1</span></footer>
+      </div>
+    </main>
+  </div>
+  <dialog id="startup-dialog" aria-labelledby="startup-title"><div id="startup-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="store-dialog" aria-labelledby="store-title"><header class="store-header"><h2 id="store-title">Aquarium Store</h2><label class="store-destination-row"><span>Destination · <strong id="store-destination-name"></strong></span><select id="store-destination" aria-label="Store destination aquarium"></select></label><strong id="store-balance"></strong><button id="store-close" aria-label="Close aquarium store">×</button></header><div class="store-trade-tabs" aria-label="Store transactions"><button data-store-mode="buy">Buy</button><button data-store-mode="sell">Sell</button><button data-store-mode="orders">Orders</button></div><div id="store-main-tabs" class="store-tabs" role="tablist" aria-label="Store habitat and market"></div><nav id="store-sub-tabs" class="store-subtabs" aria-label="Store subcategory"></nav><div class="store-searchbar"><label>Search items<input id="store-search" type="search" placeholder="Name, species or requirement"></label><label id="equipment-filter-label" hidden>Equipment category<select id="equipment-filter" aria-label="Equipment category"><option value="all">All Equipment</option></select></label></div><div id="store-products" role="region" aria-label="Store products" tabindex="0"></div></dialog>
+  <dialog id="primary-dialog" aria-labelledby="primary-title"><header class="primary-header"><div class="eyebrow">AQUARIUM LIFE</div><h2 id="primary-title">Aquariums</h2><p id="primary-context"></p><button id="primary-close" aria-label="Close window">×</button><button class="primary-jump" data-window="journal" data-subtab="collection">Field Journal</button></header><nav id="primary-tabs" role="tablist" aria-label="Window sections"></nav><section id="primary-content" role="tabpanel" tabindex="0"></section></dialog>
+  <dialog id="dialog" aria-label="Aquarium details"><div id="dialog-body"></div><button class="dialog-close" id="dialog-close" aria-label="Close dialog">×</button></dialog>
+  <input id="import-file" type="file" accept=".json,application/json" hidden>
+  <noscript>This offline game needs JavaScript enabled in your browser.</noscript>
+</body>
+</html>

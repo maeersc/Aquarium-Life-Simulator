@@ -1,0 +1,46 @@
+{
+  "passed": 1610,
+  "failed": 0,
+  "browserAssertions": 17824,
+  "suites": [
+    {
+      "file": "fish-animation-evidence/chrome-results.json",
+      "passed": 4092,
+      "failed": 0
+    },
+    {
+      "file": "fish-animation-evidence/edge-results.json",
+      "passed": 4092,
+      "failed": 0
+    },
+    {
+      "file": "pages-evidence/chrome-results.json",
+      "passed": 4777,
+      "failed": 0
+    },
+    {
+      "file": "pages-evidence/edge-results.json",
+      "passed": 4777,
+      "failed": 0
+    },
+    {
+      "file": "breeding-evidence/chrome-results.json",
+      "passed": 86,
+      "failed": 0
+    }
+  ],
+  "preservedFiles": 1682,
+  "classification": {
+    "A": 0,
+    "B": 94,
+    "C": 0,
+    "D": 0,
+    "E_referenceOnly": 5
+  },
+  "deployment": {
+    "builtAt": "2026-10-16T19:10:29.659638+00:00",
+    "gameContent": "v4.0.3",
+    "sourceFiles": 1563,
+    "sourceBytes": 505815599
+  }
+}

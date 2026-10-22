@@ -1,0 +1,82 @@
+[
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "juvenile",
+    "state": "idle",
+    "sourceBox": [
+      27,
+      26,
+      340,
+      285
+    ],
+    "previewOrigin": [
+      12,
+      64
+    ],
+    "previewScale": 0.7412140575079872,
+    "previewSize": [
+      232,
+      192
+    ]
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "juvenile",
+    "state": "walk",
+    "sourceBox": [
+      16,
+      35,
+      308,
+      293
+    ],
+    "previewOrigin": [
+      268,
+      57
+    ],
+    "previewScale": 0.7945205479452054,
+    "previewSize": [
+      232,
+      205
+    ]
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "adult",
+    "state": "idle",
+    "sourceBox": [
+      25,
+      52,
+      340,
+      271
+    ],
+    "previewOrigin": [
+      524,
+      79
+    ],
+    "previewScale": 0.7365079365079366,
+    "previewSize": [
+      232,
+      161
+    ]
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      14,
+      53,
+      305,
+      280
+    ],
+    "previewOrigin": [
+      780,
+      69
+    ],
+    "previewScale": 0.7972508591065293,
+    "previewSize": [
+      232,
+      181
+    ]
+  }
+]

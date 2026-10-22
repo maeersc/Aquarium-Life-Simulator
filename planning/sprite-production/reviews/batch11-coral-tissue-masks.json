@@ -1,0 +1,374 @@
+[
+  {
+    "id": "caulastraea-furcata",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        97,
+        84,
+        39,
+        32,
+        0.53
+      ]
+    ],
+    "description": "Inspected single turquoise candy-cane frag fleshy feeding rim, with original mouth and inner disc protected. The whole pale hard cup/stalk and rock remain canonical; only original small outer tissue poses are sampled."
+  },
+  {
+    "id": "caulastraea-furcata",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        70,
+        70,
+        31,
+        25,
+        0.53
+      ],
+      [
+        118,
+        97,
+        33,
+        25,
+        0.53
+      ],
+      [
+        52,
+        112,
+        18,
+        21,
+        0.53
+      ],
+      [
+        146,
+        84,
+        18,
+        14,
+        0.53
+      ],
+      [
+        150,
+        118,
+        14,
+        21,
+        0.53
+      ]
+    ],
+    "description": "Inspected colony-specific turquoise distal feeding rims. Mouth centers and inner discs, branching pale skeleton and rock attachment remain protected canonical pixels; no rigid branch motion is introduced."
+  },
+  {
+    "id": "turbinaria-reniformis",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "discs": [
+      [
+        79,
+        84,
+        2
+      ],
+      [
+        96,
+        64,
+        2
+      ],
+      [
+        113,
+        65,
+        2
+      ],
+      [
+        130,
+        72,
+        2
+      ],
+      [
+        96,
+        89,
+        2
+      ],
+      [
+        105,
+        98,
+        2
+      ]
+    ],
+    "description": "Inspected minute pale living polyp surface islands inside the original developing golden Turbinaria structure. All hard branch edges, trunk and pedestal remain fixed canonical pixels."
+  },
+  {
+    "id": "turbinaria-reniformis",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "discs": [
+      [
+        48,
+        70,
+        2
+      ],
+      [
+        56,
+        79,
+        2
+      ],
+      [
+        45,
+        90,
+        2
+      ],
+      [
+        67,
+        99,
+        2
+      ],
+      [
+        74,
+        106,
+        2
+      ],
+      [
+        65,
+        120,
+        2
+      ],
+      [
+        53,
+        111,
+        2
+      ],
+      [
+        63,
+        57,
+        2
+      ],
+      [
+        75,
+        44,
+        2
+      ],
+      [
+        96,
+        54,
+        2
+      ],
+      [
+        110,
+        48,
+        2
+      ],
+      [
+        127,
+        42,
+        2
+      ],
+      [
+        145,
+        65,
+        2
+      ],
+      [
+        162,
+        73,
+        2
+      ],
+      [
+        160,
+        94,
+        2
+      ],
+      [
+        143,
+        110,
+        2
+      ],
+      [
+        154,
+        114,
+        2
+      ],
+      [
+        136,
+        125,
+        2
+      ]
+    ],
+    "description": "Inspected existing pale surface polyp islands only on golden scroll surfaces. Hard scroll edges, cup folds/ridges and rocky attachment are canonical protected pixels, preserving completely rigid stony geometry."
+  },
+  {
+    "id": "tubastraea-micranthus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        98,
+        99,
+        26,
+        24,
+        0.4
+      ]
+    ],
+    "description": "Inspected single black-sun frag yellow distal feeding tentacle annulus. Orange mouth/inner disc and the entire dark rigid stalk and rock remain canonical fixed pixels."
+  },
+  {
+    "id": "tubastraea-micranthus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        90,
+        83,
+        13,
+        13,
+        0.4
+      ],
+      [
+        107,
+        79,
+        11,
+        11,
+        0.4
+      ],
+      [
+        71,
+        93,
+        11,
+        11,
+        0.4
+      ],
+      [
+        65,
+        119,
+        12,
+        12,
+        0.4
+      ],
+      [
+        87,
+        106,
+        11,
+        11,
+        0.4
+      ],
+      [
+        109,
+        97,
+        11,
+        11,
+        0.4
+      ],
+      [
+        127,
+        94,
+        11,
+        11,
+        0.4
+      ],
+      [
+        111,
+        116,
+        11,
+        11,
+        0.4
+      ],
+      [
+        87,
+        127,
+        12,
+        12,
+        0.4
+      ],
+      [
+        126,
+        136,
+        12,
+        12,
+        0.4
+      ]
+    ],
+    "description": "Inspected existing black-sun colony distal yellow feeding-tentacle fringes only. Orange mouths, inner oral discs, dark hard branching skeleton and the rock pedestal remain protected canonical pixels. The inspected central dark skeletal registration point has a protected four-pixel patch.",
+    "protectedDiscs": [
+      [
+        96,
+        133,
+        4
+      ]
+    ]
+  },
+  {
+    "id": "rhizotrochus-typus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        96,
+        102,
+        39,
+        34,
+        0.3
+      ]
+    ],
+    "protectedPolygons": [
+      [
+        [
+          80,
+          115
+        ],
+        [
+          111,
+          115
+        ],
+        [
+          111,
+          145
+        ],
+        [
+          80,
+          145
+        ]
+      ]
+    ],
+    "description": "Inspected pale/lavender Rhizo distal feeding-tentacle fringe above the fixed orange/cream cup. Original mouth and lower hard cup/stalk plus porous rocky base are protected canonical pixels."
+  },
+  {
+    "id": "rhizotrochus-typus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "nativeFirstInspected": true,
+    "rings": [
+      [
+        96,
+        110,
+        46,
+        35,
+        0.3
+      ]
+    ],
+    "protectedPolygons": [
+      [
+        [
+          80,
+          120
+        ],
+        [
+          116,
+          120
+        ],
+        [
+          116,
+          149
+        ],
+        [
+          80,
+          149
+        ]
+      ]
+    ],
+    "description": "Inspected mature Rhizo pale/lavender distal tentacle fringe only. Mouth center/inner oral disc, lower orange hard cup and porous rocky attachment remain canonical protected pixels; no cup wobble."
+  }
+]

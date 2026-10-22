@@ -1,0 +1,82 @@
+[
+  {
+    "id": "pavona-cactus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      50,
+      20,
+      265,
+      289
+    ],
+    "previewOrigin": [
+      38,
+      48
+    ],
+    "previewScale": 0.8327137546468402,
+    "previewSize": [
+      179,
+      224
+    ]
+  },
+  {
+    "id": "pavona-cactus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      26,
+      75,
+      304,
+      320
+    ],
+    "previewOrigin": [
+      268,
+      58
+    ],
+    "previewScale": 0.8345323741007195,
+    "previewSize": [
+      232,
+      204
+    ]
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      74,
+      9,
+      294,
+      281
+    ],
+    "previewOrigin": [
+      549,
+      48
+    ],
+    "previewScale": 0.8235294117647058,
+    "previewSize": [
+      181,
+      224
+    ]
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      11,
+      31,
+      320,
+      281
+    ],
+    "previewOrigin": [
+      780,
+      66
+    ],
+    "previewScale": 0.7508090614886731,
+    "previewSize": [
+      232,
+      188
+    ]
+  }
+]

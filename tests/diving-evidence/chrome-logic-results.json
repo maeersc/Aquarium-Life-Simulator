@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Exact two modes and four authorized regions",
+    "pass": true
+  },
+  {
+    "name": "reef: locked one saved Keeper level below threshold",
+    "pass": true
+  },
+  {
+    "name": "reef: unlocks exactly at threshold and charges the fixed total once",
+    "pass": true
+  },
+  {
+    "name": "reef: rental breakdown sums to fixed total",
+    "pass": true
+  },
+  {
+    "name": "deep: locked one saved Keeper level below threshold",
+    "pass": true
+  },
+  {
+    "name": "deep: unlocks exactly at threshold and charges the fixed total once",
+    "pass": true
+  },
+  {
+    "name": "deep: rental breakdown sums to fixed total",
+    "pass": true
+  },
+  {
+    "name": "Launch needs explicit confirmation, funds and available destination",
+    "pass": true
+  },
+  {
+    "name": "An active expedition cannot launch or charge a second trip",
+    "pass": true
+  },
+  {
+    "name": "fiji reef: every generated encounter obeys region, habitat and depth whitelist",
+    "pass": true
+  },
+  {
+    "name": "fiji deep: every generated encounter obeys region, habitat and depth whitelist",
+    "pass": true
+  },
+  {
+    "name": "caribbean reef: every generated encounter obeys region, habitat and depth whitelist",
+    "pass": true
+  },
+  {
+    "name": "caribbean deep: every generated encounter obeys region, habitat and depth whitelist",
+    "pass": true
+  },
+  {
+    "name": "hawaii reef: every generated encounter obeys region, habitat and depth whitelist",
+    "pass": true
+  },
+  {
+    "name": "hawaii deep: every generated encounter obeys region, habitat and depth whitelist",
+    "pass": true
+  },
+  {
+    "name": "japan reef: every generated encounter obeys region, habitat and depth whitelist",
+    "pass": true
+  },
+  {
+    "name": "japan deep: every generated encounter obeys region, habitat and depth whitelist",
+    "pass": true
+  },
+  {
+    "name": "Incorrect-region livestock is rejected during save validation",
+    "pass": true
+  },
+  {
+    "name": "Hawaii wildlife is observation-only regardless of game rarity",
+    "pass": true
+  },
+  {
+    "name": "Every encounter profile has science, care, art, source, conservation and health/holding metadata",
+    "pass": true
+  },
+  {
+    "name": "A successful movement consumes exactly five percentage points",
+    "pass": true
+  },
+  {
+    "name": "Blocked terrain consumes no oxygen and cannot move the diver",
+    "pass": true
+  },
+  {
+    "name": "Clicking/collecting a nearby rock costs no oxygen and no permanent reward yet",
+    "pass": true
+  },
+  {
+    "name": "Out-of-range discovery clicks cannot collect across the map",
+    "pass": true
+  },
+  {
+    "name": "Eight actual nearby collections fill exactly eight slots; overflow is rejected",
+    "pass": true
+  },
+  {
+    "name": "The compact map is winnable by collecting and physically returning with oxygen",
+    "pass": true
+  },
+  {
+    "name": "A returned rock can be installed once through owned inventory without extra payment",
+    "pass": true
+  },
+  {
+    "name": "Twenty successful steps away from the boat exhaust oxygen, forfeit items and do not refund",
+    "pass": true
+  },
+  {
+    "name": "Abandonment requires explicit confirmation and cannot bypass forfeiture",
+    "pass": true
+  },
+  {
+    "name": "Save/load restores active position, oxygen, rental cost, transaction and temporary identities",
+    "pass": true
+  },
+  {
+    "name": "Repeated settlement of a returned trip cannot award items twice",
+    "pass": true
+  },
+  {
+    "name": "Reef/deep filters do not hatch corals or invertebrates from fish Mystery Eggs",
+    "pass": true
+  },
+  {
+    "name": "chalk-bass: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+    "pass": true
+  },
+  {
+    "name": "candy-basslet: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+    "pass": true
+  },
+  {
+    "name": "pavona-cactus: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+    "pass": true
+  },
+  {
+    "name": "porcelain-anemone-crab: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+    "pass": true
+  },
+  {
+    "name": "blotched-anthias: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+    "pass": true
+  },
+  {
+    "name": "Recovery rejects an unsafe aquarium before collecting livestock",
+    "pass": true
+  },
+  {
+    "name": "An unsafe receiver on return records loss instead of inserting an unsafe animal",
+    "pass": true
+  },
+  {
+    "name": "Transported specimens expire instead of living indefinitely in non-biological inventory",
+    "pass": true
+  },
+  {
+    "name": "Every normal direct upper-tier purchase is rejected atomically",
+    "pass": true
+  },
+  {
+    "name": "Confirmed high-tier Deep Market purchase pays the saved dealer quote and awards bounded reputation",
+    "pass": true
+  },
+  {
+    "name": "Opening, canceled or failed Deep Market actions cannot award reputation",
+    "pass": true
+  },
+  {
+    "name": "All Mystery Egg percentages remain exactly unchanged and all six pools remain populated",
+    "pass": true
+  },
+  {
+    "name": "Daily fish store still contains exactly 3/3/1 plus one Mystery Egg",
+    "pass": true
+  },
+  {
+    "name": "Tank and equipment capacities remain physical liters while nominal gallons ceil",
+    "pass": true
+  },
+  {
+    "name": "Freshwater roster and plants remain unchanged",
+    "pass": true
+  },
+  {
+    "name": "Existing saves migrate diving additively without replacing wallet, selected tank, listings or livestock",
+    "pass": true
+  },
+  {
+    "name": "chalk-bass: a living recovery retains provenance and uses the regular 60% quote",
+    "pass": true
+  },
+  {
+    "name": "porcelain-anemone-crab: a living recovery retains provenance and uses the regular 60% quote",
+    "pass": true
+  },
+  {
+    "name": "pavona-cactus: a living recovery retains provenance and uses the regular 60% quote",
+    "pass": true
+  },
+  {
+    "name": "Diving sale is locked at reputation 4 and succeeds exactly at reputation 5",
+    "pass": true
+  },
+  {
+    "name": "Diving resale enforces condition, death, opening hours, budgets and daily limits",
+    "pass": true
+  },
+  {
+    "name": "Collector offers are bounded, condition-sensitive and reduced by demand/saturation",
+    "pass": true
+  },
+  {
+    "name": "Reputation awards cap at 25 per purchase and 50 per game day without duplicate rewards",
+    "pass": true
+  },
+  {
+    "name": "A saved local completion receipt prevents replaying an older active-trip snapshot",
+    "pass": true
+  },
+  {
+    "name": "Wrong-region diving provenance is rejected even on an already owned specimen",
+    "pass": true
+  },
+  {
+    "name": "Six game hours of diving use the existing chemistry, egg, disease and daily-store clock",
+    "pass": true
+  },
+  {
+    "name": "Arriving at the boat on the twentieth step fails rather than bypassing zero oxygen",
+    "pass": true
+  },
+  {
+    "name": "Oxygen warnings are recorded at exactly 30, 15 and 5 percent",
+    "pass": true
+  },
+  {
+    "name": "Malformed outcome text and transport fields fail save validation",
+    "pass": true
+  },
+  {
+    "name": "Dosing display remains precise without rounding the physical volume upward",
+    "pass": true
+  },
+  {
+    "name": "Imported impossible position/oxygen combinations cannot teleport past the movement budget",
+    "pass": true
+  }
+]

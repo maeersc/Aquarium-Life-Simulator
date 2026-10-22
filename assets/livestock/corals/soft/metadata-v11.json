@@ -1,0 +1,112 @@
+{
+  "id": "soft",
+  "name": "Soft leather coral",
+  "family": "corals",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "frames": 10,
+  "frameDurationMs": 1250,
+  "atlas": "assets/livestock/corals/soft/atlas-v11.png",
+  "bounds": [
+    [
+      12,
+      26,
+      179,
+      184
+    ],
+    [
+      9,
+      35,
+      183,
+      184
+    ],
+    [
+      17,
+      28,
+      183,
+      184
+    ],
+    [
+      15,
+      32,
+      177,
+      184
+    ],
+    [
+      16,
+      67,
+      175,
+      184
+    ],
+    [
+      12,
+      24,
+      179,
+      184
+    ],
+    [
+      10,
+      32,
+      182,
+      184
+    ],
+    [
+      12,
+      30,
+      180,
+      184
+    ],
+    [
+      15,
+      30,
+      176,
+      184
+    ],
+    [
+      16,
+      73,
+      176,
+      184
+    ]
+  ],
+  "anchor": [
+    96,
+    184
+  ],
+  "runtimeFloraId": "soft",
+  "states": [
+    "healthy",
+    "stressed",
+    "bleached",
+    "tissue-loss",
+    "dead"
+  ],
+  "stateFrames": {
+    "healthy": [
+      0,
+      5
+    ],
+    "stressed": [
+      1,
+      6
+    ],
+    "bleached": [
+      2,
+      7
+    ],
+    "tissue-loss": [
+      3,
+      8
+    ],
+    "dead": [
+      4,
+      9
+    ]
+  },
+  "facingBehavior": "stationary",
+  "layer": "flora",
+  "source": "source-v1.png",
+  "rigid": false
+}

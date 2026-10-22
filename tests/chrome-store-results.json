@@ -1,0 +1,369 @@
+{
+  "browser": "chrome",
+  "passed": 90,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Opening store is modal and preserves freshwater destination",
+      "pass": true
+    },
+    {
+      "name": "Saltwater defaults with exactly three main store tabs",
+      "pass": true
+    },
+    {
+      "name": "Selected aquarium is visible in fixed store header",
+      "pass": true
+    },
+    {
+      "name": "Saltwater fish products are filtered by structured habitat",
+      "pass": true
+    },
+    {
+      "name": "freshwater: tabs preserve destination and render required subcategories",
+      "pass": true
+    },
+    {
+      "name": "freshwater/fish: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "freshwater/bottom: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "freshwater/flora: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "freshwater/rocks: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "freshwater/sand: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "freshwater/equipment: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "freshwater/supplies: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "black: tabs preserve destination and render required subcategories",
+      "pass": true
+    },
+    {
+      "name": "black/fish: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "black/bottom: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "black/flora: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "black/rocks: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "black/eggs: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "black/equipment: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "black/restricted: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "saltwater: tabs preserve destination and render required subcategories",
+      "pass": true
+    },
+    {
+      "name": "saltwater/fish: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "saltwater/bottom: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "saltwater/flora: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "saltwater/rocks: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "saltwater/sand: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "saltwater/equipment: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "saltwater/supplies: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "saltwater/medicines: destination never changes",
+      "pass": true
+    },
+    {
+      "name": "Empty freshwater category has an honest empty state",
+      "pass": true
+    },
+    {
+      "name": "Black Market progression lock is shown without purchasable cards",
+      "pass": true
+    },
+    {
+      "name": "Incompatible aquarium warns and disables livestock purchase",
+      "pass": true
+    },
+    {
+      "name": "Eligible alternative offered; unprepared alternative disabled",
+      "pass": true
+    },
+    {
+      "name": "Submitting an incompatible destination cannot charge or place livestock",
+      "pass": true
+    },
+    {
+      "name": "Explicit eligible destination choice updates selected aquarium and header",
+      "pass": true
+    },
+    {
+      "name": "Repeated confirmation charges once and places only in chosen reef",
+      "pass": true
+    },
+    {
+      "name": "Completed purchase preserves aquarium selection and shopping session",
+      "pass": true
+    },
+    {
+      "name": "Purchase revalidates changed oxygen at submission",
+      "pass": true
+    },
+    {
+      "name": "X closes modal, retains destination and restores Store focus",
+      "pass": true
+    },
+    {
+      "name": "Closing and reopening retains destination",
+      "pass": true
+    },
+    {
+      "name": "Escape closes store without changing selection",
+      "pass": true
+    },
+    {
+      "name": "Escape closes higher-priority details before store",
+      "pass": true
+    },
+    {
+      "name": "Shared equipment purchase installs in explicit chosen aquarium",
+      "pass": true
+    },
+    {
+      "name": "Consumables go to inventory and preserve aquarium selection",
+      "pass": true
+    },
+    {
+      "name": "Marine rock purchase goes to chosen reef only",
+      "pass": true
+    },
+    {
+      "name": "Sand type and chosen depth are installed and saved",
+      "pass": true
+    },
+    {
+      "name": "Coral purchase hands off to actual placement without spending first",
+      "pass": true
+    },
+    {
+      "name": "Unsupported open-water coral placement rejected without charging",
+      "pass": true
+    },
+    {
+      "name": "Suitable stable sandbed placement succeeds with persistent attachment",
+      "pass": true
+    },
+    {
+      "name": "Coral remains a living organism with Overview and Care inspection tabs",
+      "pass": true
+    },
+    {
+      "name": "Coral Care tab exposes living light and water requirements",
+      "pass": true
+    },
+    {
+      "name": "Existing assigned Ocellaris resident remains inspectable",
+      "pass": true
+    },
+    {
+      "name": "Aquarium light visibly brightens the complete tank view",
+      "pass": true
+    },
+    {
+      "name": "aquariums: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "collection: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "equipment: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "food: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "flora: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "breeding: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "quests: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "marketplace: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "achievements: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "vip: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "settings: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "water: moved management modal renders and preserves selected aquarium",
+      "pass": true
+    },
+    {
+      "pass": true,
+      "name": "Core rejects open-water placement atomically"
+    },
+    {
+      "pass": true,
+      "name": "A real existing rock surface is detected"
+    },
+    {
+      "pass": true,
+      "name": "Supporting rock removal blocked while coral attached"
+    },
+    {
+      "pass": true,
+      "name": "Moving rock carries attached coral local position"
+    },
+    {
+      "pass": true,
+      "name": "Existing colony cannot be moved into open water"
+    },
+    {
+      "pass": true,
+      "name": "Supported back-glass frag rack accepts a colony"
+    },
+    {
+      "pass": true,
+      "name": "Occupied rack cannot be removed"
+    },
+    {
+      "pass": true,
+      "name": "Removing sand cannot strand sandbed coral"
+    },
+    {
+      "pass": true,
+      "name": "Overlapping coral mounting footprints are rejected"
+    },
+    {
+      "pass": true,
+      "name": "Mounted colonies and selected destination round-trip without changes"
+    },
+    {
+      "pass": true,
+      "name": "Unsupported legacy coral is preserved with relocation flag"
+    },
+    {
+      "pass": true,
+      "name": "Purchased clownfish egg cannot exceed the established pair territory"
+    },
+    {
+      "pass": true,
+      "name": "Reserved clownfish eggs prevent unsafe mixed-species future stocking"
+    },
+    {
+      "pass": true,
+      "name": "A purchased single egg cannot bypass freshwater social-school purchase safeguards"
+    },
+    {
+      "name": "Store fits 1440px and X stays visible",
+      "pass": true
+    },
+    {
+      "name": "Store fits 1024px and X stays visible",
+      "pass": true
+    },
+    {
+      "name": "Store fits 760px and X stays visible",
+      "pass": true
+    },
+    {
+      "name": "Store fits 390px and X stays visible",
+      "pass": true
+    },
+    {
+      "name": "Product scroll is inside modal while page remains fixed",
+      "pass": true
+    },
+    {
+      "name": "Reload restores the saved aquarium destination",
+      "pass": true
+    },
+    {
+      "name": "Reopened store displays saved destination",
+      "pass": true
+    },
+    {
+      "name": "Freshwater definition file and all 144 protected art/source files are byte-identical",
+      "pass": true
+    },
+    {
+      "name": "Freshwater biology bytes preserved after removing marine hooks and authorized shared calendar / brood identity hooks",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript exceptions",
+      "pass": true
+    },
+    {
+      "name": "No HTTP/HTTPS requests during offline shopping",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "networkRequests": []
+}

@@ -1,0 +1,214 @@
+id,stage,hungerPerDay,maxStarvationDamagePerDay,foods
+clown,adult,24,12,flakes; pellets; frozen
+clown,juvenile,40.8,20.4,fry
+gramma,adult,24,12,flakes; pellets; frozen
+gramma,juvenile,40.8,20.4,fry
+firefish,adult,21.839999999999996,10.919999999999998,flakes; pellets; frozen
+firefish,juvenile,37.128,18.564,fry
+watchman,adult,24,12,frozen; sinking
+watchman,juvenile,40.8,20.4,fry
+banggai,adult,20.759999999999998,10.379999999999999,flakes; pellets; frozen
+banggai,juvenile,35.292,17.646,fry
+chromis,adult,26.879999999999995,13.439999999999998,flakes; pellets; frozen
+chromis,juvenile,45.69599999999999,22.847999999999995,fry
+yellowtang,adult,27.599999999999998,13.799999999999999,algae; pellets
+yellowtang,juvenile,46.919999999999995,23.459999999999997,fry
+sixline,adult,28.32,14.16,flakes; pellets; frozen
+sixline,juvenile,48.14399999999999,24.071999999999996,fry
+blenny,adult,24,12,algae; pellets
+blenny,juvenile,40.8,20.4,fry
+marinebetta,adult,24,12,frozen; predator
+marinebetta,juvenile,40.8,20.4,fry
+voidfin,adult,24,12,flakes; pellets; frozen
+voidfin,juvenile,40.8,20.4,fry
+amphiprion-percula,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-percula,juvenile,38.352,19.176,fry
+amphiprion-biaculeatus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-biaculeatus,juvenile,38.352,19.176,fry
+amphiprion-clarkii,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-clarkii,juvenile,38.352,19.176,fry
+amphiprion-frenatus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-frenatus,juvenile,38.352,19.176,fry
+amphiprion-melanopus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-melanopus,juvenile,38.352,19.176,fry
+amphiprion-ephippium,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-ephippium,juvenile,38.352,19.176,fry
+amphiprion-perideraion,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-perideraion,juvenile,38.352,19.176,fry
+amphiprion-sandaracinos,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-sandaracinos,juvenile,38.352,19.176,fry
+amphiprion-akallopisos,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-akallopisos,juvenile,38.352,19.176,fry
+amphiprion-polymnus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-polymnus,juvenile,38.352,19.176,fry
+amphiprion-sebae,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-sebae,juvenile,38.352,19.176,fry
+amphiprion-akindynos,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-akindynos,juvenile,38.352,19.176,fry
+amphiprion-allardi,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-allardi,juvenile,38.352,19.176,fry
+amphiprion-bicinctus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-bicinctus,juvenile,38.352,19.176,fry
+amphiprion-chrysopterus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-chrysopterus,juvenile,38.352,19.176,fry
+amphiprion-nigripes,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-nigripes,juvenile,38.352,19.176,fry
+amphiprion-omanensis,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-omanensis,juvenile,38.352,19.176,fry
+amphiprion-chagosensis,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-chagosensis,juvenile,38.352,19.176,fry
+amphiprion-chrysogaster,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-chrysogaster,juvenile,38.352,19.176,fry
+amphiprion-fuscocaudatus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-fuscocaudatus,juvenile,38.352,19.176,fry
+amphiprion-latifasciatus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-latifasciatus,juvenile,38.352,19.176,fry
+amphiprion-leucokranos,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-leucokranos,juvenile,38.352,19.176,fry
+amphiprion-mccullochi,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-mccullochi,juvenile,38.352,19.176,fry
+amphiprion-latezonatus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-latezonatus,juvenile,38.352,19.176,fry
+amphiprion-rubrocinctus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-rubrocinctus,juvenile,38.352,19.176,fry
+amphiprion-tricinctus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-tricinctus,juvenile,38.352,19.176,fry
+amphiprion-barberi,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-barberi,juvenile,38.352,19.176,fry
+amphiprion-pacificus,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-pacificus,juvenile,38.352,19.176,fry
+amphiprion-thiellei,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-thiellei,juvenile,38.352,19.176,fry
+amphiprion-maohiensis,adult,22.56,11.28,flakes; pellets; frozen
+amphiprion-maohiensis,juvenile,38.352,19.176,fry
+chalk-bass,adult,22.56,11.28,frozen
+chalk-bass,juvenile,38.352,19.176,fry
+lantern-bass,adult,22.56,11.28,frozen
+lantern-bass,juvenile,38.352,19.176,fry
+yellow-assessor,adult,22.56,11.28,frozen
+yellow-assessor,juvenile,38.352,19.176,fry
+blue-assessor,adult,22.56,11.28,frozen
+blue-assessor,juvenile,38.352,19.176,fry
+candy-basslet,adult,22.56,11.28,frozen
+candy-basslet,juvenile,38.352,19.176,fry
+pink-streaked-wrasse,adult,22.56,11.28,frozen
+pink-streaked-wrasse,juvenile,38.352,19.176,fry
+white-banded-possum-wrasse,adult,22.56,11.28,frozen
+white-banded-possum-wrasse,juvenile,38.352,19.176,fry
+tanakas-pygmy-wrasse,adult,22.56,11.28,frozen
+tanakas-pygmy-wrasse,juvenile,38.352,19.176,fry
+carpenters-flasher-wrasse,adult,28.32,14.16,frozen
+carpenters-flasher-wrasse,juvenile,48.14399999999999,24.071999999999996,fry
+mccoskers-flasher-wrasse,adult,28.32,14.16,frozen
+mccoskers-flasher-wrasse,juvenile,48.14399999999999,24.071999999999996,fry
+exquisite-fairy-wrasse,adult,28.32,14.16,frozen
+exquisite-fairy-wrasse,juvenile,48.14399999999999,24.071999999999996,fry
+lubbocks-fairy-wrasse,adult,28.32,14.16,frozen
+lubbocks-fairy-wrasse,juvenile,48.14399999999999,24.071999999999996,fry
+ruby-longfin-fairy-wrasse,adult,28.32,14.16,frozen
+ruby-longfin-fairy-wrasse,juvenile,48.14399999999999,24.071999999999996,fry
+greenbanded-goby,adult,23.874,11.937,frozen
+greenbanded-goby,juvenile,40.5858,20.2929,fry
+sharknose-goby,adult,23.874,11.937,frozen
+sharknose-goby,juvenile,40.5858,20.2929,fry
+orange-spotted-prawn-goby,adult,20.759999999999998,10.379999999999999,sinking
+orange-spotted-prawn-goby,juvenile,35.292,17.646,fry
+randalls-prawn-goby,adult,20.759999999999998,10.379999999999999,sinking
+randalls-prawn-goby,juvenile,35.292,17.646,fry
+hi-fin-red-banded-goby,adult,20.759999999999998,10.379999999999999,sinking
+hi-fin-red-banded-goby,juvenile,35.292,17.646,fry
+blue-striped-trimma-goby,adult,23.874,11.937,frozen
+blue-striped-trimma-goby,juvenile,40.5858,20.2929,fry
+redspotted-blenny,adult,20.759999999999998,10.379999999999999,algae
+redspotted-blenny,juvenile,35.292,17.646,fry
+starry-blenny,adult,20.759999999999998,10.379999999999999,algae
+starry-blenny,juvenile,35.292,17.646,fry
+two-spot-blenny,adult,23.874,11.937,algae
+two-spot-blenny,juvenile,40.5858,20.2929,fry
+yellow-candy-hogfish,adult,22.56,11.28,frozen
+yellow-candy-hogfish,juvenile,38.352,19.176,fry
+blotched-anthias,adult,43.2,19.200000000000003,frozen
+blotched-anthias,juvenile,73.44,32.64,fry
+purple-queen-anthias,adult,55.199999999999996,19.200000000000003,live-plankton
+purple-queen-anthias,juvenile,93.83999999999999,32.64,fry
+copperband-butterflyfish,adult,22.56,11.28,frozen
+copperband-butterflyfish,juvenile,38.352,19.176,fry
+orange-spotted-filefish,adult,22.56,11.28,coral-polyp
+orange-spotted-filefish,juvenile,38.352,19.176,fry
+spotted-boxfish,adult,18.048000000000002,9.024000000000001,frozen
+spotted-boxfish,juvenile,30.6816,15.3408,fry
+centropyge-loriculus,adult,23.28,11.64,algae; pellets; frozen
+centropyge-loriculus,juvenile,39.576,19.788,fry
+centropyge-bispinosa,adult,23.28,11.64,algae; pellets; frozen
+centropyge-bispinosa,juvenile,39.576,19.788,fry
+centropyge-argi,adult,23.28,11.64,algae; pellets; frozen
+centropyge-argi,juvenile,39.576,19.788,fry
+centropyge-acanthops,adult,23.28,11.64,algae; pellets; frozen
+centropyge-acanthops,juvenile,39.576,19.788,fry
+centropyge-potteri,adult,23.28,11.64,algae; pellets; frozen
+centropyge-potteri,juvenile,39.576,19.788,fry
+centropyge-joculator,adult,23.28,11.64,algae; pellets; frozen
+centropyge-joculator,juvenile,39.576,19.788,fry
+pygoplites-diacanthus,adult,18.624000000000002,9.312000000000001,angel-ration; frozen
+pygoplites-diacanthus,juvenile,31.6608,15.8304,fry
+pseudochromis-fridmani,adult,25.44,12.72,frozen; pellets
+pseudochromis-fridmani,juvenile,43.248000000000005,21.624000000000002,fry
+forcipiger-flavissimus,adult,18.624000000000002,9.312000000000001,frozen
+forcipiger-flavissimus,juvenile,31.6608,15.8304,fry
+hemitaurichthys-polylepis,adult,23.28,11.64,live-plankton; frozen
+hemitaurichthys-polylepis,juvenile,39.576,19.788,fry
+ctenochaetus-strigosus,adult,23.28,11.64,algae; pellets
+ctenochaetus-strigosus,juvenile,39.576,19.788,fry
+ctenochaetus-tominiensis,adult,23.28,11.64,algae; pellets
+ctenochaetus-tominiensis,juvenile,39.576,19.788,fry
+zebrasoma-xanthurum,adult,18.624000000000002,9.312000000000001,algae; pellets
+zebrasoma-xanthurum,juvenile,31.6608,15.8304,fry
+zebrasoma-gemmatum,adult,18.624000000000002,9.312000000000001,algae; pellets
+zebrasoma-gemmatum,juvenile,31.6608,15.8304,fry
+acanthurus-achilles,adult,18.624000000000002,9.312000000000001,algae; pellets
+acanthurus-achilles,juvenile,31.6608,15.8304,fry
+siganus-vulpinus,adult,18.624000000000002,9.312000000000001,algae; pellets
+siganus-vulpinus,juvenile,31.6608,15.8304,fry
+siganus-unimaculatus,adult,18.624000000000002,9.312000000000001,algae; pellets
+siganus-unimaculatus,juvenile,31.6608,15.8304,fry
+ecsenius-midas,adult,23.28,11.64,live-plankton; frozen; pellets
+ecsenius-midas,juvenile,39.576,19.788,fry
+salarias-fasciatus,adult,23.28,11.64,algae; sinking
+salarias-fasciatus,juvenile,39.576,19.788,fry
+ecsenius-bicolor,adult,23.28,11.64,algae; sinking
+ecsenius-bicolor,juvenile,39.576,19.788,fry
+paracheilinus-angulatus,adult,25.44,12.72,frozen; live-plankton
+paracheilinus-angulatus,juvenile,43.248000000000005,21.624000000000002,fry
+halichoeres-melanurus,adult,25.44,12.72,frozen; sinking
+halichoeres-melanurus,juvenile,43.248000000000005,21.624000000000002,fry
+halichoeres-chrysus,adult,25.44,12.72,frozen; sinking
+halichoeres-chrysus,juvenile,43.248000000000005,21.624000000000002,fry
+macropharyngodon-meleagris,adult,25.44,12.72,live-plankton; frozen
+macropharyngodon-meleagris,juvenile,43.248000000000005,21.624000000000002,fry
+nemanthias-bartlettorum,adult,55.199999999999996,19.200000000000003,live-plankton; frozen
+nemanthias-bartlettorum,juvenile,93.83999999999999,32.64,fry
+zoa,coral,0,0,
+mushroom,coral,0,0,
+sps,coral,0,0,
+lps,coral,0,0,
+soft,coral,0,0,
+blastomussa-wellsi,coral,0,0,
+micromussa-lordhowensis,coral,0,0,
+cyphastrea-serailia,coral,0,0,
+leptastrea-purpurea,coral,0,0,
+pavona-cactus,coral,0,0,
+duncanopsammia-axifuga,coral,0,0,
+caulastraea-furcata,coral,0,0,
+turbinaria-reniformis,coral,0,0,
+tubastraea-micranthus,coral,19.200000000000003,9.600000000000001,reef-meat
+rhizotrochus-typus,coral,19.200000000000003,9.600000000000001,reef-meat
+sexy-anemone-shrimp,adult,19.200000000000003,9.600000000000001,frozen
+porcelain-anemone-crab,adult,12,8.399999999999999,phyto
+bumblebee-snail,adult,12,8.399999999999999,sinking
+tiger-sand-conch,adult,12,8.399999999999999,algae
+halloween-hermit-crab,adult,12,8.399999999999999,algae
+lysmata-amboinensis,adult,19.200000000000003,9.600000000000001,frozen; sinking
+lysmata-debelius,adult,19.200000000000003,9.600000000000001,frozen; sinking
+alpheus-randalli,adult,19.200000000000003,9.600000000000001,frozen; sinking
+hymenocera-picta,adult,19.200000000000003,9.600000000000001,starfish-tissue
+periclimenes-colemani,adult,19.200000000000003,9.600000000000001,frozen

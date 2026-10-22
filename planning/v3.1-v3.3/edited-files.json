@@ -1,0 +1,55 @@
+{
+  "modifiedFromBefore": [
+    "index.html",
+    "js/app-shell.js",
+    "js/core.js",
+    "js/daily-store.js",
+    "js/diving-ui.js",
+    "js/diving.js",
+    "js/gameplay.js",
+    "js/health-ui.js",
+    "js/invertebrates.js",
+    "js/livestock-market.js",
+    "js/main.js",
+    "js/offline.js",
+    "js/save.js",
+    "js/simulation.js",
+    "js/store.js",
+    "js/ui.js",
+    "js/update29.js",
+    "js/valuation.js",
+    "ART_DIRECTION.md",
+    "BALANCE_REPORT.md",
+    "CURRENT_LIVESTOCK_CATALOG.md",
+    "DEVELOPMENT_STATUS.md",
+    "GAME_DESIGN.md",
+    "GITHUB_PAGES_BUILD_REPORT.md",
+    "MASTER_DEVELOPMENT_PROMPT.md",
+    "PDF_WORKFLOW.md",
+    "PROJECT_CONTINUITY_SOURCE.md",
+    "README.md",
+    "TEST_REPORT.md",
+    "UI_SPECIFICATION.md"
+  ],
+  "newCoreFiles": [
+    "js/finance.js",
+    "js/update31.js",
+    "js/update31-ui.js",
+    "js/research.js",
+    "js/research-data.js",
+    "css/update31.css",
+    "FINANCIAL_TRANSACTIONS.md",
+    "RESEARCH_SOURCES.md",
+    "V33_UPDATE_REPORT.md"
+  ],
+  "otherChanges": "New update33 checks/runner/evidence; legacy test fixtures use explicit financial baselines and revised dealer rules; build.py and tests/package.py refresh release content. Full specs archived alongside this file.",
+  "finalValidation": {
+    "checksPerBrowser": {
+      "chrome": 8800,
+      "edge": 8800
+    },
+    "failed": 0,
+    "buildSourceFiles": 1511,
+    "buildSourceBytes": 455932366
+  }
+}

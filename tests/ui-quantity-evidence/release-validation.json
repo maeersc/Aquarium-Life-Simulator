@@ -1,0 +1,44 @@
+{
+  "passed": 7167,
+  "failed": 0,
+  "originalAssets": 2368,
+  "browserAssertions": 6463,
+  "suites": [
+    {
+      "path": "tests/ui-quantity-evidence/chrome-results.json",
+      "passed": 164,
+      "failed": 0
+    },
+    {
+      "path": "tests/ui-quantity-evidence/edge-results.json",
+      "passed": 164,
+      "failed": 0
+    },
+    {
+      "path": "tests/tutorial-audit-evidence/chrome-results.json",
+      "passed": 72,
+      "failed": 0
+    },
+    {
+      "path": "tests/economy-update-evidence/chrome-results.json",
+      "passed": 85,
+      "failed": 0
+    },
+    {
+      "path": "tests/equipment-reliability-evidence/chrome-results.json",
+      "passed": 787,
+      "failed": 0
+    },
+    {
+      "path": "tests/pages-evidence/edge-results.json",
+      "passed": 5162,
+      "failed": 0
+    },
+    {
+      "path": "tests/performance-evidence/chrome-checks.json",
+      "passed": 29,
+      "failed": 0
+    }
+  ],
+  "failures": []
+}

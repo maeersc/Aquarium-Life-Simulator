@@ -1,0 +1,10 @@
+{
+  "id": "amphiprion-percula",
+  "variety": "premium-picasso-percula",
+  "stage": "adult",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\variety-references\\premium-picasso-percula\\adult.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\variety-references\\premium-picasso-percula\\adult.png",
+  "mode": "built-in image_gen",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-bff73263-b6d8-419a-8cf9-a21e8b412b1c.png",
+  "prompt": "Aquarium Life production sprite sheet for premium-picasso-percula adult designer clownfish. The provided PNG is the exact approved adult designer-pattern reference. ONE SQUARE transparent PNG, FOUR columns FOUR rows,16 separately drawn incremental calm hover-swimming poses of this same individual. ALL16 FACE RIGHT, including rows3 and4: one single-direction live swim cycle, not a multi-direction or life/death display grid. Preserve every irregular white patch and red/black/orange boundary from the exact reference. Keep Platinum solid white, Lightning's branching white pattern precise, Onyx dark areas precise, Picasso individual patch topology precise. Fixed original stage body proportions, fin lengths, head and one visible iris. No generic Ocellaris substitution or different patterns between cells. Full fish within75% of cell longest dimension, ample clear transparent gutters. Subtle pectoral strokes and tiny tail sweep/recovery through1–8 then opposite sweep/recovery9–16, anchored fin roots, stable head/body, smooth loop intended8fps. No extreme fin spread/flapping or changing length. Detailed crisp16-bit pixel art in the reference's shaded style and palette, hard edges.16 actual distinct drawings, not repeated stills, no body bob, extra eyes, text, labels, grid lines, painted checkerboard/background, glow/blur/shadows. Actual transparent alpha. Dedicated adult proportions, not a resized adult substitute."
+}

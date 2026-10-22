@@ -1,0 +1,335 @@
+{
+  "source": "planning\\sprite-production\\raw\\marinebetta\\adult-source-v1.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\marinebetta\\adult.png",
+  "referenceBounds": [
+    13,
+    8,
+    178,
+    152
+  ],
+  "sourceBoxes": [
+    [
+      37,
+      8,
+      338,
+      240
+    ],
+    [
+      422,
+      8,
+      725,
+      241
+    ],
+    [
+      803,
+      8,
+      1110,
+      241
+    ],
+    [
+      1199,
+      8,
+      1498,
+      241
+    ],
+    [
+      37,
+      261,
+      339,
+      499
+    ],
+    [
+      421,
+      261,
+      725,
+      499
+    ],
+    [
+      804,
+      262,
+      1110,
+      497
+    ],
+    [
+      1195,
+      261,
+      1497,
+      499
+    ],
+    [
+      39,
+      515,
+      339,
+      751
+    ],
+    [
+      419,
+      516,
+      725,
+      751
+    ],
+    [
+      805,
+      516,
+      1108,
+      751
+    ],
+    [
+      1194,
+      516,
+      1497,
+      751
+    ],
+    [
+      38,
+      772,
+      339,
+      1006
+    ],
+    [
+      426,
+      772,
+      725,
+      1007
+    ],
+    [
+      809,
+      772,
+      1110,
+      1008
+    ],
+    [
+      1199,
+      772,
+      1497,
+      1007
+    ]
+  ],
+  "sourceEyeAnchors": [
+    [
+      277,
+      112,
+      24
+    ],
+    [
+      279,
+      112,
+      24
+    ],
+    [
+      283,
+      113,
+      24
+    ],
+    [
+      276,
+      110,
+      24
+    ],
+    [
+      278,
+      113,
+      24
+    ],
+    [
+      280,
+      113,
+      24
+    ],
+    [
+      282,
+      112,
+      24
+    ],
+    [
+      278,
+      114,
+      24
+    ],
+    [
+      276,
+      114,
+      24
+    ],
+    [
+      282,
+      113,
+      24
+    ],
+    [
+      279,
+      114,
+      24
+    ],
+    [
+      279,
+      114,
+      24
+    ],
+    [
+      277,
+      112,
+      24
+    ],
+    [
+      275,
+      113,
+      24
+    ],
+    [
+      277,
+      113,
+      24
+    ],
+    [
+      274,
+      113,
+      24
+    ]
+  ],
+  "scale": 0.5374592833876222,
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "columns": 4,
+  "frameCount": 16,
+  "anchor": [
+    96.0,
+    80.0
+  ],
+  "eye": {
+    "x": 165,
+    "y": 73,
+    "w": 12,
+    "h": 12
+  },
+  "frameHashes": [
+    "7dc2c17da8f43b657431f515c9a11ca245965a339e7f7155d56473775c999aa5",
+    "aaa55e0300d32c64da1d99e3a0a700a8f86beee97d231b616aa28275628f3065",
+    "ab8e1447a96fabffc9a024fcf446e839ec69fe48cfa37cef97fd812bba35dfce",
+    "34da21032f28da655f005a3c520b7be52e6ac16c018ec5988a25d7a925c5885e",
+    "d2539a41fab981fc2e34bc7a418bd29d0b5ade92c57a3bba00594506cf5c6245",
+    "992a7e1f2f8b8345b3b643c8262d9a148b33c687b78eb63e51cd155e1c4fc7a2",
+    "17265dda67575be81686f9c5558dc8cfe5db9008aa30f15e66ede24a5246258a",
+    "6a88c885ab7e323973e86b784e7d2141fb910b84300ab68bca0c037cee84f28e",
+    "373942ad7541d7b9dff2ede28eb6efd98fef0319e2005ff985fd8165077503a3",
+    "7c826204d7336c513327f07cd74128c4aa0aa11a3d739e7f790f4a6ab461a738",
+    "b12ca5e78b81ebe1b88eca44dcd3827a684ebdf643b02e943f42dde91efa32cb",
+    "21ce1c7675db85dccc37cd222c15b6d4a1ba953f5ce73788d0af4cbd53077b36",
+    "74925b6990f0644415da6a90da5f40d07232aa165079e7d05fb5d6ef66ef29d8",
+    "175b0d88f79c2d463978833c98895fe2d6a1c655ad203613718b6ad57f410f93",
+    "434b1937b5698d51537024b99570117c12ea6602cf632dca8493cc458fc77034",
+    "b8abd8952267c9e9d9c4b2eb75d4c58b3b74c2dbd944aa310d440eca954d759c"
+  ],
+  "bounds": [
+    [
+      16,
+      13,
+      178,
+      138
+    ],
+    [
+      15,
+      13,
+      178,
+      138
+    ],
+    [
+      13,
+      12,
+      178,
+      137
+    ],
+    [
+      17,
+      14,
+      178,
+      139
+    ],
+    [
+      16,
+      12,
+      178,
+      140
+    ],
+    [
+      15,
+      12,
+      178,
+      140
+    ],
+    [
+      13,
+      13,
+      177,
+      139
+    ],
+    [
+      16,
+      12,
+      178,
+      140
+    ],
+    [
+      17,
+      13,
+      178,
+      139
+    ],
+    [
+      13,
+      12,
+      177,
+      138
+    ],
+    [
+      15,
+      12,
+      178,
+      138
+    ],
+    [
+      15,
+      12,
+      178,
+      138
+    ],
+    [
+      16,
+      13,
+      178,
+      139
+    ],
+    [
+      17,
+      12,
+      178,
+      138
+    ],
+    [
+      16,
+      12,
+      178,
+      139
+    ],
+    [
+      18,
+      12,
+      178,
+      138
+    ]
+  ],
+  "sha256": "54b32700fbfdda29e3069a105432b2ac04a7515d98e2410c8f30d1c65a03b2f9",
+  "technicalChecks": {
+    "allCells": true,
+    "binaryAlpha": true,
+    "unique": true,
+    "transparentMargins": true,
+    "registeredEyes": true
+  },
+  "visualReview": {
+    "passed": true,
+    "notes": "Inspected all16 native cells after tracking the actual gold head iris across poses. Preserved dark-blue broad fins, white spot identity and separate dorsal false-eye marking, without mistaking it for the true eye. Head registration stable, extended-fin motion restrained, no detached/clipped fins; player approval pending.",
+    "playerApproved": false
+  },
+  "playerApproved": false
+}

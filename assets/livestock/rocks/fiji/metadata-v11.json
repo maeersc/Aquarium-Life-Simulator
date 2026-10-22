@@ -1,0 +1,52 @@
+{
+  "id": "fiji",
+  "name": "Fiji reef limestone",
+  "family": "rocks",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "frames": 4,
+  "frameDurationMs": 1250,
+  "atlas": "assets/livestock/rocks/fiji/atlas-v11.png",
+  "bounds": [
+    [
+      32,
+      96,
+      159,
+      184
+    ],
+    [
+      22,
+      38,
+      170,
+      184
+    ],
+    [
+      10,
+      37,
+      181,
+      184
+    ],
+    [
+      9,
+      50,
+      183,
+      184
+    ]
+  ],
+  "anchor": [
+    96,
+    184
+  ],
+  "variants": [
+    "small",
+    "medium",
+    "large",
+    "arch"
+  ],
+  "facingBehavior": "stationary",
+  "layer": "hardscape",
+  "material": "reef-limestone",
+  "chemistryEffects": "none assigned by this art update"
+}

@@ -1,0 +1,335 @@
+{
+  "source": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\raw\\clown\\juvenile-source-v1.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\clown\\juvenile.png",
+  "referenceBounds": [
+    8,
+    18,
+    184,
+    141
+  ],
+  "sourceBoxes": [
+    [
+      26,
+      79,
+      309,
+      274
+    ],
+    [
+      338,
+      76,
+      624,
+      279
+    ],
+    [
+      653,
+      79,
+      936,
+      274
+    ],
+    [
+      988,
+      75,
+      1227,
+      272
+    ],
+    [
+      22,
+      363,
+      309,
+      565
+    ],
+    [
+      338,
+      363,
+      623,
+      558
+    ],
+    [
+      647,
+      363,
+      936,
+      558
+    ],
+    [
+      965,
+      363,
+      1227,
+      565
+    ],
+    [
+      29,
+      674,
+      309,
+      876
+    ],
+    [
+      338,
+      672,
+      624,
+      873
+    ],
+    [
+      660,
+      673,
+      936,
+      869
+    ],
+    [
+      994,
+      674,
+      1227,
+      874
+    ],
+    [
+      40,
+      965,
+      309,
+      1168
+    ],
+    [
+      339,
+      968,
+      624,
+      1168
+    ],
+    [
+      653,
+      971,
+      936,
+      1165
+    ],
+    [
+      952,
+      968,
+      1227,
+      1166
+    ]
+  ],
+  "sourceEyeAnchors": [
+    [
+      244.0,
+      95.5,
+      21
+    ],
+    [
+      246.5,
+      97.5,
+      20
+    ],
+    [
+      243.5,
+      95.0,
+      20
+    ],
+    [
+      200.5,
+      100.0,
+      20
+    ],
+    [
+      248.5,
+      98.0,
+      20
+    ],
+    [
+      246.0,
+      98.0,
+      21
+    ],
+    [
+      249.0,
+      97.0,
+      21
+    ],
+    [
+      223.0,
+      98.0,
+      21
+    ],
+    [
+      241.0,
+      99.0,
+      21
+    ],
+    [
+      245.5,
+      100.0,
+      20
+    ],
+    [
+      236.5,
+      99.0,
+      20
+    ],
+    [
+      194.0,
+      99.0,
+      21
+    ],
+    [
+      229.0,
+      99.0,
+      21
+    ],
+    [
+      245.0,
+      96.0,
+      21
+    ],
+    [
+      243.5,
+      93.5,
+      20
+    ],
+    [
+      236.0,
+      97.0,
+      21
+    ]
+  ],
+  "scale": 0.6059113300492611,
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "columns": 4,
+  "frameCount": 16,
+  "anchor": [
+    96.0,
+    80.0
+  ],
+  "eye": {
+    "x": 161,
+    "y": 78,
+    "w": 12,
+    "h": 12
+  },
+  "frameHashes": [
+    "b89978c15fc052dadc6b3e04f19c2dd6e823ed16a870ba90cb92df099d853c31",
+    "8c58c8752d12dc87dcccd6c8fe0442d978d08ac6df5c125e4b4754939219b039",
+    "e11d31359681341fe368c1594322d4e3106cad9b04a0b0cd3a1d5b01d6cd2fa8",
+    "a379853dca794296f52a357b24c25fcfd7bbd291d38a71c0b57ee02e791889e4",
+    "17ec67ff159e0e534dc41dedba1fd3722530667fcf10197659b65dae124637b1",
+    "2792abe9588b14124ec663ab6dd51992bc3bf3e44e705e8a344f40df56ebe563",
+    "22730aff7401be171dce982e5a51361a2f8a9cc0e5b32fb281d90e351612d7c6",
+    "901490a59a371187751922a4d2822830ba249e44667792eb239f6fc929bbda75",
+    "6db7e864c4c9b78757daebe54af0b83d0a4f32fc0a1571dcf8ba4b3f47b85696",
+    "52856416e3d603b370035ac387b624ccb66d41aa6cafde0317e9a23018d72719",
+    "20ecb9027f17a4f575daf4625c4602c70227d8f5af55ac80057d8794730cd9c4",
+    "5b1b04035f74efdd855379540aded45d506cf50f809e0d37282f5278751a7c4b",
+    "fb706349ccb0f94d50cf006fc9f7aab6f7c6adc4bad1eac0089864a2abdaf354",
+    "2703e4760c5f694bf1d49de0e62e4a59004bc01d3419255a10bef17a59d5fa03",
+    "0613a018cdea52d2d0a341967a860dea9d5123c87a21655a83ef0edfd7f67efd",
+    "208074ae5556312d6c137d0ac05bbccc69736a63580728a9931c5a44843c85d9"
+  ],
+  "bounds": [
+    [
+      13,
+      20,
+      184,
+      138
+    ],
+    [
+      12,
+      19,
+      185,
+      142
+    ],
+    [
+      13,
+      20,
+      184,
+      138
+    ],
+    [
+      40,
+      17,
+      185,
+      136
+    ],
+    [
+      10,
+      19,
+      184,
+      141
+    ],
+    [
+      12,
+      19,
+      185,
+      137
+    ],
+    [
+      10,
+      19,
+      185,
+      137
+    ],
+    [
+      26,
+      19,
+      185,
+      141
+    ],
+    [
+      15,
+      18,
+      185,
+      140
+    ],
+    [
+      12,
+      17,
+      185,
+      139
+    ],
+    [
+      18,
+      18,
+      185,
+      137
+    ],
+    [
+      43,
+      18,
+      184,
+      139
+    ],
+    [
+      22,
+      18,
+      185,
+      141
+    ],
+    [
+      13,
+      20,
+      186,
+      141
+    ],
+    [
+      13,
+      21,
+      184,
+      139
+    ],
+    [
+      18,
+      19,
+      185,
+      138
+    ]
+  ],
+  "sha256": "ecb735df8dd1922d7efe526f57aba9811ca734a0d995b0de0e12616846d8aa9e",
+  "technicalChecks": {
+    "allCells": true,
+    "binaryAlpha": true,
+    "unique": true,
+    "transparentMargins": true,
+    "registeredEyes": true
+  },
+  "visualReview": {
+    "passed": true,
+    "notes": "Inspected all16 native stage-specific poses against their own source, preserving juvenile proportions, existing color/marking layout, one stable visible eye and attached incremental pectoral/caudal changes. Body/head registration and transparent margins remain consistent; this is new authored artwork with player approval pending.",
+    "playerApproved": false
+  },
+  "playerApproved": false
+}

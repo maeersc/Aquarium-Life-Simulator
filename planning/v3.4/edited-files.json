@@ -1,0 +1,54 @@
+{
+  "modifiedFromBefore": [
+    "ART_DIRECTION.md",
+    "ART_GENERATION_RECORD.md",
+    "BALANCE_REPORT.md",
+    "CURRENT_LIVESTOCK_CATALOG.md",
+    "DEVELOPMENT_STATUS.md",
+    "FINANCIAL_TRANSACTIONS.md",
+    "FUTURE_V29_PLAN.md",
+    "GAMEPLAY_UPDATE_REPORT.md",
+    "GAME_DESIGN.md",
+    "GITHUB_PAGES_BUILD_REPORT.md",
+    "MASTER_DEVELOPMENT_PROMPT.md",
+    "PDF_WORKFLOW.md",
+    "PROJECT_CONTINUITY_SOURCE.md",
+    "README.md",
+    "TEST_REPORT.md",
+    "UI_SPECIFICATION.md",
+    "V29_UPDATE_REPORT.md",
+    "js/main.js",
+    "js/offline.js",
+    "js/ui.js",
+    "js/update29-ui.js",
+    "js/update29.js",
+    "js/update31-ui.js"
+  ],
+  "newFiles": [
+    "tests/update34_checks.js",
+    "tests/update34_qa.py",
+    "V34_UPDATE_REPORT.md",
+    "planning/v3.4/requirements.md",
+    "planning/v3.4/preservation-results.json"
+  ],
+  "testRunnerChanges": [
+    "tests/browser_qa.py",
+    "tests/update29_checks.js",
+    "tests/update29_qa.py",
+    "tests/update33_checks.js",
+    "tests/pages_qa.py",
+    "tests/package.py"
+  ],
+  "buildCommand": "python build.py",
+  "sourcePackageCommand": "python tests/package.py",
+  "validation": {
+    "passedPerBrowser": {
+      "chrome": 1231,
+      "edge": 1231
+    },
+    "failed": 0,
+    "sourceFiles": 1511,
+    "sourceBytes": 455939227,
+    "pagesZipBytes": 425579852
+  }
+}

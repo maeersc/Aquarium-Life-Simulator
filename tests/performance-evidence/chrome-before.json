@@ -1,0 +1,1431 @@
+{
+  "phase": "before",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.85",
+    "revision": "@0e66b94549a8bd85f03fbdf189b752d6e7b63c32",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  },
+  "hardware": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "logicalCPUs": 16,
+    "navigator": {
+      "cores": 16,
+      "memoryGB": 32,
+      "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+    }
+  },
+  "conditions": "Headless, --disable-gpu, disposable profile; no hardware GPU/Netflix/audio-sync measurement. Instrumentation adds overhead. Six-to-ten-second samples and 60-second navigation soak, not a multi-hour soak.",
+  "coldLoadSeconds": 1.7029999999999745,
+  "rows": [
+    {
+      "elapsedMs": 7002.600000000093,
+      "draws": 275,
+      "fps": 39.271127866791815,
+      "frameGapP50": 32.200000000186265,
+      "frameGapP95": 34.200000000186265,
+      "frameGapP99": 34.60000000009313,
+      "drawMsP50": 2,
+      "drawMsP95": 2.900000000372529,
+      "drawMsMax": 4.5,
+      "calls": {
+        "draw": {
+          "count": 275,
+          "ms": 590.0999999991618,
+          "max": 4.5
+        },
+        "vitals": {
+          "count": 7,
+          "ms": 4.899999999906868,
+          "max": 0.8999999999068677
+        },
+        "simulation": {
+          "count": 2,
+          "ms": 5.300000000279397,
+          "max": 4.7000000001862645
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 3,
+          "maxDecodedSheets": 128,
+          "frameCache": 18,
+          "maxFrames": 1024,
+          "frameHits": 6207,
+          "frameMisses": 18,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 0,
+          "poseHits": 0,
+          "poseCache": 0,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 1,
+        "tanks": 1,
+        "gameTime": 2675.030319999999,
+        "hidden": false
+      },
+      "label": "A",
+      "wallSeconds": 7.016000000000076,
+      "metrics": {
+        "TaskDuration": 0.775952,
+        "ScriptDuration": 0.618603,
+        "LayoutDuration": 0.006483999999999997,
+        "RecalcStyleDuration": 0.001876
+      },
+      "heapBytes": 323322628,
+      "nodes": 2342,
+      "listeners": 480,
+      "mainThreadCorePercent": 11.059749144811738
+    },
+    {
+      "elapsedMs": 7059.399999999907,
+      "draws": 284,
+      "fps": 40.23004787942371,
+      "frameGapP50": 17.799999999813735,
+      "frameGapP95": 34,
+      "frameGapP99": 35,
+      "drawMsP50": 2.1999999997206032,
+      "drawMsP95": 3,
+      "drawMsMax": 3.3999999999068677,
+      "calls": {
+        "draw": {
+          "count": 284,
+          "ms": 643.5000000046566,
+          "max": 3.3999999999068677
+        },
+        "vitals": {
+          "count": 7,
+          "ms": 4.699999999254942,
+          "max": 0.8000000002793968
+        },
+        "simulation": {
+          "count": 2,
+          "ms": 3.2999999998137355,
+          "max": 2.2999999998137355
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 9,
+          "maxDecodedSheets": 128,
+          "frameCache": 117,
+          "maxFrames": 1024,
+          "frameHits": 15980,
+          "frameMisses": 117,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 0,
+          "poseCache": 8,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2675.030319999999,
+        "hidden": false
+      },
+      "label": "B",
+      "wallSeconds": 7.0,
+      "metrics": {
+        "TaskDuration": 0.830492,
+        "ScriptDuration": 0.665095,
+        "LayoutDuration": 0.007873999999999999,
+        "RecalcStyleDuration": 0.0018849999999999995
+      },
+      "heapBytes": 326922184,
+      "nodes": 4135,
+      "listeners": 503,
+      "mainThreadCorePercent": 11.864171428571428
+    },
+    {
+      "elapsedMs": 7077.5,
+      "draws": 282,
+      "fps": 39.8445778876722,
+      "frameGapP50": 31.700000000186265,
+      "frameGapP95": 34.3000000002794,
+      "frameGapP99": 34.89999999990687,
+      "drawMsP50": 2.3999999999068677,
+      "drawMsP95": 3.5,
+      "drawMsMax": 4.5,
+      "calls": {
+        "draw": {
+          "count": 282,
+          "ms": 717.9000000008382,
+          "max": 4.5
+        },
+        "vitals": {
+          "count": 7,
+          "ms": 4.7999999998137355,
+          "max": 0.8999999999068677
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 1.7000000001862645,
+          "max": 1.7000000001862645
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 34265,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 1,
+        "gameTime": 2673.629399999999,
+        "hidden": false
+      },
+      "label": "C",
+      "wallSeconds": 7.0,
+      "metrics": {
+        "TaskDuration": 0.8898670000000002,
+        "ScriptDuration": 0.7305790000000001,
+        "LayoutDuration": 0.007116999999999998,
+        "RecalcStyleDuration": 0.0018709999999999994
+      },
+      "heapBytes": 327680856,
+      "nodes": 6436,
+      "listeners": 526,
+      "mainThreadCorePercent": 12.712385714285716
+    },
+    {
+      "elapsedMs": 7001.799999999814,
+      "draws": 277,
+      "fps": 39.561255677112655,
+      "frameGapP50": 32.200000000186265,
+      "frameGapP95": 34.3000000002794,
+      "frameGapP99": 34.90000000037253,
+      "drawMsP50": 2.2000000001862645,
+      "drawMsP95": 3.1999999997206032,
+      "drawMsMax": 3.6000000000931323,
+      "calls": {
+        "draw": {
+          "count": 277,
+          "ms": 641.6000000019558,
+          "max": 3.6000000000931323
+        },
+        "shell": {
+          "count": 1,
+          "ms": 0,
+          "max": 0
+        },
+        "UI": {
+          "count": 1,
+          "ms": 1.1000000000931323,
+          "max": 1.1000000000931323
+        },
+        "vitals": {
+          "count": 7,
+          "ms": 5.000000000465661,
+          "max": 0.8999999999068677
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 1.8000000002793968,
+          "max": 1.8000000002793968
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 52625,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 4,
+        "gameTime": 2675.030319999999,
+        "hidden": false
+      },
+      "label": "D",
+      "wallSeconds": 7.0,
+      "metrics": {
+        "TaskDuration": 0.8245060000000004,
+        "ScriptDuration": 0.6637520000000001,
+        "LayoutDuration": 0.008522999999999989,
+        "RecalcStyleDuration": 0.002475999999999999
+      },
+      "heapBytes": 329788900,
+      "nodes": 7938,
+      "listeners": 537,
+      "mainThreadCorePercent": 11.778657142857147
+    },
+    {
+      "elapsedMs": 4002.100000000093,
+      "draws": 159,
+      "fps": 39.729142200343894,
+      "frameGapP50": 31.600000000093132,
+      "frameGapP95": 34.10000000009313,
+      "frameGapP99": 34.5,
+      "drawMsP50": 2.3999999999068677,
+      "drawMsP95": 3.400000000372529,
+      "drawMsMax": 3.7000000001862645,
+      "calls": {
+        "draw": {
+          "count": 159,
+          "ms": 402.8000000012107,
+          "max": 3.7000000001862645
+        },
+        "vitals": {
+          "count": 4,
+          "ms": 2.1999999997206032,
+          "max": 0.6999999997206032
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 1.6000000000931323,
+          "max": 1.6000000000931323
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 68843,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 4,
+        "gameTime": 2689.049399999999,
+        "hidden": false
+      },
+      "label": "store",
+      "wallSeconds": 4.0,
+      "metrics": {
+        "TaskDuration": 0.57315,
+        "ScriptDuration": 0.4173479999999996,
+        "LayoutDuration": 0.0036390000000000033,
+        "RecalcStyleDuration": 0.0015590000000000014
+      },
+      "heapBytes": 191648368,
+      "nodes": 2519,
+      "listeners": 494,
+      "mainThreadCorePercent": 14.328750000000001
+    },
+    {
+      "elapsedMs": 4001.5,
+      "draws": 162,
+      "fps": 40.48481819317756,
+      "frameGapP50": 17.90000000037253,
+      "frameGapP95": 34.10000000009313,
+      "frameGapP99": 34.60000000009313,
+      "drawMsP50": 2.1000000000931323,
+      "drawMsP95": 2.6999999997206032,
+      "drawMsMax": 3.6999999997206032,
+      "calls": {
+        "draw": {
+          "count": 162,
+          "ms": 356.59999999962747,
+          "max": 3.6999999997206032
+        },
+        "vitals": {
+          "count": 4,
+          "ms": 2.5,
+          "max": 0.6999999997206032
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 2.3999999999068677,
+          "max": 2.3999999999068677
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 77156,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 4,
+        "gameTime": 2694.049399999999,
+        "hidden": false
+      },
+      "label": "journal",
+      "wallSeconds": 4.0,
+      "metrics": {
+        "TaskDuration": 0.46408700000000014,
+        "ScriptDuration": 0.3711500000000001,
+        "LayoutDuration": 0.0035190000000000082,
+        "RecalcStyleDuration": 0.0013909999999999999
+      },
+      "heapBytes": 190983304,
+      "nodes": 4977,
+      "listeners": 498,
+      "mainThreadCorePercent": 11.602175000000003
+    },
+    {
+      "elapsedMs": 4001.600000000093,
+      "draws": 158,
+      "fps": 39.48420631747209,
+      "frameGapP50": 32.3000000002794,
+      "frameGapP95": 34.3000000002794,
+      "frameGapP99": 34.60000000009313,
+      "drawMsP50": 2.1000000000931323,
+      "drawMsP95": 2.6000000000931323,
+      "drawMsMax": 3.3000000002793968,
+      "calls": {
+        "draw": {
+          "count": 158,
+          "ms": 340.80000000214204,
+          "max": 3.3000000002793968
+        },
+        "vitals": {
+          "count": 4,
+          "ms": 2.3000000002793968,
+          "max": 0.7000000001862645
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 1.8999999999068677,
+          "max": 1.8999999999068677
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 85214,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 4,
+        "gameTime": 2699.049399999999,
+        "hidden": false
+      },
+      "label": "equipment",
+      "wallSeconds": 4.0,
+      "metrics": {
+        "TaskDuration": 0.44194900000000015,
+        "ScriptDuration": 0.35436599999999974,
+        "LayoutDuration": 0.0036509999999999876,
+        "RecalcStyleDuration": 0.0013910000000000033
+      },
+      "heapBytes": 191366412,
+      "nodes": 5600,
+      "listeners": 502,
+      "mainThreadCorePercent": 11.048725000000005
+    },
+    {
+      "elapsedMs": 4001.9000000003725,
+      "draws": 160,
+      "fps": 39.98100902071144,
+      "frameGapP50": 32.09999999962747,
+      "frameGapP95": 34.299999999813735,
+      "frameGapP99": 34.8000000002794,
+      "drawMsP50": 1.7000000001862645,
+      "drawMsP95": 2.1000000000931323,
+      "drawMsMax": 3.1000000000931323,
+      "calls": {
+        "draw": {
+          "count": 160,
+          "ms": 284.29999999841675,
+          "max": 3.1000000000931323
+        },
+        "vitals": {
+          "count": 4,
+          "ms": 1.7999999998137355,
+          "max": 0.5
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 0.7000000001862645,
+          "max": 0.7000000001862645
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 87951,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 1,
+        "tanks": 1,
+        "gameTime": 2670.030319999999,
+        "hidden": false
+      },
+      "label": "casino",
+      "wallSeconds": 4.0,
+      "metrics": {
+        "TaskDuration": 0.4244210000000006,
+        "ScriptDuration": 0.2963230000000001,
+        "LayoutDuration": 0.013629000000000002,
+        "RecalcStyleDuration": 0.002019
+      },
+      "heapBytes": 196345572,
+      "nodes": 6760,
+      "listeners": 509,
+      "mainThreadCorePercent": 10.610525000000015
+    },
+    {
+      "elapsedMs": 4002.1999999997206,
+      "draws": 0,
+      "fps": 0,
+      "frameGapP50": null,
+      "frameGapP95": null,
+      "frameGapP99": null,
+      "drawMsP50": null,
+      "drawMsP95": null,
+      "drawMsMax": 0,
+      "calls": {
+        "divingDraw": {
+          "count": 164,
+          "ms": 2.800000000745058,
+          "max": 0.10000000009313226
+        },
+        "vitals": {
+          "count": 4,
+          "ms": 2.3000000002793968,
+          "max": 0.7000000001862645
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 0.39999999990686774,
+          "max": 0.39999999990686774
+        },
+        "save": {
+          "count": 1,
+          "ms": 5.399999999906868,
+          "max": 5.399999999906868
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 87951,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 1,
+        "tanks": 1,
+        "gameTime": 2674.0491599999987,
+        "hidden": false
+      },
+      "label": "diving",
+      "wallSeconds": 4.0,
+      "metrics": {
+        "TaskDuration": 0.06952799999999915,
+        "ScriptDuration": 0.022044000000000175,
+        "LayoutDuration": 0.003469,
+        "RecalcStyleDuration": 0.0010970000000000008
+      },
+      "heapBytes": 195160876,
+      "nodes": 7572,
+      "listeners": 515,
+      "mainThreadCorePercent": 1.7381999999999787
+    },
+    {
+      "elapsedMs": 4001.600000000093,
+      "draws": 156,
+      "fps": 38.98440623750409,
+      "frameGapP50": 32.5,
+      "frameGapP95": 34.3000000002794,
+      "frameGapP99": 34.60000000009313,
+      "drawMsP50": 1.7999999998137355,
+      "drawMsP95": 2.1000000000931323,
+      "drawMsMax": 2.6000000000931323,
+      "calls": {
+        "draw": {
+          "count": 156,
+          "ms": 276.09999999403954,
+          "max": 2.6000000000931323
+        },
+        "vitals": {
+          "count": 4,
+          "ms": 2.2000000001862645,
+          "max": 0.8000000002793968
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 0.2999999998137355,
+          "max": 0.2999999998137355
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 90620,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 1,
+        "tanks": 1,
+        "gameTime": 2679.0491599999987,
+        "hidden": false
+      },
+      "label": "settings",
+      "wallSeconds": 4.0,
+      "metrics": {
+        "TaskDuration": 0.38884599999999914,
+        "ScriptDuration": 0.2886690000000005,
+        "LayoutDuration": 0.003951999999999983,
+        "RecalcStyleDuration": 0.0016289999999999985
+      },
+      "heapBytes": 198069784,
+      "nodes": 9631,
+      "listeners": 520,
+      "mainThreadCorePercent": 9.721149999999978
+    },
+    {
+      "elapsedMs": 10001.399999999907,
+      "draws": 400,
+      "fps": 39.994400783890626,
+      "frameGapP50": 31.5,
+      "frameGapP95": 34.10000000009313,
+      "frameGapP99": 34.60000000009313,
+      "drawMsP50": 2,
+      "drawMsP95": 2.5,
+      "drawMsMax": 3.8999999999068677,
+      "calls": {
+        "draw": {
+          "count": 400,
+          "ms": 814.9999999995343,
+          "max": 3.8999999999068677
+        },
+        "vitals": {
+          "count": 10,
+          "ms": 6.099999999627471,
+          "max": 0.8999999999068677
+        },
+        "simulation": {
+          "count": 3,
+          "ms": 2.599999999627471,
+          "max": 0.8999999999068677
+        },
+        "shell": {
+          "count": 1,
+          "ms": 0,
+          "max": 0
+        },
+        "UI": {
+          "count": 1,
+          "ms": 0.8000000002793968,
+          "max": 0.8000000002793968
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 103931,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2680.030319999999,
+        "hidden": false
+      },
+      "label": "F-local-video",
+      "wallSeconds": 10.0,
+      "metrics": {
+        "TaskDuration": 1.1078700000000001,
+        "ScriptDuration": 0.8525119999999999,
+        "LayoutDuration": 0.009513000000000021,
+        "RecalcStyleDuration": 0.0029630000000000004
+      },
+      "heapBytes": 197805116,
+      "nodes": 11785,
+      "listeners": 537,
+      "mainThreadCorePercent": 11.078700000000001
+    },
+    {
+      "elapsedMs": 5001.600000000093,
+      "draws": 0,
+      "fps": 0,
+      "frameGapP50": null,
+      "frameGapP95": null,
+      "frameGapP99": null,
+      "drawMsP50": null,
+      "drawMsP95": null,
+      "drawMsMax": 0,
+      "calls": {},
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 103931,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2680.709679999999,
+        "hidden": true
+      },
+      "label": "G-hidden",
+      "wallSeconds": 5.0,
+      "metrics": {
+        "TaskDuration": 0.060082999999998776,
+        "ScriptDuration": 0.0001939999999995834,
+        "LayoutDuration": 0.0,
+        "RecalcStyleDuration": 0.0
+      },
+      "heapBytes": 189904364,
+      "nodes": 4313,
+      "listeners": 495,
+      "mainThreadCorePercent": 1.2016599999999755
+    },
+    {
+      "elapsedMs": 5001.700000000186,
+      "draws": 203,
+      "fps": 40.58620069176329,
+      "frameGapP50": 17.700000000186265,
+      "frameGapP95": 34.299999999813735,
+      "frameGapP99": 34.700000000186265,
+      "drawMsP50": 2.1999999997206032,
+      "drawMsP95": 3,
+      "drawMsMax": 3.3999999999068677,
+      "calls": {
+        "draw": {
+          "count": 203,
+          "ms": 453.30000000214204,
+          "max": 3.3999999999068677
+        },
+        "vitals": {
+          "count": 5,
+          "ms": 3.5,
+          "max": 0.8999999999068677
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 0.8999999999068677,
+          "max": 0.8999999999068677
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 112544,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2695.079639999999,
+        "hidden": false
+      },
+      "label": "G-return",
+      "wallSeconds": 5.0,
+      "metrics": {
+        "TaskDuration": 0.6001599999999989,
+        "ScriptDuration": 0.4737980000000004,
+        "LayoutDuration": 0.005158999999999997,
+        "RecalcStyleDuration": 0.0012490000000000001
+      },
+      "heapBytes": 192706848,
+      "nodes": 5471,
+      "listeners": 504,
+      "mainThreadCorePercent": 12.003199999999978
+    },
+    {
+      "elapsedMs": 6001.399999999907,
+      "draws": 249,
+      "fps": 41.490318925584674,
+      "frameGapP50": 17.300000000279397,
+      "frameGapP95": 34.200000000186265,
+      "frameGapP99": 34.700000000186265,
+      "drawMsP50": 2.2000000001862645,
+      "drawMsP95": 2.8000000002793968,
+      "drawMsMax": 3.3999999999068677,
+      "calls": {
+        "draw": {
+          "count": 249,
+          "ms": 555.5000000079162,
+          "max": 3.3999999999068677
+        },
+        "shell": {
+          "count": 1,
+          "ms": 0,
+          "max": 0
+        },
+        "UI": {
+          "count": 1,
+          "ms": 0.5,
+          "max": 0.5
+        },
+        "vitals": {
+          "count": 5,
+          "ms": 3.1000000000931323,
+          "max": 0.7999999998137355
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 0.5,
+          "max": 0.5
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 119294,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2670.030319999999,
+        "hidden": false
+      },
+      "label": "H-30",
+      "wallSeconds": 6.016000000000076,
+      "metrics": {
+        "TaskDuration": 0.7252500000000008,
+        "ScriptDuration": 0.5776029999999999,
+        "LayoutDuration": 0.005948000000000009,
+        "RecalcStyleDuration": 0.002023999999999998
+      },
+      "heapBytes": 193409756,
+      "nodes": 6395,
+      "listeners": 511,
+      "mainThreadCorePercent": 12.055352393616884
+    },
+    {
+      "elapsedMs": 6001.699999999721,
+      "draws": 234,
+      "fps": 38.98895312994833,
+      "frameGapP50": 32.5,
+      "frameGapP95": 34.1999999997206,
+      "frameGapP99": 34.700000000186265,
+      "drawMsP50": 2.1999999997206032,
+      "drawMsP95": 2.6000000000931323,
+      "drawMsMax": 3,
+      "calls": {
+        "draw": {
+          "count": 234,
+          "ms": 509.4000000008382,
+          "max": 3
+        },
+        "vitals": {
+          "count": 6,
+          "ms": 3.6999999997206032,
+          "max": 0.6999999997206032
+        },
+        "simulation": {
+          "count": 2,
+          "ms": 1.2999999998137355,
+          "max": 0.7999999998137355
+        },
+        "shell": {
+          "count": 1,
+          "ms": 0,
+          "max": 0
+        },
+        "UI": {
+          "count": 1,
+          "ms": 0.8999999999068677,
+          "max": 0.8999999999068677
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 125612,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2680.030319999999,
+        "hidden": false
+      },
+      "label": "H-60",
+      "wallSeconds": 6.0,
+      "metrics": {
+        "TaskDuration": 0.6663049999999995,
+        "ScriptDuration": 0.5298499999999997,
+        "LayoutDuration": 0.00628200000000001,
+        "RecalcStyleDuration": 0.0018869999999999998
+      },
+      "heapBytes": 193907056,
+      "nodes": 7270,
+      "listeners": 518,
+      "mainThreadCorePercent": 11.105083333333326
+    },
+    {
+      "elapsedMs": 6001.799999999814,
+      "draws": 237,
+      "fps": 39.48815355393504,
+      "frameGapP50": 32,
+      "frameGapP95": 34.200000000186265,
+      "frameGapP99": 34.60000000009313,
+      "drawMsP50": 2.1999999997206032,
+      "drawMsP95": 2.5,
+      "drawMsMax": 3.1999999997206032,
+      "calls": {
+        "draw": {
+          "count": 237,
+          "ms": 515.999999997206,
+          "max": 3.1999999997206032
+        },
+        "vitals": {
+          "count": 6,
+          "ms": 3.6000000000931323,
+          "max": 0.6999999997206032
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 0.8999999999068677,
+          "max": 0.8999999999068677
+        },
+        "save": {
+          "count": 1,
+          "ms": 10.299999999813735,
+          "max": 10.299999999813735
+        }
+      },
+      "longTasks": [],
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 1024,
+          "frameHits": 196703,
+          "frameMisses": 225,
+          "frameEvictions": 0
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 0,
+          "poseCache": 26,
+          "maxPoses": 768
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2756.106519999999,
+        "hidden": false
+      },
+      "label": "E-sustained-end",
+      "wallSeconds": 6.0,
+      "metrics": {
+        "TaskDuration": 0.6848500000000008,
+        "ScriptDuration": 0.5428069999999998,
+        "LayoutDuration": 0.006018000000000023,
+        "RecalcStyleDuration": 0.0017139999999999933
+      },
+      "heapBytes": 190924840,
+      "nodes": 4942,
+      "listeners": 500,
+      "mainThreadCorePercent": 11.41416666666668
+    }
+  ],
+  "cpuProfileTop": [
+    [
+      "(idle) @ :0",
+      2337
+    ],
+    [
+      "drawImage @ :0",
+      156
+    ],
+    [
+      "(program) @ :0",
+      58
+    ],
+    [
+      "poly @ render.js:6",
+      23
+    ],
+    [
+      "fillRect @ :0",
+      7
+    ],
+    [
+      "(garbage collector) @ :0",
+      6
+    ],
+    [
+      "draw @ render.js:86",
+      3
+    ],
+    [
+      "frame @ main.js:9",
+      2
+    ],
+    [
+      "now @ :0",
+      2
+    ],
+    [
+      " @ ui.js:34",
+      2
+    ],
+    [
+      "save @ :0",
+      2
+    ],
+    [
+      "get @ update29-ui.js:25",
+      2
+    ],
+    [
+      "owner.<computed> @ :4",
+      1
+    ],
+    [
+      "beforeStep @ update29.js:18",
+      1
+    ],
+    [
+      "species @ progression.js:6",
+      1
+    ],
+    [
+      "update @ fish-animation.js:45",
+      1
+    ],
+    [
+      "drawResident @ fish-animation.js:117",
+      1
+    ],
+    [
+      "requestAnimationFrame @ :0",
+      1
+    ],
+    [
+      "restore @ :0",
+      1
+    ],
+    [
+      "rotate @ :0",
+      1
+    ],
+    [
+      "raster @ sprite-kit.js:6",
+      1
+    ],
+    [
+      "source @ fish-animation.js:72",
+      1
+    ],
+    [
+      "day @ gameplay.js:7",
+      1
+    ],
+    [
+      "finite @ save.js:9",
+      1
+    ],
+    [
+      " @ update31.js:24",
+      1
+    ],
+    [
+      "ensureFish @ breeding.js:23",
+      1
+    ],
+    [
+      "offerPool @ daily-store.js:5",
+      1
+    ],
+    [
+      "validate @ daily-store.js:16",
+      1
+    ],
+    [
+      "fmt @ ui.js:8",
+      1
+    ],
+    [
+      "sheetForFish @ fish-animation.js:38",
+      1
+    ]
+  ],
+  "media": {
+    "codec": "video/webm;codecs=vp8",
+    "width": 640,
+    "height": 360,
+    "audio": false,
+    "quality": {
+      "total": 303,
+      "dropped": 1,
+      "corrupted": 0
+    }
+  },
+  "actualHidden": true,
+  "postGCHeapSamples": [
+    189314948,
+    189350236,
+    189529440,
+    189311060
+  ],
+  "saves": [
+    {
+      "serializeMs": 0.8999999999068677,
+      "totalMs": 8.700000000186265,
+      "bytes": 104909,
+      "ok": true
+    },
+    {
+      "serializeMs": 0.6999999997206032,
+      "totalMs": 6.300000000279397,
+      "bytes": 104959,
+      "ok": true
+    },
+    {
+      "serializeMs": 0.5,
+      "totalMs": 6.7999999998137355,
+      "bytes": 104974,
+      "ok": true
+    },
+    {
+      "serializeMs": 0.5,
+      "totalMs": 6,
+      "bytes": 104990,
+      "ok": true
+    },
+    {
+      "serializeMs": 0.5,
+      "totalMs": 5.5,
+      "bytes": 105038,
+      "ok": true
+    },
+    {
+      "serializeMs": 0.7999999998137355,
+      "totalMs": 5.400000000372529,
+      "bytes": 105089,
+      "ok": true
+    },
+    {
+      "serializeMs": 0.5,
+      "totalMs": 5.599999999627471,
+      "bytes": 105137,
+      "ok": true
+    },
+    {
+      "serializeMs": 0.7000000001862645,
+      "totalMs": 6.100000000093132,
+      "bytes": 105170,
+      "ok": true
+    },
+    {
+      "serializeMs": 0.5,
+      "totalMs": 5.7999999998137355,
+      "bytes": 105188,
+      "ok": true
+    },
+    {
+      "serializeMs": 0.8000000002793968,
+      "totalMs": 7.399999999906868,
+      "bytes": 105239,
+      "ok": true
+    }
+  ],
+  "checks": [],
+  "runtimeSHA256": {
+    "js/app-shell.js": "c4a9bcff7d2dfa6a10d2b75cab76c48dd5a67f804282ea27535bedb39a6c4691",
+    "js/aquarium-preparation.js": "a2b8a946df970a439940e002304132f40d6c91040964512232aae6574806483a",
+    "js/aquarium-sale.js": "5394c0c3003aaacbe0f8ce97b2a3103c782fc9b7f398aa0c4e1e87449e68f552",
+    "js/art-assets-data.js": "f3d29762b564cc03e754a55aedd1c79fa26f919bbed19b4d7715a06f089940d3",
+    "js/art-review-v11.js": "a9b808303dc7adb1669ea4f0ac28b59ab0e816459eb185aff2e268aebf99423b",
+    "js/art-review.js": "6e1995ebc38ccffeb721282677aee734502371012ecc3a2982547e3db5b74dc7",
+    "js/asset-bank.js": "2052801a3ed5a4a6af11aa4fef8b04eecd8cd699567d0ff2401a229af2f58afd",
+    "js/breeding-ui.js": "6829e8e17818d4e21f95226b1eb843395527da2276a1226b758cc02c70bfe509",
+    "js/breeding.js": "6ed0ac0ab1c39372aaa678df5d01284432d3a0f363a70425cacc96b3bc5ed685",
+    "js/brood-view.js": "aac11058840561b9a70b403ba9d8a76eeb7eb1678c4d5f0d1c94ca07a08c2b65",
+    "js/care-ui.js": "1dfe0fcf75d5b685dea0071f52864d14ef475d766ed5ae3015ca22472a859f7a",
+    "js/casino-art.js": "807d0185d84563797014d13801e5ed6588b84b5fb091cd363e163c45f9fc7048",
+    "js/casino-rules.js": "b16867f96ecf3c4cce08a3aa784ade74d202d2f53f60fafc369e9aa43ddf5cae",
+    "js/casino-ui.js": "8044d8f8adc2cd8f93ddb47f67e4b9272a7b57dd8234215fe3db90e7490e8d20",
+    "js/casino.js": "413be1203b7825873f8f6a1f1e75b1735a41a437a5802361d762aa0ba1c21c34",
+    "js/clownfish-art-bank.js": "1dcf03225418a041732fb320e6f148b1fd45ee5621916327ebf825eb54cf9bc0",
+    "js/clownfish-art-data.js": "4161409b1f41ddb6203570ffffd7418a3c6ac1b906d2c515089fa8d57877f6f3",
+    "js/clownfish-art.js": "00d8c949a31c17a0a23b082adc9f2ba11f873d7c4665df0f342c5da7183885fb",
+    "js/clownfish-collection-data.js": "a61b11b4409f5e10c04c0fb11f42d82c161742dfcece1b805c7f431317cea5e9",
+    "js/clownfish-review.js": "8ac8948279ecfc0736a663f7c7f2d164aa7edf865c8576cdb387743464be374d",
+    "js/coral-placement-review.js": "771fec1ab0f61562ef6bf3bff6accc0fd339128e47f681d032674b536595f37d",
+    "js/core.js": "ef0c6a2ef280c3e9a6a98eb2dcc499fca142e790d0f7a30b3a583747cc76b43c",
+    "js/daily-store.js": "4fc6d0b3a7a1fe1667c4c5871e11128cd19f3e2d3989aa066766ca46021c52cd",
+    "js/data.js": "7c937d4039b2c5067d254c536e5f8670ee8d722e0fcdafd1f8a50b34607723bd",
+    "js/diving-art-data.js": "171c3e8de784dec0adbcd64288567bc0ea585162f4a253eeb84e43978bddcfee",
+    "js/diving-art.js": "dfd7c94131b701ed13a7d407786d4a0387c6200f044226230ef956b5744faba6",
+    "js/diving-data.js": "a08e2264fc0ca41531708ad619ba2d171ee493ef6bff4858b43486d2912c16ab",
+    "js/diving-expansion.js": "717e9650c37bdbc9c52f869165e4a86c9efc05cb2b3d2fb3160d90c5e995931f",
+    "js/diving-mystery.js": "88ab02b5e23c603c23bde3c8b8e755129f2203865501493e19184378f1132bee",
+    "js/diving-receiving.js": "8409e9c000243a14de7411824132dde8350f9deb0d9331e42153b9fd94a48dea",
+    "js/diving-ui.js": "52a3bd1db38fd866ed31536a03d8afbdc1e9db44347afaa95e42093b66a301eb",
+    "js/diving.js": "06e97f4caf9509eccbdc7dbf379911159561d617ee97001678d58b062249df46",
+    "js/economy-update-ui.js": "820e6b896d26286f8bb1cc191671647be2f409252c94deec36a92d15ecfecd52",
+    "js/equipment-catalog.js": "3be87e16b1463afda2ce399c68e38af8ed9b9a2f35834d3789ce3f467f262824",
+    "js/equipment-inventory.js": "e04de1d374502dd5c0a334d620d5f201ebbd33b1de23582745e14329d0593d33",
+    "js/equipment-maintenance-ui.js": "d394a7a75ffdc10a7383881f83fe3339a2671afa002392d0f0d396b0af6144d3",
+    "js/equipment-parts.js": "03a2569d0e3296b97e9855c55960097a176ade4436e0c2469fcfb0533d392a57",
+    "js/equipment-reliability.js": "6270bf3f118aa2ae3b6f6256fc71f18260d5bad3360f09c89aaa4ee3084a5110",
+    "js/expansion-art-data.js": "719ee07fba208829ca8985b09fc68514b5cb85156303c71e3cedd77de2122009",
+    "js/expansion-art.js": "d24e183e0d8ac2e0cc10aaffa0834b6c1de85f8204effd1a46d7dbf63f3a2346",
+    "js/expansion-data.js": "6ff06e994dfb82c4b35ef190d6becf7ba556bd0b70562d8e61815338efc18a1e",
+    "js/expansion-review.js": "9f5d3c408e2add3afec571a5e5a34b0ae16b80d0ea8feb1c45c45aa233b0b272",
+    "js/expansion-ui.js": "b1bb5c9995fac17a4fdabdebfb0646e89695160bf6d4406100d006cdc38cf4e8",
+    "js/expansion.js": "9cdafab192cf10d75d795d88453189228c7d319459975c6e5ffe9242b7ce5982",
+    "js/finance.js": "80ba4d95aec0adf9f70b834dc7e4dd7d839de69c306f9e4dadf04b3d22ed402d",
+    "js/fish-animation-data.js": "69c4250c9a0a2518fc7f70cd99c4384d602426944ce0525b9568365fb0a22d98",
+    "js/fish-animation-review.js": "f3a1ee554f3fad2c3d62d2fd4a80d7f3d1af138c5fe32e4bb9923d18c6e73da4",
+    "js/fish-animation.js": "6e14cc9e29536ff1918419bb566da78115fa66fb65d7e79330128cac275b472d",
+    "js/gameplay-ui.js": "6983cc8823c3ef5f4598f3945393d8aabd39c6bf794c3bb990f6fed20352a4d0",
+    "js/gameplay.js": "0d63f442ed18166e2b91368432d25c62b92e33e5bf980de2fd1c69219d64e516",
+    "js/habitat-drawing.js": "de67c5ed0ac3f2cc6edcab7cfd2a02741f14542a2e217ffd8074cf7eb9fc4160",
+    "js/habitat-geometry.js": "cffc85f18e5dc0c8b8ee066dab595e01f410af044f5904daa3eedb18e3f40e9d",
+    "js/habitat.js": "c9a1ec3d8f7647ad03076a580da3d18cce0fdce18b1801e67b6886491d741d10",
+    "js/health-save.js": "7d15c36ce00be4284f68e3bd473a90ebc72c581f60b2b5aeac154172f4294d46",
+    "js/health-ui.js": "7f68b98664116146fb1435e2026014d497b5762e7b77c99e55f43d41c017cb78",
+    "js/heaters.js": "db0176281120f0d506583066477f28cb12d615670fff1e9678ce2d1af1e71380",
+    "js/inventory-ui.js": "b3c9938585a280a33852ebf85a6c4716ce152c8e30112fc5671bf7fae6974a81",
+    "js/invertebrates.js": "8e9919ef1da4eb61472b1825090edd4057c5c075fc5d0c8d65d22bc65be0d400",
+    "js/life-stage-data.js": "07be7f5eca927ef2b63fa6d5869602cc4cbd1d5e2640bd425b854c38de21b7d3",
+    "js/life-stage-review.js": "d034196b01806906e3a9dc073d6f9e5a8fa39ee2e27f86ae3dc28ad4c64f168f",
+    "js/life-stages.js": "5482307a057f67738dd21bd39c9e9c206bb44611bf71e255d65a7e0708374fd8",
+    "js/livestock-animation-data.js": "2d081e6cf124ac97226844b1aaf519152a57a43e09c59a92b43a9a2166e22a57",
+    "js/livestock-animation-review.js": "1f6e7361b9cafaefe87dddc4da0d59b11f5d1df54ac3255a9dca8aefd5dad612",
+    "js/livestock-animation-sheets-000-a95b1a2a7bcb.js": "d6ba7500e4547793af838695b79b12b06fec73481ee8984cafde50f1094029cc",
+    "js/livestock-animation-sheets-001-5ecaf052cd51.js": "da6ebd72857cb6424db401f55254b9551b7414994581102bc5e45347c66e99a7",
+    "js/livestock-animation-sheets-002-6b09593d90f8.js": "e4b4feefa4ad3f8bb17edf6295de8ac2add739958f8dba6ad68ed197c2b64541",
+    "js/livestock-animation-sheets-003-f48eabbe241b.js": "9969a32faadbbfac7b0eac3fc2493b869b45653e4a3c743777ffc51d51715bc4",
+    "js/livestock-animation-sheets-004-126bff95f667.js": "595fcc1ffb6569b1ec40de2b26c57d04c505b29271a73bc93619082414fe1554",
+    "js/livestock-animation-sheets-005-b811e79433db.js": "6bb01a1311d04ddc4ce8f7fd9e6501e68551d1fab3b7a72a932faabcff79fe4a",
+    "js/livestock-animation-sheets-006-7f727add84e1.js": "f46fbac6d490e9db8d71a1cbd05dfe70bfe163ac7e7f9391a9185d714e239643",
+    "js/livestock-animation-sheets-007-1f6be0abfcc5.js": "6d9ee4700504e04e356fd3aafabd4f933fab466019e3f343a1b9a2e8b50c8059",
+    "js/livestock-animation-sheets-008-04f10dd1ac6e.js": "4f7b4c3411fc975d5ec45310cd3833920780ea44633832168e2da8223257c259",
+    "js/livestock-animation-sheets-009-e36ec739e2e1.js": "d1a2c0663e9ffd4c16cc7b238a173d669c112ab8e38920d60359c9ddbaad5310",
+    "js/livestock-animation-sheets-010-683961ada98f.js": "e5f5bbecf27e413cf5ac81d37ded9f70b84977de8679095bc8945b22d93bbe84",
+    "js/livestock-animation-sheets-011-01c622b85f48.js": "2754eace9bdf9782b08ac599435259f54b2c4a1bc1fa2af45990f7b83231216a",
+    "js/livestock-animation-sheets-012-a31ce9aee8e7.js": "dd04d39a7e7a3af3a80fc487b0ee36366e6f66627431cac651b153a166c4b40d",
+    "js/livestock-animation-sheets-013-b854802430fd.js": "660b0786d718bdca71458047837d2f87128ba14695811debee5b9e46dfc629cc",
+    "js/livestock-animation-sheets-014-be0a3bd3a696.js": "a98dfd265ee655d360d013f52a3f429edd5755c09bea03f4b0aded9ab115af4c",
+    "js/livestock-animation-sheets-015-6d80bc34089a.js": "163dca5354d69d7c3307e09484bc1e07e0f6d48832a2b503a9adbed0659754e0",
+    "js/livestock-animation-sheets-016-1db622bc1c09.js": "b501e753a8ec17053b17d9f817cdb29a56486ed2743528b48f03904dde6c2ba3",
+    "js/livestock-animation-sheets-017-ddf7be30af46.js": "f58590a2177007b0f3c2d47b05e3b399462a8b07d7de91d00ccd15796fde9285",
+    "js/livestock-animation-sheets-018-be3b488aefa1.js": "4675d730058dd6389af273d82118642df84e07e16ee2b2d84e381f0219c81f2c",
+    "js/livestock-animation-sheets-019-5841a6ddfde0.js": "9df9964d5fab6140006ed25d657d474c469f06521ec674c28cf11650bcb03a7c",
+    "js/livestock-animation-sheets-020-ee99b089927b.js": "3479e816239ad1fa928e4d7c7e9818cc3e05413e58966011be0c8ea8a4f0901b",
+    "js/livestock-animation-sheets-021-24f997532d58.js": "3757c14445671dbdd4f7eed252f90e5acd747bff795eed825acadbf643b96b70",
+    "js/livestock-animation-sheets-022-9039a9b3164b.js": "af679c415a144b3d2ab439941808c8c07934c70a3c27989932d297efb7257af8",
+    "js/livestock-animation-sheets-023-42ec597d3fd7.js": "e0613aeb22828ed598e1f0fcaccecee3664b78c91eaff4934b6029ea15ff1567",
+    "js/livestock-animation-sheets-024-e958ff76c0fb.js": "3715599cb06acedaad4218f6cbb77be98b96256e599f7fe81137e267d693181b",
+    "js/livestock-health.js": "6ca57ccaf1e256662e15a8718ee6000d97753d517eb342d640e7bc5ea2765aca",
+    "js/livestock-market.js": "115a354074882325fab522e1a3bf62edd8d61f28e3b6aa94adb46107a5bd4889",
+    "js/main.js": "77a301531d121578596c997c2d2a68309d82da788795702cd6952b2547dbae42",
+    "js/marine-care.js": "59b6d9c44ade533f324a28d22c4986b5bf2e8d204a16ce62e8dd66ac6a6e0cb1",
+    "js/mortality-journal.js": "2b1d0e8d3c86258f10cb7d7285ec77918e90239edeb140c4f9d7e4196d321e55",
+    "js/mortality-ui.js": "b02394f4cb89dfe95776ccee29d24bec4e48352001eec3dc4344b35c133d3c97",
+    "js/mortality.js": "99963eb7a2fc377ad527e4f7751921bc553271f59750cd3f1ae08b61b34d6b68",
+    "js/offline.js": "bd42f7efe8c3e00eaaf016487f426cb0c2ea261c589371eb9e9295335d023503",
+    "js/overnight-ui.js": "f1f78d4e229128a5a2328924e38e5bc627d5a5ff2885f1d7f3f15d25ec9d5a93",
+    "js/pair-offers.js": "0b85400d9538c1aec7d3c8fbf2261a8e33d689ea705ca87e80c8f9d1387b3e87",
+    "js/patterns.js": "f435e11296ca2af9553e6b8307a5ba4f765b4bc8badea01708612f4478a4b57b",
+    "js/performance.js": "eb4780cd6c111d8251cf65649b74f7bb8cf03a17e0810fd6792450d086dea780",
+    "js/placement.js": "d13a73b835fb41f5bb0a3db77d96d00d63785496fbfaefa6c1d335b5beb50ddb",
+    "js/progression.js": "86a1302869b70012482cf5d42adcdb4446de8626bd9eb475224a68dce02a196b",
+    "js/rarity.js": "a91b759d307d12ebaf620fced7c457749398e919f7fecd0022fd79fb81d70518",
+    "js/render.js": "a4386baf8f111f796bf853a14d4ff275a2cb50a4210d70f1353202fafadaed13",
+    "js/research-data.js": "64022c54f500fef8c0049627cb00647c768b3b69f9100216ba90387e3b52aed0",
+    "js/research.js": "55a182902dc3c93cacc38389656cb4d18b7ba6b3990996b82983306caad63184",
+    "js/save.js": "3082baaa09f532076d3ac0d7d3c80f056a2a04a8aa7e0469f5dccacf7ed3ea19",
+    "js/simulation.js": "bcd11cc6d0b14971d9999147666b25ede5f4a6c4d6a2d4720acbfec9e19205d2",
+    "js/sprite-kit.js": "ea305536bb38968f9b371790f148de6b25fee7845599b5f372ec6eba81c6e3be",
+    "js/sprite-sources.js": "528d496976a9e39a8b8a2a69abceba9b2603f61dbfdfbc5f2b203309e991acd1",
+    "js/store-art.js": "8d1da90afdc77095504d38c3b56cf9e331687fbb85c8b85aaa494271ee439d34",
+    "js/store-rules.js": "8595433ea9b2f60ee2db7664eb4b4f597d5825ca56b213273eae28effa66fa34",
+    "js/store.js": "475bd7ade6353824e40f0d069575ed61c662e5c20ebfb5bbca1d89dc38431b2e",
+    "js/thermal.js": "07713beec115bb8d0ffe37cc5a585001d1c38bd86ecf7c8661f7410d71f4b844",
+    "js/tutorial-ui.js": "da4e0b60d1c3c0f1f594c55921c1c558a0d2e01c826a0c269b18b16ab1311af4",
+    "js/tutorial.js": "e3d4543cc767cdd3e46e30d6389ebf2d7c9d4168c1dfb91a539d37e527977d60",
+    "js/ui.js": "5797f74d1385e5082dcb72ff5a397989092412cc9ca63297b22ab6e0c982dba8",
+    "js/update29-art-data.js": "9c4572dd8792ac36eab44ab9f7868aabd824e91e232a54a6993b83b99f15dbab",
+    "js/update29-catalog.js": "b87f46fc354d91881ac7833e0a034f4428f37d9062ffdaec3d86a1f8340b671b",
+    "js/update29-data.js": "d1246a2926d396a81a2f1ae314957a624d87fa6ae87d4999aff56001ac72923a",
+    "js/update29-review.js": "476290ad52fa5fa245226f96765a2ce72a77ff8dbb2941f16a757da843fef3ad",
+    "js/update29-ui.js": "c1f3b3b24cf37498b5c655d912b684388a1b94573ca51adaaf7e72ad62fd6f71",
+    "js/update29.js": "eb4e1a13b74f20d9dfce8ff43e54819b2f2da22b63022fbd7f5d89b792aa5dcc",
+    "js/update31-ui.js": "33d3a67d3497c3b608163bd3fc34972af4a0e9be91c86fb601603786de0802d8",
+    "js/update31.js": "d90f739060ad36bef2c8610991cb82c41460822accd208bc993a19ff83f2c2fc",
+    "js/valuation.js": "dae4b692c3f0cccc6e8db7045503b0a22bd93fec978db0fb106ac58b401b6f39",
+    "css/app-shell.css": "0d7d4d2489da853957a939db709951bab784835098ec6b99b929f605fa52e0d1",
+    "css/art-review.css": "48f13bdb01db053938daffd39de9efb996134abcaf7f84f1da4aa709f62545f6",
+    "css/art-update.css": "8b915a2b91ecf5b60d7bf5c1d53bcdbbe1518020838f5d0e95993050f89ad5c7",
+    "css/breeding.css": "eb3c102dab31a43499291a6d96f533c4707d56ded1f38249f0b15d6c37c11cdf",
+    "css/clownfish-review.css": "356f9542c68dcb27a231e4164ecbfdcba158c92a96f73c7e01a286a851830b8a",
+    "css/diving.css": "d10275ebe8058d0aead836a58e3b169563c5479622d83100f7af63c4319d4b4f",
+    "css/gameplay.css": "49e3b903e30ddb88f45430d9938113ca4f0c24ace285688f06481d53defe4cfb",
+    "css/life-stage-review.css": "28ed115843b6f0e48799a35e4ae96474e1fa7b4baf40190f06fd58c263e2a830",
+    "css/livestock-animation-review.css": "2e9961517f2e97affe840a13c7d2e20bab5adb204e5373fc60e98ae1508db52a",
+    "css/main.css": "af0d20284ba0a3a04f80441dce0a7dffc5b40c8e2e4801afc7022a15b15723b5",
+    "css/rarity.css": "6349c4189a2b35326c2950cbca0b9abc8361b2850d023add346a1d26e5398d76",
+    "css/store-casino.css": "72eba925d4cd973cfeffc656af6111de1794feb49d27118af21cac2b996cfa34",
+    "css/store.css": "8b24275065a250925d31bb40cb30cf1fcb148b534fb84b45e483709f92ec82f6",
+    "css/theme.css": "f5a1ba0dea8ac7532f07b2112ff1adc73d51b060744493bc947ae463ae7988a0",
+    "css/tutorial.css": "6d6def5b713b2fdcde56bc530fc4e316da5338e7ba17146be342038615f09db1",
+    "css/ui-cleanup.css": "a0032e7c3a77f0fb759f4790390a79ddf1ceb2388b8aee66909b17688d2cd49f",
+    "css/update29.css": "1e110501233ec22fa726bac0e303a56a96265ee59e8851ad7aba374758c7cb05",
+    "css/update31.css": "9c5698b13a99cb73742e23e25667d3d4a686982c3d5cb857b83ac27d3efcd2c4",
+    "index.html": "eefe152f462e9fd86859e0c808950fe858f5a9129cd39bcd9a28a6e6436f1574"
+  }
+}

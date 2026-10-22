@@ -1,0 +1,79 @@
+{
+  "agentInspected": true,
+  "inspectionScope": "First native tissue geometry inspected; final all16-cell review still required before registration.",
+  "description": "Inspected baby hermit original attached posterior walking legs only. Complete rigid borrowed shell/spot pattern, paired eyes, long antennae and major claw plates remain canonical protected pixels. The distal-feeler area was excluded after native review to prevent disconnected fine tips. Original idle leg drawings supply motion.",
+  "polygons": [
+    [
+      [
+        74,
+        95
+      ],
+      [
+        101,
+        87
+      ],
+      [
+        121,
+        91
+      ],
+      [
+        126,
+        115
+      ],
+      [
+        73,
+        121
+      ]
+    ]
+  ],
+  "protectedPolygons": [
+    [
+      [
+        48,
+        76
+      ],
+      [
+        72,
+        65
+      ],
+      [
+        101,
+        65
+      ],
+      [
+        112,
+        76
+      ],
+      [
+        104,
+        96
+      ],
+      [
+        79,
+        99
+      ],
+      [
+        51,
+        85
+      ]
+    ],
+    [
+      [
+        102,
+        62
+      ],
+      [
+        131,
+        62
+      ],
+      [
+        131,
+        82
+      ],
+      [
+        102,
+        82
+      ]
+    ]
+  ]
+}

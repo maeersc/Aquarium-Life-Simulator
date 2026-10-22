@@ -1,0 +1,77 @@
+{
+  "baby": {
+    "meta": {
+      "speciesId": "sixline",
+      "stage": "baby",
+      "state": "alive",
+      "frame": 1,
+      "frameCount": 1,
+      "eye": {
+        "x": 165,
+        "y": 76,
+        "w": 12,
+        "h": 12
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "juvenile": {
+    "meta": {
+      "speciesId": "sixline",
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 1,
+      "eye": {
+        "x": 164,
+        "y": 78,
+        "w": 13,
+        "h": 13
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "sixline",
+      "stage": "adult",
+      "state": "alive",
+      "frame": 3,
+      "frameCount": 1,
+      "eye": {
+        "x": 162,
+        "y": 74,
+        "w": 9,
+        "h": 9
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  }
+}

@@ -1,4 +1,16 @@
-# Development status — 2026-10-20
+# Development status — 2026-10-22
+
+## Protected production distribution - 2026-10-22
+
+Current master v4.17; gameplay remains v4.3.1 with a new protected distribution pipeline. Production now minifies JS/CSS, shortens internal identifiers, uses content-derived code filenames and excludes review pages, source maps, project documentation and tooling. Human-readable game code and original assets remain untouched. Assets retain their original pixels and offline file transports; no encryption, passwords, licensing dependency, profile rewrite or save-key change is introduced. Runtime safety and the mandatory performance pass take priority over obfuscation. DISTRIBUTION_PROTECTION_REPORT.md records exact mechanisms, commands, executed tests, benchmarks and limits. All7838 executed protected browser/performance/regression assertions passed; exact results, methods and limits are in the protection report and tests/distribution-protection-evidence. Earlier build descriptions are historical where superseded.
+
+## UI polish and store quantities — 2026-10-22
+
+Playable v4.3.1 / master v4.15. The familiar aquarium layout now uses a very subtle static downward fish-scale background, opaque slate-blue panels and consistent controls. The existing guarded store supports quantities for equipment, food, consumables, ordinary medicines, rated parts and rocks. Multiple rocks enter Inventory for separate placement; sensitive livestock, unique tools and installations retain their established individual safeguards. One total charge, distinct physical IDs, capacity/stock checks, persistent receipt replay protection and local saving remain authoritative. Main schema2/tutorial2, biological simulation, economy rates, offline time and freshwater lock are unchanged. STORE_QUANTITY_RULES.md defines category behavior; UI_POLISH_QUANTITY_REPORT.md records files, actual tests and limitations. All6463 executed browser/regression assertions passed; see the current report and tests/ui-quantity-evidence for exact suites and limitations. Earlier release sections below are historical where superseded.
+
+## Performance optimization — 2026-10-22
+
+Playable v4.3.0 / master v4.14. One capped60/30FPS scheduler, independent fixed biological steps, on-demand lossless native sources, bounded caches, cached scenery, covered/hidden render suspension, changed-value HUD updates and five graphics preferences. Main schema2/tutorial2, all player assets, protected art, local saves, freshwater lock and biological/economic formulas remain intact. PERFORMANCE_SYSTEM.md and PERFORMANCE_SETTINGS_SAVE_SCHEMA.md describe runtime/persistence; AQUARIUM_LIFE_PERFORMANCE_OPTIMIZATION_REPORT.md records actual measurements and executed regressions. The31-section authority is MASTER_DEVELOPMENT_PROMPT.md, with an exact handoff copy in PROJECT_CONTINUITY_SOURCE.md. Earlier art/PDF limitations remain separate.
 
 ## Interactive saltwater tutorial loop repair - playable v4.2.1, 2026-10-21
 

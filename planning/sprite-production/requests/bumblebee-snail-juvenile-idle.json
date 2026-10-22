@@ -1,0 +1,8 @@
+{
+  "id": "bumblebee-snail",
+  "stage": "juvenile",
+  "state": "idle",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\bumblebee-snail\\juvenile.png",
+  "prompt": "Aquarium Life bumblebee-snail JUVENILE IDLE actual16-frame livestock animation sheet. Attached PNG is exact approved life-stage anatomy, scale proportions and detailed classic16-bit pixel-art identity. Bumblebee snail with black/gold banded rigid conical shell and dark muscular foot. Shell shape, band placement and eye tips remain fixed. ONLY extremely subtle crawling foot edge and tiny sensory tentacle-base changes, never bounce or rotate the shell.  IDLE sequence: nearly still resting posture with very small appendage-tip settling/feeding movements. Do not walk in this state. ONE square transparent PNG FOUR equal columns FOUR equal rows, sixteen actually authored distinct small successive poses forming a slow seamless16-to1 loop. All16 face RIGHT consistently like reference. Fixed main body center, head/eye points, scale and shell/carapace. No anatomy drift, lost/duplicated legs, disconnected antennae, additional eyes or random pattern changes. Keep long antennae/foot tips fully inside central75%eachcell, broad truly clear transparent gutters. Crisp source pixel clusters, no smoothing/blur/antialias/glow/background/checkerboard/text/grid. Never wobble the rigid shell or carapace.",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-3426cabf-40bf-4784-ab95-d948ce9ac36c.png"
+}

@@ -1,0 +1,83 @@
+{
+  "baby": {
+    "meta": {
+      "speciesId": "amphiprion-percula",
+      "variety": null,
+      "stage": "baby",
+      "state": "alive",
+      "frame": 1,
+      "frameCount": 4,
+      "frameDurationMs": 166.66666666666666,
+      "eye": {
+        "x": 170,
+        "y": 73,
+        "w": 14,
+        "h": 14
+      },
+      "nativeFacing": 1,
+      "anchor": [
+        96,
+        80
+      ],
+      "facingBehavior": "mirrored side profile; asymmetric individual markings provisional",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "juvenile": {
+    "meta": {
+      "speciesId": "amphiprion-percula",
+      "variety": null,
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 4,
+      "frameDurationMs": 166.66666666666666,
+      "eye": {
+        "x": 162,
+        "y": 83,
+        "w": 14,
+        "h": 14
+      },
+      "nativeFacing": 1,
+      "anchor": [
+        96,
+        80
+      ],
+      "facingBehavior": "mirrored side profile; asymmetric individual markings provisional",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "amphiprion-percula",
+      "variety": null,
+      "stage": "adult",
+      "state": "alive",
+      "frame": 8,
+      "frameCount": 4,
+      "frameDurationMs": 166.66666666666666,
+      "eye": {
+        "x": 150,
+        "y": 70,
+        "w": 11,
+        "h": 11
+      },
+      "nativeFacing": 1,
+      "anchor": [
+        96,
+        80
+      ],
+      "facingBehavior": "mirrored side profile; asymmetric individual markings provisional",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  }
+}

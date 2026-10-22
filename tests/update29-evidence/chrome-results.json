@@ -1,0 +1,168 @@
+{
+  "passed": 412,
+  "failed": 0,
+  "logic": {
+    "passed": 373,
+    "failed": 0
+  },
+  "ui": [
+    {
+      "name": "Freshwater new-game route is actually disabled",
+      "pass": true
+    },
+    {
+      "name": "Start New Game displays the twelve-step saltwater tutorial",
+      "pass": true
+    },
+    {
+      "name": "Seven authorized sidebar windows including Dock Casino remain",
+      "pass": true
+    },
+    {
+      "name": "Tutorial Next and Back navigate saved objectives",
+      "pass": true
+    },
+    {
+      "name": "Skipped guide does not block normal gameplay",
+      "pass": true
+    },
+    {
+      "name": "Settings Resume Tutorial restores the prior step",
+      "pass": true
+    },
+    {
+      "name": "Settings Restart Tutorial starts at the welcome lesson",
+      "pass": true
+    },
+    {
+      "name": "Medical lesson uses an example and explains symptoms, diagnostics, quarantine and legitimate medicine",
+      "pass": true
+    },
+    {
+      "name": "Show me opens Disease & Treatment Guide and highlights a real control",
+      "pass": true
+    },
+    {
+      "name": "Actual browser reload preserves tutorial step and skip state",
+      "pass": true
+    },
+    {
+      "name": "Click/inspection immediately shows the selection outline",
+      "pass": true
+    },
+    {
+      "name": "Reclicking the same creature restarts the three-second timer",
+      "pass": true
+    },
+    {
+      "name": "Selection expires after three seconds while inspector stays open",
+      "pass": true
+    },
+    {
+      "name": "Changing aquariums clears the old outline immediately",
+      "pass": true
+    },
+    {
+      "name": "Freshwater store tab is disabled with the coming-update explanation",
+      "pass": true
+    },
+    {
+      "name": "Deep Market is inside Aquarium Store and retains selected destination",
+      "pass": true
+    },
+    {
+      "name": "Closing/reopening store preserves the destination and eight fish slots",
+      "pass": true
+    },
+    {
+      "name": "Mystery Bottom-Dweller Egg visibly explains the Legendary pool hold",
+      "pass": true
+    },
+    {
+      "name": "Mystery Coral details show all six exact odds and safe destination",
+      "pass": true
+    },
+    {
+      "name": "Mystery Coral asks the player to place it before purchase",
+      "pass": true
+    },
+    {
+      "name": "Actual placement click buys one coral at its chosen valid mount",
+      "pass": true
+    },
+    {
+      "name": "Saltwater leaderboard is explicitly a local asset-value preview",
+      "pass": true
+    },
+    {
+      "name": "Freshwater leaderboard is accessible only as a locked preview",
+      "pass": true
+    },
+    {
+      "name": "Tank History explains separate rewards and recovery",
+      "pass": true
+    },
+    {
+      "name": "Large tank configuration keeps freshwater disabled and shows exact marine price",
+      "pass": true
+    },
+    {
+      "name": "Real tank purchase creates the exact empty 15,000-gallon system",
+      "pass": true
+    },
+    {
+      "name": "First achievement has implemented requirements and no free unearned reward",
+      "pass": true
+    },
+    {
+      "name": "Achievement claim grants its real quest reward exactly once",
+      "pass": true
+    },
+    {
+      "name": "Leaderboard preview fits viewport width 390",
+      "pass": true
+    },
+    {
+      "name": "Leaderboard preview fits viewport width 768",
+      "pass": true
+    },
+    {
+      "name": "Leaderboard preview fits viewport width 1366",
+      "pass": true
+    },
+    {
+      "name": "Leaderboard preview fits viewport width 1920",
+      "pass": true
+    },
+    {
+      "name": "Live aquarium remains visible at 390 by 844",
+      "pass": true
+    },
+    {
+      "name": "Live aquarium remains visible at 764 by 485",
+      "pass": true
+    },
+    {
+      "name": "Live aquarium remains visible at 1366 by 900",
+      "pass": true
+    },
+    {
+      "name": "New standalone art gallery loads all 35 sheets offline",
+      "pass": true
+    },
+    {
+      "name": "Gallery supports developmental states and whole-sprite left-facing review",
+      "pass": true
+    },
+    {
+      "name": "No unhandled browser exceptions during acceptance flows",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "No external HTTP traffic or remote save requests",
+      "pass": true,
+      "requests": []
+    }
+  ]
+}

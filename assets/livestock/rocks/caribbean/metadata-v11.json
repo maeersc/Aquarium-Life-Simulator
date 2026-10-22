@@ -1,0 +1,52 @@
+{
+  "id": "caribbean",
+  "name": "Caribbean reef limestone",
+  "family": "rocks",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "frames": 4,
+  "frameDurationMs": 1250,
+  "atlas": "assets/livestock/rocks/caribbean/atlas-v11.png",
+  "bounds": [
+    [
+      37,
+      97,
+      155,
+      184
+    ],
+    [
+      26,
+      76,
+      165,
+      184
+    ],
+    [
+      10,
+      71,
+      182,
+      184
+    ],
+    [
+      9,
+      74,
+      183,
+      184
+    ]
+  ],
+  "anchor": [
+    96,
+    184
+  ],
+  "variants": [
+    "small",
+    "medium",
+    "large",
+    "arch"
+  ],
+  "facingBehavior": "stationary",
+  "layer": "hardscape",
+  "material": "reef-limestone",
+  "chemistryEffects": "none assigned by this art update"
+}

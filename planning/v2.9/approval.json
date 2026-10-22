@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-14",
+  "scope": "Saltwater-only v2.9",
+  "rosterApproved": true,
+  "raritiesApproved": true,
+  "implementationAuthorized": true,
+  "artworkApproved": false,
+  "basis": "User answered yes to: Do you approve this roster and its rarities?",
+  "candidateBatch": "v2.9-proposal-1",
+  "speciesCount": 35,
+  "implementationGate": "Satisfied; saltwater-only scope preserved.",
+  "implementationAuthorization": "User explicitly requested: Implement v2.9",
+  "implementationDate": "2026-10-14"
+}

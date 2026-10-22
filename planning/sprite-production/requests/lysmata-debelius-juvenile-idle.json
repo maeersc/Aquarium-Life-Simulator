@@ -1,0 +1,8 @@
+{
+  "id": "lysmata-debelius",
+  "stage": "juvenile",
+  "state": "idle",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\lysmata-debelius\\juvenile.png",
+  "prompt": "Aquarium Life lysmata-debelius JUVENILE IDLE actual16-frame pixel livestock sheet. Attached PNG is the exact approved stage anatomy, proportions, markings and detailed classic16-bit pixel-art identity. Vivid red fire shrimp with discrete fixed white spots and pale antenna/leg tips. Lock trunk/head eyes. Very small attached leg and antenna-tip changes only. IDLE: nearly still resting posture, tiny distal appendage settling/feeding movements, no walking. ONE square transparent PNG FOUR equal columns FOUR equal rows, sixteen actually authored distinct small successive poses forming a slow seamless16-to1 loop. All16 face RIGHT consistently like reference. Fixed main body center, head/eye points, scale and shell/carapace. No anatomy drift, lost/duplicated legs, disconnected antennae, additional eyes or random pattern changes. Keep long antennae/foot tips fully inside central75%eachcell, broad truly clear transparent gutters. Crisp source pixel clusters, no smoothing/blur/antialias/glow/background/checkerboard/text/grid. Never wobble the rigid shell or carapace.",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-23b67ec1-46d9-4288-a1ef-785162ab1456.png"
+}

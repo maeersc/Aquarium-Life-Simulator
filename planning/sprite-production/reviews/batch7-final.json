@@ -1,0 +1,44 @@
+[
+  {
+    "id": "centropyge-acanthops",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the original developing source. Existing translucent body, pigment/yolk, fin development and single large iris remain stage appropriate, with tiny existing caudal/fin-tip changes and complete margins. No miniature adult substitution; original early-stage policy retained.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-potteri",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the original developing source. Existing translucent body, pigment/yolk, fin development and single large iris remain stage appropriate, with tiny existing caudal/fin-tip changes and complete margins. No miniature adult substitution; original early-stage policy retained.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-joculator",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the original developing source. Existing translucent body, pigment/yolk, fin development and single large iris remain stage appropriate, with tiny existing caudal/fin-tip changes and complete margins. No miniature adult substitution; original early-stage policy retained.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-potteri",
+    "stage": "adult",
+    "notes": "All sixteen native adult cells inspected: orange disc body, distinctive irregular blue vertical bands, dark blue caudal and fine fin edging retain the source identity. Fixed single front iris, stable fin roots and modest pectoral/caudal corrections; no clipped outlines.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-joculator",
+    "stage": "adult",
+    "notes": "All sixteen native cells inspected: yellow front, blue rear disc and yellow caudal preserve the reference color boundary and stage identity. Single blue-rimmed iris stays visible; attached pectoral and small tail-tip adjustments retain complete dorsal/anal outlines and clear margins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "centropyge-joculator",
+    "stage": "juvenile",
+    "notes": "All sixteen native cells inspected: yellow front, blue rear disc and yellow caudal preserve the reference color boundary and stage identity. Single blue-rimmed iris stays visible; attached pectoral and small tail-tip adjustments retain complete dorsal/anal outlines and clear margins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  }
+]

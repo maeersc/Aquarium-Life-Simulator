@@ -1,0 +1,2571 @@
+{
+  "passed": 342,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Original destinations retained and seven new reef selections registered",
+      "pass": true
+    },
+    {
+      "name": "indonesia: reachable region-correct mystery capture returns and can be received",
+      "pass": true
+    },
+    {
+      "name": "philippines: reachable region-correct mystery capture returns and can be received",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka: reachable region-correct mystery capture returns and can be received",
+      "pass": true
+    },
+    {
+      "name": "marshall: reachable region-correct mystery capture returns and can be received",
+      "pass": true
+    },
+    {
+      "name": "maldives: reachable region-correct mystery capture returns and can be received",
+      "pass": true
+    },
+    {
+      "name": "australia: reachable region-correct mystery capture returns and can be received",
+      "pass": true
+    },
+    {
+      "name": "florida: reachable region-correct mystery capture returns and can be received",
+      "pass": true
+    },
+    {
+      "name": "Mariana only permits deep; wrong mode costs nothing",
+      "pass": true
+    },
+    {
+      "name": "Mariana deep is remote, costs 10,000 and cannot generate live creatures or eggs",
+      "pass": true
+    },
+    {
+      "name": "Mariana drone uses original 5% movement and returns nonliving salvage",
+      "pass": true
+    },
+    {
+      "name": "Approved life-stage weights total 100 and all stages generate for settled clownfish",
+      "pass": true
+    },
+    {
+      "name": "Unverified baby habitats never generate baby catches",
+      "pass": true
+    },
+    {
+      "name": "Catch identity, stage, age, size and genetics persist before and after receipt",
+      "pass": true
+    },
+    {
+      "name": "Independent health assessment 0 is stable and uses valid host conditions",
+      "pass": true
+    },
+    {
+      "name": "Independent health assessment 12 is stable and uses valid host conditions",
+      "pass": true
+    },
+    {
+      "name": "Independent health assessment 20 is stable and uses valid host conditions",
+      "pass": true
+    },
+    {
+      "name": "Independent health assessment 30 is stable and uses valid host conditions",
+      "pass": true
+    },
+    {
+      "name": "Independent health assessment 45 is stable and uses valid host conditions",
+      "pass": true
+    },
+    {
+      "name": "Independent health assessment 85 is stable and uses valid host conditions",
+      "pass": true
+    },
+    {
+      "name": "chalk-bass: emergency quote uses actual host condition and centralized 25% valuation",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus: emergency quote uses actual host condition and centralized 25% valuation",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab: emergency quote uses actual host condition and centralized 25% valuation",
+      "pass": true
+    },
+    {
+      "name": "Emergency sale needs no suitable receiver, changes no selected tank or market reputation, credits once",
+      "pass": true
+    },
+    {
+      "name": "No-aquarium emergency service quote and liquidation work independently of tank data",
+      "pass": true
+    },
+    {
+      "name": "Dead-on-arrival fish have no emergency value",
+      "pass": true
+    },
+    {
+      "name": "Sale confirmation and exact offer are enforced atomically",
+      "pass": true
+    },
+    {
+      "name": "Received livestock cannot use Emergency Sale",
+      "pass": true
+    },
+    {
+      "name": "Sale survives save/load and old snapshot cannot reclaim settled livestock",
+      "pass": true
+    },
+    {
+      "name": "Diving rock prices vary by product, size and condition; buyback never exceeds product retail",
+      "pass": true
+    },
+    {
+      "name": "Collected rock sale removes only rock and records one ledger income with expedition identity",
+      "pass": true
+    },
+    {
+      "name": "Egg generation has a separate configurable 3% roll and only a valid attached egg pool",
+      "pass": true
+    },
+    {
+      "name": "Eggs return unknown, keep fixed genetics/identity and never develop in inventory",
+      "pass": true
+    },
+    {
+      "name": "Invalid egg receivers list explicit failures instead of hiding tanks",
+      "pass": true
+    },
+    {
+      "name": "Prepared incubation receives one same-identity hidden egg with fixed genetics and support",
+      "pass": true
+    },
+    {
+      "name": "Incubation safety rejects predators, excessive flow and absent filtration",
+      "pass": true
+    },
+    {
+      "name": "Hatch reveals once, transfers genetics/provenance and updates Field Journal",
+      "pass": true
+    },
+    {
+      "name": "Freshwater remains locked and game clock stays 20 real minutes per day",
+      "pass": true
+    },
+    {
+      "name": "Emergency resale and healthy receiving use the same assessed health and value",
+      "pass": true
+    },
+    {
+      "name": "Protected species rules block emergency liquidation",
+      "pass": true
+    },
+    {
+      "name": "Regular resale retains exactly 60% of Deep reference and Deep wanted/reputation restrictions",
+      "pass": true
+    },
+    {
+      "name": "Rock keeps its unique identity and provenance across placement, safe removal and sale",
+      "pass": true
+    },
+    {
+      "name": "Supporting rocks cannot be removed or sold while a coral is attached",
+      "pass": true
+    },
+    {
+      "name": "Save/load preserves sold-rock receipt and prevents replayed placed-rock ownership",
+      "pass": true
+    },
+    {
+      "name": "Store-bought rocks cannot be passed off as recovered rocks for repeated AC",
+      "pass": true
+    },
+    {
+      "name": "Egg identity cannot be rerolled by changing species, region or clutch ID in an active save",
+      "pass": true
+    },
+    {
+      "name": "Received eggs cannot be received twice before or after save/load",
+      "pass": true
+    },
+    {
+      "name": "Hidden egg inspection never shows species, rarity or expected value",
+      "pass": true
+    },
+    {
+      "name": "Unsuitable incubation pauses development and reduces viability",
+      "pass": true
+    },
+    {
+      "name": "Temporary eggs have a finite deadline and cannot hatch in holding",
+      "pass": true
+    },
+    {
+      "name": "Egg support removal and incubation failure retain an explicit failed report",
+      "pass": true
+    },
+    {
+      "name": "Live and equivalent catch-up steps produce identical incubation and saved fish state",
+      "pass": true
+    },
+    {
+      "name": "New registry mode restrictions do not alter original 8-slot transport limit",
+      "pass": true
+    },
+    {
+      "name": "A living zero-value emergency offer records exactly one zero-AC receipt",
+      "pass": true
+    },
+    {
+      "name": "Pending baby catches require a protected receiver and fine food",
+      "pass": true
+    },
+    {
+      "name": "Abandoned eggs stay unidentified and never become owned broods",
+      "pass": true
+    },
+    {
+      "name": "A properly provisioned incubator completes the full unmodified 168-hour development",
+      "pass": true
+    },
+    {
+      "name": "Old pending fish without individual snapshots migrate once without price or genetics rerolls",
+      "pass": true
+    },
+    {
+      "name": "Future fish profiles without stage metadata still use shared capture/receiving safely",
+      "pass": true
+    },
+    {
+      "name": "Old captured active trips migrate to stable adults, resume oxygen and retain the simulation seed",
+      "pass": true
+    },
+    {
+      "name": "UI: Emergency Sale remains enabled with all tanks unsafe",
+      "pass": true
+    },
+    {
+      "name": "UI: explicit exact-offer confirmation before sale",
+      "pass": true
+    },
+    {
+      "name": "UI: actual confirmed sale records one receipt and clears specimen",
+      "pass": true
+    },
+    {
+      "name": "UI: selling/results window keeps the main aquarium clock running",
+      "pass": true
+    },
+    {
+      "name": "UI: unknown egg is concealed after boat return",
+      "pass": true
+    },
+    {
+      "name": "UI: 1920x1080 has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "UI: 1600x900 has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "UI: 1366x768 has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "UI: 390x844 has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Actual browser reload retains one unknown egg",
+      "pass": true
+    },
+    {
+      "name": "UI: actual Mariana map shows drone battery rather than a scuba oxygen HUD",
+      "pass": true
+    },
+    {
+      "name": "UI: correct location selector entries for reef",
+      "pass": true
+    },
+    {
+      "name": "UI: correct location selector entries for deep",
+      "pass": true
+    },
+    {
+      "name": "No uncaught JavaScript errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "All runtime resources remain offline",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Two original modes and all original authorized regions are retained",
+      "pass": true
+    },
+    {
+      "name": "Legacy: reef: locked one saved Keeper level below threshold",
+      "pass": true
+    },
+    {
+      "name": "Legacy: reef: unlocks exactly at threshold and charges the fixed total once",
+      "pass": true
+    },
+    {
+      "name": "Legacy: reef: rental breakdown sums to fixed total",
+      "pass": true
+    },
+    {
+      "name": "Legacy: deep: locked one saved Keeper level below threshold",
+      "pass": true
+    },
+    {
+      "name": "Legacy: deep: unlocks exactly at threshold and charges the fixed total once",
+      "pass": true
+    },
+    {
+      "name": "Legacy: deep: rental breakdown sums to fixed total",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Launch needs explicit confirmation, funds and available destination",
+      "pass": true
+    },
+    {
+      "name": "Legacy: An active expedition cannot launch or charge a second trip",
+      "pass": true
+    },
+    {
+      "name": "Legacy: fiji reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: fiji deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: caribbean reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: caribbean deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: hawaii reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: hawaii deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: japan reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: japan deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: indonesia reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: indonesia deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: philippines reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: philippines deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: sri-lanka reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: sri-lanka deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: marshall reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: marshall deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: maldives reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: maldives deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: australia reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: australia deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: florida reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: florida deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: mariana reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: mariana deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Incorrect-region livestock is rejected during save validation",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Hawaii wildlife is observation-only regardless of game rarity",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Every encounter profile has science, care, art, source, conservation and health/holding metadata",
+      "pass": true
+    },
+    {
+      "name": "Legacy: A successful movement consumes exactly five percentage points",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Blocked terrain consumes no oxygen and cannot move the diver",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Clicking/collecting a nearby rock costs no oxygen and no permanent reward yet",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Out-of-range discovery clicks cannot collect across the map",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Eight actual nearby collections fill exactly eight slots; overflow is rejected",
+      "pass": true
+    },
+    {
+      "name": "Legacy: The compact map is winnable by collecting and physically returning with oxygen",
+      "pass": true
+    },
+    {
+      "name": "Legacy: A returned rock can be installed once through owned inventory without extra payment",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Twenty successful steps away from the boat exhaust oxygen, forfeit items and do not refund",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Abandonment requires explicit confirmation and cannot bypass forfeiture",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Save/load restores active position, oxygen, rental cost, transaction and temporary identities",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Repeated settlement of a returned trip cannot award items twice",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Reef/deep filters do not hatch corals or invertebrates from fish Mystery Eggs",
+      "pass": true
+    },
+    {
+      "name": "Legacy: chalk-bass: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "Legacy: candy-basslet: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "Legacy: pavona-cactus: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "Legacy: porcelain-anemone-crab: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "Legacy: blotched-anthias: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Concealed capture defers the safe receiver requirement until boat return",
+      "pass": true
+    },
+    {
+      "name": "Legacy: An unsafe receiver after return blocks delivery without inserting an unsafe animal",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Transported specimens expire instead of living indefinitely in non-biological inventory",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Every normal direct upper-tier purchase is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Confirmed high-tier Deep Market purchase pays the saved dealer quote and awards bounded reputation",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Opening, canceled or failed Deep Market actions cannot award reputation",
+      "pass": true
+    },
+    {
+      "name": "Legacy: All Mystery Egg percentages remain exactly unchanged and all six pools remain populated",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Daily fish store still contains exactly 3/3/1 plus one Mystery Egg",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Tank and equipment capacities remain physical liters while nominal gallons ceil",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Freshwater roster and plants remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "Legacy: Existing saves migrate diving additively without replacing wallet, selected tank, listings or livestock",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Registry: every current diving ID resolves uniquely with complete host-specific requirements",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Malformed future transport metadata is reported and cannot create a NaN holding deadline",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / caribbean / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / caribbean / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / caribbean / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / caribbean / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / caribbean / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / caribbean / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / caribbean / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / caribbean / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / florida / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / florida / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / florida / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / florida / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / florida / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / florida / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / florida / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: chalk-bass / florida / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: candy-basslet / caribbean / deep: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: candy-basslet / caribbean / deep: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: candy-basslet / caribbean / deep: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: candy-basslet / caribbean / deep: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: candy-basslet / caribbean / deep: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: candy-basslet / caribbean / deep: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: candy-basslet / caribbean / deep: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: candy-basslet / caribbean / deep: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus / fiji / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus / fiji / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus / fiji / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus / fiji / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus / fiji / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus / fiji / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus / fiji / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus / fiji / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab / japan / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab / japan / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab / japan / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab / japan / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab / japan / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab / japan / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab / japan / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab / japan / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: blotched-anthias / japan / deep: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: blotched-anthias / japan / deep: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: blotched-anthias / japan / deep: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: blotched-anthias / japan / deep: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: blotched-anthias / japan / deep: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: blotched-anthias / japan / deep: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: blotched-anthias / japan / deep: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: blotched-anthias / japan / deep: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: spotted-boxfish / japan / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: spotted-boxfish / japan / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: spotted-boxfish / japan / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: spotted-boxfish / japan / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: spotted-boxfish / japan / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: spotted-boxfish / japan / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: spotted-boxfish / japan / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: spotted-boxfish / japan / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / deep: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / deep: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / deep: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / deep: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / deep: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / deep: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / deep: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / fiji / deep: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / indonesia / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / indonesia / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / indonesia / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / indonesia / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / indonesia / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / indonesia / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / indonesia / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / indonesia / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / philippines / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / philippines / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / philippines / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / philippines / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / philippines / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / philippines / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / philippines / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / philippines / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / sri-lanka / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / sri-lanka / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / sri-lanka / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / sri-lanka / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / sri-lanka / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / sri-lanka / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / sri-lanka / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / sri-lanka / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / marshall / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / marshall / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / marshall / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / marshall / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / marshall / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / marshall / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / marshall / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / marshall / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / maldives / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / maldives / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / maldives / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / maldives / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / maldives / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / maldives / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / maldives / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / maldives / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / australia / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / australia / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / australia / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / australia / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / australia / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / australia / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / australia / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: forcipiger-flavissimus / australia / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: exquisite-fairy-wrasse / fiji / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: exquisite-fairy-wrasse / fiji / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: exquisite-fairy-wrasse / fiji / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: exquisite-fairy-wrasse / fiji / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: exquisite-fairy-wrasse / fiji / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: exquisite-fairy-wrasse / fiji / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: exquisite-fairy-wrasse / fiji / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: exquisite-fairy-wrasse / fiji / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / indonesia / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / indonesia / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / indonesia / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / indonesia / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / indonesia / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / indonesia / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / indonesia / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / indonesia / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / philippines / reef: safe return stays pending until explicit common receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / philippines / reef: valid destination grants one correct individual with retained identity/health/value",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / philippines / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / philippines / reef: saved received health/genetics/placement cannot duplicate",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / philippines / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / philippines / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / philippines / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: clown / philippines / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus: DOA logs correct host and preserves unknown physiology in the same permanent journal",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus: finite offline holding expiry is neither disappearance nor duplicate receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus: compatible host-specific quarantine accepts through the same authority",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: pavona-cactus: local receipt blocks an older pending save from granting another copy",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab: DOA logs correct host and preserves unknown physiology in the same permanent journal",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab: finite offline holding expiry is neither disappearance nor duplicate receiving",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab: compatible host-specific quarantine accepts through the same authority",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: porcelain-anemone-crab: local receipt blocks an older pending save from granting another copy",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Coral uses its own 24\u201328C range, not the fish 24\u201327C range",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Existing valid rock tops are discovered without requiring an unnecessary coral rack",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: A removed coral mount rejects transfer without loss; a newly chosen valid rock mount receives safely",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Pre-upgrade active non-fish transport snapshots with collected=false resume without losing their specimen",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Coral rejects missing mount, low light, low minerals and insufficient species flow individually",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Invertebrates require their own oxygen >=6, not the fish >=5.5 threshold",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Coral-only quarantine blocks fish/invertebrate occupants and restricted medicines",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Missing and ambiguous species IDs are rejected explicitly rather than mapped to invertebrates",
+      "pass": true
+    },
+    {
+      "name": "Shared receiving: Future registered host definitions automatically use the shared receiving service",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: fiji reef: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: fiji deep: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: caribbean reef: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: caribbean deep: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: japan reef: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: japan deep: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Observation-only Hawaii reef blocks before cost, random draw or trip creation",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Observation-only Hawaii deep blocks before cost, random draw or trip creation",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Empty collectible fish pool blocks otherwise available region explicitly",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Fiji pool contains only approved implemented Fiji fish at survey depth",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Guaranteed Fiji selection is uniform among two fish rather than the egg rarity percentages",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: A mystery is not captured from beyond one Manhattan cell",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Full eight-slot inventory rejects the guaranteed mystery fish without discarding existing finds",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Incompatible survey depth removes a fish from both eligibility and guaranteed selection",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Capture consumes one temporary slot, zero oxygen and no permanent ownership; duplicate rejected",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Active save retains exact mystery identity, position, oxygen, capture and RNG",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Invalid guarantee location and non-mystery fish are rejected on import",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Boat return reveals identity once but grants no automatic animal",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Pending reveal and precommitted survival assessment survive repeated reloads without RNG changes",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Another launch cannot discard pending recovery",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: An unsafe receiver is rejected atomically after reveal rather than auto killing or inserting fish",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Missing receiver is rejected; switching the selected aquarium never chooses a receiver automatically",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Player can choose another safe receiver while the selected aquarium remains unchanged",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Alive, healthy: explicit compatible recovery creates one real animal with source and destination",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Alive, stressed: explicit compatible recovery creates one real animal with source and destination",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Alive, severely compromised: explicit compatible recovery creates one real animal with source and destination",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Alive, parasite/infection suspected: explicit compatible recovery creates one real animal with source and destination",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Failed survival assessment records permanent evidence without invented water or an owned animal",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Pending transport expires during shared offline progression and logs exact deadline only once",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Actual offline catch-up matches continuous recovery expiry and reports it once across repeated logins",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Transport mortality journal is isolated by account",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Expired specimen on return still reveals only at boat, then records transport expiry at its actual deadline",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Release requires confirmation and never invents a death or ownership",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Repeated explicit recovery cannot duplicate ownership",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Local recovery receipt prevents replaying an earlier pending save",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Abandonment conceals name, rarity and value even after capture",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Oxygen exhaustion forfeits captured mystery fish without revealing or granting them",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Legacy active trip loads unchanged without assigning or rerolling a new fish",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Generic silhouette is deterministic without consuming simulation RNG",
+      "pass": true
+    },
+    {
+      "name": "Mystery regression: Freshwater remains locked and 20-minute day is unchanged",
+      "pass": true
+    }
+  ],
+  "legacy": [
+    {
+      "name": "Two original modes and all original authorized regions are retained",
+      "pass": true
+    },
+    {
+      "name": "reef: locked one saved Keeper level below threshold",
+      "pass": true
+    },
+    {
+      "name": "reef: unlocks exactly at threshold and charges the fixed total once",
+      "pass": true
+    },
+    {
+      "name": "reef: rental breakdown sums to fixed total",
+      "pass": true
+    },
+    {
+      "name": "deep: locked one saved Keeper level below threshold",
+      "pass": true
+    },
+    {
+      "name": "deep: unlocks exactly at threshold and charges the fixed total once",
+      "pass": true
+    },
+    {
+      "name": "deep: rental breakdown sums to fixed total",
+      "pass": true
+    },
+    {
+      "name": "Launch needs explicit confirmation, funds and available destination",
+      "pass": true
+    },
+    {
+      "name": "An active expedition cannot launch or charge a second trip",
+      "pass": true
+    },
+    {
+      "name": "fiji reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "fiji deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "caribbean reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "caribbean deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "hawaii reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "hawaii deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "japan reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "japan deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "indonesia reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "indonesia deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "philippines reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "philippines deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "sri-lanka deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "marshall reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "marshall deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "maldives reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "maldives deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "australia reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "australia deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "florida reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "florida deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "mariana reef: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "mariana deep: every generated encounter obeys region, habitat and depth whitelist",
+      "pass": true
+    },
+    {
+      "name": "Incorrect-region livestock is rejected during save validation",
+      "pass": true
+    },
+    {
+      "name": "Hawaii wildlife is observation-only regardless of game rarity",
+      "pass": true
+    },
+    {
+      "name": "Every encounter profile has science, care, art, source, conservation and health/holding metadata",
+      "pass": true
+    },
+    {
+      "name": "A successful movement consumes exactly five percentage points",
+      "pass": true
+    },
+    {
+      "name": "Blocked terrain consumes no oxygen and cannot move the diver",
+      "pass": true
+    },
+    {
+      "name": "Clicking/collecting a nearby rock costs no oxygen and no permanent reward yet",
+      "pass": true
+    },
+    {
+      "name": "Out-of-range discovery clicks cannot collect across the map",
+      "pass": true
+    },
+    {
+      "name": "Eight actual nearby collections fill exactly eight slots; overflow is rejected",
+      "pass": true
+    },
+    {
+      "name": "The compact map is winnable by collecting and physically returning with oxygen",
+      "pass": true
+    },
+    {
+      "name": "A returned rock can be installed once through owned inventory without extra payment",
+      "pass": true
+    },
+    {
+      "name": "Twenty successful steps away from the boat exhaust oxygen, forfeit items and do not refund",
+      "pass": true
+    },
+    {
+      "name": "Abandonment requires explicit confirmation and cannot bypass forfeiture",
+      "pass": true
+    },
+    {
+      "name": "Save/load restores active position, oxygen, rental cost, transaction and temporary identities",
+      "pass": true
+    },
+    {
+      "name": "Repeated settlement of a returned trip cannot award items twice",
+      "pass": true
+    },
+    {
+      "name": "Reef/deep filters do not hatch corals or invertebrates from fish Mystery Eggs",
+      "pass": true
+    },
+    {
+      "name": "chalk-bass: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "candy-basslet: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "blotched-anthias: recovery assessment persists and a surviving specimen uses a compatible biological receiver",
+      "pass": true
+    },
+    {
+      "name": "Concealed capture defers the safe receiver requirement until boat return",
+      "pass": true
+    },
+    {
+      "name": "An unsafe receiver after return blocks delivery without inserting an unsafe animal",
+      "pass": true
+    },
+    {
+      "name": "Transported specimens expire instead of living indefinitely in non-biological inventory",
+      "pass": true
+    },
+    {
+      "name": "Every normal direct upper-tier purchase is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "Confirmed high-tier Deep Market purchase pays the saved dealer quote and awards bounded reputation",
+      "pass": true
+    },
+    {
+      "name": "Opening, canceled or failed Deep Market actions cannot award reputation",
+      "pass": true
+    },
+    {
+      "name": "All Mystery Egg percentages remain exactly unchanged and all six pools remain populated",
+      "pass": true
+    },
+    {
+      "name": "Daily fish store still contains exactly 3/3/1 plus one Mystery Egg",
+      "pass": true
+    },
+    {
+      "name": "Tank and equipment capacities remain physical liters while nominal gallons ceil",
+      "pass": true
+    },
+    {
+      "name": "Freshwater roster and plants remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "Existing saves migrate diving additively without replacing wallet, selected tank, listings or livestock",
+      "pass": true
+    }
+  ],
+  "sharedReceiving": {
+    "checks": [
+      {
+        "name": "Registry: every current diving ID resolves uniquely with complete host-specific requirements",
+        "pass": true
+      },
+      {
+        "name": "Malformed future transport metadata is reported and cannot create a NaN holding deadline",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / caribbean / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / caribbean / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / caribbean / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / caribbean / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / caribbean / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / caribbean / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / caribbean / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / caribbean / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / florida / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / florida / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / florida / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / florida / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / florida / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / florida / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / florida / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "chalk-bass / florida / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "candy-basslet / caribbean / deep: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "candy-basslet / caribbean / deep: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "candy-basslet / caribbean / deep: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "candy-basslet / caribbean / deep: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "candy-basslet / caribbean / deep: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "candy-basslet / caribbean / deep: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "candy-basslet / caribbean / deep: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "candy-basslet / caribbean / deep: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus / fiji / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus / fiji / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus / fiji / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus / fiji / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus / fiji / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus / fiji / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus / fiji / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus / fiji / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab / japan / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab / japan / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab / japan / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab / japan / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab / japan / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab / japan / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab / japan / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab / japan / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "blotched-anthias / japan / deep: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "blotched-anthias / japan / deep: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "blotched-anthias / japan / deep: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "blotched-anthias / japan / deep: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "blotched-anthias / japan / deep: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "blotched-anthias / japan / deep: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "blotched-anthias / japan / deep: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "blotched-anthias / japan / deep: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "spotted-boxfish / japan / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "spotted-boxfish / japan / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "spotted-boxfish / japan / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "spotted-boxfish / japan / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "spotted-boxfish / japan / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "spotted-boxfish / japan / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "spotted-boxfish / japan / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "spotted-boxfish / japan / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / deep: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / deep: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / deep: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / deep: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / deep: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / deep: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / deep: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / fiji / deep: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / indonesia / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / indonesia / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / indonesia / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / indonesia / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / indonesia / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / indonesia / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / indonesia / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / indonesia / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / philippines / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / philippines / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / philippines / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / philippines / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / philippines / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / philippines / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / philippines / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / philippines / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / sri-lanka / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / sri-lanka / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / sri-lanka / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / sri-lanka / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / sri-lanka / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / sri-lanka / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / sri-lanka / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / sri-lanka / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / marshall / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / marshall / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / marshall / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / marshall / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / marshall / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / marshall / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / marshall / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / marshall / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / maldives / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / maldives / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / maldives / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / maldives / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / maldives / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / maldives / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / maldives / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / maldives / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / australia / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / australia / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / australia / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / australia / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / australia / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / australia / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / australia / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "forcipiger-flavissimus / australia / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "exquisite-fairy-wrasse / fiji / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "exquisite-fairy-wrasse / fiji / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "exquisite-fairy-wrasse / fiji / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "exquisite-fairy-wrasse / fiji / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "exquisite-fairy-wrasse / fiji / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "exquisite-fairy-wrasse / fiji / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "exquisite-fairy-wrasse / fiji / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "exquisite-fairy-wrasse / fiji / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "clown / indonesia / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "clown / indonesia / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "clown / indonesia / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "clown / indonesia / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "clown / indonesia / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "clown / indonesia / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "clown / indonesia / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "clown / indonesia / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "clown / philippines / reef: safe return stays pending until explicit common receiving",
+        "pass": true
+      },
+      {
+        "name": "clown / philippines / reef: valid destination grants one correct individual with retained identity/health/value",
+        "pass": true
+      },
+      {
+        "name": "clown / philippines / reef: unsafe transfer blocks atomically, remains pending and retains expiry",
+        "pass": true
+      },
+      {
+        "name": "clown / philippines / reef: saved received health/genetics/placement cannot duplicate",
+        "pass": true
+      },
+      {
+        "name": "clown / philippines / reef: all owned destinations are explained for 20/80/661 gal and freshwater",
+        "pass": true
+      },
+      {
+        "name": "clown / philippines / reef: host-appropriate saved condition draw 5 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "clown / philippines / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "clown / philippines / reef: host-appropriate saved condition draw 40 transfers without invalid health fields",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus: DOA logs correct host and preserves unknown physiology in the same permanent journal",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus: finite offline holding expiry is neither disappearance nor duplicate receiving",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus: compatible host-specific quarantine accepts through the same authority",
+        "pass": true
+      },
+      {
+        "name": "pavona-cactus: local receipt blocks an older pending save from granting another copy",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab: DOA logs correct host and preserves unknown physiology in the same permanent journal",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab: finite offline holding expiry is neither disappearance nor duplicate receiving",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab: compatible host-specific quarantine accepts through the same authority",
+        "pass": true
+      },
+      {
+        "name": "porcelain-anemone-crab: local receipt blocks an older pending save from granting another copy",
+        "pass": true
+      },
+      {
+        "name": "Coral uses its own 24\u201328C range, not the fish 24\u201327C range",
+        "pass": true
+      },
+      {
+        "name": "Existing valid rock tops are discovered without requiring an unnecessary coral rack",
+        "pass": true
+      },
+      {
+        "name": "A removed coral mount rejects transfer without loss; a newly chosen valid rock mount receives safely",
+        "pass": true
+      },
+      {
+        "name": "Pre-upgrade active non-fish transport snapshots with collected=false resume without losing their specimen",
+        "pass": true
+      },
+      {
+        "name": "Coral rejects missing mount, low light, low minerals and insufficient species flow individually",
+        "pass": true
+      },
+      {
+        "name": "Invertebrates require their own oxygen >=6, not the fish >=5.5 threshold",
+        "pass": true
+      },
+      {
+        "name": "Coral-only quarantine blocks fish/invertebrate occupants and restricted medicines",
+        "pass": true
+      },
+      {
+        "name": "Missing and ambiguous species IDs are rejected explicitly rather than mapped to invertebrates",
+        "pass": true
+      },
+      {
+        "name": "Future registered host definitions automatically use the shared receiving service",
+        "pass": true
+      }
+    ],
+    "passed": 163,
+    "failed": 0,
+    "coverage": [
+      {
+        "id": "chalk-bass",
+        "kind": "fish",
+        "region": "caribbean",
+        "mode": "reef"
+      },
+      {
+        "id": "chalk-bass",
+        "kind": "fish",
+        "region": "florida",
+        "mode": "reef"
+      },
+      {
+        "id": "candy-basslet",
+        "kind": "fish",
+        "region": "caribbean",
+        "mode": "deep"
+      },
+      {
+        "id": "pavona-cactus",
+        "kind": "coral",
+        "region": "fiji",
+        "mode": "reef"
+      },
+      {
+        "id": "porcelain-anemone-crab",
+        "kind": "invertebrate",
+        "region": "japan",
+        "mode": "reef"
+      },
+      {
+        "id": "blotched-anthias",
+        "kind": "fish",
+        "region": "japan",
+        "mode": "deep"
+      },
+      {
+        "id": "spotted-boxfish",
+        "kind": "fish",
+        "region": "japan",
+        "mode": "reef"
+      },
+      {
+        "id": "forcipiger-flavissimus",
+        "kind": "fish",
+        "region": "fiji",
+        "mode": "reef"
+      },
+      {
+        "id": "forcipiger-flavissimus",
+        "kind": "fish",
+        "region": "fiji",
+        "mode": "deep"
+      },
+      {
+        "id": "forcipiger-flavissimus",
+        "kind": "fish",
+        "region": "indonesia",
+        "mode": "reef"
+      },
+      {
+        "id": "forcipiger-flavissimus",
+        "kind": "fish",
+        "region": "philippines",
+        "mode": "reef"
+      },
+      {
+        "id": "forcipiger-flavissimus",
+        "kind": "fish",
+        "region": "sri-lanka",
+        "mode": "reef"
+      },
+      {
+        "id": "forcipiger-flavissimus",
+        "kind": "fish",
+        "region": "marshall",
+        "mode": "reef"
+      },
+      {
+        "id": "forcipiger-flavissimus",
+        "kind": "fish",
+        "region": "maldives",
+        "mode": "reef"
+      },
+      {
+        "id": "forcipiger-flavissimus",
+        "kind": "fish",
+        "region": "australia",
+        "mode": "reef"
+      },
+      {
+        "id": "exquisite-fairy-wrasse",
+        "kind": "fish",
+        "region": "fiji",
+        "mode": "reef"
+      },
+      {
+        "id": "clown",
+        "kind": "fish",
+        "region": "indonesia",
+        "mode": "reef"
+      },
+      {
+        "id": "clown",
+        "kind": "fish",
+        "region": "philippines",
+        "mode": "reef"
+      }
+    ]
+  },
+  "mysteryRegression": {
+    "checks": [
+      {
+        "name": "fiji reef: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+        "pass": true
+      },
+      {
+        "name": "fiji deep: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+        "pass": true
+      },
+      {
+        "name": "caribbean reef: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+        "pass": true
+      },
+      {
+        "name": "caribbean deep: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+        "pass": true
+      },
+      {
+        "name": "japan reef: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+        "pass": true
+      },
+      {
+        "name": "japan deep: 100 seeds guarantee a valid reachable concealed fish, safely collectible and returnable",
+        "pass": true
+      },
+      {
+        "name": "Observation-only Hawaii reef blocks before cost, random draw or trip creation",
+        "pass": true
+      },
+      {
+        "name": "Observation-only Hawaii deep blocks before cost, random draw or trip creation",
+        "pass": true
+      },
+      {
+        "name": "Empty collectible fish pool blocks otherwise available region explicitly",
+        "pass": true
+      },
+      {
+        "name": "Fiji pool contains only approved implemented Fiji fish at survey depth",
+        "pass": true
+      },
+      {
+        "name": "Guaranteed Fiji selection is uniform among two fish rather than the egg rarity percentages",
+        "pass": true
+      },
+      {
+        "name": "A mystery is not captured from beyond one Manhattan cell",
+        "pass": true
+      },
+      {
+        "name": "Full eight-slot inventory rejects the guaranteed mystery fish without discarding existing finds",
+        "pass": true
+      },
+      {
+        "name": "Incompatible survey depth removes a fish from both eligibility and guaranteed selection",
+        "pass": true
+      },
+      {
+        "name": "Capture consumes one temporary slot, zero oxygen and no permanent ownership; duplicate rejected",
+        "pass": true
+      },
+      {
+        "name": "Active save retains exact mystery identity, position, oxygen, capture and RNG",
+        "pass": true
+      },
+      {
+        "name": "Invalid guarantee location and non-mystery fish are rejected on import",
+        "pass": true
+      },
+      {
+        "name": "Boat return reveals identity once but grants no automatic animal",
+        "pass": true
+      },
+      {
+        "name": "Pending reveal and precommitted survival assessment survive repeated reloads without RNG changes",
+        "pass": true
+      },
+      {
+        "name": "Another launch cannot discard pending recovery",
+        "pass": true
+      },
+      {
+        "name": "An unsafe receiver is rejected atomically after reveal rather than auto killing or inserting fish",
+        "pass": true
+      },
+      {
+        "name": "Missing receiver is rejected; switching the selected aquarium never chooses a receiver automatically",
+        "pass": true
+      },
+      {
+        "name": "Player can choose another safe receiver while the selected aquarium remains unchanged",
+        "pass": true
+      },
+      {
+        "name": "Alive, healthy: explicit compatible recovery creates one real animal with source and destination",
+        "pass": true
+      },
+      {
+        "name": "Alive, stressed: explicit compatible recovery creates one real animal with source and destination",
+        "pass": true
+      },
+      {
+        "name": "Alive, severely compromised: explicit compatible recovery creates one real animal with source and destination",
+        "pass": true
+      },
+      {
+        "name": "Alive, parasite/infection suspected: explicit compatible recovery creates one real animal with source and destination",
+        "pass": true
+      },
+      {
+        "name": "Failed survival assessment records permanent evidence without invented water or an owned animal",
+        "pass": true
+      },
+      {
+        "name": "Pending transport expires during shared offline progression and logs exact deadline only once",
+        "pass": true
+      },
+      {
+        "name": "Actual offline catch-up matches continuous recovery expiry and reports it once across repeated logins",
+        "pass": true
+      },
+      {
+        "name": "Transport mortality journal is isolated by account",
+        "pass": true
+      },
+      {
+        "name": "Expired specimen on return still reveals only at boat, then records transport expiry at its actual deadline",
+        "pass": true
+      },
+      {
+        "name": "Release requires confirmation and never invents a death or ownership",
+        "pass": true
+      },
+      {
+        "name": "Repeated explicit recovery cannot duplicate ownership",
+        "pass": true
+      },
+      {
+        "name": "Local recovery receipt prevents replaying an earlier pending save",
+        "pass": true
+      },
+      {
+        "name": "Abandonment conceals name, rarity and value even after capture",
+        "pass": true
+      },
+      {
+        "name": "Oxygen exhaustion forfeits captured mystery fish without revealing or granting them",
+        "pass": true
+      },
+      {
+        "name": "Legacy active trip loads unchanged without assigning or rerolling a new fish",
+        "pass": true
+      },
+      {
+        "name": "Generic silhouette is deterministic without consuming simulation RNG",
+        "pass": true
+      },
+      {
+        "name": "Freshwater remains locked and 20-minute day is unchanged",
+        "pass": true
+      }
+    ],
+    "passed": 40,
+    "failed": 0,
+    "distribution": {
+      "exquisite-fairy-wrasse": 392,
+      "forcipiger-flavissimus": 408
+    }
+  }
+}

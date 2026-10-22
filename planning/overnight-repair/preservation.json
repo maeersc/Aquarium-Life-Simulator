@@ -1,0 +1,31 @@
+{
+  "assetFilesChecked": 1419,
+  "changedAssets": [],
+  "baseCatalogUnchanged": true,
+  "modifiedOriginalFiles": [
+    "BALANCE_REPORT.md",
+    "DEVELOPMENT_STATUS.md",
+    "GAME_DESIGN.md",
+    "GITHUB_PAGES.md",
+    "MASTER_DEVELOPMENT_PROMPT.md",
+    "PDF_WORKFLOW.md",
+    "PROJECT_CONTINUITY_SOURCE.md",
+    "README.md",
+    "UI_SPECIFICATION.md",
+    "index.html",
+    "js/app-shell.js",
+    "js/core.js",
+    "js/expansion.js",
+    "js/gameplay-ui.js",
+    "js/invertebrates.js",
+    "js/livestock-health.js",
+    "js/main.js",
+    "js/offline.js",
+    "js/save.js",
+    "js/simulation.js",
+    "js/store.js",
+    "js/ui.js",
+    "js/update29.js",
+    "build.py"
+  ]
+}

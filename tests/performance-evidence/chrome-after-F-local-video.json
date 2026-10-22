@@ -1,0 +1,99 @@
+{
+  "elapsedMs": 10001.700000000186,
+  "draws": 595,
+  "fps": 59.48988671925662,
+  "frameGapP50": 16.700000000186265,
+  "frameGapP95": 18,
+  "frameGapP99": 18.799999999813735,
+  "drawMsP50": 0.6000000005587935,
+  "drawMsP95": 1,
+  "drawMsMax": 1.7999999998137355,
+  "calls": {
+    "draw": {
+      "count": 595,
+      "ms": 398.20000000298023,
+      "max": 1.7999999998137355
+    },
+    "vitals": {
+      "count": 10,
+      "ms": 4.6000000005587935,
+      "max": 0.7000000001862645
+    },
+    "simulation": {
+      "count": 3,
+      "ms": 4.000000000931323,
+      "max": 1.6000000005587935
+    },
+    "save": {
+      "count": 1,
+      "ms": 8,
+      "max": 8
+    }
+  },
+  "longTasks": [],
+  "scheduler": {
+    "raf": 1,
+    "timer": 0,
+    "mode": "tank",
+    "returning": false,
+    "pendingMinutes": 4.256919999999555
+  },
+  "caches": {
+    "sheets": {
+      "loaded": 15,
+      "maxDecodedSheets": 128,
+      "frameCache": 225,
+      "maxFrames": 512,
+      "frameHits": 83225,
+      "frameMisses": 225,
+      "frameEvictions": 0,
+      "frameBytes": 28852224,
+      "maxFrameBytes": 33554432,
+      "decodedBytes": 31064064,
+      "maxDecodedBytes": 268435456
+    },
+    "animation": {
+      "rigBuilds": 24,
+      "poseHits": 674,
+      "poseCache": 68,
+      "maxPoses": 768
+    },
+    "rasters": {
+      "entries": 585,
+      "bytes": 6336236,
+      "maxBytes": 33554432,
+      "maxEntries": 8192,
+      "hits": 73143,
+      "misses": 585,
+      "evictions": 0
+    },
+    "sources": {
+      "active": 0,
+      "queued": 0,
+      "pending": 0
+    },
+    "layers": {
+      "entries": 6,
+      "bytes": 2764800,
+      "builds": 132
+    }
+  },
+  "state": {
+    "fish": 8,
+    "tanks": 1,
+    "gameTime": 2675.4268399999987,
+    "hidden": false
+  },
+  "label": "F-local-video",
+  "wallSeconds": 10.0,
+  "metrics": {
+    "TaskDuration": 0.7917579999999997,
+    "ScriptDuration": 0.48865800000000004,
+    "LayoutDuration": 0.005719000000000002,
+    "RecalcStyleDuration": 0.003250000000000003
+  },
+  "heapBytes": 9436148,
+  "nodes": 4523,
+  "listeners": 499,
+  "mainThreadCorePercent": 7.917579999999998
+}

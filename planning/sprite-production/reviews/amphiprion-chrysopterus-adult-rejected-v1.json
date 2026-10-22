@@ -1,0 +1,8 @@
+{
+  "id": "amphiprion-chrysopterus",
+  "stage": "adult",
+  "revision": 1,
+  "accepted": false,
+  "reason": "Raw source cells 8 and 9 have a caudal fin beside the mouth in addition to a rear fin. A facing flip cannot correct malformed anatomy. Full sheet replacement required; this source was never registered in gameplay.",
+  "rawSource": "planning/sprite-production/raw/amphiprion-chrysopterus/adult-source-v1.png"
+}

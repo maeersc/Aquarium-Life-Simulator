@@ -1,0 +1,872 @@
+{
+  "browser": "chrome",
+  "passed": 214,
+  "failed": 0,
+  "renderCases": 2160,
+  "checks": [
+    {
+      "pass": true,
+      "name": "All 27 stage sheets load offline"
+    },
+    {
+      "pass": true,
+      "name": "Audited categories total 27 without double counting"
+    },
+    {
+      "pass": true,
+      "name": "No artwork auto-approved"
+    },
+    {
+      "pass": true,
+      "name": "Existing growth thresholds select the correct art"
+    },
+    {
+      "pass": true,
+      "name": "Missing art keys return a safe fallback"
+    },
+    {
+      "pass": true,
+      "name": "guppy: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "guppy: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "guppy: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "guppy: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "neon: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "neon: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "neon: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "neon: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "cardinal: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "cardinal: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "cardinal: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "cardinal: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "betta: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "betta: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "betta: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "betta: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "cory: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "cory: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "cory: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "cory: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "danio: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "danio: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "danio: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "danio: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "harlequin: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "harlequin: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "harlequin: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "harlequin: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "platy: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "platy: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "platy: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "platy: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "angel: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "angel: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "angel: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "angel: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "pleco: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "pleco: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "pleco: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "pleco: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "clown: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "clown: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "clown: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "clown: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "gramma: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "gramma: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "gramma: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "gramma: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "firefish: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "firefish: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "firefish: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "firefish: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "watchman: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "watchman: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "watchman: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "watchman: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "banggai: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "banggai: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "banggai: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "banggai: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "chromis: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "chromis: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "chromis: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "chromis: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "yellowtang: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "yellowtang: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "yellowtang: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "yellowtang: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "sixline: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "sixline: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "sixline: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "sixline: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "blenny: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "blenny: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "blenny: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "blenny: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "marinebetta: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "marinebetta: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "marinebetta: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "marinebetta: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "voidfin: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "voidfin: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "voidfin: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "voidfin: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "glassfang: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "glassfang: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "glassfang: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "glassfang: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "zoa: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "zoa: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "zoa: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "zoa: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "mushroom: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "mushroom: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "mushroom: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "mushroom: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "sps: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "sps: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "sps: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "sps: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "lps: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "lps: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "lps: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "lps: exact directional mirrors and restored canvas state"
+    },
+    {
+      "pass": true,
+      "name": "soft: eight distinct authored images"
+    },
+    {
+      "pass": true,
+      "name": "soft: transparent assets, nonempty and uncropped"
+    },
+    {
+      "pass": true,
+      "name": "soft: visible head-local eye detail at five raster sizes"
+    },
+    {
+      "pass": true,
+      "name": "soft: exact directional mirrors and restored canvas state"
+    },
+    {
+      "name": "fish: correct audited entries",
+      "pass": true
+    },
+    {
+      "name": "guppy: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "guppy: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "guppy: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "neon: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "neon: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "neon: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "cardinal: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "cardinal: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "cardinal: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "betta: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "betta: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "betta: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "danio: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "danio: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "danio: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "harlequin: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "harlequin: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "harlequin: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "platy: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "platy: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "platy: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "angel: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "angel: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "angel: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "clown: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "clown: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "clown: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "gramma: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "gramma: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "gramma: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "firefish: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "firefish: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "firefish: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "banggai: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "banggai: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "banggai: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "chromis: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "chromis: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "chromis: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "yellowtang: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "yellowtang: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "yellowtang: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "sixline: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "sixline: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "sixline: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "marinebetta: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "marinebetta: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "marinebetta: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "voidfin: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "voidfin: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "voidfin: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "glassfang: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "glassfang: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "glassfang: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "corals: correct audited entries",
+      "pass": true
+    },
+    {
+      "name": "zoa: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "zoa: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "zoa: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "mushroom: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "mushroom: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "mushroom: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "sps: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "sps: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "sps: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "lps: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "lps: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "lps: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "soft: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "soft: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "soft: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "bottom_feeders: correct audited entries",
+      "pass": true
+    },
+    {
+      "name": "cory: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "cory: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "cory: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "pleco: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "pleco: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "pleco: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "watchman: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "watchman: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "watchman: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "blenny: all stages shown with scale comparisons",
+      "pass": true
+    },
+    {
+      "name": "blenny: selectable baby death art",
+      "pass": true
+    },
+    {
+      "name": "blenny: selectable adult death art",
+      "pass": true
+    },
+    {
+      "name": "dark: background comparison",
+      "pass": true
+    },
+    {
+      "name": "bright: background comparison",
+      "pass": true
+    },
+    {
+      "name": "checker: background comparison",
+      "pass": true
+    },
+    {
+      "name": "Swim and directional preview advances",
+      "pass": true
+    },
+    {
+      "name": "Static preview stays frozen",
+      "pass": true
+    },
+    {
+      "name": "Review persists as plain text without automatic approval",
+      "pass": true
+    },
+    {
+      "name": "Gallery leaves game save bytes unchanged",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 1440px viewport",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 1024px viewport",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 760px viewport",
+      "pass": true
+    },
+    {
+      "name": "Gallery fits 390px viewport",
+      "pass": true
+    },
+    {
+      "name": "Main index loads stage assets and links the offline gallery",
+      "pass": true
+    },
+    {
+      "name": "All fish stage/death poses reach the actual renderer; authored deaths never double-invert",
+      "pass": true
+    },
+    {
+      "name": "Rendering stages does not mutate simulation or save state",
+      "pass": true
+    },
+    {
+      "name": "Approved adult Ocellaris art and thumbnail preserved",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript exceptions",
+      "pass": true
+    },
+    {
+      "name": "No HTTP/HTTPS requests in offline operation",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "networkRequests": [],
+  "integration": {
+    "seen": 131,
+    "deaths": 66,
+    "badFlip": 0,
+    "immutable": true
+  }
+}

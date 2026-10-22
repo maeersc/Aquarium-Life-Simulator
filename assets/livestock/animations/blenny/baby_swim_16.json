@@ -1,0 +1,335 @@
+{
+  "source": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\raw\\blenny\\baby-source-v1.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\blenny\\baby.png",
+  "referenceBounds": [
+    8,
+    50,
+    184,
+    110
+  ],
+  "sourceBoxes": [
+    [
+      28,
+      128,
+      288,
+      219
+    ],
+    [
+      341,
+      127,
+      601,
+      219
+    ],
+    [
+      654,
+      127,
+      915,
+      219
+    ],
+    [
+      967,
+      128,
+      1228,
+      219
+    ],
+    [
+      28,
+      440,
+      287,
+      532
+    ],
+    [
+      341,
+      440,
+      601,
+      532
+    ],
+    [
+      654,
+      440,
+      914,
+      532
+    ],
+    [
+      968,
+      440,
+      1227,
+      532
+    ],
+    [
+      27,
+      755,
+      288,
+      846
+    ],
+    [
+      341,
+      754,
+      601,
+      846
+    ],
+    [
+      650,
+      754,
+      914,
+      845
+    ],
+    [
+      967,
+      754,
+      1227,
+      846
+    ],
+    [
+      27,
+      1067,
+      287,
+      1159
+    ],
+    [
+      341,
+      1067,
+      601,
+      1159
+    ],
+    [
+      654,
+      1067,
+      914,
+      1159
+    ],
+    [
+      967,
+      1067,
+      1228,
+      1159
+    ]
+  ],
+  "sourceEyeAnchors": [
+    [
+      236.0,
+      42.5,
+      23
+    ],
+    [
+      237.0,
+      43.5,
+      23
+    ],
+    [
+      239.5,
+      41.0,
+      28
+    ],
+    [
+      237.0,
+      43.0,
+      23
+    ],
+    [
+      236.0,
+      44.0,
+      23
+    ],
+    [
+      237.0,
+      44.0,
+      23
+    ],
+    [
+      236.5,
+      44.0,
+      24
+    ],
+    [
+      236.5,
+      44.0,
+      24
+    ],
+    [
+      237.0,
+      42.5,
+      23
+    ],
+    [
+      237.5,
+      44.0,
+      24
+    ],
+    [
+      240.5,
+      43.5,
+      24
+    ],
+    [
+      237.0,
+      43.5,
+      23
+    ],
+    [
+      236.5,
+      43.5,
+      24
+    ],
+    [
+      237.0,
+      44.0,
+      23
+    ],
+    [
+      237.0,
+      43.5,
+      23
+    ],
+    [
+      236.5,
+      41.5,
+      26
+    ]
+  ],
+  "scale": 0.6521739130434783,
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "columns": 4,
+  "frameCount": 16,
+  "anchor": [
+    96.0,
+    80.0
+  ],
+  "eye": {
+    "x": 168,
+    "y": 79,
+    "w": 12,
+    "h": 12
+  },
+  "frameHashes": [
+    "88db8acb90d0ffbf61ff483b446e36afed1c82172b501221f2d3ce311d6a65e5",
+    "198b93dd6de46d08b9ad6a082a9e2638239a5def01923ab9f2ee6a87a424bf7f",
+    "95c3238b5ad0458ee1f02365be90d6caaabd7f0295f677abe27babacd4ebd7f0",
+    "f92dd1657c4a67522f2f7c681033c91c05a5c7526ef68569b7a8a64fcab0870f",
+    "07bbf621a68d7149d7e6c1db5838b280017baf7c418b83fda6b4902d1f802acc",
+    "67b6513375f95957209f2806caad16c37666663731f8c0da44bb610a915f9bd9",
+    "ef0444efcd09d1fa814cb9f3bc56d8d7ac547a7c7590a93bd526e02de4758a2a",
+    "3e64e6cfc68378059fa15d44022345f058e35ae1a5829a8c124f7aa5e4557e6f",
+    "851a701c5bb7eb33ffe2bb47d575357e8fb081f2f4d2941f7c860f3d70fb9305",
+    "6e10e37dc89d9ff1c4d51a2b68560cee525b5cf9b3cac78fa9f7a60fca064592",
+    "fb668fdb8f86a94848aa7e6ca396b05f781b2e0cb9345a76d8e5b61a8c56faea",
+    "a8bf9c9f3de9479d8cdaea63578307cfdda2f68cf40a3187637e7b3915e7908f",
+    "12a4d3511519c0e7266d709846fc9fe20ef3e56b1b77c1edd8b126457394983d",
+    "da56a639546433686494891ee4963ef3fbb06dc49e5a278141f8f7baef764ad1",
+    "1b0c3c46ddd6b7c3bbbf4303a3a1bf2e077ce9d526178a4cae9acfab2c952f55",
+    "f7fa5e75a3a08f98711a609870e1d05c22f2d706399c361c17966c7e68381ba2"
+  ],
+  "bounds": [
+    [
+      14,
+      51,
+      184,
+      110
+    ],
+    [
+      13,
+      52,
+      183,
+      111
+    ],
+    [
+      12,
+      52,
+      182,
+      112
+    ],
+    [
+      13,
+      51,
+      183,
+      110
+    ],
+    [
+      14,
+      50,
+      183,
+      110
+    ],
+    [
+      13,
+      50,
+      183,
+      110
+    ],
+    [
+      14,
+      50,
+      184,
+      110
+    ],
+    [
+      14,
+      51,
+      183,
+      110
+    ],
+    [
+      13,
+      51,
+      183,
+      110
+    ],
+    [
+      13,
+      50,
+      183,
+      110
+    ],
+    [
+      11,
+      51,
+      183,
+      110
+    ],
+    [
+      13,
+      51,
+      183,
+      111
+    ],
+    [
+      15,
+      51,
+      184,
+      111
+    ],
+    [
+      13,
+      50,
+      183,
+      110
+    ],
+    [
+      13,
+      51,
+      183,
+      111
+    ],
+    [
+      14,
+      52,
+      184,
+      112
+    ]
+  ],
+  "sha256": "78b0f968c5b7a2ddc564cff4003f2381ed727195f3606b01d1d68fc296d8b325",
+  "technicalChecks": {
+    "allCells": true,
+    "binaryAlpha": true,
+    "unique": true,
+    "transparentMargins": true,
+    "registeredEyes": true
+  },
+  "visualReview": {
+    "passed": true,
+    "notes": "All16 native cells inspected: translucent larval form versus orange spotted juvenile with cirri and caudal false-eye retained, true eye forward, small pectoral adjustments, stable markings and sufficient transparent margins.",
+    "playerApproved": false
+  },
+  "playerApproved": false
+}

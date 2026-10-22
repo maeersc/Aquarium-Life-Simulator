@@ -1,0 +1,11 @@
+tests/chrome-profile/
+tests/edge-profile/
+tests/browser-profile/
+tests/*-profile*/
+tests/*.png
+tests/*.log
+tests/dom.html
+tests/downloads/
+__pycache__/
+AquariumLife-*.zip
+tests/pages-evidence/*-downloads/

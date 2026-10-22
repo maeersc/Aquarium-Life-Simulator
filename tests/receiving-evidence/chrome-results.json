@@ -1,0 +1,183 @@
+{
+  "checks": [
+    {
+      "name": "Chalk Bass has one stable correctly connected implemented species record",
+      "pass": true
+    },
+    {
+      "name": "Properly prepared nominal 80-gallon saltwater tank at exactly 27C is available",
+      "pass": true
+    },
+    {
+      "name": "An exact physical 80-US-gallon tank is also eligible, without conversion changes",
+      "pass": true
+    },
+    {
+      "name": "Failed temperature case 0 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed temperature case 1 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed salinity case 2 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed ph case 3 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed ammonia case 4 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed nitrite case 5 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed oxygen case 6 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed volume case 7 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed prepared case 8 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed bacteria case 9 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed bacteria2 case 10 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed filter case 11 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed filter case 12 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed flow case 13 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Failed shelter case 14 exposes actual/requirement and blocks transfer atomically",
+      "pass": true
+    },
+    {
+      "name": "Rounded displayed 27C cannot conceal an actual 27.000001C rejection",
+      "pass": true
+    },
+    {
+      "name": "All required individual diagnostic checks are present on a valid tank",
+      "pass": true
+    },
+    {
+      "name": "Every owned aquarium is returned, including incompatible and legacy freshwater tanks",
+      "pass": true
+    },
+    {
+      "name": "Preparation/rock-shelter rejection is reproduced despite 80gal and 27C; correcting it restores eligibility",
+      "pass": true
+    },
+    {
+      "name": "Adult stocking and reserved offspring requirements remain enforced",
+      "pass": true
+    },
+    {
+      "name": "Unsafe predatory tankmates remain blocked by the existing species safeguards",
+      "pass": true
+    },
+    {
+      "name": "Quarantine is optional; a compatible quarantine receives the original survival bonus",
+      "pass": true
+    },
+    {
+      "name": "Active restricted quarantine medication blocks introduction without bypassing the course",
+      "pass": true
+    },
+    {
+      "name": "Successful receiving creates one owned ID, provenance, rarity, health, genetics and updated value",
+      "pass": true
+    },
+    {
+      "name": "Received health/genetic identity and one ownership survive save/load and repeated receiving is rejected",
+      "pass": true
+    },
+    {
+      "name": "Blocked checks cannot change the finite deadline, draw, identity, health or mortality",
+      "pass": true
+    },
+    {
+      "name": "Countdown measures game time with the approved 20-minute day; expiry records only the existing timer cause",
+      "pass": true
+    },
+    {
+      "name": "Existing pending saves load without a new schema, changed assignment or deadline",
+      "pass": true
+    },
+    {
+      "name": "Dropdown contains every owned tank, including disabled freshwater and incompatible 80gal marine",
+      "pass": true
+    },
+    {
+      "name": "Blocked tank has readable actual values, requirements and preparation guidance",
+      "pass": true
+    },
+    {
+      "name": "Correcting readiness refreshes available destinations without closing or reopening results",
+      "pass": true
+    },
+    {
+      "name": "Exact temperature rejection stays visible despite rounded general aquarium readings",
+      "pass": true
+    },
+    {
+      "name": "Holding countdown and aquarium clock progress while selection survives automatic refresh",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: receiving and diagnostics have no page/modal overflow",
+      "pass": true
+    },
+    {
+      "name": "1600x900: receiving and diagnostics have no page/modal overflow",
+      "pass": true
+    },
+    {
+      "name": "1366x768: receiving and diagnostics have no page/modal overflow",
+      "pass": true
+    },
+    {
+      "name": "390x844: receiving and diagnostics have no page/modal overflow",
+      "pass": true
+    },
+    {
+      "name": "Real receive action adds permanent ownership and clears the pending receiving control",
+      "pass": true
+    },
+    {
+      "name": "Actual browser save/reload retains one fish, health and settled receiving state",
+      "pass": true
+    },
+    {
+      "name": "No uncaught JavaScript errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "Fully local offline resources and saves",
+      "pass": true
+    }
+  ],
+  "passed": 44,
+  "failed": 0
+}

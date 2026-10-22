@@ -1,0 +1,335 @@
+{
+  "source": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\raw\\chromis\\adult-source-v1.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\chromis\\adult.png",
+  "referenceBounds": [
+    8,
+    24,
+    184,
+    136
+  ],
+  "sourceBoxes": [
+    [
+      30,
+      57,
+      364,
+      263
+    ],
+    [
+      410,
+      57,
+      747,
+      265
+    ],
+    [
+      791,
+      57,
+      1127,
+      265
+    ],
+    [
+      1166,
+      54,
+      1503,
+      265
+    ],
+    [
+      30,
+      298,
+      364,
+      505
+    ],
+    [
+      412,
+      298,
+      747,
+      505
+    ],
+    [
+      794,
+      298,
+      1129,
+      504
+    ],
+    [
+      1173,
+      298,
+      1506,
+      504
+    ],
+    [
+      29,
+      535,
+      364,
+      744
+    ],
+    [
+      410,
+      534,
+      747,
+      744
+    ],
+    [
+      789,
+      534,
+      1128,
+      744
+    ],
+    [
+      1166,
+      534,
+      1505,
+      744
+    ],
+    [
+      29,
+      775,
+      365,
+      987
+    ],
+    [
+      410,
+      775,
+      748,
+      982
+    ],
+    [
+      793,
+      775,
+      1130,
+      982
+    ],
+    [
+      1168,
+      775,
+      1506,
+      986
+    ]
+  ],
+  "sourceEyeAnchors": [
+    [
+      291.0,
+      101.0,
+      25
+    ],
+    [
+      294.5,
+      101.0,
+      25
+    ],
+    [
+      293.0,
+      101.0,
+      25
+    ],
+    [
+      293.0,
+      104.0,
+      25
+    ],
+    [
+      291.0,
+      99.5,
+      24
+    ],
+    [
+      292.0,
+      99.5,
+      24
+    ],
+    [
+      292.0,
+      99.5,
+      24
+    ],
+    [
+      290.0,
+      100.0,
+      25
+    ],
+    [
+      293.0,
+      102.0,
+      25
+    ],
+    [
+      295.0,
+      102.5,
+      24
+    ],
+    [
+      297.0,
+      102.5,
+      24
+    ],
+    [
+      296.0,
+      102.5,
+      24
+    ],
+    [
+      293.0,
+      102.5,
+      24
+    ],
+    [
+      295.0,
+      102.5,
+      24
+    ],
+    [
+      293.5,
+      101.5,
+      24
+    ],
+    [
+      296.0,
+      102.5,
+      24
+    ]
+  ],
+  "scale": 0.5191740412979351,
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "columns": 4,
+  "frameCount": 16,
+  "anchor": [
+    96.0,
+    80.0
+  ],
+  "eye": {
+    "x": 163,
+    "y": 77,
+    "w": 12,
+    "h": 12
+  },
+  "frameHashes": [
+    "bad3cb4cf1aeec1ebf0b058d9f1ddb0e1f4080b250891c63236c182261abaf85",
+    "ff644b2b7f1e053a6501f45c34a2358aa11b47eefe0005a36fd10f53a3065ba9",
+    "9215b3f3856b7594f52d66c79db0a6816108035641769faa695e2454ec80b505",
+    "c178d2fa2f3304481ab19a3f4e89db5b5760193826419f79c78ab0aa2cce32a5",
+    "4ed35c5fb9d35f023c7969efcff98738f0df58bf3c1d1ca14e8e329948091bca",
+    "81d7088f75455de18bda8de9b7c29c5a0625c0c8ea165c1c7d312b03b9c5f089",
+    "12407d158fdd016fcff7ad14f77ea63060f54b4c5eab1fd26db7fc94171db4cc",
+    "6f5fa0ad0c3b56fab086b8f2609d96e5e39b9be72c4f053779463e4d731f49cc",
+    "e3116a110844ca4bd45d0b55dfe103ee3f330e5a63563ee0765d10aa72d70548",
+    "cebdfb21972c1aa3aaf57ac4b3b98ef3ce5e3850d329c2b5e0eed28d63af0ee9",
+    "8a9985031945b89f05692c6d950d7cd98a35b4075ef88f2d7b597be3ea77fd92",
+    "7f74ecb579d09fdf3fb277d81f16a06f281fa386c217617b1e3523154e7bda09",
+    "da558d0403edcb6860526df51a083085506402fcfcb647a47006d788fbb1e878",
+    "8158236bc676fb948a6131b9510728d5e2e775ca382beb575309000e59c576a3",
+    "d7fd35fefb7717f11dc6e2ebe9b62676ca552af678fb39cc045fd281d5ccbea5",
+    "4ebe1336f84946121d78d9627f8092cd0893c4e562758682d43af7c077f078f3"
+  ],
+  "bounds": [
+    [
+      12,
+      25,
+      185,
+      132
+    ],
+    [
+      10,
+      25,
+      185,
+      133
+    ],
+    [
+      11,
+      25,
+      185,
+      133
+    ],
+    [
+      11,
+      23,
+      186,
+      133
+    ],
+    [
+      12,
+      25,
+      185,
+      132
+    ],
+    [
+      11,
+      25,
+      185,
+      132
+    ],
+    [
+      11,
+      25,
+      185,
+      132
+    ],
+    [
+      12,
+      25,
+      185,
+      132
+    ],
+    [
+      11,
+      24,
+      185,
+      133
+    ],
+    [
+      10,
+      24,
+      185,
+      133
+    ],
+    [
+      9,
+      24,
+      185,
+      133
+    ],
+    [
+      9,
+      24,
+      185,
+      133
+    ],
+    [
+      11,
+      24,
+      185,
+      134
+    ],
+    [
+      10,
+      24,
+      184,
+      131
+    ],
+    [
+      11,
+      24,
+      186,
+      131
+    ],
+    [
+      9,
+      24,
+      184,
+      134
+    ]
+  ],
+  "sha256": "b1a22a08d62d35b188ce9dfc5b33c1aa873ef8aa6602043dafab87fe19ab0a89",
+  "technicalChecks": {
+    "allCells": true,
+    "binaryAlpha": true,
+    "unique": true,
+    "transparentMargins": true,
+    "registeredEyes": true
+  },
+  "visualReview": {
+    "passed": true,
+    "notes": "Inspected all16 native cells against the retained source: turquoise scale identity, forked tail, one fixed head eye and attached small pectoral poses retained; controlled small caudal/fin changes and clear cell margins. No dramatic body deformation or extra fins. New artwork is not player-approved.",
+    "playerApproved": false
+  },
+  "playerApproved": false
+}

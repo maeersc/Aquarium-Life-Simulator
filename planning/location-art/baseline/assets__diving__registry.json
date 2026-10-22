@@ -1,0 +1,654 @@
+{
+  "version": 2,
+  "reviewDate": "2026-10-16",
+  "modes": {
+    "reef": {
+      "name": "Reef Diving",
+      "level": 5,
+      "cost": 1000,
+      "breakdown": {
+        "boat": 350,
+        "equipment": 300,
+        "oxygen": 150,
+        "access": 200
+      }
+    },
+    "deep": {
+      "name": "Deep Sea Diving",
+      "level": 10,
+      "cost": 10000,
+      "breakdown": {
+        "boat": 3500,
+        "equipment": 3000,
+        "oxygen": 2000,
+        "access": 1500
+      }
+    }
+  },
+  "regions": {
+    "fiji": {
+      "name": "Fiji",
+      "rock": "fiji",
+      "reefDepth": 12,
+      "deepDepth": 75,
+      "habitat": "Limestone reef terraces and sandy channels",
+      "collection": "Fictional restricted research salvage; no real collection authorization."
+    },
+    "caribbean": {
+      "name": "Caribbean",
+      "rock": "caribbean",
+      "reefDepth": 18,
+      "deepDepth": 55,
+      "habitat": "Massive coral heads, sponges and limestone ledges",
+      "collection": "Fictional expedition specimens; not a collection permit."
+    },
+    "hawaii": {
+      "name": "Hawaii",
+      "rock": "hawaiian",
+      "reefDepth": 15,
+      "deepDepth": 90,
+      "habitat": "Basalt boulder reefs and volcanic slopes",
+      "collection": "Observation-only wildlife. Aquarium collection is blocked in this game; inert fictional salvage only.",
+      "wildlifeClosed": true,
+      "source": "https://dlnr.hawaii.gov/dar/announcements/update-on-aquarium-collecting/"
+    },
+    "japan": {
+      "name": "Japan",
+      "rock": "hawaiian",
+      "reefDepth": 8,
+      "deepDepth": 100,
+      "habitat": "Ryukyu shallow reef or deep rocky reef survey",
+      "collection": "Fictional research recovery, not a real-world collection permit."
+    },
+    "indonesia": {
+      "name": "Coral Triangle — Indonesia",
+      "rock": "fiji",
+      "reefDepth": 10,
+      "habitat": "Bunaken / Lekuan sheltered reef",
+      "modes": [
+        "reef"
+      ],
+      "collection": "Fictional restricted research recovery; no real collection authorization.",
+      "availability": "verified-existing-species",
+      "background": "assets/diving/indonesia-reef.svg",
+      "sources": [
+        "https://doi.org/10.2305/IUCN.UK.2010-4.RLTS.T165716A6099950.en",
+        "https://www.reef.org/db/reports/geo?region_code=CIP&zones=43130021"
+      ],
+      "weights": {
+        "rock": 1,
+        "fish": 1,
+        "egg": 0.03
+      },
+      "nonFish": "Inert salvage only; no additional coral/invertebrate locality records approved."
+    },
+    "philippines": {
+      "name": "Coral Triangle — Philippines",
+      "rock": "fiji",
+      "reefDepth": 10,
+      "habitat": "Puerto Galera sheltered reef",
+      "modes": [
+        "reef"
+      ],
+      "collection": "Fictional restricted research recovery; no real collection authorization.",
+      "availability": "verified-existing-species",
+      "background": "assets/diving/philippines-reef.svg",
+      "sources": [
+        "https://doi.org/10.2305/IUCN.UK.2010-4.RLTS.T165716A6099950.en",
+        "https://www.reef.org/db/reports/geo?region_code=CIP&zones=7102"
+      ],
+      "weights": {
+        "rock": 1,
+        "fish": 1,
+        "egg": 0.03
+      },
+      "nonFish": "Inert salvage only; no additional coral/invertebrate locality records approved."
+    },
+    "sri-lanka": {
+      "name": "Sri Lanka",
+      "rock": "fiji",
+      "reefDepth": 12,
+      "habitat": "Kayankerni coral and rock reef",
+      "modes": [
+        "reef"
+      ],
+      "collection": "Fictional restricted research recovery; no real collection authorization.",
+      "availability": "verified-existing-species",
+      "background": "assets/diving/sri-lanka-reef.svg",
+      "sources": [
+        "https://doi.org/10.2305/IUCN.UK.2010-4.RLTS.T165716A6099950.en",
+        "https://kayankerni.org/wp-content/uploads/2022/11/01.-A-preliminary-report-on-the-status-of-Kayankerni-coral-reef-Sri-Lanka_2019.pdf"
+      ],
+      "weights": {
+        "rock": 1,
+        "fish": 1,
+        "egg": 0.03
+      },
+      "nonFish": "Inert salvage only; no additional coral/invertebrate locality records approved."
+    },
+    "marshall": {
+      "name": "Marshall Islands",
+      "rock": "fiji",
+      "reefDepth": 12,
+      "habitat": "Majuro lagoon reef slope",
+      "modes": [
+        "reef"
+      ],
+      "collection": "Fictional restricted research recovery; no real collection authorization.",
+      "availability": "verified-existing-species",
+      "background": "assets/diving/marshall-reef.svg",
+      "sources": [
+        "https://doi.org/10.2305/IUCN.UK.2010-4.RLTS.T165716A6099950.en",
+        "https://repository.library.noaa.gov/view/noaa/45869/noaa_45869_DS1.pdf"
+      ],
+      "weights": {
+        "rock": 1,
+        "fish": 1,
+        "egg": 0.03
+      },
+      "nonFish": "Inert salvage only; no additional coral/invertebrate locality records approved."
+    },
+    "maldives": {
+      "name": "Maldives",
+      "rock": "fiji",
+      "reefDepth": 12,
+      "habitat": "Madivaru Beyru, North Malé Atoll",
+      "modes": [
+        "reef"
+      ],
+      "collection": "Fictional restricted research recovery; no real collection authorization.",
+      "availability": "verified-existing-species",
+      "background": "assets/diving/maldives-reef.svg",
+      "sources": [
+        "https://doi.org/10.2305/IUCN.UK.2010-4.RLTS.T165716A6099950.en",
+        "https://www.reef.org/db/reports/geo?region_code=IORS&zones=23010046"
+      ],
+      "weights": {
+        "rock": 1,
+        "fish": 1,
+        "egg": 0.03
+      },
+      "nonFish": "Inert salvage only; no additional coral/invertebrate locality records approved."
+    },
+    "australia": {
+      "name": "Australia",
+      "rock": "fiji",
+      "reefDepth": 12,
+      "habitat": "Lady Musgrave Island, Great Barrier Reef",
+      "modes": [
+        "reef"
+      ],
+      "collection": "Fictional restricted research recovery; no real collection authorization.",
+      "availability": "verified-existing-species",
+      "background": "assets/diving/australia-reef.svg",
+      "sources": [
+        "https://doi.org/10.2305/IUCN.UK.2010-4.RLTS.T165716A6099950.en",
+        "https://fishesofaustralia.net.au/home/species/2410"
+      ],
+      "weights": {
+        "rock": 1,
+        "fish": 1,
+        "egg": 0.03
+      },
+      "nonFish": "Inert salvage only; no additional coral/invertebrate locality records approved."
+    },
+    "florida": {
+      "name": "Florida",
+      "rock": "caribbean",
+      "reefDepth": 18,
+      "habitat": "Florida Keys / Tortugas rubble ledges",
+      "modes": [
+        "reef"
+      ],
+      "collection": "Fictional restricted research recovery; no real collection authorization.",
+      "availability": "verified-existing-species",
+      "background": "assets/diving/florida-reef.svg",
+      "sources": [
+        "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/35/2017/03/Vol-2-No-8.pdf",
+        "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/35/2017/03/Vol-2-No-8.pdf"
+      ],
+      "weights": {
+        "rock": 1,
+        "fish": 1,
+        "egg": 0.03
+      },
+      "nonFish": "Inert salvage only; no additional coral/invertebrate locality records approved."
+    },
+    "mariana": {
+      "name": "Mariana Trench",
+      "rock": "hawaiian",
+      "deepDepth": 6000,
+      "habitat": "Southern Mariana hadal slope research grid, 6,000 m",
+      "modes": [
+        "deep"
+      ],
+      "remote": true,
+      "wildlifeClosed": true,
+      "availability": "observation-only",
+      "collection": "Fictional remotely operated research drone. No living collection, decompression transport or pressure aquarium is implemented.",
+      "background": "assets/diving/mariana-deep.svg",
+      "temperature": 2,
+      "pressureAtmospheres": 600,
+      "liveReceiving": false,
+      "transport": "No pressure-maintained live transport; no living ownership.",
+      "sources": [
+        "https://oceantoday.noaa.gov/oceanasalab_rovs/",
+        "https://www.ncei.noaa.gov/news/planet-postcard-mariana-trench"
+      ],
+      "weights": {
+        "rock": 1,
+        "fish": 0,
+        "egg": 0
+      }
+    }
+  },
+  "species": [
+    {
+      "id": "chalk-bass",
+      "regions": [
+        "caribbean",
+        "florida"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "habitat": "reef rubble and rock shelter",
+      "depth": [
+        12,
+        90
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "Not treated as protected by this game; legal access is not asserted",
+      "sensitivity": 0.18,
+      "transport": 0.9,
+      "source": "https://repository.library.noaa.gov/view/noaa/18269/noaa_18269_DS1.pdf",
+      "rangeSource": "https://stri-sites.si.edu/docs/publications/pdfs/carvalho_filho_et_al_2023_serranus_fuscula.pdf",
+      "scientificName": "Serranus tortugarum",
+      "rarity": "Common",
+      "careDifficulty": "Moderate",
+      "artReference": "assets/expansion-v27/chalk-bass/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.18,
+        "transportQuality": 0.9,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment",
+      "localitySource": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/35/2017/03/Vol-2-No-8.pdf",
+      "lifeStages": [
+        "juvenile",
+        "adult"
+      ],
+      "localityEvidence": {
+        "florida": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/35/2017/03/Vol-2-No-8.pdf"
+      }
+    },
+    {
+      "id": "candy-basslet",
+      "regions": [
+        "caribbean"
+      ],
+      "modes": [
+        "deep"
+      ],
+      "habitat": "Mesophotic limestone ledges and coral rubble",
+      "depth": [
+        10,
+        70
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "Game restricted specimen; no legal collection claim",
+      "sensitivity": 0.45,
+      "transport": 0.75,
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4042691/",
+      "scientificName": "Liopropoma carmabi",
+      "rarity": "Ultra Rare",
+      "careDifficulty": "Difficult",
+      "artReference": "assets/expansion-v27/candy-basslet/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.45,
+        "transportQuality": 0.75,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment",
+      "lifeStages": [
+        "juvenile",
+        "adult"
+      ],
+      "localityEvidence": {}
+    },
+    {
+      "id": "pavona-cactus",
+      "regions": [
+        "fiji"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "habitat": "Shallow reef; detached fragment recovery only",
+      "depth": [
+        3,
+        20
+      ],
+      "collection": "fictional-restricted-fragment",
+      "conservation": "CITES Appendix II stony coral; controlled trade, never an ordinary legal collectible. Fictional restricted fragment only.",
+      "sensitivity": 0.55,
+      "transport": 0.72,
+      "source": "https://library.sprep.org/sites/default/files/518.pdf",
+      "rangeSource": "https://www.coraltraits.org/species/1149/traits/218",
+      "scientificName": "Pavona cactus",
+      "rarity": "Rare",
+      "careDifficulty": "Difficult",
+      "artReference": "assets/expansion-v27/pavona-cactus/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          28
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.55,
+        "transportQuality": 0.72,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment",
+      "lifeStages": [
+        "juvenile",
+        "adult"
+      ],
+      "localityEvidence": {}
+    },
+    {
+      "id": "porcelain-anemone-crab",
+      "regions": [
+        "japan"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "habitat": "Ryukyu reef-associated anemone habitat",
+      "depth": [
+        8,
+        8
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "No real collection authorization; habitat/host sensitivity retained",
+      "sensitivity": 0.35,
+      "transport": 0.82,
+      "source": "https://www.godac.jamstec.go.jp/bismal/e/view/9004880",
+      "scientificName": "Neopetrolisthes maculatus",
+      "rarity": "Rare",
+      "careDifficulty": "Moderate",
+      "artReference": "assets/expansion-v27/porcelain-anemone-crab/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.35,
+        "transportQuality": 0.82,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment",
+      "lifeStages": [
+        "juvenile",
+        "adult"
+      ],
+      "localityEvidence": {}
+    },
+    {
+      "id": "blotched-anthias",
+      "regions": [
+        "japan"
+      ],
+      "modes": [
+        "deep"
+      ],
+      "habitat": "Deep rocky reef",
+      "depth": [
+        70,
+        300
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "IUCN Least Concern in cited museum profile; rarity is independent",
+      "sensitivity": 0.65,
+      "transport": 0.65,
+      "source": "https://fishesofaustralia.net.au/Home/species/5363",
+      "rangeSource": "https://www.jstage.jst.go.jp/article/jji/70/1/70_22-013/_pdf/-char/en",
+      "scientificName": "Odontanthias borbonius",
+      "rarity": "Very Rare",
+      "careDifficulty": "Difficult",
+      "artReference": "assets/expansion-v27/blotched-anthias/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.65,
+        "transportQuality": 0.65,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment",
+      "lifeStages": [
+        "juvenile",
+        "adult"
+      ],
+      "localityEvidence": {}
+    },
+    {
+      "id": "spotted-boxfish",
+      "regions": [
+        "hawaii",
+        "japan"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "habitat": "Clear reef and rocky boulder habitat; solitary toxic-risk species",
+      "depth": [
+        0,
+        30
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "Least Concern in cited profile; Hawaii is observation-only regardless of rarity",
+      "sensitivity": 0.75,
+      "transport": 0.6,
+      "source": "https://fishbase.se/Fieldguide/FieldGuideSummary.php?c_code=608&genusname=Ostracion&speciesname=meleagris",
+      "scientificName": "Ostracion meleagris",
+      "rarity": "Ultra Rare",
+      "careDifficulty": "Expert",
+      "artReference": "assets/expansion-v27/spotted-boxfish/atlas-v1.png",
+      "healthParameters": {
+        "temperature": [
+          24,
+          27
+        ],
+        "ph": [
+          8,
+          8.4
+        ],
+        "salinity": [
+          33,
+          36
+        ],
+        "sensitivity": 0.75,
+        "transportQuality": 0.6,
+        "model": "Species-conditioned game calibration; not a measured survival percentage"
+      },
+      "valueModel": "AL.Valuation.livestock(state, individual)",
+      "holding": "Explicit compatible cycled marine receiver; coral needs a supported mount; quarantine improves transport assessment",
+      "lifeStages": [
+        "juvenile",
+        "adult"
+      ],
+      "localityEvidence": {}
+    },
+    {
+      "id": "forcipiger-flavissimus",
+      "regions": [
+        "fiji",
+        "indonesia",
+        "philippines",
+        "sri-lanka",
+        "marshall",
+        "maldives",
+        "australia"
+      ],
+      "modes": [
+        "reef",
+        "deep"
+      ],
+      "habitat": "Reef slopes, ledges and drop-offs",
+      "depth": [
+        2,
+        114
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "Fictional expedition recovery only; no real collection authorization or conservation-status inference.",
+      "sensitivity": 0.55,
+      "transport": 0.72,
+      "source": "https://fishesofaustralia.net.au/home/species/2410",
+      "rangeSource": "https://www.marineecologyfiji.com/wp-content/uploads/2010/04/SeetoBaldwin_2010_FishesofFiji.pdf",
+      "artReference": "assets/expansion-v29/forcipiger-flavissimus/atlas-v1.png",
+      "model": "Depth band and transport are game calibrations; species already implemented.",
+      "localitySource": "https://doi.org/10.2305/IUCN.UK.2010-4.RLTS.T165716A6099950.en",
+      "lifeStages": [
+        "juvenile",
+        "adult"
+      ],
+      "localityEvidence": {
+        "indonesia": "https://www.reef.org/db/reports/geo?region_code=CIP&zones=43130021",
+        "philippines": "https://www.reef.org/db/reports/geo?region_code=CIP&zones=7102",
+        "sri-lanka": "https://kayankerni.org/wp-content/uploads/2022/11/01.-A-preliminary-report-on-the-status-of-Kayankerni-coral-reef-Sri-Lanka_2019.pdf",
+        "marshall": "https://repository.library.noaa.gov/view/noaa/45869/noaa_45869_DS1.pdf",
+        "maldives": "https://www.reef.org/db/reports/geo?region_code=IORS&zones=23010046",
+        "australia": "https://fishesofaustralia.net.au/home/species/2410"
+      }
+    },
+    {
+      "id": "exquisite-fairy-wrasse",
+      "regions": [
+        "fiji"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "habitat": "Mixed coral and rubble on seaward reef slopes",
+      "depth": [
+        2,
+        40
+      ],
+      "collection": "fictional-restricted",
+      "conservation": "Fictional expedition recovery only; no real collection authorization or conservation-status inference.",
+      "sensitivity": 0.35,
+      "transport": 0.82,
+      "source": "https://fishesofaustralia.net.au/home/species/2968",
+      "rangeSource": "https://www.marineecologyfiji.com/wp-content/uploads/2010/04/SeetoBaldwin_2010_FishesofFiji.pdf",
+      "artReference": "assets/expansion-v27/exquisite-fairy-wrasse/atlas-v1.png",
+      "model": "Depth band and transport are game calibrations; species already implemented.",
+      "lifeStages": [
+        "juvenile",
+        "adult"
+      ],
+      "localityEvidence": {}
+    },
+    {
+      "id": "clown",
+      "regions": [
+        "indonesia",
+        "philippines"
+      ],
+      "modes": [
+        "reef"
+      ],
+      "depth": [
+        1,
+        15
+      ],
+      "habitat": "Sheltered anemone-associated reef; settled post-larvae, juveniles, adults and attached substrate eggs",
+      "collection": "fictional-restricted",
+      "conservation": "Fictional restricted recovery only; no legal collection claim.",
+      "sensitivity": 0.3,
+      "transport": 0.86,
+      "source": "https://animaldiversity.org/accounts/Amphiprion_ocellaris/",
+      "rangeSource": "https://www.fishbase.se/summary/Amphiprion-ocellaris.html",
+      "lifeStages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "eggContext": "attached-substrate",
+      "eggSource": "https://animaldiversity.org/accounts/Amphiprion_ocellaris/",
+      "eggHours": 168,
+      "localityEvidence": {
+        "indonesia": "https://www.reef.org/db/reports/geo?region_code=CIP&zones=43130021",
+        "philippines": "https://www.reef.org/db/reports/geo?region_code=CIP&zones=7102"
+      }
+    }
+  ],
+  "rosterBaseline": "Nine encounter profiles reference existing implemented IDs; zero added biological species.",
+  "policy": "Depth intervals are conservative game eligibility bands within documented habitat; fictional restricted recovery is not a legal collection permit. Hawaii wildlife is observation-only.",
+  "mysteryFish": {
+    "version": 1,
+    "guaranteedSlot": 9,
+    "selection": "Uniform across collectible implemented fish satisfying region, mode, depth, purchase and collection holds; no Mystery Egg odds.",
+    "silhouette": "One shared original pixel silhouette for all species before successful boat return."
+  },
+  "lifeStageWeights": {
+    "baby": 20,
+    "juvenile": 35,
+    "adult": 45
+  },
+  "eggDiscoveryChance": 0.03,
+  "eggPolicy": "One 3% opportunity per eligible expedition, independent of store egg odds; attached Ocellaris egg on a removable support chip. Fictional recovery; unknown fertilization estimated as 85% viability; accelerated captive incubation remains a game model."
+}

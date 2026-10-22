@@ -1,0 +1,45 @@
+/* Locked palette from the consolidated development specification, section 26. */
+:root {
+  --app-bg: #080B10;
+  --panel: #34465C;
+  --panel-dark: #253449;
+  --panel-raised: #40566E;
+  --border: #536B83;
+  --text: #F3F7FC;
+  --text-muted: #B9C9D9;
+  --accent: #45D6D0;
+  --selection: #68A9F4;
+  --warning: #F4B860;
+  --danger: #EF7075;
+  --success: #79D6A3;
+  --bg: var(--app-bg);
+  --line: var(--border);
+  --muted: var(--text-muted);
+  --mint: var(--accent);
+  --teal: var(--accent);
+  --gold: var(--warning);
+}
+.sidebar, .topbar { background: var(--app-bg); }
+.tank-toolbar, .tank-footer, .item-card, .stat-box, .species-facts > div,
+.route-card, .inventory-pill, .care-actions button { background: var(--panel-dark); }
+.tank-card, dialog { border-color: var(--border); }
+dialog { background: var(--panel); }
+button { background: var(--panel-dark); }
+button:hover:not(:disabled) { background: var(--panel-raised); border-color: var(--selection); }
+button.primary { background: var(--accent); border-color: var(--accent); color: #092729; }
+button.primary:hover:not(:disabled) { background: #7BE8E3; }
+input, select, .light-control select { background: var(--panel-dark); border-color: var(--border); }
+nav button, .clock, .tank-footer, .stat-row > span, .log-entry,
+dialog p, .inline-check, .bottom-bar, .tag, .next-panel p,
+.placement-banner small, .bottom-bar span:nth-child(2) { color: var(--text-muted); }
+nav button.active, .tank-tabs button.active, .filter-row button.active,
+.time-controls button.active { background: var(--panel-raised); color: var(--accent); border-color: var(--selection); }
+.next-panel { background: var(--panel-dark); border-color: var(--border); }
+.next-panel .eyebrow { color: var(--accent); }
+.notice, .pill, #toast, .placement-banner { background: #203F43; color: var(--text); border-color: var(--success); }
+.notice.warning, .pill.warn { background: #423827; color: var(--warning); border-color: var(--warning); }
+.pill.danger, #toast.error { background: #482D36; color: var(--text); border-color: var(--danger); }
+.placement-banner strong { color: var(--accent); }
+.version, .log-entry small, .premium-preview { color: var(--text-muted); }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible,
+#aquarium:focus-visible { outline: 2px solid var(--selection); outline-offset: 3px; }

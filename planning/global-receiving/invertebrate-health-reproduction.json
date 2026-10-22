@@ -1,0 +1,8 @@
+{
+  "observedBeforeRepair": true,
+  "passed": 86,
+  "failed": 1,
+  "test": "porcelain-anemone-crab / japan / reef: host-appropriate saved condition draw 20 transfers without invalid health fields",
+  "error": "Invalid marine health/market save: noninfectious carrier",
+  "afterRepair": "Covered by both final universal model suites; carrier is derived from condition contagiousness."
+}

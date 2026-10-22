@@ -1,0 +1,1045 @@
+{
+  "entry": "C:\\Users\\camae\\Desktop\\Aquarium Game\\index.html",
+  "startupSeconds": 1.8129999999982829,
+  "startupHeap": 128893380,
+  "gcHeapBytes": 7311484,
+  "samples": [
+    {
+      "elapsedMs": 6069.900000002235,
+      "draws": 364,
+      "fps": 59.968039012152744,
+      "frameGapP50": 16.699999999254942,
+      "frameGapP95": 17.600000001490116,
+      "frameGapP99": 18.199999999254942,
+      "drawMsP50": 0.5999999977648258,
+      "drawMsP95": 1,
+      "drawMsMax": 2.800000000745058,
+      "calls": {
+        "draw": {
+          "count": 364,
+          "ms": 228.39999997615814,
+          "max": 2.800000000745058
+        },
+        "vitals": {
+          "count": 6,
+          "ms": 3.4999999925494194,
+          "max": 0.7999999970197678
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 1.300000000745058,
+          "max": 1.300000000745058
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 4.666119999997322
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 9,
+          "maxDecodedSheets": 128,
+          "frameCache": 18,
+          "maxFrames": 512,
+          "frameHits": 473,
+          "frameMisses": 18,
+          "frameEvictions": 0,
+          "frameBytes": 2260992,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 19267584,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 0,
+          "poseCache": 8,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 25,
+          "bytes": 340608,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 466,
+          "misses": 25,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 23
+        }
+      },
+      "state": {
+        "fish": 1,
+        "tanks": 1,
+        "gameTime": 2670.030319999999,
+        "hidden": false
+      },
+      "label": "A",
+      "wallSeconds": 6.0,
+      "mainThreadCorePercent": 7.624900000000001,
+      "heapBytes": 11570412,
+      "listeners": 500,
+      "nodes": 1122
+    },
+    {
+      "elapsedMs": 6002.199999999255,
+      "draws": 360,
+      "fps": 59.97800806371742,
+      "frameGapP50": 16.600000001490116,
+      "frameGapP95": 17.800000000745058,
+      "frameGapP99": 18.199999999254942,
+      "drawMsP50": 0.8000000007450581,
+      "drawMsP95": 1.2999999970197678,
+      "drawMsMax": 1.800000000745058,
+      "calls": {
+        "draw": {
+          "count": 360,
+          "ms": 298.1000000052154,
+          "max": 1.800000000745058
+        },
+        "vitals": {
+          "count": 6,
+          "ms": 3.1999999955296516,
+          "max": 0.6000000014901161
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 1.800000000745058,
+          "max": 1.800000000745058
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 4.587760000000902
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 9,
+          "maxDecodedSheets": 128,
+          "frameCache": 115,
+          "maxFrames": 512,
+          "frameHits": 5667,
+          "frameMisses": 115,
+          "frameEvictions": 0,
+          "frameBytes": 14991360,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 19267584,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 0,
+          "poseCache": 8,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 153,
+          "bytes": 1840896,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 4186,
+          "misses": 153,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 36
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2670.030319999999,
+        "hidden": false
+      },
+      "label": "B",
+      "wallSeconds": 6.0,
+      "mainThreadCorePercent": 8.82526666666667,
+      "heapBytes": 10173116,
+      "listeners": 489,
+      "nodes": 1446
+    },
+    {
+      "elapsedMs": 6032,
+      "draws": 362,
+      "fps": 60.0132625994695,
+      "frameGapP50": 16.699999999254942,
+      "frameGapP95": 17.899999998509884,
+      "frameGapP99": 18.300000000745058,
+      "drawMsP50": 1.0999999977648258,
+      "drawMsP95": 1.699999999254942,
+      "drawMsMax": 2.2000000029802322,
+      "calls": {
+        "draw": {
+          "count": 362,
+          "ms": 416.7999999932945,
+          "max": 2.2000000029802322
+        },
+        "vitals": {
+          "count": 6,
+          "ms": 3.1000000052154064,
+          "max": 0.6000000014901161
+        },
+        "simulation": {
+          "count": 2,
+          "ms": 5,
+          "max": 3.400000002235174
+        },
+        "save": {
+          "count": 1,
+          "ms": 10.699999999254942,
+          "max": 10.699999999254942
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 0.17728000000268224
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 22285,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 19058,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 49
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 1,
+        "gameTime": 2674.478479999999,
+        "hidden": false
+      },
+      "label": "C",
+      "wallSeconds": 6.0,
+      "mainThreadCorePercent": 10.682116666666674,
+      "heapBytes": 11634716,
+      "listeners": 500,
+      "nodes": 2299
+    },
+    {
+      "elapsedMs": 6002.10000000149,
+      "draws": 360,
+      "fps": 59.97900734741351,
+      "frameGapP50": 16.699999999254942,
+      "frameGapP95": 17.800000000745058,
+      "frameGapP99": 18.300000000745058,
+      "drawMsP50": 1,
+      "drawMsP95": 1.5,
+      "drawMsMax": 1.8999999985098839,
+      "calls": {
+        "draw": {
+          "count": 360,
+          "ms": 387.9999999962747,
+          "max": 1.8999999985098839
+        },
+        "vitals": {
+          "count": 6,
+          "ms": 4.300000000745058,
+          "max": 1.1000000014901161
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 4.699999999254942,
+          "max": 4.699999999254942
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 4.587040000003581
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 39120,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 34450,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 63
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 4,
+        "gameTime": 2670.030319999999,
+        "hidden": false
+      },
+      "label": "D",
+      "wallSeconds": 6.0,
+      "mainThreadCorePercent": 10.436016666666676,
+      "heapBytes": 9631992,
+      "listeners": 495,
+      "nodes": 2256
+    },
+    {
+      "elapsedMs": 3003.5,
+      "draws": 0,
+      "fps": 0,
+      "frameGapP50": null,
+      "frameGapP95": null,
+      "frameGapP99": null,
+      "drawMsP50": null,
+      "drawMsP95": null,
+      "drawMsMax": 0,
+      "calls": {
+        "simulation": {
+          "count": 1,
+          "ms": 3.2999999970197678,
+          "max": 3.2999999970197678
+        },
+        "vitals": {
+          "count": 3,
+          "ms": 1.7999999970197678,
+          "max": 0.7999999970197678
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 0,
+        "timer": 1,
+        "mode": "covered",
+        "returning": false,
+        "pendingMinutes": 3.135680000002686
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 39120,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 34450,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 63
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 4,
+        "gameTime": 2675.030319999999,
+        "hidden": false
+      },
+      "label": "store",
+      "wallSeconds": 3.0159999999996217,
+      "mainThreadCorePercent": 0.9145557029178837,
+      "heapBytes": 12405276,
+      "listeners": 498,
+      "nodes": 2602
+    },
+    {
+      "elapsedMs": 3001.699999999255,
+      "draws": 0,
+      "fps": 0,
+      "frameGapP50": null,
+      "frameGapP95": null,
+      "frameGapP99": null,
+      "drawMsP50": null,
+      "drawMsP95": null,
+      "drawMsMax": 0,
+      "calls": {
+        "vitals": {
+          "count": 3,
+          "ms": 1.800000000745058,
+          "max": 0.6999999992549419
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 2.2999999970197678,
+          "max": 2.2999999970197678
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 0,
+        "timer": 1,
+        "mode": "covered",
+        "returning": false,
+        "pendingMinutes": 1.7698800000026857
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 39155,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 34482,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 63
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 4,
+        "gameTime": 2680.030319999999,
+        "hidden": false
+      },
+      "label": "equipment",
+      "wallSeconds": 3.0,
+      "mainThreadCorePercent": 0.6744333333333389,
+      "heapBytes": 8990920,
+      "listeners": 501,
+      "nodes": 2770
+    },
+    {
+      "elapsedMs": 3001.699999999255,
+      "draws": 0,
+      "fps": 0,
+      "frameGapP50": null,
+      "frameGapP95": null,
+      "frameGapP99": null,
+      "drawMsP50": null,
+      "drawMsP95": null,
+      "drawMsMax": 0,
+      "calls": {
+        "vitals": {
+          "count": 3,
+          "ms": 2.2999999970197678,
+          "max": 0.8999999985098839
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 3.900000002235174,
+          "max": 3.900000002235174
+        },
+        "save": {
+          "count": 1,
+          "ms": 18.899999998509884,
+          "max": 18.899999998509884
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 0,
+        "timer": 1,
+        "mode": "covered",
+        "returning": false,
+        "pendingMinutes": 1.280760000000894
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 39190,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 34514,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 63
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 4,
+        "gameTime": 2684.162279999999,
+        "hidden": false
+      },
+      "label": "journal",
+      "wallSeconds": 3.0,
+      "mainThreadCorePercent": 1.7677666666666407,
+      "heapBytes": 9138384,
+      "listeners": 496,
+      "nodes": 4521
+    },
+    {
+      "elapsedMs": 3002.099999997765,
+      "draws": 0,
+      "fps": 0,
+      "frameGapP50": null,
+      "frameGapP95": null,
+      "frameGapP99": null,
+      "drawMsP50": null,
+      "drawMsP95": null,
+      "drawMsMax": 0,
+      "calls": {
+        "vitals": {
+          "count": 3,
+          "ms": 2.100000001490116,
+          "max": 0.9000000022351742
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 0,
+        "timer": 1,
+        "mode": "covered",
+        "returning": false,
+        "pendingMinutes": 4.9376399999991065
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 39225,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 34546,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 63
+        }
+      },
+      "state": {
+        "fish": 32,
+        "tanks": 4,
+        "gameTime": 2684.162279999999,
+        "hidden": false
+      },
+      "label": "diving",
+      "wallSeconds": 3.0,
+      "mainThreadCorePercent": 1.1306666666666725,
+      "heapBytes": 9461380,
+      "listeners": 500,
+      "nodes": 4708
+    },
+    {
+      "elapsedMs": 4002.199999999255,
+      "draws": 120,
+      "fps": 29.983509070017075,
+      "frameGapP50": 33.30000000074506,
+      "frameGapP95": 34.30000000074506,
+      "frameGapP99": 34.5,
+      "drawMsP50": 0.6000000014901161,
+      "drawMsP95": 1,
+      "drawMsMax": 1.5,
+      "calls": {
+        "draw": {
+          "count": 120,
+          "ms": 82.5999999716878,
+          "max": 1.5
+        },
+        "vitals": {
+          "count": 4,
+          "ms": 2.2000000029802322,
+          "max": 0.6000000014901161
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 4.797239999999104
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 40602,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 35554,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 69
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2665.030319999999,
+        "hidden": false
+      },
+      "label": "30fps",
+      "wallSeconds": 4.015999999999622,
+      "mainThreadCorePercent": 5.514392430279385,
+      "heapBytes": 10166276,
+      "listeners": 506,
+      "nodes": 4970
+    },
+    {
+      "elapsedMs": 4001.800000000745,
+      "draws": 240,
+      "fps": 59.97301214452379,
+      "frameGapP50": 16.600000001490116,
+      "frameGapP95": 17.900000002235174,
+      "frameGapP99": 18.100000001490116,
+      "drawMsP50": 0.6999999992549419,
+      "drawMsP95": 1.0999999977648258,
+      "drawMsMax": 1.699999999254942,
+      "calls": {
+        "draw": {
+          "count": 240,
+          "ms": 171.90000002458692,
+          "max": 1.699999999254942
+        },
+        "simulation": {
+          "count": 1,
+          "ms": 1.800000000745058,
+          "max": 1.800000000745058
+        },
+        "vitals": {
+          "count": 4,
+          "ms": 2.2000000029802322,
+          "max": 0.6000000014901161
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 4.596399999999997
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 43242,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 37474,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 78
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2670.030319999999,
+        "hidden": false
+      },
+      "label": "60fps",
+      "wallSeconds": 4.0,
+      "mainThreadCorePercent": 8.278399999999998,
+      "heapBytes": 9431420,
+      "listeners": 499,
+      "nodes": 4716
+    },
+    {
+      "elapsedMs": 8001.79999999702,
+      "draws": 472,
+      "fps": 58.98672798622508,
+      "frameGapP50": 16.600000001490116,
+      "frameGapP95": 17.799999997019768,
+      "frameGapP99": 33.5,
+      "drawMsP50": 0.6999999992549419,
+      "drawMsP95": 1.1000000014901161,
+      "drawMsMax": 1.699999999254942,
+      "calls": {
+        "draw": {
+          "count": 472,
+          "ms": 353.7999999560416,
+          "max": 1.699999999254942
+        },
+        "vitals": {
+          "count": 8,
+          "ms": 3.5000000037252903,
+          "max": 0.8999999985098839
+        },
+        "simulation": {
+          "count": 2,
+          "ms": 1.9999999962747097,
+          "max": 1.199999999254942
+        },
+        "save": {
+          "count": 1,
+          "ms": 13,
+          "max": 13
+        }
+      },
+      "longTasks": [],
+      "scheduler": {
+        "raf": 1,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 3.258480000002682
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 49908,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 42322,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 100
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2683.649039999999,
+        "hidden": false
+      },
+      "label": "local-video",
+      "wallSeconds": 8.0,
+      "mainThreadCorePercent": 8.986737499999997,
+      "heapBytes": 10900412,
+      "listeners": 499,
+      "nodes": 4844
+    },
+    {
+      "elapsedMs": 3003.199999999255,
+      "draws": 0,
+      "fps": 0,
+      "frameGapP50": null,
+      "frameGapP95": null,
+      "frameGapP99": null,
+      "drawMsP50": null,
+      "drawMsP95": null,
+      "drawMsMax": 0,
+      "calls": {},
+      "longTasks": [],
+      "scheduler": {
+        "raf": 0,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 0
+      },
+      "caches": {
+        "sheets": {
+          "loaded": 15,
+          "maxDecodedSheets": 128,
+          "frameCache": 225,
+          "maxFrames": 512,
+          "frameHits": 49908,
+          "frameMisses": 225,
+          "frameEvictions": 0,
+          "frameBytes": 28852224,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 31064064,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 24,
+          "poseHits": 52,
+          "poseCache": 28,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 585,
+          "bytes": 6336236,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 42322,
+          "misses": 585,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 5,
+          "bytes": 2304000,
+          "builds": 100
+        }
+      },
+      "state": {
+        "fish": 8,
+        "tanks": 1,
+        "gameTime": 2686.9315199999987,
+        "hidden": true
+      },
+      "label": "hidden",
+      "wallSeconds": 3.0,
+      "mainThreadCorePercent": 0.04033333333331631,
+      "heapBytes": 9397468,
+      "listeners": 499,
+      "nodes": 4846
+    }
+  ],
+  "media": {
+    "codec": "video/webm;codecs=vp8",
+    "width": 640,
+    "height": 360,
+    "audio": false,
+    "quality": {
+      "total": 243,
+      "dropped": 1
+    }
+  },
+  "hiddenMeasured": true,
+  "biologyProjection": "{\"time\":19945.030319999998,\"seed\":2605513254,\"tanks\":[{\"id\":\"tank1\",\"name\":\"Isolated benchmark B\",\"water\":\"marine\",\"volume\":500,\"kind\":\"reef\",\"prepared\":true,\"cycle\":36.03781333333326,\"bacteria\":1,\"bacteria2\":1,\"cycleActive\":false,\"temperatureTarget\":25,\"lightHours\":10,\"lightIntensity\":0.7,\"lightMode\":\"auto\",\"foodType\":\"pellets\",\"background\":\"lagoon\",\"decorations\":[],\"safeHours\":288.22565800000433,\"peaceHours\":0,\"waterParams\":{\"temperature\":25,\"ph\":8.197759195304485,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":17.217855420537187,\"oxygen\":7.164749998679484,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11865026320000462,\"organic\":0.25497089946281487,\"clarity\":92.98683632341316},\"equipment\":[{\"id\":\"equipment34\",\"type\":\"filter\",\"capacity\":500,\"durability\":99.8896470862855,\"enabled\":true,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":1026552591,\"draw\":2,\"trackedHours\":324.37384199999605,\"operatingHours\":324.37384199999605,\"effectiveHours\":325.09071984640775,\"maintenanceHours\":324.37384199999605,\"maintenance\":97.3573957283823,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":19945.030319999998,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"housing\":99.97240034756521,\"impeller\":99.8896470862855},\"lifeThreshold\":0.601588357502839,\"componentThreshold\":0.9978898203571451}},{\"id\":\"equipment35\",\"type\":\"heater\",\"capacity\":946.352946,\"durability\":99.83452766288725,\"enabled\":true,\"heaterModel\":\"marine-heater-3\",\"temperatureTarget\":25,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":3209885216,\"draw\":2,\"trackedHours\":324.35150999999604,\"operatingHours\":324.35150999999604,\"effectiveHours\":325.06838784640775,\"maintenanceHours\":324.35150999999604,\"maintenance\":98.68804227072575,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":19945.030319999998,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"element\":99.83452766288725,\"thermostat\":99.86760021092185},\"lifeThreshold\":1.2983559840097803,\"componentThreshold\":0.3824563632748972}},{\"id\":\"equipment36\",\"type\":\"flow\",\"capacity\":500,\"durability\":99.86209583813768,\"enabled\":true,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":2002579409,\"draw\":2,\"trackedHours\":324.3315099999961,\"operatingHours\":324.3315099999961,\"effectiveHours\":325.04838784640776,\"maintenanceHours\":324.3315099999961,\"maintenance\":97.35773600127212,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":19945.030319999998,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"motor\":99.90344710631857,\"impeller\":99.8207616857537},\"lifeThreshold\":0.9021564267993444,\"componentThreshold\":0.13844008783404005}}],\"fish\":[{\"id\":\"fish66\",\"species\":\"firefish\",\"name\":\"Firefish\",\"sex\":\"F\",\"age\":132.8960747672462,\"lifeExpectancy\":1460,\"maxLifespan\":2645.275584144285,\"hp\":100,\"maxHp\":100,\"hunger\":100,\"stress\":32.49999999999612,\"happiness\":58.87500000000253,\"energy\":100,\"fertility\":0.7984958462126088,\"growth\":1,\"adultSize\":8.246168429404497,\"aggression\":0.11732314713299274,\"temperament\":\"Peaceful\",\"disease\":null,\"immune\":0.7503695499151946,\"genes\":{\"color\":0.8664009704487398,\"size\":1.030771053675562,\"longevity\":1.0353329096455126,\"immunity\":0.9379619373939931,\"fertility\":1.0646611282834784},\"rarity\":\"Uncommon\",\"parents\":[],\"generation\":0,\"born\":2665.030319999999,\"bought\":true,\"raised\":false,\"lastBreed\":-99999,\"attackCooldown\":0,\"dead\":false,\"deathCause\":null,\"deadHours\":0,\"x\":0.7645366357708947,\"y\":0.5700000000000001,\"vx\":-0.00238,\"vy\":0,\"heading\":-1,\"behavior\":\"Rest\",\"targetX\":0.751560934784882,\"targetY\":0.5700000000000001,\"aiTimer\":6.9571409716736525,\"healthState\":{\"nutrition\":58.19929166665725,\"tissue\":1,\"bleaching\":0,\"polyps\":1,\"conditions\":[],\"treatment\":null,\"history\":[],\"lastExam\":-1},\"patternProfile\":{\"version\":1,\"seed\":678752042,\"phenotype\":\"Catalog pattern\",\"genotype\":null,\"colorTraits\":[0.8664009704487398],\"quality\":0.5,\"parents\":[],\"variety\":null,\"legacy\":true,\"inheritance\":\"Unknown genotype; phenotype alone does not establish alleles\"},\"reproduction\":{\"role\":\"unverified\",\"mature\":true,\"partnerId\":null,\"pairId\":null,\"clutchId\":null,\"state\":\"unsupported\",\"lastSpawn\":null,\"cooldownUntil\":0},\"careObservation\":{\"lastHealthy\":6950.030319999999,\"lastFed\":null}},{\"id\":\"fish67\",\"species\":\"watchman\",\"name\":\"Yellow watchman goby\",\"sex\":\"F\",\"age\":139.87674868947215,\"lifeExpectancy\":1460,\"maxLifespan\":2614.93836272764,\"hp\":100,\"maxHp\":100,\"hunger\":100,\"stress\":32.49999999999893,\"happiness\":58.875000000000696,\"energy\":100,\"fertility\":0.6964303959568496,\"growth\":1,\"adultSize\":9.786217547021806,\"aggression\":0.10178931567817928,\"temperament\":\"Peaceful\",\"disease\":null,\"immune\":0.7299491003155709,\"genes\":{\"color\":1.1168206528062001,\"size\":0.9786217547021807,\"longevity\":1.0234592417720705,\"immunity\":0.9124363753944635,\"fertility\":0.9285738612757996},\"rarity\":\"Common\",\"parents\":[],\"generation\":0,\"born\":2665.030319999999,\"bought\":true,\"raised\":false,\"lastBreed\":-99999,\"attackCooldown\":0,\"dead\":false,\"deathCause\":null,\"deadHours\":0,\"x\":0.22150487568119087,\"y\":0.93,\"vx\":0.0034000000000000002,\"vy\":0,\"heading\":1,\"behavior\":\"Rest\",\"targetX\":0.23757234451436915,\"targetY\":0.93,\"aiTimer\":4.371152715058997,\"healthState\":{\"nutrition\":52.99166666666909,\"tissue\":1,\"bleaching\":0,\"polyps\":1,\"conditions\":[],\"treatment\":null,\"history\":[],\"lastExam\":-1},\"patternProfile\":{\"version\":1,\"seed\":1729895496,\"phenotype\":\"Catalog pattern\",\"genotype\":null,\"colorTraits\":[1.1168206528062001],\"quality\":0.5,\"parents\":[],\"variety\":null,\"legacy\":true,\"inheritance\":\"Unknown genotype; phenotype alone does not establish alleles\"},\"reproduction\":{\"role\":\"unverified\",\"mature\":true,\"partnerId\":null,\"pairId\":null,\"clutchId\":null,\"state\":\"unsupported\",\"lastSpawn\":null,\"cooldownUntil\":0},\"careObservation\":{\"lastHealthy\":6560.030319999999,\"lastFed\":null}},{\"id\":\"fish68\",\"species\":\"banggai\",\"name\":\"Banggai cardinalfish\",\"sex\":\"M\",\"age\":104.38220279572835,\"lifeExpectancy\":1460,\"maxLifespan\":2537.9447723252233,\"hp\":100,\"maxHp\":100,\"hunger\":100,\"stress\":32.49999999999166,\"happiness\":58.87500000000543,\"energy\":100,\"fertility\":0.7307922651234549,\"growth\":1,\"adultSize\":7.946561793237925,\"aggression\":0.08344158053398133,\"temperament\":\"Peaceful\",\"disease\":null,\"immune\":0.7402514488250018,\"genes\":{\"color\":0.9686715544434263,\"size\":0.9933202241547406,\"longevity\":0.9933247641194612,\"immunity\":0.9253143110312522,\"fertility\":0.9743896868312731},\"rarity\":\"Uncommon\",\"parents\":[],\"generation\":0,\"born\":2665.030319999999,\"bought\":true,\"raised\":false,\"lastBreed\":-99999,\"attackCooldown\":0,\"dead\":false,\"deathCause\":null,\"deadHours\":0,\"x\":0.6197326114983452,\"y\":0.5700000000000001,\"vx\":0.000009409589677821238,\"vy\":0,\"heading\":1,\"behavior\":\"Rest\",\"targetX\":0.6197358822113349,\"targetY\":0.5700000000000001,\"aiTimer\":1.0539501409512013,\"healthState\":{\"nutrition\":60.77705625000797,\"tissue\":1,\"bleaching\":0,\"polyps\":1,\"conditions\":[],\"treatment\":null,\"history\":[],\"lastExam\":-1},\"patternProfile\":{\"version\":1,\"seed\":438926331,\"phenotype\":\"Catalog pattern\",\"genotype\":null,\"colorTraits\":[0.9686715544434263],\"quality\":0.5,\"parents\":[],\"variety\":null,\"legacy\":true,\"inheritance\":\"Unknown genotype; phenotype alone does not establish alleles\"},\"reproduction\":{\"role\":\"M\",\"mature\":true,\"partnerId\":null,\"pairId\":null,\"clutchId\":null,\"state\":\"not-ready\",\"lastSpawn\":null,\"cooldownUntil\":0},\"careObservation\":{\"lastHealthy\":7170.030319999999,\"lastFed\":null}},{\"id\":\"fish69\",\"species\":\"chromis\",\"name\":\"Blue-green chromis\",\"sex\":\"M\",\"age\":130.3996421145492,\"lifeExpectancy\":1460,\"maxLifespan\":2459.3837003901135,\"hp\":100,\"maxHp\":100,\"hunger\":100,\"stress\":32.499999999999716,\"happiness\":58.875000000000185,\"energy\":100,\"fertility\":0.8306356841640081,\"growth\":1,\"adultSize\":9.090708663593977,\"aggression\":0.09167232718318702,\"temperament\":\"Social\",\"disease\":null,\"immune\":0.7758227418363095,\"genes\":{\"color\":1.020492479414679,\"size\":1.0100787403993308,\"longevity\":0.96257679075934,\"immunity\":0.9697784272953868,\"fertility\":1.1075142455520108},\"rarity\":\"Common\",\"parents\":[],\"generation\":0,\"born\":2665.030319999999,\"bought\":true,\"raised\":false,\"lastBreed\":-99999,\"attackCooldown\":0,\"dead\":false,\"deathCause\":null,\"deadHours\":0,\"x\":0.4320447399286883,\"y\":0.5700000000000001,\"vx\":0.0029962525920942317,\"vy\":0,\"heading\":1,\"behavior\":\"Rest\",\"targetX\":0.42335812527093614,\"targetY\":0.5700000000000001,\"aiTimer\":2.1083171681966633,\"healthState\":{\"nutrition\":46.094133333338576,\"tissue\":1,\"bleaching\":0,\"polyps\":1,\"conditions\":[],\"treatment\":null,\"history\":[],\"lastExam\":-1},\"patternProfile\":{\"version\":1,\"seed\":2986754448,\"phenotype\":\"Catalog pattern\",\"genotype\":null,\"colorTraits\":[1.020492479414679],\"quality\":0.5,\"parents\":[],\"variety\":null,\"legacy\":true,\"inheritance\":\"Unknown genotype; phenotype alone does not establish alleles\"},\"reproduction\":{\"role\":\"unverified\",\"mature\":true,\"partnerId\":null,\"pairId\":null,\"clutchId\":null,\"state\":\"unsupported\",\"lastSpawn\":null,\"cooldownUntil\":0},\"careObservation\":{\"lastHealthy\":6145.030319999999,\"lastFed\":null}},{\"id\":\"fish70\",\"species\":\"chromis\",\"name\":\"Blue-green chromis\",\"sex\":\"F\",\"age\":102.90935181362858,\"lifeExpectancy\":1460,\"maxLifespan\":2590.7858945743646,\"hp\":100,\"maxHp\":100,\"hunger\":100,\"stress\":32.499999999999716,\"happiness\":58.875000000000185,\"energy\":100,\"fertility\":0.7798726143955719,\"growth\":1,\"adultSize\":8.56875030482188,\"aggression\":0.10535712592303755,\"temperament\":\"Social\",\"disease\":null,\"immune\":0.742605304941535,\"genes\":{\"color\":1.1272320675896481,\"size\":0.952083367202431,\"longevity\":1.0140062209684402,\"immunity\":0.9282566311769187,\"fertility\":1.0398301525274292},\"rarity\":\"Common\",\"parents\":[],\"generation\":0,\"born\":2665.030319999999,\"bought\":true,\"raised\":false,\"lastBreed\":-99999,\"attackCooldown\":0,\"dead\":false,\"deathCause\":null,\"deadHours\":0,\"x\":0.7238406823810666,\"y\":0.5700000000000001,\"vx\":0.00476,\"vy\":0,\"heading\":1,\"behavior\":\"Rest\",\"targetX\":0.7102663635965912,\"targetY\":0.5700000000000001,\"aiTimer\":5.653644031146541,\"healthState\":{\"nutrition\":46.094133333338576,\"tissue\":1,\"bleaching\":0,\"polyps\":1,\"conditions\":[],\"treatment\":null,\"history\":[],\"lastExam\":-1},\"patternProfile\":{\"version\":1,\"seed\":1128154442,\"phenotype\":\"Catalog pattern\",\"genotype\":null,\"colorTraits\":[1.1272320675896481],\"quality\":0.5,\"parents\":[],\"variety\":null,\"legacy\":true,\"inheritance\":\"Unknown genotype; phenotype alone does not establish alleles\"},\"reproduction\":{\"role\":\"unverified\",\"mature\":true,\"partnerId\":null,\"pairId\":null,\"clutchId\":null,\"state\":\"unsupported\",\"lastSpawn\":null,\"cooldownUntil\":0},\"careObservation\":{\"lastHealthy\":6145.030319999999,\"lastFed\":null}},{\"id\":\"fish71\",\"species\":\"chromis\",\"name\":\"Blue-green chromis\",\"sex\":\"M\",\"age\":107.75469231700828,\"lifeExpectancy\":1460,\"maxLifespan\":2471.3591311860364,\"hp\":100,\"maxHp\":100,\"hunger\":100,\"stress\":32.499999999999716,\"happiness\":58.875000000000185,\"energy\":100,\"fertility\":0.6476484193874057,\"growth\":1,\"adultSize\":9.75246072029695,\"aggression\":0.08177807170897723,\"temperament\":\"Social\",\"disease\":null,\"immune\":0.6842120569944382,\"genes\":{\"color\":1.132579116919078,\"size\":1.083606746699661,\"longevity\":0.9672638478223234,\"immunity\":0.8552650712430477,\"fertility\":0.8635312258498743},\"rarity\":\"Common\",\"parents\":[],\"generation\":0,\"born\":2665.030319999999,\"bought\":true,\"raised\":false,\"lastBreed\":-99999,\"attackCooldown\":0,\"dead\":false,\"deathCause\":null,\"deadHours\":0,\"x\":0.6010948444331419,\"y\":0.5700000000000001,\"vx\":0.00476,\"vy\":0,\"heading\":1,\"behavior\":\"Rest\",\"targetX\":0.6197075237496178,\"targetY\":0.5700000000000001,\"aiTimer\":5.7816034245770425,\"healthState\":{\"nutrition\":46.094133333338576,\"tissue\":1,\"bleaching\":0,\"polyps\":1,\"conditions\":[],\"treatment\":null,\"history\":[],\"lastExam\":-1},\"patternProfile\":{\"version\":1,\"seed\":1807971843,\"phenotype\":\"Catalog pattern\",\"genotype\":null,\"colorTraits\":[1.132579116919078],\"quality\":0.5,\"parents\":[],\"variety\":null,\"legacy\":true,\"inheritance\":\"Unknown genotype; phenotype alone does not establish alleles\"},\"reproduction\":{\"role\":\"unverified\",\"mature\":true,\"partnerId\":null,\"pairId\":null,\"clutchId\":null,\"state\":\"unsupported\",\"lastSpawn\":null,\"cooldownUntil\":0},\"careObservation\":{\"lastHealthy\":6145.030319999999,\"lastFed\":null}},{\"id\":\"fish72\",\"species\":\"chromis\",\"name\":\"Blue-green chromis\",\"sex\":\"F\",\"age\":116.59998504726519,\"lifeExpectancy\":1460,\"maxLifespan\":2700.6911570837256,\"hp\":100,\"maxHp\":100,\"hunger\":100,\"stress\":32.499999999999716,\"happiness\":58.875000000000185,\"energy\":100,\"fertility\":0.6441325754101854,\"growth\":1,\"adultSize\":9.295627093780785,\"aggression\":0.10542993649840356,\"temperament\":\"Social\",\"disease\":null,\"immune\":0.7487477991729975,\"genes\":{\"color\":0.905492124450393,\"size\":1.0328474548645317,\"longevity\":1.0570219792891293,\"immunity\":0.9359347489662468,\"fertility\":0.8588434338802472},\"rarity\":\"Common\",\"parents\":[],\"generation\":0,\"born\":2665.030319999999,\"bought\":true,\"raised\":false,\"lastBreed\":-99999,\"attackCooldown\":0,\"dead\":false,\"deathCause\":null,\"deadHours\":0,\"x\":0.1862379703727688,\"y\":0.5700000000000001,\"vx\":-0.001220538770034904,\"vy\":0,\"heading\":-1,\"behavior\":\"Rest\",\"targetX\":0.18977650714303806,\"targetY\":0.5700000000000001,\"aiTimer\":3.932302723871544,\"healthState\":{\"nutrition\":46.094133333338576,\"tissue\":1,\"bleaching\":0,\"polyps\":1,\"conditions\":[],\"treatment\":null,\"history\":[],\"lastExam\":-1},\"patternProfile\":{\"version\":1,\"seed\":4039300712,\"phenotype\":\"Catalog pattern\",\"genotype\":null,\"colorTraits\":[0.905492124450393],\"quality\":0.5,\"parents\":[],\"variety\":null,\"legacy\":true,\"inheritance\":\"Unknown genotype; phenotype alone does not establish alleles\"},\"reproduction\":{\"role\":\"unverified\",\"mature\":true,\"partnerId\":null,\"pairId\":null,\"clutchId\":null,\"state\":\"unsupported\",\"lastSpawn\":null,\"cooldownUntil\":0},\"careObservation\":{\"lastHealthy\":6145.030319999999,\"lastFed\":null}},{\"id\":\"fish73\",\"species\":\"chromis\",\"name\":\"Blue-green chromis\",\"sex\":\"F\",\"age\":104.94503879269888,\"lifeExpectancy\":1460,\"maxLifespan\":2559.9985300085973,\"hp\":100,\"maxHp\":100,\"hunger\":100,\"stress\":32.499999999999716,\"happiness\":58.875000000000185,\"energy\":100,\"fertility\":0.8060212959477213,\"growth\":1,\"adultSize\":9.057338275294752,\"aggression\":0.0860841340944171,\"temperament\":\"Social\",\"disease\":null,\"immune\":0.8924273790419103,\"genes\":{\"color\":0.8949905460933223,\"size\":1.0063709194771946,\"longevity\":1.0019563718233258,\"immunity\":1.1155342238023878,\"fertility\":1.0746950612636283},\"rarity\":\"Common\",\"parents\":[],\"generation\":0,\"born\":2665.030319999999,\"bought\":true,\"raised\":false,\"lastBreed\":-99999,\"attackCooldown\":0,\"dead\":false,\"deathCause\":null,\"deadHours\":0,\"x\":0.408325749187851,\"y\":0.5700000000000001,\"vx\":0.00476,\"vy\":0,\"heading\":1,\"behavior\":\"Rest\",\"targetX\":0.3951900819856018,\"targetY\":0.5700000000000001,\"aiTimer\":5.502168398117647,\"healthState\":{\"nutrition\":46.094133333338576,\"tissue\":1,\"bleaching\":0,\"polyps\":1,\"conditions\":[],\"treatment\":null,\"history\":[],\"lastExam\":-1},\"patternProfile\":{\"version\":1,\"seed\":2191051729,\"phenotype\":\"Catalog pattern\",\"genotype\":null,\"colorTraits\":[0.8949905460933223],\"quality\":0.5,\"parents\":[],\"variety\":null,\"legacy\":true,\"inheritance\":\"Unknown genotype; phenotype alone does not establish alleles\"},\"reproduction\":{\"role\":\"unverified\",\"mature\":true,\"partnerId\":null,\"pairId\":null,\"clutchId\":null,\"state\":\"unsupported\",\"lastSpawn\":null,\"cooldownUntil\":0},\"careObservation\":{\"lastHealthy\":6145.030319999999,\"lastFed\":null}}],\"flora\":[{\"id\":\"flora75\",\"type\":\"zoa\",\"x\":0.2,\"y\":0.48,\"z\":0.5,\"attachment\":{\"surface\":\"rack\",\"supportId\":\"rack74\",\"localX\":0,\"localY\":0,\"orientation\":\"upright\",\"mounted\":true,\"footprint\":9.600000000000001},\"size\":0.8,\"hp\":0,\"age\":12.020833333332877,\"color\":0.3,\"healthState\":{\"nutrition\":86.12666666667016,\"tissue\":0.9955781875,\"bleaching\":0,\"polyps\":0.00038749091542108593,\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.2646166666666661,\"age\":48.41666666666695,\"diagnosed\":false,\"confidence\":0,\"carrier\":false},{\"type\":\"injury\",\"severity\":0.2646166666666661,\"age\":48.41666666666695,\"diagnosed\":false,\"confidence\":0,\"carrier\":false},{\"type\":\"tissueLoss\",\"severity\":0.18032500000000085,\"age\":15.750000000000043,\"diagnosed\":false,\"confidence\":0,\"carrier\":false}],\"treatment\":null,\"history\":[{\"time\":2670.030319999999,\"event\":\"A health observation was recorded.\"},{\"time\":2670.030319999999,\"event\":\"A health observation was recorded.\"},{\"time\":4630.030319999999,\"event\":\"A health observation was recorded.\"}],\"lastExam\":-1},\"rarity\":\"Common\",\"careObservation\":{\"lastHealthy\":null,\"lastFed\":null},\"deathRecordId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:death:flora75\",\"deathTime\":5575.030319999999,\"deathCause\":\"Sustained coral environmental stress\",\"survivalLossRecorded\":true},{\"id\":\"flora77\",\"type\":\"mushroom\",\"x\":0.5,\"y\":0.48,\"z\":0.5,\"attachment\":{\"surface\":\"rack\",\"supportId\":\"rack76\",\"localX\":0,\"localY\":0,\"orientation\":\"upright\",\"mounted\":true,\"footprint\":11.200000000000001},\"size\":0.8,\"hp\":0,\"age\":12.77430555555493,\"color\":0.3,\"healthState\":{\"nutrition\":84.6800000000048,\"tissue\":0.9937138504269286,\"bleaching\":0,\"polyps\":0.00044230725779996043,\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.3261000000000047,\"age\":66.50000000000058,\"diagnosed\":false,\"confidence\":0,\"carrier\":false},{\"type\":\"injury\",\"severity\":0.3261000000000047,\"age\":66.50000000000058,\"diagnosed\":false,\"confidence\":0,\"carrier\":false},{\"type\":\"tissueLoss\",\"severity\":0.20497500000000135,\"age\":20.583333333333314,\"diagnosed\":false,\"confidence\":0,\"carrier\":false}],\"treatment\":null,\"history\":[{\"time\":2670.030319999999,\"event\":\"A health observation was recorded.\"},{\"time\":2670.030319999999,\"event\":\"A health observation was recorded.\"},{\"time\":5425.030319999999,\"event\":\"A health observation was recorded.\"}],\"lastExam\":-1},\"rarity\":\"Common\",\"careObservation\":{\"lastHealthy\":null,\"lastFed\":null},\"deathRecordId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:death:flora77\",\"deathTime\":6660.030319999999,\"deathCause\":\"Sustained coral environmental stress\",\"survivalLossRecorded\":true},{\"id\":\"flora79\",\"type\":\"sps\",\"x\":0.8,\"y\":0.48,\"z\":0.5,\"attachment\":{\"surface\":\"rack\",\"supportId\":\"rack78\",\"localX\":0,\"localY\":0,\"orientation\":\"upright\",\"mounted\":true,\"footprint\":9.600000000000001},\"size\":0.8,\"hp\":0,\"age\":11.218749999999726,\"color\":0.3,\"healthState\":{\"nutrition\":87.66666666666876,\"tissue\":0.9975360129269287,\"bleaching\":0,\"polyps\":0.001942984716741834,\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.19916666666666547,\"age\":29.166666666666522,\"diagnosed\":false,\"confidence\":0,\"carrier\":false},{\"type\":\"injury\",\"severity\":0.19916666666666547,\"age\":29.166666666666522,\"diagnosed\":false,\"confidence\":0,\"carrier\":false},{\"type\":\"tissueLoss\",\"severity\":0.15015000000000023,\"age\":9.833333333333332,\"diagnosed\":false,\"confidence\":0,\"carrier\":false}],\"treatment\":null,\"history\":[{\"time\":2670.030319999999,\"event\":\"A health observation was recorded.\"},{\"time\":2670.030319999999,\"event\":\"A health observation was recorded.\"},{\"time\":3830.030319999999,\"event\":\"A health observation was recorded.\"}],\"lastExam\":-1},\"rarity\":\"Rare\",\"careObservation\":{\"lastHealthy\":null,\"lastFed\":null},\"deathRecordId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:death:flora79\",\"deathTime\":4420.030319999999,\"deathCause\":\"Sustained coral environmental stress\",\"survivalLossRecorded\":true}],\"eggs\":[],\"food\":[],\"lastAutoFeed\":-1,\"forage\":{\"algae\":0},\"autoFeedSlot\":-1,\"environmentHistory\":[{\"time\":480,\"water\":{\"temperature\":25,\"ph\":8.2,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":3,\"oxygen\":7.5,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":100},\"bacteria\":0.01,\"bacteria2\":0.005},{\"time\":721.95964,\"water\":{\"temperature\":25,\"ph\":8.2,\"salinity\":35,\"ammonia\":1.2165106695026928,\"nitrite\":0.04528754963927038,\"nitrate\":3.2382017808580366,\"oxygen\":7.351861393211117,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":99.3523596438284},\"bacteria\":0.11901762829629617,\"bacteria2\":0.11404629629629617},{\"time\":1440,\"water\":{\"temperature\":25,\"ph\":8.2,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":4.500000000000001,\"oxygen\":7.373427055721526,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":99.1},\"bacteria\":0.45144372088889023,\"bacteria2\":0.4464723888888902},{\"time\":2163.30684,\"water\":{\"temperature\":25,\"ph\":8.2,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":4.500000000000001,\"oxygen\":7.379986066888447,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":99.1},\"bacteria\":0.7863079986666626,\"bacteria2\":0.7813366666666627},{\"time\":2880,\"water\":{\"temperature\":25,\"ph\":8.199991841178809,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":8.601486947189226,\"oxygen\":7.202441477608244,\"gh\":12,\"kh\":8,\"alkalinity\":7.999656048511991,\"calcium\":419.96130545759996,\"magnesium\":1299.995700606401,\"phosphate\":0.031191982810000064,\"organic\":0.125511333810775,\"clarity\":96.52254393721131},\"bacteria\":1,\"bacteria2\":1},{\"time\":3600.030319999999,\"water\":{\"temperature\":25,\"ph\":8.199921820911397,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":8.871713617795043,\"oxygen\":7.167692204234628,\"gh\":12,\"kh\":8,\"alkalinity\":7.998503999999958,\"calcium\":419.8316999999997,\"magnesium\":1299.9813000000047,\"phosphate\":0.03488213820000025,\"organic\":0.22430020220494726,\"clarity\":95.08545444557174},\"bacteria\":1,\"bacteria2\":1},{\"time\":4320,\"water\":{\"temperature\":25,\"ph\":8.199832275096735,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":9.217294495898889,\"oxygen\":7.165434107166151,\"gh\":12,\"kh\":8,\"alkalinity\":7.997352048511925,\"calcium\":419.70210545759954,\"magnesium\":1299.9669006064082,\"phosphate\":0.038571982810000446,\"organic\":0.24770378510109117,\"clarity\":94.68868810940495},\"bacteria\":1,\"bacteria2\":1},{\"time\":5040.030319999999,\"water\":{\"temperature\":25,\"ph\":8.19973809388664,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":9.580764589705229,\"oxygen\":7.164912036763526,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.04226213820000063,\"organic\":0.25324923029474833,\"clarity\":94.53835785793248},\"bacteria\":1,\"bacteria2\":1},{\"time\":5760,\"water\":{\"temperature\":25,\"ph\":8.199642824238358,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":9.948435251625583,\"oxygen\":7.164788416265849,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.045951982810000826,\"organic\":0.25456302937439723,\"clarity\":94.44643053843332},\"bacteria\":1,\"bacteria2\":1},{\"time\":6480.030319999999,\"water\":{\"temperature\":25,\"ph\":8.199547286759476,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":10.317139542879135,\"oxygen\":7.164759092578321,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.04964213820000101,\"organic\":0.25487427712084865,\"clarity\":94.36833221173228},\"bacteria\":1,\"bacteria2\":1},{\"time\":7200,\"water\":{\"temperature\":25,\"ph\":8.19945169580515,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":10.686050209575088,\"oxygen\":7.164752177362327,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.053331982810001205,\"organic\":0.2549480714249007,\"clarity\":94.29351695813638},\"bacteria\":1,\"bacteria2\":1},{\"time\":7920.030319999999,\"water\":{\"temperature\":25,\"ph\":8.199356082192445,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":11.055048321260955,\"oxygen\":7.16475050710758,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.05702213820000139,\"organic\":0.2549654987390261,\"clarity\":94.21947335340144},\"bacteria\":1,\"bacteria2\":1},{\"time\":8640,\"water\":{\"temperature\":25,\"ph\":8.199260473201694,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":11.424028595330894,\"oxygen\":7.164750143100105,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.06071198281000159,\"organic\":0.254969685669087,\"clarity\":94.1456186815666},\"bacteria\":1,\"bacteria2\":1},{\"time\":9360.030319999998,\"water\":{\"temperature\":25,\"ph\":8.199164855315217,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":11.793043200557069,\"oxygen\":7.164750025164217,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.06440213820000178,\"organic\":0.2549706194429279,\"clarity\":94.0718026876876},\"bacteria\":1,\"bacteria2\":1},{\"time\":10080,\"water\":{\"temperature\":25,\"ph\":8.199069245311993,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":12.162027382020437,\"oxygen\":7.16475002890728,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.06809198281000198,\"organic\":0.2549708989795581,\"clarity\":93.9980019378821},\"bacteria\":1,\"bacteria2\":1},{\"time\":10800.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198973627185623,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":12.531042913107576,\"oxygen\":7.164749998110439,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.07178213820000216,\"organic\":0.25497090689242685,\"clarity\":93.92419872088452},\"bacteria\":1,\"bacteria2\":1},{\"time\":11520,\"water\":{\"temperature\":25,\"ph\":8.198878017125562,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":12.900027313911545,\"oxygen\":7.164750022497091,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.07547198281000236,\"organic\":0.25497096708845335,\"clarity\":93.85040099797935},\"bacteria\":1,\"bacteria2\":1},{\"time\":12240.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198782398985728,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":13.269042896971664,\"oxygen\":7.164749996591783,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.07916213820000255,\"organic\":0.25497092302833635,\"clarity\":93.77659849820895},\"bacteria\":1,\"bacteria2\":1},{\"time\":12960,\"water\":{\"temperature\":25,\"ph\":8.198686788922481,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":13.638027310088267,\"oxygen\":7.164750022137258,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.08285198281000275,\"organic\":0.25497097091173027,\"clarity\":93.70280094521813},\"bacteria\":1,\"bacteria2\":1},{\"time\":13680.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198591170781889,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":14.007042896065878,\"oxygen\":7.164749996506533,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.08654213820000294,\"organic\":0.2549709239341216,\"clarity\":93.62899848570912},\"bacteria\":1,\"bacteria2\":1},{\"time\":14400,\"water\":{\"temperature\":25,\"ph\":8.198495560718454,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":14.376027309873653,\"oxygen\":7.164750022117059,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.09023198281000314,\"organic\":0.25497097112634903,\"clarity\":93.55520094225638},\"bacteria\":1,\"bacteria2\":1},{\"time\":15120.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19839994257782,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":14.74504289601503,\"oxygen\":7.164749996501747,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.09392213820000332,\"organic\":0.25497092398496796,\"clarity\":93.48139848500743},\"bacteria\":1,\"bacteria2\":1},{\"time\":15840,\"water\":{\"temperature\":25,\"ph\":8.19830433251438,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.114027309861603,\"oxygen\":7.164750022115923,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.09761198281000352,\"organic\":0.2549709711383968,\"clarity\":93.40760094209011},\"bacteria\":1,\"bacteria2\":1},{\"time\":16560.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198208714373745,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.483042896012178,\"oxygen\":7.164749996501478,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10130213820000371,\"organic\":0.25497092398782206,\"clarity\":93.33379848496806},\"bacteria\":1,\"bacteria2\":1},{\"time\":17280,\"water\":{\"temperature\":25,\"ph\":8.198113104310305,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.852027309860922,\"oxygen\":7.164750022115861,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10499198281000391,\"organic\":0.25497097113907297,\"clarity\":93.2600009420808},\"bacteria\":1,\"bacteria2\":1},{\"time\":18000.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19801748616967,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.221042896011998,\"oxygen\":7.164749996501465,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.1086821382000041,\"organic\":0.25497092398798227,\"clarity\":93.18619848496586},\"bacteria\":1,\"bacteria2\":1},{\"time\":18720,\"water\":{\"temperature\":25,\"ph\":8.19792187610623,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.590027309860886,\"oxygen\":7.1647500221158555,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.1123719828100043,\"organic\":0.25497097113911077,\"clarity\":93.11240094208027},\"bacteria\":1,\"bacteria2\":1},{\"time\":19440.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197826257965595,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.959042896012004,\"oxygen\":7.164749996501464,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11606213820000448,\"organic\":0.2549709239879913,\"clarity\":93.03859848496572},\"bacteria\":1,\"bacteria2\":1}],\"invertebrates\":[],\"nurseries\":[],\"ecosystemAge\":324.3881759999961,\"substrate\":{\"type\":\"fiji\",\"depth\":2},\"hardscape\":[{\"id\":\"rock37\",\"group\":\"hawaiian\",\"variant\":0,\"x\":0.5,\"y\":0.9125,\"z\":0.5,\"width\":38,\"baseOffset\":0.0125}],\"mounts\":[{\"id\":\"rack74\",\"x\":0.2,\"y\":0.48,\"width\":80,\"glass\":\"back\",\"mounted\":true,\"z\":0.5},{\"id\":\"rack76\",\"x\":0.5,\"y\":0.48,\"width\":80,\"glass\":\"back\",\"mounted\":true,\"z\":0.5},{\"id\":\"rack78\",\"x\":0.8,\"y\":0.48,\"width\":80,\"glass\":\"back\",\"mounted\":true,\"z\":0.5}],\"pathogens\":{},\"medicalSeed\":127562,\"emptyDry\":false,\"mortalityHistory\":{\"samples\":[{\"time\":16980.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198152939486883,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.69829291793378,\"oxygen\":7.164749998436364,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10345463820000382,\"organic\":0.25497090206621986,\"clarity\":93.29074878748617},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,67.193,0],[\"fish67\",100,100,62.875,0],[\"fish68\",100,100,69.326,0],[\"fish69\",100,100,57.163,0],[\"fish70\",100,100,57.163,0],[\"fish71\",100,100,57.163,0],[\"fish72\",100,100,57.163,0],[\"fish73\",100,100,57.163,0]]},{\"time\":17040.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198144971646226,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.729042919816907,\"oxygen\":7.164749998612119,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10376213820000384,\"organic\":0.2549709001830937,\"clarity\":93.2845988134733},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,67.011,0],[\"fish67\",100,100,62.675,0],[\"fish68\",100,100,69.153,0],[\"fish69\",100,100,56.939,0],[\"fish70\",100,100,56.939,0],[\"fish71\",100,100,56.939,0],[\"fish72\",100,100,56.939,0],[\"fish73\",100,100,56.939,0]]},{\"time\":17100.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198137003805625,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.759792921487087,\"oxygen\":7.164749998768424,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10406963820000385,\"organic\":0.2549708985129105,\"clarity\":93.27844883652183},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,66.829,0],[\"fish67\",100,100,62.475,0],[\"fish68\",100,100,68.98,0],[\"fish69\",100,100,56.715,0],[\"fish70\",100,100,56.715,0],[\"fish71\",100,100,56.715,0],[\"fish72\",100,100,56.715,0],[\"fish73\",100,100,56.715,0]]},{\"time\":17160.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198129035965072,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.790542922968404,\"oxygen\":7.1647499989073085,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10437713820000387,\"organic\":0.2549708970315909,\"clarity\":93.27229885696406},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,66.647,0],[\"fish67\",100,100,62.275,0],[\"fish68\",100,100,68.807,0],[\"fish69\",100,100,56.491,0],[\"fish70\",100,100,56.491,0],[\"fish71\",100,100,56.491,0],[\"fish72\",100,100,56.491,0],[\"fish73\",100,100,56.491,0]]},{\"time\":17220.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198121068124562,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.821292924282217,\"oxygen\":7.16474999903064,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10468463820000388,\"organic\":0.25497089571777837,\"clarity\":93.26614887509466},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,66.465,0],[\"fish67\",100,100,62.075,0],[\"fish68\",100,100,68.634,0],[\"fish69\",100,100,56.267,0],[\"fish70\",100,100,56.267,0],[\"fish71\",100,100,56.267,0],[\"fish72\",100,100,56.267,0],[\"fish73\",100,100,56.267,0]]},{\"time\":17280,\"water\":{\"temperature\":25,\"ph\":8.198113104310305,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.852027309860922,\"oxygen\":7.164750022115861,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10499198281000391,\"organic\":0.25497097113907297,\"clarity\":93.2600009420808},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,66.283,0],[\"fish67\",100,100,61.875,0],[\"fish68\",100,100,68.461,0],[\"fish69\",100,100,56.044,0],[\"fish70\",100,100,56.044,0],[\"fish71\",100,100,56.044,0],[\"fish72\",100,100,56.044,0],[\"fish73\",100,100,56.044,0]]},{\"time\":17340.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198105132438947,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.882792790184887,\"oxygen\":7.164750022749207,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10529963820000392,\"organic\":0.25497102981510816,\"clarity\":93.25384702455152},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,66.101,0],[\"fish67\",100,100,61.675,0],[\"fish68\",100,100,68.288,0],[\"fish69\",100,100,55.819,0],[\"fish70\",100,100,55.819,0],[\"fish71\",100,100,55.819,0],[\"fish72\",100,100,55.819,0],[\"fish73\",100,100,55.819,0]]},{\"time\":17400.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198097164594548,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.913542806513801,\"oxygen\":7.164750009752499,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10560713820000393,\"organic\":0.25497101348619344,\"clarity\":93.24769724989054},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,65.919,0],[\"fish67\",100,100,61.475,0],[\"fish68\",100,100,68.115,0],[\"fish69\",100,100,55.595,0],[\"fish70\",100,100,55.595,0],[\"fish71\",100,100,55.595,0],[\"fish72\",100,100,55.595,0],[\"fish73\",100,100,55.595,0]]},{\"time\":17460.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198089196750626,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.94429282099625,\"oxygen\":7.1647500023944595,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10591463820000395,\"organic\":0.25497099900374526,\"clarity\":93.24154744974831},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,65.737,0],[\"fish67\",100,100,61.275,0],[\"fish68\",100,100,67.942,0],[\"fish69\",100,100,55.371,0],[\"fish70\",100,100,55.371,0],[\"fish71\",100,100,55.371,0],[\"fish72\",100,100,55.371,0],[\"fish73\",100,100,55.371,0]]},{\"time\":17520.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198081228907128,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":15.97504283384103,\"oxygen\":7.164749998370142,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10622213820000397,\"organic\":0.25497098615896596,\"clarity\":93.23539762700626},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,65.555,0],[\"fish67\",100,100,61.075,0],[\"fish68\",100,100,67.769,0],[\"fish69\",100,100,55.147,0],[\"fish70\",100,100,55.147,0],[\"fish71\",100,100,55.147,0],[\"fish72\",100,100,55.147,0],[\"fish73\",100,100,55.147,0]]},{\"time\":17580.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198073261064009,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.005792845233326,\"oxygen\":7.164749996302065,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10652963820000398,\"organic\":0.2549709747666687,\"clarity\":93.22924778421996},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,65.373,0],[\"fish67\",100,100,60.875,0],[\"fish68\",100,100,67.596,0],[\"fish69\",100,100,54.923,0],[\"fish70\",100,100,54.923,0],[\"fish71\",100,100,54.923,0],[\"fish72\",100,100,54.923,0],[\"fish73\",100,100,54.923,0]]},{\"time\":17640.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198065293221221,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.03654285533739,\"oxygen\":7.164749995368648,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.106837138200004,\"organic\":0.2549709646626075,\"clarity\":93.22309792365603},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,65.191,0],[\"fish67\",100,100,60.675,0],[\"fish68\",100,100,67.423,0],[\"fish69\",100,100,54.699,0],[\"fish70\",100,100,54.699,0],[\"fish71\",100,100,54.699,0],[\"fish72\",100,100,54.699,0],[\"fish73\",100,100,54.699,0]]},{\"time\":17700.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19805732537873,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.067292864298885,\"oxygen\":7.164749995081324,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10714463820000401,\"organic\":0.2549709557011091,\"clarity\":93.21694804732469},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,65.009,0],[\"fish67\",100,100,60.475,0],[\"fish68\",100,100,67.25,0],[\"fish69\",100,100,54.475,0],[\"fish70\",100,100,54.475,0],[\"fish71\",100,100,54.475,0],[\"fish72\",100,100,54.475,0],[\"fish73\",100,100,54.475,0]]},{\"time\":17760.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198049357536505,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.09804287224701,\"oxygen\":7.164749995150851,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10745213820000403,\"organic\":0.25497094775297297,\"clarity\":93.21079815700898},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,64.827,0],[\"fish67\",100,100,60.275,0],[\"fish68\",100,100,67.077,0],[\"fish69\",100,100,54.251,0],[\"fish70\",100,100,54.251,0],[\"fish71\",100,100,54.251,0],[\"fish72\",100,100,54.251,0],[\"fish73\",100,100,54.251,0]]},{\"time\":17820.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198041389694508,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.128792879296377,\"oxygen\":7.1647499954071545,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10775963820000405,\"organic\":0.2549709407036086,\"clarity\":93.2046482542902},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,64.645,0],[\"fish67\",100,100,60.075,0],[\"fish68\",100,100,66.904,0],[\"fish69\",100,100,54.027,0],[\"fish70\",100,100,54.027,0],[\"fish71\",100,100,54.027,0],[\"fish72\",100,100,54.027,0],[\"fish73\",100,100,54.027,0]]},{\"time\":17880.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198033421852719,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.1595428855486,\"oxygen\":7.1647499957512695,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10806713820000406,\"organic\":0.25497093445138325,\"clarity\":93.19849834057091},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,64.463,0],[\"fish67\",100,100,59.875,0],[\"fish68\",100,100,66.731,0],[\"fish69\",100,100,53.803,0],[\"fish70\",100,100,53.803,0],[\"fish71\",100,100,53.803,0],[\"fish72\",100,100,53.803,0],[\"fish73\",100,100,53.803,0]]},{\"time\":17940.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198025454011114,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.190292891093822,\"oxygen\":7.164749996126559,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10837463820000408,\"organic\":0.25497092890615686,\"clarity\":93.19234841709503},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,64.281,0],[\"fish67\",100,100,59.675,0],[\"fish68\",100,100,66.558,0],[\"fish69\",100,100,53.579,0],[\"fish70\",100,100,53.579,0],[\"fish71\",100,100,53.579,0],[\"fish72\",100,100,53.579,0],[\"fish73\",100,100,53.579,0]]},{\"time\":18000.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19801748616967,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.221042896011998,\"oxygen\":7.164749996501465,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.1086821382000041,\"organic\":0.25497092398798227,\"clarity\":93.18619848496586},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,64.099,0],[\"fish67\",100,100,59.475,0],[\"fish68\",100,100,66.385,0],[\"fish69\",100,100,53.355,0],[\"fish70\",100,100,53.355,0],[\"fish71\",100,100,53.355,0],[\"fish72\",100,100,53.355,0],[\"fish73\",100,100,53.355,0]]},{\"time\":18060.030319999998,\"water\":{\"temperature\":25,\"ph\":8.198009518328371,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.25179290037403,\"oxygen\":7.1647499968592125,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10898963820000411,\"organic\":0.2549709196259527,\"clarity\":93.18004854516185},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,63.917,0],[\"fish67\",100,100,59.275,0],[\"fish68\",100,100,66.212,0],[\"fish69\",100,100,53.131,0],[\"fish70\",100,100,53.131,0],[\"fish71\",100,100,53.131,0],[\"fish72\",100,100,53.131,0],[\"fish73\",100,100,53.131,0]]},{\"time\":18120.030319999998,\"water\":{\"temperature\":25,\"ph\":8.1980015504872,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.282542904242813,\"oxygen\":7.16474999719165,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10929713820000413,\"organic\":0.2549709157571796,\"clarity\":93.17389859855092},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,63.735,0],[\"fish67\",100,100,59.075,0],[\"fish68\",100,100,66.039,0],[\"fish69\",100,100,52.907,0],[\"fish70\",100,100,52.907,0],[\"fish71\",100,100,52.907,0],[\"fish72\",100,100,52.907,0],[\"fish73\",100,100,52.907,0]]},{\"time\":18180.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197993582646143,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.31329290767411,\"oxygen\":7.164749997495583,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10960463820000414,\"organic\":0.2549709123258856,\"clarity\":93.16774864590278},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,63.553,0],[\"fish67\",100,100,58.875,0],[\"fish68\",100,100,65.866,0],[\"fish69\",100,100,52.683,0],[\"fish70\",100,100,52.683,0],[\"fish71\",100,100,52.683,0],[\"fish72\",100,100,52.683,0],[\"fish73\",100,100,52.683,0]]},{\"time\":18240.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197985614805186,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.344042910717395,\"oxygen\":7.164749997770602,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.10991213820000416,\"organic\":0.25497090928260085,\"clarity\":93.16159868790011},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,63.371,0],[\"fish67\",100,100,58.675,0],[\"fish68\",100,100,65.693,0],[\"fish69\",100,100,52.459,0],[\"fish70\",100,100,52.459,0],[\"fish71\",100,100,52.459,0],[\"fish72\",100,100,52.459,0],[\"fish73\",100,100,52.459,0]]},{\"time\":18300.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197977646964317,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.374792913416545,\"oxygen\":7.1647499980177916,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11021963820000417,\"organic\":0.2549709065834494,\"clarity\":93.1554487251484},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,63.189,0],[\"fish67\",100,100,58.475,0],[\"fish68\",100,100,65.52,0],[\"fish69\",100,100,52.235,0],[\"fish70\",100,100,52.235,0],[\"fish71\",100,100,52.235,0],[\"fish72\",100,100,52.235,0],[\"fish73\",100,100,52.235,0]]},{\"time\":18360.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197969679123526,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.405542915810475,\"oxygen\":7.164749998238993,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11052713820000419,\"organic\":0.2549709041895169,\"clarity\":93.14929875818467},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,63.007,0],[\"fish67\",100,100,58.275,0],[\"fish68\",100,100,65.347,0],[\"fish69\",100,100,52.011,0],[\"fish70\",100,100,52.011,0],[\"fish71\",100,100,52.011,0],[\"fish72\",100,100,52.011,0],[\"fish73\",100,100,52.011,0]]},{\"time\":18420.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197961711282808,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.4362929179337,\"oxygen\":7.164749998436359,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.1108346382000042,\"organic\":0.25497090206628925,\"clarity\":93.14314878748522},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,62.825,0],[\"fish67\",100,100,58.075,0],[\"fish68\",100,100,65.174,0],[\"fish69\",100,100,51.787,0],[\"fish70\",100,100,51.787,0],[\"fish71\",100,100,51.787,0],[\"fish72\",100,100,51.787,0],[\"fish73\",100,100,51.787,0]]},{\"time\":18480.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19795374344215,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.467042919816837,\"oxygen\":7.1647499986121135,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11114213820000422,\"organic\":0.25497090018315505,\"clarity\":93.13699881347246},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,62.643,0],[\"fish67\",100,100,57.875,0],[\"fish68\",100,100,65.001,0],[\"fish69\",100,100,51.563,0],[\"fish70\",100,100,51.563,0],[\"fish71\",100,100,51.563,0],[\"fish72\",100,100,51.563,0],[\"fish73\",100,100,51.563,0]]},{\"time\":18540.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19794577560155,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.497792921487022,\"oxygen\":7.164749998768419,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11144963820000424,\"organic\":0.25497089851296495,\"clarity\":93.1308488365211},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,62.461,0],[\"fish67\",100,100,57.675,0],[\"fish68\",100,100,64.828,0],[\"fish69\",100,100,51.339,0],[\"fish70\",100,100,51.339,0],[\"fish71\",100,100,51.339,0],[\"fish72\",100,100,51.339,0],[\"fish73\",100,100,51.339,0]]},{\"time\":18600.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197937807760997,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.528542922968352,\"oxygen\":7.164749998907303,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11175713820000426,\"organic\":0.25497089703163917,\"clarity\":93.12469885696338},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,62.279,0],[\"fish67\",100,100,57.475,0],[\"fish68\",100,100,64.655,0],[\"fish69\",100,100,51.115,0],[\"fish70\",100,100,51.115,0],[\"fish71\",100,100,51.115,0],[\"fish72\",100,100,51.115,0],[\"fish73\",100,100,51.115,0]]},{\"time\":18660.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197929839920487,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.559292924282172,\"oxygen\":7.164749999030635,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11206463820000427,\"organic\":0.25497089571782106,\"clarity\":93.11854887509406},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,62.097,0],[\"fish67\",100,100,57.275,0],[\"fish68\",100,100,64.482,0],[\"fish69\",100,100,50.891,0],[\"fish70\",100,100,50.891,0],[\"fish71\",100,100,50.891,0],[\"fish72\",100,100,50.891,0],[\"fish73\",100,100,50.891,0]]},{\"time\":18720,\"water\":{\"temperature\":25,\"ph\":8.19792187610623,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.590027309860886,\"oxygen\":7.1647500221158555,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.1123719828100043,\"organic\":0.25497097113911077,\"clarity\":93.11240094208027},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,61.915,0],[\"fish67\",100,100,57.075,0],[\"fish68\",100,100,64.309,0],[\"fish69\",100,100,50.668,0],[\"fish70\",100,100,50.668,0],[\"fish71\",100,100,50.668,0],[\"fish72\",100,100,50.668,0],[\"fish73\",100,100,50.668,0]]},{\"time\":18780.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197913904234872,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.620792790184858,\"oxygen\":7.164750022749203,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.1126796382000043,\"organic\":0.2549710298151415,\"clarity\":93.10624702455105},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,61.733,0],[\"fish67\",100,100,56.875,0],[\"fish68\",100,100,64.136,0],[\"fish69\",100,100,50.443,0],[\"fish70\",100,100,50.443,0],[\"fish71\",100,100,50.443,0],[\"fish72\",100,100,50.443,0],[\"fish73\",100,100,50.443,0]]},{\"time\":18840.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197905936390473,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.651542806513774,\"oxygen\":7.164750009752496,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11298713820000432,\"organic\":0.254971013486223,\"clarity\":93.10009724989013},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,61.551,0],[\"fish67\",100,100,56.675,0],[\"fish68\",100,100,63.963,0],[\"fish69\",100,100,50.219,0],[\"fish70\",100,100,50.219,0],[\"fish71\",100,100,50.219,0],[\"fish72\",100,100,50.219,0],[\"fish73\",100,100,50.219,0]]},{\"time\":18900.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19789796854655,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.68229282099622,\"oxygen\":7.164750002394457,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11329463820000434,\"organic\":0.25497099900377157,\"clarity\":93.09394744974794},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,61.369,0],[\"fish67\",100,100,56.475,0],[\"fish68\",100,100,63.79,0],[\"fish69\",100,100,49.995,0],[\"fish70\",100,100,49.995,0],[\"fish71\",100,100,49.995,0],[\"fish72\",100,100,49.995,0],[\"fish73\",100,100,49.995,0]]},{\"time\":18960.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197890000703053,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.713042833841005,\"oxygen\":7.16474999837014,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11360213820000435,\"organic\":0.2549709861589893,\"clarity\":93.08779762700594},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,61.187,0],[\"fish67\",100,100,56.275,0],[\"fish68\",100,100,63.617,0],[\"fish69\",100,100,49.771,0],[\"fish70\",100,100,49.771,0],[\"fish71\",100,100,49.771,0],[\"fish72\",100,100,49.771,0],[\"fish73\",100,100,49.771,0]]},{\"time\":19020.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197882032859933,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.743792845233305,\"oxygen\":7.1647499963020636,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11390963820000437,\"organic\":0.2549709747666894,\"clarity\":93.08164778421968},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,61.005,0],[\"fish67\",100,100,56.075,0],[\"fish68\",100,100,63.444,0],[\"fish69\",100,100,49.547,0],[\"fish70\",100,100,49.547,0],[\"fish71\",100,100,49.547,0],[\"fish72\",100,100,49.547,0],[\"fish73\",100,100,49.547,0]]},{\"time\":19080.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197874065017146,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.774542855337376,\"oxygen\":7.164749995368647,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11421713820000438,\"organic\":0.2549709646626258,\"clarity\":93.07549792365577},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,60.823,0],[\"fish67\",100,100,55.875,0],[\"fish68\",100,100,63.271,0],[\"fish69\",100,100,49.323,0],[\"fish70\",100,100,49.323,0],[\"fish71\",100,100,49.323,0],[\"fish72\",100,100,49.323,0],[\"fish73\",100,100,49.323,0]]},{\"time\":19140.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197866097174655,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.805292864298874,\"oxygen\":7.164749995081322,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.1145246382000044,\"organic\":0.2549709557011253,\"clarity\":93.06934804732447},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,60.641,0],[\"fish67\",100,100,55.675,0],[\"fish68\",100,100,63.098,0],[\"fish69\",100,100,49.099,0],[\"fish70\",100,100,49.099,0],[\"fish71\",100,100,49.099,0],[\"fish72\",100,100,49.099,0],[\"fish73\",100,100,49.099,0]]},{\"time\":19200.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19785812933243,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.83604287224701,\"oxygen\":7.16474999515085,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11483213820000442,\"organic\":0.2549709477529874,\"clarity\":93.06319815700877},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,60.459,0],[\"fish67\",100,100,55.475,0],[\"fish68\",100,100,62.925,0],[\"fish69\",100,100,48.875,0],[\"fish70\",100,100,48.875,0],[\"fish71\",100,100,48.875,0],[\"fish72\",100,100,48.875,0],[\"fish73\",100,100,48.875,0]]},{\"time\":19260.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197850161490432,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.866792879296383,\"oxygen\":7.164749995407154,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11513963820000443,\"organic\":0.2549709407036215,\"clarity\":93.05704825429002},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,60.277,0],[\"fish67\",100,100,55.275,0],[\"fish68\",100,100,62.752,0],[\"fish69\",100,100,48.651,0],[\"fish70\",100,100,48.651,0],[\"fish71\",100,100,48.651,0],[\"fish72\",100,100,48.651,0],[\"fish73\",100,100,48.651,0]]},{\"time\":19320.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197842193648643,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.897542885548607,\"oxygen\":7.164749995751269,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11544713820000445,\"organic\":0.25497093445139474,\"clarity\":93.05089834057075},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,60.095,0],[\"fish67\",100,100,55.075,0],[\"fish68\",100,100,62.579,0],[\"fish69\",100,100,48.427,0],[\"fish70\",100,100,48.427,0],[\"fish71\",100,100,48.427,0],[\"fish72\",100,100,48.427,0],[\"fish73\",100,100,48.427,0]]},{\"time\":19380.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19783422580704,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.92829289109383,\"oxygen\":7.164749996126558,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11575463820000446,\"organic\":0.25497092890616707,\"clarity\":93.0447484170949},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,59.913,0],[\"fish67\",100,100,54.875,0],[\"fish68\",100,100,62.406,0],[\"fish69\",100,100,48.203,0],[\"fish70\",100,100,48.203,0],[\"fish71\",100,100,48.203,0],[\"fish72\",100,100,48.203,0],[\"fish73\",100,100,48.203,0]]},{\"time\":19440.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197826257965595,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.959042896012004,\"oxygen\":7.164749996501464,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11606213820000448,\"organic\":0.2549709239879913,\"clarity\":93.03859848496572},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,59.731,0],[\"fish67\",100,100,54.675,0],[\"fish68\",100,100,62.233,0],[\"fish69\",100,100,47.979,0],[\"fish70\",100,100,47.979,0],[\"fish71\",100,100,47.979,0],[\"fish72\",100,100,47.979,0],[\"fish73\",100,100,47.979,0]]},{\"time\":19500.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197818290124296,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":16.989792900374038,\"oxygen\":7.164749996859212,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.1163696382000045,\"organic\":0.2549709196259607,\"clarity\":93.03244854516174},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,59.549,0],[\"fish67\",100,100,54.475,0],[\"fish68\",100,100,62.06,0],[\"fish69\",100,100,47.755,0],[\"fish70\",100,100,47.755,0],[\"fish71\",100,100,47.755,0],[\"fish72\",100,100,47.755,0],[\"fish73\",100,100,47.755,0]]},{\"time\":19560.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197810322283125,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":17.02054290424282,\"oxygen\":7.164749997191649,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11667713820000451,\"organic\":0.2549709157571866,\"clarity\":93.02629859855082},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,59.367,0],[\"fish67\",100,100,54.275,0],[\"fish68\",100,100,61.887,0],[\"fish69\",100,100,47.531,0],[\"fish70\",100,100,47.531,0],[\"fish71\",100,100,47.531,0],[\"fish72\",100,100,47.531,0],[\"fish73\",100,100,47.531,0]]},{\"time\":19620.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197802354442068,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":17.051292907674117,\"oxygen\":7.164749997495582,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11698463820000453,\"organic\":0.2549709123258919,\"clarity\":93.0201486459027},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,59.185,0],[\"fish67\",100,100,54.075,0],[\"fish68\",100,100,61.714,0],[\"fish69\",100,100,47.307,0],[\"fish70\",100,100,47.307,0],[\"fish71\",100,100,47.307,0],[\"fish72\",100,100,47.307,0],[\"fish73\",100,100,47.307,0]]},{\"time\":19680.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19779438660111,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":17.0820429107174,\"oxygen\":7.164749997770601,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11729213820000454,\"organic\":0.25497090928260646,\"clarity\":93.01399868790003},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,59.003,0],[\"fish67\",100,100,53.875,0],[\"fish68\",100,100,61.541,0],[\"fish69\",100,100,47.083,0],[\"fish70\",100,100,47.083,0],[\"fish71\",100,100,47.083,0],[\"fish72\",100,100,47.083,0],[\"fish73\",100,100,47.083,0]]},{\"time\":19740.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197786418760241,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":17.112792913416552,\"oxygen\":7.164749998017791,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11759963820000456,\"organic\":0.2549709065834544,\"clarity\":93.00784872514834},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,58.821,0],[\"fish67\",100,100,53.675,0],[\"fish68\",100,100,61.368,0],[\"fish69\",100,100,46.859,0],[\"fish70\",100,100,46.859,0],[\"fish71\",100,100,46.859,0],[\"fish72\",100,100,46.859,0],[\"fish73\",100,100,46.859,0]]},{\"time\":19800.030319999998,\"water\":{\"temperature\":25,\"ph\":8.19777845091945,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":17.14354291581048,\"oxygen\":7.164749998238993,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11790713820000458,\"organic\":0.2549709041895213,\"clarity\":93.00169875818462},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,58.639,0],[\"fish67\",100,100,53.475,0],[\"fish68\",100,100,61.195,0],[\"fish69\",100,100,46.635,0],[\"fish70\",100,100,46.635,0],[\"fish71\",100,100,46.635,0],[\"fish72\",100,100,46.635,0],[\"fish73\",100,100,46.635,0]]},{\"time\":19860.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197770483078733,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":17.174292917933705,\"oxygen\":7.164749998436359,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.1182146382000046,\"organic\":0.254970902066293,\"clarity\":92.99554878748515},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,58.457,0],[\"fish67\",100,100,53.275,0],[\"fish68\",100,100,61.022,0],[\"fish69\",100,100,46.411,0],[\"fish70\",100,100,46.411,0],[\"fish71\",100,100,46.411,0],[\"fish72\",100,100,46.411,0],[\"fish73\",100,100,46.411,0]]},{\"time\":19920.030319999998,\"water\":{\"temperature\":25,\"ph\":8.197762515238075,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":17.205042919816844,\"oxygen\":7.1647499986121135,\"gh\":12,\"kh\":8,\"alkalinity\":7.997191999999921,\"calcium\":419.6840999999995,\"magnesium\":1299.9649000000088,\"phosphate\":0.11852213820000461,\"organic\":0.2549709001831586,\"clarity\":92.98939881347242},\"heater\":{\"operational\":true,\"effectiveCapacity\":946.353,\"target\":25,\"deliveredWatts\":62.5},\"residents\":[[\"fish66\",100,100,58.275,0],[\"fish67\",100,100,53.075,0],[\"fish68\",100,100,60.849,0],[\"fish69\",100,100,46.187,0],[\"fish70\",100,100,46.187,0],[\"fish71\",100,100,46.187,0],[\"fish72\",100,100,46.187,0],[\"fish73\",100,100,46.187,0]]}],\"events\":[{\"time\":481.8798,\"type\":\"buyEquipment\",\"water\":{\"temperature\":24.991552814860725,\"ph\":8.2,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":3,\"oxygen\":7.499902938070775,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":99.4},\"equipment\":[],\"setpoint\":25},{\"time\":482.5998,\"type\":\"installOwnedEquipment\",\"water\":{\"temperature\":24.988323681866365,\"ph\":8.2,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":3,\"oxygen\":7.49940621140594,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":99.4},\"equipment\":[{\"id\":\"equipment34\",\"type\":\"filter\",\"capacity\":150,\"durability\":100,\"enabled\":true,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":1026552591,\"draw\":2,\"trackedHours\":0.012000000000000455,\"operatingHours\":0.012000000000000455,\"effectiveHours\":0.012000000000000455,\"maintenanceHours\":0.012000000000000455,\"maintenance\":99.99990092367577,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":483.31980000000004,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"housing\":99.99999898107967,\"impeller\":99.99999592431878},\"lifeThreshold\":0.601588357502839,\"componentThreshold\":0.9978898203571451}}],\"setpoint\":25},{\"time\":483.31980000000004,\"type\":\"buyEquipment\",\"water\":{\"temperature\":24.985098034453085,\"ph\":8.2,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":3,\"oxygen\":7.498913467673777,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":99.4},\"equipment\":[{\"id\":\"equipment34\",\"type\":\"filter\",\"capacity\":150,\"durability\":99.99999592431878,\"enabled\":true,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":1026552591,\"draw\":2,\"trackedHours\":0.02233200000000011,\"operatingHours\":0.02233200000000011,\"effectiveHours\":0.02233200000000011,\"maintenanceHours\":0.02233200000000011,\"maintenance\":99.99981561903924,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":483.93972,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"housing\":99.99999810378928,\"impeller\":99.99999241515738},\"lifeThreshold\":0.601588357502839,\"componentThreshold\":0.9978898203571451}}],\"setpoint\":25},{\"time\":483.93972,\"type\":\"installOwnedEquipment\",\"water\":{\"temperature\":24.982323541665405,\"ph\":8.2,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":3,\"oxygen\":7.498492401817183,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":99.4},\"equipment\":[{\"id\":\"equipment34\",\"type\":\"filter\",\"capacity\":150,\"durability\":99.99999241515738,\"enabled\":true,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":1026552591,\"draw\":2,\"trackedHours\":0.032666000000000396,\"operatingHours\":0.032666000000000396,\"effectiveHours\":0.032666000000000396,\"maintenanceHours\":0.032666000000000396,\"maintenance\":99.9997302979628,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":484.55976000000004,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"housing\":99.99999722632909,\"impeller\":99.99998890531683},\"lifeThreshold\":0.601588357502839,\"componentThreshold\":0.9978898203571451}},{\"id\":\"equipment35\",\"type\":\"heater\",\"capacity\":75.70823568,\"durability\":100,\"enabled\":true,\"heaterModel\":\"marine-heater-1\",\"temperatureTarget\":25,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":3209885216,\"draw\":2,\"trackedHours\":0.010334000000000287,\"operatingHours\":0.010334000000000287,\"effectiveHours\":0.010334000000000287,\"maintenanceHours\":0.010334000000000287,\"maintenance\":99.99995792376603,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":484.55976000000004,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"element\":99.99999473523881,\"thermostat\":99.99999578819103},\"lifeThreshold\":1.2983559840097803,\"componentThreshold\":0.3824563632748972}}],\"setpoint\":25},{\"time\":484.55976000000004,\"type\":\"buyEquipment\",\"water\":{\"temperature\":24.987058341179285,\"ph\":8.2,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":3,\"oxygen\":7.4980703798650605,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":99.4},\"equipment\":[{\"id\":\"equipment34\",\"type\":\"filter\",\"capacity\":150,\"durability\":99.99998890531683,\"enabled\":true,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":1026552591,\"draw\":2,\"trackedHours\":0.04233199999999992,\"operatingHours\":0.04233199999999992,\"effectiveHours\":0.04233199999999992,\"maintenanceHours\":0.04233199999999992,\"maintenance\":99.99965049219118,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":485.13972,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"housing\":99.99999640558879,\"impeller\":99.99998562235595},\"lifeThreshold\":0.601588357502839,\"componentThreshold\":0.9978898203571451}},{\"id\":\"equipment35\",\"type\":\"heater\",\"capacity\":75.70823568,\"durability\":99.99999473523881,\"enabled\":true,\"heaterModel\":\"marine-heater-1\",\"temperatureTarget\":25,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":3209885216,\"draw\":2,\"trackedHours\":0.01999999999999981,\"operatingHours\":0.01999999999999981,\"effectiveHours\":0.01999999999999981,\"maintenanceHours\":0.01999999999999981,\"maintenance\":99.99991856739754,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":485.13972,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"element\":99.99998981079726,\"thermostat\":99.99999184863772},\"lifeThreshold\":1.2983559840097803,\"componentThreshold\":0.3824563632748972}}],\"setpoint\":25},{\"time\":485.13972,\"type\":\"installOwnedEquipment\",\"water\":{\"temperature\":24.99148309447036,\"ph\":8.2,\"salinity\":35,\"ammonia\":0,\"nitrite\":0,\"nitrate\":3,\"oxygen\":7.497674969858973,\"gh\":12,\"kh\":8,\"alkalinity\":8,\"calcium\":420,\"magnesium\":1300,\"phosphate\":0.03,\"organic\":0,\"clarity\":99.4},\"equipment\":[{\"id\":\"equipment34\",\"type\":\"filter\",\"capacity\":150,\"durability\":99.99998562235595,\"enabled\":true,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":1026552591,\"draw\":2,\"trackedHours\":0.052332000000000295,\"operatingHours\":0.052332000000000295,\"effectiveHours\":0.052332000000000295,\"maintenanceHours\":0.052332000000000295,\"maintenance\":99.9995679288694,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":485.73972000000003,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"housing\":99.99999555648856,\"impeller\":99.9999822259554},\"lifeThreshold\":0.601588357502839,\"componentThreshold\":0.9978898203571451}},{\"id\":\"equipment35\",\"type\":\"heater\",\"capacity\":75.70823568,\"durability\":99.99998981079726,\"enabled\":true,\"heaterModel\":\"marine-heater-1\",\"temperatureTarget\":25,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":3209885216,\"draw\":2,\"trackedHours\":0.030000000000000186,\"operatingHours\":0.030000000000000186,\"effectiveHours\":0.030000000000000186,\"maintenanceHours\":0.030000000000000186,\"maintenance\":99.9998778511212,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":485.73972000000003,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"element\":99.99998471619628,\"thermostat\":99.99998777295684},\"lifeThreshold\":1.2983559840097803,\"componentThreshold\":0.3824563632748972}},{\"id\":\"equipment36\",\"type\":\"flow\",\"capacity\":300,\"durability\":100,\"enabled\":true,\"reliability\":{\"version\":1,\"legacy\":false,\"baselineCondition\":100,\"quality\":1,\"seed\":2002579409,\"draw\":2,\"trackedHours\":0.010000000000000378,\"operatingHours\":0.010000000000000378,\"effectiveHours\":0.010000000000000378,\"maintenanceHours\":0.010000000000000378,\"maintenance\":99.99991743638965,\"componentStart\":0,\"state\":\"working\",\"failurePart\":null,\"failures\":0,\"repairs\":0,\"lastEnd\":485.73972000000003,\"cycles\":1,\"wasOperating\":true,\"warning\":false,\"critical\":false,\"history\":[],\"parts\":{\"motor\":99.9999970281491,\"impeller\":99.99999448084839},\"lifeThreshold\":0.9021564267993444,\"componentThreshold\":0.13844008783404005}}],\"setpoint\":25},{\"time\":2664.650799999999,\"type\":\"feeding\",\"specimenId\":\"fish61\",\"food\":\"pellets\",\"amount\":19.8},{\"time\":2670.030319999999,\"type\":\"healthObservation\",\"specimenId\":\"flora75\",\"observation\":\"A health observation was recorded.\",\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.1}]},{\"time\":2670.030319999999,\"type\":\"healthObservation\",\"specimenId\":\"flora75\",\"observation\":\"A health observation was recorded.\",\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.1},{\"type\":\"injury\",\"severity\":0.1}]},{\"time\":2670.030319999999,\"type\":\"healthObservation\",\"specimenId\":\"flora77\",\"observation\":\"A health observation was recorded.\",\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.1}]},{\"time\":2670.030319999999,\"type\":\"healthObservation\",\"specimenId\":\"flora77\",\"observation\":\"A health observation was recorded.\",\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.1},{\"type\":\"injury\",\"severity\":0.1}]},{\"time\":2670.030319999999,\"type\":\"healthObservation\",\"specimenId\":\"flora79\",\"observation\":\"A health observation was recorded.\",\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.1}]},{\"time\":2670.030319999999,\"type\":\"healthObservation\",\"specimenId\":\"flora79\",\"observation\":\"A health observation was recorded.\",\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.1},{\"type\":\"injury\",\"severity\":0.1}]},{\"time\":3830.030319999999,\"type\":\"healthObservation\",\"specimenId\":\"flora79\",\"observation\":\"A health observation was recorded.\",\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.16573333333333254},{\"type\":\"injury\",\"severity\":0.16573333333333254},{\"type\":\"tissueLoss\",\"severity\":0.1}]},{\"time\":4630.030319999999,\"type\":\"healthObservation\",\"specimenId\":\"flora75\",\"observation\":\"A health observation was recorded.\",\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.21106666666666532},{\"type\":\"injury\",\"severity\":0.21106666666666532},{\"type\":\"tissueLoss\",\"severity\":0.1}]},{\"time\":5425.030319999999,\"type\":\"healthObservation\",\"specimenId\":\"flora77\",\"observation\":\"A health observation was recorded.\",\"conditions\":[{\"type\":\"coralStress\",\"severity\":0.2561166666666654},{\"type\":\"injury\",\"severity\":0.2561166666666654},{\"type\":\"tissueLoss\",\"severity\":0.1}]}]},\"breeding\":{\"nextCheck\":19980,\"pairs\":[],\"reservedLoad\":0,\"reservedCount\":0},\"boxToxin\":0,\"valueHistory\":[{\"time\":480.01992,\"value\":563},{\"time\":480.4998,\"value\":583},{\"time\":482.5998,\"value\":673},{\"time\":483.93972,\"value\":727},{\"time\":485.13972,\"value\":792},{\"time\":485.73972000000003,\"value\":834},{\"time\":2651.4908399999995,\"value\":1117},{\"time\":2670.030319999999,\"value\":6179},{\"time\":3815.030319999999,\"value\":6055},{\"time\":6920.030319999999,\"value\":5933},{\"time\":7940.030319999999,\"value\":5814},{\"time\":11335.030319999998,\"value\":5697},{\"time\":17955.030319999998,\"value\":5583}],\"preparationHistory\":[{\"time\":481.31988,\"event\":\"filled\",\"evidence\":\"Player confirmed adding water.\"},{\"time\":481.73976,\"event\":\"prepared\",\"evidence\":\"Player completed the Prepare water action.\"},{\"time\":2648.68844,\"event\":\"cycled\",\"evidence\":\"Fishless cycling completed through the existing simulation.\"}]}],\"stats\":{\"prepared\":1,\"cycled\":1,\"bought\":1,\"fed\":1,\"waterChanges\":0,\"floraBought\":0,\"equipmentBought\":3,\"broods\":0,\"hatched\":0,\"raised\":0,\"sold\":0,\"nightMarket\":0,\"seasonDecor\":0,\"earnings\":1550,\"expenses\":1053,\"deaths\":0},\"credits\":5497,\"inventory\":{\"flakes\":30,\"pellets\":29,\"sinking\":10,\"algae\":10,\"frozen\":10,\"fry\":15,\"predator\":0,\"conditioner\":20,\"salt\":20,\"medicine\":0,\"buffer\":10,\"live-plankton\":0,\"phyto\":0,\"coral-polyp\":0,\"angel-ration\":0,\"reef-meat\":0,\"starfish-tissue\":0,\"frag-kit\":0,\"frag-cutters\":0,\"frag-saw\":0,\"frag-plugs\":0,\"frag-mounting\":0,\"plankton\":0},\"finance\":{\"version\":1,\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"opening\":5000,\"started\":480,\"next\":35,\"rows\":[{\"category\":\"achievements\",\"name\":\"First size: 20 gal\",\"action\":\"firstOwnershipReward\",\"achievementId\":\"first-size:tank-size-75l\",\"key\":\"achievement:first-size:tank-size-75l\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:1\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":250,\"time\":480,\"day\":0,\"balance\":5250,\"before\":5000,\"source\":\"First size: 20 gal\",\"destination\":\"Wallet\"},{\"category\":\"other\",\"action\":\"buySand\",\"actionId\":\"store-mvikn87z-774n9-1\",\"tankId\":\"tank1\",\"tankName\":\"A pocket of ocean\",\"specimenId\":null,\"speciesId\":\"fiji\",\"name\":\"buySand\",\"dealer\":null,\"note\":null,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:2\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-40,\"time\":480.4998,\"day\":0,\"balance\":5210,\"before\":5250,\"source\":\"Wallet\",\"destination\":\"buySand\"},{\"category\":\"equipment\",\"action\":\"buyEquipment\",\"actionId\":\"store-mvikn87z-774n9-2\",\"tankId\":\"tank1\",\"tankName\":\"A pocket of ocean\",\"specimenId\":null,\"speciesId\":\"filter\",\"name\":\"Biological filter\",\"dealer\":null,\"note\":null,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:3\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-180,\"time\":481.8798,\"day\":0,\"balance\":5030,\"before\":5210,\"source\":\"Wallet\",\"destination\":\"Biological filter\"},{\"category\":\"equipment\",\"action\":\"buyEquipment\",\"actionId\":\"store-mvikn87z-774n9-3\",\"tankId\":\"tank1\",\"tankName\":\"A pocket of ocean\",\"specimenId\":null,\"speciesId\":\"heater\",\"name\":\"Thermostatic heater\",\"dealer\":null,\"note\":null,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:4\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-110,\"time\":483.31980000000004,\"day\":0,\"balance\":4920,\"before\":5030,\"source\":\"Wallet\",\"destination\":\"Thermostatic heater\"},{\"category\":\"equipment\",\"action\":\"buyEquipment\",\"actionId\":\"store-mvikn87z-774n9-4\",\"tankId\":\"tank1\",\"tankName\":\"A pocket of ocean\",\"specimenId\":null,\"speciesId\":\"flow\",\"name\":\"Circulation pump\",\"dealer\":null,\"note\":null,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:5\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-130,\"time\":484.55976000000004,\"day\":0,\"balance\":4790,\"before\":4920,\"source\":\"Wallet\",\"destination\":\"Circulation pump\"},{\"category\":\"other\",\"action\":\"buyRock\",\"actionId\":\"mvikn87z-49ohja-placement-12\",\"tankId\":\"tank1\",\"tankName\":\"A pocket of ocean\",\"specimenId\":null,\"speciesId\":null,\"name\":\"buyRock\",\"dealer\":null,\"note\":null,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:6\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-85,\"time\":485.73972000000003,\"day\":0,\"balance\":4705,\"before\":4790,\"source\":\"Wallet\",\"destination\":\"buyRock\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:1\",\"key\":\"energy:1\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:7\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-2,\"time\":1440,\"day\":1,\"balance\":4703,\"before\":4705,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"livestock\",\"action\":\"buyFish\",\"actionId\":\"store-mvikn87z-774n9-6\",\"tankId\":\"tank1\",\"tankName\":\"A pocket of ocean\",\"specimenId\":\"fish61\",\"speciesId\":\"amphiprion-percula\",\"name\":\"Onyx Percula\",\"dealer\":null,\"note\":null,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:8\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-350,\"time\":2651.4908399999995,\"day\":1,\"balance\":4353,\"before\":4703,\"source\":\"Wallet\",\"destination\":\"True Percula clownfish\",\"specimenIds\":[\"fish61\"]},{\"category\":\"achievements\",\"action\":\"firstOwnershipReward\",\"actionId\":\"store-mvikn87z-774n9-6\",\"tankId\":\"tank1\",\"tankName\":\"A pocket of ocean\",\"specimenId\":null,\"speciesId\":\"amphiprion-percula\",\"name\":\"First species: True Percula clownfish\",\"dealer\":null,\"note\":null,\"achievementId\":\"first-species:fish:amphiprion-percula\",\"key\":\"achievement:first-species:fish:amphiprion-percula\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:9\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":50,\"time\":2651.4908399999995,\"day\":1,\"balance\":4403,\"before\":4353,\"source\":\"First species: True Percula clownfish\",\"destination\":\"Wallet\"},{\"category\":\"achievements\",\"name\":\"First size: 133 gal\",\"action\":\"firstOwnershipReward\",\"achievementId\":\"first-size:tank-size-500l\",\"key\":\"achievement:first-size:tank-size-500l\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:10\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":250,\"time\":2670.030319999999,\"day\":1,\"balance\":4653,\"before\":4403,\"source\":\"First size: 133 gal\",\"destination\":\"Wallet\"},{\"category\":\"achievements\",\"name\":\"First species: Firefish\",\"action\":\"firstOwnershipReward\",\"achievementId\":\"first-species:fish:firefish\",\"key\":\"achievement:first-species:fish:firefish\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:11\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":50,\"time\":2670.030319999999,\"day\":1,\"balance\":4703,\"before\":4653,\"source\":\"First species: Firefish\",\"destination\":\"Wallet\"},{\"category\":\"achievements\",\"name\":\"First species: Yellow watchman goby\",\"action\":\"firstOwnershipReward\",\"achievementId\":\"first-species:fish:watchman\",\"key\":\"achievement:first-species:fish:watchman\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:12\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":50,\"time\":2670.030319999999,\"day\":1,\"balance\":4753,\"before\":4703,\"source\":\"First species: Yellow watchman goby\",\"destination\":\"Wallet\"},{\"category\":\"achievements\",\"name\":\"First species: Banggai cardinalfish\",\"action\":\"firstOwnershipReward\",\"achievementId\":\"first-species:fish:banggai\",\"key\":\"achievement:first-species:fish:banggai\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:13\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":50,\"time\":2670.030319999999,\"day\":1,\"balance\":4803,\"before\":4753,\"source\":\"First species: Banggai cardinalfish\",\"destination\":\"Wallet\"},{\"category\":\"achievements\",\"name\":\"First species: Blue-green chromis\",\"action\":\"firstOwnershipReward\",\"achievementId\":\"first-species:fish:chromis\",\"key\":\"achievement:first-species:fish:chromis\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:14\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":50,\"time\":2670.030319999999,\"day\":1,\"balance\":4853,\"before\":4803,\"source\":\"First species: Blue-green chromis\",\"destination\":\"Wallet\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:2\",\"key\":\"energy:2\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:15\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":2880,\"day\":2,\"balance\":4840,\"before\":4853,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"daily\",\"action\":\"survivalReward\",\"name\":\"Livestock Survival Bonus\",\"actionId\":\"survival:2\",\"key\":\"survival:2\",\"qualification\":\"qualified\",\"qualifyingDay\":2,\"periodStart\":2880,\"periodEnd\":4320,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:16\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":100,\"time\":4320,\"day\":3,\"balance\":4940,\"before\":4840,\"source\":\"Livestock Survival Bonus\",\"destination\":\"Wallet\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:3\",\"key\":\"energy:3\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:17\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":4320,\"day\":3,\"balance\":4927,\"before\":4940,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:4\",\"key\":\"energy:4\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:18\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":5760,\"day\":4,\"balance\":4914,\"before\":4927,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:5\",\"key\":\"energy:5\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:19\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":7200,\"day\":5,\"balance\":4901,\"before\":4914,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:6\",\"key\":\"energy:6\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:20\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":8640,\"day\":6,\"balance\":4888,\"before\":4901,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"daily\",\"action\":\"survivalReward\",\"name\":\"Livestock Survival Bonus\",\"actionId\":\"survival:6\",\"key\":\"survival:6\",\"qualification\":\"qualified\",\"qualifyingDay\":6,\"periodStart\":8640,\"periodEnd\":10080,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:21\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":100,\"time\":10080,\"day\":7,\"balance\":4988,\"before\":4888,\"source\":\"Livestock Survival Bonus\",\"destination\":\"Wallet\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:7\",\"key\":\"energy:7\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:22\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":10080,\"day\":7,\"balance\":4975,\"before\":4988,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"daily\",\"action\":\"survivalReward\",\"name\":\"Livestock Survival Bonus\",\"actionId\":\"survival:7\",\"key\":\"survival:7\",\"qualification\":\"qualified\",\"qualifyingDay\":7,\"periodStart\":10080,\"periodEnd\":11520,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:23\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":100,\"time\":11520,\"day\":8,\"balance\":5075,\"before\":4975,\"source\":\"Livestock Survival Bonus\",\"destination\":\"Wallet\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:8\",\"key\":\"energy:8\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:24\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":11520,\"day\":8,\"balance\":5062,\"before\":5075,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"daily\",\"action\":\"survivalReward\",\"name\":\"Livestock Survival Bonus\",\"actionId\":\"survival:8\",\"key\":\"survival:8\",\"qualification\":\"qualified\",\"qualifyingDay\":8,\"periodStart\":11520,\"periodEnd\":12960,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:25\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":100,\"time\":12960,\"day\":9,\"balance\":5162,\"before\":5062,\"source\":\"Livestock Survival Bonus\",\"destination\":\"Wallet\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:9\",\"key\":\"energy:9\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:26\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":12960,\"day\":9,\"balance\":5149,\"before\":5162,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"daily\",\"action\":\"survivalReward\",\"name\":\"Livestock Survival Bonus\",\"actionId\":\"survival:9\",\"key\":\"survival:9\",\"qualification\":\"qualified\",\"qualifyingDay\":9,\"periodStart\":12960,\"periodEnd\":14400,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:27\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":100,\"time\":14400,\"day\":10,\"balance\":5249,\"before\":5149,\"source\":\"Livestock Survival Bonus\",\"destination\":\"Wallet\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:10\",\"key\":\"energy:10\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:28\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":14400,\"day\":10,\"balance\":5236,\"before\":5249,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"daily\",\"action\":\"survivalReward\",\"name\":\"Livestock Survival Bonus\",\"actionId\":\"survival:10\",\"key\":\"survival:10\",\"qualification\":\"qualified\",\"qualifyingDay\":10,\"periodStart\":14400,\"periodEnd\":15840,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:29\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":100,\"time\":15840,\"day\":11,\"balance\":5336,\"before\":5236,\"source\":\"Livestock Survival Bonus\",\"destination\":\"Wallet\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:11\",\"key\":\"energy:11\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:30\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":15840,\"day\":11,\"balance\":5323,\"before\":5336,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"daily\",\"action\":\"survivalReward\",\"name\":\"Livestock Survival Bonus\",\"actionId\":\"survival:11\",\"key\":\"survival:11\",\"qualification\":\"qualified\",\"qualifyingDay\":11,\"periodStart\":15840,\"periodEnd\":17280,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:31\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":100,\"time\":17280,\"day\":12,\"balance\":5423,\"before\":5323,\"source\":\"Livestock Survival Bonus\",\"destination\":\"Wallet\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:12\",\"key\":\"energy:12\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:32\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":17280,\"day\":12,\"balance\":5410,\"before\":5423,\"source\":\"Wallet\",\"destination\":\"Daily energy\"},{\"category\":\"daily\",\"action\":\"survivalReward\",\"name\":\"Livestock Survival Bonus\",\"actionId\":\"survival:12\",\"key\":\"survival:12\",\"qualification\":\"qualified\",\"qualifyingDay\":12,\"periodStart\":17280,\"periodEnd\":18720,\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:33\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"income\",\"amount\":100,\"time\":18720,\"day\":13,\"balance\":5510,\"before\":5410,\"source\":\"Livestock Survival Bonus\",\"destination\":\"Wallet\"},{\"category\":\"maintenance\",\"name\":\"Daily energy\",\"action\":\"energy\",\"actionId\":\"energy:13\",\"key\":\"energy:13\",\"id\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c:ac:34\",\"accountId\":\"world-63735a4b-bf89-4fd4-9969-7d6f3f04132c\",\"kind\":\"expense\",\"amount\":-13,\"time\":18720,\"day\":13,\"balance\":5497,\"before\":5510,\"source\":\"Wallet\",\"destination\":\"Daily energy\"}],\"archives\":[],\"keys\":[\"achievement:first-size:tank-size-75l\",\"store-mvikn87z-774n9-1\",\"store-mvikn87z-774n9-2\",\"store-mvikn87z-774n9-3\",\"store-mvikn87z-774n9-4\",\"mvikn87z-49ohja-placement-12\",\"energy:1\",\"store-mvikn87z-774n9-6\",\"achievement:first-species:fish:amphiprion-percula\",\"achievement:first-size:tank-size-500l\",\"achievement:first-species:fish:firefish\",\"achievement:first-species:fish:watchman\",\"achievement:first-species:fish:banggai\",\"achievement:first-species:fish:chromis\",\"energy:2\",\"survival:2\",\"energy:3\",\"energy:4\",\"energy:5\",\"energy:6\",\"survival:6\",\"energy:7\",\"survival:7\",\"energy:8\",\"survival:8\",\"energy:9\",\"survival:9\",\"energy:10\",\"survival:10\",\"energy:11\",\"survival:11\",\"energy:12\",\"survival:12\",\"energy:13\"],\"income\":1550,\"expenses\":1053,\"historyNotice\":\"Tracking begins at this opening balance. Earlier transaction details are unavailable.\"}}"
+}

@@ -1,0 +1,77 @@
+{
+  "baby": {
+    "meta": {
+      "speciesId": "banggai",
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 1,
+      "eye": {
+        "x": 161,
+        "y": 83,
+        "w": 14,
+        "h": 14
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "juvenile": {
+    "meta": {
+      "speciesId": "banggai",
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 1,
+      "eye": {
+        "x": 161,
+        "y": 83,
+        "w": 14,
+        "h": 14
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "banggai",
+      "stage": "adult",
+      "state": "alive",
+      "frame": 3,
+      "frameCount": 1,
+      "eye": {
+        "x": 151,
+        "y": 82,
+        "w": 14,
+        "h": 14
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  }
+}

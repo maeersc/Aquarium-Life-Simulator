@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mushroom",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected native mushroom disc rim tissue only; all four oral centers/inner discs and the entire rock attachment remain canonical protected pixels. Only original authored small rim ripples are assembled inside the reviewed annuli. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "sps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected tiny living cyan/pale polyp tissue islands at existing branch surface sites; all remaining branching SPS skeleton, branch contours, trunk and pedestal are protected canonical pixels. No flexible branch motion is synthesized. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "lps",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected green hammer-tip living tissue islands only. The beige branching hard skeleton, attachment and purple tentacle roots stay canonical and fixed. Original authored small distal hammer-tip responses are sampled at existing positions. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "soft",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected soft leather coral living cap and tiny green polyp tips above the fixed stalk. The orange attachment, central lower stalk and rocky base remain protected canonical pixels; only original subtle upper tissue poses are assembled. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "mushroom",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected native mushroom disc rim tissue only; all four oral centers/inner discs and the entire rock attachment remain canonical protected pixels. Only original authored small rim ripples are assembled inside the reviewed annuli. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "sps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected tiny living cyan/pale polyp tissue islands at existing branch surface sites; all remaining branching SPS skeleton, branch contours, trunk and pedestal are protected canonical pixels. No flexible branch motion is synthesized. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "lps",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected green hammer-tip living tissue islands only. The beige branching hard skeleton, attachment and purple tentacle roots stay canonical and fixed. Original authored small distal hammer-tip responses are sampled at existing positions. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "soft",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected soft leather coral living cap and tiny green polyp tips above the fixed stalk. The orange attachment, central lower stalk and rocky base remain protected canonical pixels; only original subtle upper tissue poses are assembled. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected three fleshy red corallite edge annuli, with green oral centers and inner discs protected. Hard cups and whole rock base remain fixed; only authored small feeding/rim tissue responses move. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "blastomussa-wellsi",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected five colony-specific red corallite rim annuli. Green mouths/inner discs, rigid cups and rocky base are canonical protected pixels; only original minor rim-tissue poses are assembled. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected two frag corallite feeding-rim annuli around teal oral discs. All oral centers, hard corallite cups and rock remain protected; original authored small orange rim/feeding-tissue variations only. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "micromussa-lordhowensis",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected five colony-specific orange corallite feeding/rim tissue annuli with teal mouths and inner discs protected. The base and rigid corallite arrangement remain fixed canonical pixels. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected minute orange star-polyp tentacle fringes at four existing frag surface sites. Tiny centers and the whole blue hard encrusting skeleton/rock stay canonical; no encrusting mound deformation. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "cyphastrea-serailia",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected existing colony orange star-polyp fringe sites only, with oral centers protected. All blue encrusting skeleton contours, gaps and rock attachment remain canonical fixed pixels. The inspected original orange polyp center at the body-registration point remains fixed in a four-pixel protected patch. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected four frag corallite soft feeding fringes, retaining fixed green/gold mouths, purple hard cups and rocky attachment. Only original small distal feeding tissue poses are assembled. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "leptastrea-purpurea",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected existing colony feeding-rim annuli. Green/gold mouths, inner discs and the purple hard encrusting cups and base remain canonical protected pixels; no mound wobble or new polyps. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "pavona-cactus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected minute living polyp surface islands inside the green rigid developing plates. All plate contours/folds, yellow hard edges and rocky pedestal remain fixed; only original micro-polyp poses are sampled. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "pavona-cactus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected minute existing polyp islands on interior plate surfaces. All rigid leaf-like plates, yellow edges, fold ridges and rock attachment remain canonical protected pixels, preventing flexible hard-coral motion. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag final review: all16 native cells inspected against approved stage source. Inspected single frag Duncan soft distal tentacle fringe; green oral disc and mouth remain fixed. Beige skeletal stalk and whole rock pedestal are protected canonical pixels, including the stalk below the oral cup. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  },
+  {
+    "id": "duncanopsammia-axifuga",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony final review: all16 native cells inspected against approved stage source. Inspected four colony Duncan distal tentacle rings. Oral centers/inner discs and a visible central skeletal registration patch plus all unmasked stalk/base remain protected, preventing hard branch movement. Intact silhouette, crisp transparent margins, stable attachment and retained stage proportions checked. Subtle original tissue poses remain distinct; player approval is not inferred."
+  }
+]

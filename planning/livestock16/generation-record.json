@@ -1,0 +1,21 @@
+{
+  "id": "ocellaris-adult-16-candidate-1",
+  "species": "clown",
+  "stage": "adult",
+  "status": "rejected; not a production sprite sheet",
+  "tool": "built-in image_gen",
+  "path": "planning/livestock16/ocellaris-adult-candidate-rejected.png",
+  "reference": "assets/livestock/fish/clownfish/clownfish-benchmark-v1-128.png",
+  "requestedFrames": 16,
+  "productionFrames": 0,
+  "size": [
+    1536,
+    1024
+  ],
+  "reasons": [
+    "Equal4x4 cell partition cuts through living fish at row boundaries",
+    "Head/eye location and body proportions drift between poses",
+    "Not suitable to replace the approved benchmark or apply inherited markings"
+  ],
+  "prompt": "Create a production pixel art sprite sheet for Aquarium Life. Edit/reference target is the provided approved natural Ocellaris clownfish sheet. Preserve EXACT same orange-white-black fish identity, three white bars, body proportion, vivid classic16-bit pixelart, single visible eye at right and fin number. Need exactly16 distinct subtle swim keyframes arranged in a4column by4row grid, equal cells, uniform head/eye/anchor coordinate within every cell, consistent right-facing full fish side-profile, transparent background throughout no borders letters labels shadows. Frame1neutral,2tail beginning bend,3pectoral slightly forward,4tail small sweep,5pectoral adjustment,6tail nearpeak,7subtle body flex while head fixed,8tail recovers,9neutral,10opposite small tail sweep,11pectoral recovery,12continued opposite sweep,13opposite peak,14fin recovery,15tail approachesneutral,16nearneutral ending continuous loop. Keep calm short tail amplitudes. All fish same size and eye location, clean attachedfins, no added fins/eyes, no headwobble, no morphingbars. Do not put four copies of the old strip; paint16 meaningful new individually controlled poses. All sixteen fish fit fully in individual equalcells with generous transparency and no cropping. This is an unapproved candidate to be QA checked before integration, do not invent a different fish."
+}

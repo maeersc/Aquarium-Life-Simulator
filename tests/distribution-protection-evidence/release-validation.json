@@ -1,0 +1,66 @@
+{
+  "buildId": "7bd9f68bd6bd060f7c28de238fa7fd5dc146150f62d8a69ca1355ab0feeb1658",
+  "passed": 9755,
+  "failed": 0,
+  "originalFiles": 2906,
+  "nativeSheets": 382,
+  "browserAssertions": 7838,
+  "suites": [
+    {
+      "path": "tests/distribution-protection-evidence/chrome-protected.json",
+      "passed": 805,
+      "failed": 0
+    },
+    {
+      "path": "tests/distribution-protection-evidence/edge-protected.json",
+      "passed": 805,
+      "failed": 0
+    },
+    {
+      "path": "tests/distribution-protection-evidence/chrome-benchmark.json",
+      "passed": 26,
+      "failed": 0
+    },
+    {
+      "path": "tests/distribution-protection-evidence/chrome-media.json",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "path": "tests/distribution-protection-evidence/chrome-idle.json",
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "path": "tests/pages-evidence/edge-results.json",
+      "passed": 5162,
+      "failed": 0
+    },
+    {
+      "path": "tests/tutorial-audit-evidence/chrome-results.json",
+      "passed": 72,
+      "failed": 0
+    },
+    {
+      "path": "tests/economy-update-evidence/chrome-results.json",
+      "passed": 85,
+      "failed": 0
+    },
+    {
+      "path": "tests/equipment-reliability-evidence/chrome-results.json",
+      "passed": 787,
+      "failed": 0
+    },
+    {
+      "path": "tests/breeding-evidence/chrome-results.json",
+      "passed": 86,
+      "failed": 0
+    },
+    {
+      "path": "tests/distribution-protection-evidence/chrome-soak.json",
+      "passed": 4,
+      "failed": 0
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,56 @@
+{
+  "juvenile": {
+    "meta": {
+      "speciesId": "amphiprion-percula",
+      "variety": "onyx-percula",
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 0,
+      "frameCount": 4,
+      "frameDurationMs": 166.66666666666666,
+      "eye": {
+        "x": 163,
+        "y": 82,
+        "w": 12,
+        "h": 12
+      },
+      "nativeFacing": 1,
+      "anchor": [
+        96,
+        80
+      ],
+      "facingBehavior": "mirrored side profile; asymmetric individual markings provisional",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "amphiprion-percula",
+      "variety": "onyx-percula",
+      "stage": "adult",
+      "state": "alive",
+      "frame": 4,
+      "frameCount": 4,
+      "frameDurationMs": 166.66666666666666,
+      "eye": {
+        "x": 150,
+        "y": 70,
+        "w": 10,
+        "h": 10
+      },
+      "nativeFacing": 1,
+      "anchor": [
+        96,
+        80
+      ],
+      "facingBehavior": "mirrored side profile; asymmetric individual markings provisional",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "niger-triggerfish",
+  "name": "Niger triggerfish",
+  "family": "fish",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "frames": 4,
+  "frameDurationMs": 166.66666666666666,
+  "atlas": "assets/livestock/fish/niger-triggerfish/atlas-v11.png",
+  "bounds": [
+    [
+      13,
+      11,
+      168,
+      105
+    ],
+    [
+      15,
+      11,
+      168,
+      110
+    ],
+    [
+      8,
+      13,
+      165,
+      107
+    ],
+    [
+      14,
+      10,
+      172,
+      107
+    ]
+  ],
+  "anchor": [
+    96,
+    64
+  ],
+  "scientificName": "Odonus niger",
+  "runtimeSpeciesId": null,
+  "usage": "ART ONLY; no gameplay species added",
+  "eye": {
+    "x": 150,
+    "y": 56,
+    "w": 12,
+    "h": 11
+  },
+  "facingBehavior": "mirror-side-profile",
+  "animations": {
+    "swim": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "idle": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "death": [
+      0
+    ]
+  },
+  "turning": "stable mirrored side views; no intermediate perspective frames",
+  "layer": "livestock"
+}

@@ -1,0 +1,15 @@
+{
+  "unchangedAssetFiles": 1419,
+  "changedAssets": [],
+  "unchangedCoreModels": [
+    "js/data.js",
+    "js/core.js",
+    "js/simulation.js",
+    "js/gameplay.js",
+    "js/invertebrates.js",
+    "js/finance.js"
+  ],
+  "masterMajorSections": 31,
+  "completeMasterInContinuity": true,
+  "obsoleteActiveSurvivalRules": []
+}

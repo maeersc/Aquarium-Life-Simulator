@@ -1,0 +1,77 @@
+{
+  "baby": {
+    "meta": {
+      "speciesId": "firefish",
+      "stage": "baby",
+      "state": "alive",
+      "frame": 1,
+      "frameCount": 1,
+      "eye": {
+        "x": 166,
+        "y": 75,
+        "w": 14,
+        "h": 14
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "juvenile": {
+    "meta": {
+      "speciesId": "firefish",
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 1,
+      "eye": {
+        "x": 164,
+        "y": 82,
+        "w": 14,
+        "h": 14
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "firefish",
+      "stage": "adult",
+      "state": "alive",
+      "frame": 3,
+      "frameCount": 1,
+      "eye": {
+        "x": 149,
+        "y": 103,
+        "w": 10,
+        "h": 10
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "amphiprion-ephippium",
+  "stage": "juvenile",
+  "ref": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\amphiprion-ephippium\\juvenile.png",
+  "reference": "C:\\Users\\camae\\Desktop\\Aquarium Game\\planning\\sprite-production\\references\\amphiprion-ephippium\\juvenile.png",
+  "mode": "built-in image_gen",
+  "source": "C:\\Users\\camae\\.codex\\generated_images\\01a12258-5c2b-76e3-80ce-3eab739ae180\\exec-e6b3e293-09d1-437b-96fd-20692c471b8f.png",
+  "prompt": "Aquarium Life actual production sprite sheet for amphiprion-ephippium, JUVENILE. Provided PNG is the EXACT existing juvenile identity and approved detailed pixel-art style reference, distinct from adult appearance. Produce ONE SQUARE transparent PNG, FOUR columns FOUR rows,16 DISTINCT incremental calm fin-motion poses. ALL16 MUST FACE RIGHT, including rows3 and4; this is one live single-direction animation sequence, not a life/death or left/right presentation grid. Preserve exact original juvenile body proportions, fin anatomy and length, all bars/patches/stripes or luminous markings, palette, head and one visible iris. Retain the exact juvenile clownfish-species bars/body colors from reference; do not replace them with adult pattern or generic Ocellaris. Entire animal within75% of cell longest dimension, ample fully transparent gutters. Stable head and eye, no body translation/bob/warping. Tiny attached pectoral strokes, restrained caudal sweep/recovery across1–8 and opposite sweep/recovery9–16, smooth continuous loop intended8fps. No extreme flapping, changing fin length, extra eyes or anatomy drift. Actual separately drawn keyframes, not16 copied stills. Crisp detailed16-bit pixel clusters matching reference, hard edges, no blur/glow/antialias fringe, painted checkerboard, background, ground shadow, labels or grid lines. Actual transparent alpha. Do not use an adult scaled down."
+}

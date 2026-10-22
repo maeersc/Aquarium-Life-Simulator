@@ -1,0 +1,58 @@
+[
+  {
+    "id": "exquisite-fairy-wrasse",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the captured baby source. Original developing body, yolk, visible single iris and small existing fins retained; tiny tail/outer-fin changes leave whole silhouettes and clear margins. Adult filaments or adult banding were not substituted for larval anatomy.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "lubbocks-fairy-wrasse",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the captured baby source. Original developing body, yolk, visible single iris and small existing fins retained; tiny tail/outer-fin changes leave whole silhouettes and clear margins. Adult filaments or adult banding were not substituted for larval anatomy.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "ruby-longfin-fairy-wrasse",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the captured baby source. Original developing body, yolk, visible single iris and small existing fins retained; tiny tail/outer-fin changes leave whole silhouettes and clear margins. Adult filaments or adult banding were not substituted for larval anatomy.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "greenbanded-goby",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the captured baby source. Original developing body, yolk, visible single iris and small existing fins retained; tiny tail/outer-fin changes leave whole silhouettes and clear margins. Adult filaments or adult banding were not substituted for larval anatomy.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "ruby-longfin-fairy-wrasse",
+    "stage": "adult",
+    "notes": "All sixteen native cells inspected against the stage reference. Ruby-red upper body, pale reflective underside and fixed front iris retain identity. Adult long dorsal and ventral filaments remain attached and uncut throughout restrained tip changes; juvenile retains its short developing fins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "greenbanded-goby",
+    "stage": "adult",
+    "notes": "All sixteen cells inspected: pale green body, dark green vertical bands and spotted separate dorsal fins retain the reference identity. Pelvic support and head position stay stable for perch-oriented motion, with small pectoral/tail corrections and a single fixed true iris; no clipped fins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "ruby-longfin-fairy-wrasse",
+    "stage": "juvenile",
+    "notes": "All sixteen native cells inspected against the stage reference. Ruby-red upper body, pale reflective underside and fixed front iris retain identity. Adult long dorsal and ventral filaments remain attached and uncut throughout restrained tip changes; juvenile retains its short developing fins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "greenbanded-goby",
+    "stage": "juvenile",
+    "notes": "All sixteen cells inspected: pale green body, dark green vertical bands and spotted separate dorsal fins retain the reference identity. Pelvic support and head position stay stable for perch-oriented motion, with small pectoral/tail corrections and a single fixed true iris; no clipped fins.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  }
+]

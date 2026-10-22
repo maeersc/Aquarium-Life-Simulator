@@ -1,0 +1,58 @@
+[
+  {
+    "id": "carpenters-flasher-wrasse",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the captured baby source. Original transparent developing body, yolk and single front iris retained; tiny developing tail/outer-fin changes, full margins, no adult display filaments imposed on the larva.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "mccoskers-flasher-wrasse",
+    "stage": "baby",
+    "notes": "All sixteen native early-stage cells inspected against the captured baby source. Original transparent developing body, yolk and single front iris retained; tiny developing tail/outer-fin changes, full margins, no adult display filaments imposed on the larva.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "mccoskers-flasher-wrasse",
+    "stage": "adult",
+    "notes": "All sixteen cells inspected against the stage reference: orange-red longitudinal stripes over pale blue/violet, fixed front iris and original rounded red tail retained. Adult long dorsal extension has an attached root and clear margins; juvenile retains short developing fins, quiet controlled fin poses.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "exquisite-fairy-wrasse",
+    "stage": "adult",
+    "notes": "All sixteen cells inspected: green patterned trunk, red face, pale fins and black caudal-peduncle mark remain stable and separate from the true head iris. Adult filaments and short juvenile dorsal anatomy match their references; small pectoral and tail corrections keep full silhouettes.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "lubbocks-fairy-wrasse",
+    "stage": "adult",
+    "notes": "All sixteen native cells inspected: yellow back, violet-pink patterned flank and source head markings stay consistent around the front iris. Full adult dorsal/lower extensions remain attached and uncut; juvenile short fins remain stage appropriate with restrained changes.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "mccoskers-flasher-wrasse",
+    "stage": "juvenile",
+    "notes": "All sixteen cells inspected against the stage reference: orange-red longitudinal stripes over pale blue/violet, fixed front iris and original rounded red tail retained. Adult long dorsal extension has an attached root and clear margins; juvenile retains short developing fins, quiet controlled fin poses.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "exquisite-fairy-wrasse",
+    "stage": "juvenile",
+    "notes": "All sixteen cells inspected: green patterned trunk, red face, pale fins and black caudal-peduncle mark remain stable and separate from the true head iris. Adult filaments and short juvenile dorsal anatomy match their references; small pectoral and tail corrections keep full silhouettes.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  },
+  {
+    "id": "lubbocks-fairy-wrasse",
+    "stage": "juvenile",
+    "notes": "All sixteen native cells inspected: yellow back, violet-pink patterned flank and source head markings stay consistent around the front iris. Full adult dorsal/lower extensions remain attached and uncut; juvenile short fins remain stage appropriate with restrained changes.",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true
+  }
+]

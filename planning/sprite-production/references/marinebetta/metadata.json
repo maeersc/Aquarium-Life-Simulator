@@ -1,0 +1,77 @@
+{
+  "baby": {
+    "meta": {
+      "speciesId": "marinebetta",
+      "stage": "baby",
+      "state": "alive",
+      "frame": 1,
+      "frameCount": 1,
+      "eye": {
+        "x": 169,
+        "y": 80,
+        "w": 14,
+        "h": 14
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "juvenile": {
+    "meta": {
+      "speciesId": "marinebetta",
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 1,
+      "eye": {
+        "x": 167,
+        "y": 74,
+        "w": 13,
+        "h": 13
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "marinebetta",
+      "stage": "adult",
+      "state": "alive",
+      "frame": 3,
+      "frameCount": 1,
+      "eye": {
+        "x": 165,
+        "y": 73,
+        "w": 9,
+        "h": 9
+      },
+      "anchor": [
+        96,
+        80
+      ],
+      "nativeFacing": 1,
+      "facingBehavior": "mirrored right profile",
+      "authoredDeath": false,
+      "layer": "livestock"
+    },
+    "width": 192,
+    "height": 160
+  }
+}

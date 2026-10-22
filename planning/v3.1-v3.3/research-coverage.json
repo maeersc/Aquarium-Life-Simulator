@@ -1,0 +1,957 @@
+{
+  "accessDate": "2026-10-14",
+  "indexed": 94,
+  "researchableBiologicalSpecies": 93,
+  "complete": 0,
+  "incomplete": 93,
+  "entries": [
+    {
+      "id": "clown",
+      "canonicalSpeciesId": "clown",
+      "name": "Ocellaris clownfish",
+      "scientificName": "Amphiprion ocellaris",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": true,
+      "sourceIds": [
+        "florida"
+      ]
+    },
+    {
+      "id": "gramma",
+      "canonicalSpeciesId": "gramma",
+      "name": "Royal gramma",
+      "scientificName": "Gramma loreto",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": true,
+      "sourceIds": [
+        "gramma"
+      ]
+    },
+    {
+      "id": "firefish",
+      "canonicalSpeciesId": "firefish",
+      "name": "Firefish",
+      "scientificName": "Nemateleotris magnifica",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "watchman",
+      "canonicalSpeciesId": "watchman",
+      "name": "Yellow watchman goby",
+      "scientificName": "Cryptocentrus cinctus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "banggai",
+      "canonicalSpeciesId": "banggai",
+      "name": "Banggai cardinalfish",
+      "scientificName": "Pterapogon kauderni",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": true,
+      "sourceIds": [
+        "banggai"
+      ]
+    },
+    {
+      "id": "chromis",
+      "canonicalSpeciesId": "chromis",
+      "name": "Blue-green chromis",
+      "scientificName": "Chromis viridis",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "yellowtang",
+      "canonicalSpeciesId": "yellowtang",
+      "name": "Yellow tang",
+      "scientificName": "Zebrasoma flavescens",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "sixline",
+      "canonicalSpeciesId": "sixline",
+      "name": "Six-line wrasse",
+      "scientificName": "Pseudocheilinus hexataenia",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "blenny",
+      "canonicalSpeciesId": "blenny",
+      "name": "Tailspot blenny",
+      "scientificName": "Ecsenius stigmatura",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "marinebetta",
+      "canonicalSpeciesId": "marinebetta",
+      "name": "Marine betta",
+      "scientificName": "Calloplesiops altivelis",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "voidfin",
+      "canonicalSpeciesId": "voidfin",
+      "name": "Voidfin specter",
+      "scientificName": null,
+      "eligible": false,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-percula",
+      "canonicalSpeciesId": "amphiprion-percula",
+      "name": "True Percula clownfish",
+      "scientificName": "Amphiprion percula",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-biaculeatus",
+      "canonicalSpeciesId": "amphiprion-biaculeatus",
+      "name": "Maroon clownfish",
+      "scientificName": "Amphiprion biaculeatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-clarkii",
+      "canonicalSpeciesId": "amphiprion-clarkii",
+      "name": "Clark's clownfish",
+      "scientificName": "Amphiprion clarkii",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-frenatus",
+      "canonicalSpeciesId": "amphiprion-frenatus",
+      "name": "Tomato clownfish",
+      "scientificName": "Amphiprion frenatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-melanopus",
+      "canonicalSpeciesId": "amphiprion-melanopus",
+      "name": "Cinnamon / Fire clownfish",
+      "scientificName": "Amphiprion melanopus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-ephippium",
+      "canonicalSpeciesId": "amphiprion-ephippium",
+      "name": "Red Saddleback clownfish",
+      "scientificName": "Amphiprion ephippium",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-perideraion",
+      "canonicalSpeciesId": "amphiprion-perideraion",
+      "name": "Pink Skunk clownfish",
+      "scientificName": "Amphiprion perideraion",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-sandaracinos",
+      "canonicalSpeciesId": "amphiprion-sandaracinos",
+      "name": "Orange Skunk clownfish",
+      "scientificName": "Amphiprion sandaracinos",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-akallopisos",
+      "canonicalSpeciesId": "amphiprion-akallopisos",
+      "name": "Skunk clownfish",
+      "scientificName": "Amphiprion akallopisos",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-polymnus",
+      "canonicalSpeciesId": "amphiprion-polymnus",
+      "name": "Saddleback clownfish",
+      "scientificName": "Amphiprion polymnus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-sebae",
+      "canonicalSpeciesId": "amphiprion-sebae",
+      "name": "Sebae clownfish",
+      "scientificName": "Amphiprion sebae",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-akindynos",
+      "canonicalSpeciesId": "amphiprion-akindynos",
+      "name": "Barrier Reef clownfish",
+      "scientificName": "Amphiprion akindynos",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-allardi",
+      "canonicalSpeciesId": "amphiprion-allardi",
+      "name": "Allard's clownfish",
+      "scientificName": "Amphiprion allardi",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-bicinctus",
+      "canonicalSpeciesId": "amphiprion-bicinctus",
+      "name": "Red Sea Twoband clownfish",
+      "scientificName": "Amphiprion bicinctus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-chrysopterus",
+      "canonicalSpeciesId": "amphiprion-chrysopterus",
+      "name": "Orangefin clownfish",
+      "scientificName": "Amphiprion chrysopterus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-nigripes",
+      "canonicalSpeciesId": "amphiprion-nigripes",
+      "name": "Maldives clownfish",
+      "scientificName": "Amphiprion nigripes",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-omanensis",
+      "canonicalSpeciesId": "amphiprion-omanensis",
+      "name": "Oman clownfish",
+      "scientificName": "Amphiprion omanensis",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-chagosensis",
+      "canonicalSpeciesId": "amphiprion-chagosensis",
+      "name": "Chagos clownfish",
+      "scientificName": "Amphiprion chagosensis",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-chrysogaster",
+      "canonicalSpeciesId": "amphiprion-chrysogaster",
+      "name": "Mauritius clownfish",
+      "scientificName": "Amphiprion chrysogaster",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-fuscocaudatus",
+      "canonicalSpeciesId": "amphiprion-fuscocaudatus",
+      "name": "Seychelles clownfish",
+      "scientificName": "Amphiprion fuscocaudatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-latifasciatus",
+      "canonicalSpeciesId": "amphiprion-latifasciatus",
+      "name": "Madagascar clownfish",
+      "scientificName": "Amphiprion latifasciatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-leucokranos",
+      "canonicalSpeciesId": "amphiprion-leucokranos",
+      "name": "Whitebonnet clownfish",
+      "scientificName": "Amphiprion leucokranos",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-mccullochi",
+      "canonicalSpeciesId": "amphiprion-mccullochi",
+      "name": "McCulloch's clownfish",
+      "scientificName": "Amphiprion mccullochi",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-latezonatus",
+      "canonicalSpeciesId": "amphiprion-latezonatus",
+      "name": "Wide-band clownfish",
+      "scientificName": "Amphiprion latezonatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-rubrocinctus",
+      "canonicalSpeciesId": "amphiprion-rubrocinctus",
+      "name": "Australian Red clownfish",
+      "scientificName": "Amphiprion rubrocinctus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-tricinctus",
+      "canonicalSpeciesId": "amphiprion-tricinctus",
+      "name": "Three-band clownfish",
+      "scientificName": "Amphiprion tricinctus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-barberi",
+      "canonicalSpeciesId": "amphiprion-barberi",
+      "name": "Barber's clownfish",
+      "scientificName": "Amphiprion barberi",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-pacificus",
+      "canonicalSpeciesId": "amphiprion-pacificus",
+      "name": "Pacific clownfish",
+      "scientificName": "Amphiprion pacificus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-thiellei",
+      "canonicalSpeciesId": "amphiprion-thiellei",
+      "name": "Thielle's clownfish",
+      "scientificName": "Amphiprion thiellei",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "amphiprion-maohiensis",
+      "canonicalSpeciesId": "amphiprion-maohiensis",
+      "name": "Polynesian clownfish",
+      "scientificName": "Amphiprion maohiensis",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "chalk-bass",
+      "canonicalSpeciesId": "chalk-bass",
+      "name": "Chalk Bass",
+      "scientificName": "Serranus tortugarum",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "lantern-bass",
+      "canonicalSpeciesId": "lantern-bass",
+      "name": "Lantern Bass",
+      "scientificName": "Serranus baldwini",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "yellow-assessor",
+      "canonicalSpeciesId": "yellow-assessor",
+      "name": "Yellow Assessor",
+      "scientificName": "Assessor flavissimus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "blue-assessor",
+      "canonicalSpeciesId": "blue-assessor",
+      "name": "Blue Assessor",
+      "scientificName": "Assessor macneilli",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "candy-basslet",
+      "canonicalSpeciesId": "candy-basslet",
+      "name": "Candy Basslet",
+      "scientificName": "Liopropoma carmabi",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "pink-streaked-wrasse",
+      "canonicalSpeciesId": "pink-streaked-wrasse",
+      "name": "Pink-Streaked Wrasse",
+      "scientificName": "Pseudocheilinops ataenia",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "white-banded-possum-wrasse",
+      "canonicalSpeciesId": "white-banded-possum-wrasse",
+      "name": "White-Banded Possum Wrasse",
+      "scientificName": "Wetmorella albofasciata",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "tanakas-pygmy-wrasse",
+      "canonicalSpeciesId": "tanakas-pygmy-wrasse",
+      "name": "Tanaka's Pygmy Wrasse",
+      "scientificName": "Wetmorella tanakai",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "carpenters-flasher-wrasse",
+      "canonicalSpeciesId": "carpenters-flasher-wrasse",
+      "name": "Carpenter's Flasher Wrasse",
+      "scientificName": "Paracheilinus carpenteri",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "mccoskers-flasher-wrasse",
+      "canonicalSpeciesId": "mccoskers-flasher-wrasse",
+      "name": "McCosker's Flasher Wrasse",
+      "scientificName": "Paracheilinus mccoskeri",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "exquisite-fairy-wrasse",
+      "canonicalSpeciesId": "exquisite-fairy-wrasse",
+      "name": "Exquisite Fairy Wrasse",
+      "scientificName": "Cirrhilabrus exquisitus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "lubbocks-fairy-wrasse",
+      "canonicalSpeciesId": "lubbocks-fairy-wrasse",
+      "name": "Lubbock's Fairy Wrasse",
+      "scientificName": "Cirrhilabrus lubbocki",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "ruby-longfin-fairy-wrasse",
+      "canonicalSpeciesId": "ruby-longfin-fairy-wrasse",
+      "name": "Ruby Longfin Fairy Wrasse",
+      "scientificName": "Cirrhilabrus rubriventralis",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "greenbanded-goby",
+      "canonicalSpeciesId": "greenbanded-goby",
+      "name": "Greenbanded Goby",
+      "scientificName": "Tigrigobius multifasciatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "sharknose-goby",
+      "canonicalSpeciesId": "sharknose-goby",
+      "name": "Sharknose Goby",
+      "scientificName": "Elacatinus evelynae",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "orange-spotted-prawn-goby",
+      "canonicalSpeciesId": "orange-spotted-prawn-goby",
+      "name": "Orange-Spotted Prawn Goby",
+      "scientificName": "Amblyeleotris guttata",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "randalls-prawn-goby",
+      "canonicalSpeciesId": "randalls-prawn-goby",
+      "name": "Randall's Prawn Goby",
+      "scientificName": "Amblyeleotris randalli",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "hi-fin-red-banded-goby",
+      "canonicalSpeciesId": "hi-fin-red-banded-goby",
+      "name": "Hi-Fin Red-Banded Goby",
+      "scientificName": "Stonogobiops nematodes",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "blue-striped-trimma-goby",
+      "canonicalSpeciesId": "blue-striped-trimma-goby",
+      "name": "Blue-Striped Trimma Goby",
+      "scientificName": "Trimma striatum",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "redspotted-blenny",
+      "canonicalSpeciesId": "redspotted-blenny",
+      "name": "Redspotted Blenny",
+      "scientificName": "Blenniella chrysospilos",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "starry-blenny",
+      "canonicalSpeciesId": "starry-blenny",
+      "name": "Starry Blenny",
+      "scientificName": "Salarias ramosus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "two-spot-blenny",
+      "canonicalSpeciesId": "two-spot-blenny",
+      "name": "Two-Spot Blenny",
+      "scientificName": "Ecsenius bimaculatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "yellow-candy-hogfish",
+      "canonicalSpeciesId": "yellow-candy-hogfish",
+      "name": "Yellow Candy Hogfish",
+      "scientificName": "Bodianus bimaculatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "blotched-anthias",
+      "canonicalSpeciesId": "blotched-anthias",
+      "name": "Blotched Anthias",
+      "scientificName": "Odontanthias borbonius",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "purple-queen-anthias",
+      "canonicalSpeciesId": "purple-queen-anthias",
+      "name": "Purple Queen Anthias",
+      "scientificName": "Pseudanthias tuka",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "copperband-butterflyfish",
+      "canonicalSpeciesId": "copperband-butterflyfish",
+      "name": "Copperband Butterflyfish",
+      "scientificName": "Chelmon rostratus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": true,
+      "sourceIds": [
+        "copper"
+      ]
+    },
+    {
+      "id": "orange-spotted-filefish",
+      "canonicalSpeciesId": "orange-spotted-filefish",
+      "name": "Orange-Spotted Filefish",
+      "scientificName": "Oxymonacanthus longirostris",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "spotted-boxfish",
+      "canonicalSpeciesId": "spotted-boxfish",
+      "name": "Spotted Boxfish",
+      "scientificName": "Ostracion meleagris",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "centropyge-loriculus",
+      "canonicalSpeciesId": "centropyge-loriculus",
+      "name": "Flame angelfish",
+      "scientificName": "Centropyge loriculus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "centropyge-bispinosa",
+      "canonicalSpeciesId": "centropyge-bispinosa",
+      "name": "Coral beauty angelfish",
+      "scientificName": "Centropyge bispinosa",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "centropyge-argi",
+      "canonicalSpeciesId": "centropyge-argi",
+      "name": "Cherub angelfish",
+      "scientificName": "Centropyge argi",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "centropyge-acanthops",
+      "canonicalSpeciesId": "centropyge-acanthops",
+      "name": "African flameback angelfish",
+      "scientificName": "Centropyge acanthops",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "centropyge-potteri",
+      "canonicalSpeciesId": "centropyge-potteri",
+      "name": "Potter's angelfish",
+      "scientificName": "Centropyge potteri",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "centropyge-joculator",
+      "canonicalSpeciesId": "centropyge-joculator",
+      "name": "Joculator angelfish",
+      "scientificName": "Centropyge joculator",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "pygoplites-diacanthus",
+      "canonicalSpeciesId": "pygoplites-diacanthus",
+      "name": "Regal angelfish",
+      "scientificName": "Pygoplites diacanthus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "pseudochromis-fridmani",
+      "canonicalSpeciesId": "pseudochromis-fridmani",
+      "name": "Orchid dottyback",
+      "scientificName": "Pseudochromis fridmani",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "forcipiger-flavissimus",
+      "canonicalSpeciesId": "forcipiger-flavissimus",
+      "name": "Yellow longnose butterflyfish",
+      "scientificName": "Forcipiger flavissimus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "hemitaurichthys-polylepis",
+      "canonicalSpeciesId": "hemitaurichthys-polylepis",
+      "name": "Pyramid butterflyfish",
+      "scientificName": "Hemitaurichthys polylepis",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "ctenochaetus-strigosus",
+      "canonicalSpeciesId": "ctenochaetus-strigosus",
+      "name": "Kole tang",
+      "scientificName": "Ctenochaetus strigosus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "ctenochaetus-tominiensis",
+      "canonicalSpeciesId": "ctenochaetus-tominiensis",
+      "name": "Tomini tang",
+      "scientificName": "Ctenochaetus tominiensis",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "zebrasoma-xanthurum",
+      "canonicalSpeciesId": "zebrasoma-xanthurum",
+      "name": "Purple tang",
+      "scientificName": "Zebrasoma xanthurum",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "zebrasoma-gemmatum",
+      "canonicalSpeciesId": "zebrasoma-gemmatum",
+      "name": "Gem tang",
+      "scientificName": "Zebrasoma gemmatum",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "acanthurus-achilles",
+      "canonicalSpeciesId": "acanthurus-achilles",
+      "name": "Achilles tang",
+      "scientificName": "Acanthurus achilles",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "siganus-vulpinus",
+      "canonicalSpeciesId": "siganus-vulpinus",
+      "name": "Foxface rabbitfish",
+      "scientificName": "Siganus vulpinus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "siganus-unimaculatus",
+      "canonicalSpeciesId": "siganus-unimaculatus",
+      "name": "One-spot foxface",
+      "scientificName": "Siganus unimaculatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "ecsenius-midas",
+      "canonicalSpeciesId": "ecsenius-midas",
+      "name": "Midas blenny",
+      "scientificName": "Ecsenius midas",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "salarias-fasciatus",
+      "canonicalSpeciesId": "salarias-fasciatus",
+      "name": "Lawnmower blenny",
+      "scientificName": "Salarias fasciatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "ecsenius-bicolor",
+      "canonicalSpeciesId": "ecsenius-bicolor",
+      "name": "Bicolor blenny",
+      "scientificName": "Ecsenius bicolor",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "paracheilinus-angulatus",
+      "canonicalSpeciesId": "paracheilinus-angulatus",
+      "name": "Angular flasher wrasse",
+      "scientificName": "Paracheilinus angulatus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "halichoeres-melanurus",
+      "canonicalSpeciesId": "halichoeres-melanurus",
+      "name": "Melanurus wrasse",
+      "scientificName": "Halichoeres melanurus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "halichoeres-chrysus",
+      "canonicalSpeciesId": "halichoeres-chrysus",
+      "name": "Yellow wrasse",
+      "scientificName": "Halichoeres chrysus",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "macropharyngodon-meleagris",
+      "canonicalSpeciesId": "macropharyngodon-meleagris",
+      "name": "Leopard wrasse",
+      "scientificName": "Macropharyngodon meleagris",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    },
+    {
+      "id": "nemanthias-bartlettorum",
+      "canonicalSpeciesId": "nemanthias-bartlettorum",
+      "name": "Bartlett's anthias",
+      "scientificName": "Nemanthias bartlettorum",
+      "eligible": true,
+      "status": "Research Data Incomplete",
+      "sourceBackedAnnotations": false,
+      "sourceIds": []
+    }
+  ]
+}

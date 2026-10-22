@@ -1,0 +1,162 @@
+[
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "baby",
+    "state": "idle",
+    "sourceBox": [
+      31,
+      117,
+      325,
+      243
+    ],
+    "previewOrigin": [
+      12,
+      110
+    ],
+    "previewScale": 0.7891156462585034,
+    "previewSize": [
+      232,
+      99
+    ]
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      36,
+      103,
+      324,
+      222
+    ],
+    "previewOrigin": [
+      268,
+      112
+    ],
+    "previewScale": 0.8055555555555556,
+    "previewSize": [
+      232,
+      96
+    ]
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "juvenile",
+    "state": "idle",
+    "sourceBox": [
+      30,
+      116,
+      351,
+      255
+    ],
+    "previewOrigin": [
+      524,
+      110
+    ],
+    "previewScale": 0.7227414330218068,
+    "previewSize": [
+      232,
+      100
+    ]
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "juvenile",
+    "state": "walk",
+    "sourceBox": [
+      29,
+      151,
+      301,
+      268
+    ],
+    "previewOrigin": [
+      780,
+      110
+    ],
+    "previewScale": 0.8529411764705882,
+    "previewSize": [
+      232,
+      100
+    ]
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "adult",
+    "state": "idle",
+    "sourceBox": [
+      16,
+      95,
+      334,
+      247
+    ],
+    "previewOrigin": [
+      12,
+      384
+    ],
+    "previewScale": 0.7295597484276729,
+    "previewSize": [
+      232,
+      111
+    ]
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      12,
+      90,
+      303,
+      239
+    ],
+    "previewOrigin": [
+      268,
+      380
+    ],
+    "previewScale": 0.7972508591065293,
+    "previewSize": [
+      232,
+      119
+    ]
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "baby",
+    "state": "idle",
+    "sourceBox": [
+      25,
+      52,
+      305,
+      285
+    ],
+    "previewOrigin": [
+      524,
+      343
+    ],
+    "previewScale": 0.8285714285714286,
+    "previewSize": [
+      232,
+      193
+    ]
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      18,
+      60,
+      288,
+      288
+    ],
+    "previewOrigin": [
+      780,
+      342
+    ],
+    "previewScale": 0.8592592592592593,
+    "previewSize": [
+      232,
+      196
+    ]
+  }
+]

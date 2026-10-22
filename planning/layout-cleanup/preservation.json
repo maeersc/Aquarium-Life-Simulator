@@ -1,0 +1,10 @@
+{
+  "protectedFilesUnchangedFromPreviousRelease": 1655,
+  "runtimeChanges": [
+    "index.html",
+    "js/ui.js",
+    "js/app-shell.js",
+    "css/ui-cleanup.css"
+  ],
+  "masterFullyEmbeddedInContinuity": true
+}

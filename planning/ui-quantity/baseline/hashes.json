@@ -1,0 +1,13 @@
+{
+  "js/core.js": "ef0c6a2ef280c3e9a6a98eb2dcc499fca142e790d0f7a30b3a583747cc76b43c",
+  "js/store.js": "475bd7ade6353824e40f0d069575ed61c662e5c20ebfb5bbca1d89dc38431b2e",
+  "js/store-rules.js": "8595433ea9b2f60ee2db7664eb4b4f597d5825ca56b213273eae28effa66fa34",
+  "js/equipment-inventory.js": "e04de1d374502dd5c0a334d620d5f201ebbd33b1de23582745e14329d0593d33",
+  "js/livestock-market.js": "115a354074882325fab522e1a3bf62edd8d61f28e3b6aa94adb46107a5bd4889",
+  "js/equipment-parts.js": "03a2569d0e3296b97e9855c55960097a176ade4436e0c2469fcfb0533d392a57",
+  "js/finance.js": "80ba4d95aec0adf9f70b834dc7e4dd7d839de69c306f9e4dadf04b3d22ed402d",
+  "css/ui-cleanup.css": "7b6bec470f0e3a106021ab3bbd26623387679899a435975cdaafb5676b57499f",
+  "css/theme.css": "f5a1ba0dea8ac7532f07b2112ff1adc73d51b060744493bc947ae463ae7988a0",
+  "index.html": "eefe152f462e9fd86859e0c808950fe858f5a9129cd39bcd9a28a6e6436f1574",
+  "js/ui.js": "5ceb475eeb854ad2bb741c0b72a4c59be25f7bafc61ce064f82c5273115a8450"
+}

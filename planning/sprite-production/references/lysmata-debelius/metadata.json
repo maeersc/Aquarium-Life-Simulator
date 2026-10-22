@@ -1,0 +1,62 @@
+{
+  "baby": {
+    "meta": {
+      "speciesId": "lysmata-debelius",
+      "stage": "baby",
+      "state": "alive",
+      "frame": 2,
+      "frameCount": 1,
+      "nativeFacing": 1,
+      "eye": null,
+      "facingBehavior": "mirror-side-profile",
+      "authoredDeath": false,
+      "layer": "livestock",
+      "anchor": [
+        96,
+        80
+      ]
+    },
+    "width": 192,
+    "height": 160
+  },
+  "juvenile": {
+    "meta": {
+      "speciesId": "lysmata-debelius",
+      "stage": "juvenile",
+      "state": "alive",
+      "frame": 4,
+      "frameCount": 1,
+      "nativeFacing": 1,
+      "eye": null,
+      "facingBehavior": "mirror-side-profile",
+      "authoredDeath": false,
+      "layer": "livestock",
+      "anchor": [
+        96,
+        80
+      ]
+    },
+    "width": 192,
+    "height": 160
+  },
+  "adult": {
+    "meta": {
+      "speciesId": "lysmata-debelius",
+      "stage": "adult",
+      "state": "alive",
+      "frame": 6,
+      "frameCount": 1,
+      "nativeFacing": 1,
+      "eye": null,
+      "facingBehavior": "mirror-side-profile",
+      "authoredDeath": false,
+      "layer": "livestock",
+      "anchor": [
+        96,
+        80
+      ]
+    },
+    "width": 192,
+    "height": 160
+  }
+}

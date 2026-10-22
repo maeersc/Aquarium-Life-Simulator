@@ -1,0 +1,53 @@
+{
+  "buildId": "7bd9f68bd6bd060f7c28de238fa7fd5dc146150f62d8a69ca1355ab0feeb1658",
+  "rows": [
+    {
+      "variant": "development",
+      "hidden": true,
+      "mainThreadCorePercent": 0.03599999999998715,
+      "draws": 0,
+      "calls": {},
+      "scheduler": {
+        "raf": 0,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 0
+      },
+      "profilerSamples": {
+        "(program)": 2,
+        "(idle)": 1910
+      }
+    },
+    {
+      "variant": "protected",
+      "hidden": true,
+      "mainThreadCorePercent": 0.022199999999994446,
+      "draws": 0,
+      "calls": {},
+      "scheduler": {
+        "raf": 0,
+        "timer": 0,
+        "mode": "tank",
+        "returning": false,
+        "pendingMinutes": 0
+      },
+      "profilerSamples": {
+        "(program)": 2,
+        "(idle)": 1012
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "development: steady hidden tab has no game draws/timers or unnecessary one-core CPU use",
+      "pass": true
+    },
+    {
+      "name": "protected: steady hidden tab has no game draws/timers or unnecessary one-core CPU use",
+      "pass": true
+    }
+  ],
+  "passed": 2,
+  "failed": 0
+}

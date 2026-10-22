@@ -1,0 +1,530 @@
+[
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "baby",
+    "state": "idle",
+    "sourceBox": [
+      45,
+      96,
+      291,
+      286
+    ],
+    "previewOrigin": [
+      12,
+      70
+    ],
+    "previewScale": 0.943089430894309,
+    "previewSize": [
+      232,
+      179
+    ],
+    "inspectedPreviewPoint": [
+      94,
+      172
+    ],
+    "firstSourceCenter": [
+      132,
+      204
+    ],
+    "nativePoint": [
+      96,
+      80
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      52,
+      46,
+      337,
+      262
+    ],
+    "previewOrigin": [
+      268,
+      72
+    ],
+    "previewScale": 0.8140350877192982,
+    "previewSize": [
+      232,
+      176
+    ],
+    "inspectedPreviewPoint": [
+      350,
+      173
+    ],
+    "firstSourceCenter": [
+      153,
+      170
+    ],
+    "nativePoint": [
+      96,
+      80
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "juvenile",
+    "state": "idle",
+    "sourceBox": [
+      41,
+      55,
+      316,
+      264
+    ],
+    "previewOrigin": [
+      524,
+      72
+    ],
+    "previewScale": 0.8436363636363636,
+    "previewSize": [
+      232,
+      176
+    ],
+    "inspectedPreviewPoint": [
+      625,
+      174
+    ],
+    "firstSourceCenter": [
+      161,
+      176
+    ],
+    "nativePoint": [
+      96,
+      80
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "juvenile",
+    "state": "walk",
+    "sourceBox": [
+      36,
+      64,
+      302,
+      284
+    ],
+    "previewOrigin": [
+      780,
+      64
+    ],
+    "previewScale": 0.8721804511278195,
+    "previewSize": [
+      232,
+      192
+    ],
+    "inspectedPreviewPoint": [
+      887,
+      173
+    ],
+    "firstSourceCenter": [
+      159,
+      189
+    ],
+    "nativePoint": [
+      96,
+      80
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "adult",
+    "state": "idle",
+    "sourceBox": [
+      40,
+      49,
+      309,
+      274
+    ],
+    "previewOrigin": [
+      12,
+      343
+    ],
+    "previewScale": 0.862453531598513,
+    "previewSize": [
+      232,
+      194
+    ],
+    "inspectedPreviewPoint": [
+      104,
+      465
+    ],
+    "firstSourceCenter": [
+      147,
+      190
+    ],
+    "nativePoint": [
+      96,
+      80
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      42,
+      57,
+      293,
+      287
+    ],
+    "previewOrigin": [
+      268,
+      333
+    ],
+    "previewScale": 0.9243027888446215,
+    "previewSize": [
+      232,
+      213
+    ],
+    "inspectedPreviewPoint": [
+      368,
+      460
+    ],
+    "firstSourceCenter": [
+      150,
+      194
+    ],
+    "nativePoint": [
+      96,
+      80
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "baby",
+    "state": "idle",
+    "sourceBox": [
+      28,
+      138,
+      281,
+      270
+    ],
+    "previewOrigin": [
+      524,
+      379
+    ],
+    "previewScale": 0.9169960474308301,
+    "previewSize": [
+      232,
+      121
+    ],
+    "inspectedPreviewPoint": [
+      638,
+      404
+    ],
+    "firstSourceCenter": [
+      152,
+      165
+    ],
+    "nativePoint": [
+      96,
+      72
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "baby",
+    "state": "walk",
+    "sourceBox": [
+      22,
+      95,
+      291,
+      235
+    ],
+    "previewOrigin": [
+      780,
+      379
+    ],
+    "previewScale": 0.862453531598513,
+    "previewSize": [
+      232,
+      121
+    ],
+    "inspectedPreviewPoint": [
+      891,
+      406
+    ],
+    "firstSourceCenter": [
+      151,
+      126
+    ],
+    "nativePoint": [
+      96,
+      72
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "juvenile",
+    "state": "idle",
+    "sourceBox": [
+      31,
+      142,
+      280,
+      264
+    ],
+    "previewOrigin": [
+      12,
+      103
+    ],
+    "previewScale": 0.9317269076305221,
+    "previewSize": [
+      232,
+      114
+    ],
+    "inspectedPreviewPoint": [
+      124,
+      123
+    ],
+    "firstSourceCenter": [
+      151,
+      163
+    ],
+    "nativePoint": [
+      96,
+      72
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "juvenile",
+    "state": "walk",
+    "sourceBox": [
+      29,
+      120,
+      297,
+      258
+    ],
+    "previewOrigin": [
+      268,
+      100
+    ],
+    "previewScale": 0.8656716417910447,
+    "previewSize": [
+      232,
+      119
+    ],
+    "inspectedPreviewPoint": [
+      384,
+      121
+    ],
+    "firstSourceCenter": [
+      163,
+      144
+    ],
+    "nativePoint": [
+      96,
+      72
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "adult",
+    "state": "idle",
+    "sourceBox": [
+      18,
+      103,
+      302,
+      251
+    ],
+    "previewOrigin": [
+      524,
+      99
+    ],
+    "previewScale": 0.8169014084507042,
+    "previewSize": [
+      232,
+      121
+    ],
+    "inspectedPreviewPoint": [
+      636,
+      123
+    ],
+    "firstSourceCenter": [
+      155,
+      132
+    ],
+    "nativePoint": [
+      96,
+      72
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "adult",
+    "state": "walk",
+    "sourceBox": [
+      27,
+      78,
+      348,
+      251
+    ],
+    "previewOrigin": [
+      780,
+      97
+    ],
+    "previewScale": 0.7227414330218068,
+    "previewSize": [
+      232,
+      125
+    ],
+    "inspectedPreviewPoint": [
+      900,
+      122
+    ],
+    "firstSourceCenter": [
+      193,
+      113
+    ],
+    "nativePoint": [
+      96,
+      72
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "baby",
+    "state": "idle",
+    "sourceBox": [
+      43,
+      118,
+      297,
+      256
+    ],
+    "previewOrigin": [
+      12,
+      377
+    ],
+    "previewScale": 0.9133858267716536,
+    "previewSize": [
+      232,
+      126
+    ],
+    "inspectedPreviewPoint": [
+      100,
+      434
+    ],
+    "firstSourceCenter": [
+      139,
+      180
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "juvenile",
+    "state": "idle",
+    "sourceBox": [
+      35,
+      129,
+      294,
+      275
+    ],
+    "previewOrigin": [
+      268,
+      374
+    ],
+    "previewScale": 0.8957528957528957,
+    "previewSize": [
+      232,
+      131
+    ],
+    "inspectedPreviewPoint": [
+      356,
+      433
+    ],
+    "firstSourceCenter": [
+      133,
+      195
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "juvenile",
+    "state": "walk",
+    "sourceBox": [
+      43,
+      120,
+      301,
+      271
+    ],
+    "previewOrigin": [
+      524,
+      372
+    ],
+    "previewScale": 0.8992248062015504,
+    "previewSize": [
+      232,
+      136
+    ],
+    "inspectedPreviewPoint": [
+      610,
+      430
+    ],
+    "firstSourceCenter": [
+      139,
+      184
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "adult",
+    "state": "idle",
+    "sourceBox": [
+      34,
+      67,
+      296,
+      253
+    ],
+    "previewOrigin": [
+      780,
+      357
+    ],
+    "previewScale": 0.8854961832061069,
+    "previewSize": [
+      232,
+      165
+    ],
+    "inspectedPreviewPoint": [
+      869,
+      430
+    ],
+    "firstSourceCenter": [
+      135,
+      149
+    ],
+    "nativePoint": [
+      90,
+      78
+    ],
+    "note": "Manually inspected stable central body/carapace/shell marking; all16 final native cells still require inspection."
+  }
+]

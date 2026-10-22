@@ -1,0 +1,34 @@
+{
+  "passed": 1581,
+  "failed": 0,
+  "suiteAssertions": 1956,
+  "suites": [
+    {
+      "file": "diving-expansion-evidence/chrome-results.json",
+      "passed": 342,
+      "failed": 0
+    },
+    {
+      "file": "diving-expansion-evidence/edge-results.json",
+      "passed": 342,
+      "failed": 0
+    },
+    {
+      "file": "pages-evidence/chrome-results.json",
+      "passed": 636,
+      "failed": 0
+    },
+    {
+      "file": "pages-evidence/edge-results.json",
+      "passed": 636,
+      "failed": 0
+    }
+  ],
+  "unchangedPriorAssets": 1419,
+  "deployment": {
+    "builtAt": "2026-10-16T13:50:49.865565+00:00",
+    "gameContent": "v4.0",
+    "sourceFiles": 1553,
+    "sourceBytes": 456312964
+  }
+}

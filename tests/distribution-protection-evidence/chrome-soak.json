@@ -1,0 +1,578 @@
+{
+  "elapsedMs": 302298.1000000015,
+  "draws": 16300,
+  "fps": 53.920285969378966,
+  "frameGapP50": 16.69999999552965,
+  "frameGapP95": 18.600000001490116,
+  "frameGapP99": 20.5,
+  "drawMsP50": 1.5,
+  "drawMsP95": 3.5,
+  "drawMsMax": 10.399999998509884,
+  "calls": {
+    "draw": {
+      "count": 16300,
+      "ms": 28375.999999664724,
+      "max": 10.399999998509884
+    },
+    "vitals": {
+      "count": 302,
+      "ms": 299.6999999731779,
+      "max": 5.5
+    },
+    "simulation": {
+      "count": 76,
+      "ms": 154.90000002086163,
+      "max": 7
+    },
+    "save": {
+      "count": 15,
+      "ms": 350.3000000193715,
+      "max": 33.5
+    }
+  },
+  "longTasks": [
+    {
+      "start": 17068.79999999702,
+      "duration": 87
+    },
+    {
+      "start": 198243.59999999404,
+      "duration": 79
+    }
+  ],
+  "scheduler": {
+    "raf": 1,
+    "timer": 0,
+    "mode": "tank",
+    "returning": false,
+    "pendingMinutes": 1.7342799999982108
+  },
+  "caches": {
+    "sheets": {
+      "loaded": 8,
+      "maxDecodedSheets": 128,
+      "frameCache": 113,
+      "maxFrames": 512,
+      "frameHits": 181017,
+      "frameMisses": 113,
+      "frameEvictions": 0,
+      "frameBytes": 15089664,
+      "maxFrameBytes": 33554432,
+      "decodedBytes": 17301504,
+      "maxDecodedBytes": 268435456
+    },
+    "animation": {
+      "rigBuilds": 8,
+      "poseHits": 23,
+      "poseCache": 14,
+      "maxPoses": 768
+    },
+    "rasters": {
+      "entries": 136,
+      "bytes": 1594056,
+      "maxBytes": 33554432,
+      "maxEntries": 8192,
+      "hits": 131587,
+      "misses": 136,
+      "evictions": 0
+    },
+    "sources": {
+      "active": 0,
+      "queued": 0,
+      "pending": 0
+    },
+    "layers": {
+      "entries": 6,
+      "bytes": 2764800,
+      "builds": 531
+    }
+  },
+  "state": {
+    "fish": 8,
+    "tanks": 1,
+    "gameTime": 3029.6518399999995,
+    "hidden": false
+  },
+  "entry": "DIST/index.html",
+  "wallSeconds": 302.29699999999866,
+  "heapSamples": [
+    {
+      "seconds": 30.29699999999866,
+      "heapBytes": 6574916,
+      "nodes": 1759,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 19658,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 14235,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 64
+        }
+      }
+    },
+    {
+      "seconds": 60.453999999997905,
+      "heapBytes": 6979364,
+      "nodes": 3189,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 37588,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 27275,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 118
+        }
+      }
+    },
+    {
+      "seconds": 90.59399999999732,
+      "heapBytes": 7102960,
+      "nodes": 1760,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 55518,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 40315,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 170
+        }
+      }
+    },
+    {
+      "seconds": 120.78199999999924,
+      "heapBytes": 7126336,
+      "nodes": 3189,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 73448,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 53355,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 219
+        }
+      }
+    },
+    {
+      "seconds": 150.98500000000058,
+      "heapBytes": 7211100,
+      "nodes": 1759,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 91400,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 66411,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 274
+        }
+      }
+    },
+    {
+      "seconds": 181.18799999999464,
+      "heapBytes": 7414716,
+      "nodes": 3189,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 109286,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 79419,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 320
+        }
+      }
+    },
+    {
+      "seconds": 211.5,
+      "heapBytes": 7523116,
+      "nodes": 1766,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 127216,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 92459,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 378
+        }
+      }
+    },
+    {
+      "seconds": 241.76599999999598,
+      "heapBytes": 7536704,
+      "nodes": 3196,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 145168,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 105515,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 425
+        }
+      }
+    },
+    {
+      "seconds": 271.9689999999973,
+      "heapBytes": 7629588,
+      "nodes": 1766,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 163076,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 118539,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 479
+        }
+      }
+    },
+    {
+      "seconds": 302.2350000000006,
+      "heapBytes": 7848720,
+      "nodes": 3196,
+      "listeners": 480,
+      "caches": {
+        "sheets": {
+          "loaded": 8,
+          "maxDecodedSheets": 128,
+          "frameCache": 113,
+          "maxFrames": 512,
+          "frameHits": 181006,
+          "frameMisses": 113,
+          "frameEvictions": 0,
+          "frameBytes": 15089664,
+          "maxFrameBytes": 33554432,
+          "decodedBytes": 17301504,
+          "maxDecodedBytes": 268435456
+        },
+        "animation": {
+          "rigBuilds": 8,
+          "poseHits": 23,
+          "poseCache": 14,
+          "maxPoses": 768
+        },
+        "rasters": {
+          "entries": 136,
+          "bytes": 1594056,
+          "maxBytes": 33554432,
+          "maxEntries": 8192,
+          "hits": 131579,
+          "misses": 136,
+          "evictions": 0
+        },
+        "sources": {
+          "active": 0,
+          "queued": 0,
+          "pending": 0
+        },
+        "layers": {
+          "entries": 6,
+          "bytes": 2764800,
+          "builds": 531
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "Five-minute foreground navigation soak retains bounded pixel caches",
+      "pass": true
+    },
+    {
+      "name": "Post-warmup five-minute heap growth remains below2MiB",
+      "pass": true
+    },
+    {
+      "name": "Repeated menu navigation does not accumulate listeners",
+      "pass": true
+    },
+    {
+      "name": "Normal periodic autosaves occur during sustained play",
+      "pass": true
+    }
+  ]
+}

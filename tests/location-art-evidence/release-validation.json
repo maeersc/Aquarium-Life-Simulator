@@ -1,0 +1,34 @@
+{
+  "passed": 1587,
+  "failed": 0,
+  "browserAssertions": 1698,
+  "suites": [
+    {
+      "file": "location-art-evidence/chrome-results.json",
+      "passed": 147,
+      "failed": 0
+    },
+    {
+      "file": "location-art-evidence/edge-results.json",
+      "passed": 147,
+      "failed": 0
+    },
+    {
+      "file": "pages-evidence/chrome-results.json",
+      "passed": 702,
+      "failed": 0
+    },
+    {
+      "file": "pages-evidence/edge-results.json",
+      "passed": 702,
+      "failed": 0
+    }
+  ],
+  "preservedFiles": 1670,
+  "deployment": {
+    "builtAt": "2026-10-16T17:56:00.825936+00:00",
+    "gameContent": "v4.0.2",
+    "sourceFiles": 1556,
+    "sourceBytes": 505663823
+  }
+}

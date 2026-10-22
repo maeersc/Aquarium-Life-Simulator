@@ -1,0 +1,3 @@
+# Inline player request - header alignment
+
+Align the right edge of + New aquarium with the right edge of Water & Wellbeing. Keep the aquarium selector immediately to its left, with consistent spacing inside the information-column width, and retain existing control heights/style. Do not resize or crop the information panel to create alignment. Use shared layout/grid containers, allow narrow stacking, preserve readable names and avoid horizontal overflow. Preserve aquarium switching/creation, water information, rendering, saves and other sidebar controls. Test 1920 x 1080, 1600 x 900 and 1366 x 768. Report edited files and viewports; finish with Done With Edits.

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "caulastraea-furcata",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag/polyp_motion final16-cell/source review: Inspected single turquoise candy-cane frag fleshy feeding rim, with original mouth and inner disc protected. The whole pale hard cup/stalk and rock remain canonical; only original small outer tissue poses are sampled. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "caulastraea-furcata",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony/polyp_motion final16-cell/source review: Inspected colony-specific turquoise distal feeding rims. Mouth centers and inner discs, branching pale skeleton and rock attachment remain protected canonical pixels; no rigid branch motion is introduced. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "turbinaria-reniformis",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag/polyp_motion final16-cell/source review: Inspected minute pale living polyp surface islands inside the original developing golden Turbinaria structure. All hard branch edges, trunk and pedestal remain fixed canonical pixels. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "turbinaria-reniformis",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony/polyp_motion final16-cell/source review: Inspected existing pale surface polyp islands only on golden scroll surfaces. Hard scroll edges, cup folds/ridges and rocky attachment are canonical protected pixels, preserving completely rigid stony geometry. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "tubastraea-micranthus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag/polyp_motion final16-cell/source review: Inspected single black-sun frag yellow distal feeding tentacle annulus. Orange mouth/inner disc and the entire dark rigid stalk and rock remain canonical fixed pixels. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "tubastraea-micranthus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony/polyp_motion final16-cell/source review: Inspected existing black-sun colony distal yellow feeding-tentacle fringes only. Orange mouths, inner oral discs, dark hard branching skeleton and the rock pedestal remain protected canonical pixels. The inspected central dark skeletal registration point has a protected four-pixel patch. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "rhizotrochus-typus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "frag/polyp_motion final16-cell/source review: Inspected pale/lavender Rhizo distal feeding-tentacle fringe above the fixed orange/cream cup. Original mouth and lower hard cup/stalk plus porous rocky base are protected canonical pixels. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "rhizotrochus-typus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "colony/polyp_motion final16-cell/source review: Inspected mature Rhizo pale/lavender distal tentacle fringe only. Mouth center/inner oral disc, lower orange hard cup and porous rocky attachment remain canonical protected pixels; no cup wobble. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "baby",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/idle final16-cell/source review: Inspected baby Thor shrimp distal attached legs only. Raised abdomen, trunk markings, paired eyes and complete original antennae remain canonical protected pixels. The earlier distal-antenna mask was rejected for disconnected tips; only original idle leg poses are now assembled. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "baby",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/walk final16-cell/source review: Inspected baby Thor shrimp distal attached legs only. Raised abdomen, trunk markings, paired eyes and complete original antennae remain canonical protected pixels. The earlier distal-antenna mask was rejected for disconnected tips; only original walk leg poses are now assembled. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "juvenile",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/idle final16-cell/source review: Inspected juvenile Thor shrimp distal attached legs only. Raised abdomen, trunk markings, paired eyes and complete original antennae remain canonical protected pixels. The earlier distal-antenna mask was rejected for disconnected tips; only original idle leg poses are now assembled. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "juvenile",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/walk final16-cell/source review: Inspected juvenile Thor shrimp distal attached legs only. Raised abdomen, trunk markings, paired eyes and complete original antennae remain canonical protected pixels. The earlier distal-antenna mask was rejected for disconnected tips; only original walk leg poses are now assembled. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "adult",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/idle final16-cell/source review: Inspected adult Thor shrimp distal attached legs only. Raised abdomen, trunk markings, paired eyes and complete original antennae remain canonical protected pixels. The earlier distal-antenna mask was rejected for disconnected tips; only original idle leg poses are now assembled. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "sexy-anemone-shrimp",
+    "stage": "adult",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/walk final16-cell/source review: Inspected adult Thor shrimp distal attached legs only. Raised abdomen, trunk markings, paired eyes and complete original antennae remain canonical protected pixels. The earlier distal-antenna mask was rejected for disconnected tips; only original walk leg poses are now assembled. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "baby",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/idle final16-cell/source review: Inspected baby porcelain crab attached walking legs, original articulated claws and soft feeding fans below the fixed red-spotted carapace. The rigid main carapace, paired stalk eyes and central body landmark remain canonical protected pixels. Complete authored appendage/root areas are retained to avoid severed leg tips from an over-restrictive claw mask. Original idle source drawings supply all motion. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "baby",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/walk final16-cell/source review: Inspected baby porcelain crab attached walking legs, original articulated claws and soft feeding fans below the fixed red-spotted carapace. The rigid main carapace, paired stalk eyes and central body landmark remain canonical protected pixels. Complete authored appendage/root areas are retained to avoid severed leg tips from an over-restrictive claw mask. Original walk source drawings supply all motion. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "juvenile",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/idle final16-cell/source review: Inspected juvenile porcelain crab attached walking legs, original articulated claws and soft feeding fans below the fixed red-spotted carapace. The rigid main carapace, paired stalk eyes and central body landmark remain canonical protected pixels. Complete authored appendage/root areas are retained to avoid severed leg tips from an over-restrictive claw mask. Original idle source drawings supply all motion. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "juvenile",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/walk final16-cell/source review: Inspected juvenile porcelain crab attached walking legs, original articulated claws and soft feeding fans below the fixed red-spotted carapace. The rigid main carapace, paired stalk eyes and central body landmark remain canonical protected pixels. Complete authored appendage/root areas are retained to avoid severed leg tips from an over-restrictive claw mask. Original walk source drawings supply all motion. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "adult",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/idle final16-cell/source review: Inspected adult porcelain crab attached walking legs, original articulated claws and soft feeding fans below the fixed red-spotted carapace. The rigid main carapace, paired stalk eyes and central body landmark remain canonical protected pixels. Complete authored appendage/root areas are retained to avoid severed leg tips from an over-restrictive claw mask. Original idle source drawings supply all motion. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "porcelain-anemone-crab",
+    "stage": "adult",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/walk final16-cell/source review: Inspected adult porcelain crab attached walking legs, original articulated claws and soft feeding fans below the fixed red-spotted carapace. The rigid main carapace, paired stalk eyes and central body landmark remain canonical protected pixels. Complete authored appendage/root areas are retained to avoid severed leg tips from an over-restrictive claw mask. Original walk source drawings supply all motion. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "baby",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/idle final16-cell/source review: Inspected baby snail muscular foot edge only. The complete rigid black/gold shell, bands, head and both eye-tipped stalks remain canonical protected pixels. Very small original idle foot-edge poses are sampled; no shell bounce or rotation. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "juvenile",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/idle final16-cell/source review: Inspected juvenile snail muscular foot edge only. The complete rigid black/gold shell, bands, head and both eye-tipped stalks remain canonical protected pixels. Very small original idle foot-edge poses are sampled; no shell bounce or rotation. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "juvenile",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/walk final16-cell/source review: Inspected juvenile snail muscular foot edge only. The complete rigid black/gold shell, bands, head and both eye-tipped stalks remain canonical protected pixels. Very small original walk foot-edge poses are sampled; no shell bounce or rotation. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "adult",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/idle final16-cell/source review: Inspected adult snail muscular foot edge only. The complete rigid black/gold shell, bands, head and both eye-tipped stalks remain canonical protected pixels. Very small original idle foot-edge poses are sampled; no shell bounce or rotation. All16 final native cells inspected after corrections, intact attachments and whole transparent margins checked. Source species/stage anatomy retained; no player approval inferred."
+  }
+]

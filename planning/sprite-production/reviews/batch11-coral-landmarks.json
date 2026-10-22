@@ -1,0 +1,266 @@
+[
+  {
+    "id": "caulastraea-furcata",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      53,
+      23,
+      272,
+      295
+    ],
+    "previewOrigin": [
+      38,
+      48
+    ],
+    "previewScale": 0.8235294117647058,
+    "previewSize": [
+      180,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      128,
+      237
+    ],
+    "firstSourceCenter": [
+      162,
+      252
+    ],
+    "nativePoint": [
+      96,
+      138
+    ],
+    "note": "Visible fixed skeleton/cup/rock point inspected in first original source; final native16-cell review remains pending."
+  },
+  {
+    "id": "caulastraea-furcata",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      19,
+      41,
+      322,
+      313
+    ],
+    "previewOrigin": [
+      268,
+      56
+    ],
+    "previewScale": 0.7656765676567657,
+    "previewSize": [
+      232,
+      208
+    ],
+    "inspectedPreviewPoint": [
+      381,
+      218
+    ],
+    "firstSourceCenter": [
+      167,
+      253
+    ],
+    "nativePoint": [
+      96,
+      130
+    ],
+    "note": "Visible fixed skeleton/cup/rock point inspected in first original source; final native16-cell review remains pending."
+  },
+  {
+    "id": "turbinaria-reniformis",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      31,
+      35,
+      294,
+      309
+    ],
+    "previewOrigin": [
+      532,
+      48
+    ],
+    "previewScale": 0.8175182481751825,
+    "previewSize": [
+      215,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      640,
+      197
+    ],
+    "firstSourceCenter": [
+      163,
+      217
+    ],
+    "nativePoint": [
+      96,
+      120
+    ],
+    "note": "Visible fixed skeleton/cup/rock point inspected in first original source; final native16-cell review remains pending."
+  },
+  {
+    "id": "turbinaria-reniformis",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      18,
+      31,
+      339,
+      280
+    ],
+    "previewOrigin": [
+      780,
+      70
+    ],
+    "previewScale": 0.7227414330218068,
+    "previewSize": [
+      232,
+      180
+    ],
+    "inspectedPreviewPoint": [
+      895,
+      234
+    ],
+    "firstSourceCenter": [
+      177,
+      258
+    ],
+    "nativePoint": [
+      96,
+      141
+    ],
+    "note": "Visible fixed skeleton/cup/rock point inspected in first original source; final native16-cell review remains pending."
+  },
+  {
+    "id": "tubastraea-micranthus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      63,
+      47,
+      274,
+      315
+    ],
+    "previewOrigin": [
+      40,
+      328
+    ],
+    "previewScale": 0.835820895522388,
+    "previewSize": [
+      176,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      129,
+      476
+    ],
+    "firstSourceCenter": [
+      169,
+      224
+    ],
+    "nativePoint": [
+      96,
+      129
+    ],
+    "note": "Visible fixed skeleton/cup/rock point inspected in first original source; final native16-cell review remains pending."
+  },
+  {
+    "id": "tubastraea-micranthus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      51,
+      11,
+      314,
+      279
+    ],
+    "previewOrigin": [
+      274,
+      328
+    ],
+    "previewScale": 0.835820895522388,
+    "previewSize": [
+      220,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      386,
+      495
+    ],
+    "firstSourceCenter": [
+      185,
+      211
+    ],
+    "nativePoint": [
+      96,
+      133
+    ],
+    "note": "Visible fixed skeleton/cup/rock point inspected in first original source; final native16-cell review remains pending."
+  },
+  {
+    "id": "rhizotrochus-typus",
+    "stage": "frag",
+    "state": "polyp_motion",
+    "sourceBox": [
+      66,
+      25,
+      291,
+      282
+    ],
+    "previewOrigin": [
+      542,
+      328
+    ],
+    "previewScale": 0.8715953307392996,
+    "previewSize": [
+      196,
+      224
+    ],
+    "inspectedPreviewPoint": [
+      639,
+      471
+    ],
+    "firstSourceCenter": [
+      177,
+      189
+    ],
+    "nativePoint": [
+      96,
+      122
+    ],
+    "note": "Visible fixed skeleton/cup/rock point inspected in first original source; final native16-cell review remains pending."
+  },
+  {
+    "id": "rhizotrochus-typus",
+    "stage": "colony",
+    "state": "polyp_motion",
+    "sourceBox": [
+      42,
+      19,
+      336,
+      281
+    ],
+    "previewOrigin": [
+      780,
+      336
+    ],
+    "previewScale": 0.7891156462585034,
+    "previewSize": [
+      232,
+      207
+    ],
+    "inspectedPreviewPoint": [
+      896,
+      477
+    ],
+    "firstSourceCenter": [
+      189,
+      198
+    ],
+    "nativePoint": [
+      96,
+      127
+    ],
+    "note": "Visible fixed skeleton/cup/rock point inspected in first original source; final native16-cell review remains pending."
+  }
+]

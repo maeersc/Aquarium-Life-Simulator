@@ -1,0 +1,1456 @@
+{
+  "browser": "edge",
+  "passed": 362,
+  "failed": 0,
+  "results": [
+    {
+      "name": "38 approved distinct records: 28 fish, five corals, five non-fish invertebrates",
+      "pass": true
+    },
+    {
+      "name": "Current additive roster: 105 fish, fifteen marine corals, ten invertebrates",
+      "pass": true
+    },
+    {
+      "name": "chalk-bass: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "chalk-bass: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "chalk-bass: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "chalk-bass: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "chalk-bass: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "lantern-bass: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "lantern-bass: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "lantern-bass: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "lantern-bass: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "lantern-bass: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "yellow-assessor: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "yellow-assessor: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "yellow-assessor: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "yellow-assessor: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "yellow-assessor: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "blue-assessor: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "blue-assessor: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "blue-assessor: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "blue-assessor: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "blue-assessor: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "candy-basslet: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "candy-basslet: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "candy-basslet: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "candy-basslet: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "candy-basslet: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "pink-streaked-wrasse: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "pink-streaked-wrasse: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "pink-streaked-wrasse: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "pink-streaked-wrasse: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "pink-streaked-wrasse: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "white-banded-possum-wrasse: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "white-banded-possum-wrasse: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "white-banded-possum-wrasse: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "white-banded-possum-wrasse: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "white-banded-possum-wrasse: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "tanakas-pygmy-wrasse: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "tanakas-pygmy-wrasse: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "tanakas-pygmy-wrasse: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "tanakas-pygmy-wrasse: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "tanakas-pygmy-wrasse: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "carpenters-flasher-wrasse: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "carpenters-flasher-wrasse: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "carpenters-flasher-wrasse: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "carpenters-flasher-wrasse: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "carpenters-flasher-wrasse: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "mccoskers-flasher-wrasse: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "mccoskers-flasher-wrasse: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "mccoskers-flasher-wrasse: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "mccoskers-flasher-wrasse: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "mccoskers-flasher-wrasse: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "exquisite-fairy-wrasse: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "exquisite-fairy-wrasse: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "exquisite-fairy-wrasse: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "exquisite-fairy-wrasse: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "exquisite-fairy-wrasse: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "lubbocks-fairy-wrasse: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "lubbocks-fairy-wrasse: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "lubbocks-fairy-wrasse: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "lubbocks-fairy-wrasse: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "lubbocks-fairy-wrasse: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "ruby-longfin-fairy-wrasse: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "ruby-longfin-fairy-wrasse: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "ruby-longfin-fairy-wrasse: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "ruby-longfin-fairy-wrasse: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "ruby-longfin-fairy-wrasse: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "greenbanded-goby: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "greenbanded-goby: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "greenbanded-goby: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "greenbanded-goby: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "greenbanded-goby: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "sharknose-goby: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "sharknose-goby: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "sharknose-goby: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "sharknose-goby: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "sharknose-goby: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-prawn-goby: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-prawn-goby: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-prawn-goby: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-prawn-goby: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-prawn-goby: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "randalls-prawn-goby: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "randalls-prawn-goby: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "randalls-prawn-goby: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "randalls-prawn-goby: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "randalls-prawn-goby: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "hi-fin-red-banded-goby: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "hi-fin-red-banded-goby: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "hi-fin-red-banded-goby: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "hi-fin-red-banded-goby: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "hi-fin-red-banded-goby: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "blue-striped-trimma-goby: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "blue-striped-trimma-goby: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "blue-striped-trimma-goby: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "blue-striped-trimma-goby: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "blue-striped-trimma-goby: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "redspotted-blenny: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "redspotted-blenny: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "redspotted-blenny: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "redspotted-blenny: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "redspotted-blenny: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "starry-blenny: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "starry-blenny: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "starry-blenny: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "starry-blenny: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "starry-blenny: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "two-spot-blenny: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "two-spot-blenny: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "two-spot-blenny: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "two-spot-blenny: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "two-spot-blenny: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "yellow-candy-hogfish: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "yellow-candy-hogfish: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "yellow-candy-hogfish: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "yellow-candy-hogfish: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "yellow-candy-hogfish: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "blotched-anthias: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "blotched-anthias: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "blotched-anthias: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "blotched-anthias: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "blotched-anthias: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "purple-queen-anthias: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "purple-queen-anthias: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "purple-queen-anthias: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "purple-queen-anthias: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "purple-queen-anthias: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "copperband-butterflyfish: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "copperband-butterflyfish: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "copperband-butterflyfish: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "copperband-butterflyfish: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "copperband-butterflyfish: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-filefish: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-filefish: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-filefish: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-filefish: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "orange-spotted-filefish: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "spotted-boxfish: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "spotted-boxfish: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "spotted-boxfish: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "spotted-boxfish: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "spotted-boxfish: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "blastomussa-wellsi: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "micromussa-lordhowensis: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "cyphastrea-serailia: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "leptastrea-purpurea: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "pavona-cactus: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "sexy-anemone-shrimp: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "porcelain-anemone-crab: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "bumblebee-snail: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "tiger-sand-conch: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab: authoritative identity, approved rarity, gallon minimum and category",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab: store-safe purchase/placement and persistent value/health",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab: colored rarity resolves centrally",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab: original stage assets loaded",
+      "pass": true
+    },
+    {
+      "name": "halloween-hermit-crab: inspector shows scientific identity and correct colored rarity",
+      "pass": true
+    },
+    {
+      "name": "All six Mystery tiers have real eligible marine fish",
+      "pass": true
+    },
+    {
+      "name": "Fixed exact Mystery odds unchanged",
+      "pass": true
+    },
+    {
+      "name": "Actual Mystery result persists through save and larval hatch without duplication",
+      "pass": true
+    },
+    {
+      "name": "New Common/Uncommon/Rare fish enter rotation without enlarging eight slots",
+      "pass": true
+    },
+    {
+      "name": "Copperband remains Legendary and demanding, separate from rarity immunity",
+      "pass": true
+    },
+    {
+      "name": "Unsafe predator/invertebrate destination rejects atomically",
+      "pass": true
+    },
+    {
+      "name": "Spotted Boxfish requires species-only home and creates condition-linked toxin risk",
+      "pass": true
+    },
+    {
+      "name": "Orange-Spotted Filefish cannot be bought without specialist food and living SPS",
+      "pass": true
+    },
+    {
+      "name": "Unsupported breeding explicitly refuses invented natural reproduction",
+      "pass": true
+    },
+    {
+      "name": "All new corals reject unsupported midwater mounts",
+      "pass": true
+    },
+    {
+      "name": "Non-fish invertebrates eat actual particles and add current tank value",
+      "pass": true
+    },
+    {
+      "name": "Fish copper is incompatible with invertebrates; support is host-specific",
+      "pass": true
+    },
+    {
+      "name": "Legacy save migration adds missing expansion inventories without rerolling daily selection",
+      "pass": true
+    },
+    {
+      "name": "Freshwater fish roster remains eleven entries",
+      "pass": true
+    },
+    {
+      "name": "Real Mystery purchase can reach Common and preserve its biological identity",
+      "pass": true
+    },
+    {
+      "name": "Real Mystery purchase can reach Uncommon and preserve its biological identity",
+      "pass": true
+    },
+    {
+      "name": "Real Mystery purchase can reach Rare and preserve its biological identity",
+      "pass": true
+    },
+    {
+      "name": "Real Mystery purchase can reach Very Rare and preserve its biological identity",
+      "pass": true
+    },
+    {
+      "name": "Real Mystery purchase can reach Ultra Rare and preserve its biological identity",
+      "pass": true
+    },
+    {
+      "name": "Real Mystery purchase can reach Legendary and preserve its biological identity",
+      "pass": true
+    },
+    {
+      "name": "Invertebrate transfer preserves identity, rarity, treatment and value",
+      "pass": true
+    },
+    {
+      "name": "Invertebrate death contributes actual pollution, zero value and retained rarity history",
+      "pass": true
+    },
+    {
+      "name": "Invertebrate illness is host-specific and value decreases without rarity change",
+      "pass": true
+    },
+    {
+      "name": "Owned invertebrates are counted in daily care and offline survival",
+      "pass": true
+    },
+    {
+      "name": "New dead coral frag and mature skeleton art are distinct from living tissue",
+      "pass": true
+    },
+    {
+      "name": "Larval and juvenile fish art is distinct from adult art with stable repeat calls",
+      "pass": true
+    },
+    {
+      "name": "Freshwater and marine routes initialize valid state",
+      "pass": true
+    },
+    {
+      "name": "At least 20 non-fictional species with complete data",
+      "pass": true
+    },
+    {
+      "name": "Uncycled aquariums block livestock",
+      "pass": true
+    },
+    {
+      "name": "Cycling takes simulated time and establishes both bacterial colonies",
+      "pass": true
+    },
+    {
+      "name": "Freshwater fish cannot enter marine water",
+      "pass": true
+    },
+    {
+      "name": "Minimum swimming volume enforced independently of bioload",
+      "pass": true
+    },
+    {
+      "name": "Social species require complete starting school",
+      "pass": true
+    },
+    {
+      "name": "Stock, money and identities update atomically",
+      "pass": true
+    },
+    {
+      "name": "Rejected transactions do not spend funds or mutate stock",
+      "pass": true
+    },
+    {
+      "name": "Store stock is finite",
+      "pass": true
+    },
+    {
+      "name": "Feeding reduces hunger and consumes inventory",
+      "pass": true
+    },
+    {
+      "name": "Wrong diet remains uneaten and decomposes into waste",
+      "pass": true
+    },
+    {
+      "name": "Fry require fine food",
+      "pass": true
+    },
+    {
+      "name": "Prepared water change mixes chemistry by replacement fraction",
+      "pass": true
+    },
+    {
+      "name": "Marine replacement preserves salinity and consumes salt",
+      "pass": true
+    },
+    {
+      "name": "Water toxicity damages health gradually",
+      "pass": true
+    },
+    {
+      "name": "Healthy feeding and weekly maintenance sustain fish for 30 days",
+      "pass": true
+    },
+    {
+      "name": "Starvation and low oxygen produce recorded causes",
+      "pass": true
+    },
+    {
+      "name": "Dead residents pollute until removed",
+      "pass": true
+    },
+    {
+      "name": "Aging observes individual maximum lifespan",
+      "pass": true
+    },
+    {
+      "name": "Predator compatibility is high risk and attacks have consequences",
+      "pass": true
+    },
+    {
+      "name": "Territorial aggression respects its cooldown",
+      "pass": true
+    },
+    {
+      "name": "Behavior moves individuals within aquarium bounds",
+      "pass": true
+    },
+    {
+      "name": "Fish rest or hide rather than sharing identical behavior",
+      "pass": true
+    },
+    {
+      "name": "Equipment failures change temperature and can be serviced",
+      "pass": true
+    },
+    {
+      "name": "Automatic feeder consumes actual inventory only once per day",
+      "pass": true
+    },
+    {
+      "name": "Livebearer pair creates gestation and inherited offspring",
+      "pass": true
+    },
+    {
+      "name": "Breeding blocks poor welfare and repeat cooldown",
+      "pass": true
+    },
+    {
+      "name": "Eggs develop only under suitable conditions",
+      "pass": true
+    },
+    {
+      "name": "Mouthbrood strategy retains male carrier dependency",
+      "pass": true
+    },
+    {
+      "name": "Corals require reef habitats and react to poor conditions",
+      "pass": true
+    },
+    {
+      "name": "Plants consume nitrate and need light",
+      "pass": true
+    },
+    {
+      "name": "Market price is bounded below original retail",
+      "pass": true
+    },
+    {
+      "name": "Repeated buy/sell loses funds and stops at daily limit",
+      "pass": true
+    },
+    {
+      "name": "Quest rewards claim exactly once from actual actions",
+      "pass": true
+    },
+    {
+      "name": "Second aquarium purchase includes independent uncycled environment",
+      "pass": true
+    },
+    {
+      "name": "Night market enforces level, schedule and containment",
+      "pass": true
+    },
+    {
+      "name": "VIP entitlements and payments cannot enter a valid save",
+      "pass": true
+    },
+    {
+      "name": "JSON save round trip restores all entities and state",
+      "pass": true
+    },
+    {
+      "name": "Validator rejects corruption, nonfinite numbers and duplicate IDs",
+      "pass": true
+    },
+    {
+      "name": "Validator rejects missing fields and stale identity counter",
+      "pass": true
+    },
+    {
+      "name": "Schema migration supports previous schema without data loss",
+      "pass": true
+    },
+    {
+      "name": "Continuous offline catch-up replaces legacy relaxed and cap preferences",
+      "pass": true
+    },
+    {
+      "name": "Seeded core simulation is deterministic",
+      "pass": true
+    },
+    {
+      "name": "Long simulation remains bounded and serializable",
+      "pass": true
+    },
+    {
+      "name": "Feeding quest requires actual suitable food consumption",
+      "pass": true
+    },
+    {
+      "name": "Reserved brood capacity blocks excess purchases",
+      "pass": true
+    },
+    {
+      "name": "Invalid control values roll back transaction",
+      "pass": true
+    },
+    {
+      "name": "School transfer preserves welfare and identities",
+      "pass": true
+    },
+    {
+      "name": "Season changes preserve acquired decorations",
+      "pass": true
+    },
+    {
+      "name": "Daily buyer budgets reset and demand recovers",
+      "pass": true
+    },
+    {
+      "name": "Reef care sustains five coral categories for 30 days",
+      "pass": true
+    },
+    {
+      "name": "Breeder economy is finite across 60 days",
+      "pass": true
+    },
+    {
+      "name": "Hoarding is blocked at adult capacity without hidden charges",
+      "pass": true
+    },
+    {
+      "name": "Fictional rare collector pays bounded setup and inspection risks",
+      "pass": true
+    },
+    {
+      "name": "Manual lighting works at night and Off overrides daytime schedule",
+      "pass": true
+    },
+    {
+      "name": "Manual lamp output honors intensity, reef strength and hardware failure",
+      "pass": true
+    },
+    {
+      "name": "Lighting controls validate and retain compatibility with older saves",
+      "pass": true
+    },
+    {
+      "name": "Turning lights off stops their wear and light-dependent plant growth",
+      "pass": true
+    },
+    {
+      "name": "Equipment light switches and per-tank manual modes remain consistent",
+      "pass": true
+    },
+    {
+      "name": "Coral purchases persist a supported sandbed attachment atomically",
+      "pass": true
+    },
+    {
+      "name": "Coral repositioning preserves health, identity and funds on a suitable surface",
+      "pass": true
+    },
+    {
+      "name": "Open water, invalid coordinates and out-of-tank placement roll back",
+      "pass": true
+    },
+    {
+      "name": "Older coral coordinates migrate without losing ownership",
+      "pass": true
+    },
+    {
+      "name": "Coral inspection shares light and flow rules with simulation",
+      "pass": true
+    },
+    {
+      "name": "Coral spacing rejects overlapping bases and preserves LPS stinging distance",
+      "pass": true
+    },
+    {
+      "name": "Freshwater plants remain rooted on the tank bed",
+      "pass": true
+    },
+    {
+      "name": "Browser-local persistence is available for file URL",
+      "pass": true
+    },
+    {
+      "name": "All marine disease definitions include hosts, symptoms, route, onset, treatment and research sources",
+      "pass": true
+    },
+    {
+      "name": "Marine retail pricing is fixed across seeds, stock changes and JSON reload",
+      "pass": true
+    },
+    {
+      "name": "Designer retail remains a fixed documented base-linked price",
+      "pass": true
+    },
+    {
+      "name": "Black-market creation persists exact price and hidden condition",
+      "pass": true
+    },
+    {
+      "name": "Reload and reopening listings do not advance random seed or reroll hidden quality",
+      "pass": true
+    },
+    {
+      "name": "Dealer inventory rotates only at an in-game dawn and changes listing identity",
+      "pass": true
+    },
+    {
+      "name": "Stale dealer listing cannot charge or purchase",
+      "pass": true
+    },
+    {
+      "name": "Black-market marine fish charge the saved listing price exactly once",
+      "pass": true
+    },
+    {
+      "name": "Dealer condition classes map to persisted nutrition, stress, illness or carriage",
+      "pass": true
+    },
+    {
+      "name": "Hidden marine infection does not expose its diagnosis before examination",
+      "pass": true
+    },
+    {
+      "name": "Diagnostic supplies reveal a confidence-qualified finding and consume one unit",
+      "pass": true
+    },
+    {
+      "name": "Asymptomatic carrier exam remains suspected rather than automatic certainty",
+      "pass": true
+    },
+    {
+      "name": "Ordinary marine medicines have fixed retail and no hidden dealer quality",
+      "pass": true
+    },
+    {
+      "name": "Restricted medicines preserve hidden quality from listing to owned batch and save",
+      "pass": true
+    },
+    {
+      "name": "Restricted treatment access respects level, discovery and night hours",
+      "pass": true
+    },
+    {
+      "name": "Batch assay consumes diagnostics and reveals quality without reroll",
+      "pass": true
+    },
+    {
+      "name": "Every implemented fish and bottom dweller has bounded current value",
+      "pass": true
+    },
+    {
+      "name": "Growth and maturity increase value before old-age reduction",
+      "pass": true
+    },
+    {
+      "name": "Nutrition, stress, disease and designer traits affect asset value",
+      "pass": true
+    },
+    {
+      "name": "Dead marine fish and coral lose all living value",
+      "pass": true
+    },
+    {
+      "name": "Coral size, bleaching, tissue and polyp condition affect value",
+      "pass": true
+    },
+    {
+      "name": "Copper treatment is rejected in a reef without consuming a batch",
+      "pass": true
+    },
+    {
+      "name": "Copper is rejected for coral, juveniles, eggs and decorated quarantine",
+      "pass": true
+    },
+    {
+      "name": "A correct diagnosed course consumes one unit and cannot instantly cure",
+      "pass": true
+    },
+    {
+      "name": "Correct copper course reduces diagnosed ich over time and restores value",
+      "pass": true
+    },
+    {
+      "name": "Wrong treatment does not cure a different parasite",
+      "pass": true
+    },
+    {
+      "name": "Contaminated fictional course can cause harm and leave illness unresolved",
+      "pass": true
+    },
+    {
+      "name": "Antibacterial treatment requires appropriate diagnosis confidence",
+      "pass": true
+    },
+    {
+      "name": "Unsafe treatment water is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "Active quarantine-only treatment cannot be moved into a reef",
+      "pass": true
+    },
+    {
+      "name": "Stopping a course does not refund or duplicate treatment units",
+      "pass": true
+    },
+    {
+      "name": "Illness progresses, symptoms appear and severe illness uses existing mortality engine",
+      "pass": true
+    },
+    {
+      "name": "Host eligibility prevents fish parasites from infecting corals or future invertebrates",
+      "pass": true
+    },
+    {
+      "name": "Noncontagious bleaching is distinct from death and uses existing bleached art",
+      "pass": true
+    },
+    {
+      "name": "Tank breakdown counts every physical category once without attached-coral duplication",
+      "pass": true
+    },
+    {
+      "name": "Fish transfer preserves illness history/identity and transfers exact living value",
+      "pass": true
+    },
+    {
+      "name": "Unsafe fish/coral transfers and mixed clownfish territories reject",
+      "pass": true
+    },
+    {
+      "name": "Complete illness, treatment, inventory and value state round-trips exactly",
+      "pass": true
+    },
+    {
+      "name": "Legacy schema-2 migration retains existing identities, wallet and health",
+      "pass": true
+    },
+    {
+      "name": "Malformed current hidden-quality and course records reject rather than reroll",
+      "pass": true
+    },
+    {
+      "name": "Freshwater individuals receive no marine health data or disease treatment",
+      "pass": true
+    },
+    {
+      "name": "Neither value calculation nor inspector rendering mutates authoritative save state",
+      "pass": true
+    },
+    {
+      "name": "Retail, asset value and dealer offer are distinct and resale never guarantees profit",
+      "pass": true
+    },
+    {
+      "name": "30-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "90-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "365-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "Bacterial diagnosis needs a delayed follow-up before a targeted course",
+      "pass": true
+    },
+    {
+      "name": "Coral quarantine preserves mounting, identity, health history and current value",
+      "pass": true
+    },
+    {
+      "name": "Coral pest dip is host-specific and improves the eligible condition over time",
+      "pass": true
+    },
+    {
+      "name": "Bleached living coral can recover after environmental correction and supportive care",
+      "pass": true
+    },
+    {
+      "name": "Nutrition and polyp state respond to coral conditions without changing freshwater plants",
+      "pass": true
+    },
+    {
+      "name": "Normal unexamined coral introduction risk is assigned once and survives reload without price change",
+      "pass": true
+    },
+    {
+      "name": "The exact hatching tick refreshes cached tank totals after replacing its brood with fry",
+      "pass": true
+    },
+    {
+      "name": "Ten-day freshwater biology exactly matches protected earlier code",
+      "pass": true
+    },
+    {
+      "name": "Live daily Fish store still has exactly eight listings",
+      "pass": true
+    },
+    {
+      "name": "Mystery Egg no longer has missing-tier content hold",
+      "pass": true
+    },
+    {
+      "name": "Real Mystery purchase has a safe eligible destination",
+      "pass": true
+    },
+    {
+      "name": "Actual Mystery UI purchase creates one persistent brood",
+      "pass": true
+    },
+    {
+      "name": "Bottom shop keeps original five and adds only eligible ordinary-tier invertebrates",
+      "pass": true
+    },
+    {
+      "name": "Actual invertebrate purchase goes into non-fish collection",
+      "pass": true
+    },
+    {
+      "name": "Invertebrate inspector has name, science, rarity, care, life stage, health and value",
+      "pass": true
+    },
+    {
+      "name": "Other Marine Invertebrates lists all ten scientific identities",
+      "pass": true
+    },
+    {
+      "name": "Saltwater coral encyclopedia contains fifteen entries",
+      "pass": true
+    },
+    {
+      "name": "Coral shop preserves allowed prior groups and adds two ordinary corals plus Mystery Coral",
+      "pass": true
+    },
+    {
+      "name": "Expanded store fits 390px viewport",
+      "pass": true
+    },
+    {
+      "name": "Expanded store fits 768px viewport",
+      "pass": true
+    },
+    {
+      "name": "Expanded store fits 1366px viewport",
+      "pass": true
+    },
+    {
+      "name": "Expanded store fits 1920px viewport",
+      "pass": true
+    },
+    {
+      "name": "145 protected freshwater definitions/art/source hashes unchanged",
+      "pass": true
+    },
+    {
+      "name": "No browser JavaScript exceptions",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "No HTTP/HTTPS gameplay requests",
+      "pass": true
+    },
+    {
+      "name": "Offline v2.7 review gallery loads all 38 sprite sheets",
+      "pass": true
+    },
+    {
+      "name": "Review category fish has exactly 28 entries",
+      "pass": true
+    },
+    {
+      "name": "Review category coral has exactly 5 entries",
+      "pass": true
+    },
+    {
+      "name": "Review category bottom_dweller has exactly 5 entries",
+      "pass": true
+    },
+    {
+      "name": "Review notes do not replace gameplay save",
+      "pass": true
+    }
+  ]
+}

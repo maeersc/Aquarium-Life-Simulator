@@ -1,0 +1,52 @@
+{
+  "id": "hawaiian",
+  "name": "Hawaiian volcanic-inspired rock",
+  "family": "rocks",
+  "status": "Ready for Review",
+  "approved": false,
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "frames": 4,
+  "frameDurationMs": 1250,
+  "atlas": "assets/livestock/rocks/hawaiian/atlas-v11.png",
+  "bounds": [
+    [
+      24,
+      104,
+      167,
+      184
+    ],
+    [
+      13,
+      34,
+      178,
+      184
+    ],
+    [
+      9,
+      25,
+      183,
+      184
+    ],
+    [
+      9,
+      47,
+      182,
+      184
+    ]
+  ],
+  "anchor": [
+    96,
+    184
+  ],
+  "variants": [
+    "small",
+    "medium",
+    "large",
+    "arch"
+  ],
+  "facingBehavior": "stationary",
+  "layer": "hardscape",
+  "material": "volcanic-inspired",
+  "chemistryEffects": "none assigned by this art update"
+}

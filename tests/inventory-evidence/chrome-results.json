@@ -1,0 +1,288 @@
+{
+  "checks": [
+    {
+      "name": "Legacy installed equipment migrates once, stays in its own tank, preserves condition/modifications",
+      "pass": true
+    },
+    {
+      "name": "Existing storage IDs remain stable through migration and load",
+      "pass": false
+    },
+    {
+      "name": "filter: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "heater: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "light: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "air: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "skimmer: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "reefLight: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "flow: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "feeder: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "chiller: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "dosing: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "containment: purchase enters storage, one exact debit/stock/receipt; installed item unchanged",
+      "pass": true
+    },
+    {
+      "name": "Purchase fixed heater may be stored even when sizing tank already has heater or is larger",
+      "pass": true
+    },
+    {
+      "name": "Install/remove/reinstall preserves ID, fixed capacity, condition, modifications and thermostat",
+      "pass": true
+    },
+    {
+      "name": "Failed capacity install is transactional and keeps exact item safely in storage",
+      "pass": true
+    },
+    {
+      "name": "Occupied slot, non-owned tank, freshwater and missing IDs all reject without loss",
+      "pass": true
+    },
+    {
+      "name": "Removal requires warning confirmation; missing/stale item cannot be removed again",
+      "pass": true
+    },
+    {
+      "name": "Legacy thermostat fallback is captured when removing a unit into storage",
+      "pass": true
+    },
+    {
+      "name": "Double-click installation and save/load replay cannot duplicate equipment",
+      "pass": true
+    },
+    {
+      "name": "Duplicate installed/stored identities reject corrupt saves",
+      "pass": true
+    },
+    {
+      "name": "Removing heater affects only original aquarium; capacities never follow profile ownership",
+      "pass": true
+    },
+    {
+      "name": "Removing filter affects only original aquarium and no stored filter contributes capacity",
+      "pass": true
+    },
+    {
+      "name": "Tank switching leaves every item in exactly one authoritative location",
+      "pass": true
+    },
+    {
+      "name": "heater: individual thermostat persists, actual water changes only through thermal simulation",
+      "pass": true
+    },
+    {
+      "name": "chiller: individual thermostat persists, actual water changes only through thermal simulation",
+      "pass": true
+    },
+    {
+      "name": "Stored thermostats cannot control an aquarium; invalid values reject",
+      "pass": true
+    },
+    {
+      "name": "Live and offline thermal stepping use same installed equipment and formulas",
+      "pass": true
+    },
+    {
+      "name": "Direct transfer validates rating, requires warning and keeps exact equipment instance",
+      "pass": true
+    },
+    {
+      "name": "Rock removal returns same identity and attributes; placement removes storage once",
+      "pass": true
+    },
+    {
+      "name": "Decoration removal, failed placement, replacement and save/load preserve identity",
+      "pass": true
+    },
+    {
+      "name": "Attached coral and clutch dependencies block rock removal without deleting livestock",
+      "pass": true
+    },
+    {
+      "name": "Frag rack returns to storage and remounts exact identity without attached corals",
+      "pass": true
+    },
+    {
+      "name": "Storage display excludes installed gear, placed objects, consumed supplies and all living specimens",
+      "pass": true
+    },
+    {
+      "name": "Separate profile inventory cannot find or install another profile item",
+      "pass": true
+    },
+    {
+      "name": "Livestock, breeding records and histories survive inventory-only transactions and reload",
+      "pass": true
+    },
+    {
+      "name": "Sidebar exact requested order",
+      "pass": true
+    },
+    {
+      "name": "Removed Field Journal breeding and leaderboard tabs",
+      "pass": true
+    },
+    {
+      "name": "aquariums: existing sidebar route opens its management window",
+      "pass": true
+    },
+    {
+      "name": "leaderboards: existing sidebar route opens its management window",
+      "pass": true
+    },
+    {
+      "name": "vip: existing sidebar route opens its management window",
+      "pass": true
+    },
+    {
+      "name": "settings: existing sidebar route opens its management window",
+      "pass": true
+    },
+    {
+      "name": "Legacy breeding route redirects to collection; eggs still accessible",
+      "pass": true
+    },
+    {
+      "name": "Legacy leaderboard route opens the single relocated view",
+      "pass": true
+    },
+    {
+      "name": "No standalone temperature or readiness panel, thermostat form or stored list in Tank Care",
+      "pass": true
+    },
+    {
+      "name": "Individual heater retains accessible thermostat control",
+      "pass": true
+    },
+    {
+      "name": "Thermostat UI saves setting without instantly changing water",
+      "pass": true
+    },
+    {
+      "name": "History Reports retained and opening creates no report",
+      "pass": true
+    },
+    {
+      "name": "Inventory tab selected; only stored physical entries and existing supplies",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: inventory/cards fit viewport and modal",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: sidebar controls visible or scrollable",
+      "pass": true
+    },
+    {
+      "name": "1600x900: inventory/cards fit viewport and modal",
+      "pass": true
+    },
+    {
+      "name": "1600x900: sidebar controls visible or scrollable",
+      "pass": true
+    },
+    {
+      "name": "1366x768: inventory/cards fit viewport and modal",
+      "pass": true
+    },
+    {
+      "name": "1366x768: sidebar controls visible or scrollable",
+      "pass": true
+    },
+    {
+      "name": "764x900: inventory/cards fit viewport and modal",
+      "pass": true
+    },
+    {
+      "name": "764x900: sidebar controls visible or scrollable",
+      "pass": true
+    },
+    {
+      "name": "390x844: inventory/cards fit viewport and modal",
+      "pass": true
+    },
+    {
+      "name": "390x844: sidebar controls visible or scrollable",
+      "pass": true
+    },
+    {
+      "name": "Search filters storage and preserves input focus",
+      "pass": true
+    },
+    {
+      "name": "Category and search combine; clearing search preserves selected category",
+      "pass": true
+    },
+    {
+      "name": "Install dialog lists owned occupied aquarium with exact conflict reason",
+      "pass": true
+    },
+    {
+      "name": "Eligible destination appears beside disabled occupied destination",
+      "pass": true
+    },
+    {
+      "name": "Confirm install moves unit exclusively to chosen tank and retains current selection",
+      "pass": true
+    },
+    {
+      "name": "Removal UI warns of life-support consequences before changing ownership",
+      "pass": true
+    },
+    {
+      "name": "Confirmed removal returns original instance to Inventory",
+      "pass": true
+    },
+    {
+      "name": "Store purchase explicitly labels Inventory delivery",
+      "pass": true
+    },
+    {
+      "name": "Store confirmation purchases into storage instead of installing",
+      "pass": true
+    },
+    {
+      "name": "Reload loads exact locally stored equipment identities and condition",
+      "pass": true
+    },
+    {
+      "name": "No runtime exceptions",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "passed": 69,
+  "failed": 1,
+  "networkDisabled": true
+}

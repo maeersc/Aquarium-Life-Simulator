@@ -1,0 +1,205 @@
+{
+  "entry": "index.html",
+  "browser": "edge",
+  "trace": [
+    {
+      "step": "welcome",
+      "instruction": "Open Aquariums.",
+      "target": {
+        "id": "",
+        "tag": "BUTTON",
+        "text": "\u25a4Aquariums",
+        "html": "<button data-page=\"aquariums\" title=\"Aquariums\" aria-label=\"Aquariums\" class=\"tutorial-target\"><span class=\"nav-icon\" aria-hidden=\"true\">\u25a4</span><span class=\"nav-text\">Aquariums</span></button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 0
+    },
+    {
+      "step": "welcome",
+      "instruction": "Select My Aquariums to review your owned saltwater aquarium.",
+      "target": {
+        "id": "primary-tab-owned",
+        "tag": "BUTTON",
+        "text": "My Aquariums",
+        "html": "<button role=\"tab\" id=\"primary-tab-owned\" aria-controls=\"primary-content\" aria-selected=\"true\" tabindex=\"0\" data-primary-tab=\"owned\" class=\"active tutorial-target\">My Aquariums</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium"
+      ],
+      "shell": "aquariums",
+      "tab": "owned",
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 1
+    },
+    {
+      "step": "view",
+      "instruction": "Close this window to view the aquarium and its current readings.",
+      "target": {
+        "id": "primary-close",
+        "tag": "BUTTON",
+        "text": "\u00d7",
+        "html": "<button id=\"primary-close\" aria-label=\"Close window\" class=\"tutorial-target\">\u00d7</button>",
+        "disabled": false
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": "aquariums",
+      "tab": "owned",
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 2
+    },
+    {
+      "step": "view",
+      "instruction": "Click the aquarium, or focus it and press Enter. A dry tank is not ready for livestock.",
+      "target": {
+        "id": "aquarium",
+        "tag": "CANVAS",
+        "text": "",
+        "html": "<canvas id=\"aquarium\" width=\"960\" height=\"480\" tabindex=\"0\" aria-label=\"Live pixel-art aquarium. Select a fish or coral to inspect it. During coral placement, use arrows to position, Enter to place and Escape to cancel.\" class=\"tutorial-target\"></canvas>"
+      },
+      "completed": [
+        "aquarium",
+        "welcome"
+      ],
+      "shell": null,
+      "store": false,
+      "category": "fish",
+      "status": "active",
+      "index": 3
+    }
+  ],
+  "checks": [
+    {
+      "name": "Probe context",
+      "pass": false,
+      "error": "{\"exceptionId\": 1, \"text\": \"Uncaught\", \"lineNumber\": 0, \"columnNumber\": 302, \"scriptId\": \"126\", \"stackTrace\": {\"callFrames\": [{\"functionName\": \"\", \"scriptId\": \"126\", \"url\": \"\", \"lineNumber\": 0, \"columnNumber\": 308}, {\"functionName\": \"\", \"scriptId\": \"126\", \"url\": \"\", \"lineNumber\": 0, \"columnNumber\": 363}]}, \"exception\": {\"type\": \"object\", \"subtype\": \"error\", \"className\": \"Error\", \"description\": \"Error: Target is covered: <canvas id=\\\"aquarium\\\" width=\\\"960\\\" height=\\\"480\\\" tabindex=\\\"0\\\" aria-label=\\\"Live pixel-art aquarium. Select a fish or coral \\n    at <anonymous>:1:309\\n    at <anonymous>:1:364\", \"objectId\": \"7641878433597083449.2.2\"}}",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\camae\\Desktop\\Aquarium Game\\tests\\tutorial_audit_qa.py\", line 37, in run\n    else:click()\n         ^^^^^^^\n  File \"C:\\Users\\camae\\Desktop\\Aquarium Game\\tests\\tutorial_audit_qa.py\", line 19, in click\n    r=js(\"const n=\"+('document.querySelector('+json.dumps(selector)+')' if selector else 'AL.TutorialUI.target')+\";if(!n)throw Error('No click target');n.scrollIntoView({block:'nearest'});const r=n.getBoundingClientRect();for(const a of [.5,.15,.85])for(const b of [.5,.15,.85]){const x=r.left+r.width*a,y=r.top+r.height*b;if(n.contains(document.elementFromPoint(x,y)))return {x,y}}throw Error('Target is covered: '+n.outerHTML.slice(0,120))\")\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\camae\\Desktop\\Aquarium Game\\tests\\tutorial_audit_qa.py\", line 11, in js\n    def js(s):return c.evaluate('(()=>{'+s+'})()')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\camae\\Desktop\\Aquarium Game\\tests\\browser_qa.py\", line 88, in evaluate\n    raise RuntimeError(json.dumps(result['exceptionDetails']))\nRuntimeError: {\"exceptionId\": 1, \"text\": \"Uncaught\", \"lineNumber\": 0, \"columnNumber\": 302, \"scriptId\": \"126\", \"stackTrace\": {\"callFrames\": [{\"functionName\": \"\", \"scriptId\": \"126\", \"url\": \"\", \"lineNumber\": 0, \"columnNumber\": 308}, {\"functionName\": \"\", \"scriptId\": \"126\", \"url\": \"\", \"lineNumber\": 0, \"columnNumber\": 363}]}, \"exception\": {\"type\": \"object\", \"subtype\": \"error\", \"className\": \"Error\", \"description\": \"Error: Target is covered: <canvas id=\\\"aquarium\\\" width=\\\"960\\\" height=\\\"480\\\" tabindex=\\\"0\\\" aria-label=\\\"Live pixel-art aquarium. Select a fish or coral \\n    at <anonymous>:1:309\\n    at <anonymous>:1:364\", \"objectId\": \"7641878433597083449.2.2\"}}\n"
+    }
+  ],
+  "diagnostic": {
+    "dialogs": [],
+    "rect": {
+      "x": 195,
+      "y": 231,
+      "width": 1132,
+      "height": 566,
+      "top": 231,
+      "right": 1327,
+      "bottom": 797,
+      "left": 195
+    },
+    "tip": {
+      "x": 195,
+      "y": 67,
+      "width": 310,
+      "height": 149.515625,
+      "top": 67,
+      "right": 505,
+      "bottom": 216.515625,
+      "left": 195
+    },
+    "hit": [
+      [
+        "<div id=\"empty-tank\" class=\"empty-tank\"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class=\"primary\" id=\"onboard-action\">Prepare your aquar",
+        "<div id=\"empty-tank\" class=\"empty-tank\"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class=\"primary\" id=\"onboard-action\">Prepare your aquar",
+        "<div id=\"empty-tank\" class=\"empty-tank\"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class=\"primary\" id=\"onboard-action\">Prepare your aquar"
+      ],
+      [
+        "<div id=\"empty-tank\" class=\"empty-tank\"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class=\"primary\" id=\"onboard-action\">Prepare your aquar",
+        "<div id=\"empty-tank\" class=\"empty-tank\"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class=\"primary\" id=\"onboard-action\">Prepare your aquar",
+        "<div id=\"empty-tank\" class=\"empty-tank\"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class=\"primary\" id=\"onboard-action\">Prepare your aquar"
+      ],
+      [
+        "<div id=\"empty-tank\" class=\"empty-tank\"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class=\"primary\" id=\"onboard-action\">Prepare your aquar",
+        "<div id=\"empty-tank\" class=\"empty-tank\"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class=\"primary\" id=\"onboard-action\">Prepare your aquar",
+        "<div id=\"empty-tank\" class=\"empty-tank\"><strong>Every ecosystem starts somewhere.</strong><span>Prepare the water. Let life follow.</span><button class=\"primary\" id=\"onboard-action\">Prepare your aquar"
+      ]
+    ],
+    "log": [
+      {
+        "seq": 7,
+        "time": 480.01992,
+        "kind": "saved",
+        "stepId": "welcome",
+        "detail": "Main save successfully written to browser localStorage."
+      },
+      {
+        "seq": 8,
+        "time": 480.01992,
+        "kind": "target-resolved",
+        "stepId": "welcome",
+        "detail": "open-aquariums"
+      },
+      {
+        "seq": 9,
+        "time": 480.01992,
+        "kind": "target-resolved",
+        "stepId": "welcome",
+        "detail": "aquariums-owned"
+      },
+      {
+        "seq": 10,
+        "time": 480.01992,
+        "kind": "action-performed",
+        "stepId": "welcome",
+        "detail": "Interface interaction: welcome"
+      },
+      {
+        "seq": 11,
+        "time": 480.01992,
+        "kind": "validation-passed",
+        "stepId": "welcome",
+        "detail": "Player opened Aquariums."
+      },
+      {
+        "seq": 12,
+        "time": 480.01992,
+        "kind": "step-completed",
+        "stepId": "welcome",
+        "detail": "interaction"
+      },
+      {
+        "seq": 13,
+        "time": 480.01992,
+        "kind": "step-started",
+        "stepId": "view",
+        "detail": "Verified state or actual interface interaction"
+      },
+      {
+        "seq": 14,
+        "time": 480.29988000000003,
+        "kind": "saved",
+        "stepId": "view",
+        "detail": "Main save successfully written to browser localStorage."
+      },
+      {
+        "seq": 15,
+        "time": 480.29988000000003,
+        "kind": "target-resolved",
+        "stepId": "view",
+        "detail": "close-primary"
+      },
+      {
+        "seq": 16,
+        "time": 480.29988000000003,
+        "kind": "target-resolved",
+        "stepId": "view",
+        "detail": "scene-null"
+      }
+    ]
+  }
+}

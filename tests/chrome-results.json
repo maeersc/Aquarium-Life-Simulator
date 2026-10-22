@@ -1,0 +1,379 @@
+{
+  "passed": 19,
+  "failed": 49,
+  "results": [
+    {
+      "name": "Freshwater and marine routes initialize valid state",
+      "pass": true
+    },
+    {
+      "name": "At least 20 non-fictional species with complete data",
+      "pass": true
+    },
+    {
+      "name": "Uncycled aquariums block livestock",
+      "pass": true
+    },
+    {
+      "name": "Cycling takes simulated time and establishes both bacterial colonies",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:17:157\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:17:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Freshwater fish cannot enter marine water",
+      "pass": true
+    },
+    {
+      "name": "Minimum swimming volume enforced independently of bioload",
+      "pass": true
+    },
+    {
+      "name": "Social species require complete starting school",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:20:106\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:20:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Stock, money and identities update atomically",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:21:109\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:21:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Rejected transactions do not spend funds or mutate stock",
+      "pass": true
+    },
+    {
+      "name": "Store stock is finite",
+      "pass": true
+    },
+    {
+      "name": "Feeding reduces hunger and consumes inventory",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:24:67\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:24:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Wrong diet remains uneaten and decomposes into waste",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:25:74\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:25:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Fry require fine food",
+      "pass": true
+    },
+    {
+      "name": "Prepared water change mixes chemistry by replacement fraction",
+      "pass": true
+    },
+    {
+      "name": "Marine replacement preserves salinity and consumes salt",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:28:77\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:28:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Water toxicity damages health gradually",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:29:63\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:29:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Healthy feeding and weekly maintenance sustain fish for 30 days",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:30:85\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:30:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Starvation and low oxygen produce recorded causes",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:31:130\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:31:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Dead residents pollute until removed",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:32:58\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:32:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Aging observes individual maximum lifespan",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:33:66\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:33:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Predator compatibility is high risk and attacks have consequences",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:34:98\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:34:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Territorial aggression respects its cooldown",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:35:66\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:35:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Behavior moves individuals within aquarium bounds",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:36:73\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:36:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Fish rest or hide rather than sharing identical behavior",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:37:80\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:37:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Equipment failures change temperature and can be serviced",
+      "pass": true
+    },
+    {
+      "name": "Automatic feeder consumes actual inventory only once per day",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:39:82\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:39:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Livebearer pair creates gestation and inherited offspring",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:40:79\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:40:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Breeding blocks poor welfare and repeat cooldown",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:41:70\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:41:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Eggs develop only under suitable conditions",
+      "pass": true
+    },
+    {
+      "name": "Legacy mouthbrood strategy retains male carrier dependency",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:43:80\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:43:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Corals require reef habitats and react to poor conditions",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at reef (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:11:25)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:45:85\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:45:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Plants consume nitrate and need light",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:46:71\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:46:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Market price is bounded below original retail",
+      "pass": true
+    },
+    {
+      "name": "Repeated buy/sell loses funds and stops at daily limit",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:48:129\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:48:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Quest rewards claim exactly once from actual actions",
+      "pass": true
+    },
+    {
+      "name": "Second aquarium purchase includes independent uncycled environment",
+      "pass": true
+    },
+    {
+      "name": "Night market enforces level, schedule and containment",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:51:119\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:51:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "VIP entitlements and payments cannot enter a valid save",
+      "pass": true
+    },
+    {
+      "name": "JSON save round trip restores all entities and state",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:53:74\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:53:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Validator rejects corruption, nonfinite numbers and duplicate IDs",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:54:128\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:54:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Validator rejects missing fields and stale identity counter",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:55:173\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:55:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Schema migration supports previous schema without data loss",
+      "pass": true
+    },
+    {
+      "name": "Continuous offline catch-up replaces legacy relaxed and cap preferences",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:57:95\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:57:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Seeded core simulation is deterministic",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:58:63\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:58:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Long simulation remains bounded and serializable",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:59:72\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:59:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Feeding quest requires actual suitable food consumption",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:60:77\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:60:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Reserved brood capacity blocks excess purchases",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:61:69\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:61:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Invalid control values roll back transaction",
+      "pass": true
+    },
+    {
+      "name": "School transfer preserves welfare and identities",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:63:70\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:63:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Season changes preserve acquired decorations",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:64:78\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:64:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Daily buyer budgets reset and demand recovers",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:65:67\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:65:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Reef care sustains five coral categories for 30 days",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:66:74\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:66:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Breeder economy is finite across 60 days",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:67:62\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:67:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Hoarding is blocked at adult capacity without hidden charges",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at buy (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:13:39)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:68:178\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:68:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Fictional rare collector pays bounded setup and inspection risks",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:69:86\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:69:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Manual lighting works at night and Off overrides daytime schedule",
+      "pass": false,
+      "error": "Invalid daily shop checkpoint",
+      "stack": "Error: Invalid daily shop checkpoint\n    at Object.validate (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/daily-store.js:16:175)\n    at Object.validate (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/offline.js:6:647)\n    at Object.validate (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/save.js:48:357)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:168:224)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:70:142\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:70:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Manual lamp output honors intensity, reef strength and hardware failure",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:71:93\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:71:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Lighting controls validate and retain compatibility with older saves",
+      "pass": true
+    },
+    {
+      "name": "Turning lights off stops their wear and light-dependent plant growth",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:73:102\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:73:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Equipment light switches and per-tank manual modes remain consistent",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:74:262\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:74:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Coral purchases persist a supported sandbed attachment atomically",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at reef (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:11:25)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:75:87\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:75:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Coral repositioning preserves health, identity and funds on a suitable surface",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at reef (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:11:25)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:76:106\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:76:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Open water, invalid coordinates and out-of-tank placement roll back",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at reef (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:11:25)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:77:91\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:77:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Older coral coordinates migrate without losing ownership",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at reef (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:11:25)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:78:84\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:78:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Coral inspection shares light and flow rules with simulation",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at reef (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:11:25)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:79:88\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:79:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Coral spacing rejects overlapping bases and preserves LPS stinging distance",
+      "pass": false,
+      "error": "Cannot read properties of undefined (reading 'step')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'step')\n    at water (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:22:38)\n    at step (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:139:150)\n    at Object.advance (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/simulation.js:145:110)\n    at ready (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:9:111)\n    at rich (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:10:40)\n    at reef (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:11:25)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:80:103\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:80:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Freshwater plants remain rooted on the tank bed",
+      "pass": false,
+      "error": "Freshwater \u2014 Coming in a Future Update.",
+      "stack": "Error: Freshwater \u2014 Coming in a Future Update.\n    at Object.enforce (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/store-rules.js:41:117)\n    at Object.act (file:///C:/Users/camae/Desktop/Aquarium%20Game/js/core.js:164:161)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:81:81\n    at test (file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:7:30)\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:81:3\n    at file:///C:/Users/camae/Desktop/Aquarium%20Game/tests/suite.js:85:3"
+    },
+    {
+      "name": "Browser-local persistence is available for file URL",
+      "pass": true
+    }
+  ],
+  "balances": [],
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "protocol": "file:"
+}

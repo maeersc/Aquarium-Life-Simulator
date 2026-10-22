@@ -1,0 +1,1498 @@
+{
+  "passed": 373,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Exactly 25 fish / 5 corals / 5 bottom dwellers approved in v2.9",
+      "pass": true
+    },
+    {
+      "name": "Previous 38-entry registry remains separate and intact",
+      "pass": true
+    },
+    {
+      "name": "Runtime totals are 105 fish / 94 marine / 11 freshwater / 15 marine corals / 10 invertebrates",
+      "pass": true
+    },
+    {
+      "name": "All identified registered species have distinct scientific identities",
+      "pass": true
+    },
+    {
+      "name": "fish includes approved Ultra Rare and Legendary additions",
+      "pass": true
+    },
+    {
+      "name": "coral includes approved Ultra Rare and Legendary additions",
+      "pass": true
+    },
+    {
+      "name": "bottom_dweller includes approved Ultra Rare and Legendary additions",
+      "pass": true
+    },
+    {
+      "name": "centropyge-loriculus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "centropyge-loriculus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-loriculus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-loriculus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-loriculus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-loriculus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-loriculus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-loriculus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-loriculus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-bispinosa registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "centropyge-bispinosa egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-bispinosa egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-bispinosa baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-bispinosa baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-bispinosa juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-bispinosa juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-bispinosa adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-bispinosa adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-argi registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "centropyge-argi egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-argi egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-argi baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-argi baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-argi juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-argi juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-argi adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-argi adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-acanthops registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "centropyge-acanthops egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-acanthops egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-acanthops baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-acanthops baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-acanthops juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-acanthops juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-acanthops adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-acanthops adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-potteri registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "centropyge-potteri egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-potteri egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-potteri baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-potteri baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-potteri juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-potteri juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-potteri adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-potteri adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-joculator registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "centropyge-joculator egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-joculator egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-joculator baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-joculator baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-joculator juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-joculator juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-joculator adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "centropyge-joculator adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "pygoplites-diacanthus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "pygoplites-diacanthus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "pygoplites-diacanthus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "pygoplites-diacanthus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "pygoplites-diacanthus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "pygoplites-diacanthus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "pygoplites-diacanthus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "pygoplites-diacanthus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "pygoplites-diacanthus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "pseudochromis-fridmani registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "pseudochromis-fridmani egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "pseudochromis-fridmani egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "pseudochromis-fridmani baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "pseudochromis-fridmani baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "pseudochromis-fridmani juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "pseudochromis-fridmani juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "pseudochromis-fridmani adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "pseudochromis-fridmani adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "forcipiger-flavissimus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "forcipiger-flavissimus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "forcipiger-flavissimus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "forcipiger-flavissimus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "forcipiger-flavissimus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "forcipiger-flavissimus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "forcipiger-flavissimus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "forcipiger-flavissimus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "forcipiger-flavissimus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "hemitaurichthys-polylepis registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "hemitaurichthys-polylepis egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "hemitaurichthys-polylepis egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "hemitaurichthys-polylepis baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "hemitaurichthys-polylepis baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "hemitaurichthys-polylepis juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "hemitaurichthys-polylepis juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "hemitaurichthys-polylepis adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "hemitaurichthys-polylepis adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-strigosus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-strigosus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-strigosus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-strigosus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-strigosus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-strigosus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-strigosus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-strigosus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-strigosus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-tominiensis registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-tominiensis egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-tominiensis egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-tominiensis baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-tominiensis baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-tominiensis juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-tominiensis juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-tominiensis adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ctenochaetus-tominiensis adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-xanthurum registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-xanthurum egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-xanthurum egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-xanthurum baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-xanthurum baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-xanthurum juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-xanthurum juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-xanthurum adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-xanthurum adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-gemmatum registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-gemmatum egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-gemmatum egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-gemmatum baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-gemmatum baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-gemmatum juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-gemmatum juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-gemmatum adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "zebrasoma-gemmatum adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "acanthurus-achilles registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "acanthurus-achilles egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "acanthurus-achilles egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "acanthurus-achilles baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "acanthurus-achilles baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "acanthurus-achilles juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "acanthurus-achilles juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "acanthurus-achilles adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "acanthurus-achilles adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-vulpinus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "siganus-vulpinus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-vulpinus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-vulpinus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-vulpinus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-vulpinus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-vulpinus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-vulpinus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-vulpinus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-unimaculatus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "siganus-unimaculatus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-unimaculatus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-unimaculatus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-unimaculatus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-unimaculatus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-unimaculatus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-unimaculatus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "siganus-unimaculatus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-midas registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-midas egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-midas egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-midas baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-midas baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-midas juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-midas juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-midas adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-midas adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "salarias-fasciatus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "salarias-fasciatus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "salarias-fasciatus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "salarias-fasciatus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "salarias-fasciatus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "salarias-fasciatus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "salarias-fasciatus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "salarias-fasciatus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "salarias-fasciatus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-bicolor registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-bicolor egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-bicolor egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-bicolor baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-bicolor baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-bicolor juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-bicolor juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-bicolor adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "ecsenius-bicolor adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "paracheilinus-angulatus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "paracheilinus-angulatus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "paracheilinus-angulatus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "paracheilinus-angulatus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "paracheilinus-angulatus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "paracheilinus-angulatus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "paracheilinus-angulatus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "paracheilinus-angulatus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "paracheilinus-angulatus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-melanurus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-melanurus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-melanurus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-melanurus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-melanurus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-melanurus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-melanurus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-melanurus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-melanurus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-chrysus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-chrysus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-chrysus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-chrysus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-chrysus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-chrysus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-chrysus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-chrysus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "halichoeres-chrysus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "macropharyngodon-meleagris registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "macropharyngodon-meleagris egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "macropharyngodon-meleagris egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "macropharyngodon-meleagris baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "macropharyngodon-meleagris baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "macropharyngodon-meleagris juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "macropharyngodon-meleagris juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "macropharyngodon-meleagris adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "macropharyngodon-meleagris adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "nemanthias-bartlettorum registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "nemanthias-bartlettorum egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "nemanthias-bartlettorum egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "nemanthias-bartlettorum baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "nemanthias-bartlettorum baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "nemanthias-bartlettorum juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "nemanthias-bartlettorum juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "nemanthias-bartlettorum adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "nemanthias-bartlettorum adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "duncanopsammia-axifuga adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "caulastraea-furcata adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "turbinaria-reniformis adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "tubastraea-micranthus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "rhizotrochus-typus adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-amboinensis adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "lysmata-debelius adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "alpheus-randalli adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "hymenocera-picta adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "periclimenes-colemani registered with correct rarity/care and original art",
+      "pass": true
+    },
+    {
+      "name": "periclimenes-colemani egg alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "periclimenes-colemani egg dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "periclimenes-colemani baby alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "periclimenes-colemani baby dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "periclimenes-colemani juvenile alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "periclimenes-colemani juvenile dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "periclimenes-colemani adult alive frame loads",
+      "pass": true
+    },
+    {
+      "name": "periclimenes-colemani adult dead frame loads",
+      "pass": true
+    },
+    {
+      "name": "New game defaults to saltwater with active tutorial",
+      "pass": true
+    },
+    {
+      "name": "Tutorial skip/back/resume state survives validated save round-trip",
+      "pass": true
+    },
+    {
+      "name": "15,000 gal is exact internal liters and ceil label remains exactly 15,000 gal",
+      "pass": true
+    },
+    {
+      "name": "Large marine shell charges exactly 5,000 AC and begins empty/dry",
+      "pass": true
+    },
+    {
+      "name": "Freshwater creation rejected atomically at transaction layer",
+      "pass": true
+    },
+    {
+      "name": "Freshwater buying blocked while legacy freshwater data remains valid",
+      "pass": true
+    },
+    {
+      "name": "Water-change baseline: smallest actual aquarium is 20 L; 10% costs 1 AC and one salt dose",
+      "pass": true
+    },
+    {
+      "name": "Large 10% change quotes exact changed liters, 739 AC and 2,840 salt doses",
+      "pass": true
+    },
+    {
+      "name": "Water action consumes quoted stock and charge with no premature rounding",
+      "pass": true
+    },
+    {
+      "name": "Insufficient large-tank salt fails without spending or water changes",
+      "pass": true
+    },
+    {
+      "name": "Healthy and survival bonuses are separate genuine fixed-step rewards",
+      "pass": true
+    },
+    {
+      "name": "Empty-only days cannot earn survival credits",
+      "pass": true
+    },
+    {
+      "name": "Multiple tanks do not multiply survival award",
+      "pass": true
+    },
+    {
+      "name": "Confirmed death cancels day and records authoritative time and full recovery",
+      "pass": true
+    },
+    {
+      "name": "Recovery persists through reload and another death restarts its interval",
+      "pass": true
+    },
+    {
+      "name": "Living coral bleaching never registers a confirmed death",
+      "pass": true
+    },
+    {
+      "name": "Coral and bottom-dweller deaths both cancel survival",
+      "pass": true
+    },
+    {
+      "name": "Offline catch-up evaluates genuine death-free qualification",
+      "pass": true
+    },
+    {
+      "name": "Backward device clock does not rewind checkpoint or recover from a death",
+      "pass": true
+    },
+    {
+      "name": "Save/reload at a settled day cannot pay it twice",
+      "pass": true
+    },
+    {
+      "name": "Legacy migration starts no retroactive survival rewards and retains old destinations/market",
+      "pass": true
+    },
+    {
+      "name": "Exact advertised new mystery odds add to 100%",
+      "pass": true
+    },
+    {
+      "name": "Coral pool covers all six tiers without replacing missing tiers",
+      "pass": true
+    },
+    {
+      "name": "Bottom product is visibly held for the unsupported Legendary host specialist",
+      "pass": true
+    },
+    {
+      "name": "Held bottom mystery rejects atomically without consuming any RNG or credits",
+      "pass": true
+    },
+    {
+      "name": "Held Coleman cannot bypass safety through a direct or deep purchase",
+      "pass": true
+    },
+    {
+      "name": "Mystery coral requires a genuinely safe destination for every tier",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 0 is Common",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 4999 is Common",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 5000 is Uncommon",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 7499 is Uncommon",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 7500 is Rare",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 8999 is Rare",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 9000 is Very Rare",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 9749 is Very Rare",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 9750 is Ultra Rare",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 9949 is Ultra Rare",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 9950 is Legendary",
+      "pass": true
+    },
+    {
+      "name": "Actual mystery coral purchase rarity at roll 9999 is Legendary",
+      "pass": true
+    },
+    {
+      "name": "Mystery coral outcome/identity/stage/health/mount persist after reload without reroll",
+      "pass": true
+    },
+    {
+      "name": "Duplicate mystery purchase token cannot create another individual or charge",
+      "pass": true
+    },
+    {
+      "name": "New mystery streams do not consume or alter fish Mystery Egg RNG",
+      "pass": true
+    },
+    {
+      "name": "Removing an eligible coral tier holds purchases without reweighting",
+      "pass": true
+    },
+    {
+      "name": "Eight daily Fish slots and exact 3/3/1/Mystery layout remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "Upper-tier ordinary purchase is rejected; deep listing uses saved price/risk and adds reputation",
+      "pass": true
+    },
+    {
+      "name": "New upper-tier coral dealer products keep saved hidden condition and price",
+      "pass": true
+    },
+    {
+      "name": "Leaderboard ranks aquarium assets independently of wallet and stored inventory",
+      "pass": true
+    },
+    {
+      "name": "Malformed tutorial, survival checkpoints and mystery streams are rejected",
+      "pass": true
+    },
+    {
+      "name": "A full recovery day allows a later complete stocked day to earn again",
+      "pass": true
+    },
+    {
+      "name": "Conditional complete-pool nursery fixture saves early outcome, settles once as same-ID juvenile, never adult",
+      "pass": true
+    },
+    {
+      "name": "Forged persisted mystery rarity and roll are rejected without reroll",
+      "pass": true
+    }
+  ]
+}

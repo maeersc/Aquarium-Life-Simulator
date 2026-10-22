@@ -1,0 +1,406 @@
+{
+  "browser": "edge",
+  "passed": 98,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "First launch has Start New Game and no Continue",
+      "pass": true
+    },
+    {
+      "name": "New-game welcome does not create a saved game",
+      "pass": true
+    },
+    {
+      "name": "Start New Game routes to empty dry aquarium",
+      "pass": true
+    },
+    {
+      "name": "US gallon conversion uses exact 3.785411784 factor",
+      "pass": true
+    },
+    {
+      "name": "75/150/300 liter tanks display 19.8/39.6/79.3 gal",
+      "pass": true
+    },
+    {
+      "name": "Presentation conversion leaves physical capacity unchanged",
+      "pass": true
+    },
+    {
+      "name": "Display text conversion preserves chemical concentration units",
+      "pass": true
+    },
+    {
+      "name": "Shared clock has exact 20-minute game day",
+      "pass": true
+    },
+    {
+      "name": "Clock formatter handles midnight, noon and afternoon",
+      "pass": true
+    },
+    {
+      "name": "Clock preference does not change simulation progression",
+      "pass": true
+    },
+    {
+      "name": "Legacy save migrates additively without changing money, IDs or liters",
+      "pass": true
+    },
+    {
+      "name": "Invalid preferences and invalid depth fail validation",
+      "pass": true
+    },
+    {
+      "name": "Reward migration never retroactively pays unobserved days",
+      "pass": true
+    },
+    {
+      "name": "Healthy stocked aquarium earns exactly 50 AC once per complete day",
+      "pass": true
+    },
+    {
+      "name": "Multiple healthy aquariums do not multiply daily reward",
+      "pass": true
+    },
+    {
+      "name": "Only empty aquariums never earn care rewards",
+      "pass": true
+    },
+    {
+      "name": "Empty unprepared tanks do not punish a healthy stocked aquarium",
+      "pass": true
+    },
+    {
+      "name": "Any unhealthy stocked aquarium blocks reward",
+      "pass": true
+    },
+    {
+      "name": "Brief harmless variation is tolerated, sustained exposure is not",
+      "pass": true
+    },
+    {
+      "name": "Severe crisis blocks reward even if repaired at the last moment",
+      "pass": true
+    },
+    {
+      "name": "Disabled filtration, unsafe temperature, pH and salinity prevent reward",
+      "pass": true
+    },
+    {
+      "name": "Save/load mid-day retains observed qualification and pays once",
+      "pass": true
+    },
+    {
+      "name": "Rewinding clock cannot repeat a settled care reward",
+      "pass": true
+    },
+    {
+      "name": "Offline catch-up never pays or qualifies the partial return day",
+      "pass": true
+    },
+    {
+      "name": "Central Sim.step settles reward at real calendar boundary",
+      "pass": true
+    },
+    {
+      "name": "Existing quest XP is awarded once and cannot be replayed",
+      "pass": true
+    },
+    {
+      "name": "Depth preview never creates floating rocks",
+      "pass": true
+    },
+    {
+      "name": "Rock and decoration depth reject invalid transaction values atomically",
+      "pass": true
+    },
+    {
+      "name": "Clownfish eggs attach to a real rock and retain parent and aquarium IDs",
+      "pass": true
+    },
+    {
+      "name": "Egg sizes and existing species art reflect development",
+      "pass": true
+    },
+    {
+      "name": "Moving a support keeps eggs attached; removing it is blocked",
+      "pass": true
+    },
+    {
+      "name": "Brood attachment and progress survive save/load without changing identity",
+      "pass": true
+    },
+    {
+      "name": "Hatching creates unique larvae with lineage and never duplicates on reload",
+      "pass": true
+    },
+    {
+      "name": "Internal gestation and mouthbrooding never receive external rock anchors",
+      "pass": true
+    },
+    {
+      "name": "Store destination remains unchanged across successful purchases",
+      "pass": true
+    },
+    {
+      "name": "Freshwater species catalog remains eleven entries",
+      "pass": true
+    },
+    {
+      "name": "Incomplete known gameplay extensions are protected instead of reset",
+      "pass": true
+    },
+    {
+      "name": "Fractional midnight step preserves calendar remainder",
+      "pass": true
+    },
+    {
+      "name": "Clock format applies to automatic feeder description without changing data",
+      "pass": true
+    },
+    {
+      "name": "Species-specific marine pelagic eggs drift within water without rock attachment",
+      "pass": true
+    },
+    {
+      "name": "Shared brood value agrees with displayed tank total component",
+      "pass": true
+    },
+    {
+      "name": "Removing the last resident before midnight cannot qualify an empty collection",
+      "pass": true
+    },
+    {
+      "name": "Existing save gets Welcome Back and Continue",
+      "pass": true
+    },
+    {
+      "name": "Start Over asks for confirmation and offers export",
+      "pass": true
+    },
+    {
+      "name": "Opening reset confirmation leaves save unchanged",
+      "pass": true
+    },
+    {
+      "name": "Continue preserves aquarium, currency, time and IDs",
+      "pass": true
+    },
+    {
+      "name": "Encyclopedia defaults to exclusively marine fish",
+      "pass": true
+    },
+    {
+      "name": "Saltwater coral category contains exactly five existing groups",
+      "pass": true
+    },
+    {
+      "name": "Freshwater plants show only six existing plants",
+      "pass": true
+    },
+    {
+      "name": "Freshwater fish exclude all marine species",
+      "pass": true
+    },
+    {
+      "name": "Bottom feeder categories retain existing species",
+      "pass": true
+    },
+    {
+      "name": "Unimplemented livestock category is honestly empty",
+      "pass": true
+    },
+    {
+      "name": "Clickable keeper level opens existing Field Journal progress tab",
+      "pass": true
+    },
+    {
+      "name": "Keeper suggestions and rewards use real quests only",
+      "pass": true
+    },
+    {
+      "name": "12-hour format updates main clock",
+      "pass": true
+    },
+    {
+      "name": "Equipment schedules use selected clock format",
+      "pass": true
+    },
+    {
+      "name": "Fullscreen limits are explicit and controls exist",
+      "pass": true
+    },
+    {
+      "name": "Real browser fullscreen request succeeds or explains denial",
+      "pass": true,
+      "observed": {
+        "supported": true,
+        "active": true,
+        "status": "Current display: browser fullscreen."
+      }
+    },
+    {
+      "name": "Windowed exits Fullscreen API",
+      "pass": true
+    },
+    {
+      "name": "Borderless preference records browser equivalent",
+      "pass": true
+    },
+    {
+      "name": "Display and clock preferences persist without auto fullscreen",
+      "pass": true
+    },
+    {
+      "name": "24-hour format updates main clock",
+      "pass": true
+    },
+    {
+      "name": "Denied fullscreen request reports failure without claiming fullscreen",
+      "pass": true
+    },
+    {
+      "name": "Compact store header includes destination, balance and X",
+      "pass": true
+    },
+    {
+      "name": "Product grid occupies more than half of desktop modal",
+      "pass": true
+    },
+    {
+      "name": "Rock store purchase starts uncharged placement",
+      "pass": true
+    },
+    {
+      "name": "Wheel over placement moves toward back and suppresses scroll",
+      "pass": true
+    },
+    {
+      "name": "Keyboard depth alternative moves toward front",
+      "pass": true
+    },
+    {
+      "name": "Rock placement saves z and stable bed support",
+      "pass": true
+    },
+    {
+      "name": "Decoration depth is saved with selected aquarium",
+      "pass": true
+    },
+    {
+      "name": "Coral cannot attach to a rock at different depth",
+      "pass": true
+    },
+    {
+      "name": "Wheel chooses matching supported coral depth",
+      "pass": true
+    },
+    {
+      "name": "Coral depth and attachment commit together",
+      "pass": true
+    },
+    {
+      "name": "Front coral paints after its supporting rock",
+      "pass": true
+    },
+    {
+      "name": "Ordinary modal wheel is not intercepted",
+      "pass": true
+    },
+    {
+      "name": "Store fits 1920x1080 with visible close control",
+      "pass": true
+    },
+    {
+      "name": "Products scroll internally at 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "Store fits 1440x900 with visible close control",
+      "pass": true
+    },
+    {
+      "name": "Products scroll internally at 1440x900",
+      "pass": true
+    },
+    {
+      "name": "Store fits 1366x768 with visible close control",
+      "pass": true
+    },
+    {
+      "name": "Products scroll internally at 1366x768",
+      "pass": true
+    },
+    {
+      "name": "Store fits 1280x720 with visible close control",
+      "pass": true
+    },
+    {
+      "name": "Products scroll internally at 1280x720",
+      "pass": true
+    },
+    {
+      "name": "Store fits 1024x600 with visible close control",
+      "pass": true
+    },
+    {
+      "name": "Products scroll internally at 1024x600",
+      "pass": true
+    },
+    {
+      "name": "Store fits 760x650 with visible close control",
+      "pass": true
+    },
+    {
+      "name": "Products scroll internally at 760x650",
+      "pass": true
+    },
+    {
+      "name": "Store fits 390x844 with visible close control",
+      "pass": true
+    },
+    {
+      "name": "Products scroll internally at 390x844",
+      "pass": true
+    },
+    {
+      "name": "Reload preserves depths and supports",
+      "pass": true
+    },
+    {
+      "name": "Settings reset also requires confirmation",
+      "pass": true
+    },
+    {
+      "name": "Corrupt save remains protected and offers recovery",
+      "pass": true
+    },
+    {
+      "name": "Cancelling corrupt reset never unlocks or erases data",
+      "pass": true
+    },
+    {
+      "name": "Confirmed reset creates one new empty aquarium",
+      "pass": true
+    },
+    {
+      "name": "Six sidebar windows retain exact order",
+      "pass": true
+    },
+    {
+      "name": "All 145 protected freshwater data/art files remain byte-identical",
+      "pass": true,
+      "changes": []
+    },
+    {
+      "name": "No browser JavaScript exceptions",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "Gameplay performs no HTTP/HTTPS requests",
+      "pass": true
+    }
+  ]
+}

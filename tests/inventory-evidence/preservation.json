@@ -1,0 +1,103 @@
+{
+  "priorReleaseProtectedFiles": [
+    {
+      "file": "js/data.js",
+      "unchanged": true,
+      "sha256": "7c937d4039b2c5067d254c536e5f8670ee8d722e0fcdafd1f8a50b34607723bd"
+    },
+    {
+      "file": "js/simulation.js",
+      "unchanged": true,
+      "sha256": "d4c87dc2acd20e246d9fd8ae6bafaf1bab7f40355acc3044eea0b53b269f7a8e"
+    },
+    {
+      "file": "js/breeding.js",
+      "unchanged": true,
+      "sha256": "2f2438cdcee9de591b94120875aebba17e113790c3c7d4a3a72f4f21b5b9df72"
+    },
+    {
+      "file": "js/breeding-ui.js",
+      "unchanged": true,
+      "sha256": "6829e8e17818d4e21f95226b1eb843395527da2276a1226b758cc02c70bfe509"
+    },
+    {
+      "file": "js/patterns.js",
+      "unchanged": true,
+      "sha256": "f435e11296ca2af9553e6b8307a5ba4f765b4bc8badea01708612f4478a4b57b"
+    },
+    {
+      "file": "js/rarity.js",
+      "unchanged": true,
+      "sha256": "a91b759d307d12ebaf620fced7c457749398e919f7fecd0022fd79fb81d70518"
+    },
+    {
+      "file": "js/livestock-health.js",
+      "unchanged": true,
+      "sha256": "6ca57ccaf1e256662e15a8718ee6000d97753d517eb342d640e7bc5ea2765aca"
+    },
+    {
+      "file": "js/marine-care.js",
+      "unchanged": true,
+      "sha256": "59b6d9c44ade533f324a28d22c4986b5bf2e8d204a16ce62e8dd66ac6a6e0cb1"
+    },
+    {
+      "file": "js/mortality.js",
+      "unchanged": true,
+      "sha256": "3237f6a860786c345747481e6365ee872c0b29fedc3438ed7b44add01769d6a5"
+    },
+    {
+      "file": "js/mortality-journal.js",
+      "unchanged": true,
+      "sha256": "104c08fd0e02a7fc1a4099e40d6c3180426edeb6b5a3312bb565c2d1eaaafc36"
+    },
+    {
+      "file": "js/offline.js",
+      "unchanged": true,
+      "sha256": "577409bc862baa774800e2ddfa9591c1323b78ce1ed904342de444d1ebf297f0"
+    },
+    {
+      "file": "js/invertebrates.js",
+      "unchanged": true,
+      "sha256": "8e9919ef1da4eb61472b1825090edd4057c5c075fc5d0c8d65d22bc65be0d400"
+    },
+    {
+      "file": "js/diving-receiving.js",
+      "unchanged": true,
+      "sha256": "ec14621f702c9b4b930fb541382f4d1b16bbb5f796e8f9dd25b1023c8b692a26"
+    },
+    {
+      "file": "js/diving-expansion.js",
+      "unchanged": true,
+      "sha256": "717e9650c37bdbc9c52f869165e4a86c9efc05cb2b3d2fb3160d90c5e995931f"
+    },
+    {
+      "file": "js/valuation.js",
+      "unchanged": true,
+      "sha256": "dae4b692c3f0cccc6e8db7045503b0a22bd93fec978db0fb106ac58b401b6f39"
+    },
+    {
+      "file": "js/finance.js",
+      "unchanged": true,
+      "sha256": "80ba4d95aec0adf9f70b834dc7e4dd7d839de69c306f9e4dadf04b3d22ed402d"
+    },
+    {
+      "file": "js/casino.js",
+      "unchanged": true,
+      "sha256": "d8400e0dcf8c7e047879b097fa2c25a8df3322ce3b4bbc7a6a3b4e786163ccb1"
+    },
+    {
+      "file": "assets/animation/livestock-registry.json",
+      "unchanged": true,
+      "sha256": "28f94748c1c5c482b6d7e4f06199d0cff4223d0014d87b218580fdcd11553d78"
+    },
+    {
+      "file": "assets/animation/fish-registry.json",
+      "unchanged": true,
+      "sha256": "a9f6b9954d7e632310e014e0a0009ff6a7c28609d4813660f2ea6837c0b8371c"
+    }
+  ],
+  "passed": 19,
+  "failed": 0,
+  "masterMajorSections": 31,
+  "exactEmbeddedMasterCopies": 1
+}

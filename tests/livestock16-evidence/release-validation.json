@@ -1,0 +1,35 @@
+{
+  "passed": 3174,
+  "failed": 0,
+  "expansionComplete": false,
+  "marineEntriesAudited": 119,
+  "batches": 12,
+  "newProductionSheets": 0,
+  "unfinishedEntries": 119,
+  "preservedOriginals": 1314,
+  "browserAssertions": 22114,
+  "suites": [
+    {
+      "file": "tests\\livestock16-evidence\\chrome-results.json",
+      "passed": 6279,
+      "failed": 0
+    },
+    {
+      "file": "tests\\livestock16-evidence\\edge-results.json",
+      "passed": 6279,
+      "failed": 0
+    },
+    {
+      "file": "tests\\pages-evidence\\chrome-results.json",
+      "passed": 4778,
+      "failed": 0
+    },
+    {
+      "file": "tests\\pages-evidence\\edge-results.json",
+      "passed": 4778,
+      "failed": 0
+    }
+  ],
+  "builtAt": "2026-10-17T00:54:34.704975+00:00",
+  "failures": []
+}

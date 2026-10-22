@@ -1,0 +1,26 @@
+{
+  "width": 1366,
+  "height": 900,
+  "client": 1366,
+  "canvas": {
+    "x": 195,
+    "y": 289.5,
+    "width": 898,
+    "height": 449,
+    "top": 289.5,
+    "right": 1093,
+    "bottom": 738.5,
+    "left": 195
+  },
+  "cardMax": "100%",
+  "workspace": {
+    "x": 176,
+    "y": 60,
+    "width": 1190,
+    "height": 840,
+    "top": 60,
+    "right": 1366,
+    "bottom": 900,
+    "left": 176
+  }
+}

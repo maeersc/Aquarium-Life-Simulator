@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bumblebee-snail",
+    "stage": "baby",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/walk final16-cell/source review: Inspected baby snail original muscular foot edge only. The complete black/gold shell, bands, head and both eye-tipped stalks remain canonical protected pixels; tiny actual authored crawling foot poses supply the walk state. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "bumblebee-snail",
+    "stage": "adult",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/walk final16-cell/source review: Inspected adult snail original muscular foot edge only. The complete black/gold shell, bands, head and both eye-tipped stalks remain canonical protected pixels; tiny actual authored crawling foot poses supply the walk state. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "baby",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/idle final16-cell/source review: Inspected baby conch orange muscular foot tissue only. Brown-patterned rigid shell, paired eye stalks, head and original proboscis are canonical protected pixels; original small idle foot-edge poses are sampled without shell bounce. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "baby",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/idle final16-cell/source review: Inspected baby hermit original attached posterior walking legs only. Complete rigid borrowed shell/spot pattern, paired eyes, long antennae and major claw plates remain canonical protected pixels. The distal-feeler area was excluded after native review to prevent disconnected fine tips. Original idle leg drawings supply motion. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "baby",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/idle final16-cell/source review: Inspected baby cleaner shrimp original attached lower appendage tissue; the trunk, red/white dorsal pattern, tail, head eyes and long antennae remain canonical protected pixels. Only its original developing larval swimming appendages are used; no adult walking legs are invented. The idle state samples only actual authored drawings. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "baby",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/walk final16-cell/source review: Inspected baby conch orange muscular foot tissue only. Brown-patterned rigid shell, paired eye stalks, head and original proboscis are canonical protected pixels; original small walk foot-edge poses are sampled without shell bounce. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "baby",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/walk final16-cell/source review: Inspected baby hermit original attached posterior walking legs only. Complete rigid borrowed shell/spot pattern, paired eyes, long antennae and major claw plates remain canonical protected pixels. The distal-feeler area was excluded after native review to prevent disconnected fine tips. Original walk leg drawings supply motion. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "baby",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "baby/walk final16-cell/source review: Inspected baby cleaner shrimp original attached lower appendage tissue; the trunk, red/white dorsal pattern, tail, head eyes and long antennae remain canonical protected pixels. Only its original developing larval swimming appendages are used; no adult walking legs are invented. The walk state samples only actual authored drawings. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "juvenile",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/idle final16-cell/source review: Inspected juvenile conch orange muscular foot tissue only. Brown-patterned rigid shell, paired eye stalks, head and original proboscis are canonical protected pixels; original small idle foot-edge poses are sampled without shell bounce. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "juvenile",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/idle final16-cell/source review: Inspected juvenile hermit original attached posterior walking legs only. Complete rigid borrowed shell/spot pattern, paired eyes, long antennae and major claw plates remain canonical protected pixels. The distal-feeler area was excluded after native review to prevent disconnected fine tips. Original idle leg drawings supply motion. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "juvenile",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/idle final16-cell/source review: Inspected juvenile cleaner shrimp original attached lower appendage tissue; the trunk, red/white dorsal pattern, tail, head eyes and long antennae remain canonical protected pixels. Original small alternating posterior leg poses provide restrained locomotion/resting movement. The idle state samples only actual authored drawings. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "juvenile",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/walk final16-cell/source review: Inspected juvenile conch orange muscular foot tissue only. Brown-patterned rigid shell, paired eye stalks, head and original proboscis are canonical protected pixels; original small walk foot-edge poses are sampled without shell bounce. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "juvenile",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/walk final16-cell/source review: Inspected juvenile hermit original attached posterior walking legs only. Complete rigid borrowed shell/spot pattern, paired eyes, long antennae and major claw plates remain canonical protected pixels. The distal-feeler area was excluded after native review to prevent disconnected fine tips. Original walk leg drawings supply motion. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "juvenile",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "juvenile/walk final16-cell/source review: Inspected juvenile cleaner shrimp original attached lower appendage tissue; the trunk, red/white dorsal pattern, tail, head eyes and long antennae remain canonical protected pixels. Original small alternating posterior leg poses provide restrained locomotion/resting movement. The walk state samples only actual authored drawings. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "adult",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/idle final16-cell/source review: Inspected adult conch orange muscular foot tissue only. Brown-patterned rigid shell, paired eye stalks, head and original proboscis are canonical protected pixels; original small idle foot-edge poses are sampled without shell bounce. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "adult",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/idle final16-cell/source review: Inspected adult hermit original attached posterior walking legs only. Complete rigid borrowed shell/spot pattern, paired eyes, long antennae and major claw plates remain canonical protected pixels. The distal-feeler area was excluded after native review to prevent disconnected fine tips. Original idle leg drawings supply motion. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "adult",
+    "state": "idle",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/idle final16-cell/source review: Inspected adult cleaner shrimp original attached lower appendage tissue; the trunk, red/white dorsal pattern, tail, head eyes and long antennae remain canonical protected pixels. Original small alternating posterior leg poses provide restrained locomotion/resting movement. The idle state samples only actual authored drawings. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "tiger-sand-conch",
+    "stage": "adult",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/walk final16-cell/source review: Inspected adult conch orange muscular foot tissue only. Brown-patterned rigid shell, paired eye stalks, head and original proboscis are canonical protected pixels; original small walk foot-edge poses are sampled without shell bounce. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "halloween-hermit-crab",
+    "stage": "adult",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/walk final16-cell/source review: Inspected adult hermit original attached posterior walking legs only. Complete rigid borrowed shell/spot pattern, paired eyes, long antennae and major claw plates remain canonical protected pixels. The distal-feeler area was excluded after native review to prevent disconnected fine tips. Original walk leg drawings supply motion. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  },
+  {
+    "id": "lysmata-amboinensis",
+    "stage": "adult",
+    "state": "walk",
+    "all16NativeCellsInspected": true,
+    "sourceReferenceInspected": true,
+    "notes": "adult/walk final16-cell/source review: Inspected adult cleaner shrimp original attached lower appendage tissue; the trunk, red/white dorsal pattern, tail, head eyes and long antennae remain canonical protected pixels. Original small alternating posterior leg poses provide restrained locomotion/resting movement. The walk state samples only actual authored drawings. All16 final native cells inspected; no clipped anatomy or floating disconnected feelers remain. Eye/shell/body anchor, stage-specific proportions, clear margins and naturally small appendage/foot changes checked."
+  }
+]

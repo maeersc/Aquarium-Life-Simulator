@@ -1,0 +1,564 @@
+{
+  "checks": [
+    {
+      "name": "Exactly six approved sidebar entries, in order",
+      "pass": true
+    },
+    {
+      "name": "VIP sidebar visibly labels Preview Only",
+      "pass": true
+    },
+    {
+      "name": "Player-created first aquarium supports genuinely empty dry setup",
+      "pass": true
+    },
+    {
+      "name": "aquariums: dedicated titled modal with X",
+      "pass": true
+    },
+    {
+      "name": "aquariums: native keyboard modal focus",
+      "pass": true
+    },
+    {
+      "name": "aquariums: Escape returns to visible aquarium",
+      "pass": true
+    },
+    {
+      "name": "store: dedicated titled modal with X",
+      "pass": true
+    },
+    {
+      "name": "store: native keyboard modal focus",
+      "pass": true
+    },
+    {
+      "name": "store: Escape returns to visible aquarium",
+      "pass": true
+    },
+    {
+      "name": "journal: dedicated titled modal with X",
+      "pass": true
+    },
+    {
+      "name": "journal: native keyboard modal focus",
+      "pass": true
+    },
+    {
+      "name": "journal: Escape returns to visible aquarium",
+      "pass": true
+    },
+    {
+      "name": "equipment: dedicated titled modal with X",
+      "pass": true
+    },
+    {
+      "name": "equipment: native keyboard modal focus",
+      "pass": true
+    },
+    {
+      "name": "equipment: Escape returns to visible aquarium",
+      "pass": true
+    },
+    {
+      "name": "vip: dedicated titled modal with X",
+      "pass": true
+    },
+    {
+      "name": "vip: native keyboard modal focus",
+      "pass": true
+    },
+    {
+      "name": "vip: Escape returns to visible aquarium",
+      "pass": true
+    },
+    {
+      "name": "settings: dedicated titled modal with X",
+      "pass": true
+    },
+    {
+      "name": "settings: native keyboard modal focus",
+      "pass": true
+    },
+    {
+      "name": "settings: Escape returns to visible aquarium",
+      "pass": true
+    },
+    {
+      "name": "Opening and closing six windows preserves complete simulation state",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1920x1080: no page scrolling or horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1920x1080: full canvas remains 2:1 inside viewport",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1920x1080: six sidebar controls remain visible",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1440x900: no page scrolling or horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1440x900: full canvas remains 2:1 inside viewport",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1440x900: six sidebar controls remain visible",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1366x768: no page scrolling or horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1366x768: full canvas remains 2:1 inside viewport",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1366x768: six sidebar controls remain visible",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1280x720: no page scrolling or horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1280x720: full canvas remains 2:1 inside viewport",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1280x720: six sidebar controls remain visible",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1024x600: no page scrolling or horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1024x600: full canvas remains 2:1 inside viewport",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1024x600: six sidebar controls remain visible",
+      "pass": true
+    },
+    {
+      "name": "Viewport 760x650: no page scrolling or horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Viewport 760x650: full canvas remains 2:1 inside viewport",
+      "pass": true
+    },
+    {
+      "name": "Viewport 760x650: six sidebar controls remain visible",
+      "pass": true
+    },
+    {
+      "name": "Viewport 390x844: no page scrolling or horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Viewport 390x844: full canvas remains 2:1 inside viewport",
+      "pass": true
+    },
+    {
+      "name": "Viewport 390x844: six sidebar controls remain visible",
+      "pass": true
+    },
+    {
+      "name": "Value centered above water without obscuring scene",
+      "pass": true
+    },
+    {
+      "name": "Header uses real centralized selected-tank valuation",
+      "pass": true
+    },
+    {
+      "name": "Click value opens Aquariums / Tank Value with complete breakdown",
+      "pass": true
+    },
+    {
+      "name": "Switching primary windows replaces cleanly",
+      "pass": true
+    },
+    {
+      "name": "Window remembers its selected subtab",
+      "pass": true
+    },
+    {
+      "name": "Journal includes fish, coral and plant notes with art",
+      "pass": true
+    },
+    {
+      "name": "Long modal contents have an internal scroll region",
+      "pass": true
+    },
+    {
+      "name": "Internal scrolling changes only modal content",
+      "pass": true
+    },
+    {
+      "name": "Encyclopedia studies species without purchase form",
+      "pass": true
+    },
+    {
+      "name": "Livestock Collection exposes all six requested filters",
+      "pass": true
+    },
+    {
+      "name": "Disease guide references conditions without diagnosing a resident",
+      "pass": true
+    },
+    {
+      "name": "Equipment has exactly Lighting, Tank Care and Water Change",
+      "pass": true
+    },
+    {
+      "name": "Tank Care offers pumps, filters and heaters plus supported categories",
+      "pass": true
+    },
+    {
+      "name": "Lighting operates selected tank via existing transactions",
+      "pass": true
+    },
+    {
+      "name": "Equipment removal retains the owned item in shared inventory",
+      "pass": true
+    },
+    {
+      "name": "Stored equipment identity and condition survive save/load",
+      "pass": true
+    },
+    {
+      "name": "Reinstallation uses the same owned equipment without purchasing a duplicate",
+      "pass": true
+    },
+    {
+      "name": "VIP five tiers and purchase prohibition remain intact",
+      "pass": true
+    },
+    {
+      "name": "Store retains exactly three main tabs and Black Market",
+      "pass": true
+    },
+    {
+      "name": "Marketplace selling exists inside store",
+      "pass": true
+    },
+    {
+      "name": "Store Orders shows actual delivered purchase history",
+      "pass": true
+    },
+    {
+      "name": "Coral purchases remain in store",
+      "pass": true
+    },
+    {
+      "name": "Purchased tank is empty and dry with no installed assets",
+      "pass": true
+    },
+    {
+      "name": "Tank switch updates header value",
+      "pass": true
+    },
+    {
+      "name": "Empty tank cannot perform normal water change",
+      "pass": true
+    },
+    {
+      "name": "Marine clownfish clutch persists parent identities and rock anchoring",
+      "pass": true
+    },
+    {
+      "name": "Eggs physically render and have selectable hitboxes in active tank",
+      "pass": true
+    },
+    {
+      "name": "Early-to-late egg artwork scale follows developmental progress",
+      "pass": true
+    },
+    {
+      "name": "Eggs do not drift during scene animation",
+      "pass": true
+    },
+    {
+      "name": "Clutch is rendered only in its own aquarium",
+      "pass": true
+    },
+    {
+      "name": "Removing a spawning rock is blocked while its clutch is attached",
+      "pass": true
+    },
+    {
+      "name": "Actual egg click opens development inspector above aquarium",
+      "pass": true
+    },
+    {
+      "name": "Breeding records show parentage, incubation and growth",
+      "pass": true
+    },
+    {
+      "name": "Egg progress, identity and anchoring survive save/load",
+      "pass": true
+    },
+    {
+      "name": "Egg-to-larva transition happens once with lineage",
+      "pass": true
+    },
+    {
+      "name": "Reload after hatch cannot duplicate offspring",
+      "pass": true
+    },
+    {
+      "name": "Actual Tab key remains inside native modal focus trap",
+      "pass": true
+    },
+    {
+      "name": "Background canvas click cannot select or move livestock under a primary modal",
+      "pass": true
+    },
+    {
+      "name": "Nonviable marine clutch remains visible with dead artwork and removal control",
+      "pass": true
+    },
+    {
+      "name": "Removing a failed clutch cannot hatch or duplicate offspring after save/load",
+      "pass": true
+    },
+    {
+      "name": "Action errors remain visible and accessible above the modal backdrop",
+      "pass": true
+    },
+    {
+      "name": "All marine disease definitions include hosts, symptoms, route, onset, treatment and research sources",
+      "pass": true
+    },
+    {
+      "name": "Marine retail pricing is fixed across seeds, stock changes and JSON reload",
+      "pass": true
+    },
+    {
+      "name": "Designer retail remains a fixed documented base-linked price",
+      "pass": true
+    },
+    {
+      "name": "Black-market creation persists exact price and hidden condition",
+      "pass": true
+    },
+    {
+      "name": "Reload and reopening listings do not advance random seed or reroll hidden quality",
+      "pass": true
+    },
+    {
+      "name": "Dealer inventory rotates only at an in-game dawn and changes listing identity",
+      "pass": true
+    },
+    {
+      "name": "Stale dealer listing cannot charge or purchase",
+      "pass": true
+    },
+    {
+      "name": "Black-market marine fish charge the saved listing price exactly once",
+      "pass": true
+    },
+    {
+      "name": "Dealer condition classes map to persisted nutrition, stress, illness or carriage",
+      "pass": true
+    },
+    {
+      "name": "Hidden marine infection does not expose its diagnosis before examination",
+      "pass": true
+    },
+    {
+      "name": "Diagnostic supplies reveal a confidence-qualified finding and consume one unit",
+      "pass": true
+    },
+    {
+      "name": "Asymptomatic carrier exam remains suspected rather than automatic certainty",
+      "pass": true
+    },
+    {
+      "name": "Ordinary marine medicines have fixed retail and no hidden dealer quality",
+      "pass": true
+    },
+    {
+      "name": "Restricted medicines preserve hidden quality from listing to owned batch and save",
+      "pass": true
+    },
+    {
+      "name": "Restricted treatment access respects level, discovery and night hours",
+      "pass": true
+    },
+    {
+      "name": "Batch assay consumes diagnostics and reveals quality without reroll",
+      "pass": true
+    },
+    {
+      "name": "Every implemented fish and bottom dweller has bounded current value",
+      "pass": true
+    },
+    {
+      "name": "Growth and maturity increase value before old-age reduction",
+      "pass": true
+    },
+    {
+      "name": "Nutrition, stress, disease and designer traits affect asset value",
+      "pass": true
+    },
+    {
+      "name": "Dead marine fish and coral lose all living value",
+      "pass": true
+    },
+    {
+      "name": "Coral size, bleaching, tissue and polyp condition affect value",
+      "pass": true
+    },
+    {
+      "name": "Copper treatment is rejected in a reef without consuming a batch",
+      "pass": true
+    },
+    {
+      "name": "Copper is rejected for coral, juveniles, eggs and decorated quarantine",
+      "pass": true
+    },
+    {
+      "name": "A correct diagnosed course consumes one unit and cannot instantly cure",
+      "pass": true
+    },
+    {
+      "name": "Correct copper course reduces diagnosed ich over time and restores value",
+      "pass": true
+    },
+    {
+      "name": "Wrong treatment does not cure a different parasite",
+      "pass": true
+    },
+    {
+      "name": "Contaminated fictional course can cause harm and leave illness unresolved",
+      "pass": true
+    },
+    {
+      "name": "Antibacterial treatment requires appropriate diagnosis confidence",
+      "pass": true
+    },
+    {
+      "name": "Unsafe treatment water is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "Active quarantine-only treatment cannot be moved into a reef",
+      "pass": true
+    },
+    {
+      "name": "Stopping a course does not refund or duplicate treatment units",
+      "pass": true
+    },
+    {
+      "name": "Illness progresses, symptoms appear and severe illness uses existing mortality engine",
+      "pass": true
+    },
+    {
+      "name": "Host eligibility prevents fish parasites from infecting corals or future invertebrates",
+      "pass": true
+    },
+    {
+      "name": "Noncontagious bleaching is distinct from death and uses existing bleached art",
+      "pass": true
+    },
+    {
+      "name": "Tank breakdown counts every physical category once without attached-coral duplication",
+      "pass": true
+    },
+    {
+      "name": "Fish transfer preserves illness history/identity and transfers exact living value",
+      "pass": true
+    },
+    {
+      "name": "Unsafe fish/coral transfers and mixed clownfish territories reject",
+      "pass": true
+    },
+    {
+      "name": "Complete illness, treatment, inventory and value state round-trips exactly",
+      "pass": true
+    },
+    {
+      "name": "Legacy schema-2 migration retains existing identities, wallet and health",
+      "pass": true
+    },
+    {
+      "name": "Malformed current hidden-quality and course records reject rather than reroll",
+      "pass": true
+    },
+    {
+      "name": "Freshwater individuals receive no marine health data or disease treatment",
+      "pass": true
+    },
+    {
+      "name": "Neither value calculation nor inspector rendering mutates authoritative save state",
+      "pass": true
+    },
+    {
+      "name": "Retail, asset value and dealer offer are distinct and resale never guarantees profit",
+      "pass": true
+    },
+    {
+      "name": "30-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "90-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "365-day marine care/economy scenario remains valid and bounded",
+      "pass": true
+    },
+    {
+      "name": "Bacterial diagnosis needs a delayed follow-up before a targeted course",
+      "pass": true
+    },
+    {
+      "name": "Coral quarantine preserves mounting, identity, health history and current value",
+      "pass": true
+    },
+    {
+      "name": "Coral pest dip is host-specific and improves the eligible condition over time",
+      "pass": true
+    },
+    {
+      "name": "Bleached living coral can recover after environmental correction and supportive care",
+      "pass": true
+    },
+    {
+      "name": "Nutrition and polyp state respond to coral conditions without changing freshwater plants",
+      "pass": true
+    },
+    {
+      "name": "Normal unexamined coral introduction risk is assigned once and survives reload without price change",
+      "pass": true
+    },
+    {
+      "name": "The exact hatching tick refreshes cached tank totals after replacing its brood with fry",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript browser exceptions",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "Runs file:// without remote requests",
+      "pass": true
+    }
+  ],
+  "passed": 139,
+  "failed": 0,
+  "networkRequests": []
+}

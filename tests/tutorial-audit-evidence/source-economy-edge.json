@@ -1,0 +1,384 @@
+{
+  "checks": [
+    {
+      "name": "New profile starter size receives its exact one-time reward",
+      "pass": true
+    },
+    {
+      "name": "15,000-gallon price is25000 and all prior other prices are retained",
+      "pass": true
+    },
+    {
+      "name": "15,000-gallon purchase debits25000, creates size award once and values shell25000",
+      "pass": true
+    },
+    {
+      "name": "Existing large aquarium migration never retrocharges its owner",
+      "pass": true
+    },
+    {
+      "name": "One fish species grants50XP50AC once, even when purchased twice",
+      "pass": true
+    },
+    {
+      "name": "Designer morphs, stages and sex share their biological species key",
+      "pass": true
+    },
+    {
+      "name": "Unknown legacy coral groups never invent biological species rewards",
+      "pass": true
+    },
+    {
+      "name": "Received coral and bottom dwellers gain independent biological rewards",
+      "pass": true
+    },
+    {
+      "name": "Actual supported coral purchase awards its biological species once",
+      "pass": true
+    },
+    {
+      "name": "A wallet-cap reward is queued without breaking simulation and later paid once",
+      "pass": true
+    },
+    {
+      "name": "Unhatched eggs and temporary expedition specimens receive no ownership award",
+      "pass": true
+    },
+    {
+      "name": "Unique successful destinations pay50XP50AC; repeats and failures do not",
+      "pass": true
+    },
+    {
+      "name": "Another catalog size awards once; a second aquarium of that size does not",
+      "pass": true
+    },
+    {
+      "name": "Legacy discoveries backfill without invented AC,XP or transactions",
+      "pass": true
+    },
+    {
+      "name": "Additional objective registry covers13 meaningful goals without new cash rewards",
+      "pass": true
+    },
+    {
+      "name": "Maintenance preserves chassis and all component conditions",
+      "pass": true
+    },
+    {
+      "name": "Replacing a supported impeller costs its exact rated catalog price and preserves other wear/age/identity",
+      "pass": true
+    },
+    {
+      "name": "An owned matching rated part is consumed once without another charge",
+      "pass": true
+    },
+    {
+      "name": "Sealed heater components cannot be purchased as imaginary service parts",
+      "pass": true
+    },
+    {
+      "name": "Whole-aquarium quote itemizes physical assets and excludes storage",
+      "pass": true
+    },
+    {
+      "name": "Placed recovered rocks retain their original quantity and condition in the shared resale quote",
+      "pass": true
+    },
+    {
+      "name": "Confirmed atomic sale preserves other aquarium and storage; selected tank falls back safely",
+      "pass": true
+    },
+    {
+      "name": "Selling the last aquarium persists an actual empty profile and permits buying again",
+      "pass": true
+    },
+    {
+      "name": "Missing confirmation and stale quotes never partially delete or pay",
+      "pass": true
+    },
+    {
+      "name": "Restricted livestock and eggs block the whole sale before confirmation",
+      "pass": true
+    },
+    {
+      "name": "Whole-sale livestock offers equal60% of the same Deep reference",
+      "pass": true
+    },
+    {
+      "name": "Gold Fish pair wager50 returns exactly100 gross",
+      "pass": true
+    },
+    {
+      "name": "Gold Fish pair wager100 returns exactly200 gross",
+      "pass": true
+    },
+    {
+      "name": "Gold Fish pair wager250 returns exactly500 gross",
+      "pass": true
+    },
+    {
+      "name": "Gold Fish pair wager1000 returns exactly2000 gross",
+      "pass": true
+    },
+    {
+      "name": "All1000 Gold Fish outcomes preserve non-pair multipliers",
+      "pass": true
+    },
+    {
+      "name": "Casino deduction, settlement, ledger and duplicate settlement reconcile",
+      "pass": true
+    },
+    {
+      "name": "Saved legacy settled pair keeps its original historical payout without retroactive credit",
+      "pass": true
+    },
+    {
+      "name": "Saved unresolved legacy pair upgrades payout rules once, without another wager debit",
+      "pass": true
+    },
+    {
+      "name": "Saved casino limits, rounds and new visits remain profile-specific",
+      "pass": true
+    },
+    {
+      "name": "Pair chance is exactly5% configured; fixed-seed distribution is within statistical tolerance",
+      "pass": true
+    },
+    {
+      "name": "Opening the same listing repeatedly never rerolls identities or availability",
+      "pass": true
+    },
+    {
+      "name": "Every modeled reproductive strategy gets appropriate mature distinct individuals",
+      "pass": true
+    },
+    {
+      "name": "Unmodeled and schooling reproductive systems do not receive fabricated pairs",
+      "pass": true
+    },
+    {
+      "name": "A pair purchase transfers two existing identities, charges once and persists its receipt",
+      "pass": true
+    },
+    {
+      "name": "The combined adult stocking load and quarantine rules reject unsafe pair receiving",
+      "pass": true
+    },
+    {
+      "name": "Offer JSON round trip retains5%roll, price, both identities and private genetics",
+      "pass": true
+    },
+    {
+      "name": "Every eligible implemented fish automatically generates and saves two valid individuals",
+      "pass": true
+    },
+    {
+      "name": "Legacy Fiji and Caribbean region IDs validate successful destination rewards",
+      "pass": true
+    },
+    {
+      "name": "Actual expedition completion pays a first destination once through Core",
+      "pass": true
+    },
+    {
+      "name": "Selling and repurchasing a species after reload cannot award discovery again",
+      "pass": true
+    },
+    {
+      "name": "One incoming adult can fit while combined pair load correctly blocks both",
+      "pass": true
+    },
+    {
+      "name": "Account Casino Profile visits remain usable with a retained locked freshwater selection",
+      "pass": true
+    },
+    {
+      "name": "Legacy freshwater size history backfills without changing biology or rewarding a duplicate marine size",
+      "pass": true
+    },
+    {
+      "name": "Freshwater stays noninteractive and the day remains20 real minutes",
+      "pass": true
+    },
+    {
+      "name": "Master transaction failure preserves original owned aquarium and livestock arrays",
+      "pass": true
+    },
+    {
+      "name": "Casino Profile owns the only spending-limit editor and visit history",
+      "pass": true
+    },
+    {
+      "name": "Actual Profile limit form saves the existing authoritative limit",
+      "pass": true
+    },
+    {
+      "name": "Gold Fish table labels PAIR2x and no longer duplicates Profile controls",
+      "pass": true
+    },
+    {
+      "name": "Existing achievement tab contains automatic profile milestones",
+      "pass": true
+    },
+    {
+      "name": "Existing objectives tab shows optional care progress without unspecified cash rewards",
+      "pass": true
+    },
+    {
+      "name": "Inspector separates Maintenance from Replace Part",
+      "pass": true
+    },
+    {
+      "name": "Part dialog shows matching rating, new-part price and owned option",
+      "pass": true
+    },
+    {
+      "name": "Actual Replace Part purchase writes component and factual history once",
+      "pass": true
+    },
+    {
+      "name": "Store Sell lists owned aquariums and Review button",
+      "pass": true
+    },
+    {
+      "name": "Whole sale requires separate explicit checkbox confirmation and itemized exact total",
+      "pass": true
+    },
+    {
+      "name": "Last-tank sale shows actual empty state and saves it",
+      "pass": true
+    },
+    {
+      "name": "Empty ownership: aquariums/new remains usable",
+      "pass": true
+    },
+    {
+      "name": "Empty ownership: journal/history remains usable",
+      "pass": true
+    },
+    {
+      "name": "Empty ownership: equipment/inventory remains usable",
+      "pass": true
+    },
+    {
+      "name": "Empty ownership: journal/achievements remains usable",
+      "pass": true
+    },
+    {
+      "name": "Empty ownership: journal/quests remains usable",
+      "pass": true
+    },
+    {
+      "name": "Empty ownership: settings/preferences remains usable",
+      "pass": true
+    },
+    {
+      "name": "New aquarium can still be configured after selling the last tank",
+      "pass": true
+    },
+    {
+      "name": "Actual store details persists a compatible breeding-pair option",
+      "pass": true
+    },
+    {
+      "name": "Close/reopen and local JSON round trip preserve the actual offer and specimens",
+      "pass": true
+    },
+    {
+      "name": "Actual store pair form charges once and transfers both permanent identities",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: Casino Profile fits horizontally",
+      "pass": true
+    },
+    {
+      "name": "1920x1080: itemized sale fits horizontally",
+      "pass": true
+    },
+    {
+      "name": "1600x900: Casino Profile fits horizontally",
+      "pass": true
+    },
+    {
+      "name": "1600x900: itemized sale fits horizontally",
+      "pass": true
+    },
+    {
+      "name": "1366x768: Casino Profile fits horizontally",
+      "pass": true
+    },
+    {
+      "name": "1366x768: itemized sale fits horizontally",
+      "pass": true
+    },
+    {
+      "name": "390x844: Casino Profile fits horizontally",
+      "pass": true
+    },
+    {
+      "name": "390x844: itemized sale fits horizontally",
+      "pass": true
+    },
+    {
+      "name": "Actual page reload restores the sold-last-tank profile without granting a free aquarium",
+      "pass": true
+    },
+    {
+      "name": "Real Continue completes offline catch-up with zero aquariums and keeps an honest empty scene",
+      "pass": true
+    },
+    {
+      "name": "Account tutorial controls remain usable after selling the last aquarium",
+      "pass": true
+    },
+    {
+      "name": "A fresh aquarium can be bought after actual reload, without restoring sold IDs or repeating the size award",
+      "pass": true
+    },
+    {
+      "name": "No uncaught JavaScript errors",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "passed": 85,
+  "failed": 0,
+  "pairSample": {
+    "samples": 100000,
+    "offers": 5017,
+    "rate": 0.05017
+  },
+  "pairSpeciesTested": [
+    "clown",
+    "banggai",
+    "amphiprion-percula",
+    "amphiprion-biaculeatus",
+    "amphiprion-clarkii",
+    "amphiprion-frenatus",
+    "amphiprion-melanopus",
+    "amphiprion-ephippium",
+    "amphiprion-perideraion",
+    "amphiprion-sandaracinos",
+    "amphiprion-akallopisos",
+    "amphiprion-polymnus",
+    "amphiprion-sebae",
+    "amphiprion-akindynos",
+    "amphiprion-allardi",
+    "amphiprion-bicinctus",
+    "amphiprion-chrysopterus",
+    "amphiprion-nigripes",
+    "amphiprion-omanensis",
+    "amphiprion-chagosensis",
+    "amphiprion-chrysogaster",
+    "amphiprion-fuscocaudatus",
+    "amphiprion-latifasciatus",
+    "amphiprion-rubrocinctus",
+    "amphiprion-tricinctus",
+    "amphiprion-barberi",
+    "amphiprion-pacificus",
+    "chalk-bass",
+    "sharknose-goby"
+  ],
+  "entry": "index.html"
+}
